@@ -1,0 +1,10 @@
+1.logi:
+bot zapisuje wszystkie wiadomości z serwera w pliku txt i admin serwera może komendą
+poprośić bota o wysłanie pliku .txt z całą chistorią czast
+(<data> <godz> <nazwa kanału> <autor wiadomości> <treść wiadomości>)
+
+2.myanimelist komenda urzywająca api mala
+
+3.role na buttonach (polish coder 25.07)
+
+4. na yaml zrobić komendy coś ala myanime list na dcbocie
