@@ -19,6 +19,13 @@ module.exports = {
         .setName('animeseen')
         .setDescription('Wyświetla liste wszystkich komend animeseen'),
     executeInteraction: async (inter) => {
+        if(work != true){
+            const embed_worker = new Discord.MessageEmbed()
+            .setTitle('**animeseen**')
+            .setColor('RANDOM')
+            .setDescription(`${reason}`)
+        inter.reply({ embeds: [embed_worker] });
+        }
         const embed_pl = new Discord.MessageEmbed()
 
         .setColor(`BLUE`)//PL

@@ -29,6 +29,13 @@ module.exports = {
         .setName('8ball')
         .setDescription('Wysyła randomowe słowo: Taj/Nie/Może/Nie Wiem/ Prawdopodobnie/Chyba/Nie Jestem Pewien/ Na Pewno'),
     executeInteraction: async (inter) => {
+        if(work != true){
+            const embed_worker = new Discord.MessageEmbed()
+            .setTitle('**8ball**')
+            .setColor('RANDOM')
+            .setDescription(`${reason}`)
+        inter.reply({ embeds: [embed_worker] });
+        }
         const embed = new Discord.MessageEmbed()
             .setTitle('**8ball**')
             .setColor('RANDOM')

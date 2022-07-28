@@ -20,6 +20,13 @@ module.exports = {
         .setName('ping')
         .setDescription('Wyświetla aktualny ping bota'),
     executeInteraction: async (inter) => {
+        if(work != true){
+            const embed_worker = new Discord.MessageEmbed()
+            .setTitle('**ping**')
+            .setColor('RANDOM')
+            .setDescription(`${reason}`)
+        inter.reply({ embeds: [embed_worker] });
+        }
         const embed = new Discord.MessageEmbed()
             .setTitle('**PONG!**')
             .setColor('RANDOM')
