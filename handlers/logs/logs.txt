@@ -356,4 +356,118 @@
 26.07.2022   04:15 PAW#5844 use pomoc2, execute: "✅"
 26.07.2022   26.07.2022 04:15 SEEN-#5771 jest online
 26.07.2022   04:15 PAW#5844 use pomoc2, execute: "✅"
-27.07.2022   27.07.2022 18:36 SEEN-#5771 jest online
+26.07.2022   26.07.2022 18:33 SEEN-#5771 jest online
+26.07.2022   26.07.2022 21:42 SEEN-#5771 jest online
+27.07.2022   27.07.2022 10:59 SEEN-#5771 jest online
+27.07.2022   27.07.2022 11:39 SEEN-#5771 jest online
+27.07.2022   11:39 PAW#5844 use ping, execute: "✅"
+27.07.2022   27.07.2022 11:40 SEEN-#5771 jest online
+27.07.2022   27.07.2022 11:42 SEEN-#5771 jest online
+27.07.2022   11:42 PAW#5844 use test6, execute: "✅"
+27.07.2022   11:46 PAW#5844 use help, execute: "✅"
+27.07.2022   11:47 PAW#5844 use blitzstats, execute: "✅"
+27.07.2022   27.07.2022 11:58 SEEN-#5771 jest online
+27.07.2022   27.07.2022 11:59 SEEN-#5771 jest online
+27.07.2022   27.07.2022 12:00 SEEN-#5771 jest online
+27.07.2022   12:00 PAW#5844 use test7, execute: "✅"
+27.07.2022   27.07.2022 12:01 SEEN-#5771 jest online
+27.07.2022   12:01 PAW#5844 use test7, execute: "✅"
+27.07.2022   27.07.2022 12:06 SEEN-#5771 jest online
+27.07.2022   12:07 PAW#5844 use test7, execute: "✅"
+27.07.2022   27.07.2022 12:08 SEEN-#5771 jest online
+27.07.2022   12:08 PAW#5844 use test7, execute: "✅"
+27.07.2022   27.07.2022 12:08 SEEN-#5771 jest online
+27.07.2022   12:08 PAW#5844 use test7, execute: "✅"
+27.07.2022   27.07.2022 12:09 SEEN-#5771 jest online
+27.07.2022   12:09 PAW#5844 use test7, execute: "✅"
+27.07.2022   27.07.2022 12:09 SEEN-#5771 jest online
+27.07.2022   12:09 PAW#5844 use test7, execute: "✅"
+27.07.2022   27.07.2022 12:10 SEEN-#5771 jest online
+27.07.2022   12:10 PAW#5844 use test7, execute: "✅"
+27.07.2022   27.07.2022 12:10 SEEN-#5771 jest online
+27.07.2022   12:10 PAW#5844 use test7, execute: "✅"
+27.07.2022   27.07.2022 12:10 SEEN-#5771 jest online
+27.07.2022   12:10 PAW#5844 use test7, execute: "✅"
+27.07.2022   27.07.2022 12:11 SEEN-#5771 jest online
+27.07.2022   12:11 PAW#5844 use test7, execute: "✅"
+27.07.2022   27.07.2022 12:12 SEEN-#5771 jest online
+27.07.2022   12:12 PAW#5844 use test7, execute: "✅"
+27.07.2022   12:29 PAW#5844 use blitzstats, execute: "✅"
+27.07.2022   27.07.2022 13:14 SEEN-#5771 jest online
+27.07.2022   27.07.2022 13:33 SEEN-#5771 jest online
+27.07.2022   13:35 PAW#5844 use help, execute: "✅"
+27.07.2022   13:36 PAW#5844 use anime, execute: "✅"
+27.07.2022   13:36 PAW#5844 use zapowiedzi, execute: "✅"
+27.07.2022   13:36 PAW#5844 use yofukashi_no_uta_zapowiedz, execute: "✅"
+27.07.2022   14:43 PAW#5844 use ping, execute: "✅"
+27.07.2022   27.07.2022 16:06 SEEN-#5771 jest online
+27.07.2022   27.07.2022 18:02 SEEN-#5771 jest online
+27.07.2022   27.07.2022 18:04 SEEN-#5771 jest online
+27.07.2022   18:04 PAW#5844 use pomoc3, execute: "✅"
+27.07.2022   27.07.2022 18:10 SEEN-#5771 jest online
+27.07.2022   27.07.2022 18:11 SEEN-#5771 jest online
+27.07.2022   18:11 PAW#5844 use ankieta2, execute: "✅"
+27.07.2022   27.07.2022 18:12 SEEN-#5771 jest online
+27.07.2022   27.07.2022 18:23 SEEN-#5771 jest online
+27.07.2022   18:35 PAW#5844 use message_logs, execute: "✅"
+27.07.2022   27.07.2022 19:11 SEEN-#5771 jest online
+27.07.2022   27.07.2022 19:45 SEEN-#5771 jest online
+27.07.2022   19:45 PAW#5844 use ping, execute: "✅"
+27.07.2022   19:45 PAW#5844 use ping, execute: "✅"
+27.07.2022   19:46 PAW#5844 use ping, execute: "✅"
+27.07.2022   19:46 PAW#5844 use ping, execute: "✅"
+27.07.2022   27.07.2022 19:47 SEEN-#5771 jest online
+27.07.2022   27.07.2022 19:47 SEEN-#5771 jest online
+27.07.2022   27.07.2022 19:50 SEEN-#5771 jest online
+27.07.2022   27.07.2022 19:53 SEEN-#5771 jest online
+27.07.2022   27.07.2022 19:53 SEEN-#5771 jest online
+27.07.2022   27.07.2022 20:01 SEEN-#5771 jest online
+27.07.2022   27.07.2022 20:02 SEEN-#5771 jest online
+27.07.2022   27.07.2022 20:02 SEEN-#5771 jest online
+27.07.2022   27.07.2022 20:34 SEEN-#5771 jest online
+27.07.2022   27.07.2022 20:37 SEEN-#5771 jest online
+27.07.2022   27.07.2022 20:50 SEEN-#5771 jest online
+27.07.2022   27.07.2022 20:54 SEEN-#5771 jest online
+27.07.2022   27.07.2022 20:58 SEEN-#5771 jest online
+27.07.2022   27.07.2022 20:59 SEEN-#5771 jest online
+27.07.2022   27.07.2022 21:05 SEEN-#5771 jest online
+27.07.2022   27.07.2022 21:07 SEEN-#5771 jest online
+27.07.2022   27.07.2022 21:09 SEEN-#5771 jest online
+27.07.2022   27.07.2022 21:10 SEEN-#5771 jest online
+27.07.2022   27.07.2022 21:12 SEEN-#5771 jest online
+27.07.2022   27.07.2022 21:16 SEEN-#5771 jest online
+27.07.2022   27.07.2022 21:20 SEEN-#5771 jest online
+27.07.2022   27.07.2022 21:25 SEEN-#5771 jest online
+27.07.2022   27.07.2022 21:27 SEEN-#5771 jest online
+27.07.2022   27.07.2022 21:28 SEEN-#5771 jest online
+27.07.2022   27.07.2022 21:35 SEEN-#5771 jest online
+27.07.2022   27.07.2022 21:37 SEEN-#5771 jest online
+27.07.2022   27.07.2022 21:45 SEEN-#5771 jest online
+27.07.2022   27.07.2022 22:29 SEEN-#5771 jest online
+27.07.2022   27.07.2022 22:32 SEEN-#5771 jest online
+27.07.2022   27.07.2022 22:34 SEEN-#5771 jest online
+27.07.2022   27.07.2022 23:09 SEEN-#5771 jest online
+27.07.2022   23:29 PAW#5844 use ping, execute: "✅"
+27.07.2022   23:29 PAW#5844 use ping, execute: "✅"
+27.07.2022   23:29 PAW#5844 use help, execute: "✅"
+27.07.2022   23:29 PAW#5844 use help, execute: "✅"
+27.07.2022   27.07.2022 23:32 SEEN-#5771 jest online
+27.07.2022   23:32 PAW#5844 use ping, execute: "✅"
+27.07.2022   23:32 PAW#5844 use ping, execute: "✅"
+27.07.2022   23:32 PAW#5844 use ping, execute: "✅"
+27.07.2022   23:32 PAW#5844 use ping, execute: "✅"
+27.07.2022   23:32 PAW#5844 use ping, execute: "✅"
+27.07.2022   23:32 PAW#5844 use ping, execute: "✅"
+28.07.2022   28.07.2022 13:07 SEEN-#5771 jest online
+28.07.2022   13:08 PAW#5844 use ping, execute: "✅"
+28.07.2022   13:08 PAW#5844 use ping, execute: "✅"
+28.07.2022   28.07.2022 14:00 SEEN-#5771 jest online
+28.07.2022   14:00 PAW#5844 use ping, execute: "✅"
+28.07.2022   14:00 PAW#5844 use ping, execute: "✅"
+28.07.2022   28.07.2022 14:05 SEEN-#5771 jest online
+28.07.2022   14:05 PAW#5844 use ping, execute: "✅"
+28.07.2022   14:05 PAW#5844 use ping, execute: "✅"
+28.07.2022   28.07.2022 14:12 SEEN-#5771 jest online
+28.07.2022   28.07.2022 14:13 SEEN-#5771 jest online
+28.07.2022   28.07.2022 14:16 SEEN-#5771 jest online
+28.07.2022   28.07.2022 14:20 SEEN-#5771 jest online

@@ -252,6 +252,7 @@ module.exports = {
         {name: "136",value: " Darwin's Game", inline: false},
         {name: "137",value: " Wonder Egg Priority", inline: false},
         {name: "138",value: " 100-man no Inochi no Ue ni Ore wa Tatteiru", inline: false},
+        {name: "139",value: " Fruits Basket s1", inline: false},
         )
         
         .setTimestamp()

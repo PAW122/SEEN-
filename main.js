@@ -3,6 +3,9 @@ const fs = require('fs');//wymaga fs
 require('dotenv').config();
 const consola = require('consola')
 
+const { REST } = require('@discordjs/rest');
+const { Routes } = require('discord-api-types/v9');
+const clientId = '797070806885990431';
 
 //wczytywanie configu
 const config = require("./config/config.js")
@@ -33,6 +36,15 @@ const logs = require("./handlers/logs")
 //wczytywanie interakcji dla buttonów
 const interaction = require("./handlers/interaction_handler")
 
+//wczytywanie slash commands
+const functions = fs.readdirSync('./handlers/functions').filter(file => file.endsWith('.js'));
+const eventFiles = fs.readdirSync('./handlers/events').filter(file => file.endsWith('.js'));
+const slashCommands = fs.readdirSync(process.cwd() +`/commands/komendy`);
+const slashCommands2 = fs.readdirSync(process.cwd() +`/commands/anime/`);
+const slashCommands3 = fs.readdirSync(process.cwd() +`/commands/anime zapowiedz/`);
+const slashCommands4 = fs.readdirSync(process.cwd() +`/commands/animelist/`)
+
+
 const client = new Discord.Client({
     intents: [
         Discord.Intents.FLAGS.GUILDS,
@@ -41,8 +53,41 @@ const client = new Discord.Client({
         Discord.Intents.FLAGS.GUILD_MEMBERS//dołączanie ludzi
     ]
 });
+client.commands = new Discord.Collection()
+client.commandArray = [];
+//slash
+client.login(config.token).then(async ()=>{
+    for(file of functions){
+        require(`./handlers/functions/${file}`)(client,eventFiles)
+      }
+      //await client.handlerevents(eventFiles, "./handlers/events");
+      await client.handleCommands(slashCommands, "komendy");
+      await client.handleCommands(slashCommands2, "anime");
+      await client.handleCommands(slashCommands3, "anime zapowiedz");
+      await client.handleCommands(slashCommands4, "animelist");
+      const rest = new REST({ version: '9' }).setToken(token);
+        (async () => {
+            try {
+                console.log('Started refreshing application (/) commands.');
+                for (let i = 0; i < client.guilds.cache.size; i++) {
+                  const guild = client.guilds.cache.at(i);
+                   // console.log(client.commandArray)
+                    await new Promise(resolve => {
+                      rest.put(Routes.applicationGuildCommands(clientId, guild.id),
+                        { body: client.commandArray }).catch(e => {
+                          //console.log(`Nie można dodać komend do serwera ${guild}`)
+                        }).then(() => {
+                          resolve()
+                        })
+                    });
+                } 
+                console.log('Successfully reloaded application (/) commands.');
+            } catch (error) { console.error(error); }
+        })();
+})
+     
 
-
+    module.exports = {client};
 //command handler
 handler(client)
 
@@ -60,6 +105,7 @@ try{
     //yaml
     client.settings.forEach((config, guildId) => {
         const {guilds} = client
+        console.log(guilds)
         if(guilds.has(guildId)) {
             const guild = guilds.get(guildId)
             if(guild.available){
@@ -72,6 +118,8 @@ try{
 }
 
 });
+
+
 
 
 client.on('messageCreate', async message =>
@@ -135,6 +183,7 @@ const rola_1_id = "1001069879148953673"
 const rola_2_id = "1001069963437686824"
 
 client.on('interactionCreate', async interaction => {
+    if(!interaction.isButton){return}
     if(interaction.customId == 'role1') {
         const roleId = '1001069879148953673';
         const role = interaction.guild.roles.cache.get(roleId);

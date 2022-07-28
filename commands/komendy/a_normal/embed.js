@@ -56,6 +56,7 @@ module.exports = {
         .setColor("RED")
         .setTitle("tytuł")
         .setDescription("opis")
+        
         .addFields(//inline-w embedzie zamiast po dobą będą obok siebie
             {name: "nazwa1",value: "opis1", inline: true},
             {name: "nazwa2",value: "opis2",inline: true},

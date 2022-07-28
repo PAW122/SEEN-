@@ -71,7 +71,7 @@ module.exports = (client) => {
             tabela(command,file,table,name,name_en,nr_tabeli)
         }
     }
-    for (const folder of animelist) {//command handler dla anime zapowiedzi
+    for (const folder of animelist) {//command handler dla anime list
         const commandsFile = fs.readdirSync(__dirname +`/../commands/animelist`).filter(file => file.endsWith(".js"));
     
         for(const file of commandsFile) {

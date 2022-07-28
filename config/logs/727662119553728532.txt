@@ -260,3 +260,347 @@
 26.07.2022   04:46   pasy-do-kont   PAW#5844   >ping
 26.07.2022   04:46   pasy-do-kont   PAW#5844   pong2!
 26.07.2022   04:46   pasy-do-kont   PAW#5844   >say cos
+26.07.2022   18:57   bot   PAW#5844   >help
+26.07.2022   18:57   bot   PAW#5844   prefix: >
+        >pawanimelist -- sending list of watched anime by paw
+        >ping -- sending pong
+        >say -- special command for special people
+26.07.2022   18:57   bot   PAW#5844   >help   pokazuje te komende
+ >ping     pokazuje ping bota
+ >roll     wysyła losową cyfre od 0 do 100
+ >gay     pokazuje na ile % jesteś gejem
+ >say    kopiuje i wysyła wiadomość
+26.07.2022   18:57   bot   PAW#5844   >muzyka  odpala muzyke z bota senko music 
+ link do bota muzycznego:  https://tiny.pl/9w64j
+26.07.2022   18:57   bot   PAW#5844   jeżeli chcesz takiego selfbota skontaktuj się ze mną na pv
+26.07.2022   18:57   bot   PAW#5844   prefix: >
+        >pawanimelist -- sending list of watched anime by paw
+        >ping -- sending pong
+        >say -- special command for special people
+26.07.2022   18:58   bot   PAW#5844   >help
+26.07.2022   18:58   bot   PAW#5844   prefix: >
+        >pawanimelist -- sending list of watched anime by paw
+        >ping -- sending pong
+        >say -- special command for special people
+26.07.2022   18:58   bot   PAW#5844   >pawanimelist
+26.07.2022   19:01   bot   PAW#5844   >pawanimelist
+26.07.2022   19:02   bot   PAW#5844   >pawanimelist
+26.07.2022   19:05   bot   PAW#5844   >pawanimelist
+26.07.2022   19:07   bot   PAW#5844   >pawanimelist
+26.07.2022   19:07   bot   PAW#5844   1.Amnestia													
+2.-gokukoku no  brynhildr 											
+3.-Senko-san													
+4.Re:zero s1 ,czesc s2												
+5.-Itai no wa Iya nano de Bougyoryoku ni Kyokufuri Shitai to Omoimasu 						
+6.-norn9 nornnonet 												
+7.-happy sugar life 												
+8. -Nagi no asukara 												
+9. -Kanata no Astra 												
+10. -Kami-sama no Inai Nichiyoubi 										
+11.-Deth note													
+12.Sword art online 												
+13. -Sword art online s2 											
+14. -Sword art online s3 											
+15. SAO Alt GGO 												
+16. Wydanie specjalne SAO									
+17.  Film kinowy Sword Art Online 01: "Ordinal Scale"								
+18. -Mahou shoujo site 												
+19.  -Charlotte 												
+20. -Satsuriku no teshi/angels of deth 										
+21. - Rokudenashi majustu koushi to akashic records								
+22. Owari no Seraph - 												
+23. -date a live 												
+24. Tate no Yuusha no Nariagari 										
+25. High School DxD s4 obejzany											
+26. Darling In The Franxx											
+27. ?something is there but i deleted this and now idk wchat is tchis :>
+28. Girls und panzer s1e12											
+29. No game no live												
+30. No game no live-zero-											
+31. Tonikaku Kawaii 												
+32. Knights & Magic 												
+33. Maou Gakuin no Futekigousha 										
+34. - Sakasama no Patema 											
+35. Enen No Shouboutai 14 obejzany										
+36. Sousei no Onmyouji 												
+37. Tensei Shitara Slime Datta Ken s1,s2									
+38. Toaru Kagaku no Railgun 03											  
+39. Dr. Stone - s1,2												  
+40. Ansatsu Kyoushitsu (TV) 2nd Season 										
+41. RK Flag (BD)												  
+42. fireforce s1,s2												  
+43. Kiseijuu: Sei no Kakuritsu											  
+44. Sukutte Moratte Ii desu ka - odcinek 12 PL 									
+45. Amagi Brilliant Park s1 											
+46. Gabriel DropOut 												  
+47. Grisaia no Kajitsu Odcinek 13										  
+48. Kaifuku Jutsushi no Yarinaoshi (uncensored) odcinek 12 PL 							
+49. Anime Azur Lane Bisoku Zenshin! Odc 5									  
+50. Higurashi no Naku Koro ni 02 (Napisy PL)									  
+60. planetarian:hoshi no hito											
+61. Tokyo Ravens Odcinek 9											  
+62. Yamada kun to 7-nin no Majo											  
+63. Dog Days s2													  
+64. Mahouka Koukou no Rettousei - S01,s2									  
+65. Seishun Buta Yarou wa Bunny Girl Senpai no Yume wo Minai 13 (Napisy PL) 					
+66. Seishun Buta Yarou wa Yumemiru Shoujo no Yume o Minai (Napisy PL)       					  
+67. Kiznaiver [#12]												
+68. Boku no Hero Academia s1											  
+69. Boku no Hero Academia ss											  
+70. Suppose a Kid from the Last Dungeon Boonies Moved to a Starter Town s1					  
+71. Tatoeba Last Dungeon Mae no Mura no Shounen ga Joban no Machi de Kurasu... - 10 Lektor PL			  
+72. Netoge Odc 12Hardsub PL											  
+73. Kemono Jihen - 12 czekam na s2 										
+74. To LOVE-Ru Darkness s1											  
+75. To LOVE-Ru Darkness 2nd 14 (Napisy PL)									  
+76. kenja no mago s1												  
+77. Fumetsu no Anata e 11  											
+78. IS: Infinite Stratos 13											
+79. Mushoku Tensei: Isekai Ittara Honki Dasu 									   
+80. -bagel-girl-episode												  
+81. Busou Shoujo Machiavellianism - odcinek 4 PL								  
+82. Kokoro Connect 13												  
+83. Kokoro Connect: Michi Random - Odcinek 4[17] NapisyPL
+26.07.2022   19:07   bot   PAW#5844   84. Ascendance of a Bookworm E26 Napisy PL									  
+85. summer wars													  
+86. Konosuba s1													  
+87. Shinchou Yuusha | S01E12											  
+88.  Isekai Maou to Shoukan Shoujo no Dorei Majutsu S1								  
+89.  Isekai Maou to Shoukan Shoujo no Dorei Majutsu S2 - 10							  
+90. 86 - Eighty Six												
+91. Hundred-odc12												
+92. Slime Taoshite 300-nen, Shiranai Uchi ni Level Max ni Nattemashita 12					  
+93. Wiedźmin: Zmora wilka (2021)										  
+94. sakurasou no Pet Kanjo											  
+95. Gunjou no Magmel Odcinek 12 										  
+96. Hinamatsuri Odcinek 12											  
+97. Kumo Desu ga, Nani ka? 24											  
+98. Saijaku Muhai no Bahamut 12											  
+99. Ichi Daimaou Unc Odc 12 											  
+100. World Trigger (s1)												  
+101. machine-Doll wa Kizutsukanai										  
+102. Rewrite													  
+103. Kamit4chi Ni Hir0wareta 0toko										
+104. Seirei Tsukai no Blade Dance s1										  
+105. Assassins Pride 												  
+106. Okashiinda ga. 												  
+107. Choujin Koukousei-tachi wa Isekai demo Yoyuu de Ikinuku you desu!						  
+108. Watashi, Nouryoku wa Heikinchi de tte Itta yo ne!								  
+109. [Yorigami] Seirei Gensouki - 12 PL										
+110. Hai to Gensou no Grimgar											  
+111. Arifureta Shokugyou de Sekai Saikyou									  
+112. Youjo Senki//// Saga of Tanya the Evil 									
+113. Youjo Senki Movie												
+114. Rokka no Yuusha												
+115. Tsuki ga Michibiku Isekai Douchuu										
+116. Hyakuren no Haou to Seiyaku no Valkyria 									  	
+117. isekai cheat magician											  	
+118. mieruko-chan												  
+119. Denpa Kyoushi 												  
+120. Hataraku Maou-sama!	s1											
+121. Overlord - Sezon 3 
+122. Comic Girls												
+123. Danmachi Sezon 3
+124. Gotoubun no Hanayome ∬ S2											
+125. number 24 odc 12												
+126. Uma Musume:Pretty Derby
+127. Tsuki to Laika to Nosferatu
+128. Jaku-Chara Tomozaki-kun - 12										
+129. Tokyo Ghul 												
+130. The Orbital Children
+131. A Whisker Away												
+132. BNA													
+133. Player One													
+134. fantasy bishojo juniku ojisan
+135. shikkaku no saikyou kenja  
+136. kenja no deshi wo nanoru kenja 
+137. A.I.C.O													
+138. Arifureta Shokugyou de Sekai Saikyou 2 Odcinek 12								
+139. Shuumatsu Nani Shitemasu ka? Isogashii desu ka? Sukutte Moratte Ii desu ka?
+140. Kami no Tou (Tower of God) odc 13
+141. shikkaku no saikyou kenja
+142. kenja no deshi wo nanoru kenja
+143. fantasy bishojo juniku ojisan odc 10
+144. sono bisque doll wa koi wo suru odc 10
+145. Leadale no Daichi nite | odc. 12 (Napisy PL)								
+146. buble													
+147. Spare Me, Great Lord - 12 NAPISY PL
+148. Killing Bites												
+149. ReLIFE													
+150. Kimi to Boku no Saigo no Senjou Arui wa Sekai ga Hajimaru Seisen s1
+152. Magical Warfare
+153. Granblue Fantasy The Animation
+154. Darwin's Game												
+155. Wonder Egg Priority
+156. 100-man no Inochi no Ue ni Ore wa Tatteiru
+26.07.2022   19:07   bot   Senko-san#5078   Hello, <@438336824516149249>!
+26.07.2022   19:13   bot   PAW#5844   >senko
+26.07.2022   19:13   bot   PAW#5844   Grafika Nr:69/102
+ Anime:Sewayaki Kitsune no Senko-san
+26.07.2022   19:14   bot   PAW#5844   >senko
+26.07.2022   19:14   bot   PAW#5844   Grafika Nr:79/102
+ Anime:Sewayaki Kitsune no Senko-san
+26.07.2022   19:14   bot   PAW#5844   
+26.07.2022   19:14   bot   PAW#5844   >senko
+26.07.2022   19:14   bot   PAW#5844   Grafika Nr:66/102
+ Anime:Sewayaki Kitsune no Senko-san
+26.07.2022   19:14   bot   PAW#5844   
+26.07.2022   21:12   bot   PAW#5844   >konata
+26.07.2022   21:12   bot   PAW#5844   Grafika Nr:7/23
+ Anime:Lucky Star
+26.07.2022   21:12   bot   PAW#5844   
+26.07.2022   21:15   bot   PAW#5844   cos
+26.07.2022   21:16   bot   PAW#5844   >ping
+26.07.2022   21:16   bot   PAW#5844   pong2!
+26.07.2022   21:49   bot   PAW#5844   siema
+26.07.2022   21:49   bot   SEEN-#5771   Siema
+27.07.2022   11:39   bot   PAW#5844   $ping
+27.07.2022   11:39   bot   SEEN-#5771   pong!
+27.07.2022   11:42   bot   PAW#5844   $test6 add test1
+27.07.2022   12:00   bot   PAW#5844   $test7
+27.07.2022   12:00   bot   SEEN-#5771   
+27.07.2022   12:01   bot   PAW#5844   4test7
+27.07.2022   12:01   bot   PAW#5844   $test7
+27.07.2022   12:01   bot   SEEN-#5771   
+27.07.2022   12:07   bot   PAW#5844   $test7
+27.07.2022   12:07   bot   SEEN-#5771   
+27.07.2022   12:08   bot   PAW#5844   %test7
+27.07.2022   12:08   bot   PAW#5844   $test7
+27.07.2022   12:08   bot   SEEN-#5771   
+27.07.2022   12:08   bot   PAW#5844   $test7
+27.07.2022   12:08   bot   SEEN-#5771   
+27.07.2022   12:09   bot   PAW#5844   $test7
+27.07.2022   12:09   bot   SEEN-#5771   
+27.07.2022   12:09   bot   PAW#5844   $test7
+27.07.2022   12:09   bot   SEEN-#5771   
+27.07.2022   12:10   bot   PAW#5844   $test7
+27.07.2022   12:10   bot   SEEN-#5771   
+27.07.2022   12:10   bot   PAW#5844   $test7
+27.07.2022   12:10   bot   SEEN-#5771   
+27.07.2022   12:10   bot   PAW#5844   $test7
+27.07.2022   12:10   bot   SEEN-#5771   
+27.07.2022   12:11   bot   PAW#5844   $test7
+27.07.2022   12:11   bot   SEEN-#5771   
+27.07.2022   12:12   bot   PAW#5844   $test7
+27.07.2022   12:12   bot   SEEN-#5771   
+27.07.2022   12:27   bot   PAW#5844   $blitztsats __PAW
+27.07.2022   12:29   bot   PAW#5844   $blitzstats kacpi2608_2
+27.07.2022   12:29   bot   SEEN-#5771   
+27.07.2022   13:35   bot   PAW#5844   $help
+27.07.2022   13:35   bot   SEEN-#5771   
+27.07.2022   13:36   bot   PAW#5844   $anime help
+27.07.2022   13:36   bot   SEEN-#5771   
+27.07.2022   13:36   bot   PAW#5844   $zapowiedzi lato2022
+27.07.2022   13:36   bot   SEEN-#5771   
+27.07.2022   13:36   bot   PAW#5844   $yofukashi_no_uta_zapowiedz
+27.07.2022   13:36   bot   SEEN-#5771   
+27.07.2022   13:38   bot   PAW#5844   test_command
+27.07.2022   13:38   bot   SEEN-#5771   test_command
+27.07.2022   14:42   bot   PAW#5844   ping
+27.07.2022   14:43   bot   PAW#5844   ping
+27.07.2022   14:43   bot   PAW#5844   $ping
+27.07.2022   14:43   bot   SEEN-#5771   pong!
+27.07.2022   14:43   bot   PAW#5844   !ping
+27.07.2022   14:43   bot   Carl-bot#1536   Pong!
+**Cluster 234:** 18.07ms (avg)
+**Shard 3746:** 20.73ms
+**Node:** Ip-10-0-83-60.ec2.internal
+27.07.2022   14:44   bot   PAW#5844   !ping
+27.07.2022   14:44   bot   Carl-bot#1536   Pong!
+**Cluster 234:** 21.57ms (avg)
+**Shard 3746:** 19.54ms
+**Node:** Ip-10-0-83-60.ec2.internal
+27.07.2022   14:44   bot   PAW#5844   .ping
+27.07.2022   14:46   bot   PAW#5844   .ping
+27.07.2022   14:46   bot   SEEN-#5771   pong!
+27.07.2022   18:04   bot   PAW#5844   $pomoc3
+27.07.2022   18:04   bot   SEEN-#5771   cos
+27.07.2022   18:11   bot   PAW#5844   $ankieta2
+27.07.2022   18:11   bot   SEEN-#5771   
+27.07.2022   19:45   bot   PAW#5844   $ping
+27.07.2022   19:45   bot   PAW#5844   $ping
+27.07.2022   19:45   bot   SEEN-#5771   pong!
+27.07.2022   19:45   bot   SEEN-#5771   pong!
+27.07.2022   19:45   bot   SEEN-#5771   pong!
+27.07.2022   19:45   bot   SEEN-#5771   pong!
+27.07.2022   19:46   bot   PAW#5844   $ping
+27.07.2022   19:46   bot   PAW#5844   $ping
+27.07.2022   19:46   bot   SEEN-#5771   pong!
+27.07.2022   19:46   bot   SEEN-#5771   pong!
+27.07.2022   19:46   bot   SEEN-#5771   pong!
+27.07.2022   19:46   bot   SEEN-#5771   pong!
+27.07.2022   20:36   ogólny   SEEN-#5771   
+27.07.2022   20:36   ogólny   SEEN-#5771   
+27.07.2022   21:28   bot   SEEN-#5771   
+27.07.2022   21:28   bot   SEEN-#5771   
+27.07.2022   21:35   bot   SEEN-#5771   
+27.07.2022   21:35   bot   SEEN-#5771   
+27.07.2022   21:37   bot   SEEN-#5771   
+27.07.2022   21:37   bot   SEEN-#5771   
+27.07.2022   22:02   bot   PAW#5844   siema
+27.07.2022   22:02   bot   Puszek#4468   Siema
+27.07.2022   22:29   bot   SEEN-#5771   
+27.07.2022   22:29   bot   SEEN-#5771   
+27.07.2022   22:33   bot   SEEN-#5771   
+27.07.2022   22:33   bot   SEEN-#5771   
+27.07.2022   22:35   bot   SEEN-#5771   
+27.07.2022   22:35   bot   SEEN-#5771   
+27.07.2022   23:29   bot   PAW#5844   $ping
+27.07.2022   23:29   bot   PAW#5844   $ping
+27.07.2022   23:29   bot   SEEN-#5771   pong!
+27.07.2022   23:29   bot   SEEN-#5771   pong!
+27.07.2022   23:29   bot   SEEN-#5771   pong!
+27.07.2022   23:29   bot   SEEN-#5771   pong!
+27.07.2022   23:29   bot   PAW#5844   $help
+27.07.2022   23:29   bot   PAW#5844   $help
+27.07.2022   23:29   bot   SEEN-#5771   
+27.07.2022   23:29   bot   SEEN-#5771   
+27.07.2022   23:29   bot   SEEN-#5771   
+27.07.2022   23:29   bot   SEEN-#5771   
+27.07.2022   23:32   bot   PAW#5844   $ping
+27.07.2022   23:32   bot   PAW#5844   $ping
+27.07.2022   23:32   bot   SEEN-#5771   pong!
+27.07.2022   23:32   bot   SEEN-#5771   pong!
+27.07.2022   23:32   bot   SEEN-#5771   pong!
+27.07.2022   23:32   bot   SEEN-#5771   pong!
+27.07.2022   23:32   bot   PAW#5844   $ping
+27.07.2022   23:32   bot   PAW#5844   $ping
+27.07.2022   23:32   bot   SEEN-#5771   pong!
+27.07.2022   23:32   bot   SEEN-#5771   pong!
+27.07.2022   23:32   bot   SEEN-#5771   pong!
+27.07.2022   23:32   bot   SEEN-#5771   pong!
+27.07.2022   23:32   bot   PAW#5844   $ping
+27.07.2022   23:32   bot   PAW#5844   $ping
+27.07.2022   23:32   bot   SEEN-#5771   pong!
+27.07.2022   23:32   bot   SEEN-#5771   pong!
+27.07.2022   23:32   bot   SEEN-#5771   pong!
+27.07.2022   23:32   bot   SEEN-#5771   pong!
+27.07.2022   23:33   bot   SEEN-#5771   
+27.07.2022   23:33   bot   SEEN-#5771   
+27.07.2022   23:47   pasy-do-kont   PAW#5844   
+28.07.2022   13:08   bot   PAW#5844   $ping
+28.07.2022   13:08   bot   SEEN-#5771   pong!
+28.07.2022   13:08   bot   PAW#5844   $ping
+28.07.2022   13:08   bot   SEEN-#5771   pong!
+28.07.2022   13:08   bot   SEEN-#5771   
+28.07.2022   14:00   bot   PAW#5844   $ping
+28.07.2022   14:00   bot   PAW#5844   $ping
+28.07.2022   14:00   bot   SEEN-#5771   pong!
+28.07.2022   14:00   bot   SEEN-#5771   pong!
+28.07.2022   14:00   bot   SEEN-#5771   
+28.07.2022   14:05   bot   PAW#5844   $ping
+28.07.2022   14:05   bot   SEEN-#5771   pong!
+28.07.2022   14:05   bot   PAW#5844   $ping
+28.07.2022   14:05   bot   SEEN-#5771   pong!
+28.07.2022   14:12   bot   PAW#5844   cos
+28.07.2022   14:12   bot   SEEN-#5771   
+28.07.2022   14:13   bot   PAW#5844   cos
+28.07.2022   14:13   bot   PAW#5844   cos2
+28.07.2022   14:13   bot   PAW#5844   .
+28.07.2022   14:13   bot   PAW#5844   cos
+28.07.2022   14:14   bot   SEEN-#5771   
+28.07.2022   14:16   bot   PAW#5844   .
+28.07.2022   14:16   bot   PAW#5844   .
+28.07.2022   14:16   bot   PAW#5844   ,
+28.07.2022   14:16   bot   SEEN-#5771   
+28.07.2022   14:20   bot   SEEN-#5771   
