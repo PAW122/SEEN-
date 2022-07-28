@@ -2,9 +2,10 @@ const config = require(process.cwd() + `/config/worker.js`)
     const work = config.anime_seen_help
     const worker = config.anime_seem_work
     const reason = config.anime_seem_help_disable
-        
 
-const Discord = require('discord.js');
+    const Discord = require('discord.js');
+    const { SlashCommandBuilder } = require('@discordjs/builders');
+
 const prefix = "$"
 module.exports = {
     name: `animeseen`,
@@ -12,8 +13,56 @@ module.exports = {
     description: `help command`,
     usage: `$help`,
     work: worker,
+    isSlash: true,
     
+    data: new SlashCommandBuilder()
+        .setName('animeseen')
+        .setDescription('Wyświetla liste wszystkich komend animeseen'),
+    executeInteraction: async (inter) => {
+        const embed_pl = new Discord.MessageEmbed()
+
+        .setColor(`BLUE`)//PL
+        .setTitle(`Help`)
+        .setDescription(`U can use '$help en' for a description in English\nlista wszystkich komend:`)
+        .addFields(//inline-w embedzie zamiast po dobą będą obok siebie
+        {name: `ANIME SEEN`,value: `grafiki i informacje o anime`,inline: false},
+        {name: `senko`,value: `wysyła randomową\n grafike senko`,inline: true},
+        {name: `senkoinfo`,value: `wysyła informacje o anime`,inline: true},
+        {name: `Sewayaki Kitsune no Senko-san`,value: `wysyła informacje o anime`,inline: true},
+        {name: `senko_odc`,value: `wysyła link do odcinka anime \n użycie: $senko_odc <nr_odc> \n przykład: $senko_odc 2`,inline: true},
+        
+        {name: `------------------------------------------------------------------------`,value: `----------------------------------------------------------------------`,inline: false},
+
+        {name: `konata`,value: `wysyła randomową\n grafike konaty`,inline: true},
+        {name: `konatainfo`,value: `wysyła informacje o anime`,inline: true},
+        {name: `Lucky Star`,value: `wysyła informacje o anime`,inline: true},
+        {name: `lucky_star_odc`,value: `wysyła link do odcinka anime \n użycie: $lucky_star_odc <nr_odc> \n przykład: $lucky_star_odc 2`,inline: true},
+        
+        {name: `------------------------------------------------------------------------`,value: `----------------------------------------------------------------------`,inline: false},
+
+        {name: `ranka`,value: `wysyła randomową\n grafike ranki`,inline: true},
+        {name: `rankainfo`,value: `wysyła informacje o anime`,inline: true},
+        {name: `Murenase Seton Gakuen`,value: `wysyła informacje o anime`,inline: true},
+        
+        {name: `------------------------------------------------------------------------`,value: `----------------------------------------------------------------------`,inline: false},
+
+        {name: `kuroha`,value: `wysyła randomową\n grafike kurohy`,inline: true},
+        {name: `Kurohainfof`,value: `wysyła informacje o anime`,inline: true},
+        {name: `Gokukoku no Brynhildr`,value: `wysyła informacje o anime`,inline: true},
+
+        {name: `------------------------------------------------------------------------`,value: `----------------------------------------------------------------------`,inline: false},
+
+        {name: `amnesia`,value: `wysyła opis anime`,inline: true},
+        {name: `heroine_info`,value: `wysyła opis anime`,inline: true},
+        {name: `heroine`,value: `wysyła randomową grafike postaci anime`,inline: true},
+        {name: `amnestia_odc`,value: `wysyła link do odcinka anime \n użycie: $amnestia_odc <nr_odc> \n przykład: $amnestia_odc 2`,inline: true},
+           
+        )
+        inter.reply({ embeds: [embed_pl] });
+    },
+
     
+
 
     execute: async(message, args) => {//trzeba dodać help do anime!!!!
 
