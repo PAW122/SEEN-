@@ -34,13 +34,15 @@ module.exports = {
             .setTitle('**8ball**')
             .setColor('RANDOM')
             .setDescription(`${reason}`)
-        inter.reply({ embeds: [embed_worker] });
-        }
+         inter.reply({ embeds: [embed_worker] });
+         return(console.log("command id disabled"))
+        }else{
         const embed = new Discord.MessageEmbed()
             .setTitle('**8ball**')
             .setColor('RANDOM')
             .setDescription(`${fortunes[Math.floor(Math.random() * 8)]}`)
         inter.reply({ embeds: [embed] });
+        }
     },
 
     execute: async(message, args) => { 

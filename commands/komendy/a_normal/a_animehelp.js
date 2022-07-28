@@ -6,26 +6,7 @@ const config = require(process.cwd() + `/config/worker.js`)
 const Discord = require('discord.js');
 const { SlashCommandBuilder } = require('@discordjs/builders');
 const prefix = "$"
-module.exports = {
-    name: `anime`,
-    name_en:`anime`,
-    description: `help command`,
-    usage: `$help`,
-    work: worker,
-    isSlash: true,
-    
-    data: new SlashCommandBuilder()
-        .setName('ping')
-        .setDescription('Wyświetla liste komend z kateori anime'),
-    executeInteraction: async (inter) => {
-        if(work != true){
-            const embed_worker = new Discord.MessageEmbed()
-            .setTitle('**anime**')
-            .setColor('RANDOM')
-            .setDescription(`${reason}`)
-        inter.reply({ embeds: [embed_worker] });
-        }
-        const embed_pl = new Discord.MessageEmbed()
+const embed_pl = new Discord.MessageEmbed()
 
         .setColor(`BLUE`)//PL
         .setTitle(`Help`)
@@ -37,8 +18,30 @@ module.exports = {
         {name: `animelist`,value: `${prefix}animelist help\n${prefix}animelist help en`,inline: true},
         {name: `myanimelist`,value: `${prefix}myanimelist help\n${prefix}myanimelist help en`,inline: true},
 
-        )~!X
+        )
+
+module.exports = {
+    name: `anime`,
+    name_en:`anime`,
+    description: `help command`,
+    usage: `$help`,
+    work: worker,
+    isSlash: true,
+    
+    data: new SlashCommandBuilder()
+        .setName('anime')
+        .setDescription('Wyświetla liste komend z kateori anime'),
+    executeInteraction: async (inter) => {
+        if(work != true){
+            const embed_worker = new Discord.MessageEmbed()
+            .setTitle('**anime**')
+            .setColor('RANDOM')
+            .setDescription(`${reason}`)
+        inter.reply({ embeds: [embed_worker] });
+        return(console.log("command id disabled"))
+        }else{
         inter.reply({ embeds: [embed_pl] });
+        }
     },
 
     execute: async(message, args) => {//trzeba dodać help do anime!!!!

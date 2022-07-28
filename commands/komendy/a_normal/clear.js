@@ -4,6 +4,8 @@ const config = require(process.cwd() + `/config/worker.js`)
     const reason = config.clear_disable
 
 const Discord = require('discord.js');
+const { SlashCommandBuilder } = require('@discordjs/builders');
+const { Permissions: { FLAGS } } = require('discord.js');
 //$clear
 //$clear help
 //$clear help en
@@ -16,6 +18,52 @@ module.exports = {
     description: "usówa wiadomości",
     usage: "$clear <ilość wiadomości>",
     work: worker,
+    isSlash: true,
+
+    data: new SlashCommandBuilder()
+        .setName('clear')
+        .setDescription('wysyła liste anime obejrzanych przez autora bota')
+        .addNumberOption((option) =>
+            option
+                .setName("messages")
+                .setDescription("jak dużo wiadomości chcesz usunąć?")
+                .setRequired(true)
+        ),
+    executeInteraction: async (inter) => {
+        if (work != true) {
+            const embed_worker = new Discord.MessageEmbed()
+                .setTitle('**clear**')
+                .setColor('RANDOM')
+                .setDescription(`${reason}`)
+            inter.reply({ embeds: [embed_worker] });
+            return (console.log("command id disabled"))
+        } else {
+            const to_delete = inter.options.getNumber('messages')
+
+            if (!inter.member.permissions.has(FLAGS.MANAGE_MESSAGES)) {
+                return(inter.reply({ content: 'Nie masz wystarczająco permisji aby użyć tej komendy!', ephemeral: true }));
+            } 
+
+            if(!inter.member.permissions.has(FLAGS.MANAGE_MESSAGES)) {
+                return(inter.reply({ content: 'Nie posiadam uprawnień do usówania wiadomości!', ephemeral: true }));
+            }
+            try{
+                inter.channel.bulkDelete(to_delete, true)
+            }catch(err){
+                return(inter.reply({ content: 'Nie mogę usunąć wiadomości', ephemeral: true }));
+            }
+
+            const embed2 = new Discord.MessageEmbed()
+                .setColor("RANDOM")
+                .setTitle('clear')
+                .setDescription(`usunołeś ${to_delete} wiadomości`)
+                .setTimestamp()
+            inter.reply({ embeds: [embed2] })
+
+
+
+        }
+    },
 
     execute: async(message, args,client) => {
 

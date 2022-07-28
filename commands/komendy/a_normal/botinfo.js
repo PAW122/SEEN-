@@ -4,15 +4,52 @@ const config = require(process.cwd() + `/config/worker.js`)
     const reason = config.bot_info_disable
 
 const Discord = require('discord.js');
+const { SlashCommandBuilder } = require('@discordjs/builders');
 //$botinfo
 //$botinfo help
 //$botinfo help en
+
+
+const Autor = "PAW#5844"
+const version = "1.1.9"
+const Engin_version = "16.9.0"
+const stowrzony = "29.05.2022"
+        const embed2 = new Discord.MessageEmbed()
+
+        .setTitle("SEEN-:")
+        .setDescription(`**Autor:**${Autor}\n
+        **version:**${version} \n
+        **Wejsja silnika:** ${Engin_version} \n
+        **Data stworzenia bota:**${stowrzony}`)
+
+
 module.exports = {
     name: "botinfo",
     name_en:"botinfo",
     description: "wysyła informacje o bocie",
     usage: "$botinfo",
     work: worker,
+    isSlash: true,
+
+    data: new SlashCommandBuilder()
+    .setName('botinfo')
+    .setDescription('wysyła liste anime obejrzanych przez autora bota'),
+    
+executeInteraction: async (inter) => {
+    if (work != true) {
+        const embed_worker = new Discord.MessageEmbed()
+            .setTitle('**botinfo**')
+            .setColor('RANDOM')
+            .setDescription(`${reason}`)
+        inter.reply({ embeds: [embed_worker] });
+        return (console.log("command id disabled"))
+    } else {
+    
+        const embed = new Discord.MessageEmbed()
+        inter.reply({ embeds: [embed2] })
+
+    }
+},
 
     execute: async(message, args) => {
 

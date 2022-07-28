@@ -26,12 +26,14 @@ module.exports = {
             .setColor('RANDOM')
             .setDescription(`${reason}`)
         inter.reply({ embeds: [embed_worker] });
-        }
+        return(console.log("command id disabled"))
+        }else{
         const embed = new Discord.MessageEmbed()
-            .setTitle('**PONG!**')
+            .setTitle('**PONG**')
             .setColor('RANDOM')
             .setDescription(`${Date.now() - inter.createdTimestamp}ms`)
         inter.reply({ embeds: [embed] });
+        }
     },
 
 

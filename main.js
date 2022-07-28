@@ -101,7 +101,9 @@ client.once('ready', () =>{
     console.log(`${client.user.tag} jest online`);
     client.user.setActivity("$help", {type:'WATCHING'});
     logs(`${data} ${time} ${client.user.tag} jest online`, logs_dir,1)
-try{
+/*
+    try{
+    
     //yaml
     client.settings.forEach((config, guildId) => {
         const {guilds} = client
@@ -116,7 +118,7 @@ try{
 }catch(err){
     console.log(err)
 }
-
+*/
 });
 
 

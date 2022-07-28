@@ -4,6 +4,7 @@ const config = require(process.cwd() + `/config/worker.js`)
     const reason = config.ankieta_disable
 
 const Discord = require('discord.js');
+const { SlashCommandBuilder } = require('@discordjs/builders');
 //$anikieta
 //$ankieta help
 //$anikieta help en
@@ -13,6 +14,44 @@ module.exports = {
     description: "towrzy nakiete",
     usage: "$ankieta <treść ankiety>",
     work: worker,
+    isSlash: true,
+
+    data: new SlashCommandBuilder()
+        .setName('ankieta')
+        .setDescription('Wyświetla aktualny ping bota')
+
+        .addStringOption((option) =>
+            option
+                .setName("tu_napisz_tytuł_ankiety")
+                .setDescription("w wyznaczonym polu umieść tytuł ankiety")
+                .setRequired(true)
+        )
+        .addStringOption((option) =>
+            option
+                .setName("tu_napisz_treść_ankiety")
+                .setDescription("w wyznaczonym polu umieść całą treść która ma się znajdować w ankiecie")
+                .setRequired(true)
+        ),
+    executeInteraction: async (inter) => {
+        if(work != true){
+            const embed_worker = new Discord.MessageEmbed()
+            .setTitle('**ankieta**')
+            .setColor('RANDOM')
+            .setDescription(`${reason}`)
+        inter.reply({ embeds: [embed_worker] });
+        return(console.log("command id disabled"))
+        }else{
+            const tytuł = inter.options.getString('tu_napisz_tytuł_ankiety')
+            const treść = inter.options.getString('tu_napisz_treść_ankiety')
+
+            const embed = new Discord.MessageEmbed()
+            .setColor("BLUE")
+            .setTitle(tytuł)
+            .setDescription(treść)
+            
+        inter.reply({ embeds: [embed] });
+        }
+    },
 
     execute: async(message, args,client) => {
 

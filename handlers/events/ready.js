@@ -1,6 +1,6 @@
 module.exports = {
     name: 'ready', once: true, async execute(client) {
-        console.log('Bot jest online');
+        console.log('Slash commands Triger');
         /*  const statuses = [{ name: 'Spotify', type: 'LISTENING' },
           { name: 'CoinLabiryntCollect', type: 'PLAYING' },
           { name: `${client.guilds.cache.size} serwery`, type: 'WATCHING' },
