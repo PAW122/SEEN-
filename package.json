@@ -9,17 +9,19 @@
   "author": "PAW#5844",
   "license": "ISC",
   "dependencies": {
+    "@discordjs/rest": "^1.0.1",
     "anime-images-api": "^2.0.0",
     "ascii-table": "^0.0.9",
     "axios": "^0.27.2",
     "canvas": "^2.9.3",
     "chalk": "^5.0.1",
     "consola": "^2.15.3",
+    "discord-xp": "^1.1.16",
     "discord.js": "^13.7.0",
     "dotenv": "^16.0.1",
     "env": "^0.0.2",
     "js-yaml": "^4.1.0",
-    "node-fetch": "^3.2.9",
-    "puppeteer": "^14.3.0"
+    "mongoose": "^6.5.0",
+    "node-fetch": "^3.2.9"
   }
 }
