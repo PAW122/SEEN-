@@ -5,7 +5,7 @@ module.exports = {
     load_commands_logs: "True", //True/False 
     welcomeChannelId: "993638672815624235",//welcome message
 
-    save_logs: "True", //True/False
+    save_logs: "Flase", //True/False
     logs_dir: `./handlers/logs/logs.txt`,
     error_logs_dir: `./handlers/logs/error.txt`,
 
