@@ -686,3 +686,26 @@
 29.07.2022   18:38   bot   SEEN-#5771   Wyeliminowany Został: <@797070806885990431>
 29.07.2022   18:40   bot   SEEN-#5771   
 29.07.2022   18:40   bot   SEEN-#5771   Wyeliminowany Został: <@438336824516149249>
+29.07.2022   19:01   bot   PAW#5844   https://youtu.be/U_jFMqZTjU4
+29.07.2022   21:17   bot   PAW#5844   $lvl
+29.07.2022   21:35   bot   PAW#5844   $lvl
+29.07.2022   21:36   bot   PAW#5844   $lvl
+29.07.2022   21:41   bot   PAW#5844   $lvl
+29.07.2022   21:42   bot   PAW#5844   $lvl
+29.07.2022   21:42   bot   PAW#5844   $lvl
+29.07.2022   21:54   bot   PAW#5844   $lvl
+29.07.2022   21:59   bot   PAW#5844   $lvl
+29.07.2022   22:06   bot   PAW#5844   db
+29.07.2022   23:13   bot   PAW#5844   $ping
+29.07.2022   23:13   bot   -V1PE#3809   pong!
+29.07.2022   23:20   bot   PAW#5844   $allsrv
+29.07.2022   23:21   bot   PAW#5844   $allsrv
+29.07.2022   23:21   bot   PAW#5844   $allsrv
+29.07.2022   23:26   bot   PAW#5844   $allsrv
+29.07.2022   23:27   bot   PAW#5844   $allsrv
+29.07.2022   23:29   bot   PAW#5844   $allsrv
+29.07.2022   23:30   bot   PAW#5844   $allsrv
+29.07.2022   23:31   bot   PAW#5844   $allsrv
+30.07.2022   01:10   bot   PAW#5844   
+30.07.2022   01:25   bot   PAW#5844   
+30.07.2022   01:26   bot   PAW#5844   

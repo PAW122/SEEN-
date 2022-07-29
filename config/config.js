@@ -1,5 +1,7 @@
 module.exports = {
-    token: "Nzk3MDcwODA2ODg1OTkwNDMx.Gq0Vce.g0DUdPtZE2MPY-zWOlX2etRN9RE7t3IGOPCi9U",//set token
+    //token for tests
+    token: "ODY5NTg3ODc3NDc3MTAxNTkw.GlzDM1.-g1GK0ESq9eZOp92S77v_oo6-SquxCiBLFetaY",
+    test_bot: true,
     prefix: "$",//set prefix
     commands_logs: "True",//True/False
     load_commands_logs: "True", //True/False 
@@ -14,5 +16,5 @@ module.exports = {
 
     servers_logs: "True",
 
-    wargaming_api_key: "ebc751064d5418bfefad7af6819e9c19"
+    wargaming_api_key: "ebc751064d5418bfefad7af6819e9c19",
 }

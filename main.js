@@ -5,10 +5,11 @@ const consola = require('consola')
 
 const { REST } = require('@discordjs/rest');
 const { Routes } = require('discord-api-types/v9');
-const clientId = '797070806885990431';
+const clientId = '797070806885990431';//id bota
 
 //wczytywanie configu
 const config = require("./config/config.js")
+const test_token = config.token
 const token = process.env.TOKEN
 const prefix = config.prefix
 const commands_logs = config.commands_logs
@@ -33,8 +34,10 @@ const setting_handler = require("./handlers/setting-handler")
 //wczytywanie logów
 const logs = require("./handlers/logs")
 
-//wczytywanie interakcji dla buttonów
-const interaction = require("./handlers/interaction_handler")
+//mongo db
+const mongo = require("./handlers/mongo_handler");
+const { test_bot } = require('./config/config.js');
+
 
 //wczytywanie slash commands
 const functions = fs.readdirSync('./handlers/functions').filter(file => file.endsWith('.js'));
@@ -42,7 +45,7 @@ const eventFiles = fs.readdirSync('./handlers/events').filter(file => file.endsW
 const slashCommands = fs.readdirSync(process.cwd() +`/commands/komendy`);
 const slashCommands2 = fs.readdirSync(process.cwd() +`/commands/anime/`);
 const slashCommands3 = fs.readdirSync(process.cwd() +`/commands/anime zapowiedz/`);
-const slashCommands4 = fs.readdirSync(process.cwd() +`/commands/animelist/`)
+const slashCommands4 = fs.readdirSync(process.cwd() +`/commands/db_commands/`)
 
 
 const client = new Discord.Client({
@@ -64,7 +67,7 @@ client.login(config.token).then(async ()=>{
       await client.handleCommands(slashCommands, "komendy");
       await client.handleCommands(slashCommands2, "anime");
       await client.handleCommands(slashCommands3, "anime zapowiedz");
-      await client.handleCommands(slashCommands4, "animelist");
+      await client.handleCommands(slashCommands4, "db_commands");
       const rest = new REST({ version: '9' }).setToken(token);
         (async () => {
             try {
@@ -87,11 +90,15 @@ client.login(config.token).then(async ()=>{
 })
      
 
-    module.exports = {client};
+    //module.exports = {client};
+
+//mongo db
+mongo(client)
+
 //command handler
 handler(client)
 
-//servers settings
+//servers settings (narazie nie działa)
 setting_handler(client)
 
 client.once('ready', () =>{
@@ -101,24 +108,6 @@ client.once('ready', () =>{
     console.log(`${client.user.tag} jest online`);
     client.user.setActivity("$help", {type:'WATCHING'});
     logs(`${data} ${time} ${client.user.tag} jest online`, logs_dir,1)
-/*
-    try{
-    
-    //yaml
-    client.settings.forEach((config, guildId) => {
-        const {guilds} = client
-        console.log(guilds)
-        if(guilds.has(guildId)) {
-            const guild = guilds.get(guildId)
-            if(guild.available){
-                
-            }
-        }
-    })
-}catch(err){
-    console.log(err)
-}
-*/
 });
 
 
@@ -126,6 +115,8 @@ client.once('ready', () =>{
 
 client.on('messageCreate', async message =>
 {
+
+     
     //logi z serwerów
     logs(message.content, null, 2, message.guild.id ,message.author.tag, message.channel.name)
     
@@ -218,8 +209,12 @@ client.on('interactionCreate', async interaction => {
     }
 
 })
+if(test_bot == true){
+    client.login(test_token)
+}else{
+    client.login(token)
+}
 
-client.login(token)
 
 
 //error handler

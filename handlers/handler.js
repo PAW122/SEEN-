@@ -21,7 +21,7 @@ module.exports = (client) => {
     const komendyFolders = fs.readdirSync(__dirname +`/../commands/komendy`)//dla komend
     const animeFolders = fs.readdirSync(__dirname +`/../commands/anime`)//dla anime
     const animezapowiedziFolders = fs.readdirSync(__dirname +`/../commands/anime zapowiedz`)//dla zapowiedzi
-    const animelist = fs.readdirSync(__dirname +`/../commands/animelist`)//dla animelist
+    const db_commands = fs.readdirSync(__dirname +`/../commands/db_commands`)//dla db_commands
     //command handler 
     
     for (const folder of komendyFolders) {//command handler dla komend
@@ -71,11 +71,11 @@ module.exports = (client) => {
             tabela(command,file,table,name,name_en,nr_tabeli)
         }
     }
-    for (const folder of animelist) {//command handler dla anime list
-        const commandsFile = fs.readdirSync(__dirname +`/../commands/animelist`).filter(file => file.endsWith(".js"));
+    for (const folder of db_commands) {//command handler dla anime list
+        const commandsFile = fs.readdirSync(__dirname +`/../commands/db_commands`).filter(file => file.endsWith(".js"));
     
         for(const file of commandsFile) {
-            const command = require(__dirname +`/../commands/animelist/${file}`);
+            const command = require(__dirname +`/../commands/db_commands/${file}`);
             client.command.set(command.name, command);//język polski
             client.command.set(command.name_en, command);//język polski
 
