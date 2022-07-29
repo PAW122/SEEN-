@@ -7,6 +7,7 @@ const Discord = require('discord.js');
 //npm i anime-images-api
 //https://www.npmjs.com/package/anime-images-api
 const API = require('anime-images-api')
+const { SlashCommandBuilder } = require('@discordjs/builders');
 const images_api = new API() 
 //$animegif
 //$animegif help
@@ -17,6 +18,7 @@ module.exports = {
     description: "wysyła pong",
     usage: "$ping",
     work: worker,
+    isSlash: true,
     //opcje:
             /*
         hug()	Sends a hug Gif
@@ -35,6 +37,52 @@ module.exports = {
         boobs()	Sends a boob Gif
         lesbian()	Sends a lesbian Gif
             */
+
+        data: new SlashCommandBuilder()
+        .setName('animegif')
+        .setDescription('wysyła gifa z podanej kategori')
+        .addStringOption((option) =>
+            option
+                .setName("wybierz_rodzaj_gifa")
+                .setDescription("wybierz rodzaj gifa")
+                .setRequired(true)
+                .setChoices(
+                    {name: "hug", value: "Sending Normal Gif"},
+                    {name: "kiss", value: "Sending Normal Gif"},
+                    {name: "slap", value: "Sending Normal Gif"},
+                    {name: "punch", value: "Sending Normal Gif"},
+                    {name: "wink", value: "Sending Normal Gif"},
+                    {name: "pat", value: "Sending Normal Gif"},
+                    {name: "kill", value: "Sending Normal Gif"},
+                    {name: "cuddle", value: "Sending Normal Gif"},
+                    {name: "wafiu", value: "Sending Normal Gif"},
+
+                    {name: "hentai", value: "Required NSFW channel"},
+                    {name: "boobs", value: "Required NSFW channel"},
+                    {name: "lesbian", value: "Required NSFW channel"},
+
+                    )
+        ),
+    executeInteraction: async (inter) => {
+        if (work != true) {
+            const embed_worker = new Discord.MessageEmbed()
+                .setTitle('**animegif**')
+                .setColor('RANDOM')
+                .setDescription(`${reason}`)
+            inter.reply({ embeds: [embed_worker] });
+            return (console.log("command id disabled"))
+        } else {
+            const response = inter.options.getString('wybierz_rodzaj_gifa')
+
+            if(response == 'pat'){
+                images_api.sfw.pat().then(response => {
+                    const attachment = new MessageAttachment(response.image)
+                    inter.reply({ files: [attachment] })
+                })
+            }
+
+        }
+    },
 
 
     execute: async(message, args) => {

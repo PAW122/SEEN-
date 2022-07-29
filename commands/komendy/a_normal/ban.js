@@ -14,7 +14,7 @@ module.exports = {
     description: "usówa wiadomości",
     usage: "$clear <ilość wiadomości>",
     work: worker,
-    isSlash: false,//wyłączone bo coś jest zjebane
+    isSlash: true,//wyłączone bo coś jest zjebane
 
     data: new SlashCommandBuilder()
         .setName('ban')
@@ -34,12 +34,10 @@ module.exports = {
         }
         const user = inter.options.getUser('user');
         const member = inter.guild.members.cache.get(user.id) || await inter.guild.members.fetch(user.id).catch(err => { console.log(err) })
-        console.log(member)
+        //console.log(member)
         if (!member == true) {
             return(inter.reply("Nie można uzyskać informacji o użytkowniku!"))
         };
-
-        const reason = inter.options.getString('reason');
 
         if (!member.bannable) {
             return(inter.reply("Nie mogę zbanować tego użytkownika!"))
@@ -55,6 +53,7 @@ module.exports = {
             .setFooter({ text: inter.user.tag, iconURL: inter.user.avatarURL({ dynamic: true }) })
             .setTimestamp()
         await member.user.send(`Zostałeś zbanowany na serverze **\`${inter.guild.name}\`** z powodu \`${reason}\``).catch(err => {console.log(err)})
+        const reason = inter.options.getString('reason');
         member.ban({reason})
         return(inter.reply({ embeds: [embed] }))
     },

@@ -31,7 +31,7 @@ module.exports = {
         const embed = new Discord.MessageEmbed()
             .setTitle('**PONG**')
             .setColor('RANDOM')
-            .setDescription(`${Date.now() - inter.createdTimestamp}ms`)
+            .setDescription(`${Date.now() - inter.createdTimestamp}ms \nms. API Latency is ${Math.round(inter.client.ws.ping)}ms`)
         inter.reply({ embeds: [embed] });
         }
     },

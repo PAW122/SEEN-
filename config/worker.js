@@ -3,8 +3,8 @@ module.exports = {
     anime_gif_work: "yes",//yes / no
     anime_gif_disable: "command is disable: no reason",//if disable - reason
 
-    eight_ball: false,
-    eight_ball_work: "no",
+    eight_ball: true,
+    eight_ball_work: "yes",
     eight_ball_disable: "command is disable: no reason",
     
     anime_seem_help: true,
@@ -101,7 +101,11 @@ module.exports = {
 
     autoroles: true,
     autoroles_work: "yes",
-    autoroles_disable: "command is disable: no reason"
+    autoroles_disable: "command is disable: no reason",
+
+    user_info: true,
+    user_info: "yes",
+    user_info: "command is disable: no reason",
 }
 
 /*
