@@ -7,13 +7,48 @@ const Discord = require('discord.js');
 //$random
 //$random help 
 //$random help en
+const { SlashCommandBuilder } = require('@discordjs/builders');
 module.exports = {
     name: "random",
     name_en:"random",
     description: "wysyła randomową liczbe od 1 do ?",
     usage: "$random <maxymalna wartość lodowania>",
     work: worker,
+    isSlash: true,
 
+    data: new SlashCommandBuilder()
+    .setName('random')
+    .setDescription('wysyła randomową liczbe od 1 do podanej przez urzytkownika')
+    .addNumberOption((option) =>
+    option
+        .setName("maximum_number")
+        .setDescription("maksymalna liczba jaką może wylosować bot")
+        .setRequired(true)
+),
+    
+executeInteraction: async (inter) => {
+    if (work != true) {
+        const embed_worker = new Discord.MessageEmbed()
+            .setTitle('**botinfo**')
+            .setColor('RANDOM')
+            .setDescription(`${reason}`)
+        inter.reply({ embeds: [embed_worker] });
+        return (console.log("command id disabled"))
+    } else {
+        const maximum_number = inter.options.getNumber('maximum_number')
+        const rng = Math.floor(Math.random() * maximum_number);
+
+        const embed2 = new Discord.MessageEmbed()
+        .setTitle("random")
+        .setColor("RANDOM")
+        .setDescription(`minimalna liczba 0\n
+        maksymalna liczba:${maximum_number}\n
+        wylosowana liczba:${rng}`)
+        inter.reply({ embeds: [embed2] })
+
+    }
+},
+    
     execute: async(message, args) => {
 
         

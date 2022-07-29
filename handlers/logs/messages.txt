@@ -16751,3 +16751,1747 @@ Idziemy do derpiego do DM-?
 29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 126ms.
 29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
 29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 130ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 128ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 128ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 126ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 130ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 126ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 128ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 131ms.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 129ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] [CLOSE]
+    Event Code: 1006
+    Clean     : false
+    Reason    : 
+29.07.2022   [WS => Shard 0] Clearing the heartbeat interval.
+29.07.2022   [WS => Shard 0] A connection object was found. Cleaning up before continuing.
+    State: CLOSED
+29.07.2022   [WS => Shard 0] Session id is present, attempting an immediate reconnect...
+29.07.2022   [WS => Shard 0] [DESTROY]
+    Close Code    : 1000
+    Reset         : false
+    Emit DESTROYED: false
+29.07.2022   [WS => Shard 0] WS State: CLOSED
+29.07.2022   [WS => Shard 0] [CONNECT]
+    Gateway    : wss://gateway.discord.gg/
+    Version    : 9
+    Encoding   : json
+    Compression: none
+29.07.2022   [WS => Shard 0] Setting a HELLO timeout for 20s.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] [CONNECTED] Took 195ms
+29.07.2022   [WS => Shard 0] Clearing the HELLO timeout.
+29.07.2022   [WS => Shard 0] Setting a heartbeat interval for 41250ms.
+29.07.2022   [WS => Shard 0] [RESUME] Session 37e60902d0b14417b1c36a1bba2a3ad0, sequence 104
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 127ms.
+29.07.2022   [WS => Shard 0] [RESUMED] Session 37e60902d0b14417b1c36a1bba2a3ad0 | Replayed 1 events.
+29.07.2022   [WS => Shard 0] [ResumeHeartbeat] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 126ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 125ms.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 126ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 140ms.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 125ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 133ms.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 126ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 125ms.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 126ms.
+29.07.2022   [WS => Manager] Fetched Gateway Information
+    URL: wss://gateway.discord.gg
+    Recommended Shards: 1
+29.07.2022   [WS => Manager] Spawning shards: 0
+29.07.2022   [WS => Manager] Session Limit Information
+    Total: 1000
+    Remaining: 831
+29.07.2022   [WS => Shard 0] Setting a HELLO timeout for 20s.
+29.07.2022   [WS => Shard 0] [CONNECT]
+    Gateway    : wss://gateway.discord.gg/
+    Version    : 9
+    Encoding   : json
+    Compression: none
+29.07.2022   [WS => Manager] Fetched Gateway Information
+    URL: wss://gateway.discord.gg
+    Recommended Shards: 1
+29.07.2022   [WS => Manager] Spawning shards: 0
+29.07.2022   [WS => Manager] Session Limit Information
+    Total: 1000
+    Remaining: 831
+29.07.2022   [WS => Shard 0] [CONNECT]
+    Gateway    : wss://gateway.discord.gg/
+    Version    : 9
+    Encoding   : json
+    Compression: none
+29.07.2022   [WS => Shard 0] Setting a HELLO timeout for 20s.
+29.07.2022   [WS => Shard 0] [CONNECTED] Took 193ms
+29.07.2022   [WS => Shard 0] Clearing the HELLO timeout.
+29.07.2022   [WS => Shard 0] Setting a heartbeat interval for 41250ms.
+29.07.2022   [WS => Shard 0] [IDENTIFY] Shard 0/1 with intents: 1539
+29.07.2022   [WS => Shard 0] [CONNECTED] Took 193ms
+29.07.2022   [WS => Shard 0] Setting a heartbeat interval for 41250ms.
+29.07.2022   [WS => Shard 0] Clearing the HELLO timeout.
+29.07.2022   [WS => Shard 0] [IDENTIFY] Shard 0/1 with intents: 1539
+29.07.2022   [WS => Shard 0] [READY] Session 538a98ab0ed811fc48795baeab84b230.
+29.07.2022   [WS => Shard 0] [ReadyHeartbeat] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Shard received all its guilds. Marking as fully ready.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 159ms.
+29.07.2022   [WS => Shard 0] [INVALID SESSION] Resumable: false.
+29.07.2022   [WS => Shard 0] Failed to connect to the gateway, requeueing...
+29.07.2022   [WS => Manager] Shard Queue Size: 1; continuing in 5 seconds...
+29.07.2022   [WS => Shard 0] An open connection was found, attempting an immediate identify.
+29.07.2022   [WS => Shard 0] [IDENTIFY] Shard 0/1 with intents: 1539
+29.07.2022   [WS => Shard 0] [READY] Session 398d273bdd71934ec5955adbaefdc69f.
+29.07.2022   [WS => Shard 0] [ReadyHeartbeat] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Shard received all its guilds. Marking as fully ready.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 173ms.
+29.07.2022   SEEN-#5771 
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 128ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 127ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 126ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 128ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 130ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 133ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 126ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 126ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 126ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 128ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 130ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 125ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 126ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 124ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 131ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 127ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 144ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 130ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 130ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 135ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 134ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 132ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 125ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 137ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 125ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 127ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 131ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 125ms.
+29.07.2022   [WS => Manager] Fetched Gateway Information
+    URL: wss://gateway.discord.gg
+    Recommended Shards: 1
+29.07.2022   [WS => Manager] Session Limit Information
+    Total: 1000
+    Remaining: 829
+29.07.2022   [WS => Manager] Spawning shards: 0
+29.07.2022   [WS => Shard 0] [CONNECT]
+    Gateway    : wss://gateway.discord.gg/
+    Version    : 9
+    Encoding   : json
+    Compression: none
+29.07.2022   [WS => Shard 0] Setting a HELLO timeout for 20s.
+29.07.2022   [WS => Manager] Session Limit Information
+    Total: 1000
+    Remaining: 829
+29.07.2022   [WS => Manager] Fetched Gateway Information
+    URL: wss://gateway.discord.gg
+    Recommended Shards: 1
+29.07.2022   [WS => Manager] Spawning shards: 0
+29.07.2022   [WS => Shard 0] Setting a HELLO timeout for 20s.
+29.07.2022   [WS => Shard 0] [CONNECT]
+    Gateway    : wss://gateway.discord.gg/
+    Version    : 9
+    Encoding   : json
+    Compression: none
+29.07.2022   [WS => Shard 0] [CONNECTED] Took 199ms
+29.07.2022   [WS => Shard 0] Clearing the HELLO timeout.
+29.07.2022   [WS => Shard 0] [IDENTIFY] Shard 0/1 with intents: 1539
+29.07.2022   [WS => Shard 0] Setting a heartbeat interval for 41250ms.
+29.07.2022   [WS => Shard 0] [CONNECTED] Took 188ms
+29.07.2022   [WS => Shard 0] Clearing the HELLO timeout.
+29.07.2022   [WS => Shard 0] Setting a heartbeat interval for 41250ms.
+29.07.2022   [WS => Shard 0] [IDENTIFY] Shard 0/1 with intents: 1539
+29.07.2022   [WS => Shard 0] [READY] Session 8dabf63cdd2f1d938b31c6d4ed6e0470.
+29.07.2022   [WS => Shard 0] [ReadyHeartbeat] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Shard received all its guilds. Marking as fully ready.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 145ms.
+29.07.2022   [WS => Shard 0] [INVALID SESSION] Resumable: false.
+29.07.2022   [WS => Shard 0] Failed to connect to the gateway, requeueing...
+29.07.2022   [WS => Manager] Shard Queue Size: 1; continuing in 5 seconds...
+29.07.2022   [WS => Shard 0] An open connection was found, attempting an immediate identify.
+29.07.2022   [WS => Shard 0] [IDENTIFY] Shard 0/1 with intents: 1539
+29.07.2022   [WS => Shard 0] [ReadyHeartbeat] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] [READY] Session d56ac08897742908e2bfb2d0694b737d.
+29.07.2022   [WS => Shard 0] Shard received all its guilds. Marking as fully ready.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 328ms.
+29.07.2022   SEEN-#5771 
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 125ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 126ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 126ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 126ms.
+29.07.2022   [WS => Manager] Fetched Gateway Information
+    URL: wss://gateway.discord.gg
+    Recommended Shards: 1
+29.07.2022   [WS => Manager] Session Limit Information
+    Total: 1000
+    Remaining: 827
+29.07.2022   [WS => Shard 0] [CONNECT]
+    Gateway    : wss://gateway.discord.gg/
+    Version    : 9
+    Encoding   : json
+    Compression: none
+29.07.2022   [WS => Manager] Spawning shards: 0
+29.07.2022   [WS => Shard 0] Setting a HELLO timeout for 20s.
+29.07.2022   [WS => Manager] Session Limit Information
+    Total: 1000
+    Remaining: 827
+29.07.2022   [WS => Manager] Spawning shards: 0
+29.07.2022   [WS => Shard 0] [CONNECT]
+    Gateway    : wss://gateway.discord.gg/
+    Version    : 9
+    Encoding   : json
+    Compression: none
+29.07.2022   [WS => Shard 0] Setting a HELLO timeout for 20s.
+29.07.2022   [WS => Manager] Fetched Gateway Information
+    URL: wss://gateway.discord.gg
+    Recommended Shards: 1
+29.07.2022   [WS => Shard 0] [CONNECTED] Took 187ms
+29.07.2022   [WS => Shard 0] Clearing the HELLO timeout.
+29.07.2022   [WS => Shard 0] [IDENTIFY] Shard 0/1 with intents: 1539
+29.07.2022   [WS => Shard 0] Setting a heartbeat interval for 41250ms.
+29.07.2022   [WS => Shard 0] [CONNECTED] Took 190ms
+29.07.2022   [WS => Shard 0] Clearing the HELLO timeout.
+29.07.2022   [WS => Shard 0] Setting a heartbeat interval for 41250ms.
+29.07.2022   [WS => Shard 0] [IDENTIFY] Shard 0/1 with intents: 1539
+29.07.2022   [WS => Shard 0] [READY] Session 99d45516e03e3f2e575d360ca73673d5.
+29.07.2022   [WS => Shard 0] [ReadyHeartbeat] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Shard received all its guilds. Marking as fully ready.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 160ms.
+29.07.2022   [WS => Shard 0] [INVALID SESSION] Resumable: false.
+29.07.2022   [WS => Shard 0] Failed to connect to the gateway, requeueing...
+29.07.2022   [WS => Manager] Shard Queue Size: 1; continuing in 5 seconds...
+29.07.2022   [WS => Shard 0] An open connection was found, attempting an immediate identify.
+29.07.2022   [WS => Shard 0] [IDENTIFY] Shard 0/1 with intents: 1539
+29.07.2022   [WS => Shard 0] [ReadyHeartbeat] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] [READY] Session f9a4e2efa21b4bbdf2f1d21bf46f786d.
+29.07.2022   [WS => Shard 0] Shard received all its guilds. Marking as fully ready.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 171ms.
+29.07.2022   SEEN-#5771 
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 126ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 130ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 126ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 128ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 128ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 125ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 125ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 127ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 125ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 140ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 129ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 128ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 130ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 126ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 128ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 125ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 128ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 127ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 127ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 125ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 129ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 125ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 126ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 127ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 126ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 125ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 125ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 130ms.
+29.07.2022   SEEN-#5771 
+29.07.2022   SEEN-#5771 
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 134ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 125ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 125ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 144ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 126ms.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 127ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 125ms.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 126ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 128ms.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 125ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 126ms.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 125ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Clearing the heartbeat interval.
+29.07.2022   [WS => Shard 0] [CLOSE]
+    Event Code: 1006
+    Clean     : false
+    Reason    : 
+29.07.2022   [WS => Shard 0] A connection object was found. Cleaning up before continuing.
+    State: CLOSED
+29.07.2022   [WS => Shard 0] [DESTROY]
+    Close Code    : 1000
+    Reset         : false
+    Emit DESTROYED: false
+29.07.2022   [WS => Shard 0] Session id is present, attempting an immediate reconnect...
+29.07.2022   [WS => Shard 0] [CONNECT]
+    Gateway    : wss://gateway.discord.gg/
+    Version    : 9
+    Encoding   : json
+    Compression: none
+29.07.2022   [WS => Shard 0] Setting a HELLO timeout for 20s.
+29.07.2022   [WS => Shard 0] WS State: CLOSED
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] [CLOSE]
+    Event Code: 1006
+    Clean     : false
+    Reason    : 
+29.07.2022   [WS => Shard 0] Clearing the heartbeat interval.
+29.07.2022   [WS => Shard 0] Session id is present, attempting an immediate reconnect...
+29.07.2022   [WS => Shard 0] [CONNECTED] Took 220ms
+29.07.2022   [WS => Shard 0] Clearing the HELLO timeout.
+29.07.2022   [WS => Shard 0] Setting a heartbeat interval for 41250ms.
+29.07.2022   [WS => Shard 0] [RESUME] Session 99d45516e03e3f2e575d360ca73673d5, sequence 102
+29.07.2022   [WS => Shard 0] [RESUMED] Session 99d45516e03e3f2e575d360ca73673d5 | Replayed 1 events.
+29.07.2022   [WS => Manager] Shard Queue Size: 1; continuing in 5 seconds...
+29.07.2022   [WS => Shard 0] [ResumeHeartbeat] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 137ms.
+29.07.2022   [WS => Shard 0] A connection object was found. Cleaning up before continuing.
+    State: CLOSED
+29.07.2022   [WS => Shard 0] [DESTROY]
+    Close Code    : 1000
+    Reset         : false
+    Emit DESTROYED: false
+29.07.2022   [WS => Shard 0] [CONNECT]
+    Gateway    : wss://gateway.discord.gg/
+    Version    : 9
+    Encoding   : json
+    Compression: none
+29.07.2022   [WS => Shard 0] WS State: CLOSED
+29.07.2022   [WS => Shard 0] Setting a HELLO timeout for 20s.
+29.07.2022   [WS => Shard 0] [CONNECTED] Took 223ms
+29.07.2022   [WS => Shard 0] Setting a heartbeat interval for 41250ms.
+29.07.2022   [WS => Shard 0] [RESUME] Session f9a4e2efa21b4bbdf2f1d21bf46f786d, sequence 102
+29.07.2022   [WS => Shard 0] Clearing the HELLO timeout.
+29.07.2022   [WS => Shard 0] [ResumeHeartbeat] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] [RESUMED] Session f9a4e2efa21b4bbdf2f1d21bf46f786d | Replayed 1 events.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 138ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 138ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 139ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 140ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 138ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 139ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 138ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 138ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 138ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 138ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 138ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 138ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 138ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 138ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 137ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 138ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 138ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 138ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 138ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 139ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 393ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 138ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 138ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 139ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 142ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 138ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 138ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 138ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 138ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 139ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 145ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 141ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 139ms.
+29.07.2022   [WS => Manager] Fetched Gateway Information
+    URL: wss://gateway.discord.gg
+    Recommended Shards: 1
+29.07.2022   [WS => Manager] Spawning shards: 0
+29.07.2022   [WS => Manager] Session Limit Information
+    Total: 1000
+    Remaining: 825
+29.07.2022   [WS => Shard 0] [CONNECT]
+    Gateway    : wss://gateway.discord.gg/
+    Version    : 9
+    Encoding   : json
+    Compression: none
+29.07.2022   [WS => Shard 0] Setting a HELLO timeout for 20s.
+29.07.2022   [WS => Manager] Fetched Gateway Information
+    URL: wss://gateway.discord.gg
+    Recommended Shards: 1
+29.07.2022   [WS => Manager] Session Limit Information
+    Total: 1000
+    Remaining: 825
+29.07.2022   [WS => Manager] Spawning shards: 0
+29.07.2022   [WS => Shard 0] [CONNECT]
+    Gateway    : wss://gateway.discord.gg/
+    Version    : 9
+    Encoding   : json
+    Compression: none
+29.07.2022   [WS => Shard 0] Setting a HELLO timeout for 20s.
+29.07.2022   [WS => Shard 0] Clearing the HELLO timeout.
+29.07.2022   [WS => Shard 0] [CONNECTED] Took 238ms
+29.07.2022   [WS => Shard 0] Setting a heartbeat interval for 41250ms.
+29.07.2022   [WS => Shard 0] [IDENTIFY] Shard 0/1 with intents: 1539
+29.07.2022   [WS => Shard 0] [CONNECTED] Took 218ms
+29.07.2022   [WS => Shard 0] Clearing the HELLO timeout.
+29.07.2022   [WS => Shard 0] Setting a heartbeat interval for 41250ms.
+29.07.2022   [WS => Shard 0] [IDENTIFY] Shard 0/1 with intents: 1539
+29.07.2022   [WS => Shard 0] [READY] Session a2eb3ae7acf1f8550900a7218dfd8076.
+29.07.2022   [WS => Shard 0] [ReadyHeartbeat] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Shard received all its guilds. Marking as fully ready.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 162ms.
+29.07.2022   [WS => Shard 0] [INVALID SESSION] Resumable: false.
+29.07.2022   [WS => Shard 0] Failed to connect to the gateway, requeueing...
+29.07.2022   [WS => Manager] Shard Queue Size: 1; continuing in 5 seconds...
+29.07.2022   [WS => Shard 0] An open connection was found, attempting an immediate identify.
+29.07.2022   [WS => Shard 0] [IDENTIFY] Shard 0/1 with intents: 1539
+29.07.2022   [WS => Shard 0] [READY] Session 6698d86c7a1477a5ce4bbc304748aeb9.
+29.07.2022   [WS => Shard 0] [ReadyHeartbeat] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Shard received all its guilds. Marking as fully ready.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 145ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 139ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 137ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 141ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 139ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 138ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 141ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 138ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 137ms.
+29.07.2022   [WS => Manager] Fetched Gateway Information
+    URL: wss://gateway.discord.gg
+    Recommended Shards: 1
+29.07.2022   [WS => Manager] Spawning shards: 0
+29.07.2022   [WS => Shard 0] [CONNECT]
+    Gateway    : wss://gateway.discord.gg/
+    Version    : 9
+    Encoding   : json
+    Compression: none
+29.07.2022   [WS => Manager] Session Limit Information
+    Total: 1000
+    Remaining: 823
+29.07.2022   [WS => Shard 0] Setting a HELLO timeout for 20s.
+29.07.2022   [WS => Manager] Fetched Gateway Information
+    URL: wss://gateway.discord.gg
+    Recommended Shards: 1
+29.07.2022   [WS => Manager] Session Limit Information
+    Total: 1000
+    Remaining: 823
+29.07.2022   [WS => Manager] Spawning shards: 0
+29.07.2022   [WS => Shard 0] [CONNECT]
+    Gateway    : wss://gateway.discord.gg/
+    Version    : 9
+    Encoding   : json
+    Compression: none
+29.07.2022   [WS => Shard 0] Setting a HELLO timeout for 20s.
+29.07.2022   [WS => Shard 0] [CONNECTED] Took 222ms
+29.07.2022   [WS => Shard 0] Clearing the HELLO timeout.
+29.07.2022   [WS => Shard 0] Setting a heartbeat interval for 41250ms.
+29.07.2022   [WS => Shard 0] [IDENTIFY] Shard 0/1 with intents: 1539
+29.07.2022   [WS => Shard 0] [CONNECTED] Took 221ms
+29.07.2022   [WS => Shard 0] Clearing the HELLO timeout.
+29.07.2022   [WS => Shard 0] Setting a heartbeat interval for 41250ms.
+29.07.2022   [WS => Shard 0] [IDENTIFY] Shard 0/1 with intents: 1539
+29.07.2022   [WS => Shard 0] [READY] Session 5b159910b7854a7780644156815c0d38.
+29.07.2022   [WS => Shard 0] [ReadyHeartbeat] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Shard received all its guilds. Marking as fully ready.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 237ms.
+29.07.2022   [WS => Shard 0] [INVALID SESSION] Resumable: false.
+29.07.2022   [WS => Shard 0] Failed to connect to the gateway, requeueing...
+29.07.2022   [WS => Manager] Shard Queue Size: 1; continuing in 5 seconds...
+29.07.2022   [WS => Shard 0] An open connection was found, attempting an immediate identify.
+29.07.2022   [WS => Shard 0] [IDENTIFY] Shard 0/1 with intents: 1539
+29.07.2022   [WS => Shard 0] [READY] Session a7de9e999bf20d76309d2652543483e5.
+29.07.2022   [WS => Shard 0] [ReadyHeartbeat] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Shard received all its guilds. Marking as fully ready.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 246ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 139ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 138ms.
+29.07.2022   [WS => Manager] Fetched Gateway Information
+    URL: wss://gateway.discord.gg
+    Recommended Shards: 1
+29.07.2022   [WS => Manager] Session Limit Information
+    Total: 1000
+    Remaining: 821
+29.07.2022   [WS => Manager] Spawning shards: 0
+29.07.2022   [WS => Shard 0] [CONNECT]
+    Gateway    : wss://gateway.discord.gg/
+    Version    : 9
+    Encoding   : json
+    Compression: none
+29.07.2022   [WS => Shard 0] Setting a HELLO timeout for 20s.
+29.07.2022   [WS => Manager] Fetched Gateway Information
+    URL: wss://gateway.discord.gg
+    Recommended Shards: 1
+29.07.2022   [WS => Manager] Session Limit Information
+    Total: 1000
+    Remaining: 821
+29.07.2022   [WS => Manager] Spawning shards: 0
+29.07.2022   [WS => Shard 0] [CONNECT]
+    Gateway    : wss://gateway.discord.gg/
+    Version    : 9
+    Encoding   : json
+    Compression: none
+29.07.2022   [WS => Shard 0] Setting a HELLO timeout for 20s.
+29.07.2022   [WS => Shard 0] [CONNECTED] Took 224ms
+29.07.2022   [WS => Shard 0] Clearing the HELLO timeout.
+29.07.2022   [WS => Shard 0] Setting a heartbeat interval for 41250ms.
+29.07.2022   [WS => Shard 0] [IDENTIFY] Shard 0/1 with intents: 1539
+29.07.2022   [WS => Shard 0] [CONNECTED] Took 227ms
+29.07.2022   [WS => Shard 0] Clearing the HELLO timeout.
+29.07.2022   [WS => Shard 0] Setting a heartbeat interval for 41250ms.
+29.07.2022   [WS => Shard 0] [IDENTIFY] Shard 0/1 with intents: 1539
+29.07.2022   [WS => Shard 0] [READY] Session 963380e8c42cd4cf03d07b43efbf2b1d.
+29.07.2022   [WS => Shard 0] [ReadyHeartbeat] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Shard received all its guilds. Marking as fully ready.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 175ms.
+29.07.2022   [WS => Shard 0] [INVALID SESSION] Resumable: false.
+29.07.2022   [WS => Manager] Shard Queue Size: 1; continuing in 5 seconds...
+29.07.2022   [WS => Shard 0] Failed to connect to the gateway, requeueing...
+29.07.2022   [WS => Shard 0] An open connection was found, attempting an immediate identify.
+29.07.2022   [WS => Shard 0] [IDENTIFY] Shard 0/1 with intents: 1539
+29.07.2022   [WS => Shard 0] [READY] Session a95db6418619eaba6e628e537c5916c8.
+29.07.2022   [WS => Shard 0] [ReadyHeartbeat] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Shard received all its guilds. Marking as fully ready.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 200ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 137ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 138ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 137ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 137ms.
+29.07.2022   StartIT#2275 siemaneczko <@568189081792544799>
+29.07.2022   matix78#0001 
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 137ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 143ms.
+29.07.2022   Dyno#0000 
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 137ms.
+29.07.2022   [WS => Manager] Fetched Gateway Information
+    URL: wss://gateway.discord.gg
+    Recommended Shards: 1
+29.07.2022   [WS => Manager] Session Limit Information
+    Total: 1000
+    Remaining: 819
+29.07.2022   [WS => Shard 0] [CONNECT]
+    Gateway    : wss://gateway.discord.gg/
+    Version    : 9
+    Encoding   : json
+    Compression: none
+29.07.2022   [WS => Manager] Spawning shards: 0
+29.07.2022   [WS => Shard 0] Setting a HELLO timeout for 20s.
+29.07.2022   [WS => Manager] Fetched Gateway Information
+    URL: wss://gateway.discord.gg
+    Recommended Shards: 1
+29.07.2022   [WS => Manager] Session Limit Information
+    Total: 1000
+    Remaining: 819
+29.07.2022   [WS => Manager] Spawning shards: 0
+29.07.2022   [WS => Shard 0] [CONNECT]
+    Gateway    : wss://gateway.discord.gg/
+    Version    : 9
+    Encoding   : json
+    Compression: none
+29.07.2022   [WS => Shard 0] Setting a HELLO timeout for 20s.
+29.07.2022   [WS => Shard 0] [CONNECTED] Took 224ms
+29.07.2022   [WS => Shard 0] Clearing the HELLO timeout.
+29.07.2022   [WS => Shard 0] [IDENTIFY] Shard 0/1 with intents: 1539
+29.07.2022   [WS => Shard 0] Setting a heartbeat interval for 41250ms.
+29.07.2022   [WS => Shard 0] [CONNECTED] Took 224ms
+29.07.2022   [WS => Shard 0] Clearing the HELLO timeout.
+29.07.2022   [WS => Shard 0] Setting a heartbeat interval for 41250ms.
+29.07.2022   [WS => Shard 0] [IDENTIFY] Shard 0/1 with intents: 1539
+29.07.2022   [WS => Shard 0] [READY] Session c0d4c77911410a4b7509e5efd2313850.
+29.07.2022   [WS => Shard 0] [ReadyHeartbeat] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Shard received all its guilds. Marking as fully ready.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 225ms.
+29.07.2022   [WS => Shard 0] [INVALID SESSION] Resumable: false.
+29.07.2022   [WS => Shard 0] Failed to connect to the gateway, requeueing...
+29.07.2022   [WS => Manager] Shard Queue Size: 1; continuing in 5 seconds...
+29.07.2022   [WS => Shard 0] An open connection was found, attempting an immediate identify.
+29.07.2022   [WS => Shard 0] [IDENTIFY] Shard 0/1 with intents: 1539
+29.07.2022   [WS => Shard 0] [READY] Session 7a1be8e7861ccbe24508aa77a86d10ef.
+29.07.2022   [WS => Shard 0] [ReadyHeartbeat] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Shard received all its guilds. Marking as fully ready.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 423ms.
+29.07.2022   [WS => Manager] Fetched Gateway Information
+    URL: wss://gateway.discord.gg
+    Recommended Shards: 1
+29.07.2022   [WS => Manager] Session Limit Information
+    Total: 1000
+    Remaining: 817
+29.07.2022   [WS => Manager] Spawning shards: 0
+29.07.2022   [WS => Shard 0] [CONNECT]
+    Gateway    : wss://gateway.discord.gg/
+    Version    : 9
+    Encoding   : json
+    Compression: none
+29.07.2022   [WS => Shard 0] Setting a HELLO timeout for 20s.
+29.07.2022   [WS => Manager] Fetched Gateway Information
+    URL: wss://gateway.discord.gg
+    Recommended Shards: 1
+29.07.2022   [WS => Manager] Session Limit Information
+    Total: 1000
+    Remaining: 817
+29.07.2022   [WS => Shard 0] [CONNECT]
+    Gateway    : wss://gateway.discord.gg/
+    Version    : 9
+    Encoding   : json
+    Compression: none
+29.07.2022   [WS => Shard 0] Setting a HELLO timeout for 20s.
+29.07.2022   [WS => Manager] Spawning shards: 0
+29.07.2022   [WS => Shard 0] [CONNECTED] Took 228ms
+29.07.2022   [WS => Shard 0] Clearing the HELLO timeout.
+29.07.2022   [WS => Shard 0] Setting a heartbeat interval for 41250ms.
+29.07.2022   [WS => Shard 0] [IDENTIFY] Shard 0/1 with intents: 1539
+29.07.2022   [WS => Shard 0] [CONNECTED] Took 222ms
+29.07.2022   [WS => Shard 0] Setting a heartbeat interval for 41250ms.
+29.07.2022   [WS => Shard 0] Clearing the HELLO timeout.
+29.07.2022   [WS => Shard 0] [IDENTIFY] Shard 0/1 with intents: 1539
+29.07.2022   [WS => Shard 0] [READY] Session 02c16d4e637eb7207b2320c9dbffcbc0.
+29.07.2022   [WS => Shard 0] [ReadyHeartbeat] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Shard received all its guilds. Marking as fully ready.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 166ms.
+29.07.2022   [WS => Manager] Fetched Gateway Information
+    URL: wss://gateway.discord.gg
+    Recommended Shards: 1
+29.07.2022   [WS => Manager] Spawning shards: 0
+29.07.2022   [WS => Shard 0] [CONNECT]
+    Gateway    : wss://gateway.discord.gg/
+    Version    : 9
+    Encoding   : json
+    Compression: none
+29.07.2022   [WS => Manager] Session Limit Information
+    Total: 1000
+    Remaining: 816
+29.07.2022   [WS => Shard 0] Setting a HELLO timeout for 20s.
+29.07.2022   [WS => Manager] Fetched Gateway Information
+    URL: wss://gateway.discord.gg
+    Recommended Shards: 1
+29.07.2022   [WS => Manager] Session Limit Information
+    Total: 1000
+    Remaining: 816
+29.07.2022   [WS => Manager] Spawning shards: 0
+29.07.2022   [WS => Shard 0] [CONNECT]
+    Gateway    : wss://gateway.discord.gg/
+    Version    : 9
+    Encoding   : json
+    Compression: none
+29.07.2022   [WS => Shard 0] Setting a HELLO timeout for 20s.
+29.07.2022   [WS => Shard 0] [CONNECTED] Took 229ms
+29.07.2022   [WS => Shard 0] Clearing the HELLO timeout.
+29.07.2022   [WS => Shard 0] Setting a heartbeat interval for 41250ms.
+29.07.2022   [WS => Shard 0] [IDENTIFY] Shard 0/1 with intents: 1539
+29.07.2022   [WS => Shard 0] [CONNECTED] Took 221ms
+29.07.2022   [WS => Shard 0] Clearing the HELLO timeout.
+29.07.2022   [WS => Shard 0] [IDENTIFY] Shard 0/1 with intents: 1539
+29.07.2022   [WS => Shard 0] Setting a heartbeat interval for 41250ms.
+29.07.2022   [WS => Shard 0] [READY] Session 7cb10bbad062b055017504972e2d0024.
+29.07.2022   [WS => Shard 0] [ReadyHeartbeat] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Shard received all its guilds. Marking as fully ready.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 254ms.
+29.07.2022   [WS => Shard 0] [INVALID SESSION] Resumable: false.
+29.07.2022   [WS => Shard 0] Failed to connect to the gateway, requeueing...
+29.07.2022   [WS => Manager] Shard Queue Size: 1; continuing in 5 seconds...
+29.07.2022   [WS => Shard 0] An open connection was found, attempting an immediate identify.
+29.07.2022   [WS => Shard 0] [IDENTIFY] Shard 0/1 with intents: 1539
+29.07.2022   [WS => Shard 0] [ReadyHeartbeat] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] [READY] Session 1ca1dcb290ab8f52d35df4de1669927d.
+29.07.2022   [WS => Shard 0] Shard received all its guilds. Marking as fully ready.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 303ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 139ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 138ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 136ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 139ms.
+29.07.2022   [WS => Manager] Fetched Gateway Information
+    URL: wss://gateway.discord.gg
+    Recommended Shards: 1
+29.07.2022   [WS => Manager] Session Limit Information
+    Total: 1000
+    Remaining: 814
+29.07.2022   [WS => Manager] Spawning shards: 0
+29.07.2022   [WS => Shard 0] [CONNECT]
+    Gateway    : wss://gateway.discord.gg/
+    Version    : 9
+    Encoding   : json
+    Compression: none
+29.07.2022   [WS => Shard 0] Setting a HELLO timeout for 20s.
+29.07.2022   [WS => Manager] Fetched Gateway Information
+    URL: wss://gateway.discord.gg
+    Recommended Shards: 1
+29.07.2022   [WS => Manager] Session Limit Information
+    Total: 1000
+    Remaining: 814
+29.07.2022   [WS => Manager] Spawning shards: 0
+29.07.2022   [WS => Shard 0] [CONNECT]
+    Gateway    : wss://gateway.discord.gg/
+    Version    : 9
+    Encoding   : json
+    Compression: none
+29.07.2022   [WS => Shard 0] Setting a HELLO timeout for 20s.
+29.07.2022   [WS => Shard 0] [CONNECTED] Took 223ms
+29.07.2022   [WS => Shard 0] Clearing the HELLO timeout.
+29.07.2022   [WS => Shard 0] Setting a heartbeat interval for 41250ms.
+29.07.2022   [WS => Shard 0] [IDENTIFY] Shard 0/1 with intents: 1539
+29.07.2022   [WS => Shard 0] [CONNECTED] Took 221ms
+29.07.2022   [WS => Shard 0] Clearing the HELLO timeout.
+29.07.2022   [WS => Shard 0] Setting a heartbeat interval for 41250ms.
+29.07.2022   [WS => Shard 0] [IDENTIFY] Shard 0/1 with intents: 1539
+29.07.2022   [WS => Shard 0] [READY] Session f6508a87fa3b918caf23f2b86d74e874.
+29.07.2022   [WS => Shard 0] [ReadyHeartbeat] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Shard received all its guilds. Marking as fully ready.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 195ms.
+29.07.2022   [WS => Shard 0] [INVALID SESSION] Resumable: false.
+29.07.2022   [WS => Shard 0] Failed to connect to the gateway, requeueing...
+29.07.2022   [WS => Manager] Shard Queue Size: 1; continuing in 5 seconds...
+29.07.2022   [WS => Shard 0] [IDENTIFY] Shard 0/1 with intents: 1539
+29.07.2022   [WS => Shard 0] An open connection was found, attempting an immediate identify.
+29.07.2022   [WS => Shard 0] [READY] Session ebb8235356b552193626067068bef73e.
+29.07.2022   [WS => Shard 0] [ReadyHeartbeat] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Shard received all its guilds. Marking as fully ready.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 170ms.
+29.07.2022   SEEN-#5771 
+29.07.2022   [WS => Manager] Fetched Gateway Information
+    URL: wss://gateway.discord.gg
+    Recommended Shards: 1
+29.07.2022   [WS => Manager] Spawning shards: 0
+29.07.2022   [WS => Manager] Session Limit Information
+    Total: 1000
+    Remaining: 812
+29.07.2022   [WS => Shard 0] [CONNECT]
+    Gateway    : wss://gateway.discord.gg/
+    Version    : 9
+    Encoding   : json
+    Compression: none
+29.07.2022   [WS => Shard 0] Setting a HELLO timeout for 20s.
+29.07.2022   [WS => Manager] Fetched Gateway Information
+    URL: wss://gateway.discord.gg
+    Recommended Shards: 1
+29.07.2022   [WS => Manager] Session Limit Information
+    Total: 1000
+    Remaining: 812
+29.07.2022   [WS => Shard 0] [CONNECT]
+    Gateway    : wss://gateway.discord.gg/
+    Version    : 9
+    Encoding   : json
+    Compression: none
+29.07.2022   [WS => Manager] Spawning shards: 0
+29.07.2022   [WS => Shard 0] Setting a HELLO timeout for 20s.
+29.07.2022   [WS => Shard 0] [CONNECTED] Took 225ms
+29.07.2022   [WS => Shard 0] Clearing the HELLO timeout.
+29.07.2022   [WS => Shard 0] [IDENTIFY] Shard 0/1 with intents: 1539
+29.07.2022   [WS => Shard 0] Setting a heartbeat interval for 41250ms.
+29.07.2022   [WS => Shard 0] [CONNECTED] Took 220ms
+29.07.2022   [WS => Shard 0] Clearing the HELLO timeout.
+29.07.2022   [WS => Shard 0] [IDENTIFY] Shard 0/1 with intents: 1539
+29.07.2022   [WS => Shard 0] Setting a heartbeat interval for 41250ms.
+29.07.2022   [WS => Shard 0] [READY] Session 4262f6e62f481b1b0b6cb4a37c4f752a.
+29.07.2022   [WS => Shard 0] [ReadyHeartbeat] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Shard received all its guilds. Marking as fully ready.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 383ms.
+29.07.2022   [WS => Shard 0] [INVALID SESSION] Resumable: false.
+29.07.2022   [WS => Shard 0] Failed to connect to the gateway, requeueing...
+29.07.2022   [WS => Manager] Shard Queue Size: 1; continuing in 5 seconds...
+29.07.2022   [WS => Shard 0] [IDENTIFY] Shard 0/1 with intents: 1539
+29.07.2022   [WS => Shard 0] An open connection was found, attempting an immediate identify.
+29.07.2022   [WS => Shard 0] [READY] Session 01b9f1ff326c19bd9fbda9835fec33f2.
+29.07.2022   [WS => Shard 0] [ReadyHeartbeat] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Shard received all its guilds. Marking as fully ready.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 334ms.
+29.07.2022   [WS => Manager] Fetched Gateway Information
+    URL: wss://gateway.discord.gg
+    Recommended Shards: 1
+29.07.2022   [WS => Manager] Session Limit Information
+    Total: 1000
+    Remaining: 810
+29.07.2022   [WS => Manager] Spawning shards: 0
+29.07.2022   [WS => Shard 0] [CONNECT]
+    Gateway    : wss://gateway.discord.gg/
+    Version    : 9
+    Encoding   : json
+    Compression: none
+29.07.2022   [WS => Shard 0] Setting a HELLO timeout for 20s.
+29.07.2022   [WS => Manager] Fetched Gateway Information
+    URL: wss://gateway.discord.gg
+    Recommended Shards: 1
+29.07.2022   [WS => Manager] Spawning shards: 0
+29.07.2022   [WS => Manager] Session Limit Information
+    Total: 1000
+    Remaining: 810
+29.07.2022   [WS => Shard 0] [CONNECT]
+    Gateway    : wss://gateway.discord.gg/
+    Version    : 9
+    Encoding   : json
+    Compression: none
+29.07.2022   [WS => Shard 0] Setting a HELLO timeout for 20s.
+29.07.2022   [WS => Shard 0] [CONNECTED] Took 220ms
+29.07.2022   [WS => Shard 0] Clearing the HELLO timeout.
+29.07.2022   [WS => Shard 0] Setting a heartbeat interval for 41250ms.
+29.07.2022   [WS => Shard 0] [IDENTIFY] Shard 0/1 with intents: 1539
+29.07.2022   [WS => Shard 0] [CONNECTED] Took 227ms
+29.07.2022   [WS => Shard 0] Clearing the HELLO timeout.
+29.07.2022   [WS => Shard 0] [IDENTIFY] Shard 0/1 with intents: 1539
+29.07.2022   [WS => Shard 0] Setting a heartbeat interval for 41250ms.
+29.07.2022   [WS => Shard 0] [READY] Session 2f4b7ce06566f0c307fb6f833ddd9d80.
+29.07.2022   [WS => Shard 0] [ReadyHeartbeat] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Shard received all its guilds. Marking as fully ready.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 182ms.
+29.07.2022   [WS => Shard 0] [INVALID SESSION] Resumable: false.
+29.07.2022   [WS => Shard 0] Failed to connect to the gateway, requeueing...
+29.07.2022   [WS => Manager] Shard Queue Size: 1; continuing in 5 seconds...
+29.07.2022   [WS => Shard 0] An open connection was found, attempting an immediate identify.
+29.07.2022   [WS => Shard 0] [IDENTIFY] Shard 0/1 with intents: 1539
+29.07.2022   [WS => Shard 0] [READY] Session 258bddba65162a180db03743b28043f3.
+29.07.2022   [WS => Shard 0] [ReadyHeartbeat] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Shard received all its guilds. Marking as fully ready.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 227ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 140ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 138ms.
+29.07.2022   SEEN-#5771 
+29.07.2022   [WS => Manager] Fetched Gateway Information
+    URL: wss://gateway.discord.gg
+    Recommended Shards: 1
+29.07.2022   [WS => Manager] Spawning shards: 0
+29.07.2022   [WS => Manager] Session Limit Information
+    Total: 1000
+    Remaining: 808
+29.07.2022   [WS => Shard 0] [CONNECT]
+    Gateway    : wss://gateway.discord.gg/
+    Version    : 9
+    Encoding   : json
+    Compression: none
+29.07.2022   [WS => Shard 0] Setting a HELLO timeout for 20s.
+29.07.2022   [WS => Manager] Fetched Gateway Information
+    URL: wss://gateway.discord.gg
+    Recommended Shards: 1
+29.07.2022   [WS => Manager] Spawning shards: 0
+29.07.2022   [WS => Manager] Session Limit Information
+    Total: 1000
+    Remaining: 808
+29.07.2022   [WS => Shard 0] [CONNECT]
+    Gateway    : wss://gateway.discord.gg/
+    Version    : 9
+    Encoding   : json
+    Compression: none
+29.07.2022   [WS => Shard 0] Setting a HELLO timeout for 20s.
+29.07.2022   [WS => Shard 0] [CONNECTED] Took 226ms
+29.07.2022   [WS => Shard 0] Clearing the HELLO timeout.
+29.07.2022   [WS => Shard 0] Setting a heartbeat interval for 41250ms.
+29.07.2022   [WS => Shard 0] [IDENTIFY] Shard 0/1 with intents: 1539
+29.07.2022   [WS => Shard 0] [CONNECTED] Took 222ms
+29.07.2022   [WS => Shard 0] Clearing the HELLO timeout.
+29.07.2022   [WS => Shard 0] Setting a heartbeat interval for 41250ms.
+29.07.2022   [WS => Shard 0] [IDENTIFY] Shard 0/1 with intents: 1539
+29.07.2022   [WS => Shard 0] [READY] Session 386b87592c24d6547e1a128a948bc1be.
+29.07.2022   [WS => Shard 0] [ReadyHeartbeat] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Shard received all its guilds. Marking as fully ready.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 171ms.
+29.07.2022   [WS => Shard 0] [INVALID SESSION] Resumable: false.
+29.07.2022   [WS => Shard 0] Failed to connect to the gateway, requeueing...
+29.07.2022   [WS => Manager] Shard Queue Size: 1; continuing in 5 seconds...
+29.07.2022   [WS => Shard 0] An open connection was found, attempting an immediate identify.
+29.07.2022   [WS => Shard 0] [IDENTIFY] Shard 0/1 with intents: 1539
+29.07.2022   [WS => Shard 0] [READY] Session 0031164d821786e4b18557f39fa1837a.
+29.07.2022   [WS => Shard 0] [ReadyHeartbeat] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Shard received all its guilds. Marking as fully ready.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 153ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 137ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 137ms.
+29.07.2022   SEEN-#5771 
+29.07.2022   [WS => Manager] Fetched Gateway Information
+    URL: wss://gateway.discord.gg
+    Recommended Shards: 1
+29.07.2022   [WS => Manager] Session Limit Information
+    Total: 1000
+    Remaining: 806
+29.07.2022   [WS => Manager] Spawning shards: 0
+29.07.2022   [WS => Shard 0] [CONNECT]
+    Gateway    : wss://gateway.discord.gg/
+    Version    : 9
+    Encoding   : json
+    Compression: none
+29.07.2022   [WS => Shard 0] Setting a HELLO timeout for 20s.
+29.07.2022   [WS => Manager] Fetched Gateway Information
+    URL: wss://gateway.discord.gg
+    Recommended Shards: 1
+29.07.2022   [WS => Manager] Session Limit Information
+    Total: 1000
+    Remaining: 806
+29.07.2022   [WS => Manager] Spawning shards: 0
+29.07.2022   [WS => Shard 0] Setting a HELLO timeout for 20s.
+29.07.2022   [WS => Shard 0] [CONNECT]
+    Gateway    : wss://gateway.discord.gg/
+    Version    : 9
+    Encoding   : json
+    Compression: none
+29.07.2022   [WS => Shard 0] [CONNECTED] Took 221ms
+29.07.2022   [WS => Shard 0] Clearing the HELLO timeout.
+29.07.2022   [WS => Shard 0] Setting a heartbeat interval for 41250ms.
+29.07.2022   [WS => Shard 0] [IDENTIFY] Shard 0/1 with intents: 1539
+29.07.2022   [WS => Shard 0] [CONNECTED] Took 220ms
+29.07.2022   [WS => Shard 0] Clearing the HELLO timeout.
+29.07.2022   [WS => Shard 0] [IDENTIFY] Shard 0/1 with intents: 1539
+29.07.2022   [WS => Shard 0] Setting a heartbeat interval for 41250ms.
+29.07.2022   [WS => Shard 0] [READY] Session 3a2ae13020675f95a2cb6b40f27b93a9.
+29.07.2022   [WS => Shard 0] [ReadyHeartbeat] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Shard received all its guilds. Marking as fully ready.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 154ms.
+29.07.2022   [WS => Shard 0] [INVALID SESSION] Resumable: false.
+29.07.2022   [WS => Shard 0] Failed to connect to the gateway, requeueing...
+29.07.2022   [WS => Manager] Shard Queue Size: 1; continuing in 5 seconds...
+29.07.2022   [WS => Shard 0] An open connection was found, attempting an immediate identify.
+29.07.2022   [WS => Shard 0] [IDENTIFY] Shard 0/1 with intents: 1539
+29.07.2022   [WS => Shard 0] [READY] Session 5c14ca56b4543410c2fc6175403a6f12.
+29.07.2022   [WS => Shard 0] [ReadyHeartbeat] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Shard received all its guilds. Marking as fully ready.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 150ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 136ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 136ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   SEEN-#5771 
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 137ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 137ms.
+29.07.2022   [WS => Manager] Fetched Gateway Information
+    URL: wss://gateway.discord.gg
+    Recommended Shards: 1
+29.07.2022   [WS => Manager] Session Limit Information
+    Total: 1000
+    Remaining: 804
+29.07.2022   [WS => Manager] Spawning shards: 0
+29.07.2022   [WS => Shard 0] [CONNECT]
+    Gateway    : wss://gateway.discord.gg/
+    Version    : 9
+    Encoding   : json
+    Compression: none
+29.07.2022   [WS => Shard 0] Setting a HELLO timeout for 20s.
+29.07.2022   [WS => Manager] Fetched Gateway Information
+    URL: wss://gateway.discord.gg
+    Recommended Shards: 1
+29.07.2022   [WS => Manager] Session Limit Information
+    Total: 1000
+    Remaining: 804
+29.07.2022   [WS => Manager] Spawning shards: 0
+29.07.2022   [WS => Shard 0] Setting a HELLO timeout for 20s.
+29.07.2022   [WS => Shard 0] [CONNECT]
+    Gateway    : wss://gateway.discord.gg/
+    Version    : 9
+    Encoding   : json
+    Compression: none
+29.07.2022   [WS => Shard 0] [CONNECTED] Took 223ms
+29.07.2022   [WS => Shard 0] Clearing the HELLO timeout.
+29.07.2022   [WS => Shard 0] Setting a heartbeat interval for 41250ms.
+29.07.2022   [WS => Shard 0] [IDENTIFY] Shard 0/1 with intents: 1539
+29.07.2022   [WS => Shard 0] [CONNECTED] Took 236ms
+29.07.2022   [WS => Shard 0] Clearing the HELLO timeout.
+29.07.2022   [WS => Shard 0] Setting a heartbeat interval for 41250ms.
+29.07.2022   [WS => Shard 0] [IDENTIFY] Shard 0/1 with intents: 1539
+29.07.2022   [WS => Shard 0] [READY] Session 02e171914ffd5fe56f9fe42311a94cd4.
+29.07.2022   [WS => Shard 0] [ReadyHeartbeat] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Shard received all its guilds. Marking as fully ready.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 319ms.
+29.07.2022   [WS => Shard 0] [INVALID SESSION] Resumable: false.
+29.07.2022   [WS => Shard 0] Failed to connect to the gateway, requeueing...
+29.07.2022   [WS => Manager] Shard Queue Size: 1; continuing in 5 seconds...
+29.07.2022   [WS => Shard 0] An open connection was found, attempting an immediate identify.
+29.07.2022   [WS => Shard 0] [IDENTIFY] Shard 0/1 with intents: 1539
+29.07.2022   [WS => Shard 0] [READY] Session af279bfa33efd9e99ec2626827bdff07.
+29.07.2022   [WS => Shard 0] [ReadyHeartbeat] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Shard received all its guilds. Marking as fully ready.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 244ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 136ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 138ms.
+29.07.2022   SEEN-#5771 
+29.07.2022   [WS => Manager] Fetched Gateway Information
+    URL: wss://gateway.discord.gg
+    Recommended Shards: 1
+29.07.2022   [WS => Manager] Session Limit Information
+    Total: 1000
+    Remaining: 802
+29.07.2022   [WS => Shard 0] [CONNECT]
+    Gateway    : wss://gateway.discord.gg/
+    Version    : 9
+    Encoding   : json
+    Compression: none
+29.07.2022   [WS => Manager] Spawning shards: 0
+29.07.2022   [WS => Shard 0] Setting a HELLO timeout for 20s.
+29.07.2022   [WS => Manager] Fetched Gateway Information
+    URL: wss://gateway.discord.gg
+    Recommended Shards: 1
+29.07.2022   [WS => Manager] Spawning shards: 0
+29.07.2022   [WS => Manager] Session Limit Information
+    Total: 1000
+    Remaining: 802
+29.07.2022   [WS => Shard 0] [CONNECT]
+    Gateway    : wss://gateway.discord.gg/
+    Version    : 9
+    Encoding   : json
+    Compression: none
+29.07.2022   [WS => Shard 0] Setting a HELLO timeout for 20s.
+29.07.2022   [WS => Shard 0] [CONNECTED] Took 229ms
+29.07.2022   [WS => Shard 0] Clearing the HELLO timeout.
+29.07.2022   [WS => Shard 0] Setting a heartbeat interval for 41250ms.
+29.07.2022   [WS => Shard 0] [IDENTIFY] Shard 0/1 with intents: 1539
+29.07.2022   [WS => Shard 0] [CONNECTED] Took 224ms
+29.07.2022   [WS => Shard 0] Clearing the HELLO timeout.
+29.07.2022   [WS => Shard 0] Setting a heartbeat interval for 41250ms.
+29.07.2022   [WS => Shard 0] [IDENTIFY] Shard 0/1 with intents: 1539
+29.07.2022   [WS => Shard 0] [READY] Session a3b08a6e335b442a4b7b1cfb0be7a934.
+29.07.2022   [WS => Shard 0] [ReadyHeartbeat] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Shard received all its guilds. Marking as fully ready.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 181ms.
+29.07.2022   [WS => Shard 0] [INVALID SESSION] Resumable: false.
+29.07.2022   [WS => Manager] Shard Queue Size: 1; continuing in 5 seconds...
+29.07.2022   [WS => Shard 0] Failed to connect to the gateway, requeueing...
+29.07.2022   [WS => Shard 0] An open connection was found, attempting an immediate identify.
+29.07.2022   [WS => Shard 0] [IDENTIFY] Shard 0/1 with intents: 1539
+29.07.2022   [WS => Shard 0] [READY] Session 960413f90843cc8f61b296a01104e88b.
+29.07.2022   [WS => Shard 0] [ReadyHeartbeat] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Shard received all its guilds. Marking as fully ready.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 151ms.
+29.07.2022   SEEN-#5771 
+29.07.2022   [WS => Manager] Fetched Gateway Information
+    URL: wss://gateway.discord.gg
+    Recommended Shards: 1
+29.07.2022   [WS => Manager] Session Limit Information
+    Total: 1000
+    Remaining: 800
+29.07.2022   [WS => Manager] Spawning shards: 0
+29.07.2022   [WS => Shard 0] [CONNECT]
+    Gateway    : wss://gateway.discord.gg/
+    Version    : 9
+    Encoding   : json
+    Compression: none
+29.07.2022   [WS => Shard 0] Setting a HELLO timeout for 20s.
+29.07.2022   [WS => Manager] Fetched Gateway Information
+    URL: wss://gateway.discord.gg
+    Recommended Shards: 1
+29.07.2022   [WS => Manager] Session Limit Information
+    Total: 1000
+    Remaining: 800
+29.07.2022   [WS => Shard 0] [CONNECT]
+    Gateway    : wss://gateway.discord.gg/
+    Version    : 9
+    Encoding   : json
+    Compression: none
+29.07.2022   [WS => Shard 0] Setting a HELLO timeout for 20s.
+29.07.2022   [WS => Manager] Spawning shards: 0
+29.07.2022   [WS => Shard 0] [CONNECTED] Took 224ms
+29.07.2022   [WS => Shard 0] Clearing the HELLO timeout.
+29.07.2022   [WS => Shard 0] [IDENTIFY] Shard 0/1 with intents: 1539
+29.07.2022   [WS => Shard 0] Setting a heartbeat interval for 41250ms.
+29.07.2022   [WS => Shard 0] [CONNECTED] Took 231ms
+29.07.2022   [WS => Shard 0] Clearing the HELLO timeout.
+29.07.2022   [WS => Shard 0] Setting a heartbeat interval for 41250ms.
+29.07.2022   [WS => Shard 0] [IDENTIFY] Shard 0/1 with intents: 1539
+29.07.2022   [WS => Shard 0] [ReadyHeartbeat] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] [READY] Session ed804c733e6f21dc2a5cae1e05508244.
+29.07.2022   [WS => Shard 0] Shard received all its guilds. Marking as fully ready.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 207ms.
+29.07.2022   [WS => Shard 0] [INVALID SESSION] Resumable: false.
+29.07.2022   [WS => Shard 0] Failed to connect to the gateway, requeueing...
+29.07.2022   [WS => Manager] Shard Queue Size: 1; continuing in 5 seconds...
+29.07.2022   [WS => Shard 0] An open connection was found, attempting an immediate identify.
+29.07.2022   [WS => Shard 0] [IDENTIFY] Shard 0/1 with intents: 1539
+29.07.2022   [WS => Shard 0] [ReadyHeartbeat] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] [READY] Session 3a107f1a4d65ee35cddadb0a9416ff56.
+29.07.2022   [WS => Shard 0] Shard received all its guilds. Marking as fully ready.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 156ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 137ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 139ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 138ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 137ms.
+29.07.2022   SEEN-#5771 
+29.07.2022   [WS => Manager] Fetched Gateway Information
+    URL: wss://gateway.discord.gg
+    Recommended Shards: 1
+29.07.2022   [WS => Manager] Session Limit Information
+    Total: 1000
+    Remaining: 798
+29.07.2022   [WS => Shard 0] [CONNECT]
+    Gateway    : wss://gateway.discord.gg/
+    Version    : 9
+    Encoding   : json
+    Compression: none
+29.07.2022   [WS => Manager] Spawning shards: 0
+29.07.2022   [WS => Shard 0] Setting a HELLO timeout for 20s.
+29.07.2022   [WS => Manager] Fetched Gateway Information
+    URL: wss://gateway.discord.gg
+    Recommended Shards: 1
+29.07.2022   [WS => Manager] Session Limit Information
+    Total: 1000
+    Remaining: 798
+29.07.2022   [WS => Manager] Spawning shards: 0
+29.07.2022   [WS => Shard 0] [CONNECT]
+    Gateway    : wss://gateway.discord.gg/
+    Version    : 9
+    Encoding   : json
+    Compression: none
+29.07.2022   [WS => Shard 0] Setting a HELLO timeout for 20s.
+29.07.2022   [WS => Shard 0] [CONNECTED] Took 234ms
+29.07.2022   [WS => Shard 0] Clearing the HELLO timeout.
+29.07.2022   [WS => Shard 0] Setting a heartbeat interval for 41250ms.
+29.07.2022   [WS => Shard 0] [IDENTIFY] Shard 0/1 with intents: 1539
+29.07.2022   [WS => Shard 0] [CONNECTED] Took 226ms
+29.07.2022   [WS => Shard 0] Clearing the HELLO timeout.
+29.07.2022   [WS => Shard 0] Setting a heartbeat interval for 41250ms.
+29.07.2022   [WS => Shard 0] [IDENTIFY] Shard 0/1 with intents: 1539
+29.07.2022   [WS => Shard 0] [READY] Session f9aa254875f4f5a0ebfdeef2c0551958.
+29.07.2022   [WS => Shard 0] [ReadyHeartbeat] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Shard received all its guilds. Marking as fully ready.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 195ms.
+29.07.2022   [WS => Shard 0] [INVALID SESSION] Resumable: false.
+29.07.2022   [WS => Shard 0] Failed to connect to the gateway, requeueing...
+29.07.2022   [WS => Manager] Shard Queue Size: 1; continuing in 5 seconds...
+29.07.2022   [WS => Shard 0] An open connection was found, attempting an immediate identify.
+29.07.2022   [WS => Shard 0] [IDENTIFY] Shard 0/1 with intents: 1539
+29.07.2022   [WS => Shard 0] [READY] Session 1c2fd02c1d10314f374ca8df0ee17398.
+29.07.2022   [WS => Shard 0] [ReadyHeartbeat] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Shard received all its guilds. Marking as fully ready.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 173ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 137ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 137ms.
+29.07.2022   SEEN-#5771 
+29.07.2022   [WS => Manager] Fetched Gateway Information
+    URL: wss://gateway.discord.gg
+    Recommended Shards: 1
+29.07.2022   [WS => Manager] Spawning shards: 0
+29.07.2022   [WS => Shard 0] [CONNECT]
+    Gateway    : wss://gateway.discord.gg/
+    Version    : 9
+    Encoding   : json
+    Compression: none
+29.07.2022   [WS => Manager] Session Limit Information
+    Total: 1000
+    Remaining: 796
+29.07.2022   [WS => Shard 0] Setting a HELLO timeout for 20s.
+29.07.2022   [WS => Manager] Fetched Gateway Information
+    URL: wss://gateway.discord.gg
+    Recommended Shards: 1
+29.07.2022   [WS => Manager] Spawning shards: 0
+29.07.2022   [WS => Manager] Session Limit Information
+    Total: 1000
+    Remaining: 796
+29.07.2022   [WS => Shard 0] [CONNECT]
+    Gateway    : wss://gateway.discord.gg/
+    Version    : 9
+    Encoding   : json
+    Compression: none
+29.07.2022   [WS => Shard 0] Setting a HELLO timeout for 20s.
+29.07.2022   [WS => Shard 0] [CONNECTED] Took 220ms
+29.07.2022   [WS => Shard 0] Clearing the HELLO timeout.
+29.07.2022   [WS => Shard 0] Setting a heartbeat interval for 41250ms.
+29.07.2022   [WS => Shard 0] [IDENTIFY] Shard 0/1 with intents: 1539
+29.07.2022   [WS => Shard 0] [CONNECTED] Took 221ms
+29.07.2022   [WS => Shard 0] Clearing the HELLO timeout.
+29.07.2022   [WS => Shard 0] Setting a heartbeat interval for 41250ms.
+29.07.2022   [WS => Shard 0] [IDENTIFY] Shard 0/1 with intents: 1539
+29.07.2022   [WS => Shard 0] [READY] Session 59bfcf2a6522aa1ed4ff9f21553d19bc.
+29.07.2022   [WS => Shard 0] [ReadyHeartbeat] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Shard received all its guilds. Marking as fully ready.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 146ms.
+29.07.2022   [WS => Shard 0] [INVALID SESSION] Resumable: false.
+29.07.2022   [WS => Manager] Shard Queue Size: 1; continuing in 5 seconds...
+29.07.2022   [WS => Shard 0] Failed to connect to the gateway, requeueing...
+29.07.2022   [WS => Shard 0] An open connection was found, attempting an immediate identify.
+29.07.2022   [WS => Shard 0] [IDENTIFY] Shard 0/1 with intents: 1539
+29.07.2022   [WS => Shard 0] [READY] Session d93fda70d4c070ca9f834cf88a69167a.
+29.07.2022   [WS => Shard 0] [ReadyHeartbeat] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Shard received all its guilds. Marking as fully ready.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 145ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 137ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 137ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 137ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 136ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 137ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 137ms.
+29.07.2022   SEEN-#5771 test
+29.07.2022   [WS => Manager] Fetched Gateway Information
+    URL: wss://gateway.discord.gg
+    Recommended Shards: 1
+29.07.2022   [WS => Manager] Spawning shards: 0
+29.07.2022   [WS => Manager] Session Limit Information
+    Total: 1000
+    Remaining: 794
+29.07.2022   [WS => Shard 0] [CONNECT]
+    Gateway    : wss://gateway.discord.gg/
+    Version    : 9
+    Encoding   : json
+    Compression: none
+29.07.2022   [WS => Shard 0] Setting a HELLO timeout for 20s.
+29.07.2022   [WS => Manager] Fetched Gateway Information
+    URL: wss://gateway.discord.gg
+    Recommended Shards: 1
+29.07.2022   [WS => Manager] Spawning shards: 0
+29.07.2022   [WS => Shard 0] [CONNECT]
+    Gateway    : wss://gateway.discord.gg/
+    Version    : 9
+    Encoding   : json
+    Compression: none
+29.07.2022   [WS => Manager] Session Limit Information
+    Total: 1000
+    Remaining: 794
+29.07.2022   [WS => Shard 0] Setting a HELLO timeout for 20s.
+29.07.2022   [WS => Shard 0] [CONNECTED] Took 225ms
+29.07.2022   [WS => Shard 0] Clearing the HELLO timeout.
+29.07.2022   [WS => Shard 0] Setting a heartbeat interval for 41250ms.
+29.07.2022   [WS => Shard 0] [IDENTIFY] Shard 0/1 with intents: 1539
+29.07.2022   [WS => Shard 0] [CONNECTED] Took 222ms
+29.07.2022   [WS => Shard 0] Clearing the HELLO timeout.
+29.07.2022   [WS => Shard 0] Setting a heartbeat interval for 41250ms.
+29.07.2022   [WS => Shard 0] [IDENTIFY] Shard 0/1 with intents: 1539
+29.07.2022   [WS => Shard 0] [READY] Session 9b676cab6f7f48c0dec4dbed573ed983.
+29.07.2022   [WS => Shard 0] [ReadyHeartbeat] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Shard received all its guilds. Marking as fully ready.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 184ms.
+29.07.2022   [WS => Shard 0] [INVALID SESSION] Resumable: false.
+29.07.2022   [WS => Manager] Shard Queue Size: 1; continuing in 5 seconds...
+29.07.2022   [WS => Shard 0] Failed to connect to the gateway, requeueing...
+29.07.2022   [WS => Shard 0] An open connection was found, attempting an immediate identify.
+29.07.2022   [WS => Shard 0] [IDENTIFY] Shard 0/1 with intents: 1539
+29.07.2022   [WS => Shard 0] [ReadyHeartbeat] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] [READY] Session 5b2d3ba2c18d668849d434f3621dbdd0.
+29.07.2022   [WS => Shard 0] Shard received all its guilds. Marking as fully ready.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 178ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 137ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 137ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 137ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 137ms.
+29.07.2022   SEEN-#5771 test
+29.07.2022   [WS => Manager] Fetched Gateway Information
+    URL: wss://gateway.discord.gg
+    Recommended Shards: 1
+29.07.2022   [WS => Manager] Session Limit Information
+    Total: 1000
+    Remaining: 792
+29.07.2022   [WS => Manager] Spawning shards: 0
+29.07.2022   [WS => Shard 0] [CONNECT]
+    Gateway    : wss://gateway.discord.gg/
+    Version    : 9
+    Encoding   : json
+    Compression: none
+29.07.2022   [WS => Shard 0] Setting a HELLO timeout for 20s.
+29.07.2022   [WS => Manager] Fetched Gateway Information
+    URL: wss://gateway.discord.gg
+    Recommended Shards: 1
+29.07.2022   [WS => Manager] Session Limit Information
+    Total: 1000
+    Remaining: 792
+29.07.2022   [WS => Manager] Spawning shards: 0
+29.07.2022   [WS => Shard 0] Setting a HELLO timeout for 20s.
+29.07.2022   [WS => Shard 0] [CONNECT]
+    Gateway    : wss://gateway.discord.gg/
+    Version    : 9
+    Encoding   : json
+    Compression: none
+29.07.2022   [WS => Shard 0] [CONNECTED] Took 224ms
+29.07.2022   [WS => Shard 0] Clearing the HELLO timeout.
+29.07.2022   [WS => Shard 0] Setting a heartbeat interval for 41250ms.
+29.07.2022   [WS => Shard 0] [IDENTIFY] Shard 0/1 with intents: 1539
+29.07.2022   [WS => Shard 0] [CONNECTED] Took 219ms
+29.07.2022   [WS => Shard 0] Clearing the HELLO timeout.
+29.07.2022   [WS => Shard 0] [IDENTIFY] Shard 0/1 with intents: 1539
+29.07.2022   [WS => Shard 0] Setting a heartbeat interval for 41250ms.
+29.07.2022   [WS => Shard 0] [READY] Session aa81e01ab3cf127a83991acea34efd7d.
+29.07.2022   [WS => Shard 0] [ReadyHeartbeat] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Shard received all its guilds. Marking as fully ready.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 545ms.
+29.07.2022   [WS => Shard 0] [INVALID SESSION] Resumable: false.
+29.07.2022   [WS => Shard 0] Failed to connect to the gateway, requeueing...
+29.07.2022   [WS => Manager] Shard Queue Size: 1; continuing in 5 seconds...
+29.07.2022   [WS => Shard 0] An open connection was found, attempting an immediate identify.
+29.07.2022   [WS => Shard 0] [IDENTIFY] Shard 0/1 with intents: 1539
+29.07.2022   [WS => Shard 0] [READY] Session 8069b05b42a0961687ff6cf89414f877.
+29.07.2022   [WS => Shard 0] [ReadyHeartbeat] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Shard received all its guilds. Marking as fully ready.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 170ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 138ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 137ms.
+29.07.2022   SEEN-#5771 test
+29.07.2022   SEEN-#5771 test2
+29.07.2022   [WS => Manager] Fetched Gateway Information
+    URL: wss://gateway.discord.gg
+    Recommended Shards: 1
+29.07.2022   [WS => Manager] Session Limit Information
+    Total: 1000
+    Remaining: 790
+29.07.2022   [WS => Manager] Spawning shards: 0
+29.07.2022   [WS => Shard 0] [CONNECT]
+    Gateway    : wss://gateway.discord.gg/
+    Version    : 9
+    Encoding   : json
+    Compression: none
+29.07.2022   [WS => Shard 0] Setting a HELLO timeout for 20s.
+29.07.2022   [WS => Manager] Session Limit Information
+    Total: 1000
+    Remaining: 790
+29.07.2022   [WS => Manager] Fetched Gateway Information
+    URL: wss://gateway.discord.gg
+    Recommended Shards: 1
+29.07.2022   [WS => Shard 0] [CONNECT]
+    Gateway    : wss://gateway.discord.gg/
+    Version    : 9
+    Encoding   : json
+    Compression: none
+29.07.2022   [WS => Shard 0] Setting a HELLO timeout for 20s.
+29.07.2022   [WS => Manager] Spawning shards: 0
+29.07.2022   [WS => Shard 0] [CONNECTED] Took 224ms
+29.07.2022   [WS => Shard 0] Clearing the HELLO timeout.
+29.07.2022   [WS => Shard 0] [IDENTIFY] Shard 0/1 with intents: 1539
+29.07.2022   [WS => Shard 0] Setting a heartbeat interval for 41250ms.
+29.07.2022   [WS => Shard 0] [CONNECTED] Took 222ms
+29.07.2022   [WS => Shard 0] Clearing the HELLO timeout.
+29.07.2022   [WS => Shard 0] Setting a heartbeat interval for 41250ms.
+29.07.2022   [WS => Shard 0] [IDENTIFY] Shard 0/1 with intents: 1539
+29.07.2022   [WS => Shard 0] [READY] Session d89d6b427f950fb71cd37af7e514d404.
+29.07.2022   [WS => Shard 0] [ReadyHeartbeat] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Shard received all its guilds. Marking as fully ready.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 216ms.
+29.07.2022   [WS => Shard 0] [INVALID SESSION] Resumable: false.
+29.07.2022   [WS => Shard 0] Failed to connect to the gateway, requeueing...
+29.07.2022   [WS => Manager] Shard Queue Size: 1; continuing in 5 seconds...
+29.07.2022   [WS => Shard 0] An open connection was found, attempting an immediate identify.
+29.07.2022   [WS => Shard 0] [IDENTIFY] Shard 0/1 with intents: 1539
+29.07.2022   [WS => Shard 0] [ReadyHeartbeat] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] [READY] Session 03ef401a7cba39b76e435f9f204ec56b.
+29.07.2022   [WS => Shard 0] Shard received all its guilds. Marking as fully ready.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 240ms.
+29.07.2022   SEEN-#5771 test
+29.07.2022   SEEN-#5771 test2
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 138ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 137ms.
+29.07.2022   [WS => Manager] Fetched Gateway Information
+    URL: wss://gateway.discord.gg
+    Recommended Shards: 1
+29.07.2022   [WS => Manager] Session Limit Information
+    Total: 1000
+    Remaining: 788
+29.07.2022   [WS => Shard 0] [CONNECT]
+    Gateway    : wss://gateway.discord.gg/
+    Version    : 9
+    Encoding   : json
+    Compression: none
+29.07.2022   [WS => Manager] Spawning shards: 0
+29.07.2022   [WS => Shard 0] Setting a HELLO timeout for 20s.
+29.07.2022   [WS => Manager] Fetched Gateway Information
+    URL: wss://gateway.discord.gg
+    Recommended Shards: 1
+29.07.2022   [WS => Manager] Spawning shards: 0
+29.07.2022   [WS => Manager] Session Limit Information
+    Total: 1000
+    Remaining: 788
+29.07.2022   [WS => Shard 0] [CONNECT]
+    Gateway    : wss://gateway.discord.gg/
+    Version    : 9
+    Encoding   : json
+    Compression: none
+29.07.2022   [WS => Shard 0] Setting a HELLO timeout for 20s.
+29.07.2022   [WS => Shard 0] [CONNECTED] Took 223ms
+29.07.2022   [WS => Shard 0] Clearing the HELLO timeout.
+29.07.2022   [WS => Shard 0] [IDENTIFY] Shard 0/1 with intents: 1539
+29.07.2022   [WS => Shard 0] Setting a heartbeat interval for 41250ms.
+29.07.2022   [WS => Shard 0] [CONNECTED] Took 218ms
+29.07.2022   [WS => Shard 0] Clearing the HELLO timeout.
+29.07.2022   [WS => Shard 0] Setting a heartbeat interval for 41250ms.
+29.07.2022   [WS => Shard 0] [IDENTIFY] Shard 0/1 with intents: 1539
+29.07.2022   [WS => Shard 0] [READY] Session f361adec63512fde53b27455319f5346.
+29.07.2022   [WS => Shard 0] [ReadyHeartbeat] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Shard received all its guilds. Marking as fully ready.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 163ms.
+29.07.2022   [WS => Shard 0] [INVALID SESSION] Resumable: false.
+29.07.2022   [WS => Shard 0] Failed to connect to the gateway, requeueing...
+29.07.2022   [WS => Manager] Shard Queue Size: 1; continuing in 5 seconds...
+29.07.2022   [WS => Shard 0] An open connection was found, attempting an immediate identify.
+29.07.2022   [WS => Shard 0] [IDENTIFY] Shard 0/1 with intents: 1539
+29.07.2022   [WS => Shard 0] [READY] Session 1f600c8c727790c6cba4c3f4f05a3ac3.
+29.07.2022   [WS => Shard 0] [ReadyHeartbeat] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Shard received all its guilds. Marking as fully ready.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 173ms.
+29.07.2022   SEEN-#5771 
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 139ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 137ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 138ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 142ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 140ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 137ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 137ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 138ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 138ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 137ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 140ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 144ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 137ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 137ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 138ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 138ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 140ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 137ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 138ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 140ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 138ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 137ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 144ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 147ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 137ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 142ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 138ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 137ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 138ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 137ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 138ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 137ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 138ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 137ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 138ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 137ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 138ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 138ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 138ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 138ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 140ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 137ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 138ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 137ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 141ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 138ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 137ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 144ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 138ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 137ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 137ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 137ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 139ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 137ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 138ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 137ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 138ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 138ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 138ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 137ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 139ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 138ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 139ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 141ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 142ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 138ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 142ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 138ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 141ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 137ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 139ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 137ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 138ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 140ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 138ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 138ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 138ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 138ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 138ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 137ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 142ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 137ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 137ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 137ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 140ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 147ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 150ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 137ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 138ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 137ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 139ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 137ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 138ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 142ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 144ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 137ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 137ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 140ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 138ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 137ms.
+29.07.2022   PAW#5844 %ping
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 138ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 137ms.
+29.07.2022   PAW#5844 %ping
+29.07.2022   SEEN-#5771 pong!
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 138ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 140ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 137ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 137ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 138ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 137ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 138ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 144ms.

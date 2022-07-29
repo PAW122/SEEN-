@@ -3,12 +3,37 @@ const config = require(process.cwd() + `/config/worker.js`)
     const worker = config.ping_work
     const reason = config.ping_disable
 
+    
+
 const Discord = require('discord.js');
 const { MessageAttachment } = require('discord.js');
+const { SlashCommandBuilder } = require('@discordjs/builders');
 module.exports = {
     name: "message_logs",
     name_en:"message_logs",
     work: worker,
+    isSlash: true,
+
+    data: new SlashCommandBuilder()
+    .setName('message_logs')
+    .setDescription('wysyła plik .txt z logami wszystkich wiadomości wysłanych na serweże podczas działania bota'),
+    
+executeInteraction: async (inter) => {
+    if (work != true) {
+        const embed_worker = new Discord.MessageEmbed()
+            .setTitle('**message logs**')
+            .setColor('RANDOM')
+            .setDescription(`${reason}`)
+        inter.reply({ embeds: [embed_worker] });
+        return (console.log("command id disabled"))
+    } else {
+        const srv = inter.guild.id + ".txt"
+        const attachment = new MessageAttachment(`${process.cwd()}/config/logs/${srv}`)
+        
+        inter.reply({ files: [attachment] })
+
+    }
+},
 
     execute: async(message, args) => {
 

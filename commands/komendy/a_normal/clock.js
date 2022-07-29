@@ -6,7 +6,7 @@ const config = require(process.cwd() + `/config/worker.js`)
 module.exports = {
     name: "clock",
     description: "Clock command.",
-    work: worker,
+    work: worker,//nie dodaje /commands bo komenda nie działa poprawnie
 
   
     execute: async(message, args) => {

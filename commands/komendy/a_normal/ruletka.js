@@ -2,8 +2,9 @@ const config = require(process.cwd() + `/config/worker.js`)
     const work = config.ruletka
     const worker = config.ruletka_work
     const reason = config.ruletka_disable
-
+    const wait = require('node:timers/promises').setTimeout;
 const Discord = require('discord.js');
+const { SlashCommandBuilder } = require('@discordjs/builders');
 //$ruletka
 //$ruletka help
 //$ruletka help en
@@ -16,6 +17,112 @@ module.exports = {
     description: "wysyła pong",
     usage: "$ruletka <@users>",
     work: worker,
+    isSlash: true,
+
+    data: new SlashCommandBuilder()
+    .setName('ruletka')
+    .setDescription('zagraj w ruletke || od 1 do 5 graczy')
+    .addNumberOption((option) =>
+    option
+        .setName("liczba_graczy")
+        .setDescription("podaj liość graczy biorących udział w ruletce")
+        .setRequired(true))
+
+    .addUserOption((option) =>
+    option
+        .setName("user1")
+        .setDescription("gracz nr 1 (wymagany)")
+        .setRequired(true))
+
+    .addUserOption((option) =>
+        option
+            .setName("user2")
+            .setDescription("gracz nr 2 (wymagany)")
+            .setRequired(true))
+
+    .addUserOption((option) =>
+        option
+            .setName("user3")
+            .setDescription("gracz nr 3 (opcjonalny)")
+            .setRequired(false))
+    .addUserOption((option) =>
+        option
+            .setName("user4")
+            .setDescription("gracz nr 4 (opcjonalny)")
+            .setRequired(false))
+    .addUserOption((option) =>
+        option
+            .setName("user5")
+            .setDescription("gracz nr 5 (opcjonalny)")
+            .setRequired(false)),
+
+            executeInteraction: async (inter) => {
+        try{
+                if (work != true) {
+                    const embed_worker = new Discord.MessageEmbed()
+                        .setTitle('**ruletka**')
+                        .setColor('RANDOM')
+                        .setDescription(`${reason}`)
+                    inter.reply({ embeds: [embed_worker] });
+                    return (console.log("command id disabled"))
+                } else {
+                    players_list = []
+                    const players = inter.options.getNumber('liczba_graczy')
+                    const player1 = inter.options.getUser('user1')
+                    const player2 = inter.options.getUser('user2')
+                    const player3 = inter.options.getUser('user3')
+                    const player4 = inter.options.getUser('user4')
+                    const player5 = inter.options.getUser('user5')
+
+                    players_list.push(player1.id)
+                    players_list.push(player2.id)
+                    if(players == 3){
+                        players_list.push(player3.id)
+                    }
+                    if(players == 4){
+                        players_list.push(player3.id)
+                        .then(players_list.push(player4.id))
+                    }
+                    if(players == 5){
+                        players_list.push(player3.id)
+                        .then(players_list.push(player4.id))
+                        .then(players_list.push(player5.id))
+                    }
+                    
+
+                    const lobby = new Discord.MessageEmbed()
+                .setTitle('**Ruletka**')
+                .setColor('RANDOM')
+                .setFields(
+                    {name: `Ruletka:` ,value: `Lista Graczy`, inline: false},
+                    {name: `gracz1:` ,value: `${player1}`, inline: true},
+                    {name: `gracz2:` ,value: `${player2}`, inline: true},
+                    {name: `gracz3:` ,value: `${player3}`, inline: true},
+                    {name: `gracz4:` ,value: `${player4}`, inline: true},
+                    {name: `gracz5:` ,value: `${player5}`, inline: true}
+                )
+                await inter.reply({ embeds: [lobby] });
+                await inter.reply('test');
+
+                await wait(2000);
+                    const rng = Math.floor(Math.random() * players);
+                    const wyeliminowany_gracz = players_list[rng]
+                    const game_over = new Discord.MessageEmbed()
+                .setTitle('**Ruletka**')
+                .setColor('RANDOM')
+                .setFields(
+                    {name: `Wyeliminowany Został:` ,value: `${wyeliminowany_gracz}`, inline: true},
+                )
+                await inter.followUp({ embeds: [game_over] });
+                console.log("działą")
+                await inter.followUp("test2");
+
+
+                }
+        }catch(err){
+            console.log(`KURWA nie działĄ ${err}`)
+        }
+            },
 
     execute: async(message, args) => {
 

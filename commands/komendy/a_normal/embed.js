@@ -12,7 +12,7 @@ module.exports = {
     name_en:"embed",
     description: "wysyła embeda",
     usage: "$embed",
-    work: worker,
+    work: worker,//usles komenda nie dodaje /commands
 
     execute: async(message, args) => {
 
