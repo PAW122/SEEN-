@@ -10,12 +10,39 @@ const Discord = require('discord.js');
 //$pwoiedz
 //$pwoiedz help
 //$pwoiedz help en
+const { SlashCommandBuilder } = require('@discordjs/builders');
 module.exports = {
     name: "pwoiedz",
     name_en:"say",
     description: "kopiuje wiadomość i wysyła ją",
     usage: "$say <wiadomość>",
     work: worker,
+    isSlash: true,
+
+    data: new SlashCommandBuilder()
+    .setName('say')
+    .setDescription('kopiuje i wysyła twoją wiadomość')
+    .addStringOption((option) =>
+        option
+            .setName("say")
+            .setDescription("podaj treść wiadomości")
+            .setRequired(true)
+    ),
+executeInteraction: async (inter) => {
+    if (work != true) {
+        const embed_worker = new Discord.MessageEmbed()
+            .setTitle('**say**')
+            .setColor('RANDOM')
+            .setDescription(`${reason}`)
+        inter.reply({ embeds: [embed_worker] });
+        return (console.log("command id disabled"))
+    } else {
+        const treść = inter.options.getString('say')
+
+        inter.reply(`${treść}`)
+
+    }
+},
 
     execute: async(message, args) => {
 

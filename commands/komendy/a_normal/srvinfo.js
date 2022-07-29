@@ -4,15 +4,52 @@ const config = require(process.cwd() + `/config/worker.js`)
         const reason = config.srv_info_disable
 
 const Discord = require('discord.js');
+const { SlashCommandBuilder } = require('@discordjs/builders');
 //$srvinfo
 //$srvinfo help
 //$srvinfo help en
+
 module.exports = {
     name: "srvinfo",
     name_en:"srvinfo",
     description: "wysyła informacje o serweże",
     usage: "$srvinfo",
     work: worker,
+    isSlash: true,
+
+    data: new SlashCommandBuilder()
+        .setName('srvinfo')
+        .setDescription('wysyła informacje o serweże'),
+
+    executeInteraction: async (inter) => {
+        if (work != true) {
+            const embed_worker = new Discord.MessageEmbed()
+                .setTitle('**srvinfo**')
+                .setColor('RANDOM')
+                .setDescription(`${reason}`)
+            inter.reply({ embeds: [embed_worker] });
+            return (console.log("command id disabled"))
+        } else {
+
+        const roles = inter.guild.roles.cache.sort((a, b) => b.position - a.position).map(role => role.toString());
+        const emojis = inter.guild.emojis.cache;
+
+            const embed = new Discord.MessageEmbed()
+
+            .setTitle("Informacje ogólne:")
+            .setDescription(` **Nazwa serwera: **${inter.guild.name} \n
+            **ID:** ${inter.guild.id} \n
+            **Data stworzenia:**${inter.guild.createdAt.toDateString()}\n
+            **Ilość rang:**${roles.length} \n
+            **Emoji:**${emojis.size} \n
+            **Animowane Emoji:** ${emojis.filter(emoji => emoji.animated).size} \n
+            **Ilość osób na serwerze:** ${inter.guild.memberCount}\n
+            `)
+    
+            inter.reply({ embeds: [embed] })
+
+        }
+    },
 
     execute: async(message, args) => {
 
@@ -69,17 +106,7 @@ module.exports = {
         **Region:**${regions[message.guild.region] }\n
         */
 
-        const embed = new Discord.MessageEmbed()
-
-        .setTitle("Informacje ogólne:")
-        .setDescription(` **Nazwa serwera:**${message.guild.name} \n
-        **ID:** ${message.guild.id} \n
-        **Data stworzenia:**${message.guild.createdAt.toDateString()}\n
-        **Ilość rang:**${roles.length} \n
-        **Emoji:**${emojis.size} \n
-        **Animowane Emoji:** ${emojis.filter(emoji => emoji.animated).size} \n
-        **Ilość osób na serwerze:** ${message.guild.memberCount}\n
-        `)
+        
 
 
         /*
@@ -96,10 +123,20 @@ module.exports = {
             `**Online:** ${members.filter(member => member.presence.status === 'online').size}`,
             `**Offline:** ${members.filter(member => member.presence.status === 'offline').size}`,
         ]) */
+        const embed2 = new Discord.MessageEmbed()
 
+        .setTitle("Informacje ogólne:")
+        .setDescription(` **Nazwa serwera:**${message.guild.name} \n
+        **ID:** ${message.guild.id} \n
+        **Data stworzenia:**${message.guild.createdAt.toDateString()}\n
+        **Ilość rang:**${roles.length} \n
+        **Emoji:**${emojis.size} \n
+        **Animowane Emoji:** ${emojis.filter(emoji => emoji.animated).size} \n
+        **Ilość osób na serwerze:** ${message.guild.memberCount}\n
+        `)
         .setThumbnail(message.guild.iconURL({ dynamic: true }));
 
-        message.channel.send({embeds: [embed]});
+        message.channel.send({embeds: [embed2]});
     }
     }
 }
