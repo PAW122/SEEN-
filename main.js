@@ -128,6 +128,7 @@ client.on('messageCreate', async message =>
 {
     //logi z serwerów
     logs(message.content, null, 2, message.guild.id ,message.author.tag, message.channel.name)
+    
 
     //auto reakcje
     emoji_reactions(message)
