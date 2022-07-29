@@ -1751,3 +1751,1230 @@ Idziemy do derpiego do DM-?
 29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 129ms.
 29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
 29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 129ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 132ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 131ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 135ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 190ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 147ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 157ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 132ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 128ms.
+29.07.2022   [WS => Manager] Fetched Gateway Information
+    URL: wss://gateway.discord.gg
+    Recommended Shards: 1
+29.07.2022   [WS => Manager] Spawning shards: 0
+29.07.2022   [WS => Shard 0] [CONNECT]
+    Gateway    : wss://gateway.discord.gg/
+    Version    : 9
+    Encoding   : json
+    Compression: none
+29.07.2022   [WS => Manager] Session Limit Information
+    Total: 1000
+    Remaining: 951
+29.07.2022   [WS => Shard 0] Setting a HELLO timeout for 20s.
+29.07.2022   [WS => Shard 0] [CONNECTED] Took 196ms
+29.07.2022   [WS => Shard 0] Clearing the HELLO timeout.
+29.07.2022   [WS => Shard 0] Setting a heartbeat interval for 41250ms.
+29.07.2022   [WS => Shard 0] [IDENTIFY] Shard 0/1 with intents: 1539
+29.07.2022   [WS => Manager] Session Limit Information
+    Total: 1000
+    Remaining: 951
+29.07.2022   [WS => Manager] Fetched Gateway Information
+    URL: wss://gateway.discord.gg
+    Recommended Shards: 1
+29.07.2022   [WS => Manager] Spawning shards: 0
+29.07.2022   [WS => Shard 0] [CONNECT]
+    Gateway    : wss://gateway.discord.gg/
+    Version    : 9
+    Encoding   : json
+    Compression: none
+29.07.2022   [WS => Shard 0] Setting a HELLO timeout for 20s.
+29.07.2022   [WS => Shard 0] [CONNECTED] Took 206ms
+29.07.2022   [WS => Shard 0] Clearing the HELLO timeout.
+29.07.2022   [WS => Shard 0] Setting a heartbeat interval for 41250ms.
+29.07.2022   [WS => Shard 0] [IDENTIFY] Shard 0/1 with intents: 1539
+29.07.2022   [WS => Shard 0] [READY] Session 3be109eefd19fb29fc2ec434e75805d1.
+29.07.2022   [WS => Shard 0] [ReadyHeartbeat] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Shard received all its guilds. Marking as fully ready.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 309ms.
+29.07.2022   [WS => Shard 0] [INVALID SESSION] Resumable: false.
+29.07.2022   [WS => Shard 0] Failed to connect to the gateway, requeueing...
+29.07.2022   [WS => Manager] Shard Queue Size: 1; continuing in 5 seconds...
+29.07.2022   [WS => Shard 0] An open connection was found, attempting an immediate identify.
+29.07.2022   [WS => Shard 0] [IDENTIFY] Shard 0/1 with intents: 1539
+29.07.2022   [WS => Shard 0] [READY] Session 93bdd118ec6b5cf52bcefe5e16759b50.
+29.07.2022   [WS => Shard 0] [ReadyHeartbeat] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Shard received all its guilds. Marking as fully ready.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 361ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 142ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 138ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 130ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 143ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 137ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 132ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 130ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 166ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 133ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 145ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 131ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 183ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 131ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 130ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 146ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 143ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 138ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 131ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 133ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 131ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 177ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 141ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 127ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 138ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 161ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 129ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 133ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 132ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 150ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 134ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 132ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 131ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 130ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 129ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 129ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 127ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 132ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 128ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 135ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 145ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 148ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 177ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 146ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 136ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 138ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 135ms.
+29.07.2022   [WS => Shard 0] [CLOSE]
+    Event Code: 1006
+    Clean     : false
+    Reason    : 
+29.07.2022   [WS => Shard 0] Session id is present, attempting an immediate reconnect...
+29.07.2022   [WS => Shard 0] Clearing the heartbeat interval.
+29.07.2022   [WS => Shard 0] A connection object was found. Cleaning up before continuing.
+    State: CLOSED
+29.07.2022   [WS => Shard 0] [DESTROY]
+    Close Code    : 1000
+    Reset         : false
+    Emit DESTROYED: false
+29.07.2022   [WS => Shard 0] WS State: CLOSED
+29.07.2022   [WS => Shard 0] Setting a HELLO timeout for 20s.
+29.07.2022   [WS => Shard 0] [CONNECT]
+    Gateway    : wss://gateway.discord.gg/
+    Version    : 9
+    Encoding   : json
+    Compression: none
+29.07.2022   [WS => Shard 0] [CONNECTED] Took 220ms
+29.07.2022   [WS => Shard 0] Clearing the HELLO timeout.
+29.07.2022   [WS => Shard 0] Setting a heartbeat interval for 41250ms.
+29.07.2022   [WS => Shard 0] [RESUME] Session 93bdd118ec6b5cf52bcefe5e16759b50, sequence 97
+29.07.2022   [WS => Shard 0] [ResumeHeartbeat] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] [RESUMED] Session 93bdd118ec6b5cf52bcefe5e16759b50 | Replayed 1 events.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 129ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 157ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 139ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 130ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 129ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 155ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 127ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 140ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 129ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 125ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 135ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 139ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 165ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 129ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 128ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 134ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 220ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 156ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 140ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 128ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 128ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 189ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 129ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 180ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 139ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 177ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 141ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 155ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 153ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 128ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 210ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 141ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 148ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 144ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 141ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 215ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 137ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 145ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 128ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 132ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 128ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 137ms.
+29.07.2022   [WS => Shard 0] [RECONNECT] Discord asked us to reconnect
+29.07.2022   [WS => Shard 0] [DESTROY]
+    Close Code    : 4000
+    Reset         : false
+    Emit DESTROYED: true
+29.07.2022   [WS => Shard 0] Clearing the heartbeat interval.
+29.07.2022   [WS => Shard 0] [CLOSE]
+    Event Code: 4000
+    Clean     : true
+    Reason    : 
+29.07.2022   [WS => Shard 0] Session id is present, attempting an immediate reconnect...
+29.07.2022   [WS => Shard 0] [CONNECT]
+    Gateway    : wss://gateway.discord.gg/
+    Version    : 9
+    Encoding   : json
+    Compression: none
+29.07.2022   [WS => Shard 0] Setting a HELLO timeout for 20s.
+29.07.2022   [WS => Shard 0] [CONNECTED] Took 201ms
+29.07.2022   [WS => Shard 0] Clearing the HELLO timeout.
+29.07.2022   [WS => Shard 0] Setting a heartbeat interval for 41250ms.
+29.07.2022   [WS => Shard 0] [RESUME] Session 3be109eefd19fb29fc2ec434e75805d1, sequence 97
+29.07.2022   [WS => Shard 0] [RESUMED] Session 3be109eefd19fb29fc2ec434e75805d1 | Replayed 1 events.
+29.07.2022   [WS => Shard 0] [ResumeHeartbeat] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 128ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 137ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 127ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 226ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 130ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 137ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 129ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 130ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 133ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 138ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 127ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 150ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 133ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 129ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 125ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 137ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 131ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 143ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 143ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 132ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 151ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 132ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 127ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 132ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 143ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 127ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 177ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 131ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 131ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 136ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 132ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 217ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 133ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 136ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 361ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 128ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 134ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 164ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 135ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 129ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 162ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 125ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 126ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 143ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 129ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 131ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 174ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 146ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 132ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 125ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 129ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 144ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 129ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 173ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 157ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 151ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 135ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 138ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 138ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 133ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 131ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 130ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 128ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 126ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 134ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 137ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 144ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 150ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 131ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 140ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 149ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 133ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 137ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 160ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 135ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 136ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 128ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 128ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 132ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 139ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 131ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 134ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 126ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 134ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 135ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 128ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 129ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 197ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 131ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 133ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 129ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 137ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 128ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 134ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 138ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 156ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 153ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 139ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 139ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 138ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 129ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 142ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 136ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 126ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 138ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 142ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 142ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 131ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 130ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 128ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 136ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 417ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 129ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 126ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 132ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 129ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 130ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 140ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 130ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 131ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 133ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 133ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 130ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 128ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 147ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 147ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 156ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 158ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 129ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 134ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 132ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 136ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 141ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 129ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 186ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 135ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 129ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 134ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 162ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 133ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 163ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 160ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 129ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 142ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 134ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 131ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 137ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 128ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 143ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 133ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 126ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 134ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 135ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 127ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 128ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 135ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 127ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 129ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 136ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 141ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 137ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 139ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 128ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 130ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 129ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 160ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 129ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 136ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 131ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 171ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 141ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 128ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 129ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 136ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 132ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 165ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 149ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 132ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 129ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 141ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 128ms.
+29.07.2022   [WS => Shard 0] [RECONNECT] Discord asked us to reconnect
+29.07.2022   [WS => Shard 0] [DESTROY]
+    Close Code    : 4000
+    Reset         : false
+    Emit DESTROYED: true
+29.07.2022   [WS => Shard 0] Clearing the heartbeat interval.
+29.07.2022   [WS => Shard 0] [CLOSE]
+    Event Code: 4000
+    Clean     : true
+    Reason    : 
+29.07.2022   [WS => Shard 0] [CONNECT]
+    Gateway    : wss://gateway.discord.gg/
+    Version    : 9
+    Encoding   : json
+    Compression: none
+29.07.2022   [WS => Shard 0] Setting a HELLO timeout for 20s.
+29.07.2022   [WS => Shard 0] Session id is present, attempting an immediate reconnect...
+29.07.2022   [WS => Shard 0] [CONNECTED] Took 217ms
+29.07.2022   [WS => Shard 0] Clearing the HELLO timeout.
+29.07.2022   [WS => Shard 0] [RESUME] Session 93bdd118ec6b5cf52bcefe5e16759b50, sequence 99
+29.07.2022   [WS => Shard 0] Setting a heartbeat interval for 41250ms.
+29.07.2022   [WS => Shard 0] [RESUMED] Session 93bdd118ec6b5cf52bcefe5e16759b50 | Replayed 1 events.
+29.07.2022   [WS => Shard 0] [ResumeHeartbeat] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 213ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 150ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 131ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 130ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 137ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 137ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 140ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 133ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 141ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 136ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 148ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 128ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 192ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 138ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 128ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 137ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 131ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 128ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 127ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 132ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 130ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 138ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 170ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 127ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 132ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 261ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 130ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 144ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 137ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 137ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 133ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 130ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 134ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 138ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 131ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 128ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 128ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 164ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 136ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 169ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 142ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 195ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 138ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 129ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 150ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 143ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 139ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 148ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 138ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 131ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 132ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 135ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 132ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 130ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 155ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 131ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 149ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 162ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 136ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 127ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 130ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 152ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 136ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 167ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 128ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 145ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 130ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 135ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 140ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 137ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 134ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 133ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 134ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 131ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 152ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 164ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 278ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 135ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 132ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 128ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 149ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 131ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 144ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 128ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 129ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 133ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 134ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 150ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 174ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 126ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 168ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 129ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 153ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 130ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 156ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 136ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 142ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 134ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 141ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 136ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 129ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 128ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 248ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 128ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 132ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 129ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 172ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 136ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 130ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 129ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Clearing the heartbeat interval.
+29.07.2022   [WS => Shard 0] [CLOSE]
+    Event Code: 1001
+    Clean     : true
+    Reason    : 
+29.07.2022   [WS => Shard 0] Session id is present, attempting an immediate reconnect...
+29.07.2022   [WS => Shard 0] A connection object was found. Cleaning up before continuing.
+    State: CLOSED
+29.07.2022   [WS => Shard 0] [DESTROY]
+    Close Code    : 1000
+    Reset         : false
+    Emit DESTROYED: false
+29.07.2022   [WS => Shard 0] Setting a HELLO timeout for 20s.
+29.07.2022   [WS => Shard 0] [CONNECT]
+    Gateway    : wss://gateway.discord.gg/
+    Version    : 9
+    Encoding   : json
+    Compression: none
+29.07.2022   [WS => Shard 0] WS State: CLOSED
+29.07.2022   [WS => Shard 0] [CONNECTED] Took 212ms
+29.07.2022   [WS => Shard 0] Clearing the HELLO timeout.
+29.07.2022   [WS => Shard 0] [RESUME] Session 93bdd118ec6b5cf52bcefe5e16759b50, sequence 100
+29.07.2022   [WS => Shard 0] Setting a heartbeat interval for 41250ms.
+29.07.2022   [WS => Shard 0] [RESUMED] Session 93bdd118ec6b5cf52bcefe5e16759b50 | Replayed 1 events.
+29.07.2022   [WS => Shard 0] [ResumeHeartbeat] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 137ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 388ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 135ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 147ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 138ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 137ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 200ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 140ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 132ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 132ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 128ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 126ms.
+29.07.2022   [WS => Manager] Fetched Gateway Information
+    URL: wss://gateway.discord.gg
+    Recommended Shards: 1
+29.07.2022   [WS => Manager] Session Limit Information
+    Total: 1000
+    Remaining: 949
+29.07.2022   [WS => Manager] Spawning shards: 0
+29.07.2022   [WS => Shard 0] [CONNECT]
+    Gateway    : wss://gateway.discord.gg/
+    Version    : 9
+    Encoding   : json
+    Compression: none
+29.07.2022   [WS => Shard 0] Setting a HELLO timeout for 20s.
+29.07.2022   [WS => Manager] Fetched Gateway Information
+    URL: wss://gateway.discord.gg
+    Recommended Shards: 1
+29.07.2022   [WS => Manager] Spawning shards: 0
+29.07.2022   [WS => Manager] Session Limit Information
+    Total: 1000
+    Remaining: 949
+29.07.2022   [WS => Shard 0] [CONNECT]
+    Gateway    : wss://gateway.discord.gg/
+    Version    : 9
+    Encoding   : json
+    Compression: none
+29.07.2022   [WS => Shard 0] Setting a HELLO timeout for 20s.
+29.07.2022   [WS => Shard 0] [CONNECTED] Took 205ms
+29.07.2022   [WS => Shard 0] Clearing the HELLO timeout.
+29.07.2022   [WS => Shard 0] [IDENTIFY] Shard 0/1 with intents: 1539
+29.07.2022   [WS => Shard 0] Setting a heartbeat interval for 41250ms.
+29.07.2022   [WS => Shard 0] Setting a heartbeat interval for 41250ms.
+29.07.2022   [WS => Shard 0] [CONNECTED] Took 193ms
+29.07.2022   [WS => Shard 0] Clearing the HELLO timeout.
+29.07.2022   [WS => Shard 0] [IDENTIFY] Shard 0/1 with intents: 1539
+29.07.2022   [WS => Shard 0] [READY] Session 9d178d323a6f3aedade8490d5eabc4b0.
+29.07.2022   [WS => Shard 0] [ReadyHeartbeat] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Shard received all its guilds. Marking as fully ready.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 207ms.
+29.07.2022   [WS => Shard 0] [INVALID SESSION] Resumable: false.
+29.07.2022   [WS => Manager] Shard Queue Size: 1; continuing in 5 seconds...
+29.07.2022   [WS => Shard 0] Failed to connect to the gateway, requeueing...
+29.07.2022   [WS => Shard 0] An open connection was found, attempting an immediate identify.
+29.07.2022   [WS => Shard 0] [IDENTIFY] Shard 0/1 with intents: 1539
+29.07.2022   [WS => Shard 0] [READY] Session 827839c435134da246fdc9f9544f6ddf.
+29.07.2022   [WS => Shard 0] [ReadyHeartbeat] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Shard received all its guilds. Marking as fully ready.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 224ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 133ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 144ms.
+29.07.2022   SEEN-#5771 
+29.07.2022   SEEN-#5771 Wyeliminowany Został: 438336824516149249
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 144ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 133ms.
+29.07.2022   [WS => Manager] Fetched Gateway Information
+    URL: wss://gateway.discord.gg
+    Recommended Shards: 1
+29.07.2022   [WS => Manager] Session Limit Information
+    Total: 1000
+    Remaining: 947
+29.07.2022   [WS => Manager] Spawning shards: 0
+29.07.2022   [WS => Shard 0] [CONNECT]
+    Gateway    : wss://gateway.discord.gg/
+    Version    : 9
+    Encoding   : json
+    Compression: none
+29.07.2022   [WS => Shard 0] Setting a HELLO timeout for 20s.
+29.07.2022   [WS => Shard 0] [CONNECTED] Took 213ms
+29.07.2022   [WS => Shard 0] Clearing the HELLO timeout.
+29.07.2022   [WS => Shard 0] Setting a heartbeat interval for 41250ms.
+29.07.2022   [WS => Shard 0] [IDENTIFY] Shard 0/1 with intents: 1539
+29.07.2022   [WS => Manager] Session Limit Information
+    Total: 1000
+    Remaining: 947
+29.07.2022   [WS => Manager] Spawning shards: 0
+29.07.2022   [WS => Manager] Fetched Gateway Information
+    URL: wss://gateway.discord.gg
+    Recommended Shards: 1
+29.07.2022   [WS => Shard 0] [CONNECT]
+    Gateway    : wss://gateway.discord.gg/
+    Version    : 9
+    Encoding   : json
+    Compression: none
+29.07.2022   [WS => Shard 0] Setting a HELLO timeout for 20s.
+29.07.2022   [WS => Shard 0] Clearing the HELLO timeout.
+29.07.2022   [WS => Shard 0] [CONNECTED] Took 202ms
+29.07.2022   [WS => Shard 0] Setting a heartbeat interval for 41250ms.
+29.07.2022   [WS => Shard 0] [IDENTIFY] Shard 0/1 with intents: 1539
+29.07.2022   [WS => Shard 0] [READY] Session c85977c8213231fd1af523faae45b45b.
+29.07.2022   [WS => Shard 0] [ReadyHeartbeat] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Shard received all its guilds. Marking as fully ready.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 186ms.
+29.07.2022   [WS => Shard 0] Failed to connect to the gateway, requeueing...
+29.07.2022   [WS => Shard 0] [INVALID SESSION] Resumable: false.
+29.07.2022   [WS => Manager] Shard Queue Size: 1; continuing in 5 seconds...
+29.07.2022   [WS => Shard 0] An open connection was found, attempting an immediate identify.
+29.07.2022   [WS => Shard 0] [IDENTIFY] Shard 0/1 with intents: 1539
+29.07.2022   [WS => Shard 0] [ReadyHeartbeat] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] [READY] Session 02e752ced4049814bce7d2c50bd1b43a.
+29.07.2022   [WS => Shard 0] Shard received all its guilds. Marking as fully ready.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 184ms.
+29.07.2022   SEEN-#5771 
+29.07.2022   SEEN-#5771 Wyeliminowany Został: <@797070806885990431>
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 131ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 131ms.
+29.07.2022   [WS => Manager] Fetched Gateway Information
+    URL: wss://gateway.discord.gg
+    Recommended Shards: 1
+29.07.2022   [WS => Manager] Spawning shards: 0
+29.07.2022   [WS => Manager] Session Limit Information
+    Total: 1000
+    Remaining: 945
+29.07.2022   [WS => Shard 0] [CONNECT]
+    Gateway    : wss://gateway.discord.gg/
+    Version    : 9
+    Encoding   : json
+    Compression: none
+29.07.2022   [WS => Shard 0] Setting a HELLO timeout for 20s.
+29.07.2022   [WS => Shard 0] [CONNECTED] Took 222ms
+29.07.2022   [WS => Shard 0] Clearing the HELLO timeout.
+29.07.2022   [WS => Shard 0] Setting a heartbeat interval for 41250ms.
+29.07.2022   [WS => Shard 0] [IDENTIFY] Shard 0/1 with intents: 1539
+29.07.2022   [WS => Manager] Fetched Gateway Information
+    URL: wss://gateway.discord.gg
+    Recommended Shards: 1
+29.07.2022   [WS => Manager] Session Limit Information
+    Total: 1000
+    Remaining: 945
+29.07.2022   [WS => Manager] Spawning shards: 0
+29.07.2022   [WS => Shard 0] [CONNECT]
+    Gateway    : wss://gateway.discord.gg/
+    Version    : 9
+    Encoding   : json
+    Compression: none
+29.07.2022   [WS => Shard 0] Setting a HELLO timeout for 20s.
+29.07.2022   [WS => Shard 0] [READY] Session 19a507c08bf0014467488697921d2df1.
+29.07.2022   [WS => Shard 0] [ReadyHeartbeat] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Shard received all its guilds. Marking as fully ready.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 202ms.
+29.07.2022   [WS => Shard 0] Clearing the HELLO timeout.
+29.07.2022   [WS => Shard 0] Setting a heartbeat interval for 41250ms.
+29.07.2022   [WS => Shard 0] [CONNECTED] Took 1200ms
+29.07.2022   [WS => Shard 0] [IDENTIFY] Shard 0/1 with intents: 1539
+29.07.2022   [WS => Shard 0] [INVALID SESSION] Resumable: false.
+29.07.2022   [WS => Shard 0] Failed to connect to the gateway, requeueing...
+29.07.2022   [WS => Manager] Shard Queue Size: 1; continuing in 5 seconds...
+29.07.2022   [WS => Shard 0] An open connection was found, attempting an immediate identify.
+29.07.2022   [WS => Shard 0] [IDENTIFY] Shard 0/1 with intents: 1539
+29.07.2022   [WS => Shard 0] [READY] Session 77cc4bb931d92b59b909b47df3b9cecc.
+29.07.2022   [WS => Shard 0] [ReadyHeartbeat] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Shard received all its guilds. Marking as fully ready.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 293ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 134ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 129ms.
+29.07.2022   SEEN-#5771 
+29.07.2022   SEEN-#5771 Wyeliminowany Został: <@874323682263179314>
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 154ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 131ms.
+29.07.2022   [WS => Manager] Fetched Gateway Information
+    URL: wss://gateway.discord.gg
+    Recommended Shards: 1
+29.07.2022   [WS => Manager] Spawning shards: 0
+29.07.2022   [WS => Shard 0] [CONNECT]
+    Gateway    : wss://gateway.discord.gg/
+    Version    : 9
+    Encoding   : json
+    Compression: none
+29.07.2022   [WS => Manager] Session Limit Information
+    Total: 1000
+    Remaining: 943
+29.07.2022   [WS => Shard 0] Setting a HELLO timeout for 20s.
+29.07.2022   [WS => Shard 0] [CONNECTED] Took 195ms
+29.07.2022   [WS => Shard 0] Clearing the HELLO timeout.
+29.07.2022   [WS => Shard 0] Setting a heartbeat interval for 41250ms.
+29.07.2022   [WS => Shard 0] [IDENTIFY] Shard 0/1 with intents: 1539
+29.07.2022   [WS => Manager] Fetched Gateway Information
+    URL: wss://gateway.discord.gg
+    Recommended Shards: 1
+29.07.2022   [WS => Manager] Spawning shards: 0
+29.07.2022   [WS => Shard 0] Setting a HELLO timeout for 20s.
+29.07.2022   [WS => Manager] Session Limit Information
+    Total: 1000
+    Remaining: 943
+29.07.2022   [WS => Shard 0] [CONNECT]
+    Gateway    : wss://gateway.discord.gg/
+    Version    : 9
+    Encoding   : json
+    Compression: none
+29.07.2022   [WS => Shard 0] [CONNECTED] Took 222ms
+29.07.2022   [WS => Shard 0] Clearing the HELLO timeout.
+29.07.2022   [WS => Shard 0] Setting a heartbeat interval for 41250ms.
+29.07.2022   [WS => Shard 0] [IDENTIFY] Shard 0/1 with intents: 1539
+29.07.2022   [WS => Shard 0] [READY] Session fc6624389792ed2d1003d13a6e406176.
+29.07.2022   [WS => Shard 0] [ReadyHeartbeat] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Shard received all its guilds. Marking as fully ready.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 207ms.
+29.07.2022   [WS => Shard 0] Failed to connect to the gateway, requeueing...
+29.07.2022   [WS => Shard 0] [INVALID SESSION] Resumable: false.
+29.07.2022   [WS => Manager] Shard Queue Size: 1; continuing in 5 seconds...
+29.07.2022   [WS => Shard 0] An open connection was found, attempting an immediate identify.
+29.07.2022   [WS => Shard 0] [IDENTIFY] Shard 0/1 with intents: 1539
+29.07.2022   [WS => Shard 0] [READY] Session 19778cb89fe1e32c500ea0f3285c61bc.
+29.07.2022   [WS => Shard 0] [ReadyHeartbeat] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Shard received all its guilds. Marking as fully ready.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 164ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 139ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 132ms.
+29.07.2022   SEEN-#5771 
+29.07.2022   SEEN-#5771 Wyeliminowany Został: <@438336824516149249>
+29.07.2022   SEEN-#5771 
+29.07.2022   SEEN-#5771 Wyeliminowany Został: <@438336824516149249>
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 127ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 142ms.
+29.07.2022   SEEN-#5771 
+29.07.2022   SEEN-#5771 Wyeliminowany Został: <@797070806885990431>
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 130ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 127ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 126ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 139ms.
+29.07.2022   [WS => Manager] Fetched Gateway Information
+    URL: wss://gateway.discord.gg
+    Recommended Shards: 1
+29.07.2022   [WS => Manager] Session Limit Information
+    Total: 1000
+    Remaining: 941
+29.07.2022   [WS => Shard 0] [CONNECT]
+    Gateway    : wss://gateway.discord.gg/
+    Version    : 9
+    Encoding   : json
+    Compression: none
+29.07.2022   [WS => Manager] Spawning shards: 0
+29.07.2022   [WS => Shard 0] Setting a HELLO timeout for 20s.
+29.07.2022   [WS => Manager] Fetched Gateway Information
+    URL: wss://gateway.discord.gg
+    Recommended Shards: 1
+29.07.2022   [WS => Manager] Session Limit Information
+    Total: 1000
+    Remaining: 941
+29.07.2022   [WS => Manager] Spawning shards: 0
+29.07.2022   [WS => Shard 0] Setting a HELLO timeout for 20s.
+29.07.2022   [WS => Shard 0] [CONNECT]
+    Gateway    : wss://gateway.discord.gg/
+    Version    : 9
+    Encoding   : json
+    Compression: none
+29.07.2022   [WS => Shard 0] [CONNECTED] Took 211ms
+29.07.2022   [WS => Shard 0] Clearing the HELLO timeout.
+29.07.2022   [WS => Shard 0] Setting a heartbeat interval for 41250ms.
+29.07.2022   [WS => Shard 0] [IDENTIFY] Shard 0/1 with intents: 1539
+29.07.2022   [WS => Shard 0] [CONNECTED] Took 197ms
+29.07.2022   [WS => Shard 0] Clearing the HELLO timeout.
+29.07.2022   [WS => Shard 0] Setting a heartbeat interval for 41250ms.
+29.07.2022   [WS => Shard 0] [IDENTIFY] Shard 0/1 with intents: 1539
+29.07.2022   [WS => Shard 0] [READY] Session 7aeeb1111f91f8ff26bf3dba962fd8f3.
+29.07.2022   [WS => Shard 0] [ReadyHeartbeat] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Shard received all its guilds. Marking as fully ready.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 173ms.
+29.07.2022   [WS => Shard 0] [INVALID SESSION] Resumable: false.
+29.07.2022   [WS => Manager] Shard Queue Size: 1; continuing in 5 seconds...
+29.07.2022   [WS => Shard 0] Failed to connect to the gateway, requeueing...
+29.07.2022   [WS => Shard 0] An open connection was found, attempting an immediate identify.
+29.07.2022   [WS => Shard 0] [IDENTIFY] Shard 0/1 with intents: 1539
+29.07.2022   [WS => Shard 0] [READY] Session f632707bba909395c4c9820e93499a63.
+29.07.2022   [WS => Shard 0] [ReadyHeartbeat] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Shard received all its guilds. Marking as fully ready.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 343ms.
+29.07.2022   SEEN-#5771 
+29.07.2022   SEEN-#5771 Wyeliminowany Został: <@438336824516149249>
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 130ms.
+29.07.2022   [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+29.07.2022   [WS => Shard 0] Heartbeat acknowledged, latency of 129ms.

@@ -19,7 +19,8 @@ module.exports = (data, path, type, srv_id, author_tag, channel_name) => {
 
         }
     }
-
+//to mi tak spami 
+// i wywyłuje to w main.js w messageCreate \/
     if(type == 2){
         var d = new Date();
         const time = new Date().toLocaleTimeString().slice(0,5)

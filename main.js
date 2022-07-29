@@ -9,7 +9,7 @@ const clientId = '797070806885990431';
 
 //wczytywanie configu
 const config = require("./config/config.js")
-const token = config.token//wyciąga zmienną token z configu
+const token = process.env.TOKEN
 const prefix = config.prefix
 const commands_logs = config.commands_logs
 const welcomeChannelId = config.welcomeChannelId

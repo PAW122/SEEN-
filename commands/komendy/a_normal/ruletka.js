@@ -81,12 +81,12 @@ module.exports = {
                     }
                     if(players == 4){
                         players_list.push(player3.id)
-                        .then(players_list.push(player4.id))
+                        players_list.push(player4.id)
                     }
                     if(players == 5){
                         players_list.push(player3.id)
-                        .then(players_list.push(player4.id))
-                        .then(players_list.push(player5.id))
+                        players_list.push(player4.id)
+                        players_list.push(player5.id)
                     }
                     
 
@@ -102,25 +102,19 @@ module.exports = {
                     {name: `gracz5:` ,value: `${player5}`, inline: true}
                 )
                 await inter.reply({ embeds: [lobby] });
-                await inter.reply('test');
+               
 
                 await wait(2000);
                     const rng = Math.floor(Math.random() * players);
                     const wyeliminowany_gracz = players_list[rng]
-                    const game_over = new Discord.MessageEmbed()
-                .setTitle('**Ruletka**')
-                .setColor('RANDOM')
-                .setFields(
-                    {name: `Wyeliminowany Został:` ,value: `${wyeliminowany_gracz}`, inline: true},
-                )
-                await inter.followUp({ embeds: [game_over] });
-                console.log("działą")
-                await inter.followUp("test2");
+                await inter.followUp(`Wyeliminowany Został: <@${wyeliminowany_gracz}>`);
+
 
 
                 }
         }catch(err){
-            console.log(`KURWA nie działĄ ${err}`)
+            //przez niedorobiony slashcommand handler zawsze wywali 1 error
+            return 0
         }
             },
 
