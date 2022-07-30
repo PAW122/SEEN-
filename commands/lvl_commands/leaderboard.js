@@ -9,6 +9,7 @@ const { SlashCommandBuilder } = require('@discordjs/builders');
 module.exports = {
     name: "leaderboard",
     work: worker,
+    isSlash: true,
 
     data: new SlashCommandBuilder()
     .setName('leaderboard')

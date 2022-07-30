@@ -9,6 +9,7 @@ module.exports = {
     name: "lvl",
     description: "chech your level",
     work: worker,
+    isSlash: true,
 
     data: new SlashCommandBuilder()
     .setName('lvl')
