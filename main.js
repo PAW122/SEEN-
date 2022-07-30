@@ -5,7 +5,6 @@ const consola = require('consola')
 
 const { REST } = require('@discordjs/rest');
 const { Routes } = require('discord-api-types/v9');
-const clientId = '797070806885990431';//id bota
 
 //wczytywanie configu
 const config = require("./config/config.js")
@@ -18,6 +17,11 @@ const logs_dir = config.logs_dir
 const error_logs_dir = config.error_logs_dir
 const save_messages_logs = config.save_messages_logs
 const save_messages_logs_dir = config.save_messages_logs_dir
+const test_bot = config.test_bot
+
+const test_clientId = '869587877477101590';//id SEEN
+const clientId = '797070806885990431';//id SEEN
+
 
 //wczytywanie command handlera
 const handler = require("./handlers/handler.js")
@@ -36,16 +40,12 @@ const logs = require("./handlers/logs")
 
 //mongo db
 const mongo = require("./handlers/mongo_handler");
-const { test_bot } = require('./config/config.js');
 
+//lvling
+const lvl = require("./commands/lvl_commands/lvling")
 
-//wczytywanie slash commands
-const functions = fs.readdirSync('./handlers/functions').filter(file => file.endsWith('.js'));
-const eventFiles = fs.readdirSync('./handlers/events').filter(file => file.endsWith('.js'));
-const slashCommands = fs.readdirSync(process.cwd() +`/commands/komendy`);
-const slashCommands2 = fs.readdirSync(process.cwd() +`/commands/anime/`);
-const slashCommands3 = fs.readdirSync(process.cwd() +`/commands/anime zapowiedz/`);
-const slashCommands4 = fs.readdirSync(process.cwd() +`/commands/db_commands/`)
+//slash_commands_handler
+const slash_handler = require("./handlers/slash_commands_handler")
 
 
 const client = new Discord.Client({
@@ -58,39 +58,14 @@ const client = new Discord.Client({
 });
 client.commands = new Discord.Collection()
 client.commandArray = [];
-//slash
-client.login(config.token).then(async ()=>{
-    for(file of functions){
-        require(`./handlers/functions/${file}`)(client,eventFiles)
-      }
-      //await client.handlerevents(eventFiles, "./handlers/events");
-      await client.handleCommands(slashCommands, "komendy");
-      await client.handleCommands(slashCommands2, "anime");
-      await client.handleCommands(slashCommands3, "anime zapowiedz");
-      await client.handleCommands(slashCommands4, "db_commands");
-      const rest = new REST({ version: '9' }).setToken(token);
-        (async () => {
-            try {
-                console.log('Started refreshing application (/) commands.');
-                for (let i = 0; i < client.guilds.cache.size; i++) {
-                  const guild = client.guilds.cache.at(i);
-                   // console.log(client.commandArray)
-                    await new Promise(resolve => {
-                      rest.put(Routes.applicationGuildCommands(clientId, guild.id),
-                        { body: client.commandArray }).catch(e => {
-                          //console.log(`Nie można dodać komend do serwera ${guild}`)
-                        }).then(() => {
-                          resolve()
-                        })
-                    });
-                } 
-                console.log('Successfully reloaded application (/) commands.');
-            } catch (error) { console.error(error); }
-        })();
-})
-     
 
-    //module.exports = {client};
+//slash
+if(test_bot == true){
+    slash_handler(client,test_token,test_clientId)
+}else{
+    slash_handler(client,token,clientId)
+}
+
 
 //mongo db
 mongo(client)
@@ -116,6 +91,8 @@ client.once('ready', () =>{
 client.on('messageCreate', async message =>
 {
 
+    //lvling
+    lvl(client,message)
      
     //logi z serwerów
     logs(message.content, null, 2, message.guild.id ,message.author.tag, message.channel.name)
