@@ -8,7 +8,7 @@ naprawić lewele
 naprawić logs.js
 zrobic tabele ascii dla .command
 command_handler wczytuje pliki lvl.js itp kilka razy
-do naprawy: leaderboard :28 -- Levels.feachLeaderboard is not a function
+do naprawy: leaderboard
 naprawić animegif
 
 # paczki

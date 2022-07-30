@@ -6,6 +6,7 @@ const Discord = require("discord.js")
 const Levels = require("discord-xp")
 const { MessageEmbed } = require("discord.js")
 const { SlashCommandBuilder } = require('@discordjs/builders');
+const mongoose = require("mongoose")
 module.exports = {
     name: "leaderboard",
     work: worker,
@@ -24,6 +25,7 @@ executeInteraction: async (inter) => {
      inter.reply({ embeds: [embed_worker] });
      return(console.log("command id disabled"))
     }else{
+        console.log(mongoose.connection.readyState)
     
         const rawLeaderBoard = await Levels.fetchLeaderboard(inter.guild.id, 10)
         if(rawLeaderBoard.lenght < 1){

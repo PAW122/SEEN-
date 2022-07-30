@@ -42,7 +42,7 @@ const logs = require("./handlers/logs")
 const mongo = require("./handlers/mongo_handler");
 
 //lvling
-const lvl = require("./commands/lvl_commands/lvling")
+const lvl = require("./commands/lvl_commands/handler/lvling")
 
 //slash_commands_handler
 const slash_handler = require("./handlers/slash_commands_handler")

@@ -8,44 +8,119 @@ if(nr_tabeli == "1"){//komedy
             if(command.name_en){
                 if(command.work){
                     if(command.work == "yes"){//komenda jest włączona
-                        table.addRow(file, "✅", "❌", "❌",  "✅", "✅","✅")
+                        if(command.isSlash == true){
+                            table.addRow(file, "✅", "❌", "❌",  "✅", "✅","✅","✅")
+                        }else if(!command.isSlash){
+                            table.addRow(file, "✅", "❌", "❌",  "✅", "✅","✅","🟧")
+                        }else{
+                            table.addRow(file, "✅", "❌", "❌",  "✅", "✅","✅","❌")
+                        }
+    
+                        
                     }else{//komendajest wyłączona
-                        table.addRow(file, "✅", "❌", "❌",  "✅", "✅","❌") 
+                        if(command.isSlash == true){
+                        table.addRow(file, "✅", "❌", "❌",  "✅", "✅","❌","✅") 
+                    }else if(!command.isSlash){
+                        table.addRow(file, "✅", "❌", "❌",  "✅", "✅","❌","🟧")
+                        }else{
+                            table.addRow(file, "✅", "❌", "❌",  "✅", "✅","❌","❌") 
+                        }
                     }
                 }else{//nie zdefiniowano włączenia
-                    table.addRow(file, "✅", "❌", "❌",  "✅", "✅","🟧")
+                    if(command.isSlash == true){
+                        table.addRow(file, "✅", "❌", "❌",  "✅", "✅","🟧","✅")
+                    }else if(!command.isSlash){
+                        table.addRow(file, "✅", "❌", "❌",  "✅", "✅","🟧","🟧")
+                    }else{
+                        table.addRow(file, "✅", "❌", "❌",  "✅", "✅","🟧","❌")
+                    }
                 }
             }else{
                 if(command.work){
                     if(command.work == "yes"){
-                        table.addRow(file, "✅", "❌", "❌",  "✅", "❌","✅")
+                        if(command.isSlash == true){
+                        table.addRow(file, "✅", "❌", "❌",  "✅", "❌","✅","✅")
+                    }else if(!command.isSlash){
+                        table.addRow(file, "✅", "❌", "❌",  "✅", "❌","✅","🟧")
+                        }else{
+                            table.addRow(file, "✅", "❌", "❌",  "✅", "❌","✅","❌")
+                        }
                     }else{
-                        table.addRow(file, "✅", "❌", "❌",  "✅", "❌","❌")  
+                        if(command.isSlash == true){
+                            table.addRow(file, "✅", "❌", "❌",  "✅", "❌","❌","✅")
+                        }else if(!command.isSlash){
+                            table.addRow(file, "✅", "❌", "❌",  "✅", "❌","❌","🟧")  
+                        }else{
+                            table.addRow(file, "✅", "❌", "❌",  "✅", "❌","❌","❌")  
+                        }
+                        
                     }
                 }else{
-                    table.addRow(file, "✅", "❌", "❌",  "✅", "❌","🟧")
+                    if(command.isSlash == true){
+                    table.addRow(file, "✅", "❌", "❌",  "✅", "❌","🟧","✅")
+                }else if(!command.isSlash){
+                    table.addRow(file, "✅", "❌", "❌",  "✅", "❌","🟧","🟧")  
+                    }else{
+                        table.addRow(file, "✅", "❌", "❌",  "✅", "❌","🟧","❌") 
+                    }
                 }
             } 
         }else{//jeśli nie ma polskiego
             if(command.name_en){
                 if(command.work){
                     if(command.work == "yes"){
-                        table.addRow(file, "✅", "❌", "❌",  "❌", "✅","✅")
+                        if(command.isSlash == true){
+                            table.addRow(file, "✅", "❌", "❌",  "❌", "✅","✅","✅") 
+                        }else if(!command.isSlash){
+                            table.addRow(file, "✅", "❌", "❌",  "❌", "✅","✅","🟧")   
+                        }else{
+                            table.addRow(file, "✅", "❌", "❌",  "❌", "✅","✅","❌")  
+                        }
                     }else{
-                        table.addRow(file, "✅", "❌", "❌",  "❌", "✅","❌")
+                        if(command.isSlash == true){
+                            table.addRow(file, "✅", "❌", "❌",  "❌", "✅","❌","✅")
+                        }else if(!command.isSlash){
+                            table.addRow(file, "✅", "❌", "❌",  "❌", "✅","❌","🟧")    
+                        }else{
+                            table.addRow(file, "✅", "❌", "❌",  "❌", "✅","❌","❌")  
+                        }
                     }
                 }else{
-                    table.addRow(file, "✅", "❌", "❌",  "❌", "✅","🟧")
+                    if(command.isSlash == true){
+                        table.addRow(file, "✅", "❌", "❌",  "❌", "✅","🟧","✅") 
+                    }else if(!command.isSlash){
+                        table.addRow(file, "✅", "❌", "❌",  "❌", "✅","🟧","🟧")  
+                    }else{
+                        table.addRow(file, "✅", "❌", "❌",  "❌", "✅","🟧","❌")  
+                    }
                 }
             }else{
                 if(command.work){
                     if(command.work == "yes"){
-                    table.addRow(file, "✅", "❌", "❌",  "❌", "❌","✅")
+                        if(command.isSlash == true){
+                            table.addRow(file, "✅", "❌", "❌",  "❌", "❌","✅","✅")  
+                        }else if(!command.isSlash){
+                            table.addRow(file, "✅", "❌", "❌",  "❌", "❌","✅","🟧")  
+                        }else{
+                            table.addRow(file, "✅", "❌", "❌",  "❌", "❌","✅","❌")  
+                        }
                     }else{
-                        table.addRow(file, "✅", "❌", "❌",  "❌", "❌","❌")  
+                        if(command.isSlash == true){
+                            table.addRow(file, "✅", "❌", "❌",  "❌", "❌","❌","✅")
+                        }else if(!command.isSlash){
+                            table.addRow(file, "✅", "❌", "❌",  "❌", "❌","❌","🟧")    
+                        }else{
+                            table.addRow(file, "✅", "❌", "❌",  "❌", "❌","❌","❌")  
+                        } 
                     }
                 }else{
-                    table.addRow(file, "✅", "❌", "❌",  "❌", "❌","🟧")
+                    if(command.isSlash == true){
+                        table.addRow(file, "✅", "❌", "❌",  "❌", "❌","🟧","✅")  
+                    }else if(!command.isSlash){
+                        table.addRow(file, "✅", "❌", "❌",  "❌", "❌","🟧","🟧")
+                    }else{
+                        table.addRow(file, "✅", "❌", "❌",  "❌", "❌","🟧","❌")  
+                    } 
                 }
             }  
         }//koniec ascii

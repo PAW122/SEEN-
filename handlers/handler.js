@@ -6,7 +6,7 @@ const load_commands_logs = config.load_commands_logs
 
 const ascii = require("ascii-table")
 //zapo - zapowiedzi anime
-const table = new ascii().setHeading("Command","komendy","anime","zapo","PL","EN","worker")
+const table = new ascii().setHeading("Command","komendy","anime","zapo","PL","EN","worker","slashCommand")
 
 //import modułu rysującego tabele
 const tabela = require("./ascii.js")
@@ -71,22 +71,25 @@ module.exports = (client) => {
             tabela(command,file,table,name,name_en,nr_tabeli)
         }
     }
-    for (const folder of db_commands) {//command handler dla anime list
-        const commandsFile = fs.readdirSync(__dirname +`/../commands/lvl_commands`).filter(file => file.endsWith(".js"));
+    
+    for (const folder of db_commands) {//command handler dla lvl_commands
+        const commandsFile = fs.readdirSync(__dirname +`/../commands/lvl_commands/${folder}`).filter(file => file.endsWith(".js"));
     
         for(const file of commandsFile) {
-            const command = require(__dirname +`/../commands/lvl_commands/${file}`);
+            const command = require(__dirname +`/../commands/lvl_commands/${folder}/${file}`);
             client.command.set(command.name, command);//język polski
-            client.command.set(command.name_en, command);//język polski
+            client.command.set(command.name_en, command);//język abg
+            console.log(file)
 
              
             //ascii
-            var nr_tabeli = "1"//podpinam do kategori komendy
+            var nr_tabeli = "1"//podpinam do kategori lvl_commands
             const name = command.name
             const name_en = command.name_en
             tabela(command,file,table,name,name_en,nr_tabeli)
         }
     }
+    
     //wypisuje w konsoli tabelke co zostało załadowane
     if(load_commands_logs == "True"){
     console.log(table.toString())}
