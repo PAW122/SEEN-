@@ -2,6 +2,7 @@ const config = require(process.cwd() + `/config/worker.js`)
 const work = config.lvl_command
 const worker = config.lvl_command_work
 const reason = config.lvl_command_disable
+const client = require(process.cwd() +`/main.js`)
 const Discord = require("discord.js")
 const Levels = require("discord-xp")
 const { MessageEmbed } = require("discord.js")
@@ -29,8 +30,9 @@ executeInteraction: async (inter) => {
     
         const rawLeaderBoard = await Levels.fetchLeaderboard(inter.guild.id, 10)
         if(rawLeaderBoard.lenght < 1){
-            return inter.followUp("Nie ma nikogo na leaderboard")
+            return inter.reply("Nie ma nikogo na leaderboard")
         }else{
+        
             const leaderboard = await Levels.computeLeaderboard(
                 client,
                 rawLeaderBoard,
@@ -41,7 +43,7 @@ executeInteraction: async (inter) => {
                 Level" ${e.level} \n XP: ${e.xp.toLocaleString()}`
             });
 
-            inter.followUp({embeds: [
+            inter.reply({embeds: [
                 new MessageEmbed()
                 .setColor("RANDOM")
                 .setTitle(`** LeaderBoard of ${inter.guild.name} **`)

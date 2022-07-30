@@ -9,7 +9,8 @@ module.exports = {
         if (!inter.isCommand()) return;
         const command = client.commands.get(inter.commandName);
         if (!command) return;
-         try {
+        lastInteractionId = inter.id
+        try {
             await command.executeInteraction(inter);
         } catch (error) {
             console.error(error);
@@ -17,6 +18,5 @@ module.exports = {
             await inter.reply({ content: 'Wystąpił błąd w komendzie!', ephemeral: true });
 
         }
-        lastInteractionId = inter.id
     }
 }

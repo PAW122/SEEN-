@@ -76,7 +76,7 @@ module.exports = {
 
             if(response == 'pat'){
                 console.log("pat")
-                images_api.sfw.pat().then(response => {
+                await images_api.sfw.pat().then(response => {
                     const attachment = new MessageAttachment(response.image)
                     inter.reply({ files: [attachment] })
                 })

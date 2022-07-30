@@ -64,7 +64,6 @@ module.exports = {
 
         if (work != true) { return message.channel.send(reason) }
 
-
         if (args[0] == "help") {
             if (args[1] == "en") {
                 const embed_en = new Discord.MessageEmbed()

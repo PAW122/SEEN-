@@ -1,7 +1,10 @@
 const config = require(process.cwd() + `/config/config.js`)
 const mongodb = process.env.MONGO
 const mongoose = require("mongoose")
+const Levels = require("discord-xp")
 module.exports = () => {
+
+    Levels.setURL(mongodb)
 
     mongoose.connect(`${mongodb}`,{
         useNewUrlParser: true,
