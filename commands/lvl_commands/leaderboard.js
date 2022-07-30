@@ -2,7 +2,7 @@ const config = require(process.cwd() + `/config/worker.js`)
 const work = config.lvl_command
 const worker = config.lvl_command_work
 const reason = config.lvl_command_disable
-
+const Discord = require("discord.js")
 const Levels = require("discord-xp")
 const { MessageEmbed } = require("discord.js")
 const { SlashCommandBuilder } = require('@discordjs/builders');
@@ -25,7 +25,7 @@ executeInteraction: async (inter) => {
      return(console.log("command id disabled"))
     }else{
     
-        const rawLeaderBoard = await Levels.feachLeaderboard(inter.guild.id, 10)
+        const rawLeaderBoard = await Levels.fetchLeaderboard(inter.guild.id, 10)
         if(rawLeaderBoard.lenght < 1){
             return inter.followUp("Nie ma nikogo na leaderboard")
         }else{
