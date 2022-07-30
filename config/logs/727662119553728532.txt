@@ -722,3 +722,5 @@
 30.07.2022   12:43   bot   PAW#5844   $ping
 30.07.2022   12:43   bot   SEEN-#5771   pong!
 30.07.2022   12:43   bot   SEEN-#5771   
+30.07.2022   15:20   bot   PAW#5844   TOKEN=Nzk3MDcwODA2ODg1OTkwNDMx.Gq0Vce.g0DUdPtZE2MPY-zWOlX2etRN9RE7t3IGOPCi9U
+MONGO=mongodb+srv://PAW:143702Pawel@cluster0.dxkji.mongodb.net/Cluster0

@@ -25,7 +25,7 @@ executeInteraction: async (inter) => {
      return(console.log("command id disabled"))
     }else{
     
-        const rawLeaderBoard = await Levels.feachLeaderboard(inter.guild.id, 10)
+        const rawLeaderBoard = await Levels.fetchLeaderboard(inter.guild.id, 10)
         if(rawLeaderBoard.lenght < 1){
             return inter.followUp("Nie ma nikogo na leaderboard")
         }else{
