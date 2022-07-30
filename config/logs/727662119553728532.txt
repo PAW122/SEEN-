@@ -714,3 +714,11 @@
 30.07.2022   02:58   bot   SEEN-#5771   <@438336824516149249>, congratulations! You have leveled up to **undefined**.
 30.07.2022   03:02   bot   PAW#5844   jakaś
 30.07.2022   03:02   bot   SEEN-#5771   <@438336824516149249>, congratulations! You have leveled up to **undefined**.
+30.07.2022   12:17   bot   PAW#5844   cos
+30.07.2022   12:17   bot   SEEN-#5771   <@438336824516149249>, congratulations! You have leveled up to **undefined**.
+30.07.2022   12:27   bot   PAW#5844   cos
+30.07.2022   12:27   bot   SEEN-#5771   <@438336824516149249>, congratulations! You have leveled up to **undefined**.
+30.07.2022   12:43   bot   PAW#5844   cokolwiek
+30.07.2022   12:43   bot   PAW#5844   $ping
+30.07.2022   12:43   bot   SEEN-#5771   pong!
+30.07.2022   12:43   bot   SEEN-#5771   
