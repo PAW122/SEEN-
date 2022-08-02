@@ -3,8 +3,8 @@ const config = require(process.cwd() + `/config/worker.js`)
         const worker = config.srv_info_work
         const reason = config.srv_info_disable
 
-const Discord = require('discord.js');
 const { SlashCommandBuilder } = require('@discordjs/builders');
+const Discord = require('discord.js');
 //$srvinfo
 //$srvinfo help
 //$srvinfo help en
@@ -16,127 +16,69 @@ module.exports = {
     usage: "$srvinfo",
     work: worker,
     isSlash: true,
-
-    data: new SlashCommandBuilder()
-        .setName('srvinfo')
-        .setDescription('wysyła informacje o serweże'),
-
-    executeInteraction: async (inter) => {
-        if (work != true) {
-            const embed_worker = new Discord.MessageEmbed()
-                .setTitle('**srvinfo**')
-                .setColor('RANDOM')
-                .setDescription(`${reason}`)
-            inter.reply({ embeds: [embed_worker] });
-            return (console.log("command id disabled"))
-        } else {
-
-        const roles = inter.guild.roles.cache.sort((a, b) => b.position - a.position).map(role => role.toString());
-        const emojis = inter.guild.emojis.cache;
-
+    
+        data: new SlashCommandBuilder()
+            .setName('srvinfo')
+            .setDescription('Wyświetla informacje o serverze'),
+    
+            executeInteraction: async (inter) =>{
+            const { guild } = inter;
+            const { createdTimestamp, ownerId, members, memberCount, channels, emojis, stickers } = guild;
             const embed = new Discord.MessageEmbed()
-
-            .setTitle("Informacje ogólne:")
-            .setDescription(` **Nazwa serwera: **${inter.guild.name} \n
-            **ID:** ${inter.guild.id} \n
-            **Data stworzenia:**${inter.guild.createdAt.toDateString()}\n
-            **Ilość rang:**${roles.length} \n
-            **Emoji:**${emojis.size} \n
-            **Animowane Emoji:** ${emojis.filter(emoji => emoji.animated).size} \n
-            **Ilość osób na serwerze:** ${inter.guild.memberCount}\n
-            `)
+                .setColor('PURPLE')
+                .setAuthor({ name: `${guild.name}`, iconURL: guild.iconURL({ dynamic: true }) })
+                .setThumbnail(guild.iconURL({ dynamic: true }))
+                .addFields(
+                    {
+                        name: '**Ogólne**',
+                        value: [
+                            `Nazwa: ${guild.name}`,
+                            `Utworzono: <t:${parseInt(createdTimestamp / 1000)}:R>`,
+                            `Właściciel: <@${ownerId}>`,
+                        ].join('\n')
+                    },
+                    {
+                        name: '**Użytkownicy**',
+                        value: [
+                            `- Użytkownicy: ${members.cache.filter((m) => !m.user.bot).size}`,
+                            `- Boty: ${members.cache.filter((m) => m.user.bot).size}`,
+                            `Ogólnie: ${memberCount}`,
+                        ].join('\n')
+                    },
+                    {
+                        name: '**Kanały**',
+                        value: [
+                            `- Tekstowe: ${channels.cache.filter((c) => c.type === 'GUILD_TEXT').size}`,
+                            `- Głosowe: ${channels.cache.filter((c) => c.type === 'GUILD_VOICE').size}`,
+                            `- Wątki: ${channels.cache.filter((c) => c.type === 'GUILD_NEWS_THREAD' && 'GUILD_PRIVATE_THREAD' && 'GUILD_PUBLIC_THREAD').size}`,
+                            `- Kategorie: ${channels.cache.filter((c) => c.type === 'GUILD_CATEGORY').size}`,
+                            `- Podium: ${channels.cache.filter((c) => c.type === 'GUILD_STAGE_VOICE').size}`,
+                            `- Aktualności: ${channels.cache.filter((c) => c.type === 'GUILD_NEWS').size}`,
+                            `Ogólnie: ${channels.cache.size}`,
+                        ].join('\n')
+                    },
+                    {
+                        name: 'Emoji oraz naklejki',
+                        value: [
+                            `- Animowane: ${emojis.cache.filter((e) => e.animated).size}`,
+                            `- Zwykłe: ${emojis.cache.filter((e) => !e.animated).size}`,
+                            `- Naklejek: ${stickers.cache.size}`,
+                            `Ogólnie: ${stickers.cache.size + emojis.cache.size}`,
+                        ].join('\n')
+                    },
+                    {
+                        name: '**Statystki NITRO**',
+                        value: [
+                            `- Role: ${guild.roles.cache.size}`,
+                            // `- Poziom: ${guild.premiumTier.replace('TIER_', '')}`,
+                            `- Boosty: ${guild.premiumSubscriptionCount}`,
+                            `- Boosterzy: ${members.cache.filter((m) => m.premiumSince).size}`,
+                        ].join('\n')
+                    }
+                )
+                .setFooter({ text: `Ostatnio sprawdzane:` })
+                .setTimestamp()
     
             inter.reply({ embeds: [embed] })
-
         }
-    },
-
-    execute: async(message, args) => {
-
-    if(work != true){return message.channel.send(reason)}
-         
-
-        if(args[0 == "help"]){
-            if(args[1] == "en"){
-                const embed_en = new Discord.MessageEmbed()
-
-                .setColor(`RED`)//EN
-                .setTitle(`srvinfo`)
-                .setDescription(`bot is sending information about servos \n
-                usage: "$srvinfo"`)
-        
-                .setFooter(message.author.tag, message.author.avatarURL({dynamic: true}));
-        
-        
-                message.channel.send({embeds: [embed_en]});
-            }else{
-                const embed_pl = new Discord.MessageEmbed()
-
-            .setColor(`BLUE`)//PL
-            .setTitle(`srvinfo`)
-            .setDescription(`bot wysyła informacje o serweże\n
-            użycie: "$srvinfo"\n`)
-    
-            .setFooter(message.author.tag, message.author.avatarURL({dynamic: true}));
-    
-    
-            message.channel.send({embeds: [embed_pl]});
-            }
-        }else{
-
-        const regions = {brazil: 'Brazil', EUROPE: 'Europe', hongkong: 'Hong Kong', india: 'India', japan: 'Japan', russia: 'Russia', singapore: 'Singapore', southafrica: 'South Africa', sydeny: 'Sydeny', 'us-central': 'US Central','us-east': 'US Eastside','us-west': 'US Westside','us-south': 'US Southside'};
-
-        const roles = message.guild.roles.cache.sort((a, b) => b.position - a.position).map(role => role.toString());
-        const members = message.guild.members.cache;
-        const channels = message.guild.channels.cache;
-        const emojis = message.guild.emojis.cache;
-     
-        
-
-        //const właściciel = message.guild.owner.id;
-        //let właściciel_id = message.guild.member(`${właściciel}`);
-
-        /*
-        **Online:** ${message.guild.members.cache.filter(member => member.presence.status !== "offline").map(member => member.user.username).join(", ")} \n
-        **Offline:** ${members.filter((member) => member.presence?.status === 'offline').size}\n
-        **Urzytkowników:** ${message.guild.members.cache.filter(member => member !== member.bot).size} \n
-        **Botów:** ${guild.members.filter(member => !member.user.bot).size} \n
-        **Kanałów textowych:** ${channels.filter(channel => channel.type === 'text').size} \n
-        **Kanałów głosowych:** ${channels.filter(channel => channel.type === 'voice').size} \n
-        **Region:**${regions[message.guild.region] }\n
-        */
-
-        
-
-
-        /*
-        .addFields('Statystyki:',[
-            `**Ilość rang:** ${roles.length}`,
-            `**Emoji Count:** ${emojis.size}`,
-            `**Zwykłe Emoji Count:** ${emojis.filter(emoji => !emoji.animated).size}`,
-            `**Animowane Emoji Count:** ${emojis.filter(emoji => emoji.animated).size}`,
-            `**Ilość osób na serwerze:** ${message.guild.memberCount}`,
-            `**Urzytkowników:** ${members.filter(member => !member.user.bot).size}`,
-            `**Botów:** ${members.filter(member => member.user.bot).size}`,
-            `**Kanałów textowych:** ${channels.filter(channel => channel.type === 'text').size}`,
-            `**Kanałów głosowych:** ${channels.filter(channel => channel.type === 'voice').size}`,
-            `**Online:** ${members.filter(member => member.presence.status === 'online').size}`,
-            `**Offline:** ${members.filter(member => member.presence.status === 'offline').size}`,
-        ]) */
-        const embed2 = new Discord.MessageEmbed()
-
-        .setTitle("Informacje ogólne:")
-        .setDescription(` **Nazwa serwera:**${message.guild.name} \n
-        **ID:** ${message.guild.id} \n
-        **Data stworzenia:**${message.guild.createdAt.toDateString()}\n
-        **Ilość rang:**${roles.length} \n
-        **Emoji:**${emojis.size} \n
-        **Animowane Emoji:** ${emojis.filter(emoji => emoji.animated).size} \n
-        **Ilość osób na serwerze:** ${message.guild.memberCount}\n
-        `)
-        .setThumbnail(message.guild.iconURL({ dynamic: true }));
-
-        message.channel.send({embeds: [embed2]});
     }
-    }
-}

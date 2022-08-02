@@ -816,3 +816,33 @@
 31.07.2022   20:01   bot   PAW#5844   s
 31.07.2022   20:01   bot   SEEN-#5771   <@438336824516149249>, congratulations! You have leveled up to **undefined**.
 2.08.2022   02:00   bot   PAW#5844   https://discord.gg/ffr9BZfH
+2.08.2022   14:49   bot   SEEN-#5771   
+2.08.2022   14:54   bot   SEEN-#5771   
+2.08.2022   14:56   bot   SEEN-#5771   
+2.08.2022   21:10   bot   PAW#5844   test
+2.08.2022   21:10   bot   PAW#5844   test
+2.08.2022   21:13   bot   PAW#5844   test
+2.08.2022   21:23   bot   PAW#5844   $profil
+2.08.2022   21:23   bot   PAW#5844   $profil
+2.08.2022   21:23   bot   PAW#5844   $profil
+2.08.2022   21:24   bot   PAW#5844   $profil
+2.08.2022   21:27   bot   PAW#5844   $profil
+2.08.2022   21:27   bot   SEEN-#5771   masz 1000 monet
+2.08.2022   21:36   bot   PAW#5844   $pomoc3
+2.08.2022   21:36   bot   SEEN-#5771   cos
+2.08.2022   21:46   bot   PAW#5844   $pomoc3
+2.08.2022   21:46   bot   SEEN-#5771   cos
+2.08.2022   21:48   bot   PAW#5844   $pomoc3
+2.08.2022   21:48   bot   SEEN-#5771   cos
+2.08.2022   23:50   bot   PAW#5844   $daily
+2.08.2022   23:50   bot   SEEN-#5771   Daily można użyć maksymalnie raz dziennie
+2.08.2022   23:53   bot   PAW#5844   $profil
+2.08.2022   23:53   bot   SEEN-#5771   masz undefined monet
+3.08.2022   01:13   bot   PAW#5844   cos
+3.08.2022   01:13   bot   PAW#5844   $daily
+3.08.2022   01:13   bot   SEEN-#5771   Daily będzie dla ciebie dostępne od godziny 00:00
+3.08.2022   01:14   bot   PAW#5844   $profil
+3.08.2022   01:14   bot   SEEN-#5771   masz undefined monet
+3.08.2022   01:20   bot   PAW#5844   cos
+3.08.2022   01:23   bot   PAW#5844   cos
+3.08.2022   01:23   bot   PAW#5844   Fate/kaleid liner Prisma Illya 2wei Herz!

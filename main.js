@@ -38,8 +38,8 @@ const setting_handler = require("./handlers/setting-handler")
 //wczytywanie logów
 const logs = require("./handlers/logs")
 
-//mongo db
-const mongo = require("./handlers/mongo_handler");
+//economy
+const rool = require("./commands/economy/economy_handler")
 
 //lvling
 const lvl = require("./commands/lvl_commands/handler/lvling")
@@ -67,8 +67,6 @@ if(test_bot == true){
 }
 
 
-//mongo db
-mongo(client)
 
 //command handler
 handler(client)
@@ -90,7 +88,7 @@ client.once('ready', () =>{
 
 client.on('messageCreate', async message =>
 {
-
+    rool(client,message)
     //lvling
     lvl(client,message)
      
