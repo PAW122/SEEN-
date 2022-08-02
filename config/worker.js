@@ -107,8 +107,8 @@ module.exports = {
     user_info_worker: "yes",
     user_info_disable: "command is disable: no reason",
 
-    lvl_command: true,
-    lvl_command_worker: "yes",
+    lvl_command: false,
+    lvl_command_worker: "no",
     lvl_command_disables: "command is disable: no reason"
 }
 

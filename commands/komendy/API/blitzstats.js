@@ -58,7 +58,9 @@ module.exports = {
             const nick = args[0]
             const link = `https://api.wotblitz.${localization}/wotb/account/list/?application_id=${API_KEY}&search=${nick}`
             
-        
+        if(!nick){
+            return message.reply("Nie podałeś nicku")
+        }
 
                 //personal
                 const response = await axios.get(link)
@@ -73,15 +75,25 @@ module.exports = {
                 const clan_info_link = `https://api.wotblitz.${localization}/wotb/clans/accountinfo/?application_id=${API_KEY}&account_id=${accoundId}`
                 const clan_info = await axios.get(clan_info_link)
 
-                const clan_id = clan_info.data.data[accoundId].clan_id
-                const clan_join_timesamp = clan_info.data.data[accoundId].joined_at
+                if(clan_info.data.data == null){
+
+                }else{
+                    const clan_id = clan_info.data.data[accoundId].clan_id
+                    const clan_join_timesamp = clan_info.data.data[accoundId].joined_at
+                }
 
 
-                //clan data
-                const clan_data_link = `https://api.wotblitz.${localization}/wotb/clans/info/?application_id=${API_KEY}&clan_id=${clan_id}`
-                const clan_data = await axios.get(clan_data_link)
-                const clan_name = clan_data.data.data[clan_id].name
-                //153067
+               //clan data
+                
+               const clan_data_link = `https://api.wotblitz.${localization}/wotb/clans/info/?application_id=${API_KEY}&clan_id=${clan_id}`
+               const clan_data = await axios.get(clan_data_link)
+               console.log(`clan data: ${clan_data}`)
+               if(clan_data.data.data == null){
+                   var clan_name = "brak"
+               }else{
+               var clan_name = clan_data.data.data[clan_id].name
+               }
+               //153067
 
 
 

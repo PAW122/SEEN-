@@ -751,3 +751,68 @@
 30.07.2022   22:39   bot   SEEN-#5771   
 30.07.2022   22:40   bot   SEEN-#5771   
 30.07.2022   22:41   bot   SEEN-#5771   Nie mogę zbanować tego użytkownika!
+31.07.2022   01:35   ogólny   PAW#5844   https://discord.com/api/oauth2/authorize?client_id=869587877477101590&permissions=8&redirect_uri=https%3A%2F%2Fdiscord.com%2Fapi%2Foauth2%2Fauthorize&response_type=code&scope=bot%20applications.commands
+31.07.2022   01:35   ogólny   SEEN-#5771   <@438336824516149249>, congratulations! You have leveled up to **undefined**.
+31.07.2022   01:38   ogólny   -V1PE#3809   
+31.07.2022   01:41   ogólny   SEEN-#5771   > **PAW#5844** ma 0.
+31.07.2022   01:41   ogólny   PAW#5844   ciema
+31.07.2022   01:41   ogólny   SEEN-#5771   <@438336824516149249>, congratulations! You have leveled up to **undefined**.
+31.07.2022   01:58   ogólny   -V1PE#3809   
+31.07.2022   02:03   ogólny   PAW#5844   !ping
+31.07.2022   02:03   ogólny   SEEN-#5771   <@438336824516149249>, congratulations! You have leveled up to **undefined**.
+31.07.2022   02:03   ogólny   Carl-bot#1536   Pong!
+**Cluster 234:** 18.67ms (avg)
+**Shard 3746:** 15.45ms
+**Node:** Ip-10-0-83-60.ec2.internal
+31.07.2022   02:03   ogólny   -V1PE#3809   pong
+31.07.2022   02:03   ogólny   -V1PE#3809   
+31.07.2022   02:19   ogólny   PAW#5844   !ping
+31.07.2022   02:19   ogólny   Carl-bot#1536   Pong!
+**Cluster 234:** 20.60ms (avg)
+**Shard 3746:** 15.71ms
+**Node:** Ip-10-0-83-60.ec2.internal
+31.07.2022   02:19   ogólny   SEEN-#5771   <@438336824516149249>, congratulations! You have leveled up to **undefined**.
+31.07.2022   02:20   ogólny   PAW#5844   .ping
+31.07.2022   02:20   ogólny   SEEN-#5771   <@438336824516149249>, congratulations! You have leveled up to **undefined**.
+31.07.2022   02:20   ogólny   SEEN-#5771   
+31.07.2022   02:21   bot   PAW#5844   .ping
+31.07.2022   02:21   bot   SEEN-#5771   <@438336824516149249>, congratulations! You have leveled up to **undefined**.
+31.07.2022   02:21   bot   PAW#5844   .ping
+31.07.2022   02:21   bot   SEEN-#5771   <@438336824516149249>, congratulations! You have leveled up to **undefined**.
+31.07.2022   02:22   bot   PAW#5844   .ping
+31.07.2022   02:22   bot   -V1PE#3809   pong
+31.07.2022   02:22   bot   SEEN-#5771   <@438336824516149249>, congratulations! You have leveled up to **undefined**.
+31.07.2022   02:29   bot   PAW#5844   Fate/Kaleid Liner Prisma Illya Zwei
+31.07.2022   02:29   bot   SEEN-#5771   <@438336824516149249>, congratulations! You have leveled up to **undefined**.
+31.07.2022   15:27   bot   PAW#5844   $ruletka wot lol batlefild
+31.07.2022   15:27   bot   SEEN-#5771   <@438336824516149249>, congratulations! You have leveled up to **undefined**.
+31.07.2022   15:27   bot   SEEN-#5771   
+31.07.2022   15:27   bot   SEEN-#5771   
+31.07.2022   15:27   bot   PAW#5844   $ruletka lol batlefild
+31.07.2022   15:27   bot   SEEN-#5771   <@438336824516149249>, congratulations! You have leveled up to **undefined**.
+31.07.2022   15:27   bot   SEEN-#5771   
+31.07.2022   15:27   bot   SEEN-#5771   
+31.07.2022   15:27   bot   PAW#5844   $ruletka lol batlefild
+31.07.2022   15:27   bot   SEEN-#5771   <@438336824516149249>, congratulations! You have leveled up to **undefined**.
+31.07.2022   15:27   bot   SEEN-#5771   
+31.07.2022   15:27   bot   SEEN-#5771   
+31.07.2022   15:27   bot   PAW#5844   $ruletka lol batlefild
+31.07.2022   15:27   bot   SEEN-#5771   <@438336824516149249>, congratulations! You have leveled up to **undefined**.
+31.07.2022   15:27   bot   SEEN-#5771   
+31.07.2022   15:27   bot   SEEN-#5771   
+31.07.2022   17:36   bot   PAW#5844   $blitzstats __PAW
+31.07.2022   17:36   bot   SEEN-#5771   <@438336824516149249>, congratulations! You have leveled up to **undefined**.
+31.07.2022   17:36   bot   SEEN-#5771   
+31.07.2022   20:01   bot   PAW#5844   s
+31.07.2022   20:01   bot   PAW#5844   s
+31.07.2022   20:01   bot   SEEN-#5771   <@438336824516149249>, congratulations! You have leveled up to **undefined**.
+31.07.2022   20:01   bot   PAW#5844   s
+31.07.2022   20:01   bot   SEEN-#5771   <@438336824516149249>, congratulations! You have leveled up to **undefined**.
+31.07.2022   20:01   bot   PAW#5844   s
+31.07.2022   20:01   bot   SEEN-#5771   <@438336824516149249>, congratulations! You have leveled up to **undefined**.
+31.07.2022   20:01   bot   SEEN-#5771   <@438336824516149249>, congratulations! You have leveled up to **undefined**.
+31.07.2022   20:01   bot   PAW#5844   s
+31.07.2022   20:01   bot   SEEN-#5771   <@438336824516149249>, congratulations! You have leveled up to **undefined**.
+31.07.2022   20:01   bot   PAW#5844   s
+31.07.2022   20:01   bot   SEEN-#5771   <@438336824516149249>, congratulations! You have leveled up to **undefined**.
+2.08.2022   02:00   bot   PAW#5844   https://discord.gg/ffr9BZfH

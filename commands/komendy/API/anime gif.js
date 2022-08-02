@@ -75,7 +75,6 @@ module.exports = {
             const response = inter.options.getString('wybierz_rodzaj_gifa')
 
             if(response == 'pat'){
-                console.log("pat")
                 await images_api.sfw.pat().then(response => {
                     const attachment = new MessageAttachment(response.image)
                     inter.reply({ files: [attachment] })

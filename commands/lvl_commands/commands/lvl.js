@@ -31,7 +31,7 @@ executeInteraction: async (inter) => {
     }else{
     
         let target = inter.options.getUser('user')
-        let user = await Levels.feach(target.id, inter.guild.id)
+        let user = await Levels.fetch(target.id, inter.guild.id)
 
         if(!user){
             return inter.reply("Urzytkownik nie posiada żadnego xp");
