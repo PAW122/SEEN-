@@ -17,4 +17,5 @@ module.exports = {
     servers_logs: "True",
 
     wargaming_api_key: "ebc751064d5418bfefad7af6819e9c19",
+    economy_emoji: "💵"
 }

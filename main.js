@@ -38,9 +38,6 @@ const setting_handler = require("./handlers/setting-handler")
 //wczytywanie logów
 const logs = require("./handlers/logs")
 
-//economy
-const rool = require("./commands/economy/economy_handler")
-
 //lvling
 const lvl = require("./commands/lvl_commands/handler/lvling")
 
@@ -88,7 +85,6 @@ client.once('ready', () =>{
 
 client.on('messageCreate', async message =>
 {
-    rool(client,message)
     //lvling
     lvl(client,message)
      
