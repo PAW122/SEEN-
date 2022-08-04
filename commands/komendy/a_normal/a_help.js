@@ -28,6 +28,10 @@ const embed_pl = new Discord.MessageEmbed()
         { name: `message_logs`, value: `${prefix}message_logs help\n${prefix}message_logs help en`, inline: true },
         { name: `blitzstats`, value: `${prefix}blitzstats help\n${prefix}blitzstats help en`, inline: true },
         { name: `autorole`, value: `${prefix}autorole help\n${prefix}autorole help en`, inline: true },
+        { name: `------------------------------------------------------------------------`, value: `----------------------------------------------------------------------`, inline: false },
+        
+        { name: `Server settings`, value: `${prefix}srv_set`, inline: true },
+        { name: `Economy`, value: `${prefix}helpeco`, inline: true },
 
         { name: `------------------------------------------------------------------------`, value: `----------------------------------------------------------------------`, inline: false },
         { name: `SEEN - ANIME`, value: `lista komend dostępna pod:\n $animeseen help`, inline: false },
@@ -60,7 +64,7 @@ const embed_en = new Discord.MessageEmbed()
         { name: `---------------------------------------------- -------------------------- `, value: ` ------------------- -------------------------------------------------- -`, inline: false },
         { name: `SEEN - ANIME`, value: ` command list available at: \n $animeseen help`, inline: false },
         { name: `ANIME`, value: ` command list available at: \n $anime help`, inline: false },
-    )
+    )//srv_set
 
 module.exports = {
     name: `help`,
