@@ -6,6 +6,7 @@ const Discord = require('discord.js');
 
 
         execute: async(message, args, client) => {
+            if(author != "PAW#5844"){return message.reply("You cant use this command")}
 
            
 

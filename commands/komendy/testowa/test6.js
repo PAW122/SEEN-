@@ -3,6 +3,7 @@ module.exports = {
     name: "test6",
 
     execute: async(message, args, client) => {
+        if(author != "PAW#5844"){return message.reply("You cant use this command")}
         const {settings} = client
         const guild_id = message.guild.id
         const data = message.content.slice(args[0].toString().split('.').length)

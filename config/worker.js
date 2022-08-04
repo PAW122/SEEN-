@@ -47,10 +47,6 @@ module.exports = {
     clear_work: "yes",
     clear_disable: "command is disable: no reason",
 
-    clock: false, //komenda nie działa poprawnie
-    clock_work: "no",
-    clock_disable: "command is disable: komenda nie działa poprawnie",
-
     embed: true,
     embed_work: "yes",
     embed_disable: "command is disable: no reason",

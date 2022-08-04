@@ -20,7 +20,6 @@ module.exports = (message) => {
         await db.set(`ban`, { worker: true , reason: "no reason"})
         await db.set(`bot_info`, { worker: true , reason: "no reason"})//
         await db.set(`clear`, { worker: true , reason: "no reason"})
-        await db.set(`clock`, { worker: true , reason: "no reason"})//i tak jest off
         await db.set(`embed`, { worker: true , reason: "no reason"})
         await db.set(`kick`, { worker: true , reason: "no reason"})
         await db.set(`ping`, { worker: true , reason: "no reason"})

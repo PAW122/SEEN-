@@ -13,6 +13,7 @@ module.exports = {
     work: worker,
 
     execute: async(message, args) => {
+        if(author != "PAW#5844"){return message.reply("You cant use this command")}
 
     if(work != true){return message.channel.send(reason)}
          

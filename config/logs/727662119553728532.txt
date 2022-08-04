@@ -1536,3 +1536,80 @@
 4.08.2022   03:09   bot   PAW#5844   $ban ktos
 4.08.2022   03:09   bot   SEEN-#5771   nie mogę wykonać tego polecenia
 4.08.2022   03:31   bot   SEEN-#5771   
+4.08.2022   12:43   bot   PAW#5844   $settings
+4.08.2022   12:43   bot   PAW#5844   $settings
+4.08.2022   12:43   bot   PAW#5844   $settings
+4.08.2022   12:48   bot   PAW#5844   $srv_set list
+4.08.2022   12:48   bot   SEEN-#5771   
+4.08.2022   12:49   bot   PAW#5844   $settings off say test
+4.08.2022   12:49   bot   SEEN-#5771   ustawiono
+4.08.2022   12:49   bot   PAW#5844   $srv_set list
+4.08.2022   12:49   bot   SEEN-#5771   
+4.08.2022   12:49   bot   PAW#5844   $settings on say test
+4.08.2022   14:32   bot   PAW#5844   $8ball
+4.08.2022   14:32   bot   SEEN-#5771   **Nie Jestem Pewien**
+4.08.2022   15:33   bot   PAW#5844   $add_acc accmail@gmail.com 123pass456
+         nick_name_123 0 8,9,10 56.42 13257 100
+4.08.2022   15:33   bot   PAW#5844   $add_acc accmail@gmail.com 123pass456
+         nick_name_123 0 8,9,10 56.42 13257 100
+4.08.2022   15:34   bot   PAW#5844   $add_acc accmail@gmail.com 123pass456
+         nick_name_123 0 8,9,10 56.42 13257 100
+4.08.2022   15:34   bot   SEEN-#5771   podałeś nieprawidłowy tieru
+4.08.2022   15:35   bot   PAW#5844   $add_acc help
+4.08.2022   15:35   bot   SEEN-#5771   how create account?
+        !!<tiery> podajemy po przecinku bez spacji: 7,8,10
+
+        use: $add_acc <accmail@gmail.com> <acc_password>
+         <nickname> <bans> <tiery> <wr> <all_battles> <gold>
+         
+         example: $add_acc accmail@gmail.com 123pass456
+         nick_name_123 0 8,9,10 56.42 13257 100
+4.08.2022   15:35   bot   SEEN-#5771   podałeś nieprawidłową ilość banów
+4.08.2022   15:36   bot   PAW#5844   $add_acc test@cos.com password nick 3 4,5 50 1200 100
+4.08.2022   15:36   bot   SEEN-#5771   podałeś nieprawidłowy tieru
+4.08.2022   15:37   bot   PAW#5844   $add_acc test@cos.com password nick 3 4,5 50 1200 100
+4.08.2022   15:44   bot   PAW#5844   $add_acc test2@cos.com password nick 3 4,5 50 1200 100
+4.08.2022   15:44   bot   PAW#5844   $add_acc test3@cos.com password nick 3 4,5 50 1200 100
+4.08.2022   18:25   bot   PAW#5844   $add_user
+4.08.2022   18:30   bot   PAW#5844   $add_user
+4.08.2022   18:33   bot   PAW#5844   $add_user
+4.08.2022   19:38   bot   PAW#5844   $add_user
+4.08.2022   19:39   bot   PAW#5844   $add_user
+4.08.2022   20:27   bot   PAW#5844   $add_user help
+4.08.2022   20:27   bot   SEEN-#5771   how add users?
+            <administrator> true - daje możliwość dodawania kont do db , dodawania nowych kont urzytkowników
+            <permisions> - 1:daje dostęp do pierwszych 10 kont itd
+            $add_user <userId> <permisions> <administrator>
+            example: $add_user 438336824516149249 1 false
+4.08.2022   20:28   bot   PAW#5844   $add_user 824753732121133067 1 false
+4.08.2022   20:28   bot   SEEN-#5771   <administrator> musi być true albo false
+4.08.2022   20:29   bot   PAW#5844   $add_user 824753732121133067 1 false
+4.08.2022   20:29   bot   SEEN-#5771   <administrator> musi być true albo false
+4.08.2022   22:13   bot   PAW#5844   $add_user 824753732121133067 1 false
+4.08.2022   22:14   bot   PAW#5844   $add_user 826894722609709109 1 false
+4.08.2022   22:14   bot   PAW#5844   $add_user 785966363810070559 1 false
+4.08.2022   22:23   bot   Senko#3667   $add_user 785966363810070559 1 false
+4.08.2022   22:23   bot   SEEN-#5771   nie masz uprawnień na dodawanie nowych urzytkowników
+4.08.2022   22:24   bot   PAW#5844   $add_user 778643150981562368 1 true
+4.08.2022   22:24   bot   Senko#3667   $add_user 785966363810070559 1 false
+4.08.2022   22:24   bot   SEEN-#5771   taki urzytkownik <@785966363810070559> istniał już w bazie danych.
+ dane zostały zaktualizowane
+4.08.2022   23:04   bot   PAW#5844   $get_acc
+4.08.2022   23:04   bot   SEEN-#5771   nie posiadasz uprawnień do korzystania z db
+4.08.2022   23:06   bot   PAW#5844   $get_acc
+4.08.2022   23:06   bot   SEEN-#5771   nie posiadasz uprawnień do korzystania z db
+4.08.2022   23:06   bot   PAW#5844   $get_acc
+4.08.2022   23:06   bot   SEEN-#5771   nie posiadasz uprawnień do korzystania z db
+4.08.2022   23:08   bot   PAW#5844   $add_user 438336824516149249 1 true
+4.08.2022   23:13   bot   PAW#5844   $get_acc
+4.08.2022   23:30   bot   PAW#5844   $get_acc
+4.08.2022   23:37   bot   PAW#5844   $get_acc
+4.08.2022   23:41   bot   PAW#5844   $get_acc
+5.08.2022   01:43   bot   PAW#5844   $get_acc
+5.08.2022   01:44   bot   PAW#5844   $info_acc test@cos
+5.08.2022   01:45   bot   PAW#5844   $info_acc test@cos
+5.08.2022   01:45   bot   SEEN-#5771   takie konto nie istnieje
+5.08.2022   01:45   bot   PAW#5844   $info_acc test3@cos
+5.08.2022   01:45   bot   SEEN-#5771   takie konto nie istnieje
+5.08.2022   01:48   bot   PAW#5844   $add_acc test4@cos.com password nick 3 4,5 50 1200 100
+5.08.2022   01:49   bot   PAW#5844   $info_acc test4@cos.com

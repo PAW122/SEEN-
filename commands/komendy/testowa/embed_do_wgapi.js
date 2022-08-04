@@ -3,6 +3,7 @@ module.exports={
     name: "test7",
 
     execute: async(message, args, client) => {
+        if(author != "PAW#5844"){return message.reply("You cant use this command")}
 
         const nazwa_konta = "Nick_konta"
         const Winrate = "60%"

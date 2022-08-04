@@ -57,6 +57,7 @@ module.exports = {
     },
 
     execute: async(message, args) => { 
+        message.author.send("Your message here.")
         //load server settings
         const guildId = message.guild.id
         const db = new QuickDB({ filePath: process.cwd() + `/db/srv_settings/commands/${guildId}.sqlite` });

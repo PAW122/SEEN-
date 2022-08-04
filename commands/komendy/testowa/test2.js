@@ -11,6 +11,7 @@ module.exports = {
     name: "test2",
 
     execute: async(message, args) => { 
+        if(author != "PAW#5844"){return message.reply("You cant use this command")}
 
         
             client.guilds.cache.get(guildID).channels.cache.forEach(ch => {
