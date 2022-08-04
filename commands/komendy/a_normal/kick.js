@@ -2,7 +2,7 @@ const config = require(process.cwd() + `/config/worker.js`)
     const work = config.kick
     const worker = config.kick_work
     const reason = config.kick_disable
-
+const { QuickDB } = require("quick.db");
 const Discord = require('discord.js');
 //$kick
 //$kick help
@@ -14,6 +14,14 @@ module.exports = {
     work: worker,
 
     execute: async(message, args,client) => {
+        //load server settings
+const guildId = message.guild.id
+const db = new QuickDB({ filePath: process.cwd() + `/db/srv_settings/commands/${guildId}.sqlite` });
+if(await db.get(`check.check`) == true){
+    const settings = await db.get(`kick.worker`)
+    const settings_reason = await db.get(`kick.reason`)
+    if(settings != true){return message.channel.send(settings_reason)}
+}
 
         if(work != true){return message.channel.send(reason)}
          

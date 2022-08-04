@@ -1509,3 +1509,30 @@
 3.08.2022   22:46   bot   PAW#5844   $profil
 3.08.2022   22:46   bot   SEEN-#5771   masz 1000 💵
         przedmioty: undefined
+4.08.2022   00:30   ogólny   EPIC RPG#4117   
+4.08.2022   00:30   bot   PAW#5844   rpg help
+4.08.2022   00:30   bot   EPIC RPG#4117   
+4.08.2022   00:55   bot   EPIC RPG#4117   
+4.08.2022   01:44   bot   PAW#5844   $settings
+4.08.2022   01:46   bot   PAW#5844   $settings
+4.08.2022   01:46   bot   SEEN-#5771   nie podałeś argumentu
+            commands - daje możiwość wyłączenia poszczegulnych komend
+            użycie: $settings <on/off> <command_name>
+4.08.2022   01:46   bot   SEEN-#5771   Stworzono profil ustawień serwera
+4.08.2022   01:49   bot   PAW#5844   $settings off anime_gif
+4.08.2022   01:50   bot   PAW#5844   $settings off anime_gif
+4.08.2022   01:56   bot   PAW#5844   $settings on anime_gif
+4.08.2022   01:56   bot   SEEN-#5771   ustawiono
+4.08.2022   03:05   bot   PAW#5844   $settings off ban
+4.08.2022   03:05   bot   SEEN-#5771   ustawiono
+4.08.2022   03:05   bot   PAW#5844   $ban cos
+4.08.2022   03:05   bot   SEEN-#5771   ban
+4.08.2022   03:07   bot   PAW#5844   $settings off ban testowewyłączenie
+4.08.2022   03:07   bot   SEEN-#5771   ustawiono
+4.08.2022   03:07   bot   PAW#5844   $ban
+4.08.2022   03:08   bot   SEEN-#5771   testowewyłączenie
+4.08.2022   03:09   bot   PAW#5844   $settings  deafult
+4.08.2022   03:09   bot   SEEN-#5771   przywrucono deafultowe ustawienia
+4.08.2022   03:09   bot   PAW#5844   $ban ktos
+4.08.2022   03:09   bot   SEEN-#5771   nie mogę wykonać tego polecenia
+4.08.2022   03:31   bot   SEEN-#5771   

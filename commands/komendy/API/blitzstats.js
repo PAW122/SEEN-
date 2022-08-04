@@ -12,6 +12,7 @@ const config = require(process.cwd() + `/config/config.js`)
     
 
 const localization = "eu"
+const { QuickDB } = require("quick.db");
 
 //blitzstats
 //blitzstats help
@@ -21,6 +22,14 @@ module.exports = {
     work: worker,
 
     execute: async(message, args) => {
+        //load server settings
+const guildId = message.guild.id
+const db = new QuickDB({ filePath: process.cwd() + `/db/srv_settings/commands/${guildId}.sqlite` });
+if(await db.get(`check.check`) == true){
+    const settings = await db.get(`blitz_stats.worker`)
+    const settings_reason = await db.get(`blitz_stats.reason`)
+    if(settings != true){return message.channel.send(settings_reason)}
+}
 
 
                 const embed_help_pl = new Discord.MessageEmbed()

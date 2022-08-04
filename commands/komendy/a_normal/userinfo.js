@@ -31,6 +31,15 @@ module.exports = {
         return(console.log("command id disabled"))
         }else{
 
+            //load server settings
+        const guildId = inter.guild.id
+        const db = new QuickDB({ filePath: process.cwd() + `/db/srv_settings/commands/${guildId}.sqlite` });
+        if(await db.get(`check.check`) == true){
+            const settings = await db.get(`user_info.worker`)
+            const settings_reason = await db.get(`user_info.reason`)
+            if(settings != true){return message.channel.send(settings_reason)}
+        }
+
     const member = interaction.options.getMember("urzytkownik");
     
     const embed = new MessageEmbed()

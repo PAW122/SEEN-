@@ -22,6 +22,16 @@ module.exports = {
             .setDescription('Wyświetla informacje o serverze'),
     
             executeInteraction: async (inter) =>{
+
+                //load server settings
+        const guildId = inter.guild.id
+        const db = new QuickDB({ filePath: process.cwd() + `/db/srv_settings/commands/${guildId}.sqlite` });
+        if(await db.get(`check.check`) == true){
+            const settings = await db.get(`srv_info.worker`)
+            const settings_reason = await db.get(`srv_info.reason`)
+            if(settings != true){return message.channel.send(settings_reason)}
+        }
+
             const { guild } = inter;
             const { createdTimestamp, ownerId, members, memberCount, channels, emojis, stickers } = guild;
             const embed = new Discord.MessageEmbed()

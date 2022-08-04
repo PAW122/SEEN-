@@ -4,6 +4,8 @@ const worker = config.eight_ball_work
 const reason = config.eight_ball_disable
 const Discord = require('discord.js');
 const { SlashCommandBuilder } = require('@discordjs/builders');
+const { QuickDB } = require("quick.db");
+
 var fortunes = [
     "**Tak**",
     "**Nie**",
@@ -37,6 +39,15 @@ module.exports = {
          inter.reply({ embeds: [embed_worker] });
          return(console.log("command id disabled"))
         }else{
+            //load server settings
+        const guildId = inter.guild.id
+        const db = new QuickDB({ filePath: process.cwd() + `/db/srv_settings/commands/${guildId}.sqlite` });
+        if(await db.get(`check.check`) == true){
+            const settings = await db.get(`eight_ball.worker`)
+            const settings_reason = await db.get(`eight_ball.reason`)
+            if(settings != true){return message.channel.send(settings_reason)}
+        }
+            
         const embed = new Discord.MessageEmbed()
             .setTitle('**8ball**')
             .setColor('RANDOM')
@@ -46,7 +57,14 @@ module.exports = {
     },
 
     execute: async(message, args) => { 
-        
+        //load server settings
+        const guildId = message.guild.id
+        const db = new QuickDB({ filePath: process.cwd() + `/db/srv_settings/commands/${guildId}.sqlite` });
+        if(await db.get(`check.check`) == true){
+            const settings = await db.get(`eight_ball.worker`)
+            const settings_reason = await db.get(`eight_ball.reason`)
+            if(settings != true){return message.channel.send(settings_reason)}
+        }
         
         if(work != true){return message.channel.send(reason)}
          

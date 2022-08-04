@@ -482,3 +482,140 @@
 2.08.2022   22:46   『-👋-』powitalnia   StartIT#2275   siemaneczko <@1001986951735418981>
 2.08.2022   22:58   🔒   Dyno#0000   
 2.08.2022   22:58   『-👋-』powitalnia   StartIT#2275   został rozstrzelany <@1001986951735418981>
+3.08.2022   23:04   『-kanał-dla-bota-📊-』   PAW#5844   <@577507822011416592> 
+<@692621246017568799> 
+<@578332808750301195> 
+możecie sobie przetestować system ekonomii $helpeco
+jeszcze nie jest skończony ale jako tako działa
+i możecie spróbować poszukać jakiś błędów 🙂
+3.08.2022   23:05   『-kanał-dla-bota-📊-』   PAW#5844   $daily
+3.08.2022   23:05   『-kanał-dla-bota-📊-』   SEEN-#5771   Twój profil właśnie został stworzony
+3.08.2022   23:05   『-kanał-dla-bota-📊-』   PAW#5844   $daily
+3.08.2022   23:05   『-kanał-dla-bota-📊-』   SEEN-#5771   Odebrałeś 93 💵
+            masz łącznie 1093 💵
+3.08.2022   23:26   『-kanał-dla-bota-📊-』   __BobaFett#5726   $daily
+3.08.2022   23:26   『-kanał-dla-bota-📊-』   SEEN-#5771   Twój profil właśnie został stworzony
+3.08.2022   23:32   『-kanał-dla-bota-📊-』   __BobaFett#5726   $daily
+3.08.2022   23:32   『-kanał-dla-bota-📊-』   SEEN-#5771   Odebrałeś 57 💵
+            masz łącznie 1057 💵
+3.08.2022   23:32   『-kanał-dla-bota-📊-』   __BobaFett#5726   $worl
+3.08.2022   23:32   『-kanał-dla-bota-📊-』   __BobaFett#5726   $work
+3.08.2022   23:45   『-kanał-dla-bota-📊-』   PAW#5844   $helpeco
+3.08.2022   23:45   『-kanał-dla-bota-📊-』   SEEN-#5771   
+3.08.2022   23:46   『-kanał-dla-bota-📊-』   PAW#5844   masz $roll i se obstawiasz piniondz
+3.08.2022   23:46   『-kanał-dla-bota-📊-』   __BobaFett#5726   Okii
+3.08.2022   23:54   🔒   Dyno#0000   
+4.08.2022   00:01   🔒   Dyno#0000   
+4.08.2022   00:01   🔒   Dyno#0000   
+4.08.2022   00:01   🔒   Dyno#0000   
+4.08.2022   00:02   🔒   Dyno#0000   
+4.08.2022   00:04   『-🤖-』botownia   PAW#5844   $helpeco
+4.08.2022   00:04   『-🤖-』botownia   SEEN-#5771   
+4.08.2022   00:05   『-🤖-』botownia   Junioretto#6878   $daily
+4.08.2022   00:05   『-🤖-』botownia   SEEN-#5771   Twój profil właśnie został stworzony
+4.08.2022   00:05   『-🤖-』botownia   Junioretto#6878   $daily
+4.08.2022   00:05   『-🤖-』botownia   SEEN-#5771   Odebrałeś 96 💵
+            masz łącznie 1096 💵
+4.08.2022   00:05   『-🤖-』botownia   Junioretto#6878   $roll
+4.08.2022   00:05   『-🤖-』botownia   SEEN-#5771   musisz podać ilość 💵 które chcesz obstawić
+4.08.2022   00:05   『-🤖-』botownia   Junioretto#6878   $roll 1000
+4.08.2022   00:05   『-🤖-』botownia   SEEN-#5771   przegrałeś 1000 💵
+            obecnie posiadasz: 96 💵
+4.08.2022   00:06   『-🤖-』botownia   Junioretto#6878   $roll 96
+4.08.2022   00:06   『-🤖-』botownia   SEEN-#5771   przegrałeś 96 💵
+            obecnie posiadasz: 0 💵
+4.08.2022   00:06   『-🤖-』botownia   _AIeXy#1353   $roll
+4.08.2022   00:06   『-🤖-』botownia   Junioretto#6878   $roll 0
+4.08.2022   00:06   『-🤖-』botownia   SEEN-#5771   przegrałeś 0 💵
+            obecnie posiadasz: 0 💵
+4.08.2022   00:06   『-🤖-』botownia   SEEN-#5771   Twój profil właśnie został stworzony
+4.08.2022   00:06   『-🤖-』botownia   PAW#5844   $add 100 759765392787767316
+4.08.2022   00:06   『-🤖-』botownia   _AIeXy#1353   $roll
+4.08.2022   00:06   『-🤖-』botownia   SEEN-#5771   Pomyślnie dodano urzytkownikowi <@759765392787767316> 100 💵
+4.08.2022   00:06   『-🤖-』botownia   SEEN-#5771   musisz podać ilość 💵 które chcesz obstawić
+4.08.2022   00:06   『-🤖-』botownia   Junioretto#6878   $roll 50
+4.08.2022   00:06   『-🤖-』botownia   SEEN-#5771   wygrałeś 100 💵
+            obecnie posiadasz: 200 💵
+4.08.2022   00:06   『-🤖-』botownia   _AIeXy#1353   $roll 1000000
+4.08.2022   00:06   『-🤖-』botownia   SEEN-#5771   masz za mało 💵
+4.08.2022   00:06   『-🤖-』botownia   Junioretto#6878   $roll 1
+4.08.2022   00:06   『-🤖-』botownia   SEEN-#5771   przegrałeś 1 💵
+            obecnie posiadasz: 199 💵
+4.08.2022   00:06   『-🤖-』botownia   _AIeXy#1353   %roll 1
+4.08.2022   00:06   『-🤖-』botownia   Junioretto#6878   $roll
+4.08.2022   00:06   『-🤖-』botownia   SEEN-#5771   musisz podać ilość 💵 które chcesz obstawić
+4.08.2022   00:07   『-🤖-』botownia   Junioretto#6878   $roll 1
+4.08.2022   00:07   『-🤖-』botownia   SEEN-#5771   wygrałeś 2 💵
+            obecnie posiadasz: 201 💵
+4.08.2022   00:07   『-🤖-』botownia   Junioretto#6878   $roll 1
+4.08.2022   00:07   『-🤖-』botownia   SEEN-#5771   przegrałeś 1 💵
+            obecnie posiadasz: 200 💵
+4.08.2022   00:07   『-🤖-』botownia   _AIeXy#1353   $roll lodzik od matki krokieta
+4.08.2022   00:07   『-🤖-』botownia   SEEN-#5771   podana wartość musi być liczbą
+4.08.2022   00:07   『-🤖-』botownia   Junioretto#6878   $roll 200
+4.08.2022   00:07   『-🤖-』botownia   SEEN-#5771   wygrałeś 400 💵
+            obecnie posiadasz: 600 💵
+4.08.2022   00:07   『-🤖-』botownia   PAW#5844   $shop
+4.08.2022   00:07   『-🤖-』botownia   SEEN-#5771   
+4.08.2022   00:07   🔒   Dyno#0000   
+4.08.2022   00:07   『-🤖-』botownia   Junioretto#6878   $roll 1
+4.08.2022   00:07   『-🤖-』botownia   SEEN-#5771   przegrałeś 1 💵
+            obecnie posiadasz: 599 💵
+4.08.2022   00:07   『-🤖-』botownia   _AIeXy#1353   $roll 1
+4.08.2022   00:07   『-🤖-』botownia   SEEN-#5771   przegrałeś 1 💵
+            obecnie posiadasz: 999 💵
+4.08.2022   00:07   『-🤖-』botownia   Junioretto#6878   $roll 2
+4.08.2022   00:07   『-🤖-』botownia   SEEN-#5771   wygrałeś 4 💵
+            obecnie posiadasz: 603 💵
+4.08.2022   00:07   『-🤖-』botownia   _AIeXy#1353   $roll 999
+4.08.2022   00:07   『-🤖-』botownia   SEEN-#5771   wygrałeś 1998 💵
+            obecnie posiadasz: 2997 💵
+4.08.2022   00:07   『-🤖-』botownia   Junioretto#6878   $roll 50
+4.08.2022   00:07   『-🤖-』botownia   SEEN-#5771   przegrałeś 50 💵
+            obecnie posiadasz: 553 💵
+4.08.2022   00:07   『-🤖-』botownia   Junioretto#6878   $roll 50
+4.08.2022   00:07   『-🤖-』botownia   SEEN-#5771   przegrałeś 50 💵
+            obecnie posiadasz: 503 💵
+4.08.2022   00:08   『-🤖-』botownia   Junioretto#6878   $roll 500
+4.08.2022   00:08   『-🤖-』botownia   SEEN-#5771   przegrałeś 500 💵
+            obecnie posiadasz: 3 💵
+4.08.2022   00:08   『-🤖-』botownia   Junioretto#6878   $roll 3
+4.08.2022   00:08   『-🤖-』botownia   SEEN-#5771   przegrałeś 3 💵
+            obecnie posiadasz: 0 💵
+4.08.2022   00:08   『-🤖-』botownia   _AIeXy#1353   %roll 2997
+4.08.2022   00:08   『-🤖-』botownia   _AIeXy#1353   $roll 2997
+4.08.2022   00:08   『-🤖-』botownia   SEEN-#5771   przegrałeś 2997 💵
+            obecnie posiadasz: 0 💵
+4.08.2022   00:08   『-🤖-』botownia   PAW#5844   $add 50 759765392787767316
+4.08.2022   00:08   『-🤖-』botownia   SEEN-#5771   Pomyślnie dodano urzytkownikowi <@759765392787767316> 50 💵
+4.08.2022   00:08   『-🤖-』botownia   _AIeXy#1353   %roll 1
+4.08.2022   00:08   『-🤖-』botownia   _AIeXy#1353   $roll 1
+4.08.2022   00:08   『-🤖-』botownia   Junioretto#6878   $roll 1
+4.08.2022   00:08   『-🤖-』botownia   SEEN-#5771   masz za mało 💵
+4.08.2022   00:08   『-🤖-』botownia   SEEN-#5771   przegrałeś 1 💵
+            obecnie posiadasz: 49 💵
+4.08.2022   00:08   『-🤖-』botownia   Junioretto#6878   $roll 49
+4.08.2022   00:08   『-🤖-』botownia   SEEN-#5771   wygrałeś 98 💵
+            obecnie posiadasz: 147 💵
+4.08.2022   00:08   『-🤖-』botownia   PAW#5844   $add 50 464445409700347915
+4.08.2022   00:08   『-🤖-』botownia   SEEN-#5771   Pomyślnie dodano urzytkownikowi <@464445409700347915> 50 💵
+4.08.2022   00:08   『-🤖-』botownia   _AIeXy#1353   $roll 50
+4.08.2022   00:08   『-🤖-』botownia   Junioretto#6878   $roll 5
+4.08.2022   00:08   『-🤖-』botownia   SEEN-#5771   wygrałeś 100 💵
+            obecnie posiadasz: 150 💵
+4.08.2022   00:08   『-🤖-』botownia   SEEN-#5771   roll możesz użyć maksymalnie 15 razy dziennie
+4.08.2022   00:09   『-🤖-』botownia   _AIeXy#1353   $roll 150
+4.08.2022   00:09   『-🤖-』botownia   SEEN-#5771   przegrałeś 150 💵
+            obecnie posiadasz: 0 💵
+4.08.2022   02:04   『-kanał-dla-bota-📊-』   matix78#0001   <@438336824516149249> gdzie botownia wtf
+4.08.2022   02:05   『-kanał-dla-bota-📊-』   matix78#0001   Kanał był
+4.08.2022   02:06   🔒   Dyno#0000   
+4.08.2022   02:06   『-🤖-』botownia   PAW#5844   $clear 100
+4.08.2022   02:06   🔒   Dyno#0000   
+4.08.2022   02:06   『-🤖-』botownia   SEEN-#5771   Usunąłem 100 wiadomości
+4.08.2022   02:06   🔒   Dyno#0000   
+4.08.2022   02:08   『-🤖-』botownia   matix78#0001   $help
+4.08.2022   02:08   『-🤖-』botownia   SEEN-#5771   
+4.08.2022   03:00   🔒   Dyno#0000   
+4.08.2022   03:00   🔒   Dyno#0000   
+4.08.2022   03:00   🔒   Dyno#0000   

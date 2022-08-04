@@ -3,6 +3,7 @@ const config = require(process.cwd() + `/config/worker.js`)
     const worker = config.ruletka_extream_work
     const reason = config.ruletka_extream_disable
 
+    const { QuickDB } = require("quick.db");
 //ruletka extream
 const Discord = require('discord.js');
 module.exports = {
@@ -12,6 +13,14 @@ module.exports = {
     work: worker,
 
     execute: async(message, args) => {
+        //load server settings
+const guildId = message.guild.id
+const db = new QuickDB({ filePath: process.cwd() + `/db/srv_settings/commands/${guildId}.sqlite` });
+if(await db.get(`check.check`) == true){
+    const settings = await db.get(`ruletka_extream.worker`)
+    const settings_reason = await db.get(`ruletka_extream.reason`)
+    if(settings != true){return message.channel.send(settings_reason)}
+}
 
     if(work != true){return message.channel.send(reason)}
          

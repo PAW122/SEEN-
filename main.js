@@ -38,9 +38,6 @@ const setting_handler = require("./handlers/setting-handler")
 //wczytywanie logów
 const logs = require("./handlers/logs")
 
-//lvling
-const lvl = require("./commands/lvl_commands/handler/lvling")
-
 //slash_commands_handler
 const slash_handler = require("./handlers/slash_commands_handler")
 
@@ -85,8 +82,6 @@ client.once('ready', () =>{
 
 client.on('messageCreate', async message =>
 {
-    //lvling
-    lvl(client,message)
      
     //logi z serwerów
     logs(message.content, null, 2, message.guild.id ,message.author.tag, message.channel.name)
@@ -130,6 +125,7 @@ client.on('messageCreate', async message =>
 
 
 client.on("guildMemberAdd", async (member) => {
+    /*
     try{
         const img = await generateImage(member)
         member.guild.channels.cache.get(welcomeChannelId).send({
@@ -139,6 +135,7 @@ client.on("guildMemberAdd", async (member) => {
     }catch(err){
         console.log(err)
     }
+    */
 })
 
 //interakcje

@@ -5,6 +5,7 @@ const config = require(process.cwd() + `/config/worker.js`)
 
 const Discord = require('discord.js');
 const { SlashCommandBuilder } = require('@discordjs/builders');
+const { QuickDB } = require("quick.db");
 //$botinfo
 //$botinfo help
 //$botinfo help en
@@ -44,6 +45,14 @@ executeInteraction: async (inter) => {
         inter.reply({ embeds: [embed_worker] });
         return (console.log("command id disabled"))
     } else {
+        //load server settings
+const guildId = inter.guild.id
+const db = new QuickDB({ filePath: process.cwd() + `/db/srv_settings/commands/${guildId}.sqlite` });
+if(await db.get(`check.check`) == true){
+    const settings = await db.get(`bot_info.worker`)
+    const settings_reason = await db.get(`bot_info.reason`)
+    if(settings != true){return message.channel.send(settings_reason)}
+}
     
         const embed = new Discord.MessageEmbed()
         inter.reply({ embeds: [embed2] })
@@ -52,6 +61,14 @@ executeInteraction: async (inter) => {
 },
 
     execute: async(message, args) => {
+//load server settings
+const guildId = message.guild.id
+const db = new QuickDB({ filePath: process.cwd() + `/db/srv_settings/commands/${guildId}.sqlite` });
+if(await db.get(`check.check`) == true){
+    const settings = await db.get(`bot_info.worker`)
+    const settings_reason = await db.get(`bot_info.reason`)
+    if(settings != true){return message.channel.send(settings_reason)}
+}
 
     if(work != true){return message.channel.send(reason)}
          

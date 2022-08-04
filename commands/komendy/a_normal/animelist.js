@@ -2,7 +2,7 @@ const config = require(process.cwd() + `/config/worker.js`)
 const work = config.anime_list
 const worker = config.anime_list_work
 const reason = config.anime_list_disable
-
+const { QuickDB } = require("quick.db");
 const Discord = require('discord.js');
 //$animelist
 //$animelist help
@@ -224,6 +224,15 @@ module.exports = {
         ),
 
     executeInteraction: async (inter) => {
+        //load server settings
+const guildId = inter.guild.id
+const db = new QuickDB({ filePath: process.cwd() + `/db/srv_settings/commands/${guildId}.sqlite` });
+if(await db.get(`check.check`) == true){
+    const settings = await db.get(`anime_help.worker`)
+    const settings_reason = await db.get(`anime_help.reason`)
+    if(settings != true){return message.channel.send(settings_reason)}
+}
+
         if (work != true) {
             const embed_worker = new Discord.MessageEmbed()
                 .setTitle('**animelist**')
@@ -262,7 +271,14 @@ module.exports = {
 
 
     execute: async (message, args) => {
-
+//load server settings
+const guildId = message.guild.id
+const db = new QuickDB({ filePath: process.cwd() + `/db/srv_settings/commands/${guildId}.sqlite` });
+if(await db.get(`check.check`) == true){
+    const settings = await db.get(`anime_help.worker`)
+    const settings_reason = await db.get(`anime_help.reason`)
+    if(settings != true){return message.channel.send(settings_reason)}
+}
 
         if (work != true) { return message.channel.send(reason) }
 

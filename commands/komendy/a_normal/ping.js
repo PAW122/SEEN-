@@ -4,6 +4,7 @@ const worker = config.ping_work
 const reason = config.ping_disable
 const { SlashCommandBuilder } = require('@discordjs/builders');
 const Discord = require('discord.js');
+const { QuickDB } = require("quick.db");
 //$ping
 //$ping help
 //$ping help en
@@ -38,6 +39,14 @@ module.exports = {
 
 
     execute: async (message, args) => {
+                //load server settings
+const guildId = message.guild.id
+const db = new QuickDB({ filePath: process.cwd() + `/db/srv_settings/commands/${guildId}.sqlite` });
+if(await db.get(`check.check`) == true){
+    const settings = await db.get(`ping.worker`)
+    const settings_reason = await db.get(`ping.reason`)
+    if(settings != true){return message.channel.send(settings_reason)}
+}
 
         if (work != true) { return message.channel.send(reason) }
 

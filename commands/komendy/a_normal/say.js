@@ -4,6 +4,7 @@ const config = require(process.cwd() + `/config/worker.js`)
     const reason = config.say_disable
 
 const Discord = require('discord.js');
+const { QuickDB } = require("quick.db");
 //$say
 //$say help
 //$say help en
@@ -37,6 +38,15 @@ executeInteraction: async (inter) => {
         inter.reply({ embeds: [embed_worker] });
         return (console.log("command id disabled"))
     } else {
+        //load server settings
+        const guildId = inter.guild.id
+        const db = new QuickDB({ filePath: process.cwd() + `/db/srv_settings/commands/${guildId}.sqlite` });
+        if(await db.get(`check.check`) == true){
+            const settings = await db.get(`say.worker`)
+            const settings_reason = await db.get(`say.reason`)
+            if(settings != true){return message.channel.send(settings_reason)}
+        }
+
         const treść = inter.options.getString('say')
 
         inter.reply(`${treść}`)
@@ -45,6 +55,14 @@ executeInteraction: async (inter) => {
 },
 
     execute: async(message, args) => {
+        //load server settings
+        const guildId = message.guild.id
+        const db = new QuickDB({ filePath: process.cwd() + `/db/srv_settings/commands/${guildId}.sqlite` });
+        if(await db.get(`check.check`) == true){
+            const settings = await db.get(`say.worker`)
+            const settings_reason = await db.get(`say.reason`)
+            if(settings != true){return message.channel.send(settings_reason)}
+        }
 
         
     if(work != true){return message.channel.send(reason)}

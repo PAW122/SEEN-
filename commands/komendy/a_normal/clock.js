@@ -3,6 +3,7 @@ const config = require(process.cwd() + `/config/worker.js`)
       const worker = config.clock_work
       const reason = config.clock_disable
 
+      const { QuickDB } = require("quick.db");
 module.exports = {
     name: "clock",
     description: "Clock command.",
@@ -10,6 +11,14 @@ module.exports = {
 
   
     execute: async(message, args) => {
+              //load server settings
+const guildId = message.guild.id
+const db = new QuickDB({ filePath: process.cwd() + `/db/srv_settings/commands/${guildId}.sqlite` });
+if(await db.get(`check.check`) == true){
+    const settings = await db.get(`clock.worker`)
+    const settings_reason = await db.get(`clock.reason`)
+    if(settings != true){return message.channel.send(settings_reason)}
+}
 
       
       if(work != true){return message.channel.send(reason)}

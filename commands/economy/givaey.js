@@ -16,3 +16,17 @@ wylosować 1 osobe
 wysłać wiadomość na kanale że wygrała dana osoba i co wygrała
 dodać do eq danej osoby coinsy
 */
+
+const { QuickDB } = require("quick.db");
+const check_db = require("./economy_handler")
+const config = require("../../config/config")
+const emoji = config.economy_emoji
+const { Permissions: { FLAGS } } = require('discord.js');
+const Discord = require('discord.js');
+module.exports = {
+    name: "givaey",
+
+    execute: async (message, args, client) => {
+
+    }
+}

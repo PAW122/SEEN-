@@ -9,13 +9,21 @@ const config1 = require(process.cwd() + `/config/worker.js`)
 const config = require(process.cwd() + `/config/config.js`)
     const API_KEY = config.wargaming_api_key
     
-
+const { QuickDB } = require("quick.db");
 
 module.exports = {
     name: "blitzclan",
     work: worker,
 
     execute: async(message, args) => {
+        //load server settings
+const guildId = message.guild.id
+const db = new QuickDB({ filePath: process.cwd() + `/db/srv_settings/commands/${guildId}.sqlite` });
+if(await db.get(`check.check`) == true){
+    const settings = await db.get(`blitz_clan.worker`)
+    const settings_reason = await db.get(`blitz_clan.reason`)
+    if(settings != true){return message.channel.send(settings_reason)}
+}
 
         if(!args[0]){message.reply("nie podałeś nazwy klanu")}
         const clan_name = args[0]

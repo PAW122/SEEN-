@@ -9,6 +9,7 @@ module.exports = {
 
     execute: async (message, args, client) => {
         
+        
         const guildId = message.guild.id
         const db = new QuickDB({ filePath: process.cwd() +`/db/economy/local_economy/${guildId}.sqlite` }); 
         const userId = message.author.id
@@ -32,7 +33,6 @@ module.exports = {
         if (!message.member.permissions.has("ADMINISTRATOR")) {
             return message.channel.send("nie masz uprawnień Administratora")
         }
-        console.log(args[1])
         if(await db.get(args[1]) == null){
             return message.reply(`osoba o takim id nie bierze udziału w grze`)
         }else{
@@ -47,21 +47,3 @@ module.exports = {
     }
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

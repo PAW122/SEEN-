@@ -21,8 +21,8 @@ module.exports = (client) => {
     const komendyFolders = fs.readdirSync(__dirname +`/../commands/komendy`)//dla komend
     const animeFolders = fs.readdirSync(__dirname +`/../commands/anime`)//dla anime
     const animezapowiedziFolders = fs.readdirSync(__dirname +`/../commands/anime zapowiedz`)//dla zapowiedzi
-    const db_commands = fs.readdirSync(__dirname +`/../commands/lvl_commands`)//dla db_commands
     const economy_commands = fs.readdirSync(__dirname +`/../commands/economy`)//dla ekonomi
+    const settings_commands = fs.readdirSync(__dirname +`/../commands/servers_config`)//dla ekonomi
     //command handler 
     
     for (const folder of komendyFolders) {//command handler dla komend
@@ -72,12 +72,12 @@ module.exports = (client) => {
             tabela(command,file,table,name,name_en,nr_tabeli)
         }
     }
-    
-    for (const folder of db_commands) {//command handler dla lvl_commands
-        const commandsFile = fs.readdirSync(__dirname +`/../commands/lvl_commands/${folder}`).filter(file => file.endsWith(".js"));
+
+    for (const folder of economy_commands) {//command handler dla ekonomi
+        const commandsFile = fs.readdirSync(__dirname +`/../commands/economy`).filter(file => file.endsWith(".js"));
     
         for(const file of commandsFile) {
-            const command = require(__dirname +`/../commands/lvl_commands/${folder}/${file}`);
+            const command = require(__dirname +`/../commands/economy/${file}`);
             client.command.set(command.name, command);//język polski
             client.command.set(command.name_en, command);//język abg
             console.log(file)
@@ -89,13 +89,13 @@ module.exports = (client) => {
             const name_en = command.name_en
             tabela(command,file,table,name,name_en,nr_tabeli)
         }
-    }//economy_commands
-
-    for (const folder of economy_commands) {//command handler dla ekonomi
-        const commandsFile = fs.readdirSync(__dirname +`/../commands/economy`).filter(file => file.endsWith(".js"));
+    }
+    //settings_commands
+    for (const folder of settings_commands) {//command handler dla ekonomi
+        const commandsFile = fs.readdirSync(__dirname +`/../commands/servers_config`).filter(file => file.endsWith(".js"));
     
         for(const file of commandsFile) {
-            const command = require(__dirname +`/../commands/economy/${file}`);
+            const command = require(__dirname +`/../commands/servers_config/${file}`);
             client.command.set(command.name, command);//język polski
             client.command.set(command.name_en, command);//język abg
             console.log(file)

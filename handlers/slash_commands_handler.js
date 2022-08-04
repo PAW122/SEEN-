@@ -10,7 +10,6 @@ const eventFiles = fs.readdirSync(process.cwd() +'/handlers/events').filter(file
 const slashCommands = fs.readdirSync(process.cwd() +`/commands/komendy`);
 const slashCommands2 = fs.readdirSync(process.cwd() +`/commands/anime/`);
 const slashCommands3 = fs.readdirSync(process.cwd() +`/commands/anime zapowiedz/`);
-const slashCommands4 = fs.readdirSync(process.cwd() +`/commands/lvl_commands/`)
 
 
 
@@ -22,7 +21,6 @@ const slashCommands4 = fs.readdirSync(process.cwd() +`/commands/lvl_commands/`)
           await client.handleCommands(slashCommands, "komendy");
           await client.handleCommands(slashCommands2, "anime");
           await client.handleCommands(slashCommands3, "anime zapowiedz");
-          await client.handleCommands(slashCommands4, "lvl_commands");
           const rest = new REST({ version: '9' }).setToken(token);
             (async () => {
                 try {

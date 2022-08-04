@@ -36,6 +36,7 @@ executeInteraction: async (inter) => {
 },
 
     execute: async(message, args) => {
+        
 
     if(work != true){return message.channel.send(reason)}
          

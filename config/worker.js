@@ -39,10 +39,6 @@ module.exports = {
     ban_work: "yes",
     ban_disable: "command is disable: no reason",
 
-    blitz_stats: false, //niedokończona komenda
-    blitz_stats_work: "no",
-    blitz_stats_disable: "command is disable: komenda nie jest skończona",
-
     bot_info: true,
     bot_info_work: "yes",
     bot_info_disable: "command is disable: no reason",
@@ -109,7 +105,11 @@ module.exports = {
 
     lvl_command: false,
     lvl_command_worker: "no",
-    lvl_command_disables: "command is disable: no reason"
+    lvl_command_disables: "command is disable: no reason",
+
+    economy_command: false,
+    economy_command_worker: "no",
+    economy_command_disables: "command is disable: no reason"
 }
 
 /*

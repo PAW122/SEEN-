@@ -2,7 +2,7 @@ const config = require(process.cwd() + `/config/worker.js`)
 const work = config.ban
 const worker = config.ban_work
 const reason = config.ban_disable
-
+const { QuickDB } = require("quick.db");
 //$ban
 //$ban help
 //$ban help en
@@ -29,6 +29,15 @@ module.exports = {
 
             .setRequired(true)),
     executeInteraction: async (inter) => {
+//load server settings
+const guildId = inter.guild.id
+const db = new QuickDB({ filePath: process.cwd() + `/db/srv_settings/commands/${guildId}.sqlite` });
+if(await db.get(`check.check`) == true){
+    const settings = await db.get(`ban.worker`)
+    const settings_reason = await db.get(`ban.reason`)
+    if(settings != true){return message.channel.send(settings_reason)}
+}
+
         if (!inter.member.permissions.has(FLAGS.BAN_MEMBERS)) {
             return(inter.reply({ content: 'Nie masz wystarczająco permisji aby użyć tej komendy!', ephemeral: true }));
         }
@@ -60,6 +69,14 @@ module.exports = {
 
 
     execute: async (message, args, client) => {
+                        //load server settings
+const guildId = message.guild.id
+const db = new QuickDB({ filePath: process.cwd() + `/db/srv_settings/commands/${guildId}.sqlite` });
+if(await db.get(`check.check`) == true){
+    const settings = await db.get(`ban.worker`)
+    const settings_reason = await db.get(`ban.reason`)
+    if(settings != true){return message.channel.send(settings_reason)}
+}
 
 
         if (work != true) { return message.channel.send(reason) }

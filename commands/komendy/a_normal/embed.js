@@ -15,6 +15,15 @@ module.exports = {
     work: worker,//usles komenda nie dodaje /commands
 
     execute: async(message, args) => {
+//load server settings
+const guildId = message.guild.id
+const db = new QuickDB({ filePath: process.cwd() + `/db/srv_settings/commands/${guildId}.sqlite` });
+if(await db.get(`check.check`) == true){
+    const settings = await db.get(`embed.worker`)
+    const settings_reason = await db.get(`embed.reason`)
+    if(settings != true){return message.channel.send(settings_reason)}
+}
+
 
         
     if(work != true){return message.channel.send(reason)}

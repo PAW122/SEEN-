@@ -2,8 +2,7 @@
  SEEN- DiscordBot
 
 # do zrobienia:
-naprawić lewele
-naprawić logs.js
+dodać opcze włączania w configu srv
 
 naprawić animegif
 

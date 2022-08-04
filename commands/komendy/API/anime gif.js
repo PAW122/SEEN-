@@ -4,6 +4,7 @@ const config = require(process.cwd() + `/config/worker.js`)
         const reason = config.anime_gif_disable
 
 const Discord = require('discord.js');
+const { QuickDB } = require("quick.db");
 //npm i anime-images-api
 //https://www.npmjs.com/package/anime-images-api
 const API = require('anime-images-api')
@@ -72,6 +73,15 @@ module.exports = {
             inter.reply({ embeds: [embed_worker] });
             return (console.log("command id disabled"))
         } else {
+            //load server settings
+const guildId = inter.guild.id
+const db = new QuickDB({ filePath: process.cwd() + `/db/srv_settings/commands/${guildId}.sqlite` });
+if(await db.get(`check.check`) == true){
+    const settings = await db.get(`anime_gif.worker`)
+    const settings_reason = await db.get(`anime_gif.reason`)
+    if(settings != true){return message.channel.send(settings_reason)}
+}
+
             const response = inter.options.getString('wybierz_rodzaj_gifa')
 
             if(response == 'pat'){
@@ -86,6 +96,14 @@ module.exports = {
 
 
     execute: async(message, args) => {
+//load server settings
+const guildId = message.guild.id
+const db = new QuickDB({ filePath: process.cwd() + `/db/srv_settings/commands/${guildId}.sqlite` });
+if(await db.get(`check.check`) == true){
+    const settings = await db.get(`anime_gif.worker`)
+    const settings_reason = await db.get(`anime_gif.reason`)
+    if(settings != true){return message.channel.send(settings_reason)}
+}
 
 
         if(work != true){return message.channel.send(reason)}
