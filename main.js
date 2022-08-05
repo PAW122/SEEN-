@@ -32,9 +32,6 @@ const emoji_reactions = require("./handlers/emoji-reactions.js")
 //wczytywanie powitania
 const generateImage = require("./handlers/welcome")
 
-//wczytywanie ustawień serwerów
-const setting_handler = require("./handlers/setting-handler")
-
 //wczytywanie logów
 const logs = require("./handlers/logs")
 
@@ -64,9 +61,6 @@ if(test_bot == true){
 
 //command handler
 handler(client)
-
-//servers settings (narazie nie działa)
-setting_handler(client)
 
 client.once('ready', () =>{
     const time = new Date().toLocaleTimeString().slice(0,5)

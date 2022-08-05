@@ -29,7 +29,7 @@ module.exports = {
         const check_permisions = await users_db.get(`${userId}.permisions`)
         if(check_admin == "true"){
 
-        }else if(check_permisions != "1"){
+        }else if(check_permisions != "1" && check_permisions != "2"){
             return message.reply("aby użyć tej komendy twoje uprawnienia muszą wynosić: 1")
         }
 

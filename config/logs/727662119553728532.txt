@@ -1613,3 +1613,11 @@
 5.08.2022   01:45   bot   SEEN-#5771   takie konto nie istnieje
 5.08.2022   01:48   bot   PAW#5844   $add_acc test4@cos.com password nick 3 4,5 50 1200 100
 5.08.2022   01:49   bot   PAW#5844   $info_acc test4@cos.com
+5.08.2022   15:51   bot   PAW#5844   $acc_help
+5.08.2022   15:57   bot   PAW#5844   $get_acc
+5.08.2022   15:58   bot   PAW#5844   $get_acc
+5.08.2022   15:59   bot   PAW#5844   $info_acc test4@cos
+5.08.2022   15:59   bot   SEEN-#5771   takie konto nie istnieje
+5.08.2022   15:59   bot   PAW#5844   $info_acc test4@cos.com
+5.08.2022   16:00   bot   PAW#5844   $acc_user 478480083498041356 1 true
+5.08.2022   16:00   bot   PAW#5844   $add_user 478480083498041356 1 true
