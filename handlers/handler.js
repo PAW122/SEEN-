@@ -67,7 +67,7 @@ module.exports = (client) => {
 
              
             //ascii
-            var nr_tabeli = "3"
+            var nr_tabeli = "1"//było 3
             const name = command.name
             const name_en = command.name_en
             tabela(command,file,table,name,name_en,nr_tabeli)
@@ -117,6 +117,7 @@ module.exports = (client) => {
             const command = require(__dirname +`/../commands/acc_menager/${file}`);
             client.command.set(command.name, command);//język polski
             client.command.set(command.name_en, command);//język abg
+            console.log(command.name)
             
 
              

@@ -2,6 +2,7 @@ const config = require(process.cwd() + `/config/worker.js`)
 const work = config.help
 const worker = config.help_work
 const reason = config.help_disable
+const db_version = config.db_version
 const { QuickDB } = require("quick.db");
 const Discord = require('discord.js');
 const prefix = "$"
@@ -14,7 +15,12 @@ const embed_pl = new Discord.MessageEmbed()
         \n użycie: $settings <on/off> <command_name>
         wyłączenie przykład: $settings off eight_ball
         włączenie przykład: $settings on eight_ball`, inline: true },
-        { name: `$srv_set list`, value: `aby usyskać pełną liste komend i usyskać informacje która z komend jest wyłączona`, inline: true },
+        { name: `$srv_set list`,
+         value: `aby usyskać pełną liste komend i usyskać informacje która z komend jest wyłączona`, inline: true },
+         { name: `$settings prefix`,
+         value: `pozwala zmienić prefix dla serwera
+         użycie: $srv_set prefix <your prefix>
+         przykład: $srv_set prefix $`, inline: true },
         
         
     )
@@ -36,9 +42,13 @@ module.exports = {
     const embed_lista = new Discord.MessageEmbed()
     .setColor(`BLUE`)
     .setTitle(`List of all commands`)
-    .setDescription("True: on  ||   Flase: off")
+    .setDescription(`True: on  ||   Flase: off
+    if your db_version in not: ${db_version} use $settings deafult
+    WARRING!! when db is updated u loss all settings`)
     .addFields(
-        { name: `command name`, value: `status:`, inline: false },
+        { name: `db version:`, value: `status:`, inline: false },
+        { name: `prefix`, value: `${await db.get(`prefix.check`,)}`, inline: false },
+        { name: `command name`, value: `${await db.get(`version.check`,)}`, inline: false },
         { name: `anime_gif`, value: `${await db.get(`anime_gif.worker`,)}`, inline: false },
         { name: `eight_ball`, value: `${await db.get(`eight_ball.worker`,)}`, inline: true },
         { name: `anime_seem_help`, value: `${await db.get(`anime_seem_help.worker`,)}`, inline: true },

@@ -5,12 +5,12 @@ const consola = require('consola')
 
 const { REST } = require('@discordjs/rest');
 const { Routes } = require('discord-api-types/v9');
-
+const { QuickDB } = require("quick.db");
 //wczytywanie configu
 const config = require("./config/config.js")
 const test_token = config.token
 const token = process.env.TOKEN
-const prefix = config.prefix
+let prefix = config.prefix
 const commands_logs = config.commands_logs
 const welcomeChannelId = config.welcomeChannelId
 const logs_dir = config.logs_dir
@@ -38,6 +38,8 @@ const logs = require("./handlers/logs")
 //slash_commands_handler
 const slash_handler = require("./handlers/slash_commands_handler")
 
+//wczytywanie msg handlera
+const msg_handler = require("./handlers/msg_handler")
 
 const client = new Discord.Client({
     intents: [
@@ -84,37 +86,18 @@ client.on('messageCreate', async message =>
     //auto reakcje
     emoji_reactions(message)
 
-    if(message.content.startsWith(prefix) && !message.author.bot){//sprawdza prefix, && znaczy and
-
-            const args = message.content.slice(prefix.length).trim().split(/ +/);//oddziela słowa w komendzie spacją i usówa prefix 
-            const commandName = args.shift().toLowerCase();//zwraca tylko 1 argument i zmienia na same małe liter
-            if(!client.command.has(commandName)) return;//sprawdza czy taka komenda istnieje
-            
-            const command = client.command.get(commandName);//pobieramy komende
-            const time = new Date().toLocaleTimeString().slice(0,5)
-        
-            try {//wywołujemy komende
-                command.execute(message,args,client);
-                if(commands_logs == "True"){
-                    const data = `${time} ${message.author.tag} use ${commandName}, execute: "✅"`
-                    console.log(data)
-                    logs(data, logs_dir, 1)
-                }
-            } catch(error) {
-                if(commands_logs == "True"){
-                    const data = `${time} ${message.author.tag} use ${commandName}, execute: "❌"`
-                    console.log(data)
-                    logs(data, error_logs_dir)
-                }
-                    console.error(error);
-                    logs(error, error_logs_dir ,1)
-                    message.reply("Wystąpił błąd");
+    //sprawdzanie prefixu serwerowego
+    const guildId = message.guild.id
+    const db = new QuickDB({ filePath: process.cwd() + `/db/srv_settings/commands/${guildId}.sqlite` });
+        if(await db.get(`check.check`) == true){
+            if(await db.get(`prefix.check`) != null){
+            const prefix = await db.get(`prefix.check`)
+            msg_handler(client,prefix,message)
             }
-    }else{
-        if(save_messages_logs == "True"){
-            logs(`${message.author.tag} ${message.content}`, save_messages_logs_dir, 1)
+        }else{
+            msg_handler(client,prefix,message)
         }
-    }
+
 });
 
 

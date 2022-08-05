@@ -20,16 +20,24 @@ module.exports = {
             użycie: $settings <on/off> <command_name> `)
         }
 
-        if(!args[1]){
-            message.reply("podaj nazwe komendy")
-        }
-
-        if(!args[2]){
-            message.reply("podaj powód wyłączenia komendy")
-        }
-
         if(await db.get(`check.check`) == true){
 //dodać message logs
+
+            if(args[0] == "prefix"){
+                
+                await db.set(`prefix.check`, args[1])
+                message.reply("ustawiono")
+                
+            }
+
+            if(!args[1]){
+                return message.reply("podaj nazwe komendy")
+            }
+    
+            if(!args[2]){
+                return message.reply("podaj powód wyłączenia komendy")
+            }
+
             if(args[0] == "off"){
             
                 if (!message.member.permissions.has("ADMINISTRATOR")) {

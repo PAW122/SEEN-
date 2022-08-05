@@ -1621,3 +1621,45 @@
 5.08.2022   15:59   bot   PAW#5844   $info_acc test4@cos.com
 5.08.2022   16:00   bot   PAW#5844   $acc_user 478480083498041356 1 true
 5.08.2022   16:00   bot   PAW#5844   $add_user 478480083498041356 1 true
+6.08.2022   00:20   bot   PAW#5844   $ping
+6.08.2022   00:20   bot   PAW#5844   $ping
+6.08.2022   00:20   bot   PAW#5844   $ping
+6.08.2022   00:21   bot   PAW#5844   $help
+6.08.2022   00:21   bot   PAW#5844   $ping
+6.08.2022   00:22   bot   PAW#5844   $ping
+6.08.2022   00:22   bot   SEEN-#5771   pong!
+6.08.2022   00:22   bot   PAW#5844   $help
+6.08.2022   00:22   bot   SEEN-#5771   
+6.08.2022   00:22   bot   PAW#5844   $srv_set help
+6.08.2022   00:22   bot   SEEN-#5771   
+6.08.2022   00:23   bot   PAW#5844   $srv_set prefix .
+6.08.2022   00:23   bot   SEEN-#5771   
+6.08.2022   00:23   bot   PAW#5844   $ping
+6.08.2022   00:23   bot   SEEN-#5771   pong!
+6.08.2022   00:24   bot   PAW#5844   $srv_set deafult
+6.08.2022   00:24   bot   SEEN-#5771   
+6.08.2022   00:24   bot   PAW#5844   $srv_set
+6.08.2022   00:24   bot   SEEN-#5771   
+6.08.2022   00:25   bot   PAW#5844   $settings prefix .
+6.08.2022   00:25   bot   SEEN-#5771   podaj powód wyłączenia komendy
+6.08.2022   00:25   bot   SEEN-#5771   ustawiono
+6.08.2022   00:25   bot   PAW#5844   $ping
+6.08.2022   00:25   bot   SEEN-#5771   pong!
+6.08.2022   00:25   bot   PAW#5844   .ping
+6.08.2022   00:26   bot   PAW#5844   $ping
+6.08.2022   00:26   bot   SEEN-#5771   pong!
+6.08.2022   00:27   bot   PAW#5844   $ping
+6.08.2022   00:27   bot   SEEN-#5771   pong!
+6.08.2022   00:34   bot   PAW#5844   $ping
+6.08.2022   00:34   bot   PAW#5844   $ping
+6.08.2022   00:38   bot   PAW#5844   $ping
+6.08.2022   00:42   bot   PAW#5844   .ping
+6.08.2022   00:42   bot   SEEN-#5771   pong!
+6.08.2022   00:44   bot   PAW#5844   $settings deafult
+6.08.2022   00:44   bot   PAW#5844   $srv_help
+6.08.2022   00:44   bot   PAW#5844   $srv_set list
+6.08.2022   00:45   bot   PAW#5844   .settings deafult
+6.08.2022   00:45   bot   SEEN-#5771   przywrucono deafultowe ustawienia
+6.08.2022   00:45   bot   PAW#5844   .ping
+6.08.2022   00:45   bot   PAW#5844   $ping
+6.08.2022   00:45   bot   SEEN-#5771   pong!
