@@ -1,0 +1,12 @@
+6.08.2022   01:39   👋┇witajka   MEE6#4876   
+6.08.2022   01:40   💬┇ogólny   FeduuN#6666   $help
+6.08.2022   01:40   💬┇ogólny   SEEN-#5771   
+6.08.2022   01:40   💬┇ogólny   FeduuN#6666   $srv_set
+6.08.2022   01:40   💬┇ogólny   SEEN-#5771   
+6.08.2022   01:40   💬┇ogólny   FeduuN#6666   $settings prefix #
+6.08.2022   01:41   💬┇ogólny   SEEN-#5771   Stworzono profil ustawień serwera użyj komendy ponownie aby zapisać zmiany
+6.08.2022   01:41   💬┇ogólny   FeduuN#6666   $settings prefix #
+6.08.2022   01:41   💬┇ogólny   SEEN-#5771   ustawiono
+6.08.2022   01:41   💬┇ogólny   MEE6#4876   GG <@971396498745077861>, you just advanced to level 3!
+6.08.2022   01:41   💬┇ogólny   SEEN-#5771   podaj powód wyłączenia komendy
+6.08.2022   01:41   💬┇ogólny   FeduuN#6666   nie

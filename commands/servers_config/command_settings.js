@@ -26,7 +26,17 @@ module.exports = {
             if(args[0] == "prefix"){
                 
                 await db.set(`prefix.check`, args[1])
-                message.reply("ustawiono")
+                return message.reply("ustawiono")
+                
+            }
+
+            if(args[0] == "welcome_messages"){
+                if(!args[1]){
+                    return message.reply("nie podałeś argumentu\n $srv_set to get help commands \n $srv_set list -- to get commands status")
+                }
+                
+                await db.set(`welcome.channelId`, args[1])
+               return message.reply("ustawiono")
                 
             }
 
@@ -202,7 +212,7 @@ module.exports = {
         }else{//ustawienia deafult
             setting_handler(message)
             await new Promise(r => setTimeout(r, 2000));
-            return message.reply("Stworzono profil ustawień serwera")
+            return message.reply("Stworzono profil ustawień serwera użyj komendy ponownie aby zapisać zmiany")
         }
 
         

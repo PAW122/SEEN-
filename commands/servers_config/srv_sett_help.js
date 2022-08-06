@@ -21,6 +21,11 @@ const embed_pl = new Discord.MessageEmbed()
          value: `pozwala zmienić prefix dla serwera
          użycie: $srv_set prefix <your prefix>
          przykład: $srv_set prefix $`, inline: true },
+
+         { name: `$settings welcome_messages`,
+         value: `daje możliwość ustawienia welcom message na serweże
+         użycie: $settings welcome_messages <channelId>
+         przykład: $settings welcome_messages 764240709779193876`, inline: true },
         
         
     )
@@ -48,6 +53,7 @@ module.exports = {
     .addFields(
         { name: `db version:`, value: `status:`, inline: false },
         { name: `prefix`, value: `${await db.get(`prefix.check`,)}`, inline: false },
+        { name: `welcome channel id`, value: `${await db.get(`welcome.channelId`,)}`, inline: false },
         { name: `command name`, value: `${await db.get(`version.check`,)}`, inline: false },
         { name: `anime_gif`, value: `${await db.get(`anime_gif.worker`,)}`, inline: false },
         { name: `eight_ball`, value: `${await db.get(`eight_ball.worker`,)}`, inline: true },

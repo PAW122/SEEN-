@@ -11,6 +11,7 @@ module.exports = (message) => {
 //deafultowe ustawienia
         await db.set(`check`, { check: true })
         await db.set(`prefix`, { check: "$" })
+        await db.set(`welcome`, { channelId: "null" })
         await db.set(`version`, { check: `${db_version}` })
         await db.set(`anime_gif`, { worker: true , reason: "no reason"})
         await db.set(`eight_ball`, { worker: true , reason: "no reason"})//

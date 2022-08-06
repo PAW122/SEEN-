@@ -18,7 +18,7 @@
     "chalk": "^5.0.1",
     "consola": "^2.15.3",
     "discord-xp": "^1.1.16",
-    "discord.js": "^13.8.1",
+    "discord.js": "^13.9.2",
     "dotenv": "^16.0.1",
     "env": "^0.0.2",
     "js-yaml": "^4.1.0",

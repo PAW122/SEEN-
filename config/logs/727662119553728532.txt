@@ -1663,3 +1663,38 @@
 6.08.2022   00:45   bot   PAW#5844   .ping
 6.08.2022   00:45   bot   PAW#5844   $ping
 6.08.2022   00:45   bot   SEEN-#5771   pong!
+6.08.2022   01:04   ogólny   Senko#3667   
+6.08.2022   01:10   ogólny   Senko#3667   
+6.08.2022   01:40   bot   PAW#5844   $settings deafult
+6.08.2022   01:40   bot   SEEN-#5771   przywrucono deafultowe ustawienia
+6.08.2022   01:40   bot   PAW#5844   $srv_set
+6.08.2022   01:40   bot   SEEN-#5771   
+6.08.2022   01:40   bot   PAW#5844   $settings welcome_messages 727662119553728535
+6.08.2022   01:40   bot   SEEN-#5771   ustawiono
+6.08.2022   01:40   bot   SEEN-#5771   podaj powód wyłączenia komendy
+6.08.2022   01:41   ogólny   Senko#3667   
+6.08.2022   01:41   ogólny   SEEN-#5771   <@778643150981562368> Welcome to the server!
+6.08.2022   01:41   ogólny   SEEN-#5771   <@778643150981562368> Welcome to the server!
+6.08.2022   01:43   ogólny   Senko#3667   
+6.08.2022   01:49   ogólny   Senko#3667   
+6.08.2022   01:49   ogólny   SEEN-#5771   <@778643150981562368> Welcome to the server!
+6.08.2022   01:49   ogólny   SEEN-#5771   <@778643150981562368> Welcome to the server!
+6.08.2022   01:50   ogólny   Senko#3667   
+6.08.2022   01:50   ogólny   SEEN-#5771   <@778643150981562368> Welcome to the server!
+6.08.2022   01:50   ogólny   SEEN-#5771   <@778643150981562368> Welcome to the server!
+6.08.2022   01:52   ogólny   Senko#3667   
+6.08.2022   01:52   ogólny   SEEN-#5771   <@778643150981562368> Welcome to the server!
+6.08.2022   01:52   ogólny   SEEN-#5771   <@778643150981562368> Welcome to the server!
+6.08.2022   01:57   ogólny   Senko#3667   
+6.08.2022   01:57   ogólny   SEEN-#5771   <@778643150981562368> Welcome to the server!
+6.08.2022   01:57   ogólny   SEEN-#5771   <@778643150981562368> Welcome to the server!
+6.08.2022   01:59   ogólny   Senko#3667   
+6.08.2022   01:59   ogólny   SEEN-#5771   <@778643150981562368> Welcome to the server!
+6.08.2022   01:59   ogólny   SEEN-#5771   <@778643150981562368> Welcome to the server!
+6.08.2022   01:59   ogólny   Senko#3667   $ping
+6.08.2022   01:59   ogólny   SEEN-#5771   pong!
+6.08.2022   02:02   ogólny   Senko#3667   
+6.08.2022   02:05   ogólny   Senko#3667   
+6.08.2022   02:24   ogólny   Senko#3667   
+6.08.2022   02:29   ogólny   Senko#3667   
+6.08.2022   02:29   ogólny   SEEN-#5771   <@778643150981562368> Welcome to the server!

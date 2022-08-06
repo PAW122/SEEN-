@@ -53,10 +53,10 @@ client.commands = new Discord.Collection()
 client.commandArray = [];
 
 //slash
-if(test_bot == true){
-    slash_handler(client,test_token,test_clientId)
-}else{
-    slash_handler(client,token,clientId)
+if (test_bot == true) {
+    slash_handler(client, test_token, test_clientId)
+} else {
+    slash_handler(client, token, clientId)
 }
 
 
@@ -64,24 +64,27 @@ if(test_bot == true){
 //command handler
 handler(client)
 
-client.once('ready', () =>{
-    const time = new Date().toLocaleTimeString().slice(0,5)
+client.once('ready', () => {
+    const time = new Date().toLocaleTimeString().slice(0, 5)
     var d = new Date;
     data = d.toLocaleDateString();
     console.log(`${client.user.tag} jest online`);
-    client.user.setActivity("$help", {type:'WATCHING'});
-    logs(`${data} ${time} ${client.user.tag} jest online`, logs_dir,1)
+    client.user.setActivity("$help", { type: 'WATCHING' });
+    logs(`${data} ${time} ${client.user.tag} jest online`, logs_dir, 1)
+
+    //powitania
+
+        generateImage(client)
 });
 
 
 
 
-client.on('messageCreate', async message =>
-{
-     
+client.on('messageCreate', async message => {
+
     //logi z serwerów
-    logs(message.content, null, 2, message.guild.id ,message.author.tag, message.channel.name)
-    
+    logs(message.content, null, 2, message.guild.id, message.author.tag, message.channel.name)
+
 
     //auto reakcje
     emoji_reactions(message)
@@ -89,31 +92,29 @@ client.on('messageCreate', async message =>
     //sprawdzanie prefixu serwerowego
     const guildId = message.guild.id
     const db = new QuickDB({ filePath: process.cwd() + `/db/srv_settings/commands/${guildId}.sqlite` });
-        if(await db.get(`check.check`) == true){
-            if(await db.get(`prefix.check`) != null){
+    if (await db.get(`check.check`) == true) {
+        if (await db.get(`prefix.check`) != null) {
             const prefix = await db.get(`prefix.check`)
-            msg_handler(client,prefix,message)
-            }
-        }else{
-            msg_handler(client,prefix,message)
+            msg_handler(client, prefix, message)
         }
+    } else {
+        msg_handler(client, prefix, message)
+    }
 
 });
 
-
-client.on("guildMemberAdd", async (member) => {
-    /*
-    try{
-        const img = await generateImage(member)
-        member.guild.channels.cache.get(welcomeChannelId).send({
-            content: `<@${member.id}> Welcome to the server!`,
-            files: [img]
-        })
-    }catch(err){
+/*
+client.on("guildMemberAdd", guildMember => {
+    console.log(guildMember)
+    try {
+        generateImage(guildMember)
+        console.log("cos")
+    } catch (err) {
         console.log(err)
     }
-    */
+
 })
+*/
 
 //interakcje
 //interactions()
@@ -122,12 +123,12 @@ const rola_1_id = "1001069879148953673"
 const rola_2_id = "1001069963437686824"
 
 client.on('interactionCreate', async interaction => {
-    if(!interaction.isButton){return}
-    if(interaction.customId == 'role1') {
+    if (!interaction.isButton) { return }
+    if (interaction.customId == 'role1') {
         const roleId = '1001069879148953673';
         const role = interaction.guild.roles.cache.get(roleId);
 
-        if(interaction.member.roles.cache.has(roleId)) {
+        if (interaction.member.roles.cache.has(roleId)) {
             await interaction.member.roles.remove(role);
             await interaction.reply({ content: `Usunięto rolę <@&${roleId}>`, ephemeral: true });
         } else {
@@ -138,11 +139,11 @@ client.on('interactionCreate', async interaction => {
         // await interaction.deferUpdate();
     }
 
-    if(interaction.customId == 'role2') {
+    if (interaction.customId == 'role2') {
         const roleId = '1001069963437686824';
         const role = interaction.guild.roles.cache.get(roleId);
 
-        if(interaction.member.roles.cache.has(roleId)) {
+        if (interaction.member.roles.cache.has(roleId)) {
             await interaction.member.roles.remove(role);
             await interaction.reply({ content: `Usunięto rolę <@&${roleId}>`, ephemeral: true });
         } else {
@@ -154,18 +155,18 @@ client.on('interactionCreate', async interaction => {
     }
 
 })
-if(test_bot == true){
+if (test_bot == true) {
     client.login(test_token)
-}else{
+} else {
     client.login(token)
 }
 
 
 
 //error handler
-client.on('debug', (err) =>{logs(`${err}`, save_messages_logs_dir, 1)})
-client.on('warn', () =>{console.log("error handler--warn")})
-client.on('error', () =>{console.log("error handler--error")})
+client.on('debug', (err) => { logs(`${err}`, save_messages_logs_dir, 1) })
+client.on('warn', () => { console.log("error handler--warn") })
+client.on('error', () => { console.log("error handler--error") })
 //consola info
 consola.success('Built!')
 
@@ -177,8 +178,8 @@ consola.success('Built!')
 /*
 help dla komend anime
 wszystkie anime z zapowiedzi i premier lato 2022
-help dla zapowiedzi anime i 
-w foleże help opisy 
+help dla zapowiedzi anime i
+w foleże help opisy
 
 zrobić na nowo w $help en angielską cześc bo coś się zjebało
 
@@ -212,13 +213,13 @@ ruletka nie chce działać na serweże !! do naprawy
 //client.login('OTgwMjAzNzM0OTI5OTI4MjUy.GZ5xIp.fKALWn8VmwNuxM9ddr9EQc6Nt3_u03JXpEmoLM')
 
 //sprawdzanie nazwy kanału
-            /*
-            if(message.channel.name == "nazwa-kanału"){
-                //kod
-            } else if (message.channel.name == "nazwa-2-kanału"){
-                //kod2
-            }
-            */
+/*
+if(message.channel.name == "nazwa-kanału"){
+    //kod
+} else if (message.channel.name == "nazwa-2-kanału"){
+    //kod2
+}
+*/
 
 
 
@@ -266,7 +267,7 @@ ruletka nie chce działać na serweże !! do naprawy
 //$ping help en
 
 //$random
-//$random help 
+//$random help
 //$random help en
 
 //$ruletka
