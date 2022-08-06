@@ -1698,3 +1698,9 @@
 6.08.2022   02:24   ogólny   Senko#3667   
 6.08.2022   02:29   ogólny   Senko#3667   
 6.08.2022   02:29   ogólny   SEEN-#5771   <@778643150981562368> Welcome to the server!
+6.08.2022   02:33   bot   PAW#5844   $help
+6.08.2022   02:33   bot   SEEN-#5771   
+6.08.2022   02:34   bot   PAW#5844   $srv_set
+6.08.2022   02:34   bot   SEEN-#5771   
+6.08.2022   02:51   bot   PAW#5844   $ping
+6.08.2022   02:51   bot   SEEN-#5771   pong!
