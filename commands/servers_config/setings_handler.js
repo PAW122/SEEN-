@@ -37,7 +37,9 @@ module.exports = (message) => {
         await db.set(`user_info`, { worker: true , reason: "no reason"})
         await db.set(`lvl_command`, { worker: true , reason: "no reason"})//narazie off
         await db.set(`economy_command`, { worker: true , reason: "no reason"})
-
+//nowe komendy anime_zapowiedzi dbv0.3
+        await db.set(`anime_zapowiedzi`, { worker: true , reason: "no reason"})
+        await db.set(`anime_seen`, { worker: true , reason: "no reason"})
         await new Promise(r => setTimeout(r, 2000));
 
 

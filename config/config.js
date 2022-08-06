@@ -19,5 +19,5 @@ module.exports = {
     economy_emoji: "💵",
 
     //zwiększać z każdą aktualizacją db
-    db_version: "0.2"
+    db_version: "0.3"
 }

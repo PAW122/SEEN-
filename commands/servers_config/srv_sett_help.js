@@ -79,9 +79,8 @@ module.exports = {
         { name: `user_info`, value: `${await db.get(`user_info.worker`,)}`, inline: true },
         { name: `lvl_command`, value: `${await db.get(`lvl_command.worker`,)}`, inline: true },
         { name: `economy_command`, value: `${await db.get(`economy_command.worker`,)}`, inline: true },
-        { name: `more commands in future`, value: `${await db.get(`anime_gif.worker`,)}`, inline: true },
-
-        
+        //nowe komendy
+        { name: `anime_zapowiedzi`, value: `${await db.get(`anime_zapowiedzi.worker`,)}`, inline: true },
         
     )
 

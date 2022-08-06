@@ -1,4 +1,5 @@
 const Discord = require('discord.js');
+const { QuickDB } = require("quick.db");
 const dane = "./anime.json"; 
 
 
@@ -21,6 +22,14 @@ module.exports = {
     usage: "$senko",
 
     execute: async(message, args) =>  {
+         //load server settings
+         const guildId = message.guild.id
+         const db = new QuickDB({ filePath: process.cwd() + `/db/srv_settings/commands/${guildId}.sqlite` });
+         if(await db.get(`check.check`) == true){
+             const settings = await db.get(`eight_ball.worker`)
+             const settings_reason = await db.get(`eight_ball.reason`)
+             if(settings != true){return message.channel.send(settings_reason)}
+         }
         
         console.log(amnestia_odc_1)
         

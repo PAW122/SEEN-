@@ -12,13 +12,21 @@ const {senko_odc_9} = require(dane)
 const {senko_odc_10} = require(dane)
 const {senko_odc_11} = require(dane)
 const {senko_odc_12} = require(dane)
-
+const { QuickDB } = require("quick.db");
 module.exports = {
     name: "senko_odc",//dodac do helpów
     description: "wysyła grafike senko",
     usage: "$senko",
 
     execute: async(message, args) =>  {
+         //load server settings
+         const guildId = message.guild.id
+         const db = new QuickDB({ filePath: process.cwd() + `/db/srv_settings/commands/${guildId}.sqlite` });
+         if(await db.get(`check.check`) == true){
+             const settings = await db.get(`eight_ball.worker`)
+             const settings_reason = await db.get(`eight_ball.reason`)
+             if(settings != true){return message.channel.send(settings_reason)}
+         }
         
         console.log(senko_odc_1)
         

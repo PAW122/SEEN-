@@ -1,7 +1,7 @@
 //gokukoku no  brynhildr
 const { MessageAttachment } = require('discord.js');
 const Discord = require('discord.js');
-
+const { QuickDB } = require("quick.db");
 
 module.exports = {
     name: "Kuroha",
@@ -9,6 +9,14 @@ module.exports = {
     usage: "$konata",
 
     execute: async(message, args) =>  {
+         //load server settings
+         const guildId = message.guild.id
+         const db = new QuickDB({ filePath: process.cwd() + `/db/srv_settings/commands/${guildId}.sqlite` });
+         if(await db.get(`check.check`) == true){
+             const settings = await db.get(`eight_ball.worker`)
+             const settings_reason = await db.get(`eight_ball.reason`)
+             if(settings != true){return message.channel.send(settings_reason)}
+         }
         var cos= ".";
         var roz0= "jpg";
         var roz1= "jpg";

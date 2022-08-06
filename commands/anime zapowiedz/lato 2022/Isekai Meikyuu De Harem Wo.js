@@ -1,6 +1,7 @@
 //Isekai Meikyuu De Harem Wo
 //$zapoiwedzi anime
 const Discord = require('discord.js');
+const { QuickDB } = require("quick.db");
 // spychu12@gmail.com
 module.exports = {
     name: "isekai_meikyuu_de_harem_wo_zapowiedz",
@@ -9,6 +10,14 @@ module.exports = {
     usage: "$ping",
 
     execute: async(message, args) => {
+        //load server settings
+        const guildId = message.guild.id
+        const db = new QuickDB({ filePath: process.cwd() + `/db/srv_settings/commands/${guildId}.sqlite` });
+        if(await db.get(`check.check`) == true){
+            const settings = await db.get(`eight_ball.worker`)
+            const settings_reason = await db.get(`eight_ball.reason`)
+            if(settings != true){return message.channel.send(settings_reason)}
+        }
 
         const embed = new Discord.MessageEmbed()
         

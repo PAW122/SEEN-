@@ -1706,3 +1706,10 @@
 6.08.2022   02:51   bot   SEEN-#5771   pong!
 6.08.2022   13:44   bot   PAW#5844   $srv_set list
 6.08.2022   13:44   bot   SEEN-#5771   
+6.08.2022   13:51   bot   PAW#5844   $help
+6.08.2022   13:51   bot   SEEN-#5771   
+6.08.2022   13:54   bot   SEEN-#5771   
+6.08.2022   14:19   bot   PAW#5844   $help
+6.08.2022   14:19   bot   SEEN-#5771   
+6.08.2022   14:19   bot   PAW#5844   $animeseen help
+6.08.2022   14:19   bot   SEEN-#5771   command is disable: no reason

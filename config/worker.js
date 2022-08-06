@@ -7,7 +7,7 @@ module.exports = {
     eight_ball_work: "yes",
     eight_ball_disable: "command is disable: no reason",
     
-    anime_seem_help: true,
+    anime_seen_help: true,
     anime_seem_work: "yes",
     anime_seem_help_disable: "command is disable: no reason",
     
