@@ -5,8 +5,15 @@ module.exports = {
     name: "buy",
 
     execute: async (message, args) => {
-
+        //load server settings
         const guildId = message.guild.id
+        const db2 = new QuickDB({ filePath: process.cwd() + `/db/srv_settings/commands/${guildId}.sqlite` });
+        if(await db2.get(`check.check`) == true){
+            const settings = await db2.get(`economy_command.worker`)
+            const settings_reason = await db2.get(`economy_command.reason`)
+            if(settings != true){return message.channel.send(settings_reason)}
+        }
+
         const userId = message.author.id
         const db = new QuickDB({ filePath: process.cwd() + `/db/economy/local_economy/${guildId}.sqlite` });
 

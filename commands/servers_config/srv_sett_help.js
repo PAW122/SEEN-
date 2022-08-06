@@ -27,6 +27,11 @@ const embed_pl = new Discord.MessageEmbed()
          value: `daje możliwość ustawienia welcom message na serweże
          użycie: $settings welcome_messages <channelId>
          przykład: $settings welcome_messages 764240709779193876`, inline: true },
+
+         { name: `$settings ticket`,
+         value: `daje możliwość ustawienia kanałów do ticketów
+         użycie: $settings ticket <channel id for users> <channel id for administrators>
+         przykład: $settings ticket 764240709779193876 745768777022701648`, inline: true },
         
         
     )
@@ -54,6 +59,7 @@ module.exports = {
         { name: `db version:`, value: `${await db.get(`version.check`,)}`, inline: false },
         { name: `prefix`, value: `${await db.get(`prefix.check`,)}`, inline: false },
         { name: `welcome channel id`, value: `${await db.get(`welcome.channelId`,)}`, inline: false },
+        { name: `tickets`, value: `users channel id:${await db.get(`tickets.settings[0]`,)} \n administration channel id:${await db.get(`tickets.settings[1]`,)}`, inline: false },
         { name: `command name`, value: `on/off`, inline: false },
         { name: `anime_gif`, value: `${await db.get(`anime_gif.worker`,)}`, inline: false },
         { name: `eight_ball`, value: `${await db.get(`eight_ball.worker`,)}`, inline: true },
@@ -75,17 +81,18 @@ module.exports = {
         { name: `blitz_stats`, value: `${await db.get(`blitz_stats.worker`,)}`, inline: true },
         { name: `blitz_clan`, value: `${await db.get(`blitz_clan.worker`,)}`, inline: true },
         { name: `autoroles`, value: `${await db.get(`autoroles.worker`,)}`, inline: true },
-        { name: `user_info`, value: `${await db.get(`user_info.worker`,)}`, inline: true },
     )//max 25 rzeczy w fields
 
         const embed_lista2 = new Discord.MessageEmbed()
         .setColor(`BLUE`)
         .setTitle(`List of all commands page 2/2`)
         .addFields(
+        { name: `user_info`, value: `${await db.get(`user_info.worker`,)}`, inline: true },
         { name: `lvl_command`, value: `${await db.get(`lvl_command.worker`,)}`, inline: true },
         { name: `economy_command`, value: `${await db.get(`economy_command.worker`,)}`, inline: true },
         { name: `anime_zapowiedzi`, value: `${await db.get(`anime_zapowiedzi.worker`,)}`, inline: true },
         { name: `anime_seen`, value: `${await db.get(`anime_seen.worker`,)}`, inline: true },
+        
         
     )
 

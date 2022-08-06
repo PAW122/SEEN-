@@ -1727,3 +1727,25 @@
 6.08.2022   16:49   bot   PAW#5844   $srv_set list
 6.08.2022   16:49   bot   SEEN-#5771   
 6.08.2022   16:49   bot   SEEN-#5771   
+6.08.2022   17:45   bot   PAW#5844   $ticket
+6.08.2022   17:45   bot   PAW#5844   $ticket help
+6.08.2022   17:45   bot   SEEN-#5771   add ticket system to your discord server
+            add server settings:
+             $settings ticket <channel id for users> <channel id for administrators>
+6.08.2022   17:45   bot   PAW#5844   $settings deafult
+6.08.2022   17:45   bot   SEEN-#5771   przywrucono deafultowe ustawienia
+6.08.2022   17:46   bot   PAW#5844   $settings ticket 745768777022701648 923300408372396032
+6.08.2022   17:46   bot   SEEN-#5771   ustawiono
+6.08.2022   17:46   bot   PAW#5844   $srv_set list
+6.08.2022   17:46   bot   SEEN-#5771   
+6.08.2022   17:46   bot   SEEN-#5771   
+6.08.2022   18:06   bot   PAW#5844   $settings deafult
+6.08.2022   18:06   bot   SEEN-#5771   przywrucono deafultowe ustawienia
+6.08.2022   18:06   bot   PAW#5844   $srv_set
+6.08.2022   18:06   bot   SEEN-#5771   
+6.08.2022   18:06   bot   PAW#5844   $srv_set
+6.08.2022   18:06   bot   SEEN-#5771   
+6.08.2022   18:06   bot   PAW#5844   $settings ticket 745768777022701648 923300408372396032
+6.08.2022   18:06   bot   SEEN-#5771   ustawiono
+6.08.2022   18:10   bot   PAW#5844   $ticket test
+6.08.2022   18:10   minc-serv-18   SEEN-#5771   

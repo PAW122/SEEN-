@@ -7,8 +7,16 @@ module.exports = {
 
     execute: async (message, args) => {//dziennie od 50 do 100 monet
 
-
+        //load server settings
         const guildId = message.guild.id
+        const db2 = new QuickDB({ filePath: process.cwd() + `/db/srv_settings/commands/${guildId}.sqlite` });
+        if(await db2.get(`check.check`) == true){
+            const settings = await db2.get(`economy_command.worker`)
+            const settings_reason = await db2.get(`economy_command.reason`)
+            if(settings != true){return message.channel.send(settings_reason)}
+        }
+
+
         const db = new QuickDB({ filePath: process.cwd() +`/db/economy/local_economy/${guildId}.sqlite` }); 
         var current = new Date();
         const now_rok = current.getFullYear();

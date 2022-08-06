@@ -12,13 +12,57 @@ module.exports = {
     name: "ticket",
     work: worker,
 
-    execute: async (message, args) => {
+    execute: async (message, args, client) => {
 
         if (work != true) { return message.channel.send(reason) }
 
         const guildId = message.guild.id
         const db = new QuickDB({ filePath: process.cwd() + `/db/srv_settings/commands/${guildId}.sqlite` });
-    
+        if(await db.get(`check.check`) == true){
+            const settings = await db.get(`srv_info.worker`)
+            const settings_reason = await db.get(`srv_info.reason`)
+            if(settings != true){return message.channel.send(settings_reason)}
+        }
+
+        if(args[0] == "help"){
+            return message.reply(`add ticket system to your discord server
+            add server settings:
+             $settings ticket <channel id for users> <channel id for administrators>
+            create ticket:
+            $ticket <treść ticketa>`)
+        }
+       
+        if(await db.get(`check.check`) != true){
+            return message.reply("twój serwer nie posiada przfilu sutawień")
+        }
+
+        if(await db.get(`tickets.settings[0]`) == "null"){
+            return message.reply("nie ustawiłeś id kanału dla ticketów")
+        }
+        if(await db.get(`tickets.settings[1]`) == "null"){
+            return message.reply("nie ustawiłeś id kanału dla ticketów")
+        }
+
+        if(message.channel.id != await db.get(`tickets.settings[0]`)){
+            return message.reply("ten kanał nie służy do tworzenia ticketów.")
+        }
+
+        const send_on_id = await db.get(`tickets.settings[1]`)
+        //1-prefix 6-ticket 
+        const description = message.content.slice(1 + 6)
+
+        const embed = new Discord.MessageEmbed()
+        .setColor(`BLUE`)
+        .setTitle(`Ticket created by ${message.author}`)
+        .setDescription(`${description}`)
+
+
+        //send_on_id.send({embeds: [embed]});
+        try{
+        client.channels.cache.get(send_on_id).send({embeds: [embed]});
+        }catch(err){
+            message.reply("wystąpił błąd podczas wysyłania wiadomości")
+        }
     }
         
     }

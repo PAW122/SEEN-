@@ -13,6 +13,8 @@ module.exports = (message) => {
         await db.set(`prefix`, { check: "$" })
         await db.set(`welcome`, { channelId: "null" })
         await db.set(`version`, { check: `${db_version}` })
+        await db.set(`tickets`, { settings: ["null", "null"] })
+
         await db.set(`anime_gif`, { worker: true , reason: "no reason"})
         await db.set(`eight_ball`, { worker: true , reason: "no reason"})//
         await db.set(`anime_seem_help`, { worker: true , reason: "no reason"})//
@@ -37,7 +39,6 @@ module.exports = (message) => {
         await db.set(`user_info`, { worker: true , reason: "no reason"})
         await db.set(`lvl_command`, { worker: true , reason: "no reason"})//narazie off
         await db.set(`economy_command`, { worker: true , reason: "no reason"})
-//nowe komendy anime_zapowiedzi dbv0.3
         await db.set(`anime_zapowiedzi`, { worker: true , reason: "no reason"})
         await db.set(`anime_seen`, { worker: true , reason: "no reason"})
         await new Promise(r => setTimeout(r, 2000));
