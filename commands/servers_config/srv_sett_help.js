@@ -37,7 +37,6 @@ module.exports = {
     description: `help command`,
     usage: `$help`,
     work: worker,
-    isSlash: true,
 
 
     execute: async (message, args) => {
@@ -47,7 +46,7 @@ module.exports = {
 
     const embed_lista = new Discord.MessageEmbed()
     .setColor(`BLUE`)
-    .setTitle(`List of all commands`)
+    .setTitle(`List of all commands page 1/2`)
     .setDescription(`True: on  ||   Flase: off
     if your db_version in not: ${db_version} use $settings deafult
     WARRING!! when db is updated u loss all settings`)
@@ -77,17 +76,24 @@ module.exports = {
         { name: `blitz_clan`, value: `${await db.get(`blitz_clan.worker`,)}`, inline: true },
         { name: `autoroles`, value: `${await db.get(`autoroles.worker`,)}`, inline: true },
         { name: `user_info`, value: `${await db.get(`user_info.worker`,)}`, inline: true },
+    )//max 25 rzeczy w fields
+
+        const embed_lista2 = new Discord.MessageEmbed()
+        .setColor(`BLUE`)
+        .setTitle(`List of all commands page 2/2`)
+        .addFields(
         { name: `lvl_command`, value: `${await db.get(`lvl_command.worker`,)}`, inline: true },
         { name: `economy_command`, value: `${await db.get(`economy_command.worker`,)}`, inline: true },
-        //nowe komendy
         { name: `anime_zapowiedzi`, value: `${await db.get(`anime_zapowiedzi.worker`,)}`, inline: true },
+        { name: `anime_seen`, value: `${await db.get(`anime_seen.worker`,)}`, inline: true },
         
     )
 
         if (work != true) { return message.channel.send(reason) }
 
         if(args[0] == "list"){
-            return message.channel.send({ embeds: [embed_lista] });
+             message.channel.send({ embeds: [embed_lista] });
+            return message.channel.send({ embeds: [embed_lista2] });
         }
         
             

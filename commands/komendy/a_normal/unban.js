@@ -2,7 +2,7 @@
 const { SlashCommandBuilder } = require('@discordjs/builders');
 const Discord = require('discord.js');
 const { Permissions: { FLAGS } } = require('discord.js')
-
+const {QuickDB} = require("quick.db")
 module.exports = {
     name: "unban",
     description: "wysyła informacje o serweże",

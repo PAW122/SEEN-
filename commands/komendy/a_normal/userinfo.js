@@ -5,7 +5,7 @@ const reason = config.user_info
 
 const {SlashCommandBuilder} = require('@discordjs/builders');
 const { MessageEmbed } = require('discord.js');
-
+const {QuickDB} = require("quick.db")
 module.exports = {
     name: "userinfo",
     name_en: "userinfo",

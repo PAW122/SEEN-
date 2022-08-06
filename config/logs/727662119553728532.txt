@@ -1713,3 +1713,17 @@
 6.08.2022   14:19   bot   SEEN-#5771   
 6.08.2022   14:19   bot   PAW#5844   $animeseen help
 6.08.2022   14:19   bot   SEEN-#5771   command is disable: no reason
+6.08.2022   16:44   bot   PAW#5844   $animeseen help
+6.08.2022   16:44   bot   SEEN-#5771   
+6.08.2022   16:45   bot   PAW#5844   $settings deafult
+6.08.2022   16:45   bot   SEEN-#5771   przywrucono deafultowe ustawienia
+6.08.2022   16:46   bot   PAW#5844   $srv_set list
+6.08.2022   16:46   bot   SEEN-#5771   
+6.08.2022   16:46   bot   PAW#5844   $srv_set list
+6.08.2022   16:46   bot   SEEN-#5771   
+6.08.2022   16:49   bot   PAW#5844   $srv_set list
+6.08.2022   16:49   bot   SEEN-#5771   
+6.08.2022   16:49   bot   SEEN-#5771   
+6.08.2022   16:49   bot   PAW#5844   $srv_set list
+6.08.2022   16:49   bot   SEEN-#5771   
+6.08.2022   16:49   bot   SEEN-#5771   

@@ -103,9 +103,14 @@ module.exports = {
     lvl_command_worker: "no",
     lvl_command_disables: "command is disable: no reason",
 
-    economy_command: false,
-    economy_command_worker: "no",
-    economy_command_disables: "command is disable: no reason"
+    economy_command: true,
+    economy_command_worker: "yes",
+    economy_command_disable: "command is disable: no reason",
+
+    tickets: true,
+    tickets_worker: "yes",
+    tickets_disable: "command is disable: no reason"
+
 }
 
 /*

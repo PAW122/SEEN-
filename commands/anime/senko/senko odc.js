@@ -23,8 +23,8 @@ module.exports = {
          const guildId = message.guild.id
          const db = new QuickDB({ filePath: process.cwd() + `/db/srv_settings/commands/${guildId}.sqlite` });
          if(await db.get(`check.check`) == true){
-             const settings = await db.get(`eight_ball.worker`)
-             const settings_reason = await db.get(`eight_ball.reason`)
+             const settings = await db.get(`anime_seen.worker`)
+             const settings_reason = await db.get(`anime_seen.reason`)
              if(settings != true){return message.channel.send(settings_reason)}
          }
         

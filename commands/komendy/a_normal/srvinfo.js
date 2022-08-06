@@ -5,6 +5,7 @@ const config = require(process.cwd() + `/config/worker.js`)
 
 const { SlashCommandBuilder } = require('@discordjs/builders');
 const Discord = require('discord.js');
+const {QuickDB} = require("quick.db")
 //$srvinfo
 //$srvinfo help
 //$srvinfo help en
