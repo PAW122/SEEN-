@@ -1,8 +1,9 @@
 const config = require(process.cwd() + `/config/worker.js`)
+const config2 = require("../../config/config")
 const work = config.help
 const worker = config.help_work
 const reason = config.help_disable
-const db_version = config.db_version
+const db_version = config2.db_version
 const { QuickDB } = require("quick.db");
 const Discord = require('discord.js');
 const prefix = "$"
@@ -51,10 +52,10 @@ module.exports = {
     if your db_version in not: ${db_version} use $settings deafult
     WARRING!! when db is updated u loss all settings`)
     .addFields(
-        { name: `db version:`, value: `status:`, inline: false },
+        { name: `db version:`, value: `${await db.get(`version.check`,)}`, inline: false },
         { name: `prefix`, value: `${await db.get(`prefix.check`,)}`, inline: false },
         { name: `welcome channel id`, value: `${await db.get(`welcome.channelId`,)}`, inline: false },
-        { name: `command name`, value: `${await db.get(`version.check`,)}`, inline: false },
+        { name: `command name`, value: `on/off`, inline: false },
         { name: `anime_gif`, value: `${await db.get(`anime_gif.worker`,)}`, inline: false },
         { name: `eight_ball`, value: `${await db.get(`eight_ball.worker`,)}`, inline: true },
         { name: `anime_seem_help`, value: `${await db.get(`anime_seem_help.worker`,)}`, inline: true },
@@ -65,12 +66,10 @@ module.exports = {
         { name: `ban`, value: `${await db.get(`ban.worker`,)}`, inline: true },
         { name: `bot_info`, value: `${await db.get(`bot_info.worker`,)}`, inline: true },
         { name: `clear`, value: `${await db.get(`clear.worker`,)}`, inline: true },
-        { name: `clock`, value: `${await db.get(`clock.worker`,)}`, inline: true },
         { name: `embed`, value: `${await db.get(`embed.worker`,)}`, inline: true },
         { name: `kick`, value: `${await db.get(`kick.worker`,)}`, inline: true },
         { name: `random`, value: `${await db.get(`random.worker`,)}`, inline: true },
         { name: `ping`, value: `${await db.get(`ping.worker`,)}`, inline: true },
-        { name: `ruletka_extream`, value: `${await db.get(`ruletka_extream.worker`,)}`, inline: true },
         { name: `ruletka`, value: `${await db.get(`ruletka.worker`,)}`, inline: true },
         { name: `say`, value: `${await db.get(`say.worker`,)}`, inline: true },
         { name: `srv_info`, value: `${await db.get(`srv_info.worker`,)}`, inline: true },
