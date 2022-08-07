@@ -59,6 +59,7 @@ module.exports = {
 
         //send_on_id.send({embeds: [embed]});
         try{
+            message.delete();
         client.channels.cache.get(send_on_id).send({embeds: [embed]});
         }catch(err){
             message.reply("wystąpił błąd podczas wysyłania wiadomości")

@@ -1810,3 +1810,10 @@
 7.08.2022   18:20   bot   SEEN-#5771   taki urzytkownik <@478480083498041356> istniał już w bazie danych.
  dane zostały zaktualizowane
 7.08.2022   18:24   bot   PAW#5844   $blitzstats __PAW
+7.08.2022   20:15   bot   PAW#5844   $srv_set
+7.08.2022   20:15   bot   -V1PE#3809   
+7.08.2022   20:15   bot   PAW#5844   $settings ticket 745768777022701648 923300408372396032
+7.08.2022   20:15   bot   -V1PE#3809   ustawiono
+7.08.2022   20:15   bot   PAW#5844   cos
+7.08.2022   20:16   bot   PAW#5844   $ticket test
+7.08.2022   20:16   minc-serv-18   -V1PE#3809   
