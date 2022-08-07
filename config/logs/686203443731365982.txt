@@ -1,0 +1,9 @@
+7.08.2022   18:11   spam   SEEN-#5771   
+7.08.2022   18:12   spam   _Bounced#6969   $acc_help
+7.08.2022   18:21   spam   _Bounced#6969   $add_acc <ustawki.acc1@meta.ua> <123456> <___N> <0> <1,2,7> <100.00%> <2> <200>
+7.08.2022   18:21   spam   SEEN-#5771   podałeś nieprawidłową ilość banów
+7.08.2022   18:22   spam   _Bounced#6969   $add_acc ustawki.acc1@meta.ua 123456 ___N 0 1,2,7 100.00% 2 200
+7.08.2022   18:22   spam   SEEN-#5771   podałeś nieprawidłową ilość wr
+7.08.2022   18:22   spam   _Bounced#6969   $add_acc ustawki.acc1@meta.ua 123456 ___N 0 1,2,7 100% 2 200
+7.08.2022   18:22   spam   SEEN-#5771   podałeś nieprawidłową ilość wr
+7.08.2022   18:22   spam   _Bounced#6969   $add_acc ustawki.acc1@meta.ua 123456 ___N 0 1,2,7 100.00 2 200

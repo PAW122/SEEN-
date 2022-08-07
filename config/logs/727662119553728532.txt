@@ -1799,3 +1799,14 @@
 7.08.2022   02:17   bot   SEEN-#5771   next
 7.08.2022   02:24   bot   SEEN-#5771   first
 7.08.2022   02:25   bot   SEEN-#5771   next
+7.08.2022   03:53   bot   PAW#5844   $ping
+7.08.2022   03:53   bot   SEEN-#5771   pong!
+7.08.2022   03:54   bot   SEEN-#5771   
+7.08.2022   15:42   bot   PAW#5844   https://github.com/PAW122
+7.08.2022   18:17   bot   PAW#5844   $help
+7.08.2022   18:17   bot   SEEN-#5771   
+7.08.2022   18:18   bot   PAW#5844   $acc_help
+7.08.2022   18:20   bot   PAW#5844   $add_user 478480083498041356 1 true
+7.08.2022   18:20   bot   SEEN-#5771   taki urzytkownik <@478480083498041356> istniał już w bazie danych.
+ dane zostały zaktualizowane
+7.08.2022   18:24   bot   PAW#5844   $blitzstats __PAW
