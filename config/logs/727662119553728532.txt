@@ -1749,3 +1749,53 @@
 6.08.2022   18:06   bot   SEEN-#5771   ustawiono
 6.08.2022   18:10   bot   PAW#5844   $ticket test
 6.08.2022   18:10   minc-serv-18   SEEN-#5771   
+6.08.2022   21:01   bot   PAW#5844   $zapowiedzi lato2022
+6.08.2022   21:01   bot   SEEN-#5771   
+6.08.2022   21:02   bot   PAW#5844   $yofukashi_no_uta_zapowiedz
+6.08.2022   21:02   bot   SEEN-#5771   
+6.08.2022   23:55   bot   PAW#5844   $text10
+6.08.2022   23:55   bot   PAW#5844   $test19
+6.08.2022   23:55   bot   PAW#5844   $test10
+6.08.2022   23:55   bot   SEEN-#5771   selection
+7.08.2022   00:06   bot   SEEN-#5771   You chose dirst
+7.08.2022   00:08   bot   PAW#5844   $test10
+7.08.2022   00:08   bot   SEEN-#5771   selection
+7.08.2022   00:09   bot   PAW#5844   $test10
+7.08.2022   00:09   bot   SEEN-#5771   selection
+7.08.2022   00:22   bot   PAW#5844   $test10
+7.08.2022   00:22   bot   SEEN-#5771   selection
+7.08.2022   00:22   bot   SEEN-#5771   You chose first
+7.08.2022   00:23   bot   SEEN-#5771   You chose next
+7.08.2022   00:23   bot   SEEN-#5771   You chose next
+7.08.2022   00:23   bot   SEEN-#5771   You chose first
+7.08.2022   00:23   bot   SEEN-#5771   You chose first
+7.08.2022   00:24   bot   SEEN-#5771   You chose first
+7.08.2022   00:24   bot   SEEN-#5771   You chose first
+7.08.2022   00:24   bot   SEEN-#5771   You chose next
+7.08.2022   00:24   bot   SEEN-#5771   You chose next
+7.08.2022   00:24   bot   PAW#5844   $test10
+7.08.2022   00:24   bot   SEEN-#5771   selection
+7.08.2022   00:24   bot   SEEN-#5771   You chose first
+7.08.2022   00:24   bot   SEEN-#5771   You chose first
+7.08.2022   00:29   bot   PAW#5844   $test10
+7.08.2022   00:29   bot   SEEN-#5771   selection
+7.08.2022   00:29   bot   SEEN-#5771   You chose first
+7.08.2022   00:36   bot   PAW#5844   $test10
+7.08.2022   00:36   bot   SEEN-#5771   selection
+7.08.2022   00:36   bot   SEEN-#5771   You chose next
+7.08.2022   00:39   bot   SEEN-#5771   You chose first
+7.08.2022   00:41   bot   SEEN-#5771   next
+7.08.2022   00:42   bot   SEEN-#5771   first
+7.08.2022   00:43   bot   PAW#5844   $test10
+7.08.2022   00:44   bot   PAW#5844   $test10
+7.08.2022   00:44   bot   SEEN-#5771   selection
+7.08.2022   00:44   bot   SEEN-#5771   first
+7.08.2022   00:45   bot   SEEN-#5771   next
+7.08.2022   02:16   bot   PAW#5844   $test10
+7.08.2022   02:16   bot   SEEN-#5771   selection
+7.08.2022   02:16   bot   SEEN-#5771   first
+7.08.2022   02:17   bot   PAW#5844   $test10
+7.08.2022   02:17   bot   SEEN-#5771   selection
+7.08.2022   02:17   bot   SEEN-#5771   next
+7.08.2022   02:24   bot   SEEN-#5771   first
+7.08.2022   02:25   bot   SEEN-#5771   next

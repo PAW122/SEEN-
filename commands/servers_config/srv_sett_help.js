@@ -92,6 +92,7 @@ module.exports = {
         { name: `economy_command`, value: `${await db.get(`economy_command.worker`,)}`, inline: true },
         { name: `anime_zapowiedzi`, value: `${await db.get(`anime_zapowiedzi.worker`,)}`, inline: true },
         { name: `anime_seen`, value: `${await db.get(`anime_seen.worker`,)}`, inline: true },
+        { name: `unban`, value: `${await db.get(`unban.worker`,)}`, inline: true },
         
         
     )

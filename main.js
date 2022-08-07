@@ -41,6 +41,9 @@ const slash_handler = require("./handlers/slash_commands_handler")
 //wczytywanie msg handlera
 const msg_handler = require("./handlers/msg_handler")
 
+//wczytuje interaction handler
+const interaction_handler = require("./handlers/interaction_handler")
+
 const client = new Discord.Client({
     intents: [
         Discord.Intents.FLAGS.GUILDS,
@@ -73,8 +76,8 @@ client.once('ready', () => {
     logs(`${data} ${time} ${client.user.tag} jest online`, logs_dir, 1)
 
     //powitania
-
         generateImage(client)
+        
 });
 
 
@@ -103,58 +106,9 @@ client.on('messageCreate', async message => {
 
 });
 
-/*
-client.on("guildMemberAdd", guildMember => {
-    console.log(guildMember)
-    try {
-        generateImage(guildMember)
-        console.log("cos")
-    } catch (err) {
-        console.log(err)
-    }
-
-})
-*/
-
 //interakcje
-//interactions()
+    interaction_handler(client)
 
-const rola_1_id = "1001069879148953673"
-const rola_2_id = "1001069963437686824"
-
-client.on('interactionCreate', async interaction => {
-    if (!interaction.isButton) { return }
-    if (interaction.customId == 'role1') {
-        const roleId = '1001069879148953673';
-        const role = interaction.guild.roles.cache.get(roleId);
-
-        if (interaction.member.roles.cache.has(roleId)) {
-            await interaction.member.roles.remove(role);
-            await interaction.reply({ content: `Usunięto rolę <@&${roleId}>`, ephemeral: true });
-        } else {
-            await interaction.member.roles.add(roleId);
-            await interaction.reply({ content: `Dodano rolę <@&${roleId}>`, ephemeral: true });
-        }
-
-        // await interaction.deferUpdate();
-    }
-
-    if (interaction.customId == 'role2') {
-        const roleId = '1001069963437686824';
-        const role = interaction.guild.roles.cache.get(roleId);
-
-        if (interaction.member.roles.cache.has(roleId)) {
-            await interaction.member.roles.remove(role);
-            await interaction.reply({ content: `Usunięto rolę <@&${roleId}>`, ephemeral: true });
-        } else {
-            await interaction.member.roles.add(roleId);
-            await interaction.reply({ content: `Dodano rolę <@&${roleId}>`, ephemeral: true });
-        }
-
-        // await interaction.deferUpdate();
-    }
-
-})
 if (test_bot == true) {
     client.login(test_token)
 } else {

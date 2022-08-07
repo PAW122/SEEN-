@@ -41,6 +41,7 @@ module.exports = (message) => {
         await db.set(`economy_command`, { worker: true , reason: "no reason"})
         await db.set(`anime_zapowiedzi`, { worker: true , reason: "no reason"})
         await db.set(`anime_seen`, { worker: true , reason: "no reason"})
+        await db.set(`unban`, { worker: true , reason: "no reason"})
         await new Promise(r => setTimeout(r, 2000));
 
 

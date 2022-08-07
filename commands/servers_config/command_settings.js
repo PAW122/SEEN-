@@ -205,6 +205,11 @@ module.exports = {
             await db.set(`economy_command.reason`, args[2])
             return message.reply("ustawiono")
           }
+          if (command_name == "unban") {//narazie nie dodaje funkcji
+            await db.set(`unban.worker`, false)//wyłączenia
+            await db.set(`unban.reason`, args[2])
+            return message.reply("ustawiono")
+          }
         }
 
         if (args[0] == "on") {
@@ -345,6 +350,11 @@ module.exports = {
           if (command_name == "economy_command") {//narazie nie dodaje funkcji
             await db.set(`economy_command.worker`, true)//wyłączenia
             await db.set(`economy_command.reason`, args[2])
+            return message.reply("ustawiono")
+          }
+          if (command_name == "unban") {//narazie nie dodaje funkcji
+            await db.set(`unban.worker`, true)//wyłączenia
+            await db.set(`unban.reason`, args[2])
             return message.reply("ustawiono")
           }
         }

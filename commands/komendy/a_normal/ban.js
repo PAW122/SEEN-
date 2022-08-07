@@ -122,9 +122,6 @@ if(await db.get(`check.check`) == true){
             }
 
             const target = message.mentions.members.first()
-
-            //console.log(target)
-            //console.log(args)
             if (target == true) {
                 target.ban()
             } else { message.channel.send("nie mogę wykonać tego polecenia") }
