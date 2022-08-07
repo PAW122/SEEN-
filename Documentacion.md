@@ -15,7 +15,7 @@
     "node-fetch": "^3.2.9",
     "quick.db": "^9.0.6"
 
-# Commands:
+## Commands:
 
 # acc_menager:
 system zarządzania bazą kont
@@ -106,5 +106,5 @@ welcome -- handler dla wiadomościpowitalnych
 .env -- przechowuje token bota (plik nie widnieje w repozytorium)
 .gitignore -- zapobiega przesyłaniu do repozytorium nieporządanych plików
 README.md -- zawiera autora bota oraz liste rzeczy do zrobienia
-# 07.08.2022
-# w przyszłości planowana jest szczegułowa dokumentacja wszystkich komend
+## 07.08.2022
+## w przyszłości planowana jest szczegułowa dokumentacja wszystkich komend
