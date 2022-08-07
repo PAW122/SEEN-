@@ -5,6 +5,7 @@ const config = require(process.cwd() + `/config/worker.js`)
     const { QuickDB } = require("quick.db");
     const Discord = require('discord.js');
     const { SlashCommandBuilder } = require('@discordjs/builders');
+    const srv_settings = require("../../../handlers/check_srv_settings")
 
     const embed_pl = new Discord.MessageEmbed()
 
@@ -68,12 +69,8 @@ module.exports = {
         }else{
             //load server settings
         const guildId = inter.guild.id
-        const db = new QuickDB({ filePath: process.cwd() + `/db/srv_settings/commands/${guildId}.sqlite` });
-        if(await db.get(`check.check`) == true){
-            const settings = await db.get(`anime_seem_help.worker`)
-            const settings_reason = await db.get(`anime_seem_help.reason`)
-            if(settings != true){return message.channel.send(settings_reason)}
-        }
+        const command_name = "anime_seem_help"
+        srv_settings(command_name,guildId)
 
         inter.reply({ embeds: [embed_pl] });
         }
@@ -85,12 +82,9 @@ module.exports = {
     execute: async(message, args) => {//trzeba dodać help do anime!!!!
         //load server settings
         const guildId = message.guild.id
-        const db = new QuickDB({ filePath: process.cwd() + `/db/srv_settings/commands/${guildId}.sqlite` });
-        if(await db.get(`check.check`) == true){
-            const settings = await db.get(`anime_seem_help.worker`)
-            const settings_reason = await db.get(`anime_seem_help.reason`)
-            if(settings != true){return message.channel.send(settings_reason)}
-        }
+        //anime_seem_help
+        const command_name = "anime_seem_help"
+        srv_settings(command_name,guildId)
 
 
         if(work != true){return message.channel.send(reason)}

@@ -3,6 +3,7 @@ const { SlashCommandBuilder } = require('@discordjs/builders');
 const Discord = require('discord.js');
 const { Permissions: { FLAGS } } = require('discord.js')
 const { QuickDB } = require("quick.db")
+const srv_settings = require("../../../handlers/check_srv_settings")
 module.exports = {
     name: "unban",
     description: "wysyła informacje o serweże",
@@ -19,14 +20,10 @@ module.exports = {
         )),
     async execute(inter) {
 
-        //load server settings
+        //load server settings unban
         const guildId = inter.guild.id
-        const db = new QuickDB({ filePath: process.cwd() + `/db/srv_settings/commands/${guildId}.sqlite` });
-        if (await db.get(`unban.check`) == true) {
-            const settings = await db.get(`unban.worker`)
-            const settings_reason = await db.get(`unban.reason`)
-            if (settings != true) { return message.channel.send(settings_reason) }
-        }
+        const command_name = "unban"
+        srv_settings(command_name,guildId)
 
         if (!inter.member.permissions.has(FLAGS.BAN_MEMBERS)) return inter.reply({ content: 'Nie masz wystarczająco permisji aby użyć tej komendy!', ephemeral: true });
         const userId = inter.options.getString('userid');

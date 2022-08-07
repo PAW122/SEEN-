@@ -10,20 +10,17 @@ const config = require(process.cwd() + `/config/config.js`)
     const API_KEY = config.wargaming_api_key
     
 const { QuickDB } = require("quick.db");
+const srv_settings = require("../../../handlers/check_srv_settings")
 
 module.exports = {
     name: "blitzclan",
     work: worker,
 
     execute: async(message, args) => {
-        //load server settings
+        //load server settings blitz_clan
 const guildId = message.guild.id
-const db = new QuickDB({ filePath: process.cwd() + `/db/srv_settings/commands/${guildId}.sqlite` });
-if(await db.get(`check.check`) == true){
-    const settings = await db.get(`blitz_clan.worker`)
-    const settings_reason = await db.get(`blitz_clan.reason`)
-    if(settings != true){return message.channel.send(settings_reason)}
-}
+const command_name = "blitz_clan"
+        srv_settings(command_name,guildId)
 
         if(!args[0]){message.reply("nie podałeś nazwy klanu")}
         const clan_name = args[0]

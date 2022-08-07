@@ -9,6 +9,7 @@ const { QuickDB } = require("quick.db");
 const { Permissions: { FLAGS } } = require('discord.js');
 const Discord = require('discord.js');
 const { SlashCommandBuilder } = require('@discordjs/builders');
+const srv_settings = require("../../../handlers/check_srv_settings")
 module.exports = {
     name: "ban",
     description: "usówa wiadomości",
@@ -29,54 +30,47 @@ module.exports = {
 
             .setRequired(true)),
     executeInteraction: async (inter) => {
-//load server settings
-const guildId = inter.guild.id
-const db = new QuickDB({ filePath: process.cwd() + `/db/srv_settings/commands/${guildId}.sqlite` });
-if(await db.get(`check.check`) == true){
-    const settings = await db.get(`ban.worker`)
-    const settings_reason = await db.get(`ban.reason`)
-    if(settings != true){return message.channel.send(settings_reason)}
-}
+        //load server settings ban
+        const guildId = inter.guild.id
+        const command_name = "ban"
+        srv_settings(command_name, guildId)
 
         if (!inter.member.permissions.has(FLAGS.BAN_MEMBERS)) {
-            return(inter.reply({ content: 'Nie masz wystarczająco permisji aby użyć tej komendy!', ephemeral: true }));
+            return (inter.reply({ content: 'Nie masz wystarczająco permisji aby użyć tej komendy!', ephemeral: true }));
         }
         const user = inter.options.getUser('user');
         const member = inter.guild.members.cache.get(user.id) || await inter.guild.members.fetch(user.id).catch(err => { console.log(err) })
         //console.log(member)
         if (!member == true) {
-            return(inter.reply("Nie można uzyskać informacji o użytkowniku!"))
+            return (inter.reply("Nie można uzyskać informacji o użytkowniku!"))
         };
 
         if (!member.bannable) {
-            return(inter.reply("Nie mogę zbanować tego użytkownika!"))
+            return (inter.reply("Nie mogę zbanować tego użytkownika!"))
         };
-        
-        if(inter.member.roles.highest.position <= member.roles.highest.position){
-            return(inter.reply('Użytkownik ma wyższą rolę niż ja,dlatego nie mogę go zbanować!'))};
-        
+
+        if (inter.member.roles.highest.position <= member.roles.highest.position) {
+            return (inter.reply('Użytkownik ma wyższą rolę niż ja,dlatego nie mogę go zbanować!'))
+        };
+
 
         const embed = new Discord.MessageEmbed()
             .setDescription(`**${member.user.tag}** został zbanowany z powodu \`${reason}\``)
             .setColor("RED")
             .setFooter({ text: inter.user.tag, iconURL: inter.user.avatarURL({ dynamic: true }) })
             .setTimestamp()
-        await member.user.send(`Zostałeś zbanowany na serverze **\`${inter.guild.name}\`** z powodu \`${reason}\``).catch(err => {console.log(err)})
+        await member.user.send(`Zostałeś zbanowany na serverze **\`${inter.guild.name}\`** z powodu \`${reason}\``).catch(err => { console.log(err) })
         const reason = inter.options.getString('reason');
-        member.ban({reason})
-        return(inter.reply({ embeds: [embed] }))
+        member.ban({ reason })
+        return (inter.reply({ embeds: [embed] }))
     },
 
 
     execute: async (message, args, client) => {
-                        //load server settings
-const guildId = message.guild.id
-const db = new QuickDB({ filePath: process.cwd() + `/db/srv_settings/commands/${guildId}.sqlite` });
-if(await db.get(`check.check`) == true){
-    const settings = await db.get(`ban.worker`)
-    const settings_reason = await db.get(`ban.reason`)
-    if(settings != true){return message.channel.send(settings_reason)}
-}
+        //load server settings
+        const guildId = message.guild.id
+        const command_name = "ban"
+        srv_settings(command_name, guildId)
 
 
         if (work != true) { return message.channel.send(reason) }

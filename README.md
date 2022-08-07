@@ -5,7 +5,6 @@
 paczki znajdują się w dokumentacji
 
 # w trakcie:
-19.nich ticket usówa wiadomość autora żeby nie była ona widoczna dla innych
 
 # do dodania:
 2.slashe dla ticketów
@@ -26,5 +25,10 @@ paczki znajdują się w dokumentacji
 17.wsystkie srv_set w komendach (sprawdzanie czy komenda jest włączona na srv) -
 zrobić w jakimś handlerze
 18.dodać możliwość ustawienia w srv_set wiadomości pv powitalnej dla nowych osób na srv
-
+19.dodać komende, która na każdym serweże obok nazwy bota ustawi prefix ustawiony przez adminów
 20.zrobić button role na srv_set dla każdego serwera
+21.zrobić komende report za pomocą której urzytkownik może zgłośić błąd bota
+22.zrobic komende question którą urzytkownik może wysłać zapytanie na mój srv i jak mu dopowiem dostaje odpowiedż na pv (trzeba zrobić to na db żeby po restarcie bota się zapisywało kto wysłał danego reporta)
+
+# info
+messages log -- nie robie server settings bo i tak jest tylko dla adminów

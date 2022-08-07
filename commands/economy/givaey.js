@@ -23,18 +23,15 @@ const config = require("../../config/config")
 const emoji = config.economy_emoji
 const { Permissions: { FLAGS } } = require('discord.js');
 const Discord = require('discord.js');
+const srv_settings = require("../../../handlers/check_srv_settings")
 module.exports = {
     name: "givaey",
 
     execute: async (message, args, client) => {
         //load server settings
         const guildId = message.guild.id
-        const db2 = new QuickDB({ filePath: process.cwd() + `/db/srv_settings/commands/${guildId}.sqlite` });
-        if(await db2.get(`check.check`) == true){
-            const settings = await db2.get(`economy_command.worker`)
-            const settings_reason = await db2.get(`economy_command.reason`)
-            if(settings != true){return message.channel.send(settings_reason)}
-        }
+        const command_name = "economy_command"
+        srv_settings(command_name,guildId)
 
     }
 }

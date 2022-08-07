@@ -5,6 +5,7 @@ const reason = config.updaty_disable
 const { QuickDB } = require("quick.db");
 const Discord = require('discord.js');
 const { SlashCommandBuilder } = require('@discordjs/builders');
+const srv_settings = require("../../../handlers/check_srv_settings")
 const embed = new Discord.MessageEmbed()
     .setColor(`BLUE`)//PL
     .setTitle(`aktualizacje`)
@@ -69,14 +70,10 @@ executeInteraction: async (inter) => {
     inter.reply({ embeds: [embed_worker] });
     return(console.log("command id disabled"))
     }else{
-        //load server settings
+        //load server settings updaty
         const guildId = inter.guild.id
-        const db = new QuickDB({ filePath: process.cwd() + `/db/srv_settings/commands/${guildId}.sqlite` });
-        if(await db.get(`check.check`) == true){
-            const settings = await db.get(`anime_help.worker`)
-            const settings_reason = await db.get(`anime_help.reason`)
-            if(settings != true){return message.channel.send(settings_reason)}
-        }
+        const command_name = "updaty"
+        srv_settings(command_name,guildId)
 
     inter.reply({ embeds: [embed] });
     }
@@ -84,14 +81,10 @@ executeInteraction: async (inter) => {
 
 
     execute: async (message, args) => {
-        //load server settings
+        //load server updaty
         const guildId = message.guild.id
-        const db = new QuickDB({ filePath: process.cwd() + `/db/srv_settings/commands/${guildId}.sqlite` });
-        if(await db.get(`check.check`) == true){
-            const settings = await db.get(`anime_help.worker`)
-            const settings_reason = await db.get(`anime_help.reason`)
-            if(settings != true){return message.channel.send(settings_reason)}
-        }
+        const command_name = "updaty"
+        srv_settings(command_name,guildId)
 
 
         if (work != true) { return message.channel.send(reason) }

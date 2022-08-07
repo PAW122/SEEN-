@@ -4,6 +4,7 @@ const config = require(process.cwd() + `/config/worker.js`)
     const reason = config.embed_disable
 
 const Discord = require('discord.js');
+const srv_settings = require("../../../handlers/check_srv_settings")
 //$embed
 //$embed help
 //$embed help en
@@ -15,14 +16,10 @@ module.exports = {
     work: worker,//usles komenda nie dodaje /commands
 
     execute: async(message, args) => {
-//load server settings
+//load server settings embed
 const guildId = message.guild.id
-const db = new QuickDB({ filePath: process.cwd() + `/db/srv_settings/commands/${guildId}.sqlite` });
-if(await db.get(`check.check`) == true){
-    const settings = await db.get(`embed.worker`)
-    const settings_reason = await db.get(`embed.reason`)
-    if(settings != true){return message.channel.send(settings_reason)}
-}
+const command_name = "embed"
+        srv_settings(command_name,guildId)
 
 
         

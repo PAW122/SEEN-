@@ -5,6 +5,7 @@ const reason = config.ping_disable
 const { SlashCommandBuilder } = require('@discordjs/builders');
 const Discord = require('discord.js');
 const { QuickDB } = require("quick.db");
+const srv_settings = require("../../../handlers/check_srv_settings")
 //$ping
 //$ping help
 //$ping help en
@@ -29,6 +30,10 @@ module.exports = {
         inter.reply({ embeds: [embed_worker] });
         return(console.log("command id disabled"))
         }else{
+            const guildId = message.guild.id
+            const command_name = "ping"
+        srv_settings(command_name,guildId)  
+        
         const embed = new Discord.MessageEmbed()
             .setTitle('**PONG**')
             .setColor('RANDOM')
@@ -39,14 +44,10 @@ module.exports = {
 
 
     execute: async (message, args) => {
-                //load server settings
+                //load server settings ping
 const guildId = message.guild.id
-const db = new QuickDB({ filePath: process.cwd() + `/db/srv_settings/commands/${guildId}.sqlite` });
-if(await db.get(`check.check`) == true){
-    const settings = await db.get(`ping.worker`)
-    const settings_reason = await db.get(`ping.reason`)
-    if(settings != true){return message.channel.send(settings_reason)}
-}
+const command_name = "ping"
+        srv_settings(command_name,guildId)
 
         if (work != true) { return message.channel.send(reason) }
 

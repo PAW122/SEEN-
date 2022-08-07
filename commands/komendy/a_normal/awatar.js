@@ -5,6 +5,7 @@ const reason = config.awatar_disable
 const { QuickDB } = require("quick.db");
 const Discord = require('discord.js');
 const { SlashCommandBuilder } = require('@discordjs/builders');
+const srv_settings = require("../../../handlers/check_srv_settings")
 //$awatar
 //$awatar help
 //$awatar help en
@@ -40,14 +41,10 @@ module.exports = {
             inter.reply({ embeds: [embed_worker] });
             return (console.log("command id disabled"))
         } else {
-                            //load server settings
-const guildId = inter.guild.id
-const db = new QuickDB({ filePath: process.cwd() + `/db/srv_settings/commands/${guildId}.sqlite` });
-if(await db.get(`check.check`) == true){
-    const settings = await db.get(`ankieta.worker`)
-    const settings_reason = await db.get(`ankieta.reason`)
-    if(settings != true){return message.channel.send(settings_reason)}
-}
+            //load server settings awatar
+            const guildId = inter.guild.id
+            const command_name = "awatar"
+            srv_settings(command_name, guildId)
 
             const user = inter.options.getUser('oznacz_osobe')
 
@@ -65,14 +62,10 @@ if(await db.get(`check.check`) == true){
     },
 
     execute: async (message, args) => {
-                //load server settings
-const guildId = message.guild.id
-const db = new QuickDB({ filePath: process.cwd() + `/db/srv_settings/commands/${guildId}.sqlite` });
-if(await db.get(`check.check`) == true){
-    const settings = await db.get(`ankieta.worker`)
-    const settings_reason = await db.get(`ankieta.reason`)
-    if(settings != true){return message.channel.send(settings_reason)}
-}
+        //load server settings
+        const guildId = message.guild.id
+        const command_name = "awatar"
+        srv_settings(command_name, guildId)
 
         if (work != true) { return message.channel.send(reason) }
 

@@ -13,6 +13,7 @@ const {senko_odc_10} = require(dane)
 const {senko_odc_11} = require(dane)
 const {senko_odc_12} = require(dane)
 const { QuickDB } = require("quick.db");
+const srv_settings = require("../../../handlers/check_srv_settings")
 module.exports = {
     name: "senko_odc",//dodac do helpów
     description: "wysyła grafike senko",
@@ -21,12 +22,8 @@ module.exports = {
     execute: async(message, args) =>  {
          //load server settings
          const guildId = message.guild.id
-         const db = new QuickDB({ filePath: process.cwd() + `/db/srv_settings/commands/${guildId}.sqlite` });
-         if(await db.get(`check.check`) == true){
-             const settings = await db.get(`anime_seen.worker`)
-             const settings_reason = await db.get(`anime_seen.reason`)
-             if(settings != true){return message.channel.send(settings_reason)}
-         }
+         const command_name = "anime_seen"
+         srv_settings(command_name,guildId)
         
         console.log(senko_odc_1)
         

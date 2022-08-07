@@ -1,7 +1,7 @@
 //https://api.worldoftanks.eu/wot/account/list/?application_id=ebc751064d5418bfefad7af6819e9c19
 const axios = require("axios")
 const Discord = require('discord.js');
-
+const srv_settings = require("../../../handlers/check_srv_settings")
 const config1 = require(process.cwd() + `/config/worker.js`)
         const work = config1.blitz_stats
         const worker = config1.blitz_stats_work
@@ -22,14 +22,10 @@ module.exports = {
     work: worker,
 
     execute: async(message, args) => {
-        //load server settings
+        //load server settings blitz_stats
 const guildId = message.guild.id
-const db = new QuickDB({ filePath: process.cwd() + `/db/srv_settings/commands/${guildId}.sqlite` });
-if(await db.get(`check.check`) == true){
-    const settings = await db.get(`blitz_stats.worker`)
-    const settings_reason = await db.get(`blitz_stats.reason`)
-    if(settings != true){return message.channel.send(settings_reason)}
-}
+const command_name = "blitz_stats"
+        srv_settings(command_name,guildId)
 
 
                 const embed_help_pl = new Discord.MessageEmbed()

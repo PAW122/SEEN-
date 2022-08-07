@@ -6,6 +6,7 @@ const config = require(process.cwd() + `/config/worker.js`)
 const Discord = require('discord.js');
 const { SlashCommandBuilder } = require('@discordjs/builders');
 const { QuickDB } = require("quick.db");
+const srv_settings = require("../../../handlers/check_srv_settings")
 //$ruletka
 //$ruletka help
 //$ruletka help en
@@ -67,14 +68,10 @@ module.exports = {
                     inter.reply({ embeds: [embed_worker] });
                     return (console.log("command id disabled"))
                 } else {
-                    //load server settings
+                    //load server settings ruletka
         const guildId = inter.guild.id
-        const db = new QuickDB({ filePath: process.cwd() + `/db/srv_settings/commands/${guildId}.sqlite` });
-        if(await db.get(`check.check`) == true){
-            const settings = await db.get(`ruletka.worker`)
-            const settings_reason = await db.get(`ruletka.reason`)
-            if(settings != true){return message.channel.send(settings_reason)}
-        }
+        const command_name = "ruletka"
+        srv_settings(command_name,guildId)
 
                     players_list = []
                     const players = inter.options.getNumber('liczba_graczy')
@@ -131,13 +128,8 @@ module.exports = {
     execute: async(message, args) => {
         //load server settings
         const guildId = message.guild.id
-        const db = new QuickDB({ filePath: process.cwd() + `/db/srv_settings/commands/${guildId}.sqlite` });
-        if(await db.get(`check.check`) == true){
-            const settings = await db.get(`ruletka.worker`)
-            const settings_reason = await db.get(`ruletka.reason`)
-            if(settings != true){return message.channel.send(settings_reason)}
-        }
-
+        const command_name = "ruletka"
+        srv_settings(command_name,guildId)
     if(work != true){return message.channel.send(reason)}
          
 

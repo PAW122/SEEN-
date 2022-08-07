@@ -15,14 +15,7 @@ module.exports = {
     execute: async (message, args, client) => {
 
         if (work != true) { return message.channel.send(reason) }
-
-        const guildId = message.guild.id
-        const db = new QuickDB({ filePath: process.cwd() + `/db/srv_settings/commands/${guildId}.sqlite` });
-        if(await db.get(`check.check`) == true){
-            const settings = await db.get(`srv_info.worker`)
-            const settings_reason = await db.get(`srv_info.reason`)
-            if(settings != true){return message.channel.send(settings_reason)}
-        }
+        //system srv_set usunięty bo i tak admonistracja to ustawia
 
         if(args[0] == "help"){
             return message.reply(`add ticket system to your discord server
