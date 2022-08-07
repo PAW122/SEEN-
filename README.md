@@ -2,18 +2,14 @@
  Public Discord Bot created by PAW#5844
 
 # paczki
-discord-xp
-mongoose -- do usunięcia
-npm install -g @quasar/cli
-npm install localbase --save
-npm i discord.js@dev
+paczki znajdują się w dokumentacji
 
-discord js 13.9.2
 # w trakcie:
 coś ala help/dokumentacja na Selection Panel
 
 # do dodania:
-2.slashe dla tocketów
+1.srv_settings dla ticketów
+2.slashe dla ticketów
 3.komenda my ani list na db
 4.ruletka dla ekonomi
 5.system lvl na db z canvasem
@@ -28,3 +24,8 @@ coś ala help/dokumentacja na Selection Panel
 14.zrobić coś żeby po dodaniu aktułki db zapisywały się ustawienia serwera
 15.zrobić komende, która będzie wysyłała powiadomienia o errorach na kanale na dc
 16.black-list -- możliwość dodania osoby na blackliste bota w db
+17.wsystkie srv_set w komendach (sprawdzanie czy komenda jest włączona na srv) -
+zrobić w jakimś handlerze
+18.dodać możliwość ustawienia w srv_set wiadomości pv powitalnej dla nowych osób na srv
+19.nich ticket usówa wiadomość autora żeby nie była ona widoczna dla innych
+20.zrobić button role na srv_set dla każdego serwera

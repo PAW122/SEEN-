@@ -22,8 +22,6 @@
     "dotenv": "^16.0.1",
     "env": "^0.0.2",
     "js-yaml": "^4.1.0",
-    "mongoose": "^6.5.0",
-    "mongose": "^0.0.2-security",
     "node-fetch": "^3.2.9",
     "quick.db": "^9.0.6"
   }

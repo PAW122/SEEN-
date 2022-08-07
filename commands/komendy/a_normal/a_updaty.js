@@ -23,6 +23,7 @@ const embed = new Discord.MessageEmbed()
         { name: "21.07.2022", value: "dodanie dat przemier odcinków anime z kategori anime zapowiedzi", inline: false },
         { name: "ciekawostka", value: "na obecny moment bot zajmuje +/-3900 linijek kodu", inline: false },
         { name: "28.07.2022", value: "dodanie slashcommands", inline: false },
+        { name: "07.08.2022", value: "dodana: ekonomia, ustawienia serwerowe", inline: false },
 
     )
 const embed2 = new Discord.MessageEmbed()

@@ -16,9 +16,9 @@ module.exports = {
     servers_logs: "True",
 
     wargaming_api_key: "ebc751064d5418bfefad7af6819e9c19",
-    
+
     economy_emoji: "💵",
 
     //zwiększać z każdą aktualizacją db
-    db_version: "0.4"
+    db_version: "0.5"
 }
