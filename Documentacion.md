@@ -18,12 +18,12 @@
 ## Commands:
 
 # acc_menager:
-system zarządzania bazą kont
-acc_help -- informacje jak korzystać z wszystkich komend z kategori
-add_acc -- służy do dodawania nowych kont do bazy danych
-add_user -- służy do dodawania nowych urzytkowników do bazy danych
-del_user -- służy do usówania kont urzytkowników z bazy danych
-info_acc -- służy do pobierania informacji o koncie 
+    system zarządzania bazą kont
+    acc_help -- informacje jak korzystać z wszystkich komend z kategori
+    add_acc -- służy do dodawania nowych kont do bazy danych
+    add_user -- służy do dodawania nowych urzytkowników do bazy danych
+    del_user -- służy do usówania kont urzytkowników z bazy danych
+    info_acc -- służy do pobierania informacji o koncie 
 
 # anime:
 kategoria for fun wysyłająca przypadkowe grafiki postaci
