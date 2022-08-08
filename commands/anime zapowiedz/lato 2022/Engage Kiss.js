@@ -1,7 +1,6 @@
 //$zapoiwedzi anime
 const Discord = require('discord.js');
 const { QuickDB } = require("quick.db");
-const srv_settings = require("../../../handlers/check_srv_settings")
 // spychu12@gmail.com
 module.exports = {
     name: "engage_kiss_zapowiedz",
@@ -12,8 +11,12 @@ module.exports = {
     execute: async(message, args) => {
       //load server settings
       const guildId = message.guild.id
-      const command_name = "anime_zapowiedzi"
-      srv_settings(command_name,guildId)
+      const db = new QuickDB({ filePath: process.cwd() + `/db/srv_settings/commands/${guildId}.sqlite` });
+      if(await db.get(`check.check`) == true){
+          const settings = await db.get(`anime_zapowiedzi.worker`)
+          const settings_reason = await db.get(`anime_zapowiedzi.reason`)
+          if(settings != true){return message.channel.send(settings_reason)}
+      }
 
         const embed = new Discord.MessageEmbed()
         

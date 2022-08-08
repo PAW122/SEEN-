@@ -3,7 +3,6 @@
 const Discord = require('discord.js');
 const { QuickDB } = require("quick.db");
 // spychu12@gmail.com
-const srv_settings = require("../../../handlers/check_srv_settings")
 module.exports = {
     name: "saikin_yatotta_maid_ga_ayashii_zapowiedz",
     name_en: "saikin_yatotta_maid_ga_ayashii_announcements",
@@ -13,8 +12,12 @@ module.exports = {
     execute: async(message, args) => {
         //load server settings
         const guildId = message.guild.id
-        const command_name = "anime_zapowiedzi"
-      srv_settings(command_name,guildId)
+        const db = new QuickDB({ filePath: process.cwd() + `/db/srv_settings/commands/${guildId}.sqlite` });
+        if(await db.get(`check.check`) == true){
+            const settings = await db.get(`anime_zapowiedzi.worker`)
+            const settings_reason = await db.get(`anime_zapowiedzi.reason`)
+            if(settings != true){return message.channel.send(settings_reason)}
+        }
 
         const embed = new Discord.MessageEmbed()
         

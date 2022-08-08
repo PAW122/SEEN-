@@ -1817,6 +1817,7 @@
 7.08.2022   20:15   bot   PAW#5844   cos
 7.08.2022   20:16   bot   PAW#5844   $ticket test
 7.08.2022   20:16   minc-serv-18   -V1PE#3809   
+<<<<<<< HEAD
 7.08.2022   20:32   bot   PAW#5844   $8ball
 7.08.2022   20:32   bot   SEEN-#5771   **Nie Wiem**
 7.08.2022   20:32   bot   -V1PE#3809   **Może**
@@ -1851,3 +1852,5 @@
 8.08.2022   13:09   bot   PAW#5844   $ping
 8.08.2022   13:09   bot   -V1PE#3809   pong!
 8.08.2022   13:09   bot   -V1PE#3809   testowe
+=======
+>>>>>>> parent of 903ae07 (new srv_settings system)

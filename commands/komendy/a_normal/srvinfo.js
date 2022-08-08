@@ -6,7 +6,6 @@ const config = require(process.cwd() + `/config/worker.js`)
 const { SlashCommandBuilder } = require('@discordjs/builders');
 const Discord = require('discord.js');
 const {QuickDB} = require("quick.db")
-const srv_settings = require("../../../handlers/check_srv_settings")
 //$srvinfo
 //$srvinfo help
 //$srvinfo help en
@@ -25,10 +24,14 @@ module.exports = {
     
             executeInteraction: async (inter) =>{
 
-                //load server settings srv_info
+                //load server settings
         const guildId = inter.guild.id
-        const command_name = "srv_info"
-        srv_settings(command_name,guildId)
+        const db = new QuickDB({ filePath: process.cwd() + `/db/srv_settings/commands/${guildId}.sqlite` });
+        if(await db.get(`check.check`) == true){
+            const settings = await db.get(`srv_info.worker`)
+            const settings_reason = await db.get(`srv_info.reason`)
+            if(settings != true){return message.channel.send(settings_reason)}
+        }
 
             const { guild } = inter;
             const { createdTimestamp, ownerId, members, memberCount, channels, emojis, stickers } = guild;

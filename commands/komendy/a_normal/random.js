@@ -9,7 +9,6 @@ const { QuickDB } = require("quick.db");
 //$random help 
 //$random help en
 const { SlashCommandBuilder } = require('@discordjs/builders');
-const srv_settings = require("../../../handlers/check_srv_settings")
 module.exports = {
     name: "random",
     name_en:"random",
@@ -37,10 +36,6 @@ executeInteraction: async (inter) => {
         inter.reply({ embeds: [embed_worker] });
         return (console.log("command id disabled"))
     } else {
-        const guildId = inter.guild.id
-        const command_name = "random"
-        srv_settings(command_name,guildId)
-
         const maximum_number = inter.options.getNumber('maximum_number')
         const rng = Math.floor(Math.random() * maximum_number);
 
@@ -58,8 +53,12 @@ executeInteraction: async (inter) => {
     execute: async(message, args) => {
 //load server settings
 const guildId = message.guild.id
-const command_name = "random"
-        srv_settings(command_name,guildId)
+const db = new QuickDB({ filePath: process.cwd() + `/db/srv_settings/commands/${guildId}.sqlite` });
+if(await db.get(`check.check`) == true){
+    const settings = await db.get(`random.worker`)
+    const settings_reason = await db.get(`random.reason`)
+    if(settings != true){return message.channel.send(settings_reason)}
+}
 
         
     if(work != true){return message.channel.send(reason)}

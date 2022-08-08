@@ -14,7 +14,7 @@ const {lucky_star_odc_9} = require(dane)
 const {lucky_star_odc_10} = require(dane)
 const {lucky_star_odc_11} = require(dane)
 const {lucky_star_odc_12} = require(dane)
-const srv_settings = require("../../../handlers/check_srv_settings")
+
 module.exports = {
     name: "lucky_star_odc",//dodac do helpów
     description: "wysyła grafike lucky_star",
@@ -23,8 +23,12 @@ module.exports = {
     execute: async(message, args) =>  {
          //load server settings
          const guildId = message.guild.id
-         const command_name = "anime_seen"
-        srv_settings(command_name,guildId)
+         const db = new QuickDB({ filePath: process.cwd() + `/db/srv_settings/commands/${guildId}.sqlite` });
+         if(await db.get(`check.check`) == true){
+             const settings = await db.get(`anime_seen.worker`)
+             const settings_reason = await db.get(`anime_seen.reason`)
+             if(settings != true){return message.channel.send(settings_reason)}
+         }
         
         console.log(lucky_star_odc_1)
         

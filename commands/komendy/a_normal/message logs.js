@@ -8,7 +8,6 @@ const config = require(process.cwd() + `/config/worker.js`)
 const Discord = require('discord.js');
 const { MessageAttachment } = require('discord.js');
 const { SlashCommandBuilder } = require('@discordjs/builders');
-
 module.exports = {
     name: "message_logs",
     name_en:"message_logs",

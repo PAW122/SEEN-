@@ -1,7 +1,7 @@
 const config = require(process.cwd() + `/config/worker.js`)
-const work = config.anime_gif
-const worker = config.anime_gif_work
-const reason = config.anime_gif_disable
+        const work = config.anime_gif
+        const worker = config.anime_gif_work
+        const reason = config.anime_gif_disable
 
 const Discord = require('discord.js');
 const { QuickDB } = require("quick.db");
@@ -9,8 +9,7 @@ const { QuickDB } = require("quick.db");
 //https://www.npmjs.com/package/anime-images-api
 const API = require('anime-images-api')
 const { SlashCommandBuilder } = require('@discordjs/builders');
-const images_api = new API()
-const srv_settings = require("../../../handlers/check_srv_settings")
+const images_api = new API() 
 //$animegif
 //$animegif help
 //$animegif help en
@@ -22,25 +21,25 @@ module.exports = {
     work: worker,
     isSlash: true,
     //opcje:
-    /*
-hug()	Sends a hug Gif
-kiss()	Sends a kiss Gif
-slap()	Sends a slap Gif
-punch()	Sends a punch Gif
-wink()	Sends a winking Gif
-pat()	Sends a pat Gif
-kill()	Sends a kill Gif
-cuddle()	Sends a cuddle Gif
-wafiu()	Sends a waifu
-API.nsfw:
+            /*
+        hug()	Sends a hug Gif
+        kiss()	Sends a kiss Gif
+        slap()	Sends a slap Gif
+        punch()	Sends a punch Gif
+        wink()	Sends a winking Gif
+        pat()	Sends a pat Gif
+        kill()	Sends a kill Gif
+        cuddle()	Sends a cuddle Gif
+        wafiu()	Sends a waifu
+        API.nsfw:
 
-Endpoint	Description
-hentai()	Sends a hentai Gif
-boobs()	Sends a boob Gif
-lesbian()	Sends a lesbian Gif
-    */
+        Endpoint	Description
+        hentai()	Sends a hentai Gif
+        boobs()	Sends a boob Gif
+        lesbian()	Sends a lesbian Gif
+            */
 
-    data: new SlashCommandBuilder()
+        data: new SlashCommandBuilder()
         .setName('animegif')
         .setDescription('wysyła gifa z podanej kategori')
         .addStringOption((option) =>
@@ -49,21 +48,21 @@ lesbian()	Sends a lesbian Gif
                 .setDescription("wybierz rodzaj gifa")
                 .setRequired(true)
                 .setChoices(
-                    { name: "hug", value: "Sending Normal Gif" },
-                    { name: "kiss", value: "Sending Normal Gif" },
-                    { name: "slap", value: "Sending Normal Gif" },
-                    { name: "punch", value: "Sending Normal Gif" },
-                    { name: "wink", value: "Sending Normal Gif" },
-                    { name: "pat", value: "Sending Normal Gif" },
-                    { name: "kill", value: "Sending Normal Gif" },
-                    { name: "cuddle", value: "Sending Normal Gif" },
-                    { name: "wafiu", value: "Sending Normal Gif" },
+                    {name: "hug", value: "Sending Normal Gif"},
+                    {name: "kiss", value: "Sending Normal Gif"},
+                    {name: "slap", value: "Sending Normal Gif"},
+                    {name: "punch", value: "Sending Normal Gif"},
+                    {name: "wink", value: "Sending Normal Gif"},
+                    {name: "pat", value: "Sending Normal Gif"},
+                    {name: "kill", value: "Sending Normal Gif"},
+                    {name: "cuddle", value: "Sending Normal Gif"},
+                    {name: "wafiu", value: "Sending Normal Gif"},
 
-                    { name: "hentai", value: "Required NSFW channel" },
-                    { name: "boobs", value: "Required NSFW channel" },
-                    { name: "lesbian", value: "Required NSFW channel" },
+                    {name: "hentai", value: "Required NSFW channel"},
+                    {name: "boobs", value: "Required NSFW channel"},
+                    {name: "lesbian", value: "Required NSFW channel"},
 
-                )
+                    )
         ),
     executeInteraction: async (inter) => {
         if (work != true) {
@@ -74,14 +73,18 @@ lesbian()	Sends a lesbian Gif
             inter.reply({ embeds: [embed_worker] });
             return (console.log("command id disabled"))
         } else {
-            //load server settings anime_gif
-            const guildId = inter.guild.id
-            const command_name = "anime_gif"
-            srv_settings(command_name, guildId)
+            //load server settings
+const guildId = inter.guild.id
+const db = new QuickDB({ filePath: process.cwd() + `/db/srv_settings/commands/${guildId}.sqlite` });
+if(await db.get(`check.check`) == true){
+    const settings = await db.get(`anime_gif.worker`)
+    const settings_reason = await db.get(`anime_gif.reason`)
+    if(settings != true){return message.channel.send(settings_reason)}
+}
 
             const response = inter.options.getString('wybierz_rodzaj_gifa')
 
-            if (response == 'pat') {
+            if(response == 'pat'){
                 await images_api.sfw.pat().then(response => {
                     const attachment = new MessageAttachment(response.image)
                     inter.reply({ files: [attachment] })
@@ -92,19 +95,22 @@ lesbian()	Sends a lesbian Gif
     },
 
 
-    execute: async (message, args) => {
-        //load server settings
-        const guildId = message.guild.id
-        const command_name = "anime_gif"
-        srv_settings(command_name, guildId)
+    execute: async(message, args) => {
+//load server settings
+const guildId = message.guild.id
+const db = new QuickDB({ filePath: process.cwd() + `/db/srv_settings/commands/${guildId}.sqlite` });
+if(await db.get(`check.check`) == true){
+    const settings = await db.get(`anime_gif.worker`)
+    const settings_reason = await db.get(`anime_gif.reason`)
+    if(settings != true){return message.channel.send(settings_reason)}
+}
 
 
-        if (work != true) { return message.channel.send(reason) }
+        if(work != true){return message.channel.send(reason)}
+        
+        
 
-
-
-        if (!args[0]) {
-            message.channel.send(`podaj rodzaj gifa:\n
+        if(!args[0]){message.channel.send(`podaj rodzaj gifa:\n
         1.hug
         2.kiss
         3.slap
@@ -117,12 +123,11 @@ lesbian()	Sends a lesbian Gif
         !!NSFW!!:\n
         1.hentai
         2.boobs
-        3.lesbian`)
-        }
+        3.lesbian`)}
 
-        if (args[0] == "help") {
-            if (args[1] == "en") {
-                return message.reply(`use one of the options:
+    if(args[0] == "help"){
+        if(args[1] == "en"){
+            return message.reply(`use one of the options:
             1.hug
             2.kiss
             3.slap
@@ -139,8 +144,8 @@ lesbian()	Sends a lesbian Gif
            
             !! bot may take a while to send a gif !!
             example: $ animegif pat`)
-            } else {
-                return message.reply(`użyj jedniej z opcji:
+        }else{
+        return message.reply(`użyj jedniej z opcji:
         1.hug
         2.kiss
         3.slap
@@ -156,90 +161,78 @@ lesbian()	Sends a lesbian Gif
         3.lesbian
         
         !!bot czasami miże potrzebować dłuższej chwili na wysłanie gif!!
-        przykład: $animegif pat`)
-            }
-        }
-        try {
+        przykład: $animegif pat`)}
+    }
+try{
 
-            if (args[0] == "hug") {
-                images_api.sfw.hug().then(response => {
-                    message.channel.send(response.image)
-                    return
-                })
-            }
+        if(args[0] == "hug"){
+            images_api.sfw.hug().then(response => {
+                message.channel.send(response.image)
+                return
+            })} 
 
-            if (args[0] == "kiss") {
-                images_api.sfw.kiss().then(response => {
-                    message.channel.send(response.image)
-                    return
-                })
-            }
-            if (args[0] == "slap") {
-                images_api.sfw.slap().then(response => {
-                    message.channel.send(response.image)
-                    return
-                })
-            }
-            if (args[0] == "wink") {
-                images_api.sfw.wink().then(response => {
-                    message.channel.send(response.image)
-                    return
-                })
-            }
-            if (args[0] == "pat") {
-                images_api.sfw.pat().then(response => {
-                    message.channel.send(response.image)
-                    return
-                })
-            }
-            if (args[0] == "kill") {
-                images_api.sfw.kill().then(response => {
-                    message.channel.send(response.image)
-                    return
-                })
-            }
-            if (args[0] == "cuddle") {
-                images_api.sfw.cuddle().then(response => {
-                    message.channel.send(response.image)
-                    return
-                })
-            }
-            if (args[0] == "waifu") {
-                images_api.sfw.waifu().then(response => {
-                    message.channel.send(response.image)
-                    return
-                })
-            }
+        if(args[0] == "kiss"){
+            images_api.sfw.kiss().then(response => {
+                 message.channel.send(response.image)
+                return
+        })} 
+        if(args[0] == "slap"){
+            images_api.sfw.slap().then(response => {
+                 message.channel.send(response.image)
+                return
+        })}
+        if(args[0] == "wink"){
+            images_api.sfw.wink().then(response => {
+                 message.channel.send(response.image)
+                return
+        })}
+        if(args[0] == "pat"){
+            images_api.sfw.pat().then(response => {
+                 message.channel.send(response.image)
+                return
+        })}
+        if(args[0] == "kill"){
+            images_api.sfw.kill().then(response => {
+                 message.channel.send(response.image)
+                return
+        })}
+        if(args[0] == "cuddle"){
+            images_api.sfw.cuddle().then(response => {
+                 message.channel.send(response.image)
+                return
+        })}
+        if(args[0] == "waifu"){
+            images_api.sfw.waifu().then(response => {
+                 message.channel.send(response.image)
+                return
+        })}
 
 
-            const odmowa = "nie możesz tego zrobić\n ten kanał nie jest nsfw"
-            //nfs
-            if (args[0] == "hentai") {
+        const odmowa = "nie możesz tego zrobić\n ten kanał nie jest nsfw"
+        //nfs
+        if(args[0] == "hentai"){
 
-                if (!message.channel.nsfw) { return message.reply(odmowa) }
+            if (!message.channel.nsfw){return message.reply(odmowa)}
 
-                images_api.nsfw.hentai().then(response => {
-                    message.channel.send(response.image)
-                    return
-                })
-            }
-            if (args[0] == "boobs") {
-                if (!message.channel.nsfw) { return message.reply(odmowa) }
-                images_api.nsfw.boobs().then(response => {
-                    message.channel.send(response.image)
-                    return
-                })
-            }
-            if (args[0] == "lesbian") {
-                if (!message.channel.nsfw) { return message.reply(odmowa) }
-                images_api.nsfw.lesbian().then(response => {
-                    message.channel.send(response.image)
-                    return
-                })
-            }
+            images_api.nsfw.hentai().then(response => {
+                 message.channel.send(response.image)
+                return
+        })}
+        if(args[0] == "boobs"){
+            if (!message.channel.nsfw){return message.reply(odmowa)}
+            images_api.nsfw.boobs().then(response => {
+                 message.channel.send(response.image)
+                return
+        })}
+        if(args[0] == "lesbian"){
+            if (!message.channel.nsfw){return message.reply(odmowa)}
+            images_api.nsfw.lesbian().then(response => {
+                 message.channel.send(response.image)
+                return
+        })}
 
-        } catch (error) { message.reply("coś siem wysypało") }
+    }catch(error) {message.reply("coś siem wysypało")}
 
     }
-
+   
 }

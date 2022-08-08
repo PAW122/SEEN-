@@ -6,7 +6,6 @@ const reason = config.user_info
 const {SlashCommandBuilder} = require('@discordjs/builders');
 const { MessageEmbed } = require('discord.js');
 const {QuickDB} = require("quick.db")
-const srv_settings = require("../../../handlers/check_srv_settings")
 module.exports = {
     name: "userinfo",
     name_en: "userinfo",
@@ -32,10 +31,14 @@ module.exports = {
         return(console.log("command id disabled"))
         }else{
 
-            //load server settings user_info
+            //load server settings
         const guildId = inter.guild.id
-        const command_name = "user_info"
-        srv_settings(command_name,guildId)
+        const db = new QuickDB({ filePath: process.cwd() + `/db/srv_settings/commands/${guildId}.sqlite` });
+        if(await db.get(`check.check`) == true){
+            const settings = await db.get(`user_info.worker`)
+            const settings_reason = await db.get(`user_info.reason`)
+            if(settings != true){return message.channel.send(settings_reason)}
+        }
 
     const member = inter.options.getMember("urzytkownik");
     
