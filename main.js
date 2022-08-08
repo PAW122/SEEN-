@@ -5,6 +5,7 @@ const consola = require('consola')
 
 const { REST } = require('@discordjs/rest');
 const { Routes } = require('discord-api-types/v9');
+const { Player} = require("discord-player");
 const { QuickDB } = require("quick.db");
 //wczytywanie configu
 const config = require("./config/config.js")
@@ -44,12 +45,14 @@ const msg_handler = require("./handlers/msg_handler")
 //wczytuje interaction handler
 const interaction_handler = require("./handlers/interaction_handler")
 
+
 const client = new Discord.Client({
     intents: [
         Discord.Intents.FLAGS.GUILDS,
         Discord.Intents.FLAGS.GUILD_MESSAGES,
         Discord.Intents.FLAGS.GUILD_MESSAGE_REACTIONS,//reakcje emoji
-        Discord.Intents.FLAGS.GUILD_MEMBERS//dołączanie ludzi
+        Discord.Intents.FLAGS.GUILD_MEMBERS,//dołączanie ludzi
+        Discord.Intents.FLAGS.GUILD_VOICE_STATES
     ]
 });
 client.commands = new Discord.Collection()

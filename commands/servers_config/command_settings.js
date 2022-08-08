@@ -52,7 +52,7 @@ module.exports = {
         if(isNaN(args[1])){
           return message.reply("błędny channel id")
         }
-        if(isNaN(args[2])){
+        if(isNaN(args[2] )){
           return message.reply("błędny channel id")
         }
 //await db.set(`tickets`, { settings: ["null", "null"] })
@@ -61,9 +61,6 @@ module.exports = {
         return message.reply("ustawiono")
       }
 
-      if (!args[2]) {
-        return message.reply("podaj powód wyłączenia komendy")
-      }
       if (await db.get(`check.check`) == true) {
 
         if (args[0] == "off") {
@@ -72,142 +69,142 @@ module.exports = {
           const command_name = args[1]
           if (command_name == "anime_gif") {
             await db.set(`anime_gif.worker`, false)
-            await db.set(`anime_gif.reason`, args[2])
+            await db.set(`anime_gif.reason`, "this command is disabled on this server.")
             return message.reply("ustawiono")
           }
           if (command_name == "eight_ball") {//
             await db.set(`eight_ball.worker`, false)
-            await db.set(`eight_ball.reason`, args[2])
+            await db.set(`eight_ball.reason`, "this command is disabled on this server.")
             return message.reply("ustawiono")
           }
           if (command_name == "anime_seem_help") {
             await db.set(`anime_seem_help.worker`, false)
-            await db.set(`anime_seem_help.reason`, args[2])
+            await db.set(`anime_seem_help.reason`, "this command is disabled on this server.")
             return message.reply("ustawiono")
           }
           if (command_name == "anime_help") {
             await db.set(`anime_help.worker`, false)
-            await db.set(`anime_help.reason`, args[2])
+            await db.set(`anime_help.reason`, "this command is disabled on this server.")
             return message.reply("ustawiono")
           }
           if (command_name == "updaty") {
             await db.set(`updaty.worker`, false)
-            await db.set(`updaty.reason`, args[2])
+            await db.set(`updaty.reason`, "this command is disabled on this server.")
             return message.reply("ustawiono")
           }
           if (command_name == "anime_list") {
             await db.set(`anime_list.worker`, false)
-            await db.set(`anime_list.reason`, args[2])
+            await db.set(`anime_list.reason`, "this command is disabled on this server.")
             return message.reply("ustawiono")
           }
           if (command_name == "ankieta") {
             await db.set(`ankieta.worker`, false)
-            await db.set(`ankieta.reason`, args[2])
+            await db.set(`ankieta.reason`, "this command is disabled on this server.")
             return message.reply("ustawiono")
           }
           if (command_name == "awatar") {
             await db.set(`awatar.worker`, false)
-            await db.set(`awatar.reason`, args[2])
+            await db.set(`awatar.reason`, "this command is disabled on this server.")
             return message.reply("ustawiono")
           }
           if (command_name == "ban") {
             await db.set(`ban.worker`, false)
-            await db.set(`ban.reason`, args[2])
+            await db.set(`ban.reason`, "this command is disabled on this server.")
             return message.reply("ustawiono")
           }//const { QuickDB } = require("quick.db");
           if (command_name == "bot_info") {
             await db.set(`bot_info.worker`, false)
-            await db.set(`bot_info.reason`, args[2])
+            await db.set(`bot_info.reason`, "this command is disabled on this server.")
             return message.reply("ustawiono")
           }
           if (command_name == "clear") {
             await db.set(`clear.worker`, false)
-            await db.set(`clear.reason`, args[2])
+            await db.set(`clear.reason`, "this command is disabled on this server.")
             return message.reply("ustawiono")
           }
           if (command_name == "embed") {
             await db.set(`embed.worker`, false)
-            await db.set(`embed.reason`, args[2])
+            await db.set(`embed.reason`, "this command is disabled on this server.")
             return message.reply("ustawiono")
           }
           if (command_name == "kick") {
             await db.set(`kick.worker`, false)
-            await db.set(`kick.reason`, args[2])
+            await db.set(`kick.reason`, "this command is disabled on this server.")
             return message.reply("ustawiono")
           }
           if (command_name == "random") {
             await db.set(`random.worker`, false)
-            await db.set(`random.reason`, args[2])
+            await db.set(`random.reason`, "this command is disabled on this server.")
             return message.reply("ustawiono")
           }
           if (command_name == "ping") {
             await db.set(`ping.worker`, false)
-            await db.set(`ping.reason`, args[2])
+            await db.set(`ping.reason`, "this command is disabled on this server.")
             return message.reply("ustawiono")
           }//const { QuickDB } = require("quick.db");
           if (command_name == "ruletka") {
             await db.set(`ruletka.worker`, false)
-            await db.set(`ruletka.reason`, args[2])
+            await db.set(`ruletka.reason`, "this command is disabled on this server.")
             return message.reply("ustawiono")
           }
           if (command_name == "say") {
             await db.set(`say.worker`, false)
-            await db.set(`say.reason`, args[2])
+            await db.set(`say.reason`, "this command is disabled on this server.")
             return message.reply("ustawiono")
           }
           if (command_name == "srv_info") {//dodać execute do srv_info
             await db.set(`srv_info.worker`, false)
-            await db.set(`srv_info.reason`, args[2])
+            await db.set(`srv_info.reason`, "this command is disabled on this server.")
             return message.reply("ustawiono")
           }
           if (command_name == "blitz_stats") {
             await db.set(`blitz_stats.worker`, false)
-            await db.set(`blitz_stats.reason`, args[2])
+            await db.set(`blitz_stats.reason`, "this command is disabled on this server.")
             return message.reply("ustawiono")
           }
           if (command_name == "blitz_clan") {
             await db.set(`blitz_clan.worker`, false)
-            await db.set(`blitz_clan.reason`, args[2])
+            await db.set(`blitz_clan.reason`, "this command is disabled on this server.")
             return message.reply("ustawiono")
           }
           if (command_name == "autoroles") {//komenda nie jest skonfigurowana
             await db.set(`autoroles.worker`, false)//więc nie włączam
-            await db.set(`autoroles.reason`, args[2])//
+            await db.set(`autoroles.reason`, "this command is disabled on this server.")//
             return message.reply("ustawiono")
           }
           if (command_name == "user_info") {//dodać execute
             await db.set(`user_info.worker`, false)
-            await db.set(`user_info.reason`, args[2])
+            await db.set(`user_info.reason`, "this command is disabled on this server.")
             return message.reply("ustawiono")
           }
           if (command_name == "lvl_command") {//tymczasowo usówam komende
             await db.set(`lvl_command.worker`, false)
-            await db.set(`lvl_command.reason`, args[2])
+            await db.set(`lvl_command.reason`, "this command is disabled on this server.")
             return message.reply("ustawiono")
           }
           if (command_name == "economy_command") {//narazie nie dodaje funkcji
             await db.set(`economy_command.worker`, false)//wyłączenia
-            await db.set(`economy_command.reason`, args[2])
+            await db.set(`economy_command.reason`, "this command is disabled on this server.")
             return message.reply("ustawiono")
           }
           if (command_name == "anime_zapowiedzi") {//narazie nie dodaje funkcji
             await db.set(`anime_zapowiedzi.worker`, false)//wyłączenia
-            await db.set(`anime_zapowiedzi.reason`, args[2])
+            await db.set(`anime_zapowiedzi.reason`, "this command is disabled on this server.")
             return message.reply("ustawiono")
           }
           if (command_name == "anime_seen") {//narazie nie dodaje funkcji
             await db.set(`anime_seen.worker`, false)//wyłączenia
-            await db.set(`anime_seen.reason`, args[2])
+            await db.set(`anime_seen.reason`, "this command is disabled on this server.")
             return message.reply("ustawiono")
           }
           if (command_name == "economy_command") {//narazie nie dodaje funkcji
             await db.set(`economy_command.worker`, false)//wyłączenia
-            await db.set(`economy_command.reason`, args[2])
+            await db.set(`economy_command.reason`, "this command is disabled on this server.")
             return message.reply("ustawiono")
           }
           if (command_name == "unban") {//narazie nie dodaje funkcji
             await db.set(`unban.worker`, false)//wyłączenia
-            await db.set(`unban.reason`, args[2])
+            await db.set(`unban.reason`, "this command is disabled on this server.")
             return message.reply("ustawiono")
           }
         }
@@ -218,143 +215,143 @@ module.exports = {
           const command_name = args[1]
           if (command_name == "anime_gif") {
             await db.set(`anime_gif.worker`, true)
-            await db.set(`anime_gif.reason`, args[2])
+            await db.set(`anime_gif.reason`, "this command is disabled on this server.")
             return message.reply("ustawiono")
           }
           if (command_name == "eight_ball") {//
             await db.set(`eight_ball.worker`, true)
-            await db.set(`eight_ball.reason`, args[2])
+            await db.set(`eight_ball.reason`, "this command is disabled on this server.")
             return message.reply("ustawiono")
           }
           if (command_name == "anime_seem_help") {
             await db.set(`anime_seem_help.worker`, true)
-            await db.set(`anime_seem_help.reason`, args[2])
+            await db.set(`anime_seem_help.reason`, "this command is disabled on this server.")
             return message.reply("ustawiono")
           }
           if (command_name == "anime_help") {
             await db.set(`anime_help.worker`, true)
-            await db.set(`anime_help.reason`, args[2])
+            await db.set(`anime_help.reason`, "this command is disabled on this server.")
             return message.reply("ustawiono")
           }
           if (command_name == "updaty") {
             await db.set(`updaty.worker`, true)
-            await db.set(`updaty.reason`, args[2])
+            await db.set(`updaty.reason`, "this command is disabled on this server.")
             return message.reply("ustawiono")
           }
           if (command_name == "anime_list") {
             await db.set(`anime_list.worker`, true)
-            await db.set(`anime_list.reason`, args[2])
+            await db.set(`anime_list.reason`, "this command is disabled on this server.")
             return message.reply("ustawiono")
           }
           if (command_name == "ankieta") {
             await db.set(`ankieta.worker`, true)
-            await db.set(`ankieta.reason`, args[2])
+            await db.set(`ankieta.reason`, "this command is disabled on this server.")
             return message.reply("ustawiono")
           }
           if (command_name == "awatar") {
             await db.set(`awatar.worker`, true)
-            await db.set(`awatar.reason`, args[2])
+            await db.set(`awatar.reason`, "this command is disabled on this server.")
             return message.reply("ustawiono")
           }
           if (command_name == "ban") {
             await db.set(`ban.worker`, true)
-            await db.set(`ban.reason`, args[2])
+            await db.set(`ban.reason`, "this command is disabled on this server.")
             return message.reply("ustawiono")
           }//const { QuickDB } = require("quick.db");
           if (command_name == "bot_info") {
             await db.set(`bot_info.worker`, true)
-            await db.set(`bot_info.reason`, args[2])
+            await db.set(`bot_info.reason`, "this command is disabled on this server.")
             return message.reply("ustawiono")
           }
           if (command_name == "clear") {
             await db.set(`clear.worker`, true)
-            await db.set(`clear.reason`, args[2])
+            await db.set(`clear.reason`, "this command is disabled on this server.")
             return message.reply("ustawiono")
           }
           if (command_name == "embed") {
             await db.set(`embed.worker`, true)
-            await db.set(`embed.reason`, args[2])
+            await db.set(`embed.reason`, "this command is disabled on this server.")
             return message.reply("ustawiono")
           }
           if (command_name == "kick") {
             await db.set(`kick.worker`, true)
-            await db.set(`kick.reason`, args[2])
+            await db.set(`kick.reason`, "this command is disabled on this server.")
             return message.reply("ustawiono")
           }
           if (command_name == "random") {
             await db.set(`random.worker`, true)
-            await db.set(`random.reason`, args[2])
+            await db.set(`random.reason`, "this command is disabled on this server.")
             return message.reply("ustawiono")
           }
           if (command_name == "ping") {
             await db.set(`ping.worker`, true)
-            await db.set(`ping.reason`, args[2])
+            await db.set(`ping.reason`, "this command is disabled on this server.")
             return message.reply("ustawiono")
           }//const { QuickDB } = require("quick.db");
 
           if (command_name == "ruletka") {
             await db.set(`ruletka.worker`, true)
-            await db.set(`ruletka.reason`, args[2])
+            await db.set(`ruletka.reason`, "this command is disabled on this server.")
             return message.reply("ustawiono")
           }
           if (command_name == "say") {
             await db.set(`say.worker`, true)
-            await db.set(`say.reason`, args[2])
+            await db.set(`say.reason`, "this command is disabled on this server.")
             return message.reply("ustawiono")
           }
           if (command_name == "srv_info") {//dodać execute do srv_info
             await db.set(`srv_info.worker`, true)
-            await db.set(`srv_info.reason`, args[2])
+            await db.set(`srv_info.reason`, "this command is disabled on this server.")
             return message.reply("ustawiono")
           }
           if (command_name == "blitz_stats") {
             await db.set(`blitz_stats.worker`, true)
-            await db.set(`blitz_stats.reason`, args[2])
+            await db.set(`blitz_stats.reason`, "this command is disabled on this server.")
             return message.reply("ustawiono")
           }
           if (command_name == "blitz_clan") {
             await db.set(`blitz_clan.worker`, true)
-            await db.set(`blitz_clan.reason`, args[2])
+            await db.set(`blitz_clan.reason`, "this command is disabled on this server.")
             return message.reply("ustawiono")
           }
           if (command_name == "autoroles") {//komenda nie jest skonfigurowana
             await db.set(`autoroles.worker`, true)//więc nie włączam
-            await db.set(`autoroles.reason`, args[2])//
+            await db.set(`autoroles.reason`, "this command is disabled on this server.")//
             return message.reply("ustawiono")
           }
           if (command_name == "user_info") {//dodać execute
             await db.set(`user_info.worker`, true)
-            await db.set(`user_info.reason`, args[2])
+            await db.set(`user_info.reason`, "this command is disabled on this server.")
             return message.reply("ustawiono")
           }
           if (command_name == "lvl_command") {//tymczasowo usówam komende
             await db.set(`lvl_command.worker`, true)
-            await db.set(`lvl_command.reason`, args[2])
+            await db.set(`lvl_command.reason`, "this command is disabled on this server.")
             return message.reply("ustawiono")
           }
           if (command_name == "economy_command") {//narazie nie dodaje funkcji
             await db.set(`economy_command.worker`, true)//wyłączenia
-            await db.set(`economy_command.reason`, args[2])
+            await db.set(`economy_command.reason`, "this command is disabled on this server.")
             return message.reply("ustawiono")
           }
           if (command_name == "anime_zapowiedzi") {//narazie nie dodaje funkcji
             await db.set(`anime_zapowiedzi.worker`, true)//wyłączenia
-            await db.set(`anime_zapowiedzi.reason`, args[2])
+            await db.set(`anime_zapowiedzi.reason`, "this command is disabled on this server.")
             return message.reply("ustawiono")
           }
           if (command_name == "anime_seen") {//narazie nie dodaje funkcji
             await db.set(`anime_seen.worker`, true)//wyłączenia
-            await db.set(`anime_seen.reason`, args[2])
+            await db.set(`anime_seen.reason`, "this command is disabled on this server.")
             return message.reply("ustawiono")
           }
           if (command_name == "economy_command") {//narazie nie dodaje funkcji
             await db.set(`economy_command.worker`, true)//wyłączenia
-            await db.set(`economy_command.reason`, args[2])
+            await db.set(`economy_command.reason`, "this command is disabled on this server.")
             return message.reply("ustawiono")
           }
           if (command_name == "unban") {//narazie nie dodaje funkcji
             await db.set(`unban.worker`, true)//wyłączenia
-            await db.set(`unban.reason`, args[2])
+            await db.set(`unban.reason`, "this command is disabled on this server.")
             return message.reply("ustawiono")
           }
         }

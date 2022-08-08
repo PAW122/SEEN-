@@ -1,7 +1,7 @@
 module.exports = {
     //token for tests
-    //token: "ODY5NTg3ODc3NDc3MTAxNTkw.GlzDM1.-g1GK0ESq9eZOp92S77v_oo6-SquxCiBLFetaY",
-    test_bot: false,
+    token: "ODY5NTg3ODc3NDc3MTAxNTkw.GlzDM1.-g1GK0ESq9eZOp92S77v_oo6-SquxCiBLFetaY",
+    test_bot: true,
     prefix: "$",//set prefix
     commands_logs: "True",//True/False
     load_commands_logs: "True", //True/False 
@@ -20,5 +20,10 @@ module.exports = {
     economy_emoji: "💵",
 
     //zwiększać z każdą aktualizacją db
-    db_version: "0.5"
+    db_version: "0.6",
+
+    report_channel_id: "1006283491568267374",
+    ban_channel_id: "1006297123521835049",
+
+    black_list: true
 }

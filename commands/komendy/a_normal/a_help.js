@@ -28,6 +28,7 @@ const embed_pl = new Discord.MessageEmbed()
         { name: `message_logs`, value: `${prefix}message_logs help\n${prefix}message_logs help en`, inline: true },
         { name: `blitzstats`, value: `${prefix}blitzstats help\n${prefix}blitzstats help en`, inline: true },
         { name: `autorole`, value: `${prefix}autorole help\n${prefix}autorole help en`, inline: true },
+        { name: `report`, value: `send question to as\n ${prefix}report help`, inline: true },
         { name: `------------------------------------------------------------------------`, value: `----------------------------------------------------------------------`, inline: false },
         
         { name: `Server settings`, value: `${prefix}srv_set`, inline: true },

@@ -109,7 +109,11 @@ module.exports = {
 
     tickets: true,
     tickets_worker: "yes",
-    tickets_disable: "command is disable: no reason"
+    tickets_disable: "command is disable: no reason",
+
+    report: true,
+    report_worker: "yes",
+    report_disable: "command is disable: no reason"
 
 }
 

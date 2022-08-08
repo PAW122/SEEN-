@@ -117,7 +117,7 @@ module.exports = (client) => {
             const command = require(__dirname +`/../commands/acc_menager/${file}`);
             client.command.set(command.name, command);//język polski
             client.command.set(command.name_en, command);//język abg
-            console.log(command.name)
+
             
 
              

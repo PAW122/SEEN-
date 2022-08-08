@@ -1,1 +1,25 @@
 6.08.2022   02:12   welcome   Senko#3667   
+8.08.2022   21:53   bot-reports   -V1PE#3809   
+8.08.2022   22:04   bot-reports   PAW#5844   $response 438336824516149249 test
+8.08.2022   22:04   bot-reports   -V1PE#3809   response send
+8.08.2022   22:05   bot-reports   PAW#5844   $response 438336824516149249 test
+8.08.2022   22:05   bot-reports   -V1PE#3809   response send
+8.08.2022   22:07   bot-reports   PAW#5844   $response 438336824516149249 test
+8.08.2022   22:07   bot-reports   -V1PE#3809   response send
+8.08.2022   22:08   bot-reports   PAW#5844   $response 438336824516149249 test
+8.08.2022   22:08   bot-reports   -V1PE#3809   response send
+8.08.2022   22:29   ban-users   PAW#5844   $blacklist help
+8.08.2022   22:29   ban-users   -V1PE#3809   daje możliwość dodania ludzi na blackliste
+            uniemożliwia ona wysyłanie reportów
+            usage: $blacklist ban <user_id> 
+            usage: $blacklist unban <user_id>
+8.08.2022   22:29   ban-users   PAW#5844   $blacklist ban 778643150981562368
+8.08.2022   22:29   ban-users   -V1PE#3809   user 778643150981562368 banned
+8.08.2022   22:30   ban-users   PAW#5844   $blacklist unban 778643150981562368
+8.08.2022   22:30   ban-users   -V1PE#3809   user 778643150981562368 unbanned
+8.08.2022   22:30   bot-reports   -V1PE#3809   
+8.08.2022   22:32   bot-reports   PAW#5844   $response help
+8.08.2022   22:32   bot-reports   -V1PE#3809   usage: $response <created_by_id> <examlpe-text>
+            example: $response response_content
+8.08.2022   22:32   bot-reports   PAW#5844   
+8.08.2022   22:33   blacklist   PAW#5844   

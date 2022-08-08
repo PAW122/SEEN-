@@ -1854,3 +1854,41 @@
 8.08.2022   13:09   bot   -V1PE#3809   testowe
 =======
 >>>>>>> parent of 903ae07 (new srv_settings system)
+8.08.2022   13:13   bot   PAW#5844   $ping
+8.08.2022   13:13   bot   SEEN-#5771   testowe
+8.08.2022   13:13   bot   PAW#5844   $ping
+8.08.2022   13:13   bot   SEEN-#5771   testowe
+8.08.2022   13:15   bot   PAW#5844   $settings off ping wyłączona dla testów
+8.08.2022   13:15   bot   SEEN-#5771   ustawiono
+8.08.2022   13:15   bot   PAW#5844   $ping
+8.08.2022   13:15   bot   SEEN-#5771   wyłączona
+8.08.2022   13:22   bot   PAW#5844   $settings on ping
+8.08.2022   13:22   bot   SEEN-#5771   podaj powód wyłączenia komendy
+8.08.2022   13:22   bot   PAW#5844   $settings on ping
+8.08.2022   13:22   bot   SEEN-#5771   ustawiono
+8.08.2022   13:23   bot   PAW#5844   $ping
+8.08.2022   13:23   bot   SEEN-#5771   pong!
+8.08.2022   17:32   bot   SEEN-#5771   You need to be in a VC to use this command
+8.08.2022   17:32   bot   SEEN-#5771   You need to be in a VC to use this command
+8.08.2022   17:32   bot   SEEN-#5771   You need to be in a VC to use this command
+8.08.2022   17:33   bot   SEEN-#5771   You need to be in a VC to use this command
+8.08.2022   17:50   bot   PAW#5844   https://www.youtube.com/watch?v=N5HxbW_OcJI&list=RDN5HxbW_OcJI&start_radio=1
+8.08.2022   21:17   bot   SEEN-#5771   
+8.08.2022   21:20   bot   SEEN-#5771   
+8.08.2022   21:22   bot   SEEN-#5771   
+8.08.2022   21:23   bot   SEEN-#5771   
+8.08.2022   21:28   bot   -V1PE#3809   
+8.08.2022   21:40   bot   PAW#5844   $report test
+8.08.2022   21:41   bot   PAW#5844   $report test
+8.08.2022   21:42   bot   PAW#5844   $report test
+8.08.2022   21:42   bot   PAW#5844   $report test
+8.08.2022   21:42   bot   -V1PE#3809   An error occurred while sending a message
+8.08.2022   21:45   bot   PAW#5844   $report test
+8.08.2022   21:45   bot   -V1PE#3809   An error occurred while sending a message
+8.08.2022   21:53   bot   PAW#5844   $report test
+8.08.2022   21:53   bot   -V1PE#3809   Thank you for informing us of the errors
+8.08.2022   22:30   bot   Senko#3667   $report test
+8.08.2022   22:30   bot   -V1PE#3809   you have been banned from the reporting system
+8.08.2022   22:30   bot   Senko#3667   $report test2
+8.08.2022   22:30   bot   -V1PE#3809   Thank you for informing us of the errors
+We will try to answer your question as soon as possible

@@ -57,8 +57,8 @@ if(await db.get(`check.check`) == true){
             .setTitle(tytuł)
             .setDescription(treść)
             
-        inter.reply({ embeds: [embed] });
-        }
+        inter.reply({ embeds: [embed] })
+}
     },
 
     execute: async(message, args,client) => {
