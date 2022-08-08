@@ -1831,3 +1831,23 @@
 7.08.2022   21:22   bot   SEEN-#5771   
 7.08.2022   21:22   bot   SEEN-#5771   
 7.08.2022   21:22   bot   SEEN-#5771   
+8.08.2022   12:54   bot   PAW#5844   $srv_set
+8.08.2022   12:54   bot   SEEN-#5771   
+8.08.2022   12:54   bot   SEEN-#5771   
+8.08.2022   12:54   bot   PAW#5844   $settings ticket 745768777022701648 923300408372396032
+8.08.2022   12:54   bot   SEEN-#5771   ustawiono
+8.08.2022   13:00   bot   PAW#5844   $srv_set
+8.08.2022   13:00   bot   SEEN-#5771   
+8.08.2022   13:01   bot   PAW#5844   $srv_set list
+8.08.2022   13:01   bot   SEEN-#5771   
+8.08.2022   13:01   bot   SEEN-#5771   
+8.08.2022   13:02   bot   PAW#5844   $settings off ping
+8.08.2022   13:02   bot   SEEN-#5771   podaj powód wyłączenia komendy
+8.08.2022   13:02   bot   PAW#5844   $settings off ping testowe
+8.08.2022   13:02   bot   SEEN-#5771   ustawiono
+8.08.2022   13:07   bot   PAW#5844   $ping
+8.08.2022   13:07   bot   -V1PE#3809   pong!
+8.08.2022   13:07   bot   -V1PE#3809   testowe
+8.08.2022   13:09   bot   PAW#5844   $ping
+8.08.2022   13:09   bot   -V1PE#3809   pong!
+8.08.2022   13:09   bot   -V1PE#3809   testowe

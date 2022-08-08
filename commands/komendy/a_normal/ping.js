@@ -32,7 +32,7 @@ module.exports = {
         }else{
             const guildId = inter.guild.id
             const command_name = "ping"
-        srv_settings(command_name,guildId)  
+        srv_settings(command_name,guildId,message)  
 
         const embed = new Discord.MessageEmbed()
             .setTitle('**PONG**')
@@ -43,11 +43,12 @@ module.exports = {
     },
 
 
-    execute: async (message, args) => {
+    execute: async (message, args, client) => {
                 //load server settings ping
-const guildId = message.guild.id
-const command_name = "ping"
-        srv_settings(command_name,guildId)
+            const guildId = message.guild.id
+            const channel_id = message.channel.id
+            const command_name = "ping"
+        srv_settings(command_name,guildId,channel_id,client)
 
         if (work != true) { return message.channel.send(reason) }
 
