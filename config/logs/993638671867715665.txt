@@ -23,3 +23,21 @@
             example: $response response_content
 8.08.2022   22:32   bot-reports   PAW#5844   
 8.08.2022   22:33   blacklist   PAW#5844   
+8.08.2022   22:38   bot-commands   PAW#5844   $srv_set
+8.08.2022   22:38   bot-commands   -V1PE#3809   
+8.08.2022   22:38   bot-commands   PAW#5844   $settings welcome_messages 993638672815624235
+8.08.2022   22:39   bot-commands   PAW#5844   $settings ticket 1006300611064631307 1006300699027587112\
+8.08.2022   22:39   tickets   PAW#5844   $ticket test
+8.08.2022   22:39   tickets   -V1PE#3809   twój serwer nie posiada przfilu sutawień
+8.08.2022   22:40   bot-commands   PAW#5844   $srv_set list
+8.08.2022   22:40   bot-commands   -V1PE#3809   
+8.08.2022   22:40   bot-commands   -V1PE#3809   
+8.08.2022   22:40   bot-commands   PAW#5844   $settins deafult
+8.08.2022   22:41   bot-commands   PAW#5844   $settings deafult
+8.08.2022   22:41   bot-commands   -V1PE#3809   przywrucono deafultowe ustawienia
+8.08.2022   22:42   bot-commands   PAW#5844   $settings welcome_messages 993638672815624235
+8.08.2022   22:42   bot-commands   -V1PE#3809   ustawiono
+8.08.2022   22:42   bot-commands   PAW#5844   $settings ticket 1006300611064631307 1006300699027587112
+8.08.2022   22:42   bot-commands   -V1PE#3809   ustawiono
+8.08.2022   22:42   tickets   PAW#5844   $ticket test
+8.08.2022   22:42   get-tickets   -V1PE#3809   

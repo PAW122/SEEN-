@@ -38,15 +38,14 @@ naprawić blitzstats
     13.slash dla embeda
     14.zrobić coś żeby po dodaniu aktułki db zapisywały się ustawienia serwera
     15.zrobić komende, która będzie wysyłała powiadomienia o errorach na kanale na dc
-    16.black-list -- możliwość dodania osoby na blackliste bota w db
     17.wsystkie srv_set w komendach (sprawdzanie czy komenda jest włączona na srv) -
     zrobić w jakimś handlerze
     18.dodać możliwość ustawienia w srv_set wiadomości pv powitalnej dla nowych osób na srv
     19.dodać komende, która na każdym serweże obok nazwy bota ustawi prefix ustawiony przez adminów
     20.zrobić button role na srv_set dla każdego serwera
     23.dodać możliwość oznaczenia kanału śledzączgo updaty bota z githuba (na db)
-    24.naprawić na /ankieta bot nie zostawia reakcji(emotek) pod ankietą -- idk jak to zrobić
     25.wywalić animelist na plkach textowych i zrobić na db
     26.dodać coś na styl trybu serwisowego - jak jest włączony bot zawsze odpisuje że jest przerw techniczna
 # info
 messages log -- nie robie server settings bo i tak jest tylko dla adminów
+24.naprawić na /ankieta bot nie zostawia reakcji(emotek) pod ankietą -- idk jak to zrobić
