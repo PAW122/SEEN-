@@ -22,7 +22,7 @@ module.exports = {
     .setDescription('urzytkownik o kturym hcesz zobaczyć informacje')
     .setRequired(true)),
 
-    executeInteraction: async (interaction) => {
+    executeInteraction: async (inter) => {
         if(work != true){
             const embed_worker = new Discord.MessageEmbed()
             .setTitle('**userinfo**')
@@ -37,7 +37,7 @@ module.exports = {
         const command_name = "user_info"
         srv_settings(command_name,guildId)
 
-    const member = interaction.options.getMember("urzytkownik");
+    const member = inter.options.getMember("urzytkownik");
     
     const embed = new MessageEmbed()
     .setColor('AQUA')
@@ -61,7 +61,7 @@ module.exports = {
             value: `<t:${parseInt(member.user.createdTimestamp / 1000)}:R>`
         }
     )
-    interaction.reply({
+    inter.reply({
         embeds: [embed]
     })
 }}}

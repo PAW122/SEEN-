@@ -23,7 +23,7 @@ const config = require("../../config/config")
 const emoji = config.economy_emoji
 const { Permissions: { FLAGS } } = require('discord.js');
 const Discord = require('discord.js');
-const srv_settings = require("../../../handlers/check_srv_settings")
+const srv_settings = require("../../handlers/check_srv_settings")
 module.exports = {
     name: "givaey",
 
