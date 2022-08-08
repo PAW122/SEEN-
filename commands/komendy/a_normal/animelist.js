@@ -239,7 +239,6 @@ const command_name = "anime_list"
             return (console.log("command id disabled"))
         } else {
             const user = inter.user.id
-            console.log(user)
             const option = inter.options.getNumber('wybierz_strone_1-7')
 
             if (option == "1") {

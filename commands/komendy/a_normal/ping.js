@@ -30,10 +30,10 @@ module.exports = {
         inter.reply({ embeds: [embed_worker] });
         return(console.log("command id disabled"))
         }else{
-            const guildId = message.guild.id
+            const guildId = inter.guild.id
             const command_name = "ping"
         srv_settings(command_name,guildId)  
-        
+
         const embed = new Discord.MessageEmbed()
             .setTitle('**PONG**')
             .setColor('RANDOM')

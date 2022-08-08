@@ -29,6 +29,8 @@ zrobić w jakimś handlerze
 20.zrobić button role na srv_set dla każdego serwera
 21.zrobić komende report za pomocą której urzytkownik może zgłośić błąd bota
 22.zrobic komende question którą urzytkownik może wysłać zapytanie na mój srv i jak mu dopowiem dostaje odpowiedż na pv (trzeba zrobić to na db żeby po restarcie bota się zapisywało kto wysłał danego reporta)
-
+23.dodać możliwość oznaczenia kanału śledzączgo updaty bota z githuba (na db)
+24.naprawić na /ankieta bot nie zostawia reakcji(emotek) pod ankietą
+25.wywalić animelist na plkach textowych i zrobić na db
 # info
 messages log -- nie robie server settings bo i tak jest tylko dla adminów

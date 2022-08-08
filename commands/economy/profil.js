@@ -2,7 +2,7 @@ const { QuickDB } = require("quick.db");
 const check_db = require("./economy_handler")
 const config = require("../../config/config")
 const emoji = config.economy_emoji
-const srv_settings = require("../../../handlers/check_srv_settings")
+const srv_settings = require("../../handlers/check_srv_settings")
 module.exports = {
     name: "profil",
 

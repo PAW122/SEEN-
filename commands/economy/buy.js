@@ -1,7 +1,7 @@
 const config = require("../../config/config")
 const emoji = config.economy_emoji
 const { QuickDB } = require("quick.db");
-const srv_settings = require("../../../handlers/check_srv_settings")
+const srv_settings = require("../../handlers/check_srv_settings")
 module.exports = {
     name: "buy",
 
@@ -23,7 +23,7 @@ module.exports = {
         const coins2 = await db.get(`${userId}.coins[0]`);
         const coins = parseInt(coins2)
         if (!args[0]) {
-            return message.reply("musisz podać nazwe przedmiotu. L:istę przedmiotów morzesz sprawdzić używając $shop")
+            return message.reply("musisz podać nazwe przedmiotu. Listę przedmiotów morzesz sprawdzić używając $shop")
         }
         //dla następnych przedmiotów dodać || <nazwa przedmiotu>
         if (args[0] != "vip") {
