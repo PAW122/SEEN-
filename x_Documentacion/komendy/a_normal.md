@@ -42,4 +42,36 @@ pozwala zbanować urzytkownika
 # botinfo (/):
 wysyła informacje o bocie
 
-# clear
+# clear (/):
+usówa podaną ilość wiadomości
+użycie $clear <ilość wiadomości>
+
+# contact (/):
+wysyła kontakt do twórcy bota
+
+# embed:
+wysyła przykładowego embeda
+(komenda testowa)
+
+# kick:
+pozwala wyrzucić urzytkownika
+
+# message_logs (/);
+wysyła na serwer plik .txt z wszystkimi wiadkmościami wysłanymi na serweże, gdy bot był włączony
+
+# ping (/):
+wysyła opóżnienie bota w ms
+
+# random (/):
+wysyła randomowa liczbe od 1 do podanej przez urzytkownika
+Użycie $random <maxymalna liczba>
+
+# report:
+pozwala urzytkownikowi wysłac wiadomość do administracji bota
+(urzytkownik po nieokreslonym czasie dostanie odpowiedż od administracji)
+
+# ruletka (/):
+pozwala zagrać urzytkowniką w ruletke
+
+# say (/):
+pozwala administracji pisać jako bot

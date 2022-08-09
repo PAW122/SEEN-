@@ -1,16 +1,8 @@
-
 const { SlashCommandBuilder } = require('@discordjs/builders');
-const Discord = require('discord.js');
-const { QuickDB } = require("quick.db");
-//$ping
-//$ping help
-//$ping help en
+//dodać do helpa
 module.exports = {
     name: "kontakt",
     name_en: "contact",
-    description: "wysyła pong",
-    usage: "$ping",
-    work: worker,
     isSlash: true,
 
 
