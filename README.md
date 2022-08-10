@@ -46,6 +46,8 @@ naprawić blitzstats
     23.dodać możliwość oznaczenia kanału śledzączgo updaty bota z githuba (na db)
     25.wywalić animelist na plkach textowych i zrobić na db
     26.dodać coś na styl trybu serwisowego - jak jest włączony bot zawsze odpisuje że jest przerw techniczna
+    27.zrobić staty z lola na api
+    28.naprawić komende daily
 # info
 messages log -- nie robie server settings bo i tak jest tylko dla adminów
 24.naprawić na /ankieta bot nie zostawia reakcji(emotek) pod ankietą -- idk jak to zrobić

@@ -1,7 +1,7 @@
 module.exports = {
     //token for tests
     token: "ODY5NTg3ODc3NDc3MTAxNTkw.GlzDM1.-g1GK0ESq9eZOp92S77v_oo6-SquxCiBLFetaY",
-    test_bot: false,
+    test_bot: true,
     prefix: "$",//set prefix
     commands_logs: "True",//True/False
     load_commands_logs: "True", //True/False 
@@ -16,6 +16,7 @@ module.exports = {
     servers_logs: "True",
 
     wargaming_api_key: "ebc751064d5418bfefad7af6819e9c19",
+    riot_api: "RGAPI-dd865e39-d1fa-4360-bf07-c4f5aaa00eac",
 
     economy_emoji: "💵",
 
