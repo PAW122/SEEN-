@@ -1938,3 +1938,29 @@ We will try to answer your question as soon as possible
 10.08.2022   13:26   bot   -V1PE#3809   ustawiono
 10.08.2022   13:27   minc-serv-18   -V1PE#3809   ten kanał nie służy do tworzenia ticketów.
  użyj <#745768777022701648>
+10.08.2022   13:52   bot   PAW#5844   $help
+10.08.2022   13:52   bot   -V1PE#3809   
+10.08.2022   13:53   bot   PAW#5844   $help
+10.08.2022   13:53   bot   -V1PE#3809   
+10.08.2022   13:53   bot   PAW#5844   $animeseen help
+10.08.2022   13:53   bot   -V1PE#3809   
+10.08.2022   13:54   bot   PAW#5844   $anime help
+10.08.2022   13:54   bot   -V1PE#3809   
+10.08.2022   13:54   bot   PAW#5844   $myanimelist help
+10.08.2022   13:56   bot   PAW#5844   $animegif
+10.08.2022   13:56   bot   -V1PE#3809   podaj rodzaj gifa:
+
+        1.hug
+        2.kiss
+        3.slap
+        4.punch
+        5.wink
+        6.pat
+        7.kill
+        8.cuddle
+        9.waifu
+        !!NSFW!!:
+
+        1.hentai
+        2.boobs
+        3.lesbian

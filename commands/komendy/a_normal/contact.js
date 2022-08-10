@@ -11,7 +11,8 @@ module.exports = {
         .setDescription('wysyła dane kontaktowe'),
 
     executeInteraction: async (inter) => {
-        inter.reply(`Discord bot Suport: https://discord.gg/ATsqW78A4F`);
+        inter.reply(`Discord bot Suport: https://discord.gg/ATsqW78A4F
+        or user $report to send me message`)
 
     },
 
@@ -19,7 +20,8 @@ module.exports = {
 
 
 
-        message.channel.send(`Discord bot Suport: https://discord.gg/ATsqW78A4F`)
+        message.channel.send(`Discord bot Suport: https://discord.gg/ATsqW78A4F
+        or user $report to send me message`)
     }
 
 }

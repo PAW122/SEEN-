@@ -46,6 +46,7 @@ naprawić blitzstats
     25.wywalić animelist na plkach textowych i zrobić na db
     27.zrobić staty z lola na api
     28.dodać żeby kazdy serwer mógł do ekonomi ustawić własne emoji
+    29.komenda na kanał do ankiet -- każda wiadomość na danym kanale zamieniana na ankiete
 # info
 messages log -- nie robie server settings bo i tak jest tylko dla adminów
 24.naprawić na /ankieta bot nie zostawia reakcji(emotek) pod ankietą -- idk jak to zrobić

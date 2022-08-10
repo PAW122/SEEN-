@@ -19,7 +19,7 @@ module.exports = {
     description: "wysyła pong",
     usage: "$ping",
     work: worker,
-    isSlash: true,
+    isSlash: false,
     //opcje:
             /*
         hug()	Sends a hug Gif
@@ -38,7 +38,7 @@ module.exports = {
         boobs()	Sends a boob Gif
         lesbian()	Sends a lesbian Gif
             */
-
+/*
         data: new SlashCommandBuilder()
         .setName('animegif')
         .setDescription('wysyła gifa z podanej kategori')
@@ -64,6 +64,7 @@ module.exports = {
 
                     )
         ),
+        
     executeInteraction: async (inter) => {
         if (work != true) {
             const embed_worker = new Discord.MessageEmbed()
@@ -92,7 +93,7 @@ if(await db.get(`check.check`) == true){
             }
 
         }
-    },
+    },*/
 
 
     execute: async(message, args) => {
