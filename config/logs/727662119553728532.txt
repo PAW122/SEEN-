@@ -1894,3 +1894,47 @@
 We will try to answer your question as soon as possible
 9.08.2022   01:51   ogólny   PAW#5844   osu:
 9.08.2022   01:51   ogólny   PAW#5844   
+10.08.2022   10:34   bot   PAW#5844   $daily
+10.08.2022   10:34   bot   -V1PE#3809   Odebrałeś 54 💵
+            masz łącznie 1054 💵
+10.08.2022   10:34   bot   SEEN-#5771   Odebrałeś 98 💵
+            masz łącznie 1098 💵
+10.08.2022   11:03   bot   PAW#5844   $srv_set
+10.08.2022   11:03   bot   -V1PE#3809   
+10.08.2022   11:03   bot   PAW#5844   $srv_set prefix %
+10.08.2022   11:03   bot   -V1PE#3809   
+10.08.2022   11:04   bot   PAW#5844   $settings prefix %
+10.08.2022   11:04   bot   PAW#5844   $settings prefix %
+10.08.2022   11:05   bot   PAW#5844   $cos
+10.08.2022   11:05   bot   PAW#5844   $ping
+10.08.2022   11:05   bot   PAW#5844   %ping
+10.08.2022   11:05   bot   -V1PE#3809   pong!
+10.08.2022   11:05   bot   PAW#5844   $settings prefix .
+10.08.2022   11:06   bot   PAW#5844   .ping
+10.08.2022   11:06   bot   PAW#5844   $settings prefix )
+10.08.2022   11:06   bot   PAW#5844   )ping
+10.08.2022   11:06   bot   PAW#5844   %ping
+10.08.2022   11:06   bot   -V1PE#3809   pong!
+10.08.2022   11:09   bot   PAW#5844   $settings prefix $
+10.08.2022   11:09   bot   PAW#5844   $ping
+10.08.2022   13:15   bot   PAW#5844   $settings deafult
+10.08.2022   13:15   bot   SEEN-#5771   przywrucono deafultowe ustawienia
+10.08.2022   13:15   bot   PAW#5844   $srv_set
+10.08.2022   13:15   bot   SEEN-#5771   
+10.08.2022   13:16   bot   PAW#5844   $settings ticket 745768777022701648 923300408372396032
+10.08.2022   13:16   bot   SEEN-#5771   ustawiono
+10.08.2022   13:16   bot   PAW#5844   %settings deafult
+10.08.2022   13:16   bot   -V1PE#3809   przywrucono deafultowe ustawienia
+10.08.2022   13:16   bot   PAW#5844   $settings ticket 745768777022701648 923300408372396032
+10.08.2022   13:16   bot   -V1PE#3809   ustawiono
+10.08.2022   13:21   minc-serv-18   -V1PE#3809   
+10.08.2022   13:22   minc-serv-18   -V1PE#3809   
+10.08.2022   13:23   minc-serv-18   -V1PE#3809   
+10.08.2022   13:23   bot   -V1PE#3809   Ticket has been sent
+10.08.2022   13:23   bot   PAW#5844   $settings deafult
+10.08.2022   13:23   bot   -V1PE#3809   przywrucono deafultowe ustawienia
+10.08.2022   13:25   bot   -V1PE#3809   nie ustawiłeś id kanału dla ticketów
+10.08.2022   13:26   bot   PAW#5844   $settings ticket 745768777022701648 923300408372396032
+10.08.2022   13:26   bot   -V1PE#3809   ustawiono
+10.08.2022   13:27   minc-serv-18   -V1PE#3809   ten kanał nie służy do tworzenia ticketów.
+ użyj <#745768777022701648>

@@ -24,7 +24,6 @@ npm i js-queue
 
 # do dodania:
 naprawić blitzstats
-    2.slashe dla ticketów
     3.komenda my ani list na db
     4.ruletka dla ekonomi
     5.system lvl na db z canvasem
@@ -45,9 +44,8 @@ naprawić blitzstats
     20.zrobić button role na srv_set dla każdego serwera
     23.dodać możliwość oznaczenia kanału śledzączgo updaty bota z githuba (na db)
     25.wywalić animelist na plkach textowych i zrobić na db
-    26.dodać coś na styl trybu serwisowego - jak jest włączony bot zawsze odpisuje że jest przerw techniczna
     27.zrobić staty z lola na api
-    28.naprawić komende daily
+    28.dodać żeby kazdy serwer mógł do ekonomi ustawić własne emoji
 # info
 messages log -- nie robie server settings bo i tak jest tylko dla adminów
 24.naprawić na /ankieta bot nie zostawia reakcji(emotek) pod ankietą -- idk jak to zrobić

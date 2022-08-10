@@ -60,18 +60,18 @@ module.exports = {
 
         if(await db.get(`${userId}.daily_coins[0]`) < now_rok){
           
-            await db.set(`${userId}.daily_coins[0]`, now_rok)
             coins_add() 
+            await db.set(`${userId}.daily_coins[0]`, now_rok)
 
         }else if(await db.get(`${userId}.daily_coins[1]`) < now_month){
            
-            await db.set(`${userId}.daily_coins[1]`, now_month)
-            coins_add()  
+            coins_add() 
+            await db.set(`${userId}.daily_coins[1]`, now_month) 
 
         }else if(await db.get(`${userId}.daily_coins[2]`) < now_day){
 
-            await db.set(`${userId}.daily_coins[2]`, now_day)
             coins_add() 
+            await db.set(`${userId}.daily_coins[2]`, now_day)
         }else{
             message.reply("Odebrałeś już dzisiejszą nagrode. Spróbuj ponownie jutro")
         }

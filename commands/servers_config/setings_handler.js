@@ -42,6 +42,8 @@ module.exports = (message) => {
         await db.set(`anime_zapowiedzi`, { worker: true , reason: "this command is disabled on this server."})
         await db.set(`anime_seen`, { worker: true , reason: "this command is disabled on this server."})
         await db.set(`unban`, { worker: true , reason: "this command is disabled on this server."})
+        await db.set(`ticket`, { worker: true , reason: "this command is disabled on this server."})
+        
         await new Promise(r => setTimeout(r, 2000));
 
 

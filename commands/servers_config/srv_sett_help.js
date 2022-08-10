@@ -31,8 +31,8 @@ const embed_pl = new Discord.MessageEmbed()
         {
             name: `$settings prefix`,
             value: `pozwala zmienić prefix dla serwera
-         użycie: $srv_set prefix <your prefix>
-         przykład: $srv_set prefix $`, inline: true
+         użycie: $settings prefix <your prefix>
+         przykład: $settings prefix $`, inline: true
         },
 
         {
@@ -109,6 +109,7 @@ module.exports = {
                 { name: `anime_zapowiedzi`, value: `${await db.get(`anime_zapowiedzi.worker`,)}`, inline: true },
                 { name: `anime_seen`, value: `${await db.get(`anime_seen.worker`,)}`, inline: true },
                 { name: `unban`, value: `${await db.get(`unban.worker`,)}`, inline: true },
+                { name: `ticket`, value: `${await db.get(`ticket.worker`,)}`, inline: true },
 
 
             )

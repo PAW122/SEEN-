@@ -12,6 +12,11 @@ module.exports = {
       return message.channel.send("nie masz uprawnień Administratora")
     }
 
+    // change nickname for a single guild
+async function updateNickname(guild) {
+  return guild.me.setNickname(`SEEN-${args[1]}`);
+}
+
     if (args[0] == "deafult") {
       setting_handler(message)
       await new Promise(r => setTimeout(r, 2000));
@@ -32,8 +37,9 @@ module.exports = {
       }
 
       if (args[0] == "prefix") {
-
         await db.set(`prefix.check`, args[1])
+        const guild_id = message.guild.id
+        updateNickname(guild_id)
         return message.reply("ustawiono")
 
       }
@@ -207,6 +213,11 @@ module.exports = {
             await db.set(`unban.reason`, "this command is disabled on this server.")
             return message.reply("ustawiono")
           }
+          if (command_name == "ticket") {
+            await db.set(`ticket.worker`, false)
+            await db.set(`ticket.reason`, "this command is disabled on this server.")
+            return message.reply("ustawiono")
+          }
         }
 
         if (args[0] == "on") {
@@ -352,6 +363,11 @@ module.exports = {
           if (command_name == "unban") {//narazie nie dodaje funkcji
             await db.set(`unban.worker`, true)//wyłączenia
             await db.set(`unban.reason`, "this command is disabled on this server.")
+            return message.reply("ustawiono")
+          }
+          if (command_name == "ticket") {
+            await db.set(`ticket.worker`, true)
+            await db.set(`ticket.reason`, "this command is disabled on this server.")
             return message.reply("ustawiono")
           }
         }

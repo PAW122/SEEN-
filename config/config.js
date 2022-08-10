@@ -2,7 +2,7 @@ module.exports = {
     //token for tests
     token: "ODY5NTg3ODc3NDc3MTAxNTkw.GlzDM1.-g1GK0ESq9eZOp92S77v_oo6-SquxCiBLFetaY",
     test_bot: true,
-    prefix: "$",//set prefix
+    prefix: "$",//set deafult prefix
     commands_logs: "True",//True/False
     load_commands_logs: "True", //True/False 
 
@@ -21,7 +21,7 @@ module.exports = {
     economy_emoji: "💵",
 
     //zwiększać z każdą aktualizacją db
-    db_version: "0.6",
+    db_version: "0.7",
 
     report_channel_id: "1006283491568267374",
     ban_channel_id: "1006297123521835049",
