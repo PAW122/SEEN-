@@ -43,6 +43,10 @@ module.exports = {
            const user_coins = await db.get(`${userId}.coins[0]`)
            const coins_to_add = user_coins + weekly_coins
            await db.set(`${userId}.coins[0]`, coins_to_add)
+
+           await db.set(`${userId}.get_weekly[0]`, 0)
+           await db.set(`${userId}.weekly[0]`, false)
+
            return message.reply(`Odebrałeś 500 ${emoji}
             masz łącznie ${coins_to_add} ${emoji}`)
 
@@ -52,6 +56,9 @@ module.exports = {
                 const coins_to_add = user_coins + vip_cash
 
                 await db.set(`${userId}.coins[0]`, coins_to_add)
+
+                await db.set(`${userId}.get_weekly[0]`, 0)
+           await db.set(`${userId}.weekly[0]`, false)
 
                 return message.reply(`Odebrałeś ${vip_cash} ${emoji}
                 masz łącznie ${coins_to_add} ${emoji}`)

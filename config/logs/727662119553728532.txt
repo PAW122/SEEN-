@@ -1989,3 +1989,8 @@ We will try to answer your question as soon as possible
 10.08.2022   17:52   bot   PAW#5844   $profil
 10.08.2022   17:52   bot   -V1PE#3809   masz 1057 💵
         przedmioty: undefined
+10.08.2022   18:32   bot   PAW#5844   $weekly
+10.08.2022   18:32   bot   -V1PE#3809   nie możesz jeszcze odebrać nagrody tygodniowej
+        pozostało 7 dni
+10.08.2022   18:33   bot   PAW#5844   $daily
+10.08.2022   18:33   bot   -V1PE#3809   Odebrałeś już dzisiejszą nagrode. Spróbuj ponownie jutro
