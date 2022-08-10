@@ -24,6 +24,8 @@ npm i js-queue
 
 # do dodania:
 naprawić blitzstats
+1.dodać weekly -- tygodniowa nagraoda do ekonomi
+2.dodać komende na set deafult dla ekonomi na updaty db
     3.komenda my ani list na db
     4.ruletka dla ekonomi
     5.system lvl na db z canvasem
@@ -47,6 +49,7 @@ naprawić blitzstats
     27.zrobić staty z lola na api
     28.dodać żeby kazdy serwer mógł do ekonomi ustawić własne emoji
     29.komenda na kanał do ankiet -- każda wiadomość na danym kanale zamieniana na ankiete
+    30.eoknomia -- im więcej dni z rzędu się odbiera coinsy tym wiekszy ma sie bonus
 # info
 messages log -- nie robie server settings bo i tak jest tylko dla adminów
 24.naprawić na /ankieta bot nie zostawia reakcji(emotek) pod ankietą -- idk jak to zrobić

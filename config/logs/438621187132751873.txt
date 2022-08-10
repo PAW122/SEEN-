@@ -731,3 +731,55 @@ i możecie spróbować poszukać jakiś błędów 🙂
 10.08.2022   10:54   『-👮moderacja-』   -V1PE#3809   Odebrałeś 62 💵
             masz łącznie 1118 💵
 10.08.2022   10:54   『-👮moderacja-』   PAW#5844   dobra działa dobrze bo tera ustawiłem na jutro
+10.08.2022   14:13   『-👮moderacja-』   __BobaFett#5726   $daily
+10.08.2022   14:13   『-👮moderacja-』   -V1PE#3809   Twój profil właśnie został stworzony
+10.08.2022   14:14   『-👮moderacja-』   __BobaFett#5726   $daily
+10.08.2022   14:14   『-👮moderacja-』   -V1PE#3809   Odebrałeś 80 💵
+            masz łącznie 1080 💵
+10.08.2022   14:14   『-👮moderacja-』   __BobaFett#5726   $weekly
+10.08.2022   14:22   『-👮moderacja-』   PAW#5844   hmm chyba to dodam do bota :>
+10.08.2022   14:22   『-👮moderacja-』   __BobaFett#5726   Kurła nie działa
+10.08.2022   14:22   『-👮moderacja-』   __BobaFett#5726   No musisz
+10.08.2022   14:26   『-👮moderacja-』   PAW#5844   ale będzie zrobione w inny sposób bo będzie do odebrania co 7 użyć daily
+10.08.2022   14:27   『-👮moderacja-』   PAW#5844   bo inaczaj bardzo bym skomplikował db
+10.08.2022   14:27   🔒   Dyno#0000   
+10.08.2022   14:40   『-👮moderacja-』   __BobaFett#5726   Nooo
+10.08.2022   14:57   『-👮moderacja-』   PAW#5844   ale jest 1 haczyk z każdym dodaniem czegoś do ekonomi musze wyczyścić db do zera :<
+10.08.2022   15:02   『-👮moderacja-』   __BobaFett#5726   Aha
+10.08.2022   15:02   『-👮moderacja-』   __BobaFett#5726   Ja chcę kasę
+10.08.2022   15:11   『-👮moderacja-』   PAW#5844   jak nie zresetuje to nie będzie nowych komend czyli tygodniowych 500 monet
+10.08.2022   15:12   『-👮moderacja-』   PAW#5844   $ecodeafult
+10.08.2022   15:12   『-👮moderacja-』   PAW#5844   $ecodeafult
+10.08.2022   15:12   『-👮moderacja-』   __BobaFett#5726   Zjebane
+10.08.2022   15:12   『-👮moderacja-』   __BobaFett#5726   Btw
+10.08.2022   15:12   『-👮moderacja-』   __BobaFett#5726   Po co robisz bota do ekonomii
+10.08.2022   15:12   『-👮moderacja-』   PAW#5844   tak se
+10.08.2022   15:13   『-👮moderacja-』   __BobaFett#5726   Okej
+10.08.2022   15:13   『-👮moderacja-』   __BobaFett#5726   Będzie trzeba chyba przełożyć nockę
+10.08.2022   15:13   『-👮moderacja-』   __BobaFett#5726   Bo Dawida nie ma
+10.08.2022   15:13   『-👮moderacja-』   __BobaFett#5726   A bez niego to chujowo
+10.08.2022   15:14   『-👮moderacja-』   __BobaFett#5726   
+10.08.2022   15:14   『-👮moderacja-』   __BobaFett#5726   Ten weekend jak
+10.08.2022   15:14   『-👮moderacja-』   __BobaFett#5726   ?
+10.08.2022   15:14   『-👮moderacja-』   __BobaFett#5726   <@438336824516149249>  <@577507822011416592>
+10.08.2022   15:17   『-👮moderacja-』   ToxicWaste#1928   mnie tam pasuje
+10.08.2022   15:18   『-👮moderacja-』   ToxicWaste#1928   $daily
+10.08.2022   15:18   『-👮moderacja-』   -V1PE#3809   Twój profil właśnie został stworzony
+10.08.2022   15:18   『-👮moderacja-』   ToxicWaste#1928   $daily
+10.08.2022   15:18   『-👮moderacja-』   -V1PE#3809   możesz odebrać tygodniowa nagrode
+ użyj $weekly aby odebrać nagrode
+10.08.2022   15:18   『-👮moderacja-』   -V1PE#3809   Odebrałeś 85 💵
+            masz łącznie 1085 💵
+10.08.2022   15:18   『-👮moderacja-』   ToxicWaste#1928   nois
+10.08.2022   15:18   『-👮moderacja-』   ToxicWaste#1928   ja wgl widzę że ten zysk to rng jest?
+10.08.2022   15:18   『-👮moderacja-』   ToxicWaste#1928   bo dostałem więcej niż np darek
+10.08.2022   15:19   『-👮moderacja-』   __BobaFett#5726   Aha ty kurwo
+10.08.2022   15:19   『-👮moderacja-』   __BobaFett#5726   $daily
+10.08.2022   15:19   『-👮moderacja-』   -V1PE#3809   Odebrałeś już dzisiejszą nagrode. Spróbuj ponownie jutro
+10.08.2022   15:19   『-👮moderacja-』   __BobaFett#5726   Wypierdalaj<@869587877477101590>
+10.08.2022   17:54   『-👮moderacja-』   PAW#5844   od 50 do 100
+10.08.2022   17:54   『-👮moderacja-』   PAW#5844   rng mocno
+10.08.2022   17:54   『-👮moderacja-』   __BobaFett#5726   O kurła
+10.08.2022   17:56   『-👮moderacja-』   PAW#5844   ale jak masz vipa to masz x2
+10.08.2022   17:59   『-👮moderacja-』   __BobaFett#5726   A jak zdobyć vipa
+10.08.2022   17:59   『-👮moderacja-』   __BobaFett#5726   $vip

@@ -19,9 +19,12 @@ module.exports = {
     riot_api: "RGAPI-dd865e39-d1fa-4360-bf07-c4f5aaa00eac",
 
     economy_emoji: "💵",
+    weekly_coins: 500,
+    //dodać cofig vip mnożnik
 
     //zwiększać z każdą aktualizacją db
     db_version: "0.7",
+    economy_db_version: "0.1",
 
     report_channel_id: "1006283491568267374",
     ban_channel_id: "1006297123521835049",

@@ -40,6 +40,21 @@ module.exports = {
         const cash2 = rng + coins
         const cash = parseInt(cash2)
 
+        async function weekly_counter(){
+            const wekly = await db.get(`${userId}.get_weekly[0]`)
+            const daily = 7 - wekly
+            if(wekly >= 7){
+                await db.set(`${userId}.get_weekly[0]`, 0)
+                await db.set(`${userId}.weekly[0]`, true)
+                await new Promise(r => setTimeout(r, 2000));
+            }
+            if(await db.get(`${userId}.weekly[0]`) == true){
+                return message.reply("możesz odebrać tygodniowa nagrode\n użyj $weekly aby odebrać nagrode")
+            }else{
+                return message.reply(`jeszcze ${daily} aby odebrać nagrode tygodniową`)
+            }
+        }
+
         async function coins_add(){
             if(await db.get(`${userId}.eq[0]`) == null){
 
@@ -61,16 +76,19 @@ module.exports = {
         if(await db.get(`${userId}.daily_coins[0]`) < now_rok){
           
             coins_add() 
+            weekly_counter()
             await db.set(`${userId}.daily_coins[0]`, now_rok)
 
         }else if(await db.get(`${userId}.daily_coins[1]`) < now_month){
            
             coins_add() 
+            weekly_counter()
             await db.set(`${userId}.daily_coins[1]`, now_month) 
 
         }else if(await db.get(`${userId}.daily_coins[2]`) < now_day){
 
             coins_add() 
+            weekly_counter()
             await db.set(`${userId}.daily_coins[2]`, now_day)
         }else{
             message.reply("Odebrałeś już dzisiejszą nagrode. Spróbuj ponownie jutro")
