@@ -1994,3 +1994,11 @@ We will try to answer your question as soon as possible
         pozostało 7 dni
 10.08.2022   18:33   bot   PAW#5844   $daily
 10.08.2022   18:33   bot   -V1PE#3809   Odebrałeś już dzisiejszą nagrode. Spróbuj ponownie jutro
+10.08.2022   19:00   bot   PAW#5844   $srv_set
+10.08.2022   19:00   bot   -V1PE#3809   
+10.08.2022   19:03   bot   PAW#5844   $givaey 500 2022 08 11 treść testowa
+10.08.2022   19:03   bot   -V1PE#3809   
+10.08.2022   19:04   bot   PAW#5844   $givaey 500 2022 08 11 treść testowa
+10.08.2022   19:04   bot   -V1PE#3809   
+10.08.2022   19:05   bot   PAW#5844   $givaey 500 2022 08 11 treść testowa
+10.08.2022   19:05   bot   -V1PE#3809   

@@ -24,7 +24,7 @@ npm i js-queue
 
 # do dodania:
 naprawić blitzstats
-1.dodać weekly -- tygodniowa nagraoda do ekonomi
+
 2.dodać komende na set deafult dla ekonomi na updaty db
     3.komenda my ani list na db
     4.ruletka dla ekonomi
@@ -53,3 +53,6 @@ naprawić blitzstats
 # info
 messages log -- nie robie server settings bo i tak jest tylko dla adminów
 24.naprawić na /ankieta bot nie zostawia reakcji(emotek) pod ankietą -- idk jak to zrobić
+
+zrobic komendy na separatorach zamiast na args 
+args.join(" ").split(/* separator */)
