@@ -80,6 +80,7 @@ client.once('ready', () => {
 
     //powitania
         generateImage(client)
+
         
 });
 
@@ -94,6 +95,7 @@ client.on('messageCreate', async message => {
 
     //auto reakcje
     emoji_reactions(message)
+
 
     //sprawdzanie prefixu serwerowego
     const guildId = message.guild.id
