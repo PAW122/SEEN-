@@ -51,6 +51,11 @@ naprawić blitzstats
     29.komenda na kanał do ankiet -- każda wiadomość na danym kanale zamieniana na ankiete
     30.eoknomia -- im więcej dni z rzędu się odbiera coinsy tym wiekszy ma sie bonus
     31.zrobić komende, która pozwala trackować powiadomienia z danego kanału yt
+    32.ekonomia -- depozyt który po jakmś czasie oddaje coinsy z np 20% dodatku
+    33.dodać skszynki -- możliwość kupowania i otwierania skrzynek z randomowymi przedmiotami np goldem i vip jako nagorda główna
+    34.warnt -- dodać warny. po dostaniu ilości warnów ustawionych przez administracje na kanał administracji będzie wysyłana wiadomość że urzytkownik ma już x warnów i jest do zbanowania
+    35.birthday -- jeżeli ktoś ma urodziny wysyła wiadomość że ktoś ma właśnie urzodziny i dostaje ileś cionsów
+
 # info
 messages log -- nie robie server settings bo i tak jest tylko dla adminów
 24.naprawić na /ankieta bot nie zostawia reakcji(emotek) pod ankietą -- idk jak to zrobić

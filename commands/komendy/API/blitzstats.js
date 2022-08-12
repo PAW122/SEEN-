@@ -84,12 +84,12 @@ if(await db.get(`check.check`) == true){
                 const clan_info_link = `https://api.wotblitz.${localization}/wotb/clans/accountinfo/?application_id=${API_KEY}&account_id=${accoundId}`
                 const clan_info = await axios.get(clan_info_link)
 
-                if(clan_info.data.data == null){
+                
 
-                }else{
+                try{
                     const clan_id = clan_info.data.data[accoundId].clan_id
                     const clan_join_timesamp = clan_info.data.data[accoundId].joined_at
-                }
+                
 
 
                //clan data
@@ -103,7 +103,10 @@ if(await db.get(`check.check`) == true){
                var clan_name = clan_data.data.data[clan_id].name
                }
                //153067
-
+            
+            }catch(err){
+                
+            }
 
 
                 //personal data

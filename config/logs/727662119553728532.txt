@@ -2044,3 +2044,12 @@ We will try to answer your question as soon as possible
 12.08.2022   03:12   bot   PAW#5844   $avatar <@797070806885990431>
 12.08.2022   03:12   bot   SEEN-#5771   
 12.08.2022   03:12   bot   SEEN-#5771   
+12.08.2022   11:34   bot   PAW#5844   $blitzstats __PAW
+12.08.2022   11:35   bot   PAW#5844   $blitzstats __PAW
+12.08.2022   11:35   bot   -V1PE#3809   
+12.08.2022   11:35   bot   PAW#5844   $blitzstats __lol
+12.08.2022   11:36   bot   PAW#5844   $blitzstats __lol
+12.08.2022   11:37   bot   PAW#5844   $blitzstats __lol
+12.08.2022   11:37   bot   -V1PE#3809   
+12.08.2022   11:37   bot   PAW#5844   $blitzstats __PAW
+12.08.2022   11:37   bot   -V1PE#3809   
