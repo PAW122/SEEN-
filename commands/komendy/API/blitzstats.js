@@ -73,12 +73,12 @@ if(await db.get(`check.check`) == true){
 
                 //personal
                 const response = await axios.get(link)
-                console.log(response.data)
+                //console.log(response.data)
                 
                 const nickname = response.data.data[0].nickname
                 const accoundId = response.data.data[0].account_id
-                console.log(nickname)
-                console.log(accoundId)
+                //console.log(nickname)
+                //console.log(accoundId)
 
                 //clan
                 const clan_info_link = `https://api.wotblitz.${localization}/wotb/clans/accountinfo/?application_id=${API_KEY}&account_id=${accoundId}`
@@ -105,7 +105,7 @@ if(await db.get(`check.check`) == true){
                //153067
             
             }catch(err){
-                
+
             }
 
 
