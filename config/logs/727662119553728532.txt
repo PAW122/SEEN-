@@ -2053,3 +2053,192 @@ We will try to answer your question as soon as possible
 12.08.2022   11:37   bot   -V1PE#3809   
 12.08.2022   11:37   bot   PAW#5844   $blitzstats __PAW
 12.08.2022   11:37   bot   -V1PE#3809   
+12.08.2022   12:44   bot   PAW#5844   $mal add/cos/test
+12.08.2022   12:47   bot   PAW#5844   $mal add/cos2/test2
+12.08.2022   12:50   bot   PAW#5844   $mal add /cos2/test2
+12.08.2022   12:50   bot   -V1PE#3809   pomyżlnie dodano do mal
+12.08.2022   12:51   bot   PAW#5844   $mal add /cos3/test3
+12.08.2022   12:51   bot   -V1PE#3809   pomyżlnie dodano do mal
+12.08.2022   12:53   bot   PAW#5844   $mal add /cos3
+12.08.2022   12:53   bot   -V1PE#3809   pomyżlnie dodano do mal
+12.08.2022   12:54   bot   PAW#5844   $mal add /cos4
+12.08.2022   12:54   bot   -V1PE#3809   pomyżlnie dodano do mal
+12.08.2022   12:56   bot   PAW#5844   $mal list
+12.08.2022   12:56   bot   -V1PE#3809   twój profil został właśnie sworzony. użyj komendy ponownie aby dodać coś do mal
+12.08.2022   15:36   bot   PAW#5844   $game
+12.08.2022   15:59   bot   PAW#5844   $game
+12.08.2022   16:02   bot   PAW#5844   $game
+12.08.2022   16:02   bot   -V1PE#3809   
+12.08.2022   16:03   bot   PAW#5844   $game
+12.08.2022   16:03   bot   -V1PE#3809   Type name of country
+12.08.2022   16:03   bot   -V1PE#3809   
+12.08.2022   16:12   bot   PAW#5844   \🇦
+12.08.2022   16:12   bot   PAW#5844   \🇧
+12.08.2022   16:13   bot   PAW#5844   \🇨
+12.08.2022   16:13   bot   PAW#5844   \🇩
+12.08.2022   16:13   bot   PAW#5844   $game
+12.08.2022   16:13   bot   -V1PE#3809   A: 4
+B:3
+C:6
+D:3
+12.08.2022   16:13   bot   -V1PE#3809   A: 4
+B:3
+C:3
+D:6
+12.08.2022   16:13   bot   -V1PE#3809   
+12.08.2022   16:16   bot   PAW#5844   $game
+12.08.2022   16:16   bot   -V1PE#3809   A: Algeria
+B:Argentina
+C:Armenia
+D:Algeria
+12.08.2022   16:16   bot   -V1PE#3809   
+12.08.2022   16:20   bot   PAW#5844   $game
+12.08.2022   16:20   bot   -V1PE#3809   
+12.08.2022   16:25   bot   PAW#5844   $game
+12.08.2022   16:25   bot   -V1PE#3809   A: Angola
+B:Antigua and Barbuda
+C:Angola
+D:Albania
+12.08.2022   16:25   bot   -V1PE#3809   
+12.08.2022   16:26   bot   PAW#5844   $game
+12.08.2022   16:26   bot   -V1PE#3809   A: Albania
+B:Angola
+C:Albania
+D:Afghanistan
+12.08.2022   16:26   bot   -V1PE#3809   
+12.08.2022   16:35   bot   PAW#5844   $game
+12.08.2022   16:35   bot   -V1PE#3809   A: Algeria
+B:Armenia
+C:Algeria
+D:Afghanistan
+12.08.2022   16:35   bot   -V1PE#3809   
+12.08.2022   16:37   bot   PAW#5844   $game
+12.08.2022   16:37   bot   -V1PE#3809   A: Afghanistan
+B:Afghanistan
+C:Antigua and Barbuda
+D:Algeria
+12.08.2022   16:37   bot   -V1PE#3809   
+12.08.2022   16:40   bot   PAW#5844   $game
+12.08.2022   16:40   bot   -V1PE#3809   A: Angola
+B:Argentina
+C:Armenia
+D:Angola
+12.08.2022   16:40   bot   -V1PE#3809   
+12.08.2022   16:40   bot   PAW#5844   $game
+12.08.2022   16:40   bot   -V1PE#3809   A: Afghanistan
+B:Armenia
+C:Andorra
+D:Albania
+12.08.2022   16:40   bot   -V1PE#3809   
+12.08.2022   16:41   bot   PAW#5844   $game
+12.08.2022   16:41   bot   -V1PE#3809   A: Armenia
+B:Antigua and Barbuda
+C:Antigua and Barbuda
+D:Antigua and Barbuda
+12.08.2022   16:41   bot   -V1PE#3809   
+12.08.2022   16:44   bot   PAW#5844   $game
+12.08.2022   16:44   bot   -V1PE#3809   A: Angola
+B:Afghanistan
+C:Antigua and Barbuda
+D:Antigua and Barbuda
+12.08.2022   16:44   bot   -V1PE#3809   
+12.08.2022   16:54   bot   PAW#5844   $game
+12.08.2022   16:54   bot   -V1PE#3809   
+12.08.2022   16:55   bot   PAW#5844   $game
+12.08.2022   16:55   bot   -V1PE#3809   
+12.08.2022   16:56   bot   PAW#5844   $game
+12.08.2022   16:56   bot   -V1PE#3809   A: Antigua and Barbuda
+B:Afghanistan
+C:Antigua and Barbuda
+D:Antigua and Barbuda
+12.08.2022   16:56   bot   -V1PE#3809   
+12.08.2022   16:58   bot   PAW#5844   $game
+12.08.2022   16:58   bot   -V1PE#3809   A: Andorra
+B:Albania
+C:Antigua and Barbuda
+D:Albania
+12.08.2022   16:58   bot   -V1PE#3809   
+12.08.2022   16:58   bot   -V1PE#3809   dobra odpowiedż
+12.08.2022   16:58   bot   -V1PE#3809   dobra odpowiedż
+12.08.2022   16:58   bot   -V1PE#3809   błędna odpowiedż
+12.08.2022   16:58   bot   -V1PE#3809   błędna odpowiedż
+12.08.2022   16:58   bot   -V1PE#3809   błędna odpowiedż
+12.08.2022   16:58   bot   -V1PE#3809   błędna odpowiedż
+12.08.2022   16:58   bot   -V1PE#3809   błędna odpowiedż
+12.08.2022   16:58   bot   -V1PE#3809   błędna odpowiedż
+12.08.2022   16:59   bot   PAW#5844   $game
+12.08.2022   16:59   bot   -V1PE#3809   A: Afghanistan
+B:Armenia
+C:Albania
+D:Antigua and Barbuda
+12.08.2022   16:59   bot   -V1PE#3809   
+12.08.2022   16:59   bot   -V1PE#3809   dobra odpowiedż
+12.08.2022   16:59   bot   -V1PE#3809   dobra odpowiedż
+12.08.2022   17:00   bot   PAW#5844   $game
+12.08.2022   17:00   bot   -V1PE#3809   A: Albania
+B:Albania
+C:Algeria
+D:Afghanistan
+12.08.2022   17:00   bot   -V1PE#3809   
+12.08.2022   17:00   bot   PAW#5844   $game
+12.08.2022   17:00   bot   -V1PE#3809   A: Argentina
+B:Afghanistan
+C:Armenia
+D:Andorra
+12.08.2022   17:00   bot   -V1PE#3809   
+12.08.2022   17:00   bot   -V1PE#3809   błędna odpowiedż
+12.08.2022   17:00   bot   -V1PE#3809   błędna odpowiedż
+12.08.2022   17:00   bot   -V1PE#3809   błędna odpowiedż
+12.08.2022   17:00   bot   -V1PE#3809   błędna odpowiedż
+12.08.2022   17:00   bot   -V1PE#3809   błędna odpowiedż
+12.08.2022   17:00   bot   -V1PE#3809   błędna odpowiedż
+12.08.2022   17:01   bot   PAW#5844   $game
+12.08.2022   17:01   bot   -V1PE#3809   A: Albania
+B:Andorra
+C:Afghanistan
+D:Albania
+12.08.2022   17:01   bot   -V1PE#3809   
+12.08.2022   17:02   bot   -V1PE#3809   dobra odpowiedż
+12.08.2022   17:02   bot   -V1PE#3809   dobra odpowiedż
+12.08.2022   17:02   bot   -V1PE#3809   błędna odpowiedż
+12.08.2022   17:02   bot   -V1PE#3809   błędna odpowiedż
+12.08.2022   17:02   bot   -V1PE#3809   błędna odpowiedż
+12.08.2022   17:02   bot   -V1PE#3809   błędna odpowiedż
+12.08.2022   17:03   bot   PAW#5844   $game
+12.08.2022   17:03   bot   -V1PE#3809   A: Afghanistan
+B:Albania
+C:Argentina
+D:Antigua and Barbuda
+12.08.2022   17:03   bot   -V1PE#3809   
+12.08.2022   17:04   bot   -V1PE#3809   błędna odpowiedż
+12.08.2022   17:04   bot   -V1PE#3809   błędna odpowiedż
+12.08.2022   17:06   bot   PAW#5844   $game
+12.08.2022   17:06   bot   -V1PE#3809   A: Antigua and Barbuda
+B:Albania
+C:Armenia
+D:Armenia
+12.08.2022   17:06   bot   -V1PE#3809   
+12.08.2022   17:07   bot   PAW#5844   $game
+12.08.2022   17:07   bot   -V1PE#3809   A: Andorra
+B:Armenia
+C:Algeria
+D:Angola
+12.08.2022   17:07   bot   -V1PE#3809   
+12.08.2022   17:07   bot   -V1PE#3809   dobra odpowiedż
+12.08.2022   17:07   bot   -V1PE#3809   dobra odpowiedż
+12.08.2022   17:10   bot   PAW#5844   $game
+12.08.2022   17:10   bot   -V1PE#3809   A: Antigua and Barbuda
+B:Albania
+C:Afghanistan
+D:Afghanistan
+12.08.2022   17:10   bot   -V1PE#3809   
+12.08.2022   17:10   bot   -V1PE#3809   dobra odpowiedż
+12.08.2022   17:10   bot   -V1PE#3809   dobra odpowiedż
+12.08.2022   17:10   bot   PAW#5844   $game
+12.08.2022   17:10   bot   -V1PE#3809   A: Algeria
+B:Antigua and Barbuda
+C:Armenia
+D:Armenia
+12.08.2022   17:10   bot   -V1PE#3809   
+12.08.2022   17:11   bot   -V1PE#3809   błędna odpowiedż
+12.08.2022   17:11   bot   -V1PE#3809   błędna odpowiedż

@@ -14,14 +14,10 @@ module.exports =(userId) => {
             await db.set(`${userId}`,
             {check: true,title: [], content: []})
 
-            //dodaje element bez usówania
-            await db.push(`${userId}.title`, tytuł)
-            await db.push(`${userId}.content`, content)
-            //to będzie jako ten sam id (title[0])
-
-
-
             await new Promise(r => setTimeout(r, 2000));
+        }else{
+            //sprawdż jak dużo args znajduje się w title i dodaj ten jako następny
+
         }
 
     })();

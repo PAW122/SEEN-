@@ -21,9 +21,8 @@ discord-player
 npm i js-queue
 
 # w trakcie:
-
+mal -- do dokończenia system odczytywania listy
 # do dodania:
-naprawić blitzstats
 
 2.dodać komende na set deafult dla ekonomi na updaty db
     3.komenda my ani list na db

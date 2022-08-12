@@ -89,10 +89,6 @@ module.exports = {
             return message.reply("roll możesz użyć maksymalnie 15 razy dziennie")
         }
 
-        
-
-
-
     }
 
 }
