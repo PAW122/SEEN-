@@ -1,45 +1,51 @@
 //npm i quick.db better-sqlite3
 const Discord = require("discord.js")
 const { QuickDB } = require("quick.db");
+const config = require("../../config/config")
+const prefix = config.prefix
 module.exports = {
     name: "add_acc",
-    execute: async (message, args) => {
+    execute: async (message) => {
+
+        // /-jest separatorem
+        const args = message.content.slice(prefix.length).trim().split("/");
+
+
         const guildId = message.guild.id
         //dodawanie konta do db
         const db = new QuickDB({ filePath: process.cwd() + `/db/blitz_acc/acc_db/blitz_acc.sqlite` });
         const users_db = new QuickDB({ filePath: process.cwd() + `/db/blitz_acc/acc_db/user_acc.sqlite` });
         const userId = message.author.id
-        if (args[0] == "help") {
+        if (args[1] == "help") {
             return message.reply(`how create account?
         !!<tiery> podajemy po przecinku bez spacji: 7,8,10
 
-        use: $add_acc <accmail@gmail.com> <acc_password>
-         <nickname> <bans> <tiery> <wr> <all_battles> <gold>
+        use: $add_acc/accmail@gmail.com/acc_password/
+         /nickname/bans/tiery/wr/all_battles/gold
          
-         example: $add_acc accmail@gmail.com 123pass456
-         nick_name_123 0 8,9,10 56.42 13257 100`)
+         example: $add_acc /test@cos.cos/123/nickname/1/4,5/64%/1200/100`)
         }
 
         if(await users_db.get(`${userId}.administrator`) != "true"){
-            message.reply("Nie posiadasz wymaganych uprawnień do korzytania z tej komendy")
+            return message.reply("Nie posiadasz wymaganych uprawnień do korzytania z tej komendy")
         }
 
-        if (!args[0]) {
+        if (!args[1]) {
             return message.reply("nie podałeś maila")
         }
-        if (isNaN(args[3])) {
+        if (isNaN(args[4])) {
             return message.reply("podałeś nieprawidłową ilość banów")
         }
-        if ((!args[4])) {
+        if ((!args[5])) {
             return message.reply("podałeś nieprawidłowy tieru")
         }
-        if (isNaN(args[5])) {
+        if (!args[6]) {
             return message.reply("podałeś nieprawidłową ilość wr")
         }
-        if (isNaN(args[6])) {
+        if (isNaN(args[7])) {
             return message.reply("podałeś nieprawidłową ilość bitew")
         }
-        if (isNaN(args[7])) {
+        if (isNaN(args[8])) {
             return message.reply("podałeś nieprawidłową ilość golda")
         }
 
@@ -54,14 +60,14 @@ module.exports = {
             const day = current.getDay()
 
             //deafultowe ustawienia
-            const acc_mail = args[0]
-            const acc_password = args[1]
-            const acc_nick = args[2]
-            const bany = args[3]
-            const tier = args[4]
-            const wr = args[5]
-            const bitwy = args[6]
-            const gold = args[7]
+            const acc_mail = args[1]
+            const acc_password = args[2]
+            const acc_nick = args[3]
+            const bany = args[4]
+            const tier = args[5]
+            const wr = args[6]
+            const bitwy = args[7]
+            const gold = args[8]
 
 
             const last_battle_rok = "?"

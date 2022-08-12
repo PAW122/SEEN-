@@ -1,36 +1,40 @@
 //npm i quick.db better-sqlite3
 const Discord = require("discord.js")
 const { QuickDB } = require("quick.db");
+const config = require("../../config/config")
+const prefix = config.prefix
 module.exports = {
     name: "add_user",
-    execute: async (message, args) => {
+    execute: async (message) => {
         const guildId = message.guild.id
         const userId = message.author.id
         const db = new QuickDB({ filePath: process.cwd() + `/db/blitz_acc/acc_db/user_acc.sqlite` });
         //const db2 = new QuickDB({ filePath: process.cwd() + `/db/blitz_acc/acc_db/blitz_acc.sqlite` });
 
+        const args = message.content.slice(prefix.length).trim().split("/");
+
         //pozyskiwanie kont
         //const data = await db2.all();
         //console.log(data[0].id)
 
-        if (args[0] == "help") {
+        if (args[1] == "help") {
             return message.reply(`how add users?
             <administrator> true - daje możliwość dodawania kont do db , dodawania nowych kont urzytkowników
             <permisions> - 1:daje dostęp do pierwszych 10 kont itd
-            $add_user <userId> <permisions> <administrator>
-            example: $add_user 438336824516149249 1 false`)
+            $add_user/userId/permisions/administrator/
+            example: $add_user/438336824516149249/1/false`)
         }
 
         //permisions    category 1 - acc1-10    category 1 - acc11-20 ...
         //
-        if (!args[0] || isNaN(args[0])) {
+        if (!args[1] || isNaN(args[1])) {
             return message.reply("podałeś nieprawidłowy user id")
         }
-        if (!args[1] || isNaN(args[1])) {
+        if (!args[2] || isNaN(args[2])) {
             return message.reply("podałeś nieprawidłowe permisje")
         }
 
-        if (args[2] != "true" && args[2] != "false") {
+        if (args[3] != "true" && args[3] != "false") {
             return message.reply("<administrator> musi być true albo false")
         }
 
@@ -39,9 +43,9 @@ module.exports = {
             const add_user_id = args[0]
 
             async function add_user()  {
-                const add_user_id = args[0]
-                const permisje = args[1]
-                const admin = args[2]
+                const add_user_id = args[1]
+                const permisje = args[2]
+                const admin = args[3]
                 const dodany_przez = message.author.id
 
                 const x = await db.get(`${add_user_id}.check`)

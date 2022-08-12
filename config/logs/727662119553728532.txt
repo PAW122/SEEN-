@@ -2005,3 +2005,42 @@ We will try to answer your question as soon as possible
 11.08.2022   14:31   bot   PAW#5844   c
 11.08.2022   14:31   bot   PAW#5844   cos
 11.08.2022   14:32   bot   PAW#5844   x
+11.08.2022   14:42   bot   PAW#5844   $add_acc test@cos.cos/123/nickname/1/4,5/64%/1200/100
+11.08.2022   14:42   bot   SEEN-#5771   Nie posiadasz wymaganych uprawnień do korzytania z tej komendy
+11.08.2022   14:42   bot   SEEN-#5771   Nie posiadasz wymaganych uprawnień do korzytania z tej komendy
+11.08.2022   14:42   bot   SEEN-#5771   podałeś nieprawidłową ilość wr
+11.08.2022   14:42   bot   SEEN-#5771   podałeś nieprawidłową ilość banów
+11.08.2022   14:43   bot   PAW#5844   $add_acc <test@cos.cos><123><nickname><1><4,5><64%><1200><100>
+11.08.2022   14:43   bot   SEEN-#5771   Nie posiadasz wymaganych uprawnień do korzytania z tej komendy
+11.08.2022   14:43   bot   SEEN-#5771   Nie posiadasz wymaganych uprawnień do korzytania z tej komendy
+11.08.2022   14:43   bot   SEEN-#5771   podałeś nieprawidłową ilość banów
+11.08.2022   14:43   bot   SEEN-#5771   podałeś nieprawidłową ilość banów
+11.08.2022   14:43   bot   PAW#5844   $clear 20
+11.08.2022   14:44   bot   PAW#5844   $clear 1
+11.08.2022   14:44   bot   SEEN-#5771   Usunąłem 1 wiadomości
+11.08.2022   14:44   bot   SEEN-#5771   Usunąłem 1 wiadomości
+11.08.2022   14:44   bot   PAW#5844   $clear 2
+11.08.2022   14:44   bot   SEEN-#5771   Usunąłem 2 wiadomości
+11.08.2022   14:44   bot   PAW#5844   $clear 5
+11.08.2022   14:44   bot   SEEN-#5771   Usunąłem 5 wiadomości
+11.08.2022   14:45   bot   PAW#5844   $add_acc /test@cos.cos/123/nickname/1/4,5/64%/1200/100
+11.08.2022   14:45   bot   SEEN-#5771   Nie posiadasz wymaganych uprawnień do korzytania z tej komendy
+11.08.2022   14:45   bot   SEEN-#5771   podałeś nieprawidłową ilość banów
+11.08.2022   14:46   bot   PAW#5844   $add_acc /test@cos.cos/123/nickname/1/4,5/64%/1200/100
+11.08.2022   14:46   bot   SEEN-#5771   Nie posiadasz wymaganych uprawnień do korzytania z tej komendy
+11.08.2022   14:46   bot   SEEN-#5771   podałeś nieprawidłową ilość wr
+11.08.2022   14:48   bot   PAW#5844   $add_acc /test@cos.cos/123/nickname/1/4,5/64%/1200/100
+11.08.2022   14:48   bot   SEEN-#5771   Nie posiadasz wymaganych uprawnień do korzytania z tej komendy
+11.08.2022   20:06   bot   PAW#5844   $youtube help
+11.08.2022   20:06   bot   SEEN-#5771   usage: $youtube notyfications <dc_channel_id> <yt_channel_link>
+            maximum 1 tracked channel on server!!
+11.08.2022   20:07   bot   PAW#5844   $youtube notyfications 745768777022701648 https://www.youtube.com/channel/UC-rjBSJ-RTaT7GchTgV50Eg
+11.08.2022   20:08   bot   PAW#5844   $youtube notyfications 745768777022701648 https://www.youtube.com/channel/UC-rjBSJ-RTaT7GchTgV50Eg
+11.08.2022   20:10   bot   PAW#5844   $youtube notyfications 745768777022701648 https://www.youtube.com/channel/UC-rjBSJ-RTaT7GchTgV50Eg
+11.08.2022   20:10   bot   SEEN-#5771   saved
+11.08.2022   23:25   bot   PAW#5844   $youtube notyfications 745768777022701648   https://youtube.com/channel/UCyFhRlWsqH1mD3c6If3U9Lw
+11.08.2022   23:25   bot   SEEN-#5771   saved
+12.08.2022   03:12   bot   PAW#5844   $avatar <@797070806885990431>
+12.08.2022   03:12   bot   PAW#5844   $avatar <@797070806885990431>
+12.08.2022   03:12   bot   SEEN-#5771   
+12.08.2022   03:12   bot   SEEN-#5771   

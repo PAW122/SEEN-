@@ -10,7 +10,14 @@ const error_logs_dir = config.error_logs_dir
 const save_messages_logs = config.save_messages_logs
 const save_messages_logs_dir = config.save_messages_logs_dir
 
+//yt notyfications
+const yt_notify = require("../commands/komendy/API/yt-notifications")
+
 module.exports = (client,prefix,message) => {
+//yt notyfications
+    const guild = message.guild.id
+    //yt_notify(guild)
+
     if(message.content.startsWith(prefix) && !message.author.bot){//sprawdza prefix, && znaczy and
 
         const args = message.content.slice(prefix.length).trim().split(/ +/);//oddziela słowa w komendzie spacją i usówa prefix 

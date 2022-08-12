@@ -45,6 +45,8 @@ const msg_handler = require("./handlers/msg_handler")
 //wczytuje interaction handler
 const interaction_handler = require("./handlers/interaction_handler")
 
+//yt notifcation handler
+const yt_notify = require("./commands/komendy/API/yt-notifications")
 
 const client = new Discord.Client({
     intents: [
@@ -57,6 +59,9 @@ const client = new Discord.Client({
 });
 client.commands = new Discord.Collection()
 client.commandArray = [];
+
+//yt notyfications
+yt_notify()
 
 //slash
 if (test_bot == true) {

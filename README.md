@@ -50,6 +50,7 @@ naprawić blitzstats
     28.dodać żeby kazdy serwer mógł do ekonomi ustawić własne emoji
     29.komenda na kanał do ankiet -- każda wiadomość na danym kanale zamieniana na ankiete
     30.eoknomia -- im więcej dni z rzędu się odbiera coinsy tym wiekszy ma sie bonus
+    31.zrobić komende, która pozwala trackować powiadomienia z danego kanału yt
 # info
 messages log -- nie robie server settings bo i tak jest tylko dla adminów
 24.naprawić na /ankieta bot nie zostawia reakcji(emotek) pod ankietą -- idk jak to zrobić
