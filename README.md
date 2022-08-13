@@ -30,8 +30,6 @@ zapisuje w db rekord punktów pod rząd żeby gracz mógł sprawdzić swój reko
 
 # do dodania:
 
-    2.dodać komende na set deafult dla ekonomi na updaty db
-    3.komenda my ani list na db
     4.ruletka dla ekonomi
     5.system lvl na db z canvasem
     6.canvas dla komend z ekonomi

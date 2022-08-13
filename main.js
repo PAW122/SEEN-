@@ -48,6 +48,7 @@ const interaction_handler = require("./handlers/interaction_handler")
 //yt notifcation handler
 const yt_notify = require("./commands/komendy/API/yt-notifications")
 
+
 const client = new Discord.Client({
     intents: [
         Discord.Intents.FLAGS.GUILDS,
@@ -84,9 +85,8 @@ client.once('ready', () => {
     logs(`${data} ${time} ${client.user.tag} jest online`, logs_dir, 1)
 
     //powitania
-        generateImage(client)
+    generateImage(client)
 
-        
 });
 
 

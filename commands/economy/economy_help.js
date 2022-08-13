@@ -14,8 +14,7 @@ module.exports = {
             const settings_reason = await db2.get(`economy_command.reason`)
             if(settings != true){return message.channel.send(settings_reason)}
         }
-
-
+        
         const embed_pl = new Discord.MessageEmbed()
     .setColor(`BLUE`)
     .setTitle(`Help`)
@@ -28,6 +27,7 @@ module.exports = {
         { name: `$add`, value: `pozwala administracji dodawać i odejmować ${emoji} urzytkownikom
         użycie: $add <ilość${emoji}> <userId>
         przykład: $add 100 797070806885990431`, inline: true },
+        { name: `$birthday`, value: `ustaw date sowich urodzi żeby odebrać urodzinową nagrode`, inline: true },
     )
     message.channel.send({embeds: [embed_pl] })
     }

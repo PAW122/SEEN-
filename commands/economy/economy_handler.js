@@ -23,7 +23,12 @@ module.exports = (message) => {
                     roll_date: [rok, month, day],
                     eq: [],
                     get_weekly: [0],
-                    weekly: [true]
+                    weekly: [true],
+
+                    birthday: [month, day, rok],
+                    bitrhday_used: false,
+                    birtgday_check: false,
+                    birthday_changes: 2
                 })
             //eq[0] --zarezerwowane dla przedmiotu: vip
 

@@ -2360,3 +2360,6 @@ D:Andorra
 13.08.2022   13:42   bot   -V1PE#3809   pomyżlnie dodano do mal
 13.08.2022   13:42   bot   PAW#5844   $mal list 1
 13.08.2022   13:42   bot   -V1PE#3809   
+13.08.2022   22:49   bot   PAW#5844   $profil
+13.08.2022   22:49   bot   SEEN-#5771   masz 1057 💵
+        przedmioty: undefined
