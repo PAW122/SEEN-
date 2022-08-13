@@ -2343,3 +2343,20 @@ D:Andorra
 13.08.2022   03:49   bot   -V1PE#3809   
 13.08.2022   03:49   bot   -V1PE#3809   dobra odpowiedż
 13.08.2022   03:49   bot   -V1PE#3809   dobra odpowiedż
+13.08.2022   13:34   bot   PAW#5844   $mal list
+13.08.2022   13:34   bot   PAW#5844   $mal list 1
+13.08.2022   13:34   bot   -V1PE#3809   
+13.08.2022   13:36   bot   PAW#5844   $mal list 1
+13.08.2022   13:36   bot   -V1PE#3809   
+13.08.2022   13:40   bot   PAW#5844   $mal list 1
+13.08.2022   13:40   bot   -V1PE#3809   
+13.08.2022   13:40   bot   PAW#5844   $mal list 2
+13.08.2022   13:40   bot   -V1PE#3809   
+13.08.2022   13:41   bot   PAW#5844   $mal del 0
+13.08.2022   13:42   bot   -V1PE#3809   usunięto wpis nr 0
+13.08.2022   13:42   bot   PAW#5844   $mal list 1
+13.08.2022   13:42   bot   -V1PE#3809   
+13.08.2022   13:42   bot   PAW#5844   $mal add /test/hmm
+13.08.2022   13:42   bot   -V1PE#3809   pomyżlnie dodano do mal
+13.08.2022   13:42   bot   PAW#5844   $mal list 1
+13.08.2022   13:42   bot   -V1PE#3809   
