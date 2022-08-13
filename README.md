@@ -22,9 +22,15 @@ npm i js-queue
 
 # w trakcie:
 mal -- do dokończenia system odczytywania listy
+
+game -- flags:
+wysyła grafike randomowej flagi i jeżeli gracz zgadnie dodaje
+mu 1 punkt.
+zapisuje w db rekord punktów pod rząd żeby gracz mógł sprawdzić swój rekord
+
 # do dodania:
 
-2.dodać komende na set deafult dla ekonomi na updaty db
+    2.dodać komende na set deafult dla ekonomi na updaty db
     3.komenda my ani list na db
     4.ruletka dla ekonomi
     5.system lvl na db z canvasem

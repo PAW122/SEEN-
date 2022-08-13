@@ -2242,3 +2242,104 @@ D:Armenia
 12.08.2022   17:10   bot   -V1PE#3809   
 12.08.2022   17:11   bot   -V1PE#3809   błędna odpowiedż
 12.08.2022   17:11   bot   -V1PE#3809   błędna odpowiedż
+12.08.2022   19:47   bot   PAW#5844   $game
+12.08.2022   19:47   bot   -V1PE#3809   A: Armenia
+B:Angola
+C:Armenia
+D:Angola
+12.08.2022   19:47   bot   -V1PE#3809   
+12.08.2022   19:47   bot   -V1PE#3809   błędna odpowiedż
+12.08.2022   19:47   bot   -V1PE#3809   błędna odpowiedż
+12.08.2022   19:47   bot   -V1PE#3809   błędna odpowiedż
+12.08.2022   19:47   bot   -V1PE#3809   błędna odpowiedż
+12.08.2022   19:53   bot   PAW#5844   $mal list
+12.08.2022   19:56   bot   PAW#5844   $mal list
+12.08.2022   19:57   bot   PAW#5844   $mal list
+12.08.2022   19:57   bot   PAW#5844   $mal add/senko/fajne anime
+12.08.2022   19:57   bot   PAW#5844   $mal list
+12.08.2022   19:59   bot   PAW#5844   $mal list
+12.08.2022   19:59   bot   PAW#5844   $mal list
+12.08.2022   20:00   bot   PAW#5844   $mal list
+12.08.2022   20:01   bot   PAW#5844   $mal list
+12.08.2022   20:02   bot   PAW#5844   $mal add/senko/fajne anime
+12.08.2022   20:03   bot   PAW#5844   $mal add /senko/fajne anime
+12.08.2022   20:03   bot   -V1PE#3809   pomyżlnie dodano do mal
+12.08.2022   20:03   bot   PAW#5844   $mal list
+12.08.2022   20:04   bot   PAW#5844   $mal list
+12.08.2022   20:06   bot   PAW#5844   $mal list
+12.08.2022   20:14   bot   PAW#5844   $mal list
+12.08.2022   20:14   bot   -V1PE#3809   
+12.08.2022   20:16   bot   PAW#5844   $mal list
+12.08.2022   20:16   bot   -V1PE#3809   
+12.08.2022   20:17   bot   PAW#5844   $mal list
+12.08.2022   20:17   bot   -V1PE#3809   
+12.08.2022   20:18   bot   PAW#5844   $mal list
+12.08.2022   20:18   bot   -V1PE#3809   
+12.08.2022   20:20   bot   PAW#5844   $mal list
+12.08.2022   20:20   bot   -V1PE#3809   
+12.08.2022   20:21   bot   PAW#5844   $mal list
+12.08.2022   20:21   bot   -V1PE#3809   
+12.08.2022   20:24   bot   PAW#5844   $mal list
+12.08.2022   20:24   bot   -V1PE#3809   
+13.08.2022   00:31   bot   PAW#5844   $mal list
+13.08.2022   00:31   bot   -V1PE#3809   
+13.08.2022   00:32   bot   PAW#5844   $mal list
+13.08.2022   00:32   bot   -V1PE#3809   
+13.08.2022   00:35   bot   PAW#5844   $mal list
+13.08.2022   00:35   bot   -V1PE#3809   
+13.08.2022   00:36   bot   PAW#5844   $mal list
+13.08.2022   00:36   bot   -V1PE#3809   
+13.08.2022   00:38   bot   PAW#5844   $mal list
+13.08.2022   00:38   bot   -V1PE#3809   
+13.08.2022   00:38   bot   PAW#5844   $mal list
+13.08.2022   00:38   bot   -V1PE#3809   
+13.08.2022   00:44   bot   PAW#5844   $mal list
+13.08.2022   00:44   bot   -V1PE#3809   
+13.08.2022   00:45   bot   PAW#5844   $mal list
+13.08.2022   00:45   bot   -V1PE#3809   
+13.08.2022   00:48   bot   PAW#5844   $mal list
+13.08.2022   00:48   bot   -V1PE#3809   
+13.08.2022   01:02   bot   PAW#5844   $mal list
+13.08.2022   01:02   bot   -V1PE#3809   
+13.08.2022   01:03   bot   PAW#5844   $mal list
+13.08.2022   01:03   bot   -V1PE#3809   
+13.08.2022   01:04   bot   PAW#5844   $mal list
+13.08.2022   01:04   bot   -V1PE#3809   
+13.08.2022   01:06   bot   PAW#5844   $mal list
+13.08.2022   01:06   bot   -V1PE#3809   
+13.08.2022   01:06   bot   PAW#5844   $mal list
+13.08.2022   01:06   bot   -V1PE#3809   
+13.08.2022   01:07   bot   PAW#5844   $mal list
+13.08.2022   01:07   bot   -V1PE#3809   
+13.08.2022   01:08   bot   PAW#5844   $mal list
+13.08.2022   01:08   bot   -V1PE#3809   
+13.08.2022   01:10   bot   PAW#5844   $mal list
+13.08.2022   01:10   bot   -V1PE#3809   
+13.08.2022   03:29   bot   PAW#5844   $mal list
+13.08.2022   03:29   bot   -V1PE#3809   
+13.08.2022   03:30   bot   PAW#5844   $mal list
+13.08.2022   03:30   bot   -V1PE#3809   
+13.08.2022   03:33   bot   PAW#5844   $mal list
+13.08.2022   03:33   bot   -V1PE#3809   
+13.08.2022   03:34   bot   PAW#5844   $mal list
+13.08.2022   03:34   bot   -V1PE#3809   
+13.08.2022   03:39   bot   PAW#5844   $mal add /test2/cos
+13.08.2022   03:39   bot   -V1PE#3809   pomyżlnie dodano do mal
+13.08.2022   03:40   bot   PAW#5844   $mal list
+13.08.2022   03:40   bot   -V1PE#3809   
+13.08.2022   03:42   bot   PAW#5844   $mal list
+13.08.2022   03:42   bot   -V1PE#3809   
+13.08.2022   03:45   bot   PAW#5844   $mal list
+13.08.2022   03:45   bot   -V1PE#3809   
+13.08.2022   03:46   bot   PAW#5844   $mal list
+13.08.2022   03:47   bot   PAW#5844   $mal list
+13.08.2022   03:48   bot   PAW#5844   $mal list
+13.08.2022   03:49   bot   PAW#5844   $gra
+13.08.2022   03:49   bot   PAW#5844   $game
+13.08.2022   03:49   bot   -V1PE#3809   A: Afghanistan
+B:Angola
+C:Antigua and Barbuda
+D:Andorra
+13.08.2022   03:49   bot   -V1PE#3809   
+13.08.2022   03:49   bot   -V1PE#3809   dobra odpowiedż
+13.08.2022   03:49   bot   -V1PE#3809   dobra odpowiedż
