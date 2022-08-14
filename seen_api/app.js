@@ -1,4 +1,7 @@
 //npm i express
+
+//http://localhost:2137/api/seen/economy/438621187132751873/438336824516149249
+//http://localhost:2137/api/seen/server_settings/727662119553728532
 const express = require("express")
 const app = express();
 const { QuickDB } = require("quick.db");
@@ -119,35 +122,36 @@ app.get("/api/seen/server_settings/:guildId", (req, res) => {
             prefix,
             welcome,
             version,
-            tickets,[
-            ["anime_gif",anime_gif,anime_gif_reason],
-            ["eight_ball",eight_ball,eight_ball_reason],
-            ["anime_seem_help",anime_seem_help,anime_seem_help_reason],
-            ["anime_help",anime_help,anime_help_reason],
-            ["updaty",updaty,updaty_reason],
-            ["anime_list",anime_list,anime_list_reason],
-            ["ankieta",ankieta,ankieta_reason],
-            ["awatar",awatar,awatar_reason],
-            ["ban",ban,ban_reason],
-            ["bot_info",bot_info,bot_info_reason],
-            ["clear",clear,clear_reason],
-            ["embed",embed,embed_reason],
-            ["kick",kick,kick_reason],
-            ["ping",ping,ping_reason],
-            ["random",random,random_reason],
-            ["ruletka",ruletka,ruletka_reason],
-            ["say",say,say_reason],
-            ["srv_info",srv_info,srv_info_reason],
-            ["blitz_stats",blitz_stats,blitz_stats_reason],
-            ["blitz_clan",blitz_clan,blitz_clan_reason],
-            ["autoroles",autoroles,autoroles_reason],
-            ["user_info",user_info,user_info_reason],
-            ["lvl_command",lvl_command,lvl_command_reason],
-            ["economy_command",economy_command,economy_command_reason],
-            ["anime_zapowiedzi",anime_zapowiedzi,anime_zapowiedzi_reason],
-            ["anime_seen",anime_seen,anime_seen_reason],
-            ["unban",unban,unban_reason],
-            ["ticket",ticket,ticket_reason]
+            tickets,
+            ["commands data:",
+                ["anime_gif", anime_gif, anime_gif_reason],
+                ["eight_ball", eight_ball, eight_ball_reason],
+                ["anime_seem_help", anime_seem_help, anime_seem_help_reason],
+                ["anime_help", anime_help, anime_help_reason],
+                ["updaty", updaty, updaty_reason],
+                ["anime_list", anime_list, anime_list_reason],
+                ["ankieta", ankieta, ankieta_reason],
+                ["awatar", awatar, awatar_reason],
+                ["ban", ban, ban_reason],
+                ["bot_info", bot_info, bot_info_reason],
+                ["clear", clear, clear_reason],
+                ["embed", embed, embed_reason],
+                ["kick", kick, kick_reason],
+                ["ping", ping, ping_reason],
+                ["random", random, random_reason],
+                ["ruletka", ruletka, ruletka_reason],
+                ["say", say, say_reason],
+                ["srv_info", srv_info, srv_info_reason],
+                ["blitz_stats", blitz_stats, blitz_stats_reason],
+                ["blitz_clan", blitz_clan, blitz_clan_reason],
+                ["autoroles", autoroles, autoroles_reason],
+                ["user_info", user_info, user_info_reason],
+                ["lvl_command", lvl_command, lvl_command_reason],
+                ["economy_command", economy_command, economy_command_reason],
+                ["anime_zapowiedzi", anime_zapowiedzi, anime_zapowiedzi_reason],
+                ["anime_seen", anime_seen, anime_seen_reason],
+                ["unban", unban, unban_reason],
+                ["ticket", ticket, ticket_reason]
             ]
         ])
     }
