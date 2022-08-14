@@ -70,9 +70,7 @@ module.exports = {
             const gold = args[8]
 
 
-            const last_battle_rok = "?"
-            const last_battle_month = "?"
-            const last_battle_day = "?"
+           
             const last_user = "?"
 
 
@@ -87,7 +85,7 @@ module.exports = {
                 winrate: wr,//
                 battles: bitwy,//
                 gold: gold,//
-                last_battle: [last_battle_rok, last_battle_month, last_battle_day],
+                last_battle: "",
                 last_user: last_user,
                 free_space: []//miejsce na dodatkowe dane
             })

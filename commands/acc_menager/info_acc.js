@@ -54,9 +54,10 @@ module.exports = {
         const get_last_edit_month = await acc_db.get(`${informacje_o_koncie}.last_edit[1]`)
         const get_last_edit_day = await acc_db.get(`${informacje_o_koncie}.last_edit[2]`)
         const get_last_edit_user = await acc_db.get(`${informacje_o_koncie}.last_edit[3]`)
-        const get_last_battle_rok = await acc_db.get(`${informacje_o_koncie}.last_battle[0]`)
-        const get_last_battle_month = await acc_db.get(`${informacje_o_koncie}.last_battle[1]`)
-        const get_last_battle_day = await acc_db.get(`${informacje_o_koncie}.last_battle[2]`)
+        const get_last_battle = await acc_db.get(`${informacje_o_koncie}.last_battle`)
+        
+        console.log(get_last_battle)//naprawić get last battle
+        //albo pobrać wsyztsko jako db.all() i z tego wyciągać dane
 
         const embed_pl = new Discord.MessageEmbed()
             .setColor(`BLUE`)
@@ -72,7 +73,7 @@ module.exports = {
                 { name: `gold`, value: `${get_gold}`, inline: false },
                 { name: `last edit`, value: `${get_last_edit_rok}.${get_last_edit_month}.${get_last_edit_day}`, inline: false },
                 { name: `user last edit`, value: `<@${get_last_edit_user}>`, inline: false },
-                { name: `last battle`, value: `${get_last_battle_rok}.${get_last_battle_month}.${get_last_battle_day}`, inline: false },
+                { name: `last battle`, value: `${get_last_battle}`},
             )
 
 

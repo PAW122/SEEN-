@@ -2363,3 +2363,37 @@ D:Andorra
 13.08.2022   22:49   bot   PAW#5844   $profil
 13.08.2022   22:49   bot   SEEN-#5771   masz 1057 💵
         przedmioty: undefined
+14.08.2022   03:39   bot   PAW#5844   $pingg
+14.08.2022   03:39   bot   PAW#5844   $ping
+14.08.2022   03:39   bot   SEEN-#5771   pong!
+14.08.2022   03:47   bot   PAW#5844   $info_acc test@cos
+14.08.2022   03:47   bot   SEEN-#5771   nie znajdujesz się na liście użytkowników
+14.08.2022   03:48   bot   PAW#5844   $add_user/438336824516149249/1/true
+14.08.2022   03:48   bot   PAW#5844   $add_user /438336824516149249/1/true
+14.08.2022   03:50   bot   PAW#5844   $add_user/438336824516149249/1/true/
+14.08.2022   03:50   bot   PAW#5844   $add_user /438336824516149249/1/true/
+14.08.2022   03:50   bot   SEEN-#5771   taki urzytkownik <@438336824516149249> istniał już w bazie danych.
+ dane zostały zaktualizowane
+14.08.2022   03:51   bot   PAW#5844   $info_acc test@cos.com
+14.08.2022   03:51   bot   SEEN-#5771   takie konto nie istnieje
+14.08.2022   03:51   bot   PAW#5844   $info_acc test@cos
+14.08.2022   03:51   bot   SEEN-#5771   takie konto nie istnieje
+14.08.2022   03:51   bot   PAW#5844   $info_acc test@cos.cos
+14.08.2022   04:06   bot   PAW#5844   $acc_refresh
+14.08.2022   04:07   bot   PAW#5844   $acc_refresh
+14.08.2022   04:09   bot   PAW#5844   $add_acc /accmail@gmail.com/acc_password/
+         /nickname/1/2/36/123/1
+14.08.2022   04:09   bot   SEEN-#5771   podałeś nieprawidłową ilość banów
+14.08.2022   04:09   bot   PAW#5844   $add_acc /accmail@gmail.com/acc_password/nickname/1/2/36/123/1
+14.08.2022   04:09   bot   PAW#5844   $acc_refresh
+14.08.2022   04:19   bot   PAW#5844   $acc_refresh
+14.08.2022   04:21   bot   PAW#5844   $acc_refresh
+14.08.2022   04:22   bot   PAW#5844   $acc_refresh
+14.08.2022   05:03   bot   PAW#5844   $acc_refresh
+14.08.2022   05:04   bot   PAW#5844   $add_acc /accmail@gmail.com/acc_password/__PAW/1/2/36/123/1
+14.08.2022   05:05   bot   PAW#5844   $acc_refresh
+14.08.2022   05:05   bot   PAW#5844   $info_acc accmail@gmail.com
+14.08.2022   05:06   bot   PAW#5844   $info_acc accmail@gmail.com
+14.08.2022   05:08   bot   PAW#5844   $info_acc accmail@gmail.com
+14.08.2022   05:09   bot   PAW#5844   $add_acc /accmail2@gmail.com/acc_password/__PAW/1/2/36/123/1
+14.08.2022   05:09   bot   PAW#5844   $acc_refresh
