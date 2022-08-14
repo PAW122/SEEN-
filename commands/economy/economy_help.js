@@ -2,6 +2,7 @@ const config = require("../../config/config")
 const emoji = config.economy_emoji
 const economy_db_version = config.economy_db_version
 const Discord = require("discord.js")
+const { QuickDB } = require("quick.db");
 module.exports = {
     name: "helpeco",
 
@@ -14,12 +15,16 @@ module.exports = {
             const settings_reason = await db2.get(`economy_command.reason`)
             if(settings != true){return message.channel.send(settings_reason)}
         }
-        
+
+    const db = new QuickDB({ filePath: process.cwd() + `/db/economy/local_economy/${guildId}.sqlite` });
+    const userId = message.author.id
+    const eco_ver = await db.get(`${userId}.eco_version`)
+
         const embed_pl = new Discord.MessageEmbed()
     .setColor(`BLUE`)
     .setTitle(`Help`)
     .addFields(//inline-w embedzie zamiast po dobą będą obok siebie
-        { name: `Economy version: ${economy_db_version}`, value: `if your version of the economy system is older use $ecodeafult -- it will restore the system to deafult settings, all users statistics will be restarted, but you will gain access to new functions`, inline: true },
+        { name: `Economy version: ${economy_db_version}`, value: `if your version of the economy system is older for ${eco_ver} use $ecodeafult -- it will restore the system to deafult settings, all users statistics will be restarted, but you will gain access to new functions`, inline: true },
         { name: `$daily`, value: `Receive a daily reward from 50 to 100 ${emoji}`, inline: true },
         { name: `$birthday`, value: `receive the birthday present `, inline: true },
         { name: `$profil`, value: `displays information about how much ${emoji} you have eg.`, inline: true },

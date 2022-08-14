@@ -58,6 +58,7 @@ zapisuje w db rekord punktów pod rząd żeby gracz mógł sprawdzić swój reko
     33.dodać skszynki -- możliwość kupowania i otwierania skrzynek z randomowymi przedmiotami np goldem i vip jako nagorda główna
     34.warnt -- dodać warny. po dostaniu ilości warnów ustawionych przez administracje na kanał administracji będzie wysyłana wiadomość że urzytkownik ma już x warnów i jest do zbanowania
     35.birthday -- jeżeli ktoś ma urodziny wysyła wiadomość że ktoś ma właśnie urzodziny i dostaje ileś cionsów
+    36.dodać możliwość dodania kanału gdzie bot będzie wysyłał informacje o zmianach (aktułkach)
 
 # info
 messages log -- nie robie server settings bo i tak jest tylko dla adminów

@@ -21,7 +21,7 @@ module.exports = {
         var current = new Date();
         const now_rok = current.getFullYear();
         const now_month = current.getMonth()+1;
-        const now_day = current.getDay();
+        const now_day = current.getDate();
         const userId = message.author.id
 
         if(await db.get(userId) == null){

@@ -1,5 +1,7 @@
 //npm i quick.db better-sqlite3
 const { QuickDB } = require("quick.db");
+const config = require("../../config/config")
+const eco_db_version = config.economy_db_version
 module.exports = (message) => {
     const guildId = message.guild.id
     const db = new QuickDB({ filePath: process.cwd() + `/db/economy/local_economy/${guildId}.sqlite` });
@@ -12,7 +14,7 @@ module.exports = (message) => {
             //-1 dla dnia żeby urzytkownik mógł odrazy użyć komendy
             const rok = current.getFullYear();
             const month = current.getMonth() + 1;
-            const day = current.getDay() - 1
+            const day = current.getDate(); - 1
 
             const użycia = 0
             await db.set(`${userId}`,
@@ -28,7 +30,8 @@ module.exports = (message) => {
                     birthday: [month, day, rok],
                     bitrhday_used: false,
                     birtgday_check: false,
-                    birthday_changes: 2
+                    birthday_changes: 2,
+                    eco_version: eco_db_version,
                 })
             //eq[0] --zarezerwowane dla przedmiotu: vip
 

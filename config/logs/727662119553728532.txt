@@ -2397,3 +2397,25 @@ D:Andorra
 14.08.2022   05:08   bot   PAW#5844   $info_acc accmail@gmail.com
 14.08.2022   05:09   bot   PAW#5844   $add_acc /accmail2@gmail.com/acc_password/__PAW/1/2/36/123/1
 14.08.2022   05:09   bot   PAW#5844   $acc_refresh
+14.08.2022   21:49   bot   PAW#5844   $help
+14.08.2022   21:49   bot   SEEN-#5771   
+14.08.2022   21:49   bot   PAW#5844   $srv_set
+14.08.2022   21:49   bot   SEEN-#5771   
+14.08.2022   21:50   bot   PAW#5844   $helpeco
+14.08.2022   21:50   bot   SEEN-#5771   
+14.08.2022   21:56   bot   PAW#5844   $helpeco
+14.08.2022   21:56   bot   SEEN-#5771   
+14.08.2022   21:57   bot   PAW#5844   $ecodeafult
+14.08.2022   21:57   bot   SEEN-#5771   The economy has been updated
+14.08.2022   21:57   bot   PAW#5844   $daily
+14.08.2022   21:57   bot   SEEN-#5771   Your profile has been created
+14.08.2022   21:57   bot   PAW#5844   $helpeco
+14.08.2022   21:57   bot   SEEN-#5771   
+14.08.2022   21:59   bot   PAW#5844   $ecodeafult
+14.08.2022   21:59   bot   SEEN-#5771   The economy has been updated
+14.08.2022   21:59   bot   PAW#5844   $helpeco
+14.08.2022   21:59   bot   SEEN-#5771   
+14.08.2022   21:59   bot   PAW#5844   $daily
+14.08.2022   21:59   bot   SEEN-#5771   Your profile has been created
+14.08.2022   21:59   bot   PAW#5844   $helpeco
+14.08.2022   21:59   bot   SEEN-#5771   
