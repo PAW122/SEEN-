@@ -64,8 +64,8 @@ const embed_en = new Discord.MessageEmbed()
         { name: `autorole`, value: ` ${prefix} autorole help \n ${prefix} autorole help en`, inline: true },
 
         { name: `---------------------------------------------- -------------------------- `, value: ` ------------------- -------------------------------------------------- -`, inline: false },
-        { name: `SEEN - ANIME`, value: ` command list available at: \n $animeseen help`, inline: false },
-        { name: `ANIME`, value: ` command list available at: \n $anime help`, inline: false },
+        { name: `SEEN - ANIME`, value: ` list of available commands: \n $animeseen help`, inline: false },
+        { name: `ANIME`, value: ` list of available commands: \n $anime help`, inline: false },
     )//srv_set
 
 module.exports = {
@@ -78,7 +78,7 @@ module.exports = {
 
     data: new SlashCommandBuilder()
         .setName('help')
-        .setDescription('Wyświetla aktualny ping bota'),
+        .setDescription('display current ping'),
     executeInteraction: async (inter) => {
         if(work != true){
             const embed_worker = new Discord.MessageEmbed()

@@ -23,7 +23,7 @@ module.exports = {
         if (await db.get(userId) == null) {
             check_db(message)
             await new Promise(r => setTimeout(r, 2000))
-            return message.reply("Twój profil właśnie został stworzony")
+            return message.reply("Your profile has been created")
         }
         var current = new Date();
         const now_rok = current.getFullYear();
@@ -50,9 +50,9 @@ module.exports = {
                 await new Promise(r => setTimeout(r, 2000));
             }
             if (await db.get(`${userId}.weekly[0]`) == true) {
-                return message.reply("możesz odebrać tygodniowa nagrode\n użyj $weekly aby odebrać nagrode")
+                return message.reply("You can recieve weekly reward\n use $weekly to claim your reward")
             } else {
-                return message.reply(`jeszcze ${daily} aby odebrać nagrode tygodniową`)
+                return message.reply(`You still need to use ${daily} to recieve your weekly reward`)
             }
         }
 
@@ -76,15 +76,15 @@ module.exports = {
             if (await db.get(`${userId}.eq[0]`) == null) {
 
                 await db.set(`${userId}.coins[0]`, cash)
-                message.reply(`Odebrałeś ${rng} ${emoji}
-            masz łącznie ${coins + rng} ${emoji}`)
+                message.reply(`You got ${rng} ${emoji}
+                you have a total of ${coins + rng} ${emoji}`)
 
             } else {//posiada vipa == daj 2x monet
                 const vip_cash = rng * 2 + coins
                 await db.set(`${userId}.coins[0]`, vip_cash)
 
-                message.reply(`Odebrałeś ${rng * 2} ${emoji}
-                masz łącznie ${vip_cash} ${emoji}`)
+                message.reply(`You got ${rng * 2} ${emoji}
+                you have a total of ${vip_cash} ${emoji}`)
             }
         }
 

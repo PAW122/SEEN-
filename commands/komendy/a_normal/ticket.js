@@ -41,17 +41,17 @@ executeInteraction: async (inter) => {
         }
 
         if (await db.get(`check.check`) != true) {
-            return inter.reply("twój serwer nie posiada profilu ustawień")
+            return inter.reply("your server does not have a settings profile")
         }
         if (await db.get(`tickets.settings[0]`) == "null") {
-            return inter.reply("twój serwer nie posiada kanału dla ticketów")
+            return inter.reply("tyour server does not have a channel for tickets")
         }
         if (await db.get(`tickets.settings[1]`) == "null") {
-            return inter.reply("twój serwer nie posiada kanału dla ticketów")
+            return inter.reply("your server does not have a channel; for tickets")
         }
 
         if (inter.channel.id != await db.get(`tickets.settings[0]`)) {
-            return inter.reply(`ten kanał nie służy do tworzenia ticketów.\n użyj kanału <#${await db.get(`tickets.settings[0]`)}>`)
+            return inter.reply(`This channel is not for creating tickets.\n use channel <#${await db.get(`tickets.settings[0]`)}>`)
         }
         
 
@@ -65,7 +65,7 @@ executeInteraction: async (inter) => {
             .setDescription(`${treść}`)
 
             inter.guild.channels.cache.get(send_on_id).send({ embeds: [embed] });
-            return inter.reply("Ticket has been send")
+            return inter.reply("Ticket has been sent")
 
 
     }
@@ -88,22 +88,22 @@ executeInteraction: async (inter) => {
             add server settings:
              $settings ticket <channel id for users> <channel id for administrators>
             create ticket:
-            $ticket <treść ticketa>`)
+            $ticket <ticket content>`)
         }
 
         if (await db.get(`check.check`) != true) {
-            return message.reply("twój serwer nie posiada przfilu sutawień")
+            return message.reply("your server does not have a settings profile")
         }
 
         if (await db.get(`tickets.settings[0]`) == "null") {
-            return message.reply("nie ustawiłeś id kanału dla ticketów")
+            return message.reply("You didn't set an id of a channel for tickets")
         }
         if (await db.get(`tickets.settings[1]`) == "null") {
-            return message.reply("nie ustawiłeś id kanału dla ticketów")
+            return message.reply("You did't set an id of a channel for tickets")
         }
 
         if (message.channel.id != await db.get(`tickets.settings[0]`)) {
-            return message.reply(`ten kanał nie służy do tworzenia ticketów.\n użyj kanału <#${await db.get(`tickets.settings[0]`)}>`)
+            return message.reply(`This channel is not for creating tickets.\n use channel <#${await db.get(`tickets.settings[0]`)}>`)
         }
 
         const send_on_id = await db.get(`tickets.settings[1]`)
@@ -121,7 +121,7 @@ executeInteraction: async (inter) => {
             message.delete();
             client.channels.cache.get(send_on_id).send({ embeds: [embed] });
         } catch (err) {
-            message.reply("wystąpił błąd podczas wysyłania wiadomości")
+            message.reply("An error occurred while sending a message")
         }
     }
 

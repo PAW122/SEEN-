@@ -22,7 +22,7 @@ module.exports = {
         if(await db.get(userId) == null){
             check_db(message)
             await new Promise(r => setTimeout(r, 2000))
-            return message.reply("Twój profil właśnie został stworzony")
+            return message.reply("Your profile has been created")
         }
         const coins = await db.get(`${userId}.coins`);
 

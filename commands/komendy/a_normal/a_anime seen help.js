@@ -11,38 +11,38 @@ const config = require(process.cwd() + `/config/worker.js`)
     .setColor(`BLUE`)//PL
     .setTitle(`Help`)
     .setDescription(`U can use '$help en' for a description in English\nlista wszystkich komend:`)
-    .addFields(//inline-w embedzie zamiast po dobą będą obok siebie
-    {name: `ANIME SEEN`,value: `grafiki i informacje o anime`,inline: false},
-    {name: `senko`,value: `wysyła randomową\n grafike senko`,inline: true},
-    {name: `senkoinfo`,value: `wysyła informacje o anime`,inline: true},
-    {name: `Sewayaki Kitsune no Senko-san`,value: `wysyła informacje o anime`,inline: true},
-    {name: `senko_odc`,value: `wysyła link do odcinka anime \n użycie: $senko_odc <nr_odc> \n przykład: $senko_odc 2`,inline: true},
+    .addFields(//inline-w embedzie zamiast pod sobą będą obok siebie
+    {name: `ANIME SEEN`,value: `images and information about anime`,inline: false},
+    {name: `senko`,value: `sends a random\n image of senko`,inline: true},
+    {name: `senkoinfo`,value: `sends information about anime`,inline: true},
+    {name: `Sewayaki Kitsune no Senko-san`,value: `sends information about anime`,inline: true},
+    {name: `senko_odc`,value: `sends a link to anime episode\n usage: $senko_odc <nr_odc> \n example: $senko_odc 2`,inline: true},
     
     {name: `------------------------------------------------------------------------`,value: `----------------------------------------------------------------------`,inline: false},
 
-    {name: `konata`,value: `wysyła randomową\n grafike konaty`,inline: true},
-    {name: `konatainfo`,value: `wysyła informacje o anime`,inline: true},
-    {name: `Lucky Star`,value: `wysyła informacje o anime`,inline: true},
-    {name: `lucky_star_odc`,value: `wysyła link do odcinka anime \n użycie: $lucky_star_odc <nr_odc> \n przykład: $lucky_star_odc 2`,inline: true},
+    {name: `konata`,value: `sends a random\n image of konata`,inline: true},
+    {name: `konatainfo`,value: `sends information about anime`,inline: true},
+    {name: `Lucky Star`,value: `sends information about anime`,inline: true},
+    {name: `lucky_star_odc`,value: `sends a link to anime episode \n usage: $lucky_star_odc <nr_odc> \n example: $lucky_star_odc 2`,inline: true},
     
     {name: `------------------------------------------------------------------------`,value: `----------------------------------------------------------------------`,inline: false},
 
-    {name: `ranka`,value: `wysyła randomową\n grafike ranki`,inline: true},
-    {name: `rankainfo`,value: `wysyła informacje o anime`,inline: true},
-    {name: `Murenase Seton Gakuen`,value: `wysyła informacje o anime`,inline: true},
+    {name: `ranka`,value: `sends a random\n image of ranka`,inline: true},
+    {name: `rankainfo`,value: `sends information about anime`,inline: true},
+    {name: `Murenase Seton Gakuen`,value: `sends information about anime`,inline: true},
     
     {name: `------------------------------------------------------------------------`,value: `----------------------------------------------------------------------`,inline: false},
 
-    {name: `kuroha`,value: `wysyła randomową\n grafike kurohy`,inline: true},
-    {name: `Kurohainfof`,value: `wysyła informacje o anime`,inline: true},
-    {name: `Gokukoku no Brynhildr`,value: `wysyła informacje o anime`,inline: true},
+    {name: `kuroha`,value: `sends a random\n image of kuroha`,inline: true},
+    {name: `Kurohainfof`,value: `sends information about anime`,inline: true},
+    {name: `Gokukoku no Brynhildr`,value: `sends information about anime`,inline: true},
 
     {name: `------------------------------------------------------------------------`,value: `----------------------------------------------------------------------`,inline: false},
 
-    {name: `amnesia`,value: `wysyła opis anime`,inline: true},
-    {name: `heroine_info`,value: `wysyła opis anime`,inline: true},
-    {name: `heroine`,value: `wysyła randomową grafike postaci anime`,inline: true},
-    {name: `amnestia_odc`,value: `wysyła link do odcinka anime \n użycie: $amnestia_odc <nr_odc> \n przykład: $amnestia_odc 2`,inline: true},
+    {name: `amnesia`,value: `sends a description of anime`,inline: true},
+    {name: `heroine_info`,value: `sends a description of anime`,inline: true},
+    {name: `heroine`,value: `ssends a random anime character image`,inline: true},
+    {name: `amnestia_odc`,value: `sends a link to anime episode \n użycie: $amnestia_odc <nr_odc> \n example: $amnestia_odc 2`,inline: true},
     )
 
 const prefix = "$"
@@ -56,7 +56,7 @@ module.exports = {
     
     data: new SlashCommandBuilder()
         .setName('animeseen')
-        .setDescription('Wyświetla liste wszystkich komend animeseen'),
+        .setDescription('display list of all animeseen commands'),
     executeInteraction: async (inter) => {
         if(work != true){
             const embed_worker = new Discord.MessageEmbed()

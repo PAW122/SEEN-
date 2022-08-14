@@ -8,12 +8,12 @@ module.exports = {
         const db = new QuickDB({ filePath: process.cwd() + `/db/economy/local_economy/${guildId}.sqlite` });
 
         if (!message.member.permissions.has("ADMINISTRATOR")) {
-            return message.channel.send("nie masz uprawnień Administratora")
+            return message.channel.send("you don't have admin authorization")
         }
 
         
         await db.deleteAll()
-        return message.reply("Ekonomia została zaktualizowana")
+        return message.reply("The economy has been updated")
     }
 }
 

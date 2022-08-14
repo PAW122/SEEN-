@@ -13,7 +13,7 @@ module.exports = {
         if(args[0] == "help"){
             return message.reply(`set your birthday date to get extra coins
             usage: $birthday <month> <day> <year>
-            !!u can change birthday date only 1 time
+            !!u can change your birthday date only 1 time
             
             if you use $daily on your birthday you will get a reward`)
         }
@@ -31,7 +31,7 @@ module.exports = {
         const zmiany = await db.get(`${userId}.birthday_changes`)
 
         if(zmiany == 0){
-            return message.reply("u cant change your birthday date\n user cah change birthday date only 1 time")
+            return message.reply("u can't change your birthday date\n user can change birthday date only 1 time")
         }else{
             zmiany - 1
         }

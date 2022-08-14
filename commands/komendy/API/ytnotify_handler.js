@@ -22,14 +22,14 @@ module.exports = {
 
         if(args[0] == "help"){
             return message.reply(`
-            usage: $youtube notyfications <dc_channel_id> <yt_channel_link>
-            maximum 1 tracked channel on server!!`)
+            usage: $youtube notifications <dc_channel_id> <yt_channel_link>
+            maximum 1 tracked channel on the server!!`)
         }
 
-        if(args[0] == "notyfications"){
+        if(args[0] == "notifications"){
 
             if(!args[1] || !args[2]){
-                return message.reply("nie podałeś argumentu")
+                return message.reply("you didn't provide arguments")
             }
 
             const dc_channel_id = args[1]

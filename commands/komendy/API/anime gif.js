@@ -143,10 +143,10 @@ if(await db.get(`check.check`) == true){
             2.boobs
             3.lesbian
            
-            !! bot may take a while to send a gif !!
+            !! bot may semetime need a while to send a gif !!
             example: $ animegif pat`)
         }else{
-        return message.reply(`użyj jedniej z opcji:
+        return message.reply(`Use one of the options:
         1.hug
         2.kiss
         3.slap
@@ -161,7 +161,7 @@ if(await db.get(`check.check`) == true){
         2.boobs
         3.lesbian
         
-        !!bot czasami miże potrzebować dłuższej chwili na wysłanie gif!!
+        !!bot may sometime need a while to send a gif!!
         przykład: $animegif pat`)}
     }
 try{
@@ -209,7 +209,7 @@ try{
         })}
 
 
-        const odmowa = "nie możesz tego zrobić\n ten kanał nie jest nsfw"
+        const odmowa = "You can't do that\n this channel is no longer a NFSW channel"
         //nfs
         if(args[0] == "hentai"){
 
@@ -232,7 +232,7 @@ try{
                 return
         })}
 
-    }catch(error) {message.reply("coś siem wysypało")}
+    }catch(error) {message.reply("Some error has occurred")}
 
     }
    

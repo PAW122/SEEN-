@@ -9,7 +9,7 @@ const Discord = require('discord.js');
 //$kick help en
 module.exports = {
     name: "kick",
-    description: "usówa wiadomości",
+    description: "usuwa wiadomości",
     usage: "$clear <ilość wiadomości>",
     work: worker,
 
@@ -44,7 +44,7 @@ if(await db.get(`check.check`) == true){
 
                 .setColor(`BLUE`)//PL
                 .setTitle(`Kick`)
-                .setDescription(`wyrzuca urzytkownika z serwera\n
+                .setDescription(`wyrzuca użytkownika z serwera\n
                 użycie: "$kick @user"`)
         
                 .setFooter(message.author.tag, message.author.avatarURL({dynamic: true}));

@@ -24,32 +24,32 @@ module.exports = {
         
 
         if(!args[0]){
-            return message.reply(`nie podałeś liczby ${emoji} które mam dodać urzytkownikowi
-            użyj: $helpeco aby dowiedzieć się jak używać koend`)
+            return message.reply(`You didn't enter a number ${emoji} which I should add to the user
+            use: $helpeco to learn how to use commands`)
         }
         if(!args[1]){
-            return message.reply(`nie podałeś id urztkownika
-            użyj: $helpeco aby dowiedzieć się jak używać koend`)
+            return message.reply(`you didn't enter a user id
+            użyj: $helpeco to learn how to use commands`)
         }
         if ((isNaN(args[0])) ){
-            return message.reply(`podałeś błędną ilość ${emoji}`)
+            return message.reply(`You entered wrong amount ${emoji}`)
         }
         if ((isNaN(args[1])) ){
-            return message.reply(`podałeś błędne id`)
+            return message.reply(`You entered wrong id`)
         }
 
         if (!message.member.permissions.has("ADMINISTRATOR")) {
-            return message.channel.send("nie masz uprawnień Administratora")
+            return message.channel.send("You don't have admin authorization")
         }
         if(await db.get(args[1]) == null){
-            return message.reply(`osoba o takim id nie bierze udziału w grze`)
+            return message.reply(`a person with this id is not participating in the game`)
         }else{
             const coins = await db.get(`${args[1]}.coins[0]`);
             const add = parseInt(args[0])//zamienia string na liczbe
             const add2 = parseInt(coins)
             const to_add = add + add2
             await db.set(`${args[1]}.coins[0]`, to_add)
-            return message.reply(`Pomyślnie dodano urzytkownikowi <@${args[1]}> ${args[0]} ${emoji}`)
+            return message.reply(`Successfully added to user <@${args[1]}> ${args[0]} ${emoji}`)
         }
 
     }

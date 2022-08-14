@@ -19,17 +19,17 @@ module.exports = {
     .setColor(`BLUE`)
     .setTitle(`Help`)
     .addFields(//inline-w embedzie zamiast po dobą będą obok siebie
-        { name: `Economy version: ${economy_db_version}`, value: `jeżeli twoja wersja wsystemu ekonomi jest starsza użyj $ecodeafult -- przywróci to system do deafultowych ustawień, statystki wszystkich urzytkowników zostaną zrestartowane, ale uzyskasz dostęp do nowych funkcji`, inline: true },
-        { name: `$daily`, value: `odbierz dzienną nagrode od 50 do 100 ${emoji}`, inline: true },
-        { name: `$birthday`, value: `odbierz przeznt urodzinowy`, inline: true },
-        { name: `$profil`, value: `wyświetla informacje ile posiadasz ${emoji} itp`, inline: true },
-        { name: `$weekly`, value: `odbierz tygondniową nagrodę${emoji}`, inline: true },
-        { name: `$roll`, value: `masz 30% szans na podwojenie ${emoji}. Maxymalnie można użyć 15 razy dziennie\n użycie: $roll 10`, inline: true },
+        { name: `Economy version: ${economy_db_version}`, value: `if your version of the economy system is older use $ecodeafult -- it will restore the system to deafult settings, all users statistics will be restarted, but you will gain access to new functions`, inline: true },
+        { name: `$daily`, value: `Receive a daily reward from 50 to 100 ${emoji}`, inline: true },
+        { name: `$birthday`, value: `receive the birthday present `, inline: true },
+        { name: `$profil`, value: `displays information about how much ${emoji} you have eg.`, inline: true },
+        { name: `$weekly`, value: `Receive weekly reward ${emoji}`, inline: true },
+        { name: `$roll`, value: `you have a 30% chance to double the amount of ${emoji}. You can use this option a maximum of 15 times a day\n usage: $roll 10`, inline: true },
         { name: `$shop`, value: `wyświetla liste przedmiotów, które można kupićc`, inline: true },
-        { name: `$add`, value: `pozwala administracji dodawać i odejmować ${emoji} urzytkownikom
-        użycie: $add <ilość${emoji}> <userId>
-        przykład: $add 100 797070806885990431`, inline: true },
-        { name: `$birthday`, value: `ustaw date sowich urodzi żeby odebrać urodzinową nagrode`, inline: true },
+        { name: `$add`, value: `allows administration to add and subtract ${emoji} of other users
+        usage: $add <amount${emoji}> <userId>
+        example: $add 100 797070806885990431`, inline: true },
+        { name: `$birthday`, value: `set your birthday to recieve your birthday reward`, inline: true },
     )
     message.channel.send({embeds: [embed_pl] })
     }

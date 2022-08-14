@@ -5,16 +5,16 @@ const { Permissions: { FLAGS } } = require('discord.js')
 const { QuickDB } = require("quick.db")
 module.exports = {
     name: "unban",
-    description: "wysyła informacje o serweże",
+    description: "Sends information about the server",
     usage: "$srvinfo",
     isSlash: true,
     data: new SlashCommandBuilder()
         .setName('unban')
-        .setDescription('Odbanowywuje użytkownika')
+        .setDescription('Unbans user')
         .addStringOption((option =>
             option
                 .setName('userid')
-                .setDescription('Podaj id użytkownika którego chcesz odbanować')
+                .setDescription('Enter id of a user that you wish to unban')
                 .setRequired(true)
         )),
     async execute(inter) {
@@ -28,14 +28,14 @@ module.exports = {
             if (settings != true) { return message.channel.send(settings_reason) }
         }
 
-        if (!inter.member.permissions.has(FLAGS.BAN_MEMBERS)) return inter.reply({ content: 'Nie masz wystarczająco permisji aby użyć tej komendy!', ephemeral: true });
+        if (!inter.member.permissions.has(FLAGS.BAN_MEMBERS)) return inter.reply({ content: 'You do not have permission to use this command!', ephemeral: true });
         const userId = inter.options.getString('userid');
 
         inter.guild.members.unban(userId).then((user) => {
-            inter.reply({ content: `${user.tag} został odbanowany na serverze!` });
+            inter.reply({ content: `${user.tag} Has been unbanned!` });
         })
             .catch(() => {
-                inter.reply({ content: 'Prosze podać prawidłowe id użytkownika do odbanowania!' });
+                inter.reply({ content: 'Please enter a valid user id to unban!' });
             })
     }
 } 

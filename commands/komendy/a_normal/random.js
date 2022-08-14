@@ -13,17 +13,17 @@ module.exports = {
     name: "random",
     name_en:"random",
     description: "wysyła randomową liczbe od 1 do ?",
-    usage: "$random <maxymalna wartość lodowania>",
+    usage: "$random <maksymalna wartość lodowania>",
     work: worker,
     isSlash: true,
 
     data: new SlashCommandBuilder()
     .setName('random')
-    .setDescription('wysyła randomową liczbe od 1 do podanej przez urzytkownika')
+    .setDescription('Sends a random number from 1 to any set by the user')
     .addNumberOption((option) =>
     option
         .setName("maximum_number")
-        .setDescription("maksymalna liczba jaką może wylosować bot")
+        .setDescription("Maximum number a bot can draw ")
         .setRequired(true)
 ),
     
@@ -42,9 +42,9 @@ executeInteraction: async (inter) => {
         const embed2 = new Discord.MessageEmbed()
         .setTitle("random")
         .setColor("RANDOM")
-        .setDescription(`minimalna liczba 0\n
-        maksymalna liczba:${maximum_number}\n
-        wylosowana liczba:${rng}`)
+        .setDescription(`Minimum number 0\n
+        Maximum number:${maximum_number}\n
+        Drawn number:${rng}`)
         inter.reply({ embeds: [embed2] })
 
     }
@@ -70,7 +70,7 @@ if(await db.get(`check.check`) == true){
 
             .setColor(`RED`)//EN
             .setTitle(`Clear`)
-            .setDescription(`sends a random number from 1 to ?\n
+            .setDescription(`sends a random number from 1 to any set by the user\n
             usage: "$random <maximal number>"\n
             example: "$random 10" - the bot will draw a number from 1 to 10`)
     

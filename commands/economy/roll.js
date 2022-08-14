@@ -27,20 +27,20 @@ module.exports = {
         if(await db.get(userId) == null){
             check_db(message)
             await new Promise(r => setTimeout(r, 2000))
-            return message.reply("Twój profil właśnie został stworzony")
+            return message.reply("Your profile has been created")
         }
         
         const coins = await db.get(`${userId}.coins[0]`);
         // await db.set(`${userId}`,{coins: [1000],daily_coins: [rok,month,day],daily_usage: [użycia],eqipment: []   })
 
         if(!args[0]){
-            return message.reply(`musisz podać ilość ${emoji} które chcesz obstawić`)
+            return message.reply(`You need to enter the amount of ${emoji} that you want to bet`)
         }
         if ((isNaN(args[0])) ){
-            return message.reply("podana wartość musi być liczbą")
+            return message.reply("the given value must be a number")
         }
         if(coins < args[0]){
-            return message.reply(`masz za mało ${emoji}`)
+            return message.reply(`You don't have enough ${emoji}`)
         }
         const obstawione_monet = args[0]
 
@@ -51,13 +51,13 @@ module.exports = {
         if(rng != 1){
             
             const suma = coins-obstawione_monet
-            message.reply(`przegrałeś ${obstawione_monet} ${emoji}
-            obecnie posiadasz: ${suma} ${emoji}`)
+            message.reply(`You lost ${obstawione_monet} ${emoji}
+            you currently have: ${suma} ${emoji}`)
             await db.set(`${userId}.coins[0]`, suma)
         }else{
             const suma = (obstawione_monet*2) + coins
-            message.reply(`wygrałeś ${obstawione_monet * 2} ${emoji}
-            obecnie posiadasz: ${suma} ${emoji}`)
+            message.reply(`You won ${obstawione_monet * 2} ${emoji}
+            you currently have: ${suma} ${emoji}`)
             await db.set(`${userId}.coins[0]`, suma)
         }
     }

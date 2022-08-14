@@ -14,39 +14,40 @@ const embed_pl = new Discord.MessageEmbed()
     .addFields(//inline-w embedzie zamiast po dobą będą obok siebie
         {
             name: `$settings deafult`,
-            value: `tworzy profil ustawień serwera`, inline: true
+            value: `creates a server settings profile`, inline: true
         },
 
 
         {
-            name: `settings`, value: `daje możliwość wyłączenia i włączenia dowolnej komendy dla serwera przez administratora
+            name: `settings`, value: `allows the administrator to disable and enable any command for the server
         \n użycie: $settings <on/off> <command_name>
-        wyłączenie przykład: $settings off eight_ball
-        włączenie przykład: $settings on eight_ball`, inline: true
+        example off: $settings off eight_ball
+        example on: $settings on eight_ball`, inline: true
         },
         {
             name: `$srv_set list`,
-            value: `aby usyskać pełną liste komend i usyskać informacje która z komend jest wyłączona`, inline: true
+            value: `to get a complete list of commands and find out which commands are disabled`, inline: true
         },
         {
             name: `$settings prefix`,
-            value: `pozwala zmienić prefix dla serwera
-         użycie: $settings prefix <your prefix>
-         przykład: $settings prefix $`, inline: true
+            value: `allows you to change the prefix for the server
+
+         usage: $settings prefix <your prefix>
+         example: $settings prefix $`, inline: true
         },
 
         {
             name: `$settings welcome_messages`,
-            value: `daje możliwość ustawienia welcom message na serweże
-         użycie: $settings welcome_messages <channelId>
-         przykład: $settings welcome_messages 764240709779193876`, inline: true
+            value: `gives the possibility to set a "welcome message" on the server
+         usage: $settings welcome_messages <channelId>
+         example: $settings welcome_messages 764240709779193876`, inline: true
         },
 
         {
             name: `$settings ticket`,
-            value: `daje możliwość ustawienia kanałów do ticketów
-         użycie: $settings ticket <channel id for users> <channel id for administrators>
-         przykład: $settings ticket 764240709779193876 745768777022701648`, inline: true
+            value: `gives the possibility to set up channels for tickets
+         usage: $settings ticket <channel id for users> <channel id for administrators>
+         example: $settings ticket 764240709779193876 745768777022701648`, inline: true
         },
 
 
@@ -70,7 +71,7 @@ module.exports = {
             .setTitle(`List of all commands page 1/2`)
             .setDescription(`True: on  ||   Flase: off
     if your db_version in not: ${db_version} use $settings deafult
-    WARRING!! when db is updated u loss all settings`)
+    WARNING!! when db is updated u loss all of your settings`)
             .addFields(
                 { name: `db version:`, value: `${await db.get(`version.check`,)}`, inline: false },
                 { name: `prefix`, value: `${await db.get(`prefix.check`,)}`, inline: false },

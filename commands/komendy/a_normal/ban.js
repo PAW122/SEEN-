@@ -11,7 +11,7 @@ const Discord = require('discord.js');
 const { SlashCommandBuilder } = require('@discordjs/builders');
 module.exports = {
     name: "ban",
-    description: "usówa wiadomości",
+    description: "usuwa wiadomości",
     usage: "$clear <ilość wiadomości>",
     work: worker,
     isSlash: true,//wyłączone bo coś jest zjebane
@@ -39,7 +39,7 @@ if(await db.get(`check.check`) == true){
 }
 
         if (!inter.member.permissions.has(FLAGS.BAN_MEMBERS)) {
-            return(inter.reply({ content: 'Nie masz wystarczająco permisji aby użyć tej komendy!', ephemeral: true }));
+            return(inter.reply({ content: 'Nie masz wystarczających permisji aby użyć tej komendy!', ephemeral: true }));
         }
         const user = inter.options.getUser('user');
         const member = inter.guild.members.cache.get(user.id) || await inter.guild.members.fetch(user.id).catch(err => { console.log(err) })
@@ -88,7 +88,7 @@ if(await db.get(`check.check`) == true){
                     .setColor(`RED`)
                     .setTitle(`Ban`)
                     .setDescription(`ban the user from the server \n
-            use: "$ban @user"`)
+            usage: "$ban @user"`)
 
                     .setFooter(message.author.tag, message.author.avatarURL({ dynamic: true }));
 
@@ -99,8 +99,8 @@ if(await db.get(`check.check`) == true){
 
                     .setColor(`BLUE`)//PL
                     .setTitle(`Ban`)
-                    .setDescription(`banuje urzytkownika z serwera\n
-            użycie: "$ban @user"`)
+                    .setDescription(`ban the user from the server\n
+            usage: "$ban @user"`)
 
                     .setFooter(message.author.tag, message.author.avatarURL({ dynamic: true }));
 
@@ -112,19 +112,19 @@ if(await db.get(`check.check`) == true){
 
             //permisje
             if (!message.member.permissions.has("BAN_MEMBERS")) {
-                return message.channel.send("nie masz uprawnień do banowania")
+                return message.channel.send("You don't have permissions needed to ban users")
             }
 
 
             //bot sprawdza czy ma permisje do usówania na dc
             if (!message.guild.me.permissions.has("KICK_MEMBERS")) {
-                return message.channel.send("Nie posiadam uprawnień do banowania")
+                return message.channel.send("I'am not authorized to ban users on this server")
             }
 
             const target = message.mentions.members.first()
             if (target == true) {
                 target.ban()
-            } else { message.channel.send("nie mogę wykonać tego polecenia") }
+            } else { message.channel.send("I can't execute this command") }
 
         }
     }

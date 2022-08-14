@@ -105,14 +105,14 @@ if(await db.get(`check.check`) == true){
 const Autor = "PAW#5844"
 const version = "1.1.9"
 const Engin_version = "16.9.0"
-const stowrzony = "29.05.2022"
+const stworzony = "29.05.2022"
         const embed = new Discord.MessageEmbed()
 
         .setTitle("SEEN-:")
         .setDescription(`**Autor:**${Autor}\n
         **version:**${version} \n
         **Wejsja silnika:** ${Engin_version} \n
-        **Data stworzenia bota:**${stowrzony}`)
+        **Data stworzenia bota:**${stworzony}`)
 
 
         .setThumbnail(message.guild.iconURL({ dynamic: true }));

@@ -7,14 +7,14 @@ const { SlashCommandBuilder } = require('@discordjs/builders');
 const { QuickDB } = require("quick.db");
 
 var fortunes = [
-    "**Tak**",
-    "**Nie**",
-    "**Może**",
-    "**Nie Wiem**",
-    "**Prawdopodobnie**",
-    "**Chyba**",
-    "**Nie Jestem Pewien**",
-    "**Na Pewno**"
+    "**Yes**",
+    "**No**",
+    "**Maybe**",
+    "**I don't know**",
+    "**Probably**",
+    "**I guess**",
+    "**I'm not sure**",
+    "**Surely**"
 ];
 //8ball
 //8ball help
@@ -29,7 +29,7 @@ module.exports = {
 
     data: new SlashCommandBuilder()
         .setName('8ball')
-        .setDescription('Wysyła randomowe słowo: Taj/Nie/Może/Nie Wiem/ Prawdopodobnie/Chyba/Nie Jestem Pewien/ Na Pewno'),
+        .setDescription('Sends a random word: Yes/No/Maybe/I dont know/Probably/I guess/Im not sure/ Surely'),
     executeInteraction: async (inter) => {
         if(work != true){
             const embed_worker = new Discord.MessageEmbed()
@@ -72,14 +72,14 @@ module.exports = {
         if(args[0] == "help"){
             if(args[1] == "en"){
                 message.channel.send(`the bot sends a random message from the list:
-                **Tak**
-                **Nie**
-                **Może**
-                **Nie Wiem**
-                **Prawdopodobnie**
-                **Chyba**",
-                **Nie Jestem Pewien**
-                **Na Pewno**`)
+                **Yes**
+                **No**
+                **Maybe**
+                **I don't know**
+                **Probably**
+                **I guess**",
+                **I'm not sure**
+                **Surely**`)
             }else{
                 message.channel.send(`bot wysyła randomową wiadomość z listy:
                 **Tak**

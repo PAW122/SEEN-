@@ -14,11 +14,11 @@ module.exports = {
 
     data: new SlashCommandBuilder()
     .setName('userinfo')
-    .setDescription('informacje o urzytkownikó')
+    .setDescription('Information about the user')
 
 .addUserOption(option => 
-    option.setName('urzytkownik')
-    .setDescription('urzytkownik o kturym hcesz zobaczyć informacje')
+    option.setName('użytkownik')
+    .setDescription('The user that you want to see information about')
     .setRequired(true)),
 
     executeInteraction: async (inter) => {
@@ -40,11 +40,11 @@ module.exports = {
             if(settings != true){return message.channel.send(settings_reason)}
         }
 
-    const member = inter.options.getMember("urzytkownik");
+    const member = inter.options.getMember("użytkownik");
     
     const embed = new MessageEmbed()
     .setColor('AQUA')
-    .setTitle(`Informacje o uzytkowniku ${member.displayName}`)
+    .setTitle(`Information about the user ${member.displayName}`)
     .setThumbnail(member.displayAvatarURL({ dynamic: true }))
     .addFields(
         {
@@ -56,11 +56,11 @@ module.exports = {
             value: `${member.roles.cache.map(r => r).join(" ").replace("@everyone", " ") || 'Nie ma roli'}`
         },
         {
-            name: 'Data dołączenia do serwera',
+            name: 'Date of joining the server',
             value: `<t:${parseInt(member.joinedTimestamp / 1000)}:R>`
         },
         {
-            name: 'Data założenia konta',
+            name: 'Date of account creation',
             value: `<t:${parseInt(member.user.createdTimestamp / 1000)}:R>`
         }
     )

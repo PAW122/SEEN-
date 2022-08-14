@@ -148,7 +148,7 @@ if(await db.get(`check.check`) == true){
             embedMessage.react("❌");
             });
             }catch (err){
-                message.channel.send("Make sure you have entered the content of the survey")
+                message.channel.send("Make sure you have typed the content of the survey")
                 console.log(err);
             }}
 

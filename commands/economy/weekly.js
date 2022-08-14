@@ -22,8 +22,8 @@ module.exports = {
         }
 
         if(args[0] == "help"){
-            `dobierz tygodniową nagrode
-            vip mnoży ilość monet x1.5`
+            `claim weekly reward
+            vip multiplies the amount of coins by x1.5`
         }
         
         const userId = message.author.id
@@ -33,7 +33,7 @@ module.exports = {
         if(await db.get(userId) == null){
             check_db(message)
             await new Promise(r => setTimeout(r, 2000))
-            return message.reply("Twój profil właśnie został stworzony")
+            return message.reply("Your profile has been created")
         }
        
 
@@ -47,8 +47,8 @@ module.exports = {
            await db.set(`${userId}.get_weekly[0]`, 0)
            await db.set(`${userId}.weekly[0]`, false)
 
-           return message.reply(`Odebrałeś 500 ${emoji}
-            masz łącznie ${coins_to_add} ${emoji}`)
+           return message.reply(`You recived 500 ${emoji}
+            You have a total of ${coins_to_add} ${emoji}`)
 
             }else{//posiada vipa == daj 1.5x monet
                 const vip_cash = weekly_coins * 1.5
@@ -60,7 +60,7 @@ module.exports = {
                 await db.set(`${userId}.get_weekly[0]`, 0)
            await db.set(`${userId}.weekly[0]`, false)
 
-                return message.reply(`Odebrałeś ${vip_cash} ${emoji}
+                return message.reply(`You recieved ${vip_cash} ${emoji}
                 masz łącznie ${coins_to_add} ${emoji}`)
             }
         }
@@ -68,8 +68,8 @@ module.exports = {
 
        if(await db.get(`${userId}.weekly[0]`) != true){
         const pozostało = await db.get(`${userId}.get_weekly[0]`)
-        return message.reply(`nie możesz jeszcze odebrać nagrody tygodniowej
-        pozostało ${7 - pozostało} dni`)
+        return message.reply(`you can't recieve your Weekly Reward yet
+        time remaining ${7 - pozostało} days`)
        }else{
         coins_add()
        }

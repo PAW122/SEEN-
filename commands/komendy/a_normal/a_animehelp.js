@@ -13,8 +13,8 @@ const embed_pl = new Discord.MessageEmbed()
         .setDescription(`anime help`)
         .addFields(//inline-w embedzie zamiast po dobą będą obok siebie
         {name: `animegif`,value: `${prefix}animegif help\n${prefix}animegif help en`,inline: true},
-        {name: `odcinki anime`,value: `${prefix}anime_odc_help\n${prefix}anime_odc_help en`,inline: true},   
-        {name: `zapowiedzi lato2022`,value: `${prefix}zapowiedzi help\n${prefix}zapowiedzi help en`,inline: true},
+        {name: `anime episodes`,value: `${prefix}anime_odc_help\n${prefix}anime_odc_help en`,inline: true},   
+        {name: `announcements summer2022`,value: `${prefix}announcements help\n${prefix}announcements help en`,inline: true},
         {name: `animelist`,value: `${prefix}animelist help\n${prefix}animelist help en`,inline: true},
         {name: `myanimelist`,value: `${prefix}myanimelist help\n${prefix}myanimelist help en`,inline: true},
 
@@ -30,7 +30,7 @@ module.exports = {
     
     data: new SlashCommandBuilder()
         .setName('anime')
-        .setDescription('Wyświetla liste komend z kateori anime'),
+        .setDescription('Display list of commands from anime category'),
     executeInteraction: async (inter) => {
         if(work != true){
             const embed_worker = new Discord.MessageEmbed()
@@ -74,8 +74,8 @@ module.exports = {
         .setDescription(`U can use '$help en' for a description in English\nlist of all commands:`)
         .addFields(//inline-w embedzie zamiast po dobą będą obok siebie
         {name: `animegif`,value: `${prefix}animegif help\n${prefix}animegif help en`,inline: true},
-        {name: `odcinki anime`,value: `${prefix}anime_odc_help\n${prefix}anime_odc_help en`,inline: true},   
-        {name: `zapowiedzi lato2022`,value: `${prefix}zapowiedzi help\n${prefix}zapowiedzi help en`,inline: true},
+        {name: `anime episodes`,value: `${prefix}anime_odc_help\n${prefix}anime_odc_help en`,inline: true},   
+        {name: `announcements summer2022`,value: `${prefix}announcements help\n${prefix}announcements help en`,inline: true},
         {name: `animelist`,value: `${prefix}animelist help\n${prefix}animelist help en`,inline: true},
         {name: `myanimelist`,value: `${prefix}myanimelist help\n${prefix}myanimelist help en`,inline: true},
 

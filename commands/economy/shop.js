@@ -19,9 +19,9 @@ module.exports = {
         const embed_pl = new Discord.MessageEmbed()
     .setColor(`BLUE`)
     .setTitle(`Shop`)
-    .setDescription("Aby kupić przedmit wpisz: $buy <nazwa_przedmiotu>")
+    .setDescription("To buy any item, type: $buy <item_name>")
     .addFields(
-        { name: `1: VIP`, value: `podwaja dzienną nagrode\nkoszt: 25.000 ${emoji}`, inline: false },
+        { name: `1: VIP`, value: `Dubles the daily reward\n price: 25.000 ${emoji}`, inline: false },
 
     )
     message.channel.send({embeds: [embed_pl] })

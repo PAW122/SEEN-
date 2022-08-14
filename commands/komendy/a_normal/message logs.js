@@ -16,7 +16,7 @@ module.exports = {
 
     data: new SlashCommandBuilder()
     .setName('message_logs')
-    .setDescription('wysyła plik .txt z logami wszystkich wiadomości wysłanych na serweże podczas działania bota'),
+    .setDescription('wysyła plik .txt z logami wszystkich wiadomości wysłanych na serwerze podczas działania bota'),
     
 executeInteraction: async (inter) => {
     if (work != true) {
@@ -60,7 +60,7 @@ executeInteraction: async (inter) => {
                 .setColor(`BLUE`)//PL
                 .setTitle(`logs`)
                 .setDescription(`bot wysyła plik textowy z wszystkimi
-                 wiadomościami wysłanymi na serweże
+                 wiadomościami wysłanymi na serwerze
                  użycie: $message_logs`)
         
                 .setFooter(message.author.tag, message.author.avatarURL({dynamic: true}));
@@ -70,7 +70,7 @@ executeInteraction: async (inter) => {
             }
         }else{
             if(!message.member.permissions.has("ADMINISTRATOR")) {
-                return message.channel.send("nie masz uprawnień do usówania wiadomości")
+                return message.channel.send("nie masz uprawnień do usuwania wiadomości")
             }
 
             const srv = message.guild.id + ".txt"

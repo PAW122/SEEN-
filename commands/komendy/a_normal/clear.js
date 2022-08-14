@@ -16,7 +16,7 @@ const { QuickDB } = require("quick.db");
 module.exports = {
     name: "wyczyść",
     name_en:"clear",
-    description: "usówa wiadomości",
+    description: "usuwa wiadomości",
     usage: "$clear <ilość wiadomości>",
     work: worker,
     isSlash: true,
@@ -51,11 +51,11 @@ if(await db.get(`check.check`) == true){
             const to_delete = inter.options.getNumber('messages')
 
             if (!inter.member.permissions.has(FLAGS.MANAGE_MESSAGES)) {
-                return(inter.reply({ content: 'Nie masz wystarczająco permisji aby użyć tej komendy!', ephemeral: true }));
+                return(inter.reply({ content: 'Nie masz wystarczających permisji aby użyć tej komendy!', ephemeral: true }));
             } 
 
             if(!inter.member.permissions.has(FLAGS.MANAGE_MESSAGES)) {
-                return(inter.reply({ content: 'Nie posiadam uprawnień do usówania wiadomości!', ephemeral: true }));
+                return(inter.reply({ content: 'Nie posiadam uprawnień do usuwania wiadomości!', ephemeral: true }));
             }
             try{
                 inter.channel.bulkDelete(to_delete, true)
@@ -66,7 +66,7 @@ if(await db.get(`check.check`) == true){
             const embed2 = new Discord.MessageEmbed()
                 .setColor("RANDOM")
                 .setTitle('clear')
-                .setDescription(`usunołeś ${to_delete} wiadomości`)
+                .setDescription(`usunąłeś ${to_delete} wiadomości`)
                 .setTimestamp()
             inter.reply({ embeds: [embed2] })
 
@@ -108,7 +108,7 @@ if(await db.get(`check.check`) == true){
 
             .setColor(`BLUE`)//PL
             .setTitle(`Wyczyść`)
-            .setDescription(`bot usówa ilość podaną ilość wiadomości\n
+            .setDescription(`bot usuwa podaną ilość wiadomości\n
             użycie: "$wyczyść <liczba_wiadomości_do_usunięcia>"
             przykład: "$wyczyść 15"`)
     
@@ -125,17 +125,17 @@ if(await db.get(`check.check`) == true){
 
         //permisje
         if(!message.member.permissions.has("MANAGE_MESSAGES")) {
-            return message.channel.send("nie masz uprawnień do usówania wiadomości")
+            return message.channel.send("nie masz uprawnień do usuwania wiadomości")
         }
 
         //sprawdż argumenty
         if(isNaN(args[0]) || parseInt(args[0]) <= 0) {
-            return message.channel.send("podałeś błędną liczbe wiadomości")
+            return message.channel.send("podałeś błędną liczbę wiadomości")
         }
 
         //bot sprawdza czy ma permisje do usówania na dc
         if(!message.guild.me.permissions.has("MANAGE_MESSAHES")) {
-            return message.channel.send("Nie posiadam uprawnień do usówania wiadomości")
+            return message.channel.send("Nie posiadam uprawnień do usuwania wiadomości")
         }
 
         let deleteAmount;

@@ -13,14 +13,14 @@ const {QuickDB} = require("quick.db")
 module.exports = {
     name: "srvinfo",
     name_en:"srvinfo",
-    description: "wysyła informacje o serweże",
+    description: "Sends information about the server",
     usage: "$srvinfo",
     work: worker,
     isSlash: true,
     
         data: new SlashCommandBuilder()
             .setName('srvinfo')
-            .setDescription('Wyświetla informacje o serverze'),
+            .setDescription('Sends information about the server'),
     
             executeInteraction: async (inter) =>{
 
@@ -41,53 +41,53 @@ module.exports = {
                 .setThumbnail(guild.iconURL({ dynamic: true }))
                 .addFields(
                     {
-                        name: '**Ogólne**',
+                        name: '**General**',
                         value: [
-                            `Nazwa: ${guild.name}`,
-                            `Utworzono: <t:${parseInt(createdTimestamp / 1000)}:R>`,
-                            `Właściciel: <@${ownerId}>`,
+                            `Name: ${guild.name}`,
+                            `Created: <t:${parseInt(createdTimestamp / 1000)}:R>`,
+                            `Owner: <@${ownerId}>`,
                         ].join('\n')
                     },
                     {
-                        name: '**Użytkownicy**',
+                        name: '**Users**',
                         value: [
-                            `- Użytkownicy: ${members.cache.filter((m) => !m.user.bot).size}`,
-                            `- Boty: ${members.cache.filter((m) => m.user.bot).size}`,
-                            `Ogólnie: ${memberCount}`,
+                            `- Users: ${members.cache.filter((m) => !m.user.bot).size}`,
+                            `- Bots: ${members.cache.filter((m) => m.user.bot).size}`,
+                            `General: ${memberCount}`,
                         ].join('\n')
                     },
                     {
-                        name: '**Kanały**',
+                        name: '**Channels**',
                         value: [
-                            `- Tekstowe: ${channels.cache.filter((c) => c.type === 'GUILD_TEXT').size}`,
-                            `- Głosowe: ${channels.cache.filter((c) => c.type === 'GUILD_VOICE').size}`,
-                            `- Wątki: ${channels.cache.filter((c) => c.type === 'GUILD_NEWS_THREAD' && 'GUILD_PRIVATE_THREAD' && 'GUILD_PUBLIC_THREAD').size}`,
-                            `- Kategorie: ${channels.cache.filter((c) => c.type === 'GUILD_CATEGORY').size}`,
+                            `- Text channels: ${channels.cache.filter((c) => c.type === 'GUILD_TEXT').size}`,
+                            `- Voice channels: ${channels.cache.filter((c) => c.type === 'GUILD_VOICE').size}`,
+                            `- Threads: ${channels.cache.filter((c) => c.type === 'GUILD_NEWS_THREAD' && 'GUILD_PRIVATE_THREAD' && 'GUILD_PUBLIC_THREAD').size}`,
+                            `- Categories: ${channels.cache.filter((c) => c.type === 'GUILD_CATEGORY').size}`,
                             `- Podium: ${channels.cache.filter((c) => c.type === 'GUILD_STAGE_VOICE').size}`,
-                            `- Aktualności: ${channels.cache.filter((c) => c.type === 'GUILD_NEWS').size}`,
-                            `Ogólnie: ${channels.cache.size}`,
+                            `- News: ${channels.cache.filter((c) => c.type === 'GUILD_NEWS').size}`,
+                            `General: ${channels.cache.size}`,
                         ].join('\n')
                     },
                     {
-                        name: 'Emoji oraz naklejki',
+                        name: 'Emojis and stickers',
                         value: [
-                            `- Animowane: ${emojis.cache.filter((e) => e.animated).size}`,
-                            `- Zwykłe: ${emojis.cache.filter((e) => !e.animated).size}`,
-                            `- Naklejek: ${stickers.cache.size}`,
-                            `Ogólnie: ${stickers.cache.size + emojis.cache.size}`,
+                            `- Animated: ${emojis.cache.filter((e) => e.animated).size}`,
+                            `- Normal: ${emojis.cache.filter((e) => !e.animated).size}`,
+                            `- Stickers: ${stickers.cache.size}`,
+                            `General: ${stickers.cache.size + emojis.cache.size}`,
                         ].join('\n')
                     },
                     {
-                        name: '**Statystki NITRO**',
+                        name: '**NITRO stats**',
                         value: [
                             `- Role: ${guild.roles.cache.size}`,
                             // `- Poziom: ${guild.premiumTier.replace('TIER_', '')}`,
-                            `- Boosty: ${guild.premiumSubscriptionCount}`,
-                            `- Boosterzy: ${members.cache.filter((m) => m.premiumSince).size}`,
+                            `- Boosts: ${guild.premiumSubscriptionCount}`,
+                            `- Boosters: ${members.cache.filter((m) => m.premiumSince).size}`,
                         ].join('\n')
                     }
                 )
-                .setFooter({ text: `Ostatnio sprawdzane:` })
+                .setFooter({ text: `Last checked:` })
                 .setTimestamp()
     
             inter.reply({ embeds: [embed] })

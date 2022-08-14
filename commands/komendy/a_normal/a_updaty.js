@@ -12,7 +12,7 @@ const embed = new Discord.MessageEmbed()
         { name: "24.06.2022", value: "optymalizacja plików", inline: false },
         { name: "25.06.2022", value: "poprawiona komenda help \n optymalizacja plików", inline: false },
         { name: "28.06.2022", value: "dodane nowe anime do animelist", inline: false },
-        { name: "29.06.2022", value: "naprawiny błąd w komendzie ruletka", inline: false },
+        { name: "29.06.2022", value: "naprawiony błąd w komendzie ruletka", inline: false },
         { name: "30.06.2022", value: "dodanie nowej komendy: updaty/aktualizacje \n dodanie funkcji help dla komend z kategori anime", inline: false },
         { name: "31.06.2022", value: "aktualizacja serwera", inline: false },
         { name: "1.07.2022", value: "optymalizacja plików \n nowa komenda: 8ball", inline: false },
@@ -31,17 +31,17 @@ const embed2 = new Discord.MessageEmbed()
     .setTitle(`update`)
     .addFields(
         { name: "06/24/2022", value: "file optimization", inline: false },
-        { name: "06/25/2022", value: "help command corrected \n file optimization", inline: false },
+        { name: "06/25/2022", value: "corrected help command \n file optimization", inline: false },
         { name: "06/28/2022", value: "new anime added to animelist", inline: false },
-        { name: "06/29/2022", value: "fix the error in the roulette command", inline: false },
+        { name: "06/29/2022", value: "fixed error in the roulette command", inline: false },
         { name: "30/06/2022", value: "added command: updates / updates \n added help command for anime category", inline: false },
         { name: "6/31/2022", value: "server update", inline: false },
-        { name: "1.07.2022", value: "file optimization \ n new command: 8ball", inline: false },
-        { name: "2.07.2022", value: "yt music playback system added and all related commands \ n server optimization \ n file optimization", inline: false },
-        { name: "4.07.2022", value: "server update", inline: false },
-        { name: "6.07.2022", value: "code optimization", inline: false },
-        { name: "07.17.2022", value: "added configuration of enabled commands, added notifications with reasons to disable individual commands when trying to use them", inline: false },
-        { name: "07/21/2022", value: "add dates of anime episodes from the preview anime category", inline: false },
+        { name: "1/07/2022", value: "file optimization \ n new command: 8ball", inline: false },
+        { name: "2/07/2022", value: "yt music playback system added as well as all related commands \ n server optimization \ n file optimization", inline: false },
+        { name: "4/07/2022", value: "server update", inline: false },
+        { name: "6/07/2022", value: "code optimization", inline: false },
+        { name: "07/17/2022", value: "added configuration of enabled commands, added notifications with reasons to disable individual commands when trying to use them", inline: false },
+        { name: "07/21/2022", value: "added dates of anime premiere episodes from the preview anime category", inline: false },
     )
 //aktualizacje
 //aktualizacje help
@@ -103,7 +103,7 @@ executeInteraction: async (inter) => {
 
                     .setColor(`RED`)//EN
                     .setTitle(`updaty`)
-                    .setDescription(`Sends a list of bot updates`)
+                    .setDescription(`Display a list of bot updates`)
 
                     .setFooter(message.author.tag, message.author.avatarURL({ dynamic: true }));
 

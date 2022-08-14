@@ -22,39 +22,39 @@ module.exports = {
 
     data: new SlashCommandBuilder()
     .setName('ruletka')
-    .setDescription('zagraj w ruletke || od 1 do 5 graczy')
+    .setDescription('play some roulette || from 1 to 5 players')
     .addNumberOption((option) =>
     option
         .setName("liczba_graczy")
-        .setDescription("podaj liość graczy biorących udział w ruletce")
+        .setDescription("set the number of players")
         .setRequired(true))
 
     .addUserOption((option) =>
     option
         .setName("user1")
-        .setDescription("gracz nr 1 (wymagany)")
+        .setDescription("player no.1 (required)")
         .setRequired(true))
 
     .addUserOption((option) =>
         option
             .setName("user2")
-            .setDescription("gracz nr 2 (wymagany)")
+            .setDescription("player no.2 (required)")
             .setRequired(true))
 
     .addUserOption((option) =>
         option
             .setName("user3")
-            .setDescription("gracz nr 3 (opcjonalny)")
+            .setDescription("player no.3 (optional)")
             .setRequired(false))
     .addUserOption((option) =>
         option
             .setName("user4")
-            .setDescription("gracz nr 4 (opcjonalny)")
+            .setDescription("player no.4 (optional)")
             .setRequired(false))
     .addUserOption((option) =>
         option
             .setName("user5")
-            .setDescription("gracz nr 5 (opcjonalny)")
+            .setDescription("player no.5 (optional)")
             .setRequired(false)),
 
             executeInteraction: async (inter) => {
@@ -104,12 +104,12 @@ module.exports = {
                 .setTitle('**Ruletka**')
                 .setColor('RANDOM')
                 .setFields(
-                    {name: `Ruletka:` ,value: `Lista Graczy`, inline: false},
-                    {name: `gracz1:` ,value: `${player1}`, inline: true},
-                    {name: `gracz2:` ,value: `${player2}`, inline: true},
-                    {name: `gracz3:` ,value: `${player3}`, inline: true},
-                    {name: `gracz4:` ,value: `${player4}`, inline: true},
-                    {name: `gracz5:` ,value: `${player5}`, inline: true}
+                    {name: `Roulette:` ,value: `List of players`, inline: false},
+                    {name: `player1:` ,value: `${player1}`, inline: true},
+                    {name: `player2:` ,value: `${player2}`, inline: true},
+                    {name: `player3:` ,value: `${player3}`, inline: true},
+                    {name: `player4:` ,value: `${player4}`, inline: true},
+                    {name: `player5:` ,value: `${player5}`, inline: true}
                 )
                 await inter.reply({ embeds: [lobby] });
                
@@ -117,7 +117,7 @@ module.exports = {
                 await wait(2000);
                     const rng = Math.floor(Math.random() * players);
                     const wyeliminowany_gracz = players_list[rng]
-                await inter.followUp(`Wyeliminowany Został: <@${wyeliminowany_gracz}>`);
+                await inter.followUp(`Was eliminated: <@${wyeliminowany_gracz}>`);
 
 
 
@@ -159,9 +159,9 @@ module.exports = {
 
             .setColor(`BLUE`)//PL
             .setTitle(`ruletka`)
-            .setDescription(`ruletka jest dostępna dla 1-5 graczy. Po użycie komendy bot informuje który z graczy zostaje wyeliminowany\n
+            .setDescription(`ruletka jest dostępna dla 1-5 graczy. Po użyciu komendy bot informuje który z graczy zostaje wyeliminowany\n
             użycie: "$ruletka @user1 @user2"
-            \n ruletka ma problemy z funkcjonowaniem na serwerże i czasem nie działa`)
+            \n ruletka ma problemy z funkcjonowaniem na serwerze i czasem nie działa`)
     
             .setFooter(message.author.tag, message.author.avatarURL({dynamic: true}));
     
@@ -189,14 +189,14 @@ if(message.content.startsWith("roulette")){pl = 9}
 
         const embed = new Discord.MessageEmbed()
         .setColor("RED")
-        .setTitle("Ruletka")
-        .setDescription("Lista graczy:")
+        .setTitle("Roulette")
+        .setDescription("List of players:")
         .addFields(//inline-w embedzie zamiast po dobą będą obok siebie
-            {name: `Gracz1`,value: `${args[0]}`,inline: true},
-            {name: "Gracz2",value: `${args[1]}`,inline: true},
-            {name: "Gracz3",value: `${args[2]}`,inline: true},
-            {name: "Gracz4",value: `${args[3]}`,inline: true},
-            {name: "Gracz5",value: `${args[4]}`,inline: true},
+            {name: `Player1`,value: `${args[0]}`,inline: true},
+            {name: "Player2",value: `${args[1]}`,inline: true},
+            {name: "Player3",value: `${args[2]}`,inline: true},
+            {name: "Player4",value: `${args[3]}`,inline: true},
+            {name: "Player5",value: `${args[4]}`,inline: true},
             )
         .setFooter(message.author.tag, message.author.avatarURL({dynamic: true}));
         message.channel.send({embeds: [embed]});
@@ -210,7 +210,7 @@ if(message.content.startsWith("roulette")){pl = 9}
                   const embed3 = new Discord.MessageEmbed()
                   .setColor("BLUE")
                   .setTitle("Ruletka")
-                  .setDescription("Nie można mie wyeliminować")
+                  .setDescription("Nie można mnie wyeliminować")
   
                   .setFooter(message.author.tag, message.author.avatarURL({dynamic: true}));
 
@@ -230,15 +230,15 @@ if(message.content.startsWith("roulette")){pl = 9}
                   return
               }else{            const embed2 = new Discord.MessageEmbed()
                 .setColor("RED")
-                .setTitle("Ruletka")
+                .setTitle("Roulette")
                 //.setDescription("Lista graczy:")
                 .addFields(//inline-w embedzie zamiast po dobą będą obok siebie
-                    {name: `Wyeliminowany został gracz:`,value: `${args[rng]}`,inline: false},)
+                    {name: `Was eliminated:`,value: `${args[rng]}`,inline: false},)
                 .setFooter(message.author.tag, message.author.avatarURL({dynamic: true}));
     
     
                 if(liczba_graczy == 0){
-                    message.reply(`Niewypał-Nikt nie ginie`)
+                    message.reply(`Missfire - nobody dies`)
                     args.splice(args[rng])//usówa nick z listy
                     i += 1
                     return 0
@@ -254,15 +254,15 @@ if(message.content.startsWith("roulette")){pl = 9}
             if(i > 0){return 0}else{
             const embed2 = new Discord.MessageEmbed()
                 .setColor("RED")
-                .setTitle("Ruletka")
+                .setTitle("Roulette")
                 //.setDescription("Lista graczy:")
                 .addFields(//inline-w embedzie zamiast po dobą będą obok siebie
-                    {name: `Wyeliminowany został gracz:`,value: `${args[rng]}`,inline: false},)
+                    {name: `Was eliminated:`,value: `${args[rng]}`,inline: false},)
                 .setFooter(message.author.tag, message.author.avatarURL({dynamic: true}));
     
     
                 if(liczba_graczy == 0){
-                    message.reply(`Niewypał-Nikt nie ginie`)
+                    message.reply(`Missfire - nobody dies`)
                     args.splice(args[rng])//usówa nick z listy
                     return 0
                 }

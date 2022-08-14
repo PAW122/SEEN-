@@ -22,11 +22,11 @@ module.exports = {
 
     data: new SlashCommandBuilder()
     .setName('say')
-    .setDescription('kopiuje i wysyła twoją wiadomość')
+    .setDescription('copies and sends your message')
     .addStringOption((option) =>
         option
             .setName("say")
-            .setDescription("podaj treść wiadomości")
+            .setDescription("type your message")
             .setRequired(true)
     ),
 executeInteraction: async (inter) => {

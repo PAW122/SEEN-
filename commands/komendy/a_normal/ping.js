@@ -57,7 +57,7 @@ if(await db.get(`check.check`) == true){
 
                     .setColor(`RED`)//EN
                     .setTitle(`Ping`)
-                    .setDescription(`bot sends a message saying: "Pong" \n
+                    .setDescription(`bot sends a message: "Pong" \n
                 the command is used to check if the bot is online\n
                 usage: "$ping"`)
 
