@@ -2419,3 +2419,445 @@ D:Andorra
 14.08.2022   21:59   bot   SEEN-#5771   Your profile has been created
 14.08.2022   21:59   bot   PAW#5844   $helpeco
 14.08.2022   21:59   bot   SEEN-#5771   
+14.08.2022   23:35   bot   PAW#5844   $game
+14.08.2022   23:35   bot   SEEN-#5771   A: Argentina
+B:Andorra
+C:Armenia
+D:Angola
+14.08.2022   23:35   bot   SEEN-#5771   
+14.08.2022   23:35   bot   SEEN-#5771   błędna odpowiedż
+14.08.2022   23:35   bot   SEEN-#5771   błędna odpowiedż
+14.08.2022   23:45   bot   PAW#5844   $game
+14.08.2022   23:45   bot   SEEN-#5771   A: Albania
+B:Angola
+C:Andorra
+D:Andorra
+14.08.2022   23:45   bot   SEEN-#5771   
+14.08.2022   23:46   bot   PAW#5844   $game
+14.08.2022   23:46   bot   SEEN-#5771   A: Antigua and Barbuda
+B:Angola
+C:Albania
+D:Antigua and Barbuda
+14.08.2022   23:46   bot   SEEN-#5771   
+14.08.2022   23:52   bot   PAW#5844   $game
+14.08.2022   23:52   bot   SEEN-#5771   A: Albania
+B:Afghanistan
+C:Afghanistan
+D:Angola
+14.08.2022   23:52   bot   SEEN-#5771   
+14.08.2022   23:58   bot   PAW#5844   $game
+14.08.2022   23:58   bot   SEEN-#5771   A: Algeria
+B:Albania
+C:Algeria
+D:Andorra
+14.08.2022   23:58   bot   SEEN-#5771   
+15.08.2022   00:10   bot   PAW#5844   $game
+15.08.2022   00:10   bot   SEEN-#5771   A: Algeria
+B:Antigua and Barbuda
+C:Afghanistan
+D:Albania
+15.08.2022   00:10   bot   SEEN-#5771   
+15.08.2022   01:01   bot   PAW#5844   $game
+15.08.2022   01:01   bot   SEEN-#5771   A: Albania
+B:Albania
+C:Andorra
+D:Algeria
+15.08.2022   01:01   bot   SEEN-#5771   
+15.08.2022   01:02   bot   PAW#5844   $game
+15.08.2022   01:02   bot   SEEN-#5771   A: Armenia
+B:Andorra
+C:Antigua and Barbuda
+D:Andorra
+15.08.2022   01:02   bot   SEEN-#5771   
+15.08.2022   02:34   bot   PAW#5844   $game
+15.08.2022   02:34   bot   SEEN-#5771   A: Albania
+B:Algeria
+C:Angola
+D:Andorra
+15.08.2022   02:34   bot   SEEN-#5771   
+15.08.2022   02:39   bot   PAW#5844   $game
+15.08.2022   02:39   bot   SEEN-#5771   A: Algeria
+B:Afghanistan
+C:Andorra
+D:Afghanistan
+15.08.2022   02:40   bot   SEEN-#5771   
+15.08.2022   02:43   bot   PAW#5844   $game
+15.08.2022   02:43   bot   SEEN-#5771   A: Angola
+B:Argentina
+C:Andorra
+D:Antigua and Barbuda
+15.08.2022   02:43   bot   SEEN-#5771   
+15.08.2022   02:44   bot   PAW#5844   $game
+15.08.2022   02:44   bot   SEEN-#5771   A: Angola
+B:Argentina
+C:Andorra
+D:Armenia
+15.08.2022   02:44   bot   SEEN-#5771   
+15.08.2022   03:00   bot   PAW#5844   $game
+15.08.2022   03:00   bot   SEEN-#5771   A: Armenia
+B:Antigua and Barbuda
+C:Algeria
+D:Angola
+15.08.2022   03:00   bot   SEEN-#5771   
+15.08.2022   03:00   bot   SEEN-#5771   nie poprawna odpowiedż
+15.08.2022   03:00   bot   SEEN-#5771   nie poprawna odpowiedż
+15.08.2022   03:03   bot   PAW#5844   $game
+15.08.2022   03:03   bot   SEEN-#5771   A: Antigua and Barbuda
+B:Afghanistan
+C:Armenia
+D:Angola
+15.08.2022   03:03   bot   SEEN-#5771   
+15.08.2022   03:20   bot   PAW#5844   $game
+15.08.2022   03:20   bot   SEEN-#5771   A: Afghanistan
+B:Albania
+C:Antigua and Barbuda
+D:Argentina
+15.08.2022   03:21   bot   SEEN-#5771   
+15.08.2022   03:22   bot   PAW#5844   $game
+15.08.2022   03:22   bot   SEEN-#5771   A: Algeria
+B:Andorra
+C:Angola
+D:Argentina
+15.08.2022   03:22   bot   SEEN-#5771   
+15.08.2022   03:23   bot   PAW#5844   $game
+15.08.2022   03:23   bot   SEEN-#5771   A: Antigua and Barbuda
+B:Afghanistan
+C:Antigua and Barbuda
+D:Afghanistan
+15.08.2022   03:23   bot   SEEN-#5771   
+15.08.2022   03:23   bot   SEEN-#5771   nie poprawna odpowiedż
+15.08.2022   03:25   bot   PAW#5844   $game
+15.08.2022   03:25   bot   SEEN-#5771   A: Angola
+B:Andorra
+C:Antigua and Barbuda
+D:Algeria
+15.08.2022   03:25   bot   SEEN-#5771   
+15.08.2022   03:25   bot   SEEN-#5771   nie poprawna odpowiedż
+15.08.2022   03:25   bot   SEEN-#5771   poprawna odpowiedż
+15.08.2022   03:27   bot   PAW#5844   $game
+15.08.2022   03:27   bot   SEEN-#5771   A: Argentina
+B:Armenia
+C:Argentina
+D:Algeria
+15.08.2022   03:27   bot   SEEN-#5771   
+15.08.2022   03:28   bot   SEEN-#5771   poprawna odpowiedż
+15.08.2022   03:28   bot   SEEN-#5771   poprawna odpowiedż
+15.08.2022   03:28   bot   SEEN-#5771   poprawna odpowiedż
+15.08.2022   03:28   bot   SEEN-#5771   poprawna odpowiedż
+15.08.2022   03:28   bot   SEEN-#5771   poprawna odpowiedż
+15.08.2022   03:28   bot   SEEN-#5771   poprawna odpowiedż
+15.08.2022   03:28   bot   SEEN-#5771   poprawna odpowiedż
+15.08.2022   03:30   bot   PAW#5844   $game
+15.08.2022   03:30   bot   SEEN-#5771   A: Angola
+B:Antigua and Barbuda
+C:Albania
+D:Antigua and Barbuda
+15.08.2022   03:30   bot   SEEN-#5771   
+15.08.2022   03:30   bot   SEEN-#5771   nie poprawna odpowiedż
+15.08.2022   03:30   bot   SEEN-#5771   poprawna odpowiedż
+15.08.2022   03:30   bot   PAW#5844   $game
+15.08.2022   03:30   bot   SEEN-#5771   A: Angola
+B:Algeria
+C:Antigua and Barbuda
+D:Algeria
+15.08.2022   03:30   bot   SEEN-#5771   
+15.08.2022   03:31   bot   SEEN-#5771   poprawna odpowiedż
+15.08.2022   03:31   bot   SEEN-#5771   poprawna odpowiedż
+15.08.2022   03:31   bot   SEEN-#5771   nie poprawna odpowiedż
+15.08.2022   03:33   bot   PAW#5844   $game
+15.08.2022   03:33   bot   SEEN-#5771   A: Armenia
+B:Andorra
+C:Angola
+D:Andorra
+15.08.2022   03:33   bot   SEEN-#5771   
+15.08.2022   03:33   bot   SEEN-#5771   nie poprawna odpowiedż
+15.08.2022   03:33   bot   SEEN-#5771   poprawna odpowiedż
+15.08.2022   03:33   bot   SEEN-#5771   poprawna odpowiedż
+15.08.2022   03:33   bot   SEEN-#5771   poprawna odpowiedż
+15.08.2022   03:33   bot   PAW#5844   $game
+15.08.2022   03:33   bot   SEEN-#5771   A: Armenia
+B:Afghanistan
+C:Afghanistan
+D:Afghanistan
+15.08.2022   03:33   bot   SEEN-#5771   
+15.08.2022   03:33   bot   SEEN-#5771   poprawna odpowiedż
+15.08.2022   03:33   bot   SEEN-#5771   poprawna odpowiedż
+15.08.2022   03:33   bot   SEEN-#5771   poprawna odpowiedż
+15.08.2022   03:46   bot   PAW#5844   $game
+15.08.2022   03:46   bot   SEEN-#5771   A: Angola
+B:Afghanistan
+C:Angola
+D:Albania
+15.08.2022   03:46   bot   SEEN-#5771   
+15.08.2022   03:46   bot   SEEN-#5771   nie poprawna odpowiedż
+15.08.2022   03:49   bot   PAW#5844   $game
+15.08.2022   03:49   bot   SEEN-#5771   A: Algeria
+B:Algeria
+C:Angola
+D:Armenia
+15.08.2022   03:49   bot   SEEN-#5771   
+15.08.2022   03:49   bot   SEEN-#5771   nie poprawna odpowiedż
+15.08.2022   03:49   bot   PAW#5844   $game
+15.08.2022   03:49   bot   SEEN-#5771   A: Andorra
+B:Armenia
+C:Antigua and Barbuda
+D:Antigua and Barbuda
+15.08.2022   03:49   bot   SEEN-#5771   
+15.08.2022   03:49   bot   SEEN-#5771   poprawna odpowiedż
+15.08.2022   03:49   bot   SEEN-#5771   poprawna odpowiedż
+15.08.2022   03:50   bot   PAW#5844   $game
+15.08.2022   03:50   bot   SEEN-#5771   A: Armenia
+B:Armenia
+C:Algeria
+D:Argentina
+15.08.2022   03:50   bot   SEEN-#5771   
+15.08.2022   03:57   bot   PAW#5844   $game
+15.08.2022   03:57   bot   SEEN-#5771   A: Armenia
+B:Albania
+C:Angola
+D:Albania
+15.08.2022   03:57   bot   SEEN-#5771   
+15.08.2022   04:09   bot   PAW#5844   $game
+15.08.2022   04:09   bot   SEEN-#5771   A: Armenia
+B:Armenia
+C:Angola
+D:Armenia
+15.08.2022   04:09   bot   SEEN-#5771   
+15.08.2022   04:09   bot   SEEN-#5771   nie poprawna odpowiedż
+15.08.2022   04:09   bot   PAW#5844   $game
+15.08.2022   04:09   bot   SEEN-#5771   A: Algeria
+B:Algeria
+C:Afghanistan
+D:Albania
+15.08.2022   04:09   bot   SEEN-#5771   
+15.08.2022   04:09   bot   SEEN-#5771   poprawna odpowiedż
+15.08.2022   04:09   bot   PAW#5844   $game
+15.08.2022   04:09   bot   SEEN-#5771   A: Antigua and Barbuda
+B:Antigua and Barbuda
+C:Armenia
+D:Angola
+15.08.2022   04:09   bot   SEEN-#5771   
+15.08.2022   04:09   bot   SEEN-#5771   poprawna odpowiedż
+15.08.2022   04:10   bot   PAW#5844   $game
+15.08.2022   04:10   bot   SEEN-#5771   A: Algeria
+B:Argentina
+C:Argentina
+D:Armenia
+15.08.2022   04:10   bot   SEEN-#5771   
+15.08.2022   04:15   bot   PAW#5844   $game
+15.08.2022   04:15   bot   SEEN-#5771   A: Angola
+B:Antigua and Barbuda
+C:Andorra
+D:Antigua and Barbuda
+15.08.2022   04:15   bot   SEEN-#5771   
+15.08.2022   04:15   bot   SEEN-#5771   nie poprawna odpowiedż
+15.08.2022   04:15   bot   PAW#5844   $game
+15.08.2022   04:15   bot   SEEN-#5771   A: Argentina
+B:Algeria
+C:Afghanistan
+D:Algeria
+15.08.2022   04:15   bot   SEEN-#5771   
+15.08.2022   04:16   bot   SEEN-#5771   poprawna odpowiedż
+15.08.2022   04:16   bot   SEEN-#5771   poprawna odpowiedż
+15.08.2022   04:16   bot   PAW#5844   $game
+15.08.2022   04:16   bot   SEEN-#5771   A: Albania
+B:Albania
+C:Angola
+D:Afghanistan
+15.08.2022   04:16   bot   SEEN-#5771   
+15.08.2022   04:16   bot   SEEN-#5771   poprawna odpowiedż
+15.08.2022   04:18   bot   PAW#5844   $game
+15.08.2022   04:18   bot   SEEN-#5771   A: Argentina
+B:Afghanistan
+C:Angola
+D:Algeria
+15.08.2022   04:18   bot   SEEN-#5771   
+15.08.2022   04:18   bot   SEEN-#5771   nie poprawna odpowiedż
+15.08.2022   04:18   bot   PAW#5844   $game
+15.08.2022   04:18   bot   SEEN-#5771   A: Armenia
+B:Antigua and Barbuda
+C:Afghanistan
+D:Andorra
+15.08.2022   04:18   bot   SEEN-#5771   
+15.08.2022   04:19   bot   SEEN-#5771   nie poprawna odpowiedż
+15.08.2022   04:20   bot   PAW#5844   $game
+15.08.2022   04:20   bot   SEEN-#5771   A: Argentina
+B:Andorra
+C:Albania
+D:Antigua and Barbuda
+15.08.2022   04:20   bot   SEEN-#5771   
+15.08.2022   04:20   bot   SEEN-#5771   nie poprawna odpowiedż
+15.08.2022   04:21   bot   PAW#5844   $game
+15.08.2022   04:21   bot   SEEN-#5771   A: Andorra
+B:Algeria
+C:Armenia
+D:Afghanistan
+15.08.2022   04:21   bot   SEEN-#5771   
+15.08.2022   04:21   bot   SEEN-#5771   poprawna odpowiedż
+15.08.2022   04:21   bot   PAW#5844   $game
+15.08.2022   04:21   bot   SEEN-#5771   A: Afghanistan
+B:Antigua and Barbuda
+C:Algeria
+D:Andorra
+15.08.2022   04:21   bot   SEEN-#5771   
+15.08.2022   04:21   bot   SEEN-#5771   poprawna odpowiedż
+15.08.2022   04:21   bot   SEEN-#5771   poprawna odpowiedż
+15.08.2022   04:21   bot   SEEN-#5771   nie poprawna odpowiedż
+15.08.2022   04:22   bot   PAW#5844   $game
+15.08.2022   04:22   bot   SEEN-#5771   A: Antigua and Barbuda
+B:Algeria
+C:Argentina
+D:Albania
+15.08.2022   04:22   bot   SEEN-#5771   
+15.08.2022   04:22   bot   SEEN-#5771   poprawna odpowiedż
+15.08.2022   04:22   bot   PAW#5844   $game
+15.08.2022   04:22   bot   SEEN-#5771   A: Argentina
+B:Albania
+C:Armenia
+D:Afghanistan
+15.08.2022   04:22   bot   SEEN-#5771   
+15.08.2022   04:23   bot   SEEN-#5771   poprawna odpowiedż
+15.08.2022   04:23   bot   SEEN-#5771   poprawna odpowiedż
+15.08.2022   04:23   bot   SEEN-#5771   nie poprawna odpowiedż
+15.08.2022   04:23   bot   PAW#5844   $game
+15.08.2022   04:23   bot   SEEN-#5771   A: Andorra
+B:Armenia
+C:Angola
+D:Argentina
+15.08.2022   04:23   bot   SEEN-#5771   
+15.08.2022   04:23   bot   SEEN-#5771   poprawna odpowiedż
+15.08.2022   04:23   bot   SEEN-#5771   poprawna odpowiedż
+15.08.2022   04:23   bot   SEEN-#5771   nie poprawna odpowiedż
+15.08.2022   04:24   bot   SEEN-#5771   poprawna odpowiedż
+15.08.2022   04:24   bot   SEEN-#5771   poprawna odpowiedż
+15.08.2022   04:24   bot   PAW#5844   $game
+15.08.2022   04:24   bot   SEEN-#5771   A: Andorra
+B:Argentina
+C:Armenia
+D:Afghanistan
+15.08.2022   04:24   bot   SEEN-#5771   
+15.08.2022   04:24   bot   SEEN-#5771   poprawna odpowiedż
+15.08.2022   04:24   bot   SEEN-#5771   poprawna odpowiedż
+15.08.2022   04:24   bot   SEEN-#5771   nie poprawna odpowiedż
+15.08.2022   04:26   bot   PAW#5844   $game
+15.08.2022   04:26   bot   SEEN-#5771   A: Argentina
+B:Antigua and Barbuda
+C:Angola
+D:Algeria
+15.08.2022   04:26   bot   SEEN-#5771   
+15.08.2022   04:26   bot   SEEN-#5771   poprawna odpowiedż
+15.08.2022   04:26   bot   PAW#5844   $game
+15.08.2022   04:26   bot   SEEN-#5771   A: Armenia
+B:Andorra
+C:Antigua and Barbuda
+D:Argentina
+15.08.2022   04:26   bot   SEEN-#5771   
+15.08.2022   04:26   bot   SEEN-#5771   poprawna odpowiedż
+15.08.2022   04:26   bot   SEEN-#5771   poprawna odpowiedż
+15.08.2022   04:26   bot   SEEN-#5771   nie poprawna odpowiedż
+15.08.2022   04:29   bot   PAW#5844   $game
+15.08.2022   04:29   bot   SEEN-#5771   A: Armenia
+B:Argentina
+C:Algeria
+D:Albania
+15.08.2022   04:29   bot   SEEN-#5771   
+15.08.2022   04:29   bot   SEEN-#5771   nie poprawna odpowiedż
+15.08.2022   04:30   bot   PAW#5844   $game
+15.08.2022   04:30   bot   SEEN-#5771   A: Albania
+B:Algeria
+C:Andorra
+D:Argentina
+15.08.2022   04:30   bot   SEEN-#5771   
+15.08.2022   04:30   bot   SEEN-#5771   poprawna odpowiedż
+15.08.2022   04:30   bot   SEEN-#5771   poprawna odpowiedż
+15.08.2022   04:32   bot   PAW#5844   $game
+15.08.2022   04:32   bot   SEEN-#5771   A: Afghanistan
+B:Algeria
+C:Angola
+D:Andorra
+15.08.2022   04:32   bot   SEEN-#5771   
+15.08.2022   04:32   bot   SEEN-#5771   nie poprawna odpowiedż
+15.08.2022   04:32   bot   SEEN-#5771   poprawna odpowiedż C
+15.08.2022   04:32   bot   PAW#5844   $game
+15.08.2022   04:32   bot   SEEN-#5771   A: Armenia
+B:Albania
+C:Algeria
+D:Afghanistan
+15.08.2022   04:32   bot   SEEN-#5771   
+15.08.2022   04:32   bot   SEEN-#5771   poprawna odpowiedż C
+15.08.2022   04:32   bot   SEEN-#5771   poprawna odpowiedż C
+15.08.2022   04:32   bot   SEEN-#5771   poprawna odpowiedż A
+15.08.2022   04:33   bot   PAW#5844   $game
+15.08.2022   04:33   bot   SEEN-#5771   A: Albania
+B:Andorra
+C:Algeria
+D:Angola
+15.08.2022   04:33   bot   SEEN-#5771   
+15.08.2022   04:33   bot   SEEN-#5771   nie poprawna odpowiedż
+15.08.2022   04:33   bot   SEEN-#5771   poprawna odpowiedż C
+15.08.2022   04:33   bot   SEEN-#5771   poprawna odpowiedż C
+15.08.2022   04:33   bot   SEEN-#5771   poprawna odpowiedż C
+15.08.2022   04:33   bot   PAW#5844   $game
+15.08.2022   04:33   bot   SEEN-#5771   A: Andorra
+B:Argentina
+C:Albania
+D:Afghanistan
+15.08.2022   04:33   bot   SEEN-#5771   
+15.08.2022   04:34   bot   SEEN-#5771   poprawna odpowiedż C
+15.08.2022   04:34   bot   PAW#5844   $game
+15.08.2022   04:34   bot   SEEN-#5771   A: Afghanistan
+B:Armenia
+C:Andorra
+D:Antigua and Barbuda
+15.08.2022   04:34   bot   SEEN-#5771   
+15.08.2022   04:34   bot   SEEN-#5771   poprawna odpowiedż C
+15.08.2022   04:34   bot   SEEN-#5771   poprawna odpowiedż C
+15.08.2022   04:34   bot   SEEN-#5771   nie poprawna odpowiedż
+15.08.2022   04:35   bot   PAW#5844   $game
+15.08.2022   04:35   bot   SEEN-#5771   A: Albania
+B:Argentina
+C:Afghanistan
+D:Armenia
+15.08.2022   04:35   bot   SEEN-#5771   
+15.08.2022   04:36   bot   SEEN-#5771   poprawna odpowiedż B
+15.08.2022   04:36   bot   PAW#5844   $game
+15.08.2022   04:36   bot   SEEN-#5771   A: Algeria
+B:Andorra
+C:Antigua and Barbuda
+D:Argentina
+15.08.2022   04:36   bot   SEEN-#5771   
+15.08.2022   04:36   bot   SEEN-#5771   poprawna odpowiedż B
+15.08.2022   04:36   bot   SEEN-#5771   poprawna odpowiedż B
+15.08.2022   04:38   bot   PAW#5844   $game
+15.08.2022   04:38   bot   SEEN-#5771   A: Armenia
+B:Albania
+C:Andorra
+D:Armenia
+15.08.2022   04:38   bot   SEEN-#5771   
+15.08.2022   04:38   bot   SEEN-#5771   nie poprawna odpowiedż
+15.08.2022   04:38   bot   PAW#5844   $game
+15.08.2022   04:38   bot   SEEN-#5771   A: Algeria
+B:Algeria
+C:Algeria
+D:Argentina
+15.08.2022   04:38   bot   SEEN-#5771   
+15.08.2022   04:38   bot   SEEN-#5771   nie poprawna odpowiedż
+15.08.2022   04:38   bot   PAW#5844   $game
+15.08.2022   04:38   bot   SEEN-#5771   A: Argentina
+B:Armenia
+C:Argentina
+D:Andorra
+15.08.2022   04:38   bot   SEEN-#5771   
+15.08.2022   04:38   bot   SEEN-#5771   poprawna odpowiedż
+15.08.2022   04:38   bot   SEEN-#5771   nie poprawna odpowiedż
+15.08.2022   04:38   bot   PAW#5844   $game
+15.08.2022   04:38   bot   SEEN-#5771   A: Argentina
+B:Armenia
+C:Antigua and Barbuda
+D:Argentina
+15.08.2022   04:38   bot   SEEN-#5771   
+15.08.2022   04:38   bot   SEEN-#5771   poprawna odpowiedż
+15.08.2022   04:38   bot   SEEN-#5771   poprawna odpowiedż
+15.08.2022   04:38   bot   SEEN-#5771   poprawna odpowiedż
+15.08.2022   04:38   bot   SEEN-#5771   poprawna odpowiedż
+15.08.2022   04:38   bot   SEEN-#5771   poprawna odpowiedż
