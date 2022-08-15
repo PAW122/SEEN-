@@ -60,6 +60,70 @@ zapisuje w db rekord punktów pod rząd żeby gracz mógł sprawdzić swój reko
     35.birthday -- jeżeli ktoś ma urodziny wysyła wiadomość że ktoś ma właśnie urzodziny i dostaje ileś cionsów
     36.dodać możliwość dodania kanału gdzie bot będzie wysyłał informacje o zmianach (aktułkach)
 
+
+    ekonomia -- daily, weekly daje lootboxy
+    lootboxy:{
+        item        monety  szanse na drop
+        wooden logg = 10        30%
+    }
+
+## GRA
+    pomysł na gre cos ala afk arena:
+    bot zapisuje o jakiej godz ostatnio były dobierane nagrody
+
+    normalne nagrody{
+        1000 monet
+        od 5 do 50 diamentów
+        od 1k do 10k expa
+    }
+
+daily nagorody{
+    1h = normalne nagrody
+    2h = nagrody * 1.5
+    3h = nagrody * 2.0
+    4h = nagrody * 2.5
+    5h = nagordy * 3.0
+    6h = nagrody * 3.5
+    7h = nagrody * 4.0
+    8h = nagrody * 4.5
+    9h = nagrody * 5.0
+    10h = nagrody * 5.5
+    11h = nagrody * 6.0
+    12h = nagrody * 6.5
+    13h = nagrody * 7.0
+    14h = nagrody * 7.5
+    15h = nagrody * 8.0
+    16h = nagrody * 8.5
+    17h = nagrody * 9.0
+    18h = nagrody * 9.5
+    19h = nagrody * 10.0
+    20h = nagrody * 10.5
+    21h = nagrody * 11.0
+    22h = nagrody * 11.5
+    23h = nagrody * 12.0
+    24h = nagrody * 12.5
+    }
+lewele {
+    deafultowo lvl 0
+   lvl   ilość expa
+    1 - 1k
+    2 - 2k
+    3 - 4k
+    4 - 8k
+    5 - 16k
+    6 - 32k
+    7 - 60k
+    8 - 100k
+
+    każdy następny lvl = obecny_lvl -8.foreach(100k + 30k)
+    //jeżeli lvl jest większy niż 8
+    //bierze 100k expa z 8 lvl
+    //i dla każdego lvl w góre dodaje 30k
+
+    //np obecnie 10lvl = 100k + 30 + 30 = 160k na 10lvl
+
+}
+
 # info
 messages log -- nie robie server settings bo i tak jest tylko dla adminów
 24.naprawić na /ankieta bot nie zostawia reakcji(emotek) pod ankietą -- idk jak to zrobić
