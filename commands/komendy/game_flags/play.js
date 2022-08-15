@@ -141,7 +141,7 @@ module.exports = {
 
         }
         get_random_country()
-
+//można zmienić założenia gry -- gra wysyła flage i w spojleże (||message||) wysyła nazwe kraju i nie przyjuje żadnych argumentów w postaci abcd
     }
 
 }
