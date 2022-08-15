@@ -7,9 +7,10 @@ module.exports = (client,token,clientId) => {
     //wczytywanie slash commands
 const functions = fs.readdirSync(process.cwd() +'/handlers/functions').filter(file => file.endsWith('.js'));
 const eventFiles = fs.readdirSync(process.cwd() +'/handlers/events').filter(file => file.endsWith('.js'));
-const slashCommands = fs.readdirSync(process.cwd() +`/commands/komendy`);
-const slashCommands2 = fs.readdirSync(process.cwd() +`/commands/anime/`);
-const slashCommands3 = fs.readdirSync(process.cwd() +`/commands/anime zapowiedz/`);
+const slashCommands = fs.readdirSync(process.cwd() +`/commands/komendy`).filter(file => file.endsWith('.js'));;
+const slashCommands2 = fs.readdirSync(process.cwd() +`/commands/anime/`).filter(file => file.endsWith('.js'));;
+const slashCommands3 = fs.readdirSync(process.cwd() +`/commands/anime zapowiedz/`).filter(file => file.endsWith('.js'));;
+const slashCommands4 = fs.readdirSync(process.cwd() +`/commands/rpg/`).filter(file => file.endsWith('.js'));;
 
 
 
@@ -21,6 +22,7 @@ const slashCommands3 = fs.readdirSync(process.cwd() +`/commands/anime zapowiedz/
           await client.handleCommands(slashCommands, "komendy");
           await client.handleCommands(slashCommands2, "anime");
           await client.handleCommands(slashCommands3, "anime zapowiedz");
+          await client.handleCommands(slashCommands4, "rpg");
           const rest = new REST({ version: '9' }).setToken(token);
             (async () => {
                 try {

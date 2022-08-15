@@ -2861,3 +2861,49 @@ D:Argentina
 15.08.2022   04:38   bot   SEEN-#5771   poprawna odpowiedż
 15.08.2022   04:38   bot   SEEN-#5771   poprawna odpowiedż
 15.08.2022   04:38   bot   SEEN-#5771   poprawna odpowiedż
+15.08.2022   16:35   bot   PAW#5844   $info_acc
+15.08.2022   16:35   bot   SEEN-#5771   Nie podałeś argumentu
+15.08.2022   16:40   bot   PAW#5844   $info_acc accmail2@gmail.com
+15.08.2022   16:42   bot   PAW#5844   $info_acc accmail2@gmail.com
+15.08.2022   16:43   bot   PAW#5844   $info_acc accmail2@gmail.com
+15.08.2022   16:45   bot   PAW#5844   $refresh
+15.08.2022   16:45   bot   PAW#5844   $acc_refresh
+15.08.2022   16:46   bot   PAW#5844   $info_acc accmail2@gmail.com
+15.08.2022   16:47   bot   PAW#5844   $info_acc accmail2@gmail.com
+15.08.2022   16:48   bot   PAW#5844   $info_acc accmail2@gmail.com
+15.08.2022   16:49   bot   PAW#5844   $info_acc accmail2@gmail.com
+15.08.2022   16:50   bot   PAW#5844   $info_acc accmail2@gmail.com
+15.08.2022   16:51   bot   PAW#5844   $info_acc accmail2@gmail.com
+15.08.2022   16:54   bot   PAW#5844   $refresh
+15.08.2022   16:55   bot   PAW#5844   $acc_refresh
+15.08.2022   16:55   bot   SEEN-#5771   data updated
+15.08.2022   17:46   bot   PAW#5844   $profil
+15.08.2022   17:46   bot   SEEN-#5771   masz 1000 💵
+        przedmioty: undefined
+15.08.2022   17:46   bot   PAW#5844   4daily
+15.08.2022   17:46   bot   PAW#5844   $dailt
+15.08.2022   17:46   bot   PAW#5844   $daily
+15.08.2022   17:46   bot   SEEN-#5771   You can recieve weekly reward
+ use $weekly to claim your reward
+15.08.2022   17:46   bot   SEEN-#5771   You got 53 💵
+                you have a total of 1053 💵
+15.08.2022   17:46   bot   PAW#5844   $weekly
+15.08.2022   17:46   bot   SEEN-#5771   You recived 500 💵
+            You have a total of 1553 💵
+15.08.2022   17:46   bot   PAW#5844   $deafult
+15.08.2022   17:47   bot   PAW#5844   $ecohelp
+15.08.2022   17:47   bot   PAW#5844   $ecodeafult
+15.08.2022   17:47   bot   SEEN-#5771   The economy has been updated
+15.08.2022   17:47   bot   PAW#5844   $daily
+15.08.2022   17:47   bot   SEEN-#5771   Your profile has been created
+15.08.2022   18:01   bot   PAW#5844   /rpg start
+15.08.2022   18:08   bot   -V1PE#3809   działa
+15.08.2022   18:16   bot   -V1PE#3809   działa
+15.08.2022   20:41   bot   -V1PE#3809   twój profil został stworzony
+15.08.2022   22:00   bot   -V1PE#3809   twój profil został stworzony
+15.08.2022   22:01   bot   -V1PE#3809   twój profil został stworzony
+15.08.2022   22:01   bot   -V1PE#3809   twój profil został stworzony
+15.08.2022   22:02   bot   -V1PE#3809   twój profil został stworzony
+15.08.2022   22:02   bot   -V1PE#3809   Nagrode możesz odebrać maxymalnie 1 raz na godzinę
+15.08.2022   22:04   bot   -V1PE#3809   Nagrode możesz odebrać maxymalnie 1 raz na godzinę
+ Spróbuj za godzinę

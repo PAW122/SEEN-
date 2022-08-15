@@ -88,6 +88,7 @@ module.exports = {
                 last_battle: "",
                 last_user: last_user,
                 free_space: []//miejsce na dodatkowe dane
+                ,last_battle: ""
             })
 
             //daje 2s żeby db się stworzyła

@@ -41,6 +41,11 @@ module.exports = {
         if(check_acc != true){
             return message.reply("takie konto nie istnieje")
         }
+        const data = await acc_db.get(`${informacje_o_koncie}`)
+        const data2 = await acc_db.get(`${informacje_o_koncie}.value`)
+        console.log(data)
+        console.log(data2)
+
 
         const get_mail = await acc_db.get(`${informacje_o_koncie}.mail`)
         const get_password = await acc_db.get(`${informacje_o_koncie}.password`)
@@ -54,10 +59,8 @@ module.exports = {
         const get_last_edit_month = await acc_db.get(`${informacje_o_koncie}.last_edit[1]`)
         const get_last_edit_day = await acc_db.get(`${informacje_o_koncie}.last_edit[2]`)
         const get_last_edit_user = await acc_db.get(`${informacje_o_koncie}.last_edit[3]`)
-        const get_last_battle = await acc_db.get(`${informacje_o_koncie}.last_battle`)
+        const get_last_battle = await acc_db.get(`${informacje_o_koncie}[2].last_battle[0]`)
         
-        console.log(get_last_battle)//naprawić get last battle
-        //albo pobrać wsyztsko jako db.all() i z tego wyciągać dane
 
         const embed_pl = new Discord.MessageEmbed()
             .setColor(`BLUE`)

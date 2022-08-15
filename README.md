@@ -59,6 +59,7 @@ zapisuje w db rekord punktów pod rząd żeby gracz mógł sprawdzić swój reko
     34.warnt -- dodać warny. po dostaniu ilości warnów ustawionych przez administracje na kanał administracji będzie wysyłana wiadomość że urzytkownik ma już x warnów i jest do zbanowania
     35.birthday -- jeżeli ktoś ma urodziny wysyła wiadomość że ktoś ma właśnie urzodziny i dostaje ileś cionsów
     36.dodać możliwość dodania kanału gdzie bot będzie wysyłał informacje o zmianach (aktułkach)
+    37.zrobić komende $porg która będzie wysyłała randomowa grafike porga
 
 
     ekonomia -- daily, weekly daje lootboxy
@@ -71,7 +72,7 @@ zapisuje w db rekord punktów pod rząd żeby gracz mógł sprawdzić swój reko
     pomysł na gre cos ala afk arena:
     bot zapisuje o jakiej godz ostatnio były dobierane nagrody
 
-    normalne nagrody{
+    normalne nagrody{ (za 1h afka)
         1000 monet
         od 5 do 50 diamentów
         od 1k do 10k expa
@@ -121,6 +122,8 @@ lewele {
     //i dla każdego lvl w góre dodaje 30k
 
     //np obecnie 10lvl = 100k + 30 + 30 = 160k na 10lvl
+
+
 
 }
 

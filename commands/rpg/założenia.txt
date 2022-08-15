@@ -1,0 +1,81 @@
+początek gry
+komenda /start tworzy profil gracza
+wszystkie komendy do zorbienia na slashah żeby ułatwić robote
+
+do następneych rczeczy np jakieś eventy będą dodawane nowe db
+
+za coinsy można kupować lootboxy
+lootboxy dropią broń,armor i potki
+
+komenda flightt {
+    losuje nam przeciwnika odpowiedniego do naszego lvl
+    jeżeli go pokonamy dostaniemy coinsy. jeżeli przegramy nasza postać będzie
+    regenerowała hp np 24h żeby móc dalej walczyć
+    albo będzie można użyć potki na regeneracje życia
+}
+
+sklep {
+    będą do kupienia nowe rzeczy:
+    lootboxy
+    potka na życie
+    potka na mane
+    potka na szczęście -- zwiększa nam szanse na lepszy loot z moba
+
+    przedmioty:
+    miecze
+    zbroje{
+        chełm
+        klata 
+        spodnie
+        buty
+    }
+    jakieś magiczne przedmioty pozwalające urzyć spela
+
+    !!kilka klas przedmiotów np:
+    mag -- ma problem z przebiciem obrony (problem z tankami)
+    berserk -- duży dmg ale przeciwnicy z dużym % szans na unik często unikają (problem z sprinterami)
+    ryceż -- średni dmg 
+
+}
+
+walka i przeciwnicy {
+    losowi przeciwnicy dostosowani od lvl gracza
+    (lvl przeciwnika może rużnić się o 1 w góre lub w dół od lvl gracza)
+    kilka rodzajów mobów
+    np{
+       normalny- bardziej odporne na ataki fizyczne
+       normalny- bardziej odporne na ataki magiczne
+       sprinteży- zwinniejsze(mają większy % szans na unik ataku magicznego)
+       tanki- tanki(biją mało, nie robią uników ale maja dużą odporność na ataki fizyczne)
+       magowie- używają tylko spelów np podpalenie spowolnienie, pech i cośtam
+    }
+
+    walka{
+        walka tórowa
+        najpierw wysyłana informacja o rodzaju przeciwnika
+        ilości punktów obrony, życia, rodzaju przeciwnika, i jego lvl
+        
+        potem informacje o graczu
+        ilości punktów obrony, życia, rodzaju przeciwnika, i jego lvl
+    }
+}
+
+wyświetlanie walki{
+    na canvas tworzona grafika z postacia gracza napis vs i 
+    po prawej grafik aprzeciwnika 
+}
+
+emoji {
+    emotki z itemami do sklepu:
+    emoji miecza, menety expa itp
+}
+
+
+
+
+
+
+//
+rozgrywaka
+/rpg_start -- tworzy profil gracza / resetuje profil gracza
+/rpg_daily -- odbiera dzienne nagrody

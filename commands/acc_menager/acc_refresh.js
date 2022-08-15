@@ -42,8 +42,8 @@ module.exports = {
                     var sec = a.getSeconds();
                     var time = date + ' ' + month + ' ' + year + ' ' + hour + ':' + min + ':' + sec ;
 
-            await db.set(`${id}.battles`, all_battles)
-            await db.set(`${id}.last_battle`, time)
+            await db.set(`${id}.battles`, {all_battles})
+            await db.set(`${id}.last_battle`, {time})
         }
 
         const data = await db.all()
@@ -55,5 +55,7 @@ module.exports = {
             data_update(acc_nickname,id)
             i += 1
         });
+
+        return message.reply("data updated")
     }
 }

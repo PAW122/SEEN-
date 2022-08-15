@@ -1067,3 +1067,135 @@ i możecie spróbować poszukać jakiś błędów 🙂
 15.08.2022   03:45   🔒   Dyno#0000   
 15.08.2022   03:45   🔒   Dyno#0000   
 15.08.2022   03:45   🔒   Dyno#0000   
+15.08.2022   17:47   『-👮moderacja-』   PAW#5844   nie ja dla testów dodaje se hajs komendą żeby sprawdzać czy rzeczy działają
+15.08.2022   17:48   『-👮moderacja-』   PAW#5844   ale niedługo będzie coś ciekawszego bo planuje zrobić coś ala rpg na bocie
+15.08.2022   17:52   『-👮moderacja-』   Porg Generał#5726   Ale czemu kaktus ma tyle
+15.08.2022   17:52   『-👮moderacja-』   Porg Generał#5726   Mu się nie zrezeetowalo wgp
+15.08.2022   17:52   『-👮moderacja-』   ToxicWaste#1928   po prostu pieniądze się mnie trzymają
+15.08.2022   17:53   『-👮moderacja-』   ToxicWaste#1928   <:senior_hilter:853771416155586590>
+15.08.2022   17:53   『-👮moderacja-』   ToxicWaste#1928   $daily
+15.08.2022   17:53   『-👮moderacja-』   SEEN-#5771   You still need to use 7 to recieve your weekly reward
+15.08.2022   17:53   『-👮moderacja-』   SEEN-#5771   You got 61 💵
+                you have a total of 2214 💵
+15.08.2022   17:53   『-👮moderacja-』   ToxicWaste#1928   $weekly
+15.08.2022   17:53   『-👮moderacja-』   SEEN-#5771   you can't recieve your Weekly Reward yet
+        time remaining 7 days
+15.08.2022   17:53   『-👮moderacja-』   ToxicWaste#1928   było blisko
+15.08.2022   17:53   『-👮moderacja-』   Porg Generał#5726   $daily
+15.08.2022   17:53   『-👮moderacja-』   SEEN-#5771   You still need to use 7 to recieve your weekly reward
+15.08.2022   17:53   『-👮moderacja-』   SEEN-#5771   You got 97 💵
+                you have a total of 1675 💵
+15.08.2022   17:54   『-👮moderacja-』   Porg Generał#5726   $weekly
+15.08.2022   17:54   『-👮moderacja-』   SEEN-#5771   you can't recieve your Weekly Reward yet
+        time remaining 7 days
+15.08.2022   17:55   『-👮moderacja-』   PAW#5844   mi siem wydaje że kaktus odebrał weekly 2 razy jak zmieniałem coś w bocie
+15.08.2022   17:56   『-👮moderacja-』   PAW#5844   jak ktoś ma jakiś pomysł to piszcie a tu macie wstępne założenia gierki 
+```
+
+za coinsy można kupować lootboxy
+lootboxy dropią broń,armor i potki
+
+komenda flightt {
+    losuje nam przeciwnika odpowiedniego do naszego lvl
+    jeżeli go pokonamy dostaniemy coinsy. jeżeli przegramy nasza postać będzie
+    regenerowała hp np 24h żeby móc dalej walczyć
+    albo będzie można użyć potki na regeneracje życia
+}
+
+sklep {
+    będą do kupienia nowe rzeczy:
+    lootboxy
+    potka na życie
+    potka na mane
+    potka na szczęście -- zwiększa nam szanse na lepszy loot z moba
+
+    przedmioty:
+    miecze
+    zbroje{
+        chełm
+        klata 
+        spodnie
+        buty
+    }
+    jakieś magiczne przedmioty pozwalające urzyć spela
+
+    !!kilka klas przedmiotów np:
+    mag -- ma problem z przebiciem obrony (problem z tankami)
+    berserk -- duży dmg ale przeciwnicy z dużym % szans na unik często unikają (problem z sprinterami)
+    ryceż -- średni dmg 
+
+}
+
+walka i przeciwnicy {
+    losowi przeciwnicy dostosowani od lvl gracza
+    (lvl przeciwnika może rużnić się o 1 w góre lub w dół od lvl gracza)
+    kilka rodzajów mobów
+    np{
+       normalny- bardziej odporne na ataki fizyczne
+       normalny- bardziej odporne na ataki magiczne
+       sprinteży- zwinniejsze(mają większy % szans na unik ataku magicznego)
+       tanki- tanki(biją mało, nie robią uników ale maja dużą odporność na ataki fizyczne)
+       magowie- używają tylko spelów np podpalenie spowolnienie, pech i cośtam
+    }
+
+    walka{
+        walka tórowa
+        najpierw wysyłana informacja o rodzaju przeciwnika
+        ilości punktów obrony, życia, rodzaju przeciwnika, i jego lvl
+        
+        potem informacje o graczu
+        ilości punktów obrony, życia, rodzaju przeciwnika, i jego lvl
+    }
+}
+```
+15.08.2022   19:19   『-👮moderacja-』   Porg Generał#5726   $shop
+15.08.2022   19:19   『-👮moderacja-』   -V1PE#3809   
+15.08.2022   19:19   『-👮moderacja-』   Porg Generał#5726   $buy lootbox
+15.08.2022   19:19   『-👮moderacja-』   -V1PE#3809   That item does not exist
+15.08.2022   19:20   『-👮moderacja-』   Porg Generał#5726   $buy VIP
+15.08.2022   19:20   『-👮moderacja-』   -V1PE#3809   That item does not exist
+15.08.2022   19:20   『-👮moderacja-』   Porg Generał#5726   $daily
+15.08.2022   19:20   『-👮moderacja-』   -V1PE#3809   Odebrałeś już dzisiejszą nagrode. Spróbuj ponownie jutro
+15.08.2022   19:20   『-👮moderacja-』   Porg Generał#5726   $weekly
+15.08.2022   19:20   『-👮moderacja-』   -V1PE#3809   you can't recieve your Weekly Reward yet
+        time remaining 7 days
+15.08.2022   19:20   『-👮moderacja-』   Porg Generał#5726   $profil
+15.08.2022   19:20   『-👮moderacja-』   -V1PE#3809   masz 1675 💵
+        przedmioty: undefined
+15.08.2022   19:20   『-👮moderacja-』   Porg Generał#5726   $shop
+15.08.2022   19:20   『-👮moderacja-』   -V1PE#3809   
+15.08.2022   19:20   『-👮moderacja-』   Porg Generał#5726   $flight
+15.08.2022   19:20   『-👮moderacja-』   Porg Generał#5726   $flightt
+15.08.2022   19:21   『-👮moderacja-』   Porg Generał#5726   Kurcze
+15.08.2022   19:21   『-👮moderacja-』   Porg Generał#5726   <@438336824516149249>  kiedy wszytko będzie działać
+15.08.2022   19:35   🔒   Dyno#0000   
+15.08.2022   19:35   🔒   Dyno#0000   
+15.08.2022   19:44   『-👮moderacja-』   PAW#5844   jak narazie jest plik .txt z założeniami do zrobienia i wsumie nic więcej
+15.08.2022   19:44   『-👮moderacja-』   PAW#5844   dzisiaj dorobie plan na gierke
+15.08.2022   19:44   『-👮moderacja-』   PAW#5844   a jutro zaczne coś pisać w kodzie
+15.08.2022   19:46   『-👮moderacja-』   PAW#5844   + trzeba zrobić grafiki i emoji przedmiotów
+15.08.2022   20:05   『-👮moderacja-』   Porg Generał#5726   A okii
+15.08.2022   20:05   『-👮moderacja-』   Porg Generał#5726   W piątek nocka się zaczyna nasz wielką
+15.08.2022   20:05   『-👮moderacja-』   Porg Generał#5726   Malina nadal nie odpisuje
+15.08.2022   20:08   『-👮moderacja-』   PAW#5844   -_-
+15.08.2022   20:08   『-👮moderacja-』   Porg Generał#5726   Dead
+15.08.2022   20:55   『-👮moderacja-』   PAW#5844   taki mnożnik do daily będzie chyba git
+15.08.2022   20:55   『-👮moderacja-』   PAW#5844   ?
+15.08.2022   21:06   『-👮moderacja-』   Porg Generał#5726   Jak to ma działać
+15.08.2022   21:35   『-👮moderacja-』   PAW#5844   powiedzmy bazowo co 1h można odebrać np 100 coinsów
+ale jeżeby odbierzesz daily na po 10h to masz 100 * 5.5 coinsów
+15.08.2022   21:35   『-👮moderacja-』   Porg Generał#5726   A okej
+15.08.2022   21:55   『-👮moderacja-』   PAW#5844   no i dzienne nagrody zrobione
+15.08.2022   21:56   『-👮moderacja-』   Porg Generał#5726   $daily
+15.08.2022   21:56   『-👮moderacja-』   -V1PE#3809   Odebrałeś już dzisiejszą nagrode. Spróbuj ponownie jutro
+15.08.2022   22:05   『-👮moderacja-』   PAW#5844   przypomij mi ktoś żebym za 1h sprawdzi 🙂
+15.08.2022   22:05   『-👮moderacja-』   Porg Generał#5726   Luzik
+15.08.2022   23:19   🔒   Dyno#0000   
+15.08.2022   23:31   🔒   Dyno#0000   
+15.08.2022   23:37   🔒   Dyno#0000   
+15.08.2022   23:57   🔒   Dyno#0000   
+15.08.2022   23:57   🔒   Dyno#0000   
+16.08.2022   00:01   🔒   Dyno#0000   
+16.08.2022   00:06   🔒   Dyno#0000   
+16.08.2022   00:11   🔒   Dyno#0000   
+16.08.2022   00:11   🔒   Dyno#0000   
