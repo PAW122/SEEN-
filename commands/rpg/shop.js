@@ -36,21 +36,16 @@ module.exports = {
                 .setColor(`RED`)//EN
                 .setTitle(`Lista przedmiotó do kupienia\n użyj /rpg_buy <nazwa przedmiotu>`)
                 .setFields(
-                    {name: "upgrade hełmu:", value: `${now_hełm_lvl +1}--koszt upradu:${basic_hełm_upgrade_cost * now_hełm_lvl} ${emoji}`},
-                    {name: "upgrade klaty:", value: `${now_klata_lvl+1}--koszt upradu:${basic_klata_upgrade_cost * now_klata_lvl} ${emoji}`},
-                    {name: "upgrade spodni:", value: `${now_spodnie_lvl+1}--koszt upradu:${basic_spodnie_upgrade_cost * now_spodnie_lvl} ${emoji}`},
-                    {name: "upgrade butów:", value: `${now_buty_lvl+1}--koszt upradu:${basic_buty_upgrade_cost * now_buty_lvl} ${emoji}`},
-                    {name: "potka życia:", value: ``},
-                    {name: "potka szczęścia:", value: ``},
-                    {name: "potka many:", value: ``},
+                    {name: "upgrade hełmu:", value: `lvl: ${now_hełm_lvl +1}--koszt upradu:${basic_hełm_upgrade_cost * now_hełm_lvl} ${emoji}`},
+                    {name: "upgrade klaty:", value: `lvl: ${now_klata_lvl+1}--koszt upradu:${basic_klata_upgrade_cost * now_klata_lvl} ${emoji}`},
+                    {name: "upgrade spodni:", value: `lvl: ${now_spodnie_lvl+1}--koszt upradu:${basic_spodnie_upgrade_cost * now_spodnie_lvl} ${emoji}`},
+                    {name: "upgrade butów:", value: `lvl: ${now_buty_lvl+1}--koszt upradu:${basic_buty_upgrade_cost * now_buty_lvl} ${emoji}`},
+                    {name: "potka życia:", value: `niedługo dostępne`},
+                    {name: "potka szczęścia:", value: `niedługo dostępne`},
+                    {name: "potka many:", value: `niedługo dostępne`},
                 )
 
-                inter.reply({embeds: [daily_embed]})
-            
-        
-
-       
-        
+                inter.reply({embeds: [daily_embed]})     
     }
 
 }

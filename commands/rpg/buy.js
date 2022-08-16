@@ -13,7 +13,7 @@ module.exports = {
     isSlash: true,
 
     data: new SlashCommandBuilder()
-        .setName('rpg_shop')
+        .setName('rpg_buy')
         .setDescription('wysyła liste przedmiotów do kupienia')
 
         .addStringOption((option) =>
@@ -65,9 +65,51 @@ module.exports = {
                     return inter.reply(`pomyslnie ulepszono hełm do poziomu ${upgrade_to}`)
                 }
             }
+
+            if(response == 'klata'){
+                //sprawdż czy stać kogoś na ulepszenie chełmu
+                if(user_coins > koszt_up_klaty) {
+                    return inter.reply(`nie masz wystarczająco ${emoji}\n
+                    koszt ulepszenia klaty to: ${now_klata_lvl * basic_klata_upgrade_cost}`)
+                }else{
+                    const upgrade_to = now_klata_lvl + 1
+                    const user_pozostałe_coinsy = user_coins - koszt_up_klaty
+                    await db.set(`${userId}.armor[1]`, upgrade_to)
+                    await db.set(`${userId}.coins`, user_pozostałe_coinsy)
+                    return inter.reply(`pomyslnie ulepszono hełm do poziomu ${upgrade_to}`)
+                }
+            }
+
+            if(response == 'spodnie'){
+                //sprawdż czy stać kogoś na ulepszenie chełmu
+                if(user_coins > koszt_up_spodni) {
+                    return inter.reply(`nie masz wystarczająco ${emoji}\n
+                    koszt ulepszenia klaty to: ${now_spodnie_lvl * basic_spodnie_upgrade_cost}`)
+                }else{
+                    const upgrade_to = now_klata_lvl + 1
+                    const user_pozostałe_coinsy = user_coins - koszt_up_spodni
+                    await db.set(`${userId}.armor[2]`, upgrade_to)
+                    await db.set(`${userId}.coins`, user_pozostałe_coinsy)
+                    return inter.reply(`pomyslnie ulepszono hełm do poziomu ${upgrade_to}`)
+                }
+            }
+
+            if(response == 'buty'){
+                //sprawdż czy stać kogoś na ulepszenie chełmu
+                if(user_coins > koszt_up_butów) {
+                    return inter.reply(`nie masz wystarczająco ${emoji}\n
+                    koszt ulepszenia klaty to: ${now_buty_lvl * basic_buty_upgrade_cost}`)
+                }else{
+                    const upgrade_to = now_buty_lvl + 1
+                    const user_pozostałe_coinsy = user_coins - koszt_up_butów
+                    await db.set(`${userId}.armor[3]`, upgrade_to)
+                    await db.set(`${userId}.coins`, user_pozostałe_coinsy)
+                    return inter.reply(`pomyslnie ulepszono hełm do poziomu ${upgrade_to}`)
+                }
+            }
             
         
-
+ 
        
         
     }
