@@ -12,6 +12,9 @@ const daily_basic_daimonds_max = config.daily_basic_daimonds_max
 const daily_basic_xp_min = config.daily_basic_xp_min
 const daily_basic_xp_max = config.daily_basic_xp_max
 
+
+const leveling = require("./lvling")
+
 module.exports = {
     isSlash: true,
 
@@ -110,7 +113,7 @@ module.exports = {
             get_daily(nagrody_z_x_h)
         }
 
-
+        leveling(inter)
         
     }
 

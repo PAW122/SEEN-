@@ -7,11 +7,22 @@ do następneych rczeczy np jakieś eventy będą dodawane nowe db
 za coinsy można kupować lootboxy
 lootboxy dropią broń,armor i potki
 
+itemy{
+    posiada się podstawowe itemy i w sklepie można posnosić ich lvl
+    w db armor[hełm_lvl,klata_lvl,spodnie_lvl,buty_lvl]
+
+    koszt upgradu podstawowy koszt * lvl
+}
+
 komenda flightt {
     losuje nam przeciwnika odpowiedniego do naszego lvl
     jeżeli go pokonamy dostaniemy coinsy. jeżeli przegramy nasza postać będzie
     regenerowała hp np 24h żeby móc dalej walczyć
     albo będzie można użyć potki na regeneracje życia
+    {
+        podstawowa liość życia * lvl
+        do tego trzeba dobalansować przedmioty
+    }
 }
 
 sklep {

@@ -28,7 +28,7 @@ module.exports = {
             lvl: 0,
             coins: 0,
             daimonds: 0,
-            armor: [],
+            armor: [1,1,1,1],
             wepon: [],
             potions: [],
             healt: 100,

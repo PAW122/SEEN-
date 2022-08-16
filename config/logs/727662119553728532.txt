@@ -2907,3 +2907,4 @@ D:Argentina
 15.08.2022   22:02   bot   -V1PE#3809   Nagrode możesz odebrać maxymalnie 1 raz na godzinę
 15.08.2022   22:04   bot   -V1PE#3809   Nagrode możesz odebrać maxymalnie 1 raz na godzinę
  Spróbuj za godzinę
+16.08.2022   02:57   ogólny   PAW#5844   
