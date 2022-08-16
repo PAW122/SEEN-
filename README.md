@@ -60,12 +60,24 @@ zapisuje w db rekord punktów pod rząd żeby gracz mógł sprawdzić swój reko
     35.birthday -- jeżeli ktoś ma urodziny wysyła wiadomość że ktoś ma właśnie urzodziny i dostaje ileś cionsów
     36.dodać możliwość dodania kanału gdzie bot będzie wysyłał informacje o zmianach (aktułkach)
     37.zrobić komende $porg która będzie wysyłała randomowa grafike porga
+    38.{
+         // dzień mieś rok liczba_dni_z_rzędu
+                    //zapisuje dzień odebrania nagrody 1 dnia
+                    //i dodaje 1 do liczby_dni
+                    //jeżeli podczas odbierania dailt liczba == 0 nie nalicza boosta
+                    //jeżeli liczba jest > 0 
+                    //data pierwszego daily. do dnia + liczba jeżeli to == obecna data
+                    //daje nagrody z boostem i dodaje 1 do liczby
 
+                    //maxymalna liczba dni z rzędu (z bostowanymi nagrodami)
+                    //to 7 dni. Jeżeli liczba == 7 wysyła gratulacje i resetuje liczbe do 0
+    }
 
     ekonomia -- daily, weekly daje lootboxy
     lootboxy:{
         item        monety  szanse na drop
         wooden logg = 10        30%
+        
     }
 
 ## GRA
@@ -148,4 +160,7 @@ itp
 
 
 # zrobić gre na podstawie chos or die
-gracz musi wybrać odp z gry bo inaczej gracz umrze
+gracz musi wybrać odp z gry bo inaczej gracz przegra
+
+# economy update
+dodaje system, który zwiększa nagrody jeżeli gracz odbiera nagrody kilka dni z rzędu

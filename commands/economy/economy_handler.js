@@ -32,6 +32,9 @@ module.exports = (message) => {
                     birtgday_check: false,
                     birthday_changes: 2,
                     eco_version: eco_db_version,
+
+                    daily_z_rzędu:[]
+                   
                 })
             //eq[0] --zarezerwowane dla przedmiotu: vip
 
