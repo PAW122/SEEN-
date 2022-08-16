@@ -144,3 +144,8 @@ po wybraniu każdej z pocji będzie zapisywane w db czy np
 wybór 1 = lewo/prawo
 wybór[2] = tak/nie
 itp
+
+
+
+# zrobić gre na podstawie chos or die
+gracz musi wybrać odp z gry bo inaczej gracz umrze
