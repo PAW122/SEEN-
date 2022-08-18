@@ -60,6 +60,7 @@ zapisuje w db rekord punktów pod rząd żeby gracz mógł sprawdzić swój reko
     35.birthday -- jeżeli ktoś ma urodziny wysyła wiadomość że ktoś ma właśnie urzodziny i dostaje ileś cionsów
     36.dodać możliwość dodania kanału gdzie bot będzie wysyłał informacje o zmianach (aktułkach)
     37.zrobić komende $porg która będzie wysyłała randomowa grafike porga
+    39.zrobić report na slahse
     38.{
          // dzień mieś rok liczba_dni_z_rzędu
                     //zapisuje dzień odebrania nagrody 1 dnia
@@ -164,3 +165,9 @@ gracz musi wybrać odp z gry bo inaczej gracz przegra
 
 # economy update
 dodaje system, który zwiększa nagrody jeżeli gracz odbiera nagrody kilka dni z rzędu
+
+
+# acc menager do przebudowania:L
+przy dodawaniu konta z blitza
+przez blitz api będzie sprawdzany nick i będzie zapisywane id konta jako id w db
+i tak samo wyszukiwanie konta będzie po nicku

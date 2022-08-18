@@ -14,7 +14,7 @@ module.exports = {
     description: "usuwa wiadomości",
     usage: "$clear <ilość wiadomości>",
     work: worker,
-    isSlash: true,//wyłączone bo coś jest zjebane
+    isSlash: true,
 
     data: new SlashCommandBuilder()
         .setName('ban')

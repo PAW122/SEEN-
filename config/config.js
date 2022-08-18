@@ -1,10 +1,12 @@
 module.exports = {
     //token for tests
     token: "ODY5NTg3ODc3NDc3MTAxNTkw.GlzDM1.-g1GK0ESq9eZOp92S77v_oo6-SquxCiBLFetaY",
-    test_bot: true,
+    test_bot: false,
     prefix: "$",//set deafult prefix
     commands_logs: "True",//True/False
     load_commands_logs: "True", //True/False 
+
+    owner_id: "438336824516149249",
 
     save_logs: "Flase", //True/False
     logs_dir: `./handlers/logs/logs.txt`,
