@@ -2967,3 +2967,10 @@ D:Argentina
 18.08.2022   03:07   bot   SEEN-#5771   
 18.08.2022   03:09   bot   SEEN-#5771   Pomyślnioe dodano urzytkownika o id: 478480083498041356
  uprawnienia administratora: true
+18.08.2022   03:19   bot   PAW#5844   $ping
+18.08.2022   03:19   bot   SEEN-#5771   pong!
+18.08.2022   03:19   bot   SEEN-#5771   
+18.08.2022   03:24   bot   SEEN-#5771   
+18.08.2022   03:34   ogólny   PAW#5844   Anime gir zrobić tak, że na górze jest funkcja pobierająca gifa z api a slashe i zwykłe komendy tylko wywołują funkcje
+18.08.2022   13:52   bot   PAW#5844   anime gif jeżeli toś użyje np boobs na nie nsfw
+18.08.2022   13:52   bot   PAW#5844   to bot bierze wszystkie kanały sprawdza czy jakiś ma nsfw i wysyła informacje żeby użyc komendy na danym kanale
