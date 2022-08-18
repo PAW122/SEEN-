@@ -2944,3 +2944,26 @@ D:Argentina
 16.08.2022   21:30   bot   -V1PE#3809   
 16.08.2022   21:30   bot   -V1PE#3809   Nagrode możesz odebrać maxymalnie 1 raz na godzinę
  Spróbuj za godzinę
+17.08.2022   22:40   bot   PAW#5844   
+17.08.2022   22:54   bot   PAW#5844   
+18.08.2022   01:04   bot   PAW#5844   $report test
+18.08.2022   01:04   bot   SEEN-#5771   Thank you for informing about the errors
+ We will try to answer your question as soon as possible
+18.08.2022   01:26   bot   PAW#5844   $8ball
+18.08.2022   01:26   bot   SEEN-#5771   **Surely**
+18.08.2022   01:29   bot   SEEN-#5771   Nagrode możesz odebrać maxymalnie 1 raz na godzinę
+ Spróbuj za godzinę
+18.08.2022   01:31   bot   SEEN-#5771   Nie posiadasz uprawnień na dodawanie nowych osób do db 
+ w celu uzyskania informacji użyj $report <wiadomość>
+18.08.2022   01:33   bot   SEEN-#5771   wystąpił błąd. Możesz to zgłosić za pomocą $report <wiadomość>
+18.08.2022   01:35   bot   SEEN-#5771   Pomyślnioe dodano urzytkownika o id: 438336824516149249
+ uprawnienia administratora: pozwala usówać i dodawać konta do db
+18.08.2022   01:37   bot   SEEN-#5771   Pomyślnioe dodano urzytkownika o id: 438336824516149249
+ uprawnienia administratora: true
+18.08.2022   02:50   bot   SEEN-#5771   Podałes nieprawidłowy nick
+18.08.2022   02:53   bot   SEEN-#5771   
+18.08.2022   02:57   bot   SEEN-#5771   
+18.08.2022   03:06   bot   SEEN-#5771   Pomyślnie odświeżono informacje o wszystkich kontach
+18.08.2022   03:07   bot   SEEN-#5771   
+18.08.2022   03:09   bot   SEEN-#5771   Pomyślnioe dodano urzytkownika o id: 478480083498041356
+ uprawnienia administratora: true
