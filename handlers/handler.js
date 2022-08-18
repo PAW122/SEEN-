@@ -22,7 +22,6 @@ module.exports = (client) => {
     const animeFolders = fs.readdirSync(__dirname +`/../commands/anime`)//dla anime
     const animezapowiedziFolders = fs.readdirSync(__dirname +`/../commands/anime zapowiedz`)//dla zapowiedzi
     const economy_commands = fs.readdirSync(__dirname +`/../commands/economy`)//dla ekonomi
-    const acc_menager_commands = fs.readdirSync(__dirname +`/../commands/acc_menager`)//dla ekonomi
     const settings_commands = fs.readdirSync(__dirname +`/../commands/servers_config`)//dla ekonomi
     //command handler 
     
@@ -109,25 +108,7 @@ module.exports = (client) => {
             tabela(command,file,table,name,name_en,nr_tabeli)
         }
     }
-    //acc_menager_commands
-    for (const folder of acc_menager_commands) {//command handler dla ekonomi
-        const commandsFile = fs.readdirSync(__dirname +`/../commands/acc_menager`).filter(file => file.endsWith(".js"));
     
-        for(const file of commandsFile) {
-            const command = require(__dirname +`/../commands/acc_menager/${file}`);
-            client.command.set(command.name, command);//język polski
-            client.command.set(command.name_en, command);//język abg
-
-            
-
-             
-            //ascii
-            var nr_tabeli = "1"//podpinam do kategori lvl_commands
-            const name = command.name
-            const name_en = command.name_en
-            tabela(command,file,table,name,name_en,nr_tabeli)
-        }
-    }
     
     //wypisuje w konsoli tabelke co zostało załadowane
     if(load_commands_logs == "True"){
