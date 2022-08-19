@@ -61,6 +61,7 @@ zapisuje w db rekord punktów pod rząd żeby gracz mógł sprawdzić swój reko
     36.dodać możliwość dodania kanału gdzie bot będzie wysyłał informacje o zmianach (aktułkach)
     37.zrobić komende $porg która będzie wysyłała randomowa grafike porga
     39.zrobić report na slahse
+    40.dodać workery do komend bo niektóre nie mają
     38.{
          // dzień mieś rok liczba_dni_z_rzędu
                     //zapisuje dzień odebrania nagrody 1 dnia
@@ -171,3 +172,9 @@ dodaje system, który zwiększa nagrody jeżeli gracz odbiera nagrody kilka dni 
 przy dodawaniu konta z blitza
 przez blitz api będzie sprawdzany nick i będzie zapisywane id konta jako id w db
 i tak samo wyszukiwanie konta będzie po nicku
+
+# tworzenie zapy na srv przez bota
+// Create an invite to a channel
+channel.createInvite()
+  .then(invite => console.log(`Created an invite with a code of ${invite.cod`))
+  .catch(console.error);

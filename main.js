@@ -87,6 +87,7 @@ client.once('ready', () => {
     //powitania
     generateImage(client)
 
+
 });
 
 
