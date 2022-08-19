@@ -11,7 +11,8 @@ module.exports = {
         if (!command) return;
         lastInteractionId = inter.id
         try {
-            await command.executeInteraction(inter);
+            //dodałem client do exe inter
+            await command.executeInteraction(inter,client);
         } catch (error) {
             console.error(error);
             
