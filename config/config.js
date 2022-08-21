@@ -29,9 +29,9 @@ module.exports = {
     db_version: "0.7",
     economy_db_version: "0.2",
 
+    //bot support
     report_channel_id: "1006283491568267374",
     ban_channel_id: "1006297123521835049",
-
     black_list: true,
 
     //rpg

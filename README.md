@@ -53,7 +53,7 @@ zapisuje w db rekord punktów pod rząd żeby gracz mógł sprawdzić swój reko
     28.dodać żeby kazdy serwer mógł do ekonomi ustawić własne emoji
     29.komenda na kanał do ankiet -- każda wiadomość na danym kanale zamieniana na ankiete
     30.eoknomia -- im więcej dni z rzędu się odbiera coinsy tym wiekszy ma sie bonus
-    31.zrobić komende, która pozwala trackować powiadomienia z danego kanału yt
+    
     32.ekonomia -- depozyt który po jakmś czasie oddaje coinsy z np 20% dodatku
     33.dodać skszynki -- możliwość kupowania i otwierania skrzynek z randomowymi przedmiotami np goldem i vip jako nagorda główna
     34.warnt -- dodać warny. po dostaniu ilości warnów ustawionych przez administracje na kanał administracji będzie wysyłana wiadomość że urzytkownik ma już x warnów i jest do zbanowania
@@ -62,25 +62,7 @@ zapisuje w db rekord punktów pod rząd żeby gracz mógł sprawdzić swój reko
     37.zrobić komende $porg która będzie wysyłała randomowa grafike porga
     39.zrobić report na slahse
     40.dodać workery do komend bo niektóre nie mają
-    38.{
-         // dzień mieś rok liczba_dni_z_rzędu
-                    //zapisuje dzień odebrania nagrody 1 dnia
-                    //i dodaje 1 do liczby_dni
-                    //jeżeli podczas odbierania dailt liczba == 0 nie nalicza boosta
-                    //jeżeli liczba jest > 0 
-                    //data pierwszego daily. do dnia + liczba jeżeli to == obecna data
-                    //daje nagrody z boostem i dodaje 1 do liczby
-
-                    //maxymalna liczba dni z rzędu (z bostowanymi nagrodami)
-                    //to 7 dni. Jeżeli liczba == 7 wysyła gratulacje i resetuje liczbe do 0
-    }
-
-    ekonomia -- daily, weekly daje lootboxy
-    lootboxy:{
-        item        monety  szanse na drop
-        wooden logg = 10        30%
-        
-    }
+    
 
 ## GRA
     pomysł na gre cos ala afk arena:
