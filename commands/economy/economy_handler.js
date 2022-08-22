@@ -27,6 +27,8 @@ module.exports = (message) => {
                     get_weekly: [0],
                     weekly: [true],
 
+                    check: true,
+
                     birthday: [month, day, rok],
                     bitrhday_used: false,
                     birtgday_check: false,
@@ -35,9 +37,12 @@ module.exports = (message) => {
 
                     daily_z_rzędu:[],
 
-                    depozyt_created: [],
+                    //data odebrania depozytu
+                    depozyt_date: [],// rok mieś day
                     depozyt_type: [],
+                    depozyt_coins: 0,
                     depozyt_check: false,
+                    depozyt_days
 
                    
                 })
