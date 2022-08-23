@@ -2993,3 +2993,33 @@ D:Argentina
 20.08.2022   18:11   bot   SEEN-#5771   
 21.08.2022   10:09   bot   SEEN-#5771   
 22.08.2022   11:41   bot   PAW#5844   takie coś z nagrodami na canvasie do daily,weeklu,urodzin,depozytu
+22.08.2022   23:50   bot   PAW#5844   >ping
+22.08.2022   23:50   bot   PAW#5844   >ping
+22.08.2022   23:50   bot   -V1PE#3809   pong!
+23.08.2022   00:28   bot   -V1PE#3809   test
+23.08.2022   00:28   bot   -V1PE#3809   test
+23.08.2022   00:31   bot   -V1PE#3809   testundefined
+23.08.2022   00:32   bot   -V1PE#3809   test undefined
+23.08.2022   00:54   bot   -V1PE#3809   test undefined
+23.08.2022   00:56   bot   -V1PE#3809   test undefined
+23.08.2022   00:58   bot   -V1PE#3809   test undefined
+23.08.2022   00:58   bot   -V1PE#3809   test undefined
+23.08.2022   00:58   bot   -V1PE#3809   test undefined
+23.08.2022   00:58   bot   -V1PE#3809   test undefined
+23.08.2022   01:04   bot   -V1PE#3809   test undefined
+23.08.2022   01:06   bot   -V1PE#3809   test undefined
+23.08.2022   01:13   bot   -V1PE#3809   test undefined
+23.08.2022   01:14   bot   -V1PE#3809   test undefined
+23.08.2022   01:15   bot   -V1PE#3809   test undefined
+23.08.2022   01:16   bot   -V1PE#3809   test undefined
+23.08.2022   01:17   bot   -V1PE#3809   test undefined
+23.08.2022   01:18   bot   -V1PE#3809   test undefined
+23.08.2022   01:23   bot   -V1PE#3809   test undefined
+23.08.2022   01:24   bot   -V1PE#3809   test undefined
+23.08.2022   01:25   bot   -V1PE#3809   test undefined
+23.08.2022   01:27   bot   -V1PE#3809   test undefined
+23.08.2022   01:29   bot   -V1PE#3809   test undefined
+23.08.2022   01:38   bot   -V1PE#3809   test undefined
+23.08.2022   01:41   bot   -V1PE#3809   test undefined
+23.08.2022   01:49   bot   -V1PE#3809   test 926587631645630475
+23.08.2022   01:50   bot   -V1PE#3809   test 746045209766264952
