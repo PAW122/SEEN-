@@ -1565,3 +1565,4 @@ ale jeżeby odbierzesz daily na po 10h to masz 100 * 5.5 coinsów
 25.08.2022   23:04   『-🤖-』botownia   SEEN-#5771   You don't have admin authorization
 25.08.2022   23:07   『-🤖-』botownia   Porg Generał#5726   $settings prefix &
 25.08.2022   23:07   『-🤖-』botownia   SEEN-#5771   You don't have admin authorization
+25.08.2022   23:10   『-💭-』general   Porg Generał#5726   <@552558742621650983>
