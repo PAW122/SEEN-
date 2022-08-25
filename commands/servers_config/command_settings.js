@@ -1,8 +1,186 @@
 const Discord = require('discord.js');
 const { QuickDB } = require("quick.db");
 const setting_handler = require("./setings_handler")
+const { SlashCommandBuilder } = require('@discordjs/builders');
 module.exports = {
   name: "settings",
+  isSlash: true,
+
+
+  data: new SlashCommandBuilder()
+    .setName('settings')
+    .setDescription('set your cunstom server settings')
+    .addStringOption((option) =>
+      option
+        .setName("action")
+        .setDescription("an/off command")
+        .setRequired(true)
+        .setChoices(
+          { name: "turn_on_command", value: "true" },
+          { name: "turn_off_command", value: "false" },
+          { name: "deafult_settings", value: "deafult" },
+          { name: "set_your_custom prefix", value: "prefix" },
+          { name: "welcome_messages", value: "welcome_messages" },
+          { name: "set_ticket_channels", value: "ticket" }
+        )
+    )
+    .addStringOption((option) =>
+      option
+        .setName("command")
+        .setDescription("which command you want to edit")
+        .setRequired(true)
+        .setChoices(
+          { name: "nothink_here", value: "nothink_here" },
+          { name: "anime_gif", value: "anime_gif" },
+          { name: "eight_ball", value: "eight_ball" },
+          { name: "anime_seem_help", value: "anime_seem_help" },
+          { name: "anime_help", value: "anime_help" },
+          { name: "updaty", value: "updaty" },
+          { name: "anime_list", value: "anime_list" },
+          { name: "ankieta", value: "ankieta" },
+          { name: "awatar", value: "awatar" },
+          { name: "ban", value: "ban" },
+          { name: "bot_info", value: "bot_info" },
+          { name: "clear", value: "clear" },
+          { name: "embed", value: "embed" },
+          { name: "kick", value: "kick" },
+          { name: "random", value: "random" },
+          { name: "ping", value: "ping" },
+          { name: "ruletka", value: "ruletka" },
+          { name: "say", value: "say" },
+          { name: "srv_info", value: "srv_info" },
+          { name: "blitz_stats", value: "blitz_stats" },
+          { name: "blitz_clan", value: "blitz_clan" },
+          { name: "autoroles", value: "autoroles" },
+          { name: "user_info", value: "user_info" },
+          { name: "lvl_command", value: "lvl_command" },
+          { name: "economy_command", value: "economy_command" },
+        )
+    )
+    .addStringOption((option) =>
+      option
+        .setName("command2")
+        .setDescription("which command you want to edit")
+        //.setRequired(true)
+        .setChoices(
+          { name: "anime_zapowiedzi", value: "anime_zapowiedzi" },
+          { name: "anime_seen", value: "anime_seen" },
+          { name: "unban", value: "unban" },
+          { name: "ticket", value: "ticket" }
+        )
+    )
+    .addStringOption((option) =>
+      option
+        .setName("prefix")
+        .setDescription("set your own prefix")
+      //.setRequired(true)
+    )
+    .addStringOption((option) =>
+      option
+        .setName("welcome_channel_id")
+        .setDescription("put here your welcome channel ID")
+      //.setRequired(true)
+    )
+    .addStringOption((option) =>
+      option
+        .setName("tickets_admin")
+        .setDescription("put here your ticket administraction channel id")
+      //.setRequired(true)
+    )
+    .addStringOption((option) =>
+      option
+        .setName("tickets_users")
+        .setDescription("put here your ticket users channel id")
+      //.setRequired(true)
+    ),
+
+  executeInteraction: async (inter) => {
+
+    const userId = inter.user.id
+    const guildId = inter.guild.id
+    const db = new QuickDB({ filePath: process.cwd() + `/db/srv_settings/commands/${guildId}.sqlite` });
+
+    var action = inter.options.getString('action')
+    var command = inter.options.getString('command')
+    var prefix = inter.options.getString('prefix')
+    var wcid = inter.options.getString('welcome_channel_id')
+    var tickets_admin = inter.options.getString('tickets_admin')
+    var tickets_users = inter.options.getString('tickets_users')
+    var command2 = inter.options.getString('command2')
+
+    if (!prefix) var prefix = 0
+    if (!wcid) var wcid = 0
+    if (!command) var command = 0
+    if (command == "nothink_here") {
+      var commands = command2
+    }
+
+    var command = commands
+
+    async function save_settings(action, command, prefix, wcid) {
+
+      if (action != "on" && action != "off") return inter.reply("U cant do that")
+      if (await db.get(`check.check`) != true) {
+        setting_handler(0, 1, guildId, userId)
+        await new Promise(r => setTimeout(r, 2000));
+        return inter.reply("Server settings profile has been created, use the command again to save changes")
+      }
+
+      //deafult settings
+      if (action == "deafult") {
+        setting_handler(0, 1, guildId, userId)
+        await new Promise(r => setTimeout(r, 2000));
+        return inter.reply("deafult settings have been restored")
+      }
+
+      async function updateNickname(guild, prefix) {
+        client.guilds.cache.get(guild).members.cache.find(member =>
+          member.id === client.user.id).setNickname("SEEN-" + `[${prefix}help]`);
+      }
+
+      if (action == "prefix") {
+        await db.set(`prefix.check`, prefix)
+        const guild_id = inter.guild.id
+        updateNickname(guild_id, prefix)
+        return inter.reply(`set ${prefix} as prefix`)
+      }
+
+      if (action == "welcome_messages") {
+        if (!wcid || wcid == null) return inter.reply("you did not enter the channel id")
+        await db.set(`welcome.channelId`, wcid)
+        return inter.reply(`welcome messages set on <#${wcid}> channel`)
+      }
+
+      if (action == "ticket") {
+        if (isNaN(tickets_admin)) {
+          return inter.reply("wrong administration channel id")
+        }
+        if (isNaN(tickets_users)) {
+          return inter.reply("wrong users channel id")
+        }
+        await db.set(`tickets.settings`, [tickets_users, tickets_admin])
+        //<channel id for users> 
+        return inter.reply("set tickets")
+      }
+
+      await db.set(`${command_name}.worker`, action)
+      await db.set(`${command_name}.reason`, "this command is disabled on this server.")
+    }
+    save_settings(action, command, prefix, wcid)
+
+    //usage: /settings off tickets
+
+  },
+
+
+
+
+
+
+
+
+
+
 
   execute: async (message, args, client) => {
     const guildId = message.guild.id
@@ -13,9 +191,10 @@ module.exports = {
     }
 
     // change nickname for a single guild
-async function updateNickname(guild) {
-  return guild.me.setNickname(`SEEN-${args[1]}`);
-}
+    async function updateNickname(guild, prefix) {
+      client.guilds.cache.get(guild).members.cache.find(member =>
+        member.id === client.user.id).setNickname("SEEN-" + `[${prefix}help]`);
+    }
 
     if (args[0] == "deafult") {
       setting_handler(message)
@@ -39,9 +218,8 @@ async function updateNickname(guild) {
       if (args[0] == "prefix") {
         await db.set(`prefix.check`, args[1])
         const guild_id = message.guild.id
-        updateNickname(guild_id)
+        updateNickname(guild_id, args[1])
         return message.reply("set")
-
       }
 
       if (args[0] == "welcome_messages") {
@@ -54,15 +232,15 @@ async function updateNickname(guild) {
 
       }
 
-      if(args[0] == "ticket"){
-        if(isNaN(args[1])){
+      if (args[0] == "ticket") {
+        if (isNaN(args[1])) {
           return message.reply("wrong channel id")
         }
-        if(isNaN(args[2] )){
+        if (isNaN(args[2])) {
           return message.reply("wrong channel id")
         }
-//await db.set(`tickets`, { settings: ["null", "null"] })
-        await db.set(`tickets.settings`,[args[1], args[2] ])
+        //await db.set(`tickets`, { settings: ["null", "null"] })
+        await db.set(`tickets.settings`, [args[1], args[2]])
         //<channel id for users> 
         return message.reply("set")
       }
@@ -201,11 +379,6 @@ async function updateNickname(guild) {
           if (command_name == "anime_seen") {//narazie nie dodaje funkcji
             await db.set(`anime_seen.worker`, false)//wyłączenia
             await db.set(`anime_seen.reason`, "this command is disabled on this server.")
-            return message.reply("set")
-          }
-          if (command_name == "economy_command") {//narazie nie dodaje funkcji
-            await db.set(`economy_command.worker`, false)//wyłączenia
-            await db.set(`economy_command.reason`, "this command is disabled on this server.")
             return message.reply("set")
           }
           if (command_name == "unban") {//narazie nie dodaje funkcji

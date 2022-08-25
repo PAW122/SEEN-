@@ -62,6 +62,11 @@ zapisuje w db rekord punktów pod rząd żeby gracz mógł sprawdzić swój reko
     37.zrobić komende $porg która będzie wysyłała randomowa grafike porga
     39.zrobić report na slahse
     40.dodać workery do komend bo niektóre nie mają
+
+    41.anime list nie jest wyświeltane w srv_set list
+    42.zrobić coś z autoroles
+    43.zrobić wkońcu ten system lvl
+    44.dodać do ekonomi możliwosć ustawienia swojej emotki monet
     
 
 ## GRA
