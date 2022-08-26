@@ -2,19 +2,11 @@ const config = require("../../config/config")
 const db_version = config.db_version
 
 const { QuickDB } = require("quick.db");
-module.exports = (message,x,guildID,userId) => {
-
-    //dodane dla działania slashów
-    if(x == 1){
-        var guildId = guildID
-        var userId = userId
-    }else{
-        var guildId = message.guild.id
-        var userId = message.author.id
-    }
+module.exports = (message) => {
+    const guildId = message.guild.id
     const db = new QuickDB({ filePath: process.cwd() + `/db/srv_settings/commands/${guildId}.sqlite` });
     (async () => {
-        
+        const userId = message.author.id
 
 //deafultowe ustawienia
         await db.set(`check`, { check: true })

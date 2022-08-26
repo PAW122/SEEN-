@@ -12,10 +12,7 @@ module.exports = {
 
     executeInteraction: async (inter) => {
         inter.reply(`Discord bot Suport: https://discord.gg/ATsqW78A4F
-        or user $report to send me message
-        \n
-        \n
-        if you want to have your bot or are looking for hosting, contact us in a private message:   PAW#5844`)
+        or user $report to send me message`)
 
     },
 
@@ -24,10 +21,7 @@ module.exports = {
 
 
         message.channel.send(`Discord bot Suport: https://discord.gg/ATsqW78A4F
-        or user $report to send me message
-        \n
-        \n
-        if you want to have your bot or are looking for hosting, contact us in a private message:   PAW#5844`)
+        or user $report to send me message`)
     }
 
 }
