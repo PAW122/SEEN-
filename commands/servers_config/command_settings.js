@@ -197,7 +197,7 @@ module.exports = {
     }
 
     if (args[0] == "deafult") {
-      setting_handler(message)
+      setting_handler(message,client)
       await new Promise(r => setTimeout(r, 2000));
       return message.reply("deafult settings have been restored")
     }

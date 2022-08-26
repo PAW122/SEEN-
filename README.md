@@ -70,6 +70,9 @@ zapisuje w db rekord punktów pod rząd żeby gracz mógł sprawdzić swój reko
     44.dodać do ekonomi możliwosć ustawienia swojej emotki monet
     45.jak zapisguje się nowy przfix @seen ma pokazywać prefix bota
     46.naprawić setbnickname w sev_settings
+    47.db z id kanałów będzie odświerzać się co 1h
+    48.spróbować przekopiować music bota tutaj
+    49.prefix set deaful musi resetowac nick bota
     
 
 ## GRA

@@ -2370,3 +2370,20 @@ zależy od zlecenia
 26.08.2022   16:39   『-🤖-』botownia   PAW#5844   $buy vip
 26.08.2022   16:39   『-🤖-』botownia   SEEN-#5771   Congratulations you just bought: vip
 26.08.2022   16:39   『-🤖-』botownia   PAW#5844   z małej musisz
+26.08.2022   16:49   『-🤖-』botownia   PAW#5844   $clear 7
+26.08.2022   16:49   🔒   Dyno#0000   
+26.08.2022   16:49   『-🤖-』botownia   SEEN-#5771   Usunąłem 7 wiadomości
+26.08.2022   16:49   🔒   Dyno#0000   
+26.08.2022   16:53   『-🤖-』botownia   PAW#5844   $settings deafult
+26.08.2022   16:53   『-🤖-』botownia   SEEN-#5771   deafult settings have been restored
+26.08.2022   16:57   『-🤖-』botownia   PAW#5844   $settings deafult
+26.08.2022   16:57   『-🤖-』botownia   SEEN-#5771   deafult settings have been restored
+26.08.2022   17:02   『-🤖-』botownia   PAW#5844   $settings deafult
+26.08.2022   17:02   『-🤖-』botownia   SEEN-#5771   deafult settings have been restored
+26.08.2022   17:05   『-🤖-』botownia   PAW#5844   $settings deafult
+26.08.2022   17:05   『-🤖-』botownia   SEEN-#5771   deafult settings have been restored
+26.08.2022   17:05   『-🤖-』botownia   PAW#5844   robiłem update bo jak się używało settings deafult to w nicku nie ustawiał poprawnego prefixu
+26.08.2022   17:06   『-🤖-』botownia   PAW#5844   $srv_set
+26.08.2022   17:06   『-🤖-』botownia   SEEN-#5771   
+26.08.2022   17:06   『-🤖-』botownia   PAW#5844   $settings welcome_messages 764240709779193876
+26.08.2022   17:06   『-🤖-』botownia   SEEN-#5771   set
