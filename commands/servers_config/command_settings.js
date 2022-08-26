@@ -218,7 +218,11 @@ module.exports = {
       if (args[0] == "prefix") {
         await db.set(`prefix.check`, args[1])
         const guild_id = message.guild.id
+        try{
         updateNickname(guild_id, args[1])
+        }catch(err){
+          console.log(err)
+        }
         return message.reply("set")
       }
 

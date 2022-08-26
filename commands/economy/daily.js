@@ -50,9 +50,9 @@ module.exports = {
                 await new Promise(r => setTimeout(r, 2000));
             }
             if (await db.get(`${userId}.weekly[0]`) == true) {
-                return message.reply("You can recieve weekly reward\n use $weekly to claim your reward")
+                return message.reply("You can receive weekly reward\n use $weekly to claim your reward")
             } else {
-                return message.reply(`You still need to use ${daily} to recieve your weekly reward`)
+                return message.reply(`You still need to use ${daily} to receive your weekly reward`)
             }
         }
 

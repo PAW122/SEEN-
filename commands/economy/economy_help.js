@@ -34,7 +34,7 @@ module.exports = {
         { name: `$add`, value: `allows administration to add and subtract ${emoji} of other users
         usage: $add <amount${emoji}> <userId>
         example: $add 100 797070806885990431`, inline: true },
-        { name: `$birthday`, value: `set your birthday to recieve your birthday reward`, inline: true },
+        { name: `$birthday`, value: `set your birthday to receive your birthday reward`, inline: true },
     )
     message.channel.send({embeds: [embed_pl] })
     }

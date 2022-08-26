@@ -1,5 +1,6 @@
 # SEEN-
  Public Discord Bot created by PAW#5844
+ Tłumaczenie:ToxicWaste#1928
 
 # paczki
 paczki znajdują się w dokumentacji
@@ -67,6 +68,8 @@ zapisuje w db rekord punktów pod rząd żeby gracz mógł sprawdzić swój reko
     42.zrobić coś z autoroles
     43.zrobić wkońcu ten system lvl
     44.dodać do ekonomi możliwosć ustawienia swojej emotki monet
+    45.jak zapisguje się nowy przfix @seen ma pokazywać prefix bota
+    46.naprawić setbnickname w sev_settings
     
 
 ## GRA

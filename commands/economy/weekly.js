@@ -60,7 +60,7 @@ module.exports = {
                 await db.set(`${userId}.get_weekly[0]`, 0)
            await db.set(`${userId}.weekly[0]`, false)
 
-                return message.reply(`You recieved ${vip_cash} ${emoji}
+                return message.reply(`You received ${vip_cash} ${emoji}
                 masz łącznie ${coins_to_add} ${emoji}`)
             }
         }
@@ -68,7 +68,7 @@ module.exports = {
 
        if(await db.get(`${userId}.weekly[0]`) != true){
         const pozostało = await db.get(`${userId}.get_weekly[0]`)
-        return message.reply(`you can't recieve your Weekly Reward yet
+        return message.reply(`you can't receive your Weekly Reward yet
         time remaining ${7 - pozostało} days`)
        }else{
         coins_add()

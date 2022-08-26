@@ -1741,3 +1741,623 @@ ale jeżeby odbierzesz daily na po 10h to masz 100 * 5.5 coinsów
 25.08.2022   23:04   『-🤖-』botownia   SEEN-#5771   You don't have admin authorization
 25.08.2022   23:07   『-🤖-』botownia   Porg Generał#5726   $settings prefix &
 25.08.2022   23:07   『-🤖-』botownia   SEEN-#5771   You don't have admin authorization
+25.08.2022   23:10   『-💭-』general   Porg Generał#5726   <@552558742621650983>
+25.08.2022   23:43   『-🔞-』stuleja-zone   Porg Generał#5726   DarekPosysa settings prefix &
+25.08.2022   23:43   『-🔞-』stuleja-zone   -V1PE#3809   set
+25.08.2022   23:43   🔒   Dyno#0000   
+25.08.2022   23:43   『-🔞-』stuleja-zone   Porg Generał#5726   Essa
+25.08.2022   23:44   『-🔞-』stuleja-zone   Porg Generał#5726   &dailt
+25.08.2022   23:44   『-🔞-』stuleja-zone   ToxicWaste#1928   $animegif rambo
+25.08.2022   23:44   『-🔞-』stuleja-zone   Porg Generał#5726   &daily
+25.08.2022   23:44   『-🔞-』stuleja-zone   ToxicWaste#1928   kurwa
+25.08.2022   23:44   『-🔞-』stuleja-zone   -V1PE#3809   You still need to use 7 to recieve your weekly reward
+25.08.2022   23:44   『-🔞-』stuleja-zone   -V1PE#3809   You got 99 💵
+                you have a total of 1774 💵
+25.08.2022   23:44   『-🔞-』stuleja-zone   ToxicWaste#1928   &daily
+25.08.2022   23:44   『-🔞-』stuleja-zone   -V1PE#3809   You still need to use 7 to recieve your weekly reward
+25.08.2022   23:44   『-🔞-』stuleja-zone   -V1PE#3809   You got 85 💵
+                you have a total of 2299 💵
+25.08.2022   23:44   『-🔞-』stuleja-zone   ToxicWaste#1928   &weekly
+25.08.2022   23:44   『-🔞-』stuleja-zone   -V1PE#3809   you can't recieve your Weekly Reward yet
+        time remaining 7 days
+25.08.2022   23:44   『-🔞-』stuleja-zone   ToxicWaste#1928   XD
+25.08.2022   23:44   『-🔞-』stuleja-zone   Porg Generał#5726   &add Witamy w schowku Gboard. Tu będzie przechowywany każdy tekst, który skopiujesz.
+25.08.2022   23:44   『-🔞-』stuleja-zone   -V1PE#3809   You entered wrong amount 💵
+25.08.2022   23:44   『-🔞-』stuleja-zone   PAW#5844   <@797070806885990431>
+25.08.2022   23:44   『-🔞-』stuleja-zone   -V1PE#3809   use ```$help```
+25.08.2022   23:44   『-🔞-』stuleja-zone   SEEN-#5771   use ```$help```
+25.08.2022   23:44   『-🔞-』stuleja-zone   Porg Generał#5726   $help
+25.08.2022   23:44   『-🔞-』stuleja-zone   PAW#5844   $help
+25.08.2022   23:44   『-🔞-』stuleja-zone   SEEN-#5771   
+25.08.2022   23:45   『-🔞-』stuleja-zone   Porg Generał#5726   Ssijhelp
+25.08.2022   23:45   『-🔞-』stuleja-zone   Porg Generał#5726   ssijhelp
+25.08.2022   23:45   『-🔞-』stuleja-zone   SEEN-#5771   
+25.08.2022   23:45   『-🔞-』stuleja-zone   ToxicWaste#1928   Ssijhelp
+25.08.2022   23:45   『-🔞-』stuleja-zone   Porg Generał#5726   ssijhelp
+25.08.2022   23:45   『-🔞-』stuleja-zone   SEEN-#5771   
+25.08.2022   23:45   『-🔞-』stuleja-zone   ToxicWaste#1928   ssijhelp
+25.08.2022   23:45   『-🔞-』stuleja-zone   SEEN-#5771   
+25.08.2022   23:45   『-🔞-』stuleja-zone   PAW#5844   ssijhelp settings deafult
+25.08.2022   23:45   『-🔞-』stuleja-zone   SEEN-#5771   
+25.08.2022   23:46   『-🔞-』stuleja-zone   PAW#5844   ssijhelp srv_set deafult
+25.08.2022   23:46   『-🔞-』stuleja-zone   SEEN-#5771   
+25.08.2022   23:46   『-🔞-』stuleja-zone   PAW#5844   ssij srv_set
+25.08.2022   23:46   『-🔞-』stuleja-zone   SEEN-#5771   
+25.08.2022   23:46   『-🔞-』stuleja-zone   PAW#5844   ssij settings deafult
+25.08.2022   23:46   『-🔞-』stuleja-zone   SEEN-#5771   deafult settings have been restored
+25.08.2022   23:46   『-🔞-』stuleja-zone   PAW#5844   $help
+25.08.2022   23:46   『-🔞-』stuleja-zone   SEEN-#5771   
+25.08.2022   23:46   『-🔞-』stuleja-zone   PAW#5844   $ping
+25.08.2022   23:46   『-🔞-』stuleja-zone   SEEN-#5771   pong!
+25.08.2022   23:46   『-🔞-』stuleja-zone   Porg Generał#5726   ssijanimegif hentai
+25.08.2022   23:46   『-🔞-』stuleja-zone   Porg Generał#5726   $ping
+25.08.2022   23:46   『-🔞-』stuleja-zone   SEEN-#5771   pong!
+25.08.2022   23:46   『-🔞-』stuleja-zone   Porg Generał#5726   $animegif hentai
+25.08.2022   23:46   『-🔞-』stuleja-zone   SEEN-#5771   https://cdn-anime-images-api.hisoka17.repl.co/images/hentai_25.gif
+25.08.2022   23:48   『-🔞-』stuleja-zone   Porg Generał#5726   $animegif hentai
+25.08.2022   23:48   『-🔞-』stuleja-zone   Porg Generał#5726   Dla kaktusa
+25.08.2022   23:48   『-🔞-』stuleja-zone   PAW#5844   $ping
+25.08.2022   23:49   『-🔞-』stuleja-zone   Porg Generał#5726   &add 99838383883833733773773737737373733733737373737737372229299119233696969699669969969669696699696969696969696969696969696969696969696969696969696969696969696969 692621246017568799
+25.08.2022   23:49   『-🔞-』stuleja-zone   SEEN-#5771   Successfully added to user <@692621246017568799> 99838383883833733773773737737373733733737373737737372229299119233696969699669969969669696699696969696969696969696969696969696969696969696969696969696969696969 💵
+25.08.2022   23:49   『-🔞-』stuleja-zone   Porg Generał#5726   &profil
+25.08.2022   23:49   『-🔞-』stuleja-zone   SEEN-#5771   masz 9.983838388383373e+157 💵
+        przedmioty: undefined
+25.08.2022   23:49   『-🔞-』stuleja-zone   Porg Generał#5726   $profil
+25.08.2022   23:49   『-🔞-』stuleja-zone   Porg Generał#5726   &animegif hentai
+25.08.2022   23:49   『-🔞-』stuleja-zone   SEEN-#5771   https://cdn-anime-images-api.hisoka17.repl.co/images/hentai_1.gif
+25.08.2022   23:49   『-🔞-』stuleja-zone   ToxicWaste#1928   ban
+25.08.2022   23:50   『-🔞-』stuleja-zone   ToxicWaste#1928   fast
+25.08.2022   23:50   『-🔞-』stuleja-zone   Porg Generał#5726   &animegif hentai
+25.08.2022   23:50   『-🔞-』stuleja-zone   SEEN-#5771   https://cdn-anime-images-api.hisoka17.repl.co/images/hentai_55.jpg
+25.08.2022   23:50   『-🔞-』stuleja-zone   Porg Generał#5726   &animegif hentai
+25.08.2022   23:50   『-🔞-』stuleja-zone   SEEN-#5771   https://cdn-anime-images-api.hisoka17.repl.co/images/hentai_20.gif
+25.08.2022   23:51   『-🔞-』stuleja-zone   Porg Generał#5726   &animegif hentai
+25.08.2022   23:51   『-🔞-』stuleja-zone   SEEN-#5771   https://cdn-anime-images-api.hisoka17.repl.co/images/hentai_13.gif
+25.08.2022   23:51   🔒   Dyno#0000   
+25.08.2022   23:51   『-🔞-』stuleja-zone   ToxicWaste#1928   jakie barwy wojenne
+25.08.2022   23:51   🔒   Dyno#0000   
+25.08.2022   23:51   『-🔞-』stuleja-zone   ToxicWaste#1928   kurwa
+25.08.2022   23:51   🔒   Dyno#0000   
+25.08.2022   23:51   🔒   Dyno#0000   
+25.08.2022   23:51   『-🔞-』stuleja-zone   Porg Generał#5726   &animegif hentai
+25.08.2022   23:51   『-🔞-』stuleja-zone   SEEN-#5771   https://cdn-anime-images-api.hisoka17.repl.co/images/hentai_58.jpg
+25.08.2022   23:51   『-🔞-』stuleja-zone   Porg Generał#5726   &animegif hentai
+25.08.2022   23:51   『-🔞-』stuleja-zone   SEEN-#5771   https://cdn-anime-images-api.hisoka17.repl.co/images/hentai_92.jpg
+25.08.2022   23:51   『-🔞-』stuleja-zone   Porg Generał#5726   &animegif hentai
+25.08.2022   23:51   『-🔞-』stuleja-zone   SEEN-#5771   https://cdn-anime-images-api.hisoka17.repl.co/images/hentai_49.gif
+25.08.2022   23:51   『-🔞-』stuleja-zone   Porg Generał#5726   &animegif hentai
+25.08.2022   23:51   『-🔞-』stuleja-zone   SEEN-#5771   https://cdn-anime-images-api.hisoka17.repl.co/images/hentai_75.jpg
+25.08.2022   23:51   『-🔞-』stuleja-zone   Porg Generał#5726   &animegif hentai
+25.08.2022   23:51   『-🔞-』stuleja-zone   SEEN-#5771   https://cdn-anime-images-api.hisoka17.repl.co/images/hentai_63.jpg
+25.08.2022   23:52   🔒   Dyno#0000   
+25.08.2022   23:54   『-🤖-』botownia   PAW#5844   &settings prefix .
+25.08.2022   23:54   🔒   Dyno#0000   
+25.08.2022   23:54   『-🤖-』botownia   SEEN-#5771   set
+25.08.2022   23:54   『-🤖-』botownia   PAW#5844   .help
+25.08.2022   23:54   『-🤖-』botownia   SEEN-#5771   
+25.08.2022   23:54   『-🔞-』stuleja-zone   ToxicWaste#1928   .animegif gore
+25.08.2022   23:54   🔒   Dyno#0000   
+26.08.2022   00:01   🔒   Dyno#0000   
+26.08.2022   00:01   🔒   Dyno#0000   
+26.08.2022   00:01   🔒   Dyno#0000   
+26.08.2022   00:01   🔒   Dyno#0000   
+26.08.2022   00:01   🔒   Dyno#0000   
+26.08.2022   00:01   🔒   Dyno#0000   
+26.08.2022   00:01   🔒   Dyno#0000   
+26.08.2022   00:02   🔒   Dyno#0000   
+26.08.2022   00:02   🔒   Dyno#0000   
+26.08.2022   00:02   『-🔞-』stuleja-zone   Porg Generał#5726   &ruletka <@759765392787767316>  <@730101170789679184>
+26.08.2022   00:03   🔒   Dyno#0000   
+26.08.2022   00:03   『-🔞-』stuleja-zone   Porg Generał#5726   $ruletka <@759765392787767316>  <@730101170789679184>
+26.08.2022   00:03   『-🔞-』stuleja-zone   PAW#5844   .ping
+26.08.2022   00:03   『-🔞-』stuleja-zone   SEEN-#5771   pong!
+26.08.2022   00:03   『-🔞-』stuleja-zone   Porg Generał#5726   .ruletka <@759765392787767316>  <@438336824516149249>  <@692621246017568799>  <@577507822011416592>  <@464445409700347915>
+26.08.2022   00:03   『-🔞-』stuleja-zone   SEEN-#5771   
+26.08.2022   00:03   『-🔞-』stuleja-zone   SEEN-#5771   
+26.08.2022   00:04   『-🔞-』stuleja-zone   Porg Generał#5726   &ban <@464445409700347915>
+26.08.2022   00:04   『-🔞-』stuleja-zone   PAW#5844   .say debil
+26.08.2022   00:04   『-🔞-』stuleja-zone   SEEN-#5771   debil
+26.08.2022   00:04   🔒   Dyno#0000   
+26.08.2022   00:04   🔒   Dyno#0000   
+26.08.2022   00:04   『-🔞-』stuleja-zone   PAW#5844   .jebac cie
+26.08.2022   00:04   『-🔞-』stuleja-zone   Porg Generał#5726   . jebać ramba
+26.08.2022   00:04   『-🔞-』stuleja-zone   Austriacki_MaIarz#1353   
+26.08.2022   00:04   🔒   Dyno#0000   
+26.08.2022   00:05   🔒   Dyno#0000   
+26.08.2022   00:05   『-🔞-』stuleja-zone   _Manfredi#6878   Koniczynga
+26.08.2022   00:05   🔒   Dyno#0000   
+26.08.2022   00:05   『-🔞-』stuleja-zone   _Manfredi#6878   <@675377217642954793>
+26.08.2022   00:06   ledżenderi-texty   Porg Generał#5726   Krokiet: czemu ta Julka ma 112 w nicku 
+Kaktus: w razie jakby się miała ze mną spotkać to jej napisali
+26.08.2022   00:07   ledżenderi-texty   PAW#5844   XD
+26.08.2022   00:07   ledżenderi-texty   Porg Generał#5726   My się dobrze bawimy
+26.08.2022   00:07   ledżenderi-texty   _Manfredi#6878   XDDDD
+26.08.2022   00:08   ledżenderi-texty   ToxicWaste#1928   <:pepeOK1:754261383952072764>
+26.08.2022   00:09   🔒   Dyno#0000   
+26.08.2022   00:09   🔒   Dyno#0000   
+26.08.2022   00:09   🔒   Dyno#0000   
+26.08.2022   00:10   🔒   Dyno#0000   
+26.08.2022   00:10   🔒   Dyno#0000   
+26.08.2022   00:11   🔒   Dyno#0000   
+26.08.2022   00:11   🔒   Dyno#0000   
+26.08.2022   00:11   『-💭-』general   _Manfredi#6878   <@692621246017568799>
+26.08.2022   00:11   🔒   Dyno#0000   
+26.08.2022   00:11   🔒   Dyno#0000   
+26.08.2022   00:11   『-💭-』general   _Manfredi#6878   Nie mozesz co
+26.08.2022   00:11   『-💭-』general   _Manfredi#6878   Chuju
+26.08.2022   00:11   『-💭-』general   Porg Generał#5726   Nie nie mogę CDDDDDD
+26.08.2022   00:11   『-💭-』general   _Manfredi#6878   Wrrr
+26.08.2022   00:11   『-💭-』general   ToxicWaste#1928   XDDDD
+26.08.2022   00:11   『-💭-』general   Porg Generał#5726   🤣
+26.08.2022   00:11   『-💭-』general   _Manfredi#6878   Wroble cię dojada
+26.08.2022   00:12   『-💭-』general   ToxicWaste#1928   <@702073901097812008> cię przenosi a nas się czepiasz
+26.08.2022   00:12   『-💭-』general   ToxicWaste#1928   ja jebie
+26.08.2022   00:12   『-💭-』general   Porg Generał#5726   A jak patrzy na tego DC jak patrzy
+26.08.2022   00:12   『-💭-』general   ToxicWaste#1928   <@521453311379898371> nie przyszedłeś na czas
+26.08.2022   00:12   『-💭-』general   ToxicWaste#1928   cóż
+26.08.2022   00:12   🔒   Dyno#0000   
+26.08.2022   00:12   『-💭-』general   ToxicWaste#1928   szybka degradacja
+26.08.2022   00:12   『-💭-』general   _Manfredi#6878   Wrrr
+26.08.2022   00:13   『-💭-』general   Porg Generał#5726   Dobra idź zakreblu<@759765392787767316>
+26.08.2022   00:15   🔒   Dyno#0000   
+26.08.2022   00:15   🔒   Dyno#0000   
+26.08.2022   00:15   🔒   Dyno#0000   
+26.08.2022   00:15   🔒   Dyno#0000   
+26.08.2022   00:18   🔒   Dyno#0000   
+26.08.2022   00:19   🔒   Dyno#0000   
+26.08.2022   00:19   🔒   Dyno#0000   
+26.08.2022   00:21   🔒   Dyno#0000   
+26.08.2022   00:21   🔒   Dyno#0000   
+26.08.2022   00:27   🔒   Dyno#0000   
+26.08.2022   00:27   🔒   Dyno#0000   
+26.08.2022   01:48   『-👋-』powitalnia   Invite Tracker#0478   <@650091794486394882> has been invited by PAW#5844 and has now 12 invites.
+26.08.2022   01:48   『-👋-』powitalnia   StartIT#2275   siemaneczko <@650091794486394882>
+26.08.2022   01:48   『-👋-』powitalnia   -V1PE#3809   <@650091794486394882> Welcome to the server!
+26.08.2022   01:49   『-👋-』powitalnia   chin chiua#5776   
+26.08.2022   01:49   🔒   Dyno#0000   
+26.08.2022   01:53   『-💭-』general   chin chiua#5776   Ej ten bot fame to nie wirus czy cos?
+26.08.2022   01:53   『-💭-』general   Porg Generał#5726   Nie
+26.08.2022   01:54   『-💭-』general   Porg Generał#5726   Normalny bot do nabijania punktów
+26.08.2022   01:56   『-💭-』general   chin chiua#5776   A wykrywalny
+26.08.2022   01:56   『-💭-』general   chin chiua#5776   ?
+26.08.2022   01:57   『-💭-』general   Porg Generał#5726   Zależy w jakim sensie hahah
+26.08.2022   01:57   『-💭-』general   Porg Generał#5726   Nie
+26.08.2022   01:57   『-💭-』general   Porg Generał#5726   Jeśli chodzi o emulator to nie
+26.08.2022   01:58   『-💭-』general   chin chiua#5776   I wy normalnie krypto zdobywacie i ppv?
+26.08.2022   01:58   『-💭-』general   Porg Generał#5726   Gdybym jescze w to grał to może bym widział poczekaj na linii połączę cię z Głowno dowodzącym
+26.08.2022   01:59   『-💭-』general   Porg Generał#5726   <@438336824516149249>  kolega zdaje się że do ciebie
+26.08.2022   01:59   『-💭-』general   chin chiua#5776   Witam dowódco
+26.08.2022   02:00   『-💭-』general   Porg Generał#5726   Dowódca aktualnie ogląda film w kinie odpisze ci gdy będzie to możliwe
+26.08.2022   02:00   『-💭-』general   chin chiua#5776   Yhm no dobra
+26.08.2022   02:00   『-💭-』general   Porg Generał#5726   Z moich osobistych informacji bot jest świetny i bez zarzutów można spokojnie pobrać i korzystać
+26.08.2022   02:00   『-💭-』general   chin chiua#5776   Wait o 2 w nocy w kinir
+26.08.2022   02:01   『-💭-』general   Porg Generał#5726   W razie problemów na jednym z kanałów są porady a jeśli czegoś nie ma to pisać do dowódcy
+26.08.2022   02:01   『-💭-』general   Porg Generał#5726   Nasze prywatne
+26.08.2022   02:01   『-💭-』general   chin chiua#5776   Chyba ze
+26.08.2022   02:01   『-💭-』general   PAW#5844   nie
+26.08.2022   02:01   『-💭-』general   chin chiua#5776   O jestes
+26.08.2022   02:01   『-📣-』ogłoszenia-parafialne   MEE6#4876   GG <@650091794486394882>, you just advanced to level 1!
+26.08.2022   02:01   『-💭-』general   Porg Generał#5726   O a oto dowódca
+26.08.2022   02:02   『-💭-』general   Porg Generał#5726   Zajmij się panem <@438336824516149249>
+26.08.2022   02:02   『-💭-』general   PAW#5844   co chciałeś?
+26.08.2022   02:02   『-💭-』general   chin chiua#5776   ?
+26.08.2022   02:03   『-💭-』general   PAW#5844   aktualnie muszę zaktualizować bota bo gra miała update i kilka rzeczy się zmieniło
+26.08.2022   02:03   『-💭-』general   PAW#5844   ale niedługo spowrotem będzie poprawnie działał
+26.08.2022   02:04   『-💭-』general   chin chiua#5776   Yhm czyli na katualny moment nie dzila
+26.08.2022   02:04   『-💭-』general   chin chiua#5776   A na ile
+26.08.2022   02:04   『-💭-』general   chin chiua#5776   Ile trzeba czekac az bedzie dzialac
+26.08.2022   02:04   『-💭-』general   PAW#5844   jak dam rade to jutro
+26.08.2022   02:05   『-💭-』general   chin chiua#5776   Bo wiesz jutro juz fame i chciałbym zdobyc ppv i krypto przy okazji
+26.08.2022   02:05   『-💭-』general   chin chiua#5776   A sam to za trundo bo pod koniec musisz miec z 7.5 klikniec na s
+26.08.2022   02:06   『-💭-』general   Porg Generał#5726   Pograj całą noc w osu a wyklikasz nawet więcej 😂
+26.08.2022   02:06   『-💭-』general   PAW#5844   spoko ale do tych lepszych meczy o nagrody bot nie działa bo potrzebował bym miec jakies konto z premium kupionym żeby wszystko ustawić
+26.08.2022   02:06   『-💭-』general   PAW#5844   heh polecam
+26.08.2022   02:06   『-💭-』general   chin chiua#5776   Co to osu
+26.08.2022   02:07   『-💭-』general   Porg Generał#5726   Wiem
+26.08.2022   02:07   『-💭-』general   Porg Generał#5726   Że co kurwa
+26.08.2022   02:07   『-💭-』general   chin chiua#5776   Ja moge miec
+26.08.2022   02:07   『-💭-』general   PAW#5844   taka dajna gra https://www.youtube.com/watch?v=k-KZz_N1Oqw
+26.08.2022   02:07   『-💭-』general   chin chiua#5776   Naprawde nwm co to
+26.08.2022   02:07   『-💭-』general   _Manfredi#6878   Gra
+26.08.2022   02:07   『-💭-』general   Porg Generał#5726   Wierzę
+26.08.2022   02:07   『-💭-』general   _Manfredi#6878   Klikasz głównie
+26.08.2022   02:07   『-💭-』general   _Manfredi#6878   https://c.tenor.com/zLJke-7nIssAAAAM/osu-osugame.gif
+26.08.2022   02:07   『-💭-』general   _Manfredi#6878   Coś takiego
+26.08.2022   02:08   『-💭-』general   chin chiua#5776   A to
+26.08.2022   02:08   『-💭-』general   chin chiua#5776   Juz wiadomo
+26.08.2022   02:08   『-💭-』general   Porg Generał#5726   Filmik pawa hahah
+26.08.2022   02:09   『-💭-』general   chin chiua#5776   Ale dowódco bo ja moge mieć konto premium i teraz sprawa czy pomógł byś?
+26.08.2022   02:09   『-💭-』general   PAW#5844   jaknajbardziej
+26.08.2022   02:09   『-💭-』general   Porg Generał#5726   Za całe 200 Zeta pomoc że wszystkim <@650091794486394882>
+26.08.2022   02:10   『-💭-』general   chin chiua#5776   XD
+26.08.2022   02:10   🔒   Dyno#0000   
+26.08.2022   02:10   『-💭-』general   _Manfredi#6878   O dobra oferta
+26.08.2022   02:10   『-💭-』general   chin chiua#5776   Bardzo
+26.08.2022   02:10   『-💭-』general   chin chiua#5776   Kusząca
+26.08.2022   02:10   『-💭-』general   chin chiua#5776   Haha
+26.08.2022   02:10   『-💭-』general   _Manfredi#6878   no a nie
+26.08.2022   02:10   『-💭-』general   Porg Generał#5726   Mi się podoba
+26.08.2022   02:10   🔒   Dyno#0000   
+26.08.2022   02:10   🔒   Dyno#0000   
+26.08.2022   02:10   『-💭-』general   chin chiua#5776   200zl hah
+26.08.2022   02:10   『-💭-』general   Porg Generał#5726   To mało
+26.08.2022   02:10   『-💭-』general   Porg Generał#5726   Ale wiesz co
+26.08.2022   02:10   『-💭-』general   Porg Generał#5726   Dla ciebie promocja
+26.08.2022   02:11   『-💭-』general   Porg Generał#5726   Jedyne 250
+26.08.2022   02:11   『-💭-』general   chin chiua#5776   Biore w ciemno
+26.08.2022   02:11   『-💭-』general   Porg Generał#5726   Oki
+26.08.2022   02:11   『-💭-』general   _Manfredi#6878   Git
+26.08.2022   02:11   『-💭-』general   chin chiua#5776   Moze byc blikiem
+26.08.2022   02:11   『-💭-』general   Porg Generał#5726   Podać numer konta ?
+26.08.2022   02:11   『-💭-』general   chin chiua#5776   Dawaj
+26.08.2022   02:11   『-💭-』general   PAW#5844   oke
+26.08.2022   02:11   『-💭-』general   Porg Generał#5726   Wolałbym przelew tradycyjny
+26.08.2022   02:11   『-💭-』general   chin chiua#5776   XD
+26.08.2022   02:11   『-💭-』general   PAW#5844   już wysyłam nr konta
+26.08.2022   02:11   『-💭-』general   Porg Generał#5726   To mój zysk biorę 30 %
+26.08.2022   02:12   『-💭-』general   chin chiua#5776   Gosciu mi proponował kiedys na fame 13 lub 14 za 3zl
+26.08.2022   02:12   『-💭-』general   chin chiua#5776   Lub 1
+26.08.2022   02:12   『-💭-』general   _Manfredi#6878   no ale to fame 15
+26.08.2022   02:12   『-💭-』general   _Manfredi#6878   xd
+26.08.2022   02:12   『-💭-』general   chin chiua#5776   Jebany
+26.08.2022   02:12   『-💭-』general   PAW#5844   heh
+26.08.2022   02:12   『-💭-』general   chin chiua#5776   Dziennie
+26.08.2022   02:12   『-💭-』general   Porg Generał#5726   Ta
+26.08.2022   02:12   『-💭-』general   chin chiua#5776   Kosił z 2k
+26.08.2022   02:12   『-💭-』general   chin chiua#5776   Z tych krypto
+26.08.2022   02:12   『-💭-』general   chin chiua#5776   Mial z 20kont premium
+26.08.2022   02:12   『-💭-』general   chin chiua#5776   I lexial
+26.08.2022   02:12   『-💭-』general   Porg Generał#5726   Świetna sprawa
+26.08.2022   02:12   『-💭-』general   chin chiua#5776   Bardzi
+26.08.2022   02:13   『-💭-』general   _Manfredi#6878   
+26.08.2022   02:13   『-💭-』general   chin chiua#5776   
+26.08.2022   02:13   『-💭-』general   chin chiua#5776   A tak z ciekawości
+26.08.2022   02:13   『-📣-』ogłoszenia-parafialne   MEE6#4876   GG <@650091794486394882>, you just advanced to level 2!
+26.08.2022   02:13   『-💭-』general   chin chiua#5776   Po co za darmo to dajecie
+26.08.2022   02:13   『-💭-』general   _Manfredi#6878   Ale co
+26.08.2022   02:13   『-💭-』general   _Manfredi#6878   Tego bota
+26.08.2022   02:14   『-💭-』general   chin chiua#5776   Pomijając faktu ze nikt by nie zapłacil
+26.08.2022   02:14   『-💭-』general   chin chiua#5776   Ta
+26.08.2022   02:14   『-💭-』general   Porg Generał#5726   Bo został sprzedany za 2 k a my dajemy słabsza wersję
+26.08.2022   02:14   『-💭-』general   _Manfredi#6878   Działał na onna fersje gry
+26.08.2022   02:14   『-💭-』general   _Manfredi#6878   Ale troche to zmieniłi
+26.08.2022   02:14   『-💭-』general   _Manfredi#6878   To też
+26.08.2022   02:15   『-💭-』general   chin chiua#5776   <@438336824516149249> musisz ogarnąć tego bota
+26.08.2022   02:15   『-💭-』general   chin chiua#5776   I sam sobie tez
+26.08.2022   02:15   『-💭-』general   chin chiua#5776   Kupic premium i kosić kase
+26.08.2022   02:15   『-💭-』general   PAW#5844   kosze kase na czymś innym 😉
+26.08.2022   02:15   『-💭-』general   chin chiua#5776   Na czym hahaha
+26.08.2022   02:16   『-💭-』general   _Manfredi#6878   Na tobie
+26.08.2022   02:16   『-💭-』general   _Manfredi#6878   Hlehle
+26.08.2022   02:16   『-💭-』general   Porg Generał#5726   A co ty x policji
+26.08.2022   02:16   『-💭-』general   chin chiua#5776   Niet
+26.08.2022   02:16   🔒   Dyno#0000   
+26.08.2022   02:16   『-💭-』general   PAW#5844   zlecenia o programy
+26.08.2022   02:16   『-💭-』general   chin chiua#5776   Yhm czyli bot ten to maszyna do kopania krypto
+26.08.2022   02:16   『-💭-』general   _Manfredi#6878   Ustawiasz sobie porga na avatarze i dostaniesz bota <@650091794486394882>
+26.08.2022   02:16   『-💭-』general   Porg Generał#5726   Nic ci nie powiem ty jebana Pało żyje dla Gangu ty jebana pało
+26.08.2022   02:16   『-💭-』general   _Manfredi#6878   I nick tez
+26.08.2022   02:17   『-💭-』general   chin chiua#5776   Ile
+26.08.2022   02:17   『-💭-』general   PAW#5844   co ile?
+zależy od zlecenia
+26.08.2022   02:17   『-💭-』general   chin chiua#5776   Okolo
+26.08.2022   02:17   『-💭-』general   chin chiua#5776   Najwiecej
+26.08.2022   02:17   『-💭-』general   _Manfredi#6878   <@650091794486394882>
+26.08.2022   02:17   『-💭-』general   _Manfredi#6878   Halo
+26.08.2022   02:17   『-💭-』general   _Manfredi#6878   Propozycja
+26.08.2022   02:17   『-💭-』general   chin chiua#5776   Huh
+26.08.2022   02:17   『-💭-』general   chin chiua#5776   Co to porg
+26.08.2022   02:17   『-💭-』general   Porg Generał#5726   Co cię to interesuje <@650091794486394882>
+26.08.2022   02:17   『-💭-』general   _Manfredi#6878   https://c.tenor.com/YE66dMAuat4AAAAM/star-wars.gif
+26.08.2022   02:18   『-💭-』general   _Manfredi#6878   To
+26.08.2022   02:18   『-💭-』general   PAW#5844   2000 to rekord
+26.08.2022   02:18   『-💭-』general   chin chiua#5776   Ale wy faze macie to gego porga haha
+26.08.2022   02:18   『-💭-』general   PAW#5844   brutto
+26.08.2022   02:18   『-💭-』general   _Manfredi#6878   https://c.tenor.com/5D6qxv8HvQkAAAAM/porg-star-wars.gif
+26.08.2022   02:18   『-💭-』general   chin chiua#5776   O jebaniutki
+26.08.2022   02:18   『-💭-』general   Porg Generał#5726   Jakiś taki niemrawy jakby z policji
+26.08.2022   02:18   『-💭-』general   chin chiua#5776   E to w polsce
+26.08.2022   02:18   『-💭-』general   chin chiua#5776   -50
+26.08.2022   02:18   『-💭-』general   chin chiua#5776   %
+26.08.2022   02:18   『-💭-』general   _Manfredi#6878   Porg to potega
+26.08.2022   02:18   『-💭-』general   Porg Generał#5726   To chyba nie problem ?
+26.08.2022   02:18   『-💭-』general   PAW#5844   XD nie no aż tak to nie
+26.08.2022   02:18   『-💭-』general   _Manfredi#6878   <:pepeOK1:754261383952072764>
+26.08.2022   02:18   『-💭-』general   PAW#5844   8% podatku
+26.08.2022   02:18   『-💭-』general   PAW#5844   polecam
+26.08.2022   02:18   『-💭-』general   chin chiua#5776   Pff
+26.08.2022   02:19   『-💭-』general   chin chiua#5776   24% vat 8% za przelew -20% dla córki dla morawieckiego
+26.08.2022   02:19   『-💭-』general   chin chiua#5776   -10% dla żądu i reszta dla xiebue
+26.08.2022   02:19   『-💭-』general   Porg Generał#5726   Ile masz lat <@650091794486394882>
+26.08.2022   02:19   『-💭-』general   chin chiua#5776   A co
+26.08.2022   02:19   『-💭-』general   _Manfredi#6878   Pytanie
+26.08.2022   02:19   『-💭-』general   _Manfredi#6878   Prosze
+26.08.2022   02:20   『-💭-』general   _Manfredi#6878   Proste*
+26.08.2022   02:20   『-💭-』general   Porg Generał#5726   Pytam to odpowiedz XDD
+26.08.2022   02:20   『-💭-』general   chin chiua#5776   Juz mi ip kradną
+26.08.2022   02:20   『-💭-』general   _Manfredi#6878   Jeszcze nie
+26.08.2022   02:20   『-💭-』general   Porg Generał#5726   Kurwa zadałem proste pytanie
+26.08.2022   02:20   『-💭-』general   PAW#5844   ale jest zwolnienie z podatku poniżej 27 roku życia
+26.08.2022   02:20   『-💭-』general   _Manfredi#6878   To kwestia czasu
+26.08.2022   02:20   『-💭-』general   Porg Generał#5726   Liczę na niezbyt skomplikowaną odpowiedź
+26.08.2022   02:21   『-💭-』general   chin chiua#5776   XD mnie z działalnosci gospodarczej koszą jak nawet 18nie mam
+26.08.2022   02:21   『-💭-』general   chin chiua#5776   Albo z krypto
+26.08.2022   02:21   『-💭-』general   chin chiua#5776   Co oni sobie mysla ze
+26.08.2022   02:21   『-💭-』general   _Manfredi#6878   To ile masz lat
+26.08.2022   02:21   『-💭-』general   chin chiua#5776   Bede trzymal krypto 5lat
+26.08.2022   02:21   『-💭-』general   chin chiua#5776   XD
+26.08.2022   02:21   『-💭-』general   chin chiua#5776   16.6
+26.08.2022   02:21   『-💭-』general   Porg Generał#5726   13 jak zakładam <@650091794486394882>
+26.08.2022   02:21   『-💭-』general   chin chiua#5776   Wtf
+26.08.2022   02:21   『-💭-』general   chin chiua#5776   Why?
+26.08.2022   02:21   『-💭-』general   _Manfredi#6878   Tak jakos
+26.08.2022   02:21   『-💭-』general   Porg Generał#5726   .
+26.08.2022   02:21   『-💭-』general   -V1PE#3809   Wystąpił błąd
+26.08.2022   02:22   『-💭-』general   _Manfredi#6878   xdd
+26.08.2022   02:22   『-💭-』general   Porg Generał#5726   Do 18 jest 5 od 13
+26.08.2022   02:22   『-💭-』general   PAW#5844   z krypto nie musisz nic płacić o ile wiesz jak to zrobić
+26.08.2022   02:22   『-💭-』general   Porg Generał#5726   I mentalnie tez by się zgadzało
+26.08.2022   02:22   『-💭-』general   _Manfredi#6878   <:pepeOK1:754261383952072764>
+26.08.2022   02:22   『-💭-』general   chin chiua#5776   Wtf
+26.08.2022   02:22   『-💭-』general   PAW#5844   <@692621246017568799> we botowi normalnego prefixa ustaw
+26.08.2022   02:22   『-💭-』general   _Manfredi#6878   Moze inaczej
+26.08.2022   02:22   『-💭-』general   _Manfredi#6878   <@650091794486394882> ile masz chromosomow
+26.08.2022   02:22   『-💭-』general   chin chiua#5776   Wyzywacie mnie
+26.08.2022   02:22   『-💭-』general   chin chiua#5776   A ja chciałem tylko
+26.08.2022   02:22   『-💭-』general   _Manfredi#6878   Nie
+26.08.2022   02:23   『-💭-』general   chin chiua#5776   Kase wam dac
+26.08.2022   02:23   『-💭-』general   _Manfredi#6878   Przesłuchanie
+26.08.2022   02:23   『-💭-』general   chin chiua#5776   Sadge
+26.08.2022   02:23   『-💭-』general   Porg Generał#5726   Nie ja dałem kropkę ale zaraz to zmienię
+26.08.2022   02:23   『-💭-』general   PAW#5844   kase dajesz mi nie im
+26.08.2022   02:23   『-💭-』general   _Manfredi#6878   <@650091794486394882>
+26.08.2022   02:23   『-🤖-』botownia   Porg Generał#5726   .settings prefix $
+26.08.2022   02:23   『-💭-』general   chin chiua#5776   Ja nikomu nie daje teraz
+26.08.2022   02:23   『-💭-』general   _Manfredi#6878   :3
+26.08.2022   02:23   『-🤖-』botownia   -V1PE#3809   set
+26.08.2022   02:23   🔒   Dyno#0000   
+26.08.2022   02:23   『-💭-』general   Porg Generał#5726   $ping
+26.08.2022   02:23   『-💭-』general   -V1PE#3809   pong!
+26.08.2022   02:23   『-💭-』general   _Manfredi#6878   Why
+26.08.2022   02:23   『-💭-』general   PAW#5844   *jeszcze
+26.08.2022   02:23   『-💭-』general   PAW#5844   :)\
+26.08.2022   02:23   『-💭-』general   Porg Generał#5726   Już <@438336824516149249>
+26.08.2022   02:23   『-💭-』general   chin chiua#5776   23
+26.08.2022   02:23   『-💭-』general   PAW#5844   git
+26.08.2022   02:23   『-💭-』general   _Manfredi#6878   <:peepoPANTIES1:754261273847398420>
+26.08.2022   02:24   『-💭-』general   chin chiua#5776   Łe co tu sie wyprawia
+26.08.2022   02:24   『-💭-』general   PAW#5844   ?
+26.08.2022   02:24   『-💭-』general   Porg Generał#5726   A w tej 23 parze 3 do zabawy tak ?
+26.08.2022   02:24   『-💭-』general   PAW#5844   $say chuj wie
+26.08.2022   02:24   『-💭-』general   -V1PE#3809   chuj wie
+26.08.2022   02:24   🔒   Dyno#0000   
+26.08.2022   02:24   『-💭-』general   chin chiua#5776   Tej
+26.08.2022   02:24   『-💭-』general   PAW#5844   $say heh
+26.08.2022   02:24   『-💭-』general   -V1PE#3809   heh
+26.08.2022   02:24   🔒   Dyno#0000   
+26.08.2022   02:24   『-💭-』general   chin chiua#5776   Bo zara ip biore i jade do xiebie
+26.08.2022   02:24   『-💭-』general   chin chiua#5776   Z muranem
+26.08.2022   02:24   『-💭-』general   Porg Generał#5726   $ruletka <@650091794486394882>  <@650091794486394882>
+26.08.2022   02:24   『-💭-』general   -V1PE#3809   
+26.08.2022   02:24   『-💭-』general   -V1PE#3809   
+26.08.2022   02:24   『-💭-』general   PAW#5844   $say ta jasne
+26.08.2022   02:24   『-💭-』general   -V1PE#3809   ta jasne
+26.08.2022   02:24   🔒   Dyno#0000   
+26.08.2022   02:24   『-💭-』general   PAW#5844   heh
+26.08.2022   02:24   『-💭-』general   Porg Generał#5726   Przykro mi przegrałes a zarazem wygrałeś bana :>
+26.08.2022   02:24   『-💭-』general   chin chiua#5776   XDF
+26.08.2022   02:24   『-💭-』general   Porg Generał#5726   XDDDDDDDD
+26.08.2022   02:25   『-💭-』general   Porg Generał#5726   Ale nie ma egzekutora
+26.08.2022   02:25   『-💭-』general   Porg Generał#5726   <@577507822011416592>
+26.08.2022   02:25   『-💭-』general   _Manfredi#6878   https://c.tenor.com/m3SBhmatvbMAAAAM/seriously-seriously-cat.gif
+26.08.2022   02:25   『-💭-』general   Porg Generał#5726   <@759765392787767316> chcesz zostać katem ?
+26.08.2022   02:25   『-💭-』general   chin chiua#5776   $rouletka <@650091794486394882>  <@692621246017568799>
+26.08.2022   02:25   『-💭-』general   chin chiua#5776   Ej xo jest
+26.08.2022   02:26   『-💭-』general   _Manfredi#6878   Mozna ale to późnej
+26.08.2022   02:26   『-💭-』general   _Manfredi#6878   Nie masz praw prawie jak kobieta
+26.08.2022   02:26   『-💭-』general   Porg Generał#5726   Nie dla psa XDDDD
+26.08.2022   02:26   『-💭-』general   PAW#5844   $ping
+26.08.2022   02:26   『-💭-』general   -V1PE#3809   pong!
+26.08.2022   02:26   『-💭-』general   chin chiua#5776   XDDDDDD
+26.08.2022   02:26   『-💭-』general   PAW#5844   nie no działa
+26.08.2022   02:26   『-💭-』general   Porg Generał#5726   $ping
+26.08.2022   02:26   『-💭-』general   -V1PE#3809   pong!
+26.08.2022   02:26   『-💭-』general   chin chiua#5776   $ping
+26.08.2022   02:26   『-💭-』general   _Manfredi#6878   <:peepoPANTIES1:754261273847398420>
+26.08.2022   02:26   『-💭-』general   -V1PE#3809   pong!
+26.08.2022   02:26   『-💭-』general   Austriacki_MaIarz#1353   
+26.08.2022   02:26   🔒   Dyno#0000   
+26.08.2022   02:27   『-💭-』general   chin chiua#5776   $rouletka @chin chiua  @Porg Generał
+26.08.2022   02:27   『-💭-』general   Porg Generał#5726   Mamo debil
+26.08.2022   02:27   『-💭-』general   chin chiua#5776   $rouletka <@650091794486394882> <@692621246017568799>
+26.08.2022   02:27   『-💭-』general   PAW#5844   <@692621246017568799> prosze mie bota nie psuć
+26.08.2022   02:27   『-💭-』general   Porg Generał#5726   Z kim ty się próbujesz równać w 1 ruletce chłopcze <@650091794486394882>
+26.08.2022   02:27   『-💭-』general   PAW#5844   ruletka
+26.08.2022   02:27   『-💭-』general   Porg Generał#5726   Ale on jest taki fajny
+26.08.2022   02:27   『-💭-』general   PAW#5844   *
+26.08.2022   02:27   『-💭-』general   chin chiua#5776   A jezu ja wlasnie
+26.08.2022   02:28   『-💭-』general   chin chiua#5776   Mysle ze zle przeczytalem
+26.08.2022   02:28   『-📣-』ogłoszenia-parafialne   MEE6#4876   GG <@650091794486394882>, you just advanced to level 3!
+26.08.2022   02:28   『-💭-』general   _Manfredi#6878   
+26.08.2022   02:28   『-💭-』general   chin chiua#5776   Pewnnie
+26.08.2022   02:28   『-💭-』general   PAW#5844   ta ale mu aktułke robie i mi spami syfem w konsoli
+26.08.2022   02:28   『-💭-』general   Porg Generał#5726   To napisz jak skończysz
+26.08.2022   02:28   『-💭-』general   PAW#5844   nie no używaj se
+26.08.2022   02:28   『-💭-』general   chin chiua#5776   $ruletka <@650091794486394882>  <@692621246017568799>
+26.08.2022   02:28   『-💭-』general   -V1PE#3809   
+26.08.2022   02:28   『-💭-』general   -V1PE#3809   
+26.08.2022   02:28   『-💭-』general   _Manfredi#6878   Ojoj
+26.08.2022   02:28   『-💭-』general   Porg Generał#5726   Ja
+26.08.2022   02:28   『-💭-』general   chin chiua#5776   Blayt
+26.08.2022   02:28   『-💭-』general   PAW#5844   XD
+26.08.2022   02:28   『-💭-』general   Porg Generał#5726   Ha
+26.08.2022   02:28   『-💭-』general   _Manfredi#6878   To chyba egzekucja
+26.08.2022   02:28   『-💭-』general   _Manfredi#6878   Wykonać
+26.08.2022   02:28   『-💭-』general   Porg Generał#5726   Nie te progi chłopcze <@650091794486394882>
+26.08.2022   02:29   『-💭-』general   _Manfredi#6878   Rozkaz 66
+26.08.2022   02:29   『-💭-』general   Porg Generał#5726   Rambo likwiduj drania
+26.08.2022   02:29   『-💭-』general   _Manfredi#6878   Nie moge
+26.08.2022   02:29   『-💭-』general   Porg Generał#5726   A no tak nie dla psa kiełbasa
+26.08.2022   02:29   『-💭-』general   Porg Generał#5726   To cóż czekasz na kaktusa <@650091794486394882>
+26.08.2022   02:29   『-💭-』general   _Manfredi#6878   Ale ty już możesz
+26.08.2022   02:29   『-💭-』general   chin chiua#5776   $ruletka <@650091794486394882> <@692621246017568799> <@438336824516149249> <@759765392787767316>
+26.08.2022   02:29   『-💭-』general   -V1PE#3809   
+26.08.2022   02:29   『-💭-』general   -V1PE#3809   
+26.08.2022   02:29   『-💭-』general   _Manfredi#6878   Czekamy
+26.08.2022   02:29   『-💭-』general   chin chiua#5776   Wtf
+26.08.2022   02:29   『-💭-』general   chin chiua#5776   Ej no
+26.08.2022   02:30   『-💭-』general   _Manfredi#6878   Ja cię zaraz skasuje
+26.08.2022   02:30   『-💭-』general   Porg Generał#5726   Ja sobie nie Brudzę rączek
+26.08.2022   02:30   『-💭-』general   Porg Generał#5726   Priorytety ci się chyba pojebały
+26.08.2022   02:30   『-💭-』general   Porg Generał#5726   Z kim ty się mierzysz
+26.08.2022   02:31   『-💭-』general   chin chiua#5776   $ruletka <@650091794486394882>  <@759765392787767316>  <@438336824516149249> <@692621246017568799>
+26.08.2022   02:31   『-💭-』general   -V1PE#3809   
+26.08.2022   02:31   『-💭-』general   -V1PE#3809   
+26.08.2022   02:31   『-💭-』general   Porg Generał#5726   XDDD
+26.08.2022   02:31   『-💭-』general   _Manfredi#6878   XDDDDDD
+26.08.2022   02:31   『-💭-』general   PAW#5844   XD
+26.08.2022   02:31   『-💭-』general   Porg Generał#5726   Typie
+26.08.2022   02:31   『-💭-』general   _Manfredi#6878   To jest smutne
+26.08.2022   02:31   『-💭-』general   _Manfredi#6878   A zarazem smieszne
+26.08.2022   02:31   『-💭-』general   PAW#5844   $say HUH
+26.08.2022   02:31   『-💭-』general   -V1PE#3809   HUH
+26.08.2022   02:31   🔒   Dyno#0000   
+26.08.2022   02:31   『-💭-』general   _Manfredi#6878   :3
+26.08.2022   02:31   『-💭-』general   Porg Generał#5726   Bo nam się limit banów skończy jutro na tobie
+26.08.2022   02:31   『-💭-』general   chin chiua#5776   $ruletka <@438336824516149249> <@692621246017568799> <@759765392787767316> <@650091794486394882>
+26.08.2022   02:31   『-💭-』general   -V1PE#3809   
+26.08.2022   02:31   『-💭-』general   -V1PE#3809   
+26.08.2022   02:31   『-💭-』general   chin chiua#5776   Ej no
+26.08.2022   02:31   『-💭-』general   chin chiua#5776   Co jest
+26.08.2022   02:32   『-💭-』general   Porg Generał#5726   
+26.08.2022   02:32   『-💭-』general   _Manfredi#6878   cringe
+26.08.2022   02:32   『-💭-』general   PAW#5844   ?
+26.08.2022   02:32   『-💭-』general   PAW#5844   wszyszto działa git
+26.08.2022   02:32   『-💭-』general   Porg Generał#5726   69 z twoją mamusia akurat a czemu pytasz <@650091794486394882>
+26.08.2022   02:32   『-💭-』general   chin chiua#5776   Ty
+26.08.2022   02:32   『-💭-』general   chin chiua#5776   Kurwo
+26.08.2022   02:32   『-💭-』general   _Manfredi#6878   <@650091794486394882> Grałeś w wot b kiedyś?
+26.08.2022   02:32   『-💭-』general   Porg Generał#5726   <@759765392787767316>  skończ
+26.08.2022   02:32   『-💭-』general   _Manfredi#6878   Nie czekaj
+26.08.2022   02:33   『-💭-』general   Porg Generał#5726   Tylko nie to
+26.08.2022   02:33   『-🤖-』botownia   Austriacki_MaIarz#1353   PLS gay <@572906387382861835>
+26.08.2022   02:33   🔒   Dyno#0000   
+26.08.2022   02:33   『-💭-』general   Porg Generał#5726   Tak do niej mówiłem po heeh
+26.08.2022   02:33   『-💭-』general   chin chiua#5776   Bo twoja mama slabo gale robi
+26.08.2022   02:33   『-💭-』general   _Manfredi#6878   <@650091794486394882> <@650091794486394882>
+26.08.2022   02:33   『-💭-』general   chin chiua#5776   Nie
+26.08.2022   02:33   『-🤖-』botownia   Austriacki_MaIarz#1353   Pls meme
+26.08.2022   02:33   『-💭-』general   _Manfredi#6878   Ajj
+26.08.2022   02:33   『-🤖-』botownia   Austriacki_MaIarz#1353   <@270904126974590976>
+26.08.2022   02:33   『-💭-』general   _Manfredi#6878   A mogło być tak pieknie
+26.08.2022   02:33   『-💭-』general   Porg Generał#5726   Ja nie mam mamusi znów ci się pojebało coś chłopcze
+26.08.2022   02:34   🔒   Dyno#0000   
+26.08.2022   02:34   『-💭-』general   chin chiua#5776   A no tak
+26.08.2022   02:34   『-💭-』general   chin chiua#5776   Masz szmate
+26.08.2022   02:34   『-🤖-』botownia   Austriacki_MaIarz#1353   Pls help
+26.08.2022   02:34   『-🤖-』botownia   Austriacki_MaIarz#1353   Plz help
+26.08.2022   02:34   『-💭-』general   Porg Generał#5726   Twoja napewno by skomentowała twoje brzydkie odzywki w internecie ale wlansie dusi się moim kutasem
+26.08.2022   02:34   🔒   Dyno#0000   
+26.08.2022   02:34   『-💭-』general   chin chiua#5776   XD
+26.08.2022   02:34   🔒   Dyno#0000   
+26.08.2022   02:34   『-💭-』general   Porg Generał#5726   Tak twoja siostra też tu jest
+26.08.2022   02:34   🔒   Dyno#0000   
+26.08.2022   02:35   『-💭-』general   chin chiua#5776   Nie mam siostry
+26.08.2022   02:36   『-💭-』general   Porg Generał#5726   Już nie
+26.08.2022   02:36   『-💭-』general   chin chiua#5776   To moj brat
+26.08.2022   02:36   『-💭-』general   Porg Generał#5726   Już masz szmatę jak to określiłeś
+26.08.2022   02:36   『-💭-』general   chin chiua#5776   💀
+26.08.2022   02:36   『-💭-』general   chin chiua#5776   Gej
+26.08.2022   02:36   『-💭-』general   Porg Generał#5726   Rodzinny interes
+26.08.2022   02:36   『-💭-』general   chin chiua#5776   Od początku wiedziałem
+26.08.2022   02:36   『-💭-』general   chin chiua#5776   Ze jestes
+26.08.2022   02:36   『-💭-』general   chin chiua#5776   Gejem
+26.08.2022   02:36   『-💭-』general   Porg Generał#5726   Ja ? Nigdy
+26.08.2022   02:37   『-💭-』general   Porg Generał#5726   To że twój stary przyszedł po bukake na mordę nie znaczy że dostał
+26.08.2022   02:37   『-🤖-』botownia   Austriacki_MaIarz#1353   pls help
+26.08.2022   02:37   『-💭-』general   _Manfredi#6878   https://c.tenor.com/m3SBhmatvbMAAAAM/seriously-seriously-cat.gif
+26.08.2022   02:37   🔒   Dyno#0000   
+26.08.2022   02:37   『-🤖-』botownia   Porg Generał#5726   $shop
+26.08.2022   02:37   『-🤖-』botownia   -V1PE#3809   
+26.08.2022   02:37   『-💭-』general   chin chiua#5776   Tłumacz sie
+26.08.2022   02:38   『-💭-』general   chin chiua#5776   Teraz kazdy
+26.08.2022   02:38   『-💭-』general   chin chiua#5776   Wie ze jestes gejem
+26.08.2022   02:38   『-🤖-』botownia   Porg Generał#5726   $buy VIP
+26.08.2022   02:38   『-🤖-』botownia   -V1PE#3809   That item does not exist
+26.08.2022   02:38   『-💭-』general   chin chiua#5776   Gorzej nie da sie upaść
+26.08.2022   02:38   『-💭-』general   chin chiua#5776   Dymać chłopaka
+26.08.2022   02:38   『-💭-』general   chin chiua#5776   W dupsko
+26.08.2022   02:38   『-💭-』general   chin chiua#5776   Obsrane
+26.08.2022   02:38   『-💭-』general   Porg Generał#5726   Ty upadłeś <@650091794486394882>
+26.08.2022   02:39   『-💭-』general   _Manfredi#6878   To jest cringowe
+26.08.2022   02:39   『-💭-』general   Porg Generał#5726   Mówię ci że nie dymalem twojego starego to jakiś menel spod sklepu nabił mu pizde pod okiem
+26.08.2022   02:39   『-💭-』general   _Manfredi#6878   W chuj
+26.08.2022   02:39   『-💭-』general   Austriacki_MaIarz#1353   XDDDD
+26.08.2022   02:39   『-💭-』general   Porg Generał#5726   +twój stary to pizda więc nawet ten menel się nie zeszmacił
+26.08.2022   02:40   『-💭-』general   Austriacki_MaIarz#1353   Ej ale więcej jest plusów w posiadaniu przyjaciela menela niż dziewczyny
+26.08.2022   02:40   『-💭-』general   Austriacki_MaIarz#1353   patrz kurwa
+26.08.2022   02:40   『-💭-』general   Austriacki_MaIarz#1353   menel zawsze jest dla ciebie uprzejmy
+26.08.2022   02:40   『-💭-』general   Austriacki_MaIarz#1353   dyma cie na złotóweczke a nie na kurwa parę stów
+26.08.2022   02:40   『-💭-』general   Austriacki_MaIarz#1353   obroni cie jak zobaczy że ktoś się do ciebie pruje
+26.08.2022   02:40   『-💭-』general   chin chiua#5776   Ale wy nasrane macie na bani
+26.08.2022   02:40   『-💭-』general   Porg Generał#5726   To masz tu swojego prywatnego tylko słabo się słucha trzeba go do budy do hyma wjebac to się nauczy pokory <@464445409700347915>
+26.08.2022   02:41   『-💭-』general   Austriacki_MaIarz#1353   XDDDDDDDDDDE
+26.08.2022   02:41   『-💭-』general   _Manfredi#6878   Wiem ale mam też wady
+26.08.2022   02:41   『-💭-』general   chin chiua#5776   XDDD
+26.08.2022   02:41   『-💭-』general   Porg Generał#5726   Myślę że masz gorsze fetysze
+26.08.2022   02:41   『-💭-』general   Austriacki_MaIarz#1353   lepiej mieć nasrane w bani niż  nie mieć ale za to być jebanym debilem XDDD
+26.08.2022   02:43   『-💭-』general   chin chiua#5776   Dobra czyli mam miec nasrane na bani?
+26.08.2022   02:43   『-💭-』general   chin chiua#5776   No problem
+26.08.2022   02:43   『-💭-』general   chin chiua#5776   Kurwa dawajcie
+26.08.2022   02:43   『-💭-』general   chin chiua#5776   Mi jakiegos
+26.08.2022   02:43   『-💭-』general   chin chiua#5776   Masnego porha
+26.08.2022   02:44   『-💭-』general   chin chiua#5776   Porga
+26.08.2022   02:44   『-💭-』general   chin chiua#5776   Ustawie se na prof
+26.08.2022   02:44   『-💭-』general   Porg Generał#5726   W gacie już narobiłeś jak tylko  zacząłeś z nami pisać
+26.08.2022   02:44   『-💭-』general   Porg Generał#5726   Nie jesteś godzien
+26.08.2022   02:44   『-💭-』general   chin chiua#5776   A ty jestes godzien miec chuja w dupie
+26.08.2022   02:44   『-💭-』general   Austriacki_MaIarz#1353   tak ale w sposób aby inni cie lubili
+26.08.2022   02:45   『-💭-』general   Porg Generał#5726   Ale to ty go masz nie ja
+26.08.2022   02:45   『-💭-』general   chin chiua#5776   Ratio
+26.08.2022   02:46   『-💭-』general   Austriacki_MaIarz#1353   Można mieć nasrane bani iiii dodatkowo to dobrze wykorzystywać aby inni mogli się przy tobie czuć w cudzysłowiu ,,lepiej" czy tam śmieszniej
+26.08.2022   02:46   『-💭-』general   Austriacki_MaIarz#1353   Bo bycie boomerem jest zjebane XD
+26.08.2022   02:46   『-💭-』general   Porg Generał#5726   Niestety nasz kolega chce mieć nasrane w bani bo myśli że to mu pomoże 🥺
+26.08.2022   02:47   『-💭-』general   chin chiua#5776   Ale wy tępi żartu odróżnić nie umiecie
+26.08.2022   02:48   『-💭-』general   Porg Generał#5726   Żartem nie zyskasz szacunku
+26.08.2022   02:48   『-💭-』general   Austriacki_MaIarz#1353   ma nasrane w bani w takim sensie ze inni uważają go za wiadomo kogo XD nie będę używał wyzwisk bo i tak to mi nic nie da
+26.08.2022   02:48   『-💭-』general   Porg Generał#5726   No racja
+26.08.2022   02:49   『-💭-』general   chin chiua#5776   Ty ale to ty wyskoczyłeś z tekstem
+26.08.2022   02:50   『-💭-』general   chin chiua#5776   + po rodzicach
+26.08.2022   02:50   『-💭-』general   chin chiua#5776   Jak najgorsza kurwa
+26.08.2022   02:50   🔒   Dyno#0000   
+26.08.2022   02:50   🔒   Dyno#0000   
+26.08.2022   02:50   🔒   Dyno#0000   
+26.08.2022   02:51   『-💭-』general   Porg Generał#5726   Ale ja jestem u siebie
+26.08.2022   02:51   『-💭-』general   chin chiua#5776   Ale masz 0szacunku
+26.08.2022   02:52   『-💭-』general   Porg Generał#5726   Do ciebie ?
+26.08.2022   02:52   『-💭-』general   Porg Generał#5726   Owszem
+26.08.2022   02:52   『-💭-』general   chin chiua#5776   Jeszcze tam jakbys napisał cos o mnie ale po rodzicach
+26.08.2022   02:52   『-💭-』general   chin chiua#5776   Stary szanujmy sie
+26.08.2022   02:52   『-💭-』general   Porg Generał#5726   Jesteś zbyt nudny żeby zatrzymać się na tobie
+26.08.2022   02:52   『-💭-』general   Porg Generał#5726   Wykluczone
+26.08.2022   02:52   『-💭-』general   chin chiua#5776   Co za łeb
+26.08.2022   02:53   『-💭-』general   Porg Generał#5726   Zrób coś ciekawego
+26.08.2022   02:53   『-💭-』general   Porg Generał#5726   Bo zaczynam się nudzić
+26.08.2022   02:54   『-💭-』general   chin chiua#5776   To se jebnij w łeb
+26.08.2022   02:54   『-💭-』general   Porg Generał#5726   Ale to ty tu masz mnie rozbawić
+26.08.2022   02:55   『-💭-』general   chin chiua#5776   Jak zapłacisz
+26.08.2022   02:55   『-💭-』general   chin chiua#5776   Nie ma problemu
+26.08.2022   02:55   『-💭-』general   Porg Generał#5726   Sorry nie mam jak ci rzucić drobnych żebyś zatańczył
+26.08.2022   02:56   『-💭-』general   Porg Generał#5726   A  umiesz jakieś sztuczki
+26.08.2022   02:56   『-💭-』general   Porg Generał#5726   ?
+26.08.2022   02:57   『-💭-』general   chin chiua#5776   Ta
+26.08.2022   02:57   『-📣-』ogłoszenia-parafialne   MEE6#4876   GG <@650091794486394882>, you just advanced to level 4!
+26.08.2022   02:58   『-💭-』general   chin chiua#5776   Umiem pierdolnąć ci az na śmierć
+26.08.2022   02:58   『-💭-』general   Porg Generał#5726   No zajebałeś mi ale cringem
+26.08.2022   02:58   『-💭-』general   Porg Generał#5726   Weź zaszczekaj czy coś albo podskocz
+26.08.2022   03:09   『-💭-』general   Austriacki_MaIarz#1353   XDDD japierdole
+26.08.2022   03:10   『-💭-』general   Porg Generał#5726   Pies mi uciekł oby nie wpadł pod koła nigdzie
+26.08.2022   03:12   『-💭-』general   _Manfredi#6878   ciekawie
+26.08.2022   03:12   『-💭-』general   Porg Generał#5726   Bez urazy <@759765392787767316>
+26.08.2022   03:13   『-💭-』general   _Manfredi#6878   nie o to mi chodziło chill
+26.08.2022   03:14   『-💭-』general   Porg Generał#5726   Oki
