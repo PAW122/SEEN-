@@ -61,7 +61,6 @@ zapisuje w db rekord punktów pod rząd żeby gracz mógł sprawdzić swój reko
     35.birthday -- jeżeli ktoś ma urodziny wysyła wiadomość że ktoś ma właśnie urzodziny i dostaje ileś cionsów
     36.dodać możliwość dodania kanału gdzie bot będzie wysyłał informacje o zmianach (aktułkach)
     37.zrobić komende $porg która będzie wysyłała randomowa grafike porga
-    39.zrobić report na slahse
     40.dodać workery do komend bo niektóre nie mają
 
     41.anime list nie jest wyświeltane w srv_set list
@@ -69,11 +68,20 @@ zapisuje w db rekord punktów pod rząd żeby gracz mógł sprawdzić swój reko
     43.zrobić wkońcu ten system lvl
     44.dodać do ekonomi możliwosć ustawienia swojej emotki monet
     45.jak zapisguje się nowy przfix @seen ma pokazywać prefix bota
-    46.naprawić setbnickname w sev_settings
     47.db z id kanałów będzie odświerzać się co 1h
     48.spróbować przekopiować music bota tutaj
-    49.prefix set deaful musi resetowac nick bota
-    
+    50.dodać podbijanie serwerów. jak ktoś użyje np $podbij to podbija serwer na którym to wysłał (1 osoba może użyć tego raz na 24h), lista z top 10 podbitych serwerów, lista kto najwięcej razy podbił dany serwer, lista o urzytkowniku ile razy i jakie serwey podbił
+    51. dodać możliwość ustawienia wiadomości powitalnej i napisu na canvasie w welcome messages
+    52.komenda tworząca zaproszenia na serwer (dodać ją do srv_config)
+    53.dodać wszystkie komendy do srv config
+    54.Dodać żeby bot zaposywał w logach wiadomości serwerowych nazwe serwera
+    55.coś się popsuło bo na dc pod (/) nie wyświetla się komenda settings do naprawy
+    56.zrobić cos ala papier kamień norzyce gdzie urzytkownik na pv bota odpisuje np papier
+    57.dodać nowy item do ekonomi <nazwa> zwiększający szczęście (szanse na większy drop monet, zwiększa szanse na wygranie w rool)
+    58.zrobić cos ala dyno logs
+    59.przetestować i potwierdzić działanie powiaomień youtubowych
+    60.zrobić do ekonomi lootboxy, z animacjami gdzie dla każdeg przedmiotu będzie animacja z jego wygraniem i jak ktoś wylosuje dany item to bot wysyła animacja, ka której dany item wypada na gifie
+    61.naprawić ban bo nie działa
 
 ## GRA
     pomysł na gre cos ala afk arena:

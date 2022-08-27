@@ -111,6 +111,9 @@ module.exports = {
                 { name: `anime_seen`, value: `${await db.get(`anime_seen.worker`,)}`, inline: true },
                 { name: `unban`, value: `${await db.get(`unban.worker`,)}`, inline: true },
                 { name: `ticket`, value: `${await db.get(`ticket.worker`,)}`, inline: true },
+                { name: `rpg`, value: `${await db.get(`rpg.worker`,)}`, inline: true },
+                { name: `game`, value: `${await db.get(`game.worker`,)}`, inline: true },
+                { name: `yt_notyfications`, value: `${await db.get(`yt_notyfications.worker`,)}`, inline: true },
 
 
             )

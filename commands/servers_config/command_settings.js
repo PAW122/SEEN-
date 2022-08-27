@@ -66,7 +66,10 @@ module.exports = {
           { name: "anime_zapowiedzi", value: "anime_zapowiedzi" },
           { name: "anime_seen", value: "anime_seen" },
           { name: "unban", value: "unban" },
-          { name: "ticket", value: "ticket" }
+          { name: "ticket", value: "ticket" },
+          { name: "rpg", value: "rpg" },
+          { name: "game", value: "game" },
+          { name: "yt_notyfications", value: "yt_notyfications" }
         )
     )
     .addStringOption((option) =>
@@ -395,6 +398,21 @@ module.exports = {
             await db.set(`ticket.reason`, "this command is disabled on this server.")
             return message.reply("set")
           }
+          if (command_name == "rpg") {
+            await db.set(`rpg.worker`, false)
+            await db.set(`rpg.reason`, "this command is disabled on this server.")
+            return message.reply("set")
+          }
+          if (command_name == "game") {
+            await db.set(`game.worker`, false)
+            await db.set(`game.reason`, "this command is disabled on this server.")
+            return message.reply("set")
+          }
+          if (command_name == "yt_notyfications") {
+            await db.set(`yt_notyfications.worker`, false)
+            await db.set(`yt_notyfications.reason`, "this command is disabled on this server.")
+            return message.reply("set")
+          }
         }
 
         if (args[0] == "on") {
@@ -545,6 +563,21 @@ module.exports = {
           if (command_name == "ticket") {
             await db.set(`ticket.worker`, true)
             await db.set(`ticket.reason`, "this command is disabled on this server.")
+            return message.reply("set")
+          }
+          if (command_name == "rpg") {
+            await db.set(`rpg.worker`, true)
+            await db.set(`rpg.reason`, "this command is disabled on this server.")
+            return message.reply("set")
+          }
+          if (command_name == "game") {
+            await db.set(`game.worker`, true)
+            await db.set(`game.reason`, "this command is disabled on this server.")
+            return message.reply("set")
+          }
+          if (command_name == "yt_notyfications") {
+            await db.set(`yt_notyfications.worker`, true)
+            await db.set(`yt_notyfications.reason`, "this command is disabled on this server.")
             return message.reply("set")
           }
         }

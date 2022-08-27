@@ -3,13 +3,22 @@
 //population -- wysyła nazwe kraju. muzisz zadnąć liczbe ludności (można się  pomylić o 10%)
 //Land Area -- wysyła nazwe kraju. musisz zgadnąć liczbe km2 (też pomyłka do 10%)
 //Density -- wysyła nazwe kraju.. musisz zgadnąć liczbe ludności na km2
-
+const {QuickDB} = require("quick.db")
 const data = require("./data.json")
 const Discord = require("discord.js")
 module.exports = {
     name: "game",
 
     execute: async (message, args, client) => {
+
+        //load server settings
+        const guildId = message.guild.id
+        const db = new QuickDB({ filePath: process.cwd() + `/db/srv_settings/commands/${guildId}.sqlite` });
+        if (await db.get(`check.check`) == true) {
+            const settings = await db.get(`game.worker`)
+            const settings_reason = await db.get(`game.reason`)
+            if (settings != true) { return message.channel.send(settings_reason) }
+        }
 
         //tryb na zgadywanie nazwy kraju po fladze
         async function get_random_country() {

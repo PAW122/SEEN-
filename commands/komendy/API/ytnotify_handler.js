@@ -16,8 +16,17 @@ module.exports = {
     work: worker,
 
     execute: async(message, args) => {
+
+        //load server settings
+        const guildId = inter.guild.id
+        const db2 = new QuickDB({ filePath: process.cwd() + `/db/srv_settings/commands/${guildId}.sqlite` });
+        if (await db2.get(`check.check`) == true) {
+            const settings = await db2.get(`yt_notyfications.worker`)
+            const settings_reason = await db2.get(`yt_notyfications.reason`)
+            if (settings != true) { return message.channel.send(settings_reason) }
+        }
         
-        const guildId = message.guild.id
+
         const db = new QuickDB({ filePath: process.cwd() + `/db/yt-notify/${guildId}.sqlite` });
 
         if(args[0] == "help"){

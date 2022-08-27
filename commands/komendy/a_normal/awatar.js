@@ -40,14 +40,14 @@ module.exports = {
             inter.reply({ embeds: [embed_worker] });
             return (console.log("command id disabled"))
         } else {
-                            //load server settings
-const guildId = inter.guild.id
-const db = new QuickDB({ filePath: process.cwd() + `/db/srv_settings/commands/${guildId}.sqlite` });
-if(await db.get(`check.check`) == true){
-    const settings = await db.get(`ankieta.worker`)
-    const settings_reason = await db.get(`ankieta.reason`)
-    if(settings != true){return message.channel.send(settings_reason)}
-}
+            //load server settings
+            const guildId = inter.guild.id
+            const db = new QuickDB({ filePath: process.cwd() + `/db/srv_settings/commands/${guildId}.sqlite` });
+            if (await db.get(`check.check`) == true) {
+                const settings = await db.get(`ankieta.worker`)
+                const settings_reason = await db.get(`ankieta.reason`)
+                if (settings != true) { return message.channel.send(settings_reason) }
+            }
 
             const user = inter.options.getUser('oznacz_osobe')
 
@@ -65,14 +65,14 @@ if(await db.get(`check.check`) == true){
     },
 
     execute: async (message, args) => {
-                //load server settings
-const guildId = message.guild.id
-const db = new QuickDB({ filePath: process.cwd() + `/db/srv_settings/commands/${guildId}.sqlite` });
-if(await db.get(`check.check`) == true){
-    const settings = await db.get(`ankieta.worker`)
-    const settings_reason = await db.get(`ankieta.reason`)
-    if(settings != true){return message.channel.send(settings_reason)}
-}
+        //load server settings
+        const guildId = message.guild.id
+        const db = new QuickDB({ filePath: process.cwd() + `/db/srv_settings/commands/${guildId}.sqlite` });
+        if (await db.get(`check.check`) == true) {
+            const settings = await db.get(`ankieta.worker`)
+            const settings_reason = await db.get(`ankieta.reason`)
+            if (settings != true) { return message.channel.send(settings_reason) }
+        }
 
         if (work != true) { return message.channel.send(reason) }
 

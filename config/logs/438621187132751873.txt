@@ -2387,3 +2387,44 @@ zależy od zlecenia
 26.08.2022   17:06   『-🤖-』botownia   SEEN-#5771   
 26.08.2022   17:06   『-🤖-』botownia   PAW#5844   $settings welcome_messages 764240709779193876
 26.08.2022   17:06   『-🤖-』botownia   SEEN-#5771   set
+26.08.2022   21:14   『-🔞-』stuleja-zone   Julka112#0834   Co chcesz od Koniczyngi XDDD
+26.08.2022   21:14   『-🔞-』stuleja-zone   Julka112#0834   Legenda dalej wypisuje hahahha
+26.08.2022   21:28   『-🔞-』stuleja-zone   _Manfredi#6878   XDDDD
+27.08.2022   01:04   🔒   Dyno#0000   
+27.08.2022   01:04   🔒   Dyno#0000   
+27.08.2022   01:11   『-🤖-』botownia   PAW#5844   $roll 100
+27.08.2022   01:11   『-🤖-』botownia   SEEN-#5771   You don't have enough 💵
+27.08.2022   01:11   『-🤖-』botownia   PAW#5844   $add 99999999999 438336824516149249
+27.08.2022   01:11   『-🤖-』botownia   SEEN-#5771   Successfully added to user <@438336824516149249> 99999999999 💵
+27.08.2022   01:11   『-🤖-』botownia   PAW#5844   $roll 100
+27.08.2022   01:11   『-🤖-』botownia   SEEN-#5771   You lost 100 💵
+            you currently have: 99999976536 💵
+27.08.2022   01:11   『-🤖-』botownia   PAW#5844   $shop
+27.08.2022   01:11   『-🤖-』botownia   SEEN-#5771   
+27.08.2022   01:11   『-🤖-』botownia   PAW#5844   $buy luckypotion
+27.08.2022   01:11   『-🤖-』botownia   SEEN-#5771   Congratulations you just bought: luckypotion
+27.08.2022   01:12   『-🤖-』botownia   PAW#5844   $roll 100
+27.08.2022   01:12   『-🤖-』botownia   SEEN-#5771   You lost 100 💵
+            you currently have: 99999951436 💵
+27.08.2022   01:12   『-🤖-』botownia   PAW#5844   $roll 100
+27.08.2022   01:12   『-🤖-』botownia   SEEN-#5771   You won 200 💵
+            you currently have: 99999951636 💵
+27.08.2022   01:12   『-🤖-』botownia   PAW#5844   $roll 100
+27.08.2022   01:12   『-🤖-』botownia   SEEN-#5771   You lost 100 💵
+            you currently have: 99999951536 💵
+27.08.2022   01:12   『-🤖-』botownia   PAW#5844   $roll 100
+27.08.2022   01:12   『-🤖-』botownia   SEEN-#5771   You lost 100 💵
+            you currently have: 99999951436 💵
+27.08.2022   01:12   『-🤖-』botownia   PAW#5844   $roll 100
+27.08.2022   01:12   『-🤖-』botownia   SEEN-#5771   You won 200 💵
+            you currently have: 99999951636 💵
+27.08.2022   01:12   『-🤖-』botownia   PAW#5844   $roll 100
+27.08.2022   01:12   『-🤖-』botownia   SEEN-#5771   You won 200 💵
+            you currently have: 99999951836 💵
+27.08.2022   01:12   『-🤖-』botownia   PAW#5844   $roll 100
+27.08.2022   01:12   『-🤖-』botownia   SEEN-#5771   You lost 100 💵
+            you currently have: 99999951736 💵
+27.08.2022   01:12   『-🤖-』botownia   PAW#5844   $clear 20
+27.08.2022   01:12   『-🤖-』botownia   SEEN-#5771   Usunąłem 20 wiadomości
+27.08.2022   01:12   🔒   Dyno#0000   
+27.08.2022   01:12   🔒   Dyno#0000   

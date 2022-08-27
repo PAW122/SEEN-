@@ -28,15 +28,15 @@ module.exports = (message,client) => {
         await db.set(`tickets`, { settings: ["null", "null"] })
 
         await db.set(`anime_gif`, { worker: true, reason: "this command is disabled on this server." })
-        await db.set(`eight_ball`, { worker: true, reason: "this command is disabled on this server." })//
-        await db.set(`anime_seem_help`, { worker: true, reason: "this command is disabled on this server." })//
-        await db.set(`anime_help`, { worker: true, reason: "this command is disabled on this server." })//
-        await db.set(`updaty`, { worker: true, reason: "this command is disabled on this server." })//
-        await db.set(`anime_list`, { worker: true, reason: "this command is disabled on this server." })//
+        await db.set(`eight_ball`, { worker: true, reason: "this command is disabled on this server." })
+        await db.set(`anime_seem_help`, { worker: true, reason: "this command is disabled on this server." })
+        await db.set(`anime_help`, { worker: true, reason: "this command is disabled on this server." })
+        await db.set(`updaty`, { worker: true, reason: "this command is disabled on this server." })
+        await db.set(`anime_list`, { worker: true, reason: "this command is disabled on this server." })
         await db.set(`ankieta`, { worker: true, reason: "this command is disabled on this server." })
         await db.set(`awatar`, { worker: true, reason: "this command is disabled on this server." })
         await db.set(`ban`, { worker: true, reason: "this command is disabled on this server." })
-        await db.set(`bot_info`, { worker: true, reason: "this command is disabled on this server." })//
+        await db.set(`bot_info`, { worker: true, reason: "this command is disabled on this server." })
         await db.set(`clear`, { worker: true, reason: "this command is disabled on this server." })
         await db.set(`embed`, { worker: true, reason: "this command is disabled on this server." })
         await db.set(`kick`, { worker: true, reason: "this command is disabled on this server." })
@@ -57,6 +57,10 @@ module.exports = (message,client) => {
         await db.set(`ticket`, { worker: true, reason: "this command is disabled on this server." })
 
 
+        //nowe rzeczy:
+        await db.set(`rpg`, { worker: true, reason: "this command is disabled on this server." })
+        await db.set(`game`, { worker: true, reason: "this command is disabled on this server." })
+        await db.set(`yt_notyfications`, { worker: true, reason: "this command is disabled on this server." })
 
         await new Promise(r => setTimeout(r, 2000));
 
