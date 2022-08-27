@@ -3,6 +3,8 @@ const { QuickDB } = require("quick.db");
 const Discord = require('discord.js');
 const { SlashCommandBuilder } = require('@discordjs/builders');
 
+//server settings
+
 const config = require("../../config/config")
 const emoji = config.rpg_coins_emoji
 const basic_hełm_upgrade_cost = config.basic_hełm_upgrade_cost
@@ -31,7 +33,15 @@ module.exports = {
 
     executeInteraction: async (inter) => {
 
+        //load server settings
         const guildId = inter.guild.id
+        const db2 = new QuickDB({ filePath: process.cwd() + `/db/srv_settings/commands/${guildId}.sqlite` });
+        if (await db2.get(`check.check`) == true) {
+            const settings = await db2.get(`rpg.worker`)
+            const settings_reason = await db2.get(`rpg.reason`)
+            if (settings != true) { return message.channel.send(settings_reason) }
+        }
+
         const userId = inter.user.id
         const db = new QuickDB({ filePath: process.cwd() + `/db/rpg/${guildId}.sqlite` });
 

@@ -37,6 +37,7 @@ module.exports = (message) => {
                    
                 })
             //eq[0] --zarezerwowane dla przedmiotu: vip
+            //eq[1] --zarezerwowane dla przedmiotu: luckypotion
 
 
             //daje 2s żeby db się stworzyła

@@ -1,5 +1,7 @@
-const config = require("../../config/config")
+const config = require("../../config/eco_config")
 const emoji = config.economy_emoji
+const vip_price = config.vip_price
+const luckypotion_price = config.luckypotion_price
 const Discord = require("discord.js")
 const { QuickDB } = require("quick.db");
 module.exports = {
@@ -21,7 +23,8 @@ module.exports = {
     .setTitle(`Shop`)
     .setDescription("To buy any item, type: $buy <item_name>")
     .addFields(
-        { name: `1: VIP`, value: `Dubles the daily reward\n price: 25.000 ${emoji}`, inline: false },
+        { name: `1: VIP`, value: `Dubles the daily reward\n price: ${vip_price} ${emoji}`, inline: false },
+        { name: `2: LuckyPotion`, value: `Boosted lucky (chanses on win in rool)\n price: ${luckypotion_price} ${emoji}`, inline: false },
 
     )
     message.channel.send({embeds: [embed_pl] })

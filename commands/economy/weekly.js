@@ -1,6 +1,6 @@
 const { QuickDB } = require("quick.db");
 const check_db = require("./economy_handler")
-const config = require("../../config/config")
+const config = require("../../config/eco_config")
 const emoji = config.economy_emoji
 const weekly_coins = config.weekly_coins
 module.exports = {

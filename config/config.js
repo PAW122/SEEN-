@@ -19,15 +19,12 @@ module.exports = {
 
     wargaming_api_key: "ebc751064d5418bfefad7af6819e9c19",
     riot_api: "RGAPI-dd865e39-d1fa-4360-bf07-c4f5aaa00eac",
+    yt_api_key: "AIzaSyAuBIMudnt0-hHzBQGVjhs89G1Dz6P2aw4",
 
-    economy_emoji: "💵",
-    weekly_coins: 500,
-    birthday_coins: 1000,
-    //dodać cofig vip mnożnik
 
     //zwiększać z każdą aktualizacją db
-    db_version: "0.7",
-    economy_db_version: "0.2",
+    db_version: "0.8",
+    economy_db_version: "0.3",
 
     //bot support
     report_channel_id: "1006283491568267374",

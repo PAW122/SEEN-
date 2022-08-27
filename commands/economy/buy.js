@@ -1,5 +1,7 @@
-const config = require("../../config/config")
+const config = require("../../config/eco_config")
 const emoji = config.economy_emoji
+const vip_price = config.vip_price
+const luckypotion_price = config.luckypotion_price
 const { QuickDB } = require("quick.db");
 module.exports = {
     name: "buy",
@@ -29,21 +31,35 @@ module.exports = {
             return message.reply("you need to enter the name of the item. You can check the list of items using $shop")
         }
         //dla następnych przedmiotów dodać || <nazwa przedmiotu>
-        if (args[0] != "vip") {
+        if (args[0] != "vip" && args[0] != "luckypotion") {
             return message.reply("That item does not exist")
         }
 
         if (args[0] == "vip") {
-            if (!coins >= 25000) {
+            if (!coins >= vip_price) {
                 return message.reply(`You don't have enough ${emoji} to buy this item`)
             } else {
                 if (await db.get(`${userId}.eq[0]`) != null) {
                     return message.reply("You are already in possesion of this item: vip")
                 }
-                const reszta = coins - 25000
+                const reszta = coins - vip_price
                 await db.set(`${userId}.coins[0]`, reszta)
                 await db.set(`${userId}.eq[0]`, "vip")
                 return message.reply("Congratulations you just bought: vip")
+            }
+        }
+
+        if (args[0] == "luckypotion") {
+            if (!coins >= luckypotion_price) {
+                return message.reply(`You don't have enough ${emoji} to buy this item`)
+            } else {
+                if (await db.get(`${userId}.eq[1]`) != null) {
+                    return message.reply("You are already in possesion of this item: luckypotion")
+                }
+                const reszta = coins - luckypotion_price
+                await db.set(`${userId}.coins[0]`, reszta)
+                await db.set(`${userId}.eq[1]`, "luckypotion")
+                return message.reply("Congratulations you just bought: luckypotion")
             }
         }
     }

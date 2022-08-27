@@ -1,4 +1,4 @@
-const config = require("../../config/config")
+const config = require("../../config/eco_config")
 const emoji = config.economy_emoji
 const economy_db_version = config.economy_db_version
 const Discord = require("discord.js")
