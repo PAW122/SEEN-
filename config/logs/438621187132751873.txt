@@ -2925,3 +2925,9 @@ kilka rodzajów mobów
 28.08.2022   00:51   🔒   Dyno#0000   
 28.08.2022   00:51   🔒   Dyno#0000   
 28.08.2022   00:51   『-💭-』general   _Manfredi#6878   .
+28.08.2022   14:16   『-🤖-』botownia   PAW#5844   $settings lvls_channel 764240709779193876
+28.08.2022   14:16   『-🤖-』botownia   SEEN-#5771   set
+28.08.2022   14:16   『-🤖-』botownia   PAW#5844   $srv_set list
+28.08.2022   14:16   『-🤖-』botownia   SEEN-#5771   
+28.08.2022   14:16   『-🤖-』botownia   SEEN-#5771   
+28.08.2022   14:17   🔒   Dyno#0000   

@@ -83,6 +83,7 @@ module.exports = {
                 { name: `prefix`, value: `${await db.get(`prefix.check`,)}`, inline: false },
                 { name: `welcome channel id`, value: `${await db.get(`welcome.channelId`,)}`, inline: false },
                 { name: `tickets`, value: `users channel id:${await db.get(`tickets.settings[0]`,)} \n administration channel id:${await db.get(`tickets.settings[1]`,)}`, inline: false },
+                { name: `lvls notifications`, value: `${ await db.get(`lvls_channel.channelId`)}`, inline: false },
                 { name: `command name`, value: `on/off`, inline: false },
                 { name: `anime_gif`, value: `${await db.get(`anime_gif.worker`,)}`, inline: false },
                 { name: `eight_ball`, value: `${await db.get(`eight_ball.worker`,)}`, inline: true },
@@ -103,13 +104,13 @@ module.exports = {
                 { name: `srv_info`, value: `${await db.get(`srv_info.worker`,)}`, inline: true },
                 { name: `blitz_stats`, value: `${await db.get(`blitz_stats.worker`,)}`, inline: true },
                 { name: `blitz_clan`, value: `${await db.get(`blitz_clan.worker`,)}`, inline: true },
-                { name: `autoroles`, value: `${await db.get(`autoroles.worker`,)}`, inline: true },
             )//max 25 rzeczy w fields
 
         const embed_lista2 = new Discord.MessageEmbed()
             .setColor(`BLUE`)
             .setTitle(`List of all commands page 2/2`)
             .addFields(
+                { name: `autoroles`, value: `${await db.get(`autoroles.worker`,)}`, inline: true },
                 { name: `user_info`, value: `${await db.get(`user_info.worker`,)}`, inline: true },
                 { name: `lvl_command`, value: `${await db.get(`lvl_command.worker`,)}`, inline: true },
                 { name: `economy_command`, value: `${await db.get(`economy_command.worker`,)}`, inline: true },

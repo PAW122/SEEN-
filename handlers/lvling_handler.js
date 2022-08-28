@@ -51,8 +51,9 @@ module.exports = (client) => {
 
         try {
             if (nxtLvl <= curxp) {
+                const db2 = new QuickDB({ filePath: process.cwd() + `/db/srv_settings/commands/${guildId}.sqlite` });
                 //pobiera undefind a powinno obrać false do naprawy
-                const channel_id = await db2.get(`${guildId}.lvls_channel`)
+                const channel_id = await db2.get(`lvls_channel.channelId`)
                 curlvl = curlvl + 1;
 
                 const embed = new Discord.MessageEmbed()
@@ -60,7 +61,7 @@ module.exports = (client) => {
                     .setColor(`BLUE`)//EN
                     .setTitle(`Lvl up`)
                     .setDescription(`<@${authorId}> your lvl is **${curlvl + 1}**
-                to get next lvl u have ${curxp}/${(curlvl + 1) * xp_per_lvl} xp.
+                to get next lvl u have ${curxp}/${(curlvl) * xp_per_lvl} xp.
                 you sent in total ${msg} messages`)
 
                 //jeżeli serwer ma ustawione lvls channel id w ustawieniach:
@@ -69,7 +70,6 @@ module.exports = (client) => {
                     return message.channel.send({ embeds: [embed] })
                 } else {
                     try {
-                        console.log(channel_id)
                         save_data()
                         return client.channels.cache.get(channel_id).send({ embeds: [embed] });
                     } catch (err) {
@@ -82,12 +82,12 @@ module.exports = (client) => {
             }
 
 
-
             async function save_data() {
                 await db.set(`${authorId}.xp`, xp)
                 await db.set(`${authorId}.level`, curlvl)
                 await db.set(`${authorId}.msg`, msg)
             }
+            save_data()
 
         } catch (err) {
             console.log(err)
