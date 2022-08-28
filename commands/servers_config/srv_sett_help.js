@@ -6,7 +6,7 @@ const reason = config.help_disable
 const db_version = config2.db_version
 const { QuickDB } = require("quick.db");
 const Discord = require('discord.js');
-const prefix = "$"
+const prefix = config.prefix
 const embed_pl = new Discord.MessageEmbed()
     .setColor(`BLUE`)
     .setTitle(`Help`)
@@ -48,6 +48,12 @@ const embed_pl = new Discord.MessageEmbed()
             value: `gives the possibility to set up channels for tickets
          usage: $settings ticket <channel id for users> <channel id for administrators>
          example: $settings ticket 764240709779193876 745768777022701648`, inline: true
+        },
+        {
+            name: `$settings lvls_channel`,
+            value: `gives the possibility to set up channels for levels notifications
+         usage: $settings lvls_channel <channel_ID>
+         example:  $settings lvls_channel 745768777022701648`, inline: true
         },
 
 

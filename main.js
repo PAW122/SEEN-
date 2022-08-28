@@ -51,6 +51,9 @@ const yt_notify = require("./commands/komendy/API/yt-notifications")
 //wczytuje AI
 const ai_handler = require("./commands/komendy/AI/ai_handler")
 
+//lvling system
+const lvling = require("./handlers/lvling_handler")
+
 
 const client = new Discord.Client({
     intents: [
@@ -92,6 +95,9 @@ client.once('ready', () => {
 
     //ai handler
     ai_handler(client)
+
+    //lvling system
+    lvling(client)
 
 
 });

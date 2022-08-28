@@ -23,13 +23,18 @@ module.exports = {
 
 
     //zwiększać z każdą aktualizacją db
-    db_version: "0.8",
+    db_version: "0.9",
     economy_db_version: "0.3",
 
     //bot support
     report_channel_id: "1006283491568267374",
     ban_channel_id: "1006297123521835049",
     black_list: true,
+
+    //lvling handler
+    min_xp_per_message: 7,
+    max_xp_per_message: 15,
+    xp_per_lvl: 300,
 
     //rpg
     daily_basic_coins: 1000,

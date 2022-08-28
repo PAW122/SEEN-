@@ -26,6 +26,7 @@ module.exports = (message,client) => {
         await db.set(`welcome`, { channelId: "null" })
         await db.set(`version`, { check: `${db_version}` })
         await db.set(`tickets`, { settings: ["null", "null"] })
+        await db.set(`lvls_channel`, { channelId: false})
 
         await db.set(`anime_gif`, { worker: true, reason: "this command is disabled on this server." })
         await db.set(`eight_ball`, { worker: true, reason: "this command is disabled on this server." })

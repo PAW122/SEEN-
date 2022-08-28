@@ -95,6 +95,12 @@ module.exports = {
         .setName("tickets_users")
         .setDescription("put here your ticket users channel id")
       //.setRequired(true)
+    )
+    .addStringOption((option) =>// do zrobienia
+      option
+        .setName("lvls_channel")
+        .setDescription("put here your lvls channel id")
+      //.setRequired(true)
     ),
 
   executeInteraction: async (inter) => {
@@ -250,6 +256,16 @@ module.exports = {
         await db.set(`tickets.settings`, [args[1], args[2]])
         //<channel id for users> 
         return message.reply("set")
+      }
+
+      if(args[0] == "lvls_channel"){
+        if(!args[1]) {
+          return message.reply("you need type channel id\n example: $settings lvls_channel 16248716422")
+        }
+        if(isNaN(args[1])){
+         return message.reply("Wrong channel ID")
+        }
+        await db.set(`lvls_channel.channelId`, args[1])
       }
 
       if (await db.get(`check.check`) == true) {
