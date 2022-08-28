@@ -30,7 +30,7 @@ module.exports = {
         if (await db2.get(`check.check`) == true) {
             const settings = await db2.get(`rpg.worker`)
             const settings_reason = await db2.get(`rpg.reason`)
-            if (settings != true) { return message.channel.send(settings_reason) }
+            if (settings != true) { return inter.reply(settings_reason) }
         }
 
         var current = new Date();

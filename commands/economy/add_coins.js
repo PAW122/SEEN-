@@ -49,6 +49,7 @@ module.exports = {
             const add2 = parseInt(coins)
             const to_add = add + add2
             await db.set(`${args[1]}.coins[0]`, to_add)
+            await db.set(`added_coins`, true)
             return message.reply(`Successfully added to user <@${args[1]}> ${args[0]} ${emoji}`)
         }
 

@@ -82,6 +82,29 @@ zapisuje w db rekord punktów pod rząd żeby gracz mógł sprawdzić swój reko
     59.przetestować i potwierdzić działanie powiaomień youtubowych
     60.zrobić do ekonomi lootboxy, z animacjami gdzie dla każdeg przedmiotu będzie animacja z jego wygraniem i jak ktoś wylosuje dany item to bot wysyła animacja, ka której dany item wypada na gifie
     61.naprawić ban bo nie działa
+    62.naprawić albo napisać na nowo tabele asci do komend po wszystko odwala kilka razy
+    63.Ojcja na komende work
+    Jedziesz samochodem np 10h i możesz lrzyspieszyć ale wtedy zwiększa się szansa na eypadek
+    I tracisz ikeś monet
+    Można wybrać ziężarówke ale ona jedzie wolniej i trzeba więcej czaau ake zarobisz więcej
+    64.zrobić tak, że gdy ktoś wbija lvl za wiadomości dostaje kilka meoet
+    65.zrobic prywatne (gildyjne) systemy lvl
+    66.dodać do srv_set możliwość dodania kanału do powiadomień z lvl_handlera
+    67.dodać reporty: można zreportowac osobe, na kanale administracji pojawi się wiadomość w powodem reportu i id reportu, administrator może użyć $report accept/ reject. Jeżeli urzytkownik posiada ilość reportów ustaloną przez administracje(dfeafultowo 3 reporty) to administracji wyświetli się powiadomienie że urzytkownik przkroczył ilość reportów (albo bot może go banować/kikować w zależności od ustawień administracji)
+    68.do komendy ticket dodać channel id (jeżeli ejszcze nie ma)
+    69.dodać do lvling_handler zmienną z liczba wysłanych wiadomości (łącznie)
+    70.zamiast webhoka dodać żeby bot tworzył kanał z tym śledzeniem wiadomości
+
+    71.jak użytkownik przegra to pieniądze będo dodawane do profilu bota i będzie można sprawdzić ile łącznie przegrali gracze
+    {
+        
+    }
+
+    72.jak odbiera się weekly daily zaznacza się jako odebrane bez dodania chajsu za daily
+    73.dodać żeby przy użyciu $profil pokazywało, czy posiadasz przedmiot luckypotion
+    74.helpeco wyświetla aktualną wersje bazy danyck jako undefind
+    75.po użyciu $ecodeafult nie można ponownie użyc $daily mimo że powinno się dać
+    76.dodać komende reload, która pozwala mi przez dc przeładować bota
 
 ## GRA
     pomysł na gre cos ala afk arena:
@@ -179,3 +202,7 @@ i tak samo wyszukiwanie konta będzie po nicku
 channel.createInvite()
   .then(invite => console.log(`Created an invite with a code of ${invite.cod`))
   .catch(console.error);
+
+# paczka
+zrobić npm package
+która "tworzy" db na czystych i czytelnych plikh json

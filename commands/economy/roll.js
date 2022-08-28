@@ -2,6 +2,8 @@ const { QuickDB } = require("quick.db");
 const check_db = require("./economy_handler")
 const config = require("../../config/eco_config")
 const emoji = config.economy_emoji
+
+const seenprefilhandler = require("./seenprofil_handler")
 module.exports = {
     name: "roll",
 
@@ -58,12 +60,13 @@ module.exports = {
 
                     const suma = coins - obstawione_monet
                     message.reply(`You lost ${obstawione_monet} ${emoji}
-            you currently have: ${suma} ${emoji}`)
+                    \nyou currently have: ${suma} ${emoji}`)
                     await db.set(`${userId}.coins[0]`, suma)
+                    seenprefilhandler(message, obstawione_monet)
                 } else {
                     const suma = (obstawione_monet * 2) + coins
                     message.reply(`You won ${obstawione_monet * 2} ${emoji}
-            you currently have: ${suma} ${emoji}`)
+                    \nyou currently have: ${suma} ${emoji}`)
                     await db.set(`${userId}.coins[0]`, suma)
                 }
             } else {
@@ -72,12 +75,13 @@ module.exports = {
 
                     const suma = coins - obstawione_monet
                     message.reply(`You lost ${obstawione_monet} ${emoji}
-            you currently have: ${suma} ${emoji}`)
+                    \nyou currently have: ${suma} ${emoji}`)
+                    seenprefilhandler(message, obstawione_monet)
                     await db.set(`${userId}.coins[0]`, suma)
                 } else {
                     const suma = (obstawione_monet * 2) + coins
                     message.reply(`You won ${obstawione_monet * 2} ${emoji}
-            you currently have: ${suma} ${emoji}`)
+                    \nyou currently have: ${suma} ${emoji}`)
                     await db.set(`${userId}.coins[0]`, suma)
                 }
             }

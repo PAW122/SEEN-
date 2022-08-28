@@ -7,6 +7,7 @@ module.exports = (message) => {
     const db = new QuickDB({ filePath: process.cwd() + `/db/economy/local_economy/${guildId}.sqlite` });
     //tworzy nowy profil jeżeli urzytkownik go nie ma i dodaje 1000 coinsów
     (async () => {
+
         const userId = message.author.id
         if (await db.get(userId) == null) {
 
@@ -33,7 +34,10 @@ module.exports = (message) => {
                     birthday_changes: 2,
                     eco_version: eco_db_version,
 
-                    daily_z_rzędu:[]
+                    daily_z_rzędu:[],
+
+                    rool_lost: 0,
+                    added_coins: false
                    
                 })
             //eq[0] --zarezerwowane dla przedmiotu: vip
