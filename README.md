@@ -105,6 +105,7 @@ zapisuje w db rekord punktów pod rząd żeby gracz mógł sprawdzić swój reko
     74.helpeco wyświetla aktualną wersje bazy danyck jako undefind
     75.po użyciu $ecodeafult nie można ponownie użyc $daily mimo że powinno się dać
     76.dodać komende reload, która pozwala mi przez dc przeładować bota
+    77.dodać komende $lvl na slashe
 
 ## GRA
     pomysł na gre cos ala afk arena:

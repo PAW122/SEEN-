@@ -43,16 +43,16 @@ module.exports = (client) => {
         const data = await db.get(authorId)
         //console.log(data)
 
-        const curxp = data.xp
-        const xp = curxp + xpAdd;
-        const curlvl = data.level
-        const nxtLvl = curlvl * xp_per_lvl;
-        const msg = data.msg + 1
+        let curxp = data.xp
+        let xp = curxp + xpAdd;
+        let curlvl = data.level
+        let nxtLvl = curlvl * xp_per_lvl;
+        let msg = data.msg + 1
 
         try {
             if (nxtLvl <= curxp) {
                 const channel_id = await db2.get(`${guildId}.lvls_channel`)
-                curlvl = curlvl + 1;
+                let curlvl = curlvl + 1;
 
                 const embed = new Discord.MessageEmbed()
 

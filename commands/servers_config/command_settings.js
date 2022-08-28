@@ -266,6 +266,7 @@ module.exports = {
          return message.reply("Wrong channel ID")
         }
         await db.set(`lvls_channel.channelId`, args[1])
+        return message.reply("set")
       }
 
       if (await db.get(`check.check`) == true) {
