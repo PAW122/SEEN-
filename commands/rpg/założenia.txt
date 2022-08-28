@@ -81,6 +81,12 @@ emoji {
     emoji miecza, menety expa itp
 }
 
+wysywanie na walke inych graczy{
+    2 gracz musi sie zgodzić na walke{
+        
+    }
+}
+
 
 
 

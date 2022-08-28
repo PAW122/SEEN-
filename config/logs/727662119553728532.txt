@@ -3278,3 +3278,25 @@ you currently have: 1098 💵
 28.08.2022   05:01   bot   PAW#5844   s
 28.08.2022   05:01   bot   PAW#5844   z
 28.08.2022   05:01   bot   PAW#5844   e
+28.08.2022   05:03   bot   PAW#5844   $lvl
+28.08.2022   05:03   bot   SEEN-#5771   
+28.08.2022   05:03   bot   PAW#5844   $lvl
+28.08.2022   05:03   bot   SEEN-#5771   Probably administration set wrong channel id
+28.08.2022   05:03   bot   SEEN-#5771   
+28.08.2022   05:04   bot   PAW#5844   $lvl
+28.08.2022   05:04   bot   SEEN-#5771   Probably administration set wrong channel id
+28.08.2022   05:04   bot   SEEN-#5771   
+28.08.2022   05:06   bot   PAW#5844   $lvl
+28.08.2022   05:06   bot   SEEN-#5771   Probably administration set wrong channel id
+28.08.2022   05:06   bot   SEEN-#5771   
+28.08.2022   05:06   bot   PAW#5844   $srv_set
+28.08.2022   05:06   bot   SEEN-#5771   Probably administration set wrong channel id
+28.08.2022   05:06   bot   SEEN-#5771   
+28.08.2022   05:06   bot   PAW#5844   $settings deafult
+28.08.2022   05:06   bot   SEEN-#5771   Probably administration set wrong channel id
+28.08.2022   05:06   bot   SEEN-#5771   deafult settings have been restored
+28.08.2022   05:06   bot   PAW#5844   cos
+28.08.2022   05:06   bot   SEEN-#5771   Probably administration set wrong channel id
+28.08.2022   05:08   bot   PAW#5844   cos
+28.08.2022   05:08   bot   SEEN-#5771   Probably administration set wrong channel id
+28.08.2022   05:10   ogólny   PAW#5844   

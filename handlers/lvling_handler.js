@@ -51,8 +51,9 @@ module.exports = (client) => {
 
         try {
             if (nxtLvl <= curxp) {
+                //pobiera undefind a powinno obrać false do naprawy
                 const channel_id = await db2.get(`${guildId}.lvls_channel`)
-                let curlvl = curlvl + 1;
+                curlvl = curlvl + 1;
 
                 const embed = new Discord.MessageEmbed()
 
@@ -64,12 +65,16 @@ module.exports = (client) => {
 
                 //jeżeli serwer ma ustawione lvls channel id w ustawieniach:
                 if (channel_id == false) {
-                    message.channel.send({ embeds: [embed] })
+                    save_data()
+                    return message.channel.send({ embeds: [embed] })
                 } else {
                     try {
-                        client.channels.cache.get(channel_id).send({ embeds: [embed] });
+                        console.log(channel_id)
+                        save_data()
+                        return client.channels.cache.get(channel_id).send({ embeds: [embed] });
                     } catch (err) {
                         console.log(err)
+                        save_data()
                         return message.channel.send("Probably administration set wrong channel id")
                     }
                 }
@@ -78,10 +83,11 @@ module.exports = (client) => {
 
 
 
-
-            await db.set(`${authorId}.xp`, xp)
-            await db.set(`${authorId}.level`, curlvl)
-            await db.set(`${authorId}.msg`, msg)
+            async function save_data() {
+                await db.set(`${authorId}.xp`, xp)
+                await db.set(`${authorId}.level`, curlvl)
+                await db.set(`${authorId}.msg`, msg)
+            }
 
         } catch (err) {
             console.log(err)
