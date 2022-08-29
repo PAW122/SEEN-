@@ -29,6 +29,7 @@ const embed_pl = new Discord.MessageEmbed()
         { name: `blitzstats`, value: `${prefix}blitzstats help\n${prefix}blitzstats help en`, inline: true },
         { name: `autorole`, value: `${prefix}autorole help\n${prefix}autorole help en`, inline: true },
         { name: `report`, value: `send question to as\n ${prefix}report help`, inline: true },
+        { name: `lvl`, value: `send informatiuon about tour lvl stats\n ${prefix}lvl`, inline: true },
         { name: `contact`, value: `link to bot support server\n ${prefix}report help`, inline: true },
         { name: `------------------------------------------------------------------------`, value: `----------------------------------------------------------------------`, inline: false },
         

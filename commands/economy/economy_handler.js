@@ -15,12 +15,13 @@ module.exports = (message) => {
             //-1 dla dnia żeby urzytkownik mógł odrazy użyć komendy
             const rok = current.getFullYear();
             const month = current.getMonth() + 1;
-            const day = current.getDate(); - 1
+            const day = current.getDate() - 1;
 
             const użycia = 0
             await db.set(`${userId}`,
                 {
                     coins: [1000],
+                    check: true,
                     daily_coins: [rok, month, day],
                     roll_usage: [użycia],
                     roll_date: [rok, month, day],

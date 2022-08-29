@@ -3452,3 +3452,231 @@ you currently have: 1098 💵
 28.08.2022   14:12   bot   PAW#5844   $settings lvls_channel false
 28.08.2022   14:12   bot   SEEN-#5771   Wrong channel ID
 28.08.2022   14:27   bot   SEEN-#5771   
+28.08.2022   14:33   bot   PAW#5844   $roll
+28.08.2022   14:33   bot   SEEN-#5771   You need to enter the amount of 💵 that you want to bet
+28.08.2022   14:34   bot   PAW#5844   $daily
+28.08.2022   14:34   bot   SEEN-#5771   Odebrałeś już dzisiejszą nagrode. Spróbuj ponownie jutro
+28.08.2022   14:35   bot   PAW#5844   $daily
+28.08.2022   14:35   bot   SEEN-#5771   Odebrałeś już dzisiejszą nagrode. Spróbuj ponownie jutro
+28.08.2022   14:37   bot   PAW#5844   $ecohelp
+28.08.2022   14:37   bot   PAW#5844   $help
+28.08.2022   14:37   bot   SEEN-#5771   
+28.08.2022   14:37   bot   PAW#5844   $helpeco
+28.08.2022   14:37   bot   SEEN-#5771   
+28.08.2022   14:37   bot   PAW#5844   $birthday
+28.08.2022   14:37   bot   SEEN-#5771   its not correct date
+28.08.2022   14:37   bot   PAW#5844   $birthday help
+28.08.2022   14:37   bot   SEEN-#5771   set your birthday date to get extra coins
+            usage: $birthday <month> <day> <year>
+            !!u can change your birthday date only 1 time
+            
+            if you use $daily on your birthday you will get a reward
+28.08.2022   14:39   bot   PAW#5844   $birthday 8 28 2022
+28.08.2022   15:23   bot   PAW#5844   $daily
+28.08.2022   15:23   bot   SEEN-#5771   Odebrałeś już dzisiejszą nagrode. Spróbuj ponownie jutro
+28.08.2022   15:40   bot   PAW#5844   $bank
+28.08.2022   15:40   bot   SEEN-#5771   
+28.08.2022   21:19   bot   Senko#3667   $daily
+28.08.2022   21:19   bot   SEEN-#5771   Your profile has been created
+28.08.2022   21:19   bot   Senko#3667   $daily
+28.08.2022   21:19   bot   SEEN-#5771   Odebrałeś już dzisiejszą nagrode. Spróbuj ponownie jutro
+28.08.2022   21:20   bot   PAW#5844   $ecohelp
+28.08.2022   21:20   bot   PAW#5844   $ecohelp
+28.08.2022   21:20   bot   PAW#5844   $help
+28.08.2022   21:20   bot   SEEN-#5771   
+28.08.2022   21:20   bot   PAW#5844   $helpeco
+28.08.2022   21:20   bot   SEEN-#5771   
+28.08.2022   21:21   bot   PAW#5844   $help
+28.08.2022   21:21   bot   SEEN-#5771   
+28.08.2022   21:21   bot   PAW#5844   $helpeco
+28.08.2022   21:21   bot   SEEN-#5771   
+28.08.2022   21:21   bot   PAW#5844   $ecodeafult
+28.08.2022   21:21   bot   SEEN-#5771   The economy has been updated
+28.08.2022   21:21   bot   PAW#5844   $daily
+28.08.2022   21:21   bot   SEEN-#5771   Your profile has been created
+28.08.2022   21:21   bot   PAW#5844   $daily
+28.08.2022   21:21   bot   SEEN-#5771   You can receive weekly reward
+ use $weekly to claim your reward
+28.08.2022   21:21   bot   SEEN-#5771   You got 84 💵
+                you have a total of 1084 💵
+28.08.2022   21:22   bot   Senko#3667   $daily
+28.08.2022   21:22   bot   SEEN-#5771   Your profile has been created
+28.08.2022   21:22   bot   Senko#3667   $daily
+28.08.2022   21:22   bot   SEEN-#5771   You can receive weekly reward
+ use $weekly to claim your reward
+28.08.2022   21:22   bot   SEEN-#5771   You got 86 💵
+                you have a total of 1086 💵
+28.08.2022   21:22   bot   PAW#5844   $pay 778643150981562368 86
+28.08.2022   21:22   bot   SEEN-#5771   This person dont have profil in economy on this server
+28.08.2022   21:23   bot   PAW#5844   $ecodeafult
+28.08.2022   21:23   bot   SEEN-#5771   The economy has been updated
+28.08.2022   21:23   bot   PAW#5844   $daily
+28.08.2022   21:23   minc-serv-18   SEEN-#5771   
+28.08.2022   21:23   bot   SEEN-#5771   Your profile has been created
+28.08.2022   21:23   bot   PAW#5844   $daily
+28.08.2022   21:23   bot   SEEN-#5771   You can receive weekly reward
+ use $weekly to claim your reward
+28.08.2022   21:23   bot   SEEN-#5771   You got 71 💵
+                you have a total of 1071 💵
+28.08.2022   21:23   bot   Senko#3667   $daily
+28.08.2022   21:23   bot   SEEN-#5771   Your profile has been created
+28.08.2022   21:24   bot   Senko#3667   $daily
+28.08.2022   21:24   bot   SEEN-#5771   You can receive weekly reward
+ use $weekly to claim your reward
+28.08.2022   21:24   bot   SEEN-#5771   You got 65 💵
+                you have a total of 1065 💵
+28.08.2022   21:24   bot   PAW#5844   $pay 778643150981562368 65
+28.08.2022   21:24   bot   SEEN-#5771   You send 65 coins to <@778643150981562368> sukcesfully
+28.08.2022   21:24   bot   PAW#5844   $profil
+28.08.2022   21:24   bot   SEEN-#5771   masz 1006 💵
+        przedmioty: undefined
+28.08.2022   21:24   bot   Senko#3667   $profil
+28.08.2022   21:24   bot   SEEN-#5771   masz 106565 💵
+        przedmioty: undefined
+28.08.2022   21:28   bot   PAW#5844   $ecodeafult
+28.08.2022   21:28   bot   SEEN-#5771   The economy has been updated
+28.08.2022   21:28   bot   Senko#3667   $profil
+28.08.2022   21:28   bot   PAW#5844   $daily
+28.08.2022   21:28   bot   SEEN-#5771   Your profile has been created
+28.08.2022   21:28   bot   SEEN-#5771   Your profile has been created
+28.08.2022   21:28   bot   PAW#5844   $daily
+28.08.2022   21:28   bot   SEEN-#5771   You can receive weekly reward
+ use $weekly to claim your reward
+28.08.2022   21:28   bot   SEEN-#5771   You got 56 💵
+                you have a total of 1056 💵
+28.08.2022   21:28   bot   Senko#3667   $daily
+28.08.2022   21:28   bot   SEEN-#5771   You can receive weekly reward
+ use $weekly to claim your reward
+28.08.2022   21:28   bot   SEEN-#5771   You got 92 💵
+                you have a total of 1092 💵
+28.08.2022   21:28   bot   PAW#5844   $pay 778643150981562368 92
+28.08.2022   21:28   bot   SEEN-#5771   You send 92 coins to <@778643150981562368> sukcesfully
+28.08.2022   21:28   bot   PAW#5844   $profil
+28.08.2022   21:28   bot   SEEN-#5771   masz 964 💵
+        przedmioty: undefined
+28.08.2022   21:29   bot   Senko#3667   $profil
+28.08.2022   21:29   bot   SEEN-#5771   masz 1184 💵
+        przedmioty: undefined
+28.08.2022   21:54   bot   PAW#5844   $pvp 100 778643150981562368
+28.08.2022   21:55   bot   Senko#3667   accept
+28.08.2022   21:56   bot   PAW#5844   $pvp 100 778643150981562368
+28.08.2022   21:56   bot   Senko#3667   accept
+28.08.2022   21:58   bot   PAW#5844   $pvp 100 778643150981562368
+28.08.2022   21:58   bot   Senko#3667   accept
+28.08.2022   21:59   bot   PAW#5844   $pvp 100 778643150981562368
+28.08.2022   21:59   bot   Senko#3667   accept
+28.08.2022   23:17   bot   PAW#5844   $pvp 100 778643150981562368
+28.08.2022   23:18   bot   PAW#5844   $pvp 100 778643150981562368
+28.08.2022   23:18   bot   SEEN-#5771   <@778643150981562368> did you accept pvp with <@438336824516149249> four 100 coins?
+ you have 10 secounds to type **accept**
+28.08.2022   23:18   bot   Senko#3667   accept
+28.08.2022   23:19   bot   PAW#5844   $pvp 100 778643150981562368
+28.08.2022   23:19   bot   SEEN-#5771   <@778643150981562368> did you accept pvp with <@438336824516149249> four 100 coins?
+ you have 10 secounds to type **accept**
+28.08.2022   23:19   bot   PAW#5844   l
+28.08.2022   23:19   bot   Senko#3667   accept
+28.08.2022   23:20   bot   PAW#5844   $pvp 100 778643150981562368
+28.08.2022   23:20   bot   SEEN-#5771   <@778643150981562368> did you accept pvp with <@438336824516149249> four 100 coins?
+ you have 10 secounds to type **accept**
+28.08.2022   23:20   bot   PAW#5844   ll
+28.08.2022   23:20   bot   PAW#5844   l
+28.08.2022   23:20   bot   Senko#3667   accept
+28.08.2022   23:20   bot   PAW#5844   $pvp 100 778643150981562368
+28.08.2022   23:20   minc-serv-18   SEEN-#5771   
+28.08.2022   23:20   bot   SEEN-#5771   <@778643150981562368> did you accept pvp with <@438336824516149249> four 100 coins?
+ you have 10 secounds to type **accept**
+28.08.2022   23:23   bot   PAW#5844   $pvp 100 778643150981562368
+28.08.2022   23:23   bot   SEEN-#5771   <@778643150981562368> did you accept pvp with <@438336824516149249> four 100 coins?
+ you have 10 secounds to type **accept**
+28.08.2022   23:23   bot   Senko#3667   accept
+28.08.2022   23:23   bot   PAW#5844   $pvp 100 778643150981562368
+28.08.2022   23:23   bot   SEEN-#5771   <@778643150981562368> did you accept pvp with <@438336824516149249> four 100 coins?
+ you have 10 secounds to type **accept**
+28.08.2022   23:48   bot   PAW#5844   $pvp 100 778643150981562368
+28.08.2022   23:48   bot   SEEN-#5771   <@778643150981562368> did you accept pvp with <@438336824516149249> four 100 coins?
+ you have 10 secounds to type **accept**
+28.08.2022   23:50   bot   PAW#5844   $pvp 100 778643150981562368
+28.08.2022   23:50   bot   SEEN-#5771   <@778643150981562368> did you accept pvp with <@438336824516149249> four 100 coins?
+ you have 10 secounds to type **accept**
+28.08.2022   23:50   bot   Senko#3667   accept
+29.08.2022   00:06   bot   PAW#5844   $pvp 100 778643150981562368
+29.08.2022   00:06   bot   SEEN-#5771   <@778643150981562368> did you accept pvp with <@438336824516149249> four 100 coins?
+ you have 10 secounds to type **accept**
+29.08.2022   00:06   bot   Senko#3667   accept
+29.08.2022   00:06   bot   SEEN-#5771   <@778643150981562368> is winner
+29.08.2022   00:06   bot   PAW#5844   $pvp 100 778643150981562368
+29.08.2022   00:06   bot   SEEN-#5771   <@778643150981562368> did you accept pvp with <@438336824516149249> four 100 coins?
+ you have 10 secounds to type **accept**
+29.08.2022   00:06   bot   Senko#3667   accept
+29.08.2022   00:06   bot   SEEN-#5771   <@778643150981562368> is winner
+29.08.2022   00:06   bot   PAW#5844   $pvp 100 778643150981562368
+29.08.2022   00:06   bot   SEEN-#5771   <@778643150981562368> did you accept pvp with <@438336824516149249> four 100 coins?
+ you have 10 secounds to type **accept**
+29.08.2022   00:06   bot   Senko#3667   accept
+29.08.2022   00:06   bot   SEEN-#5771   <@778643150981562368> is winner
+29.08.2022   00:07   bot   PAW#5844   $pvp 100 778643150981562368
+29.08.2022   00:07   bot   SEEN-#5771   <@778643150981562368> did you accept pvp with <@438336824516149249> four 100 coins?
+ you have 10 secounds to type **accept**
+29.08.2022   00:07   bot   Senko#3667   accept
+29.08.2022   00:07   bot   SEEN-#5771   <@778643150981562368> is winner
+29.08.2022   00:07   bot   PAW#5844   $pvp 100 778643150981562368
+29.08.2022   00:07   bot   SEEN-#5771   <@778643150981562368> did you accept pvp with <@438336824516149249> four 100 coins?
+ you have 10 secounds to type **accept**
+29.08.2022   00:07   bot   Senko#3667   accept
+29.08.2022   00:07   bot   SEEN-#5771   <@438336824516149249> is winner
+29.08.2022   00:07   bot   PAW#5844   $pvp 100 778643150981562368
+29.08.2022   00:07   bot   SEEN-#5771   <@778643150981562368> did you accept pvp with <@438336824516149249> four 100 coins?
+ you have 10 secounds to type **accept**
+29.08.2022   00:07   bot   Senko#3667   accept
+29.08.2022   00:08   bot   SEEN-#5771   <@438336824516149249> is winner
+29.08.2022   00:08   bot   PAW#5844   $pvp 100 778643150981562368
+29.08.2022   00:08   bot   SEEN-#5771   <@778643150981562368> did you accept pvp with <@438336824516149249> four 100 coins?
+ you have 10 secounds to type **accept**
+29.08.2022   00:08   bot   Senko#3667   accept
+29.08.2022   00:08   bot   SEEN-#5771   <@438336824516149249> is winner
+29.08.2022   00:08   bot   PAW#5844   $pvp 100 778643150981562368
+29.08.2022   00:08   bot   SEEN-#5771   <@778643150981562368> did you accept pvp with <@438336824516149249> four 100 coins?
+ you have 10 secounds to type **accept**
+29.08.2022   00:08   bot   Senko#3667   accept
+29.08.2022   00:09   bot   SEEN-#5771   <@438336824516149249> is winner
+29.08.2022   00:09   bot   PAW#5844   $pvp 100 778643150981562368
+29.08.2022   00:09   bot   SEEN-#5771   <@778643150981562368> did you accept pvp with <@438336824516149249> four 100 coins?
+ you have 10 secounds to type **accept**
+29.08.2022   00:09   bot   Senko#3667   accept
+29.08.2022   00:09   bot   SEEN-#5771   <@438336824516149249> is winner
+29.08.2022   00:12   bot   PAW#5844   $pvp 100 778643150981562368
+29.08.2022   00:12   bot   SEEN-#5771   <@778643150981562368> did you accept pvp with <@438336824516149249> four 100 coins?
+ you have 10 secounds to type **accept**
+29.08.2022   00:12   bot   Senko#3667   accept
+29.08.2022   00:13   bot   PAW#5844   $pvp 100 778643150981562368
+29.08.2022   00:13   bot   SEEN-#5771   <@778643150981562368> did you accept pvp with <@438336824516149249> four 100 coins?
+ you have 10 secounds to type **accept**
+29.08.2022   00:13   bot   Senko#3667   accept
+29.08.2022   00:13   minc-serv-18   SEEN-#5771   
+29.08.2022   00:13   bot   SEEN-#5771   <@778643150981562368> is winner
+29.08.2022   00:34   bot   PAW#5844   $profil
+29.08.2022   00:34   bot   SEEN-#5771   masz 964 💵
+        przedmioty: undefined
+29.08.2022   00:34   bot   Senko#3667   $profil
+29.08.2022   00:34   bot   SEEN-#5771   masz 1184 💵
+        przedmioty: undefined
+29.08.2022   00:34   bot   PAW#5844   $pvp 100 778643150981562368
+29.08.2022   00:34   bot   SEEN-#5771   <@778643150981562368> did you accept pvp with <@438336824516149249> four 100 coins?
+ you have 10 secounds to type **accept**
+29.08.2022   00:34   bot   Senko#3667   accept
+29.08.2022   00:34   bot   SEEN-#5771   <@778643150981562368> is winner
+ redwad is 200
+29.08.2022   00:35   bot   PAW#5844   $profil
+29.08.2022   00:35   bot   SEEN-#5771   masz 764 💵
+        przedmioty: undefined
+29.08.2022   00:36   bot   PAW#5844   $pvp 100 778643150981562368
+29.08.2022   00:36   bot   SEEN-#5771   <@778643150981562368> did you accept pvp with <@438336824516149249> four 100 coins?
+ you have 10 secounds to type **accept**
+29.08.2022   00:36   bot   Senko#3667   accept
+29.08.2022   00:37   bot   SEEN-#5771   <@778643150981562368> is winner
+ redwad is 200
+29.08.2022   00:37   bot   PAW#5844   $profil
+29.08.2022   00:37   bot   SEEN-#5771   masz 664 💵
+        przedmioty: undefined
+29.08.2022   02:24   anime   PAW#5844   do sprawdzenia: Sora no Method
+29.08.2022   02:24   anime   PAW#5844   Sora no Method

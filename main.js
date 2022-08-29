@@ -19,6 +19,7 @@ const error_logs_dir = config.error_logs_dir
 const save_messages_logs = config.save_messages_logs
 const save_messages_logs_dir = config.save_messages_logs_dir
 const test_bot = config.test_bot
+const set_status = config.status
 
 const test_clientId = '869587877477101590';//id SEEN
 const clientId = '797070806885990431';//id SEEN
@@ -87,7 +88,7 @@ client.once('ready', () => {
     var d = new Date;
     data = d.toLocaleDateString();
     console.log(`${client.user.tag} jest online`);
-    client.user.setActivity("$help", { type: 'WATCHING' });
+    client.user.setStatus('idle');
     logs(`${data} ${time} ${client.user.tag} jest online`, logs_dir, 1)
 
     //powitania

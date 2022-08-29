@@ -31,7 +31,6 @@ zapisuje w db rekord punktów pod rząd żeby gracz mógł sprawdzić swój reko
 
 # do dodania:
 
-    4.ruletka dla ekonomi
     5.system lvl na db z canvasem
     6.canvas dla komend z ekonomi
     7.slashe dla komend z ekonomi
@@ -105,8 +104,13 @@ zapisuje w db rekord punktów pod rząd żeby gracz mógł sprawdzić swój reko
     74.helpeco wyświetla aktualną wersje bazy danyck jako undefind
     75.po użyciu $ecodeafult nie można ponownie użyc $daily mimo że powinno się dać
     76.dodać komende reload, która pozwala mi przez dc przeładować bota
-    77.dodać komende $lvl na slashe
+
     78.dodać te workery z weoker.js do wszystkich komend
+    79.jeżeli ktoś miał przekazywane pieniądze ma się liczyć do serwerowego banku, ale nie może się liczyć do branku globalnego
+    80.zrobić coś ala $zrzutka i np wszyscy gracze będą się zrzecali na np vipa i potem z wszystkich ludzi będzie losowanie
+    81.dodać komendę do resetowania global banku
+    82.zrobić coś ala bindy na bocie
+    83.ogarnąć set status (w ready js w mainie bo nie dział)
 
 ## GRA
     pomysł na gre cos ala afk arena:

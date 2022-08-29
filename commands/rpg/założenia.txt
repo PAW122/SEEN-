@@ -96,3 +96,12 @@ wysywanie na walke inych graczy{
 rozgrywaka
 /rpg_start -- tworzy profil gracza / resetuje profil gracza
 /rpg_daily -- odbiera dzienne nagrody
+
+klasy_postaci:{
+    berserk--polega na szczęściu(jak w szejksach) w zależności od % szcześcia może zaatakować x razy z rzędu, nie ma zbyt durzego dmg dla balansu
+    tank--tank to tank,dużo armora,mały dmg,średnio hp
+    mag--ma jakiś sztuczki magiczki,brak armora
+    knight--ma średnio hp, średnio armora
+    sprinter--ma duży unik, mało dmg, nie ma armora, ma bardzo duży % szans na uniknięcie ataku od maga
+
+}  

@@ -5,6 +5,10 @@ module.exports = {
     name: "birthday",
 
     execute: async (message, args) => {
+
+        const guildId = message.guild.id
+        const db = new QuickDB({ filePath: process.cwd() + `/db/economy/local_economy/${guildId}.sqlite` });
+
         var current = new Date();
         const rok = current.getFullYear();
 
@@ -41,5 +45,7 @@ module.exports = {
         await db.set(`${userId}.birthday[2]`, rok)
         await db.set(`${userId}.bitrhday_used_year`, rok)
         await db.set(`${userId}.birthday_changes`, zmiany)
+
+        message.reply("set")
     }
 }
