@@ -4046,3 +4046,11 @@ D:Saint Kitts and Nevis
 30.08.2022   14:59   bot   -V1PE#3809   
 30.08.2022   14:59   bot   -V1PE#3809   
 30.08.2022   15:02   bot   -V1PE#3809   
+30.08.2022   15:11   bot   -V1PE#3809   
+30.08.2022   15:12   bot   -V1PE#3809   
+30.08.2022   16:32   bot   PAW#5844   $eval console.log("test");
+30.08.2022   16:33   bot   PAW#5844   $eval message.channel.send("test");
+30.08.2022   16:33   bot   SEEN-#5771   You meke mistake, error code:
+ TypeError: eval is not a function
+30.08.2022   16:34   bot   PAW#5844   $eval message.channel.send("test");
+30.08.2022   16:34   bot   SEEN-#5771   test

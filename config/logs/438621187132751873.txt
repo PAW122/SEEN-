@@ -3074,3 +3074,14 @@ fajne info mam w CKZ jest nowa pracownia i jest albo będzie tam 6 stanowisk + e
 30.08.2022   13:54   『-👮moderacja-』   PAW#5844   więc no -_-
 30.08.2022   13:55   『-👮moderacja-』   PAW#5844   tajne informacje wywiadowcze ||domyśl się XD||
 30.08.2022   13:55   『-👮moderacja-』   Porg Generał#5726   Matka
+30.08.2022   15:12   『-👮moderacja-』   PAW#5844   $help
+30.08.2022   15:12   『-👮moderacja-』   -V1PE#3809   
+30.08.2022   15:12   『-👮moderacja-』   PAW#5844   $srv_logs help
+30.08.2022   15:12   『-👮moderacja-』   -V1PE#3809   
+30.08.2022   15:12   『-👮moderacja-』   PAW#5844   $srv_logs start 743856099156819998
+30.08.2022   15:12   『-👮moderacja-』   -V1PE#3809   set
+30.08.2022   15:12   🔒   Dyno#0000   
+30.08.2022   15:12   🔒   -V1PE#3809   
+30.08.2022   15:12   🔒   -V1PE#3809   
+30.08.2022   15:12   🔒   Dyno#0000   
+30.08.2022   15:13   『-👮moderacja-』   PAW#5844   mniam
