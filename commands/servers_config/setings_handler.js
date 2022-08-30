@@ -60,6 +60,7 @@ module.exports = (message,client) => {
         await db.set(`game`, { worker: true, reason: "this command is disabled on this server." })
         await db.set(`yt_notyfications`, { worker: true, reason: "this command is disabled on this server." })
         await db.set(`mute`, { worker: true, reason: "this command is disabled on this server." })
+       
 
         await new Promise(r => setTimeout(r, 2000));
 

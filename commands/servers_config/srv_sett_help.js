@@ -85,6 +85,8 @@ module.exports = {
                 { name: `welcome channel id`, value: `${await db.get(`welcome.channelId`,)}`, inline: false },
                 { name: `tickets`, value: `users channel id:${await db.get(`tickets.settings[0]`,)} \n administration channel id:${await db.get(`tickets.settings[1]`,)}`, inline: false },
                 { name: `lvls notifications`, value: `${ await db.get(`lvls_channel.channelId`)}`, inline: false },
+              
+
                 { name: `command name`, value: `on/off`, inline: false },
                 { name: `anime_gif`, value: `${await db.get(`anime_gif.worker`,)}`, inline: false },
                 { name: `eight_ball`, value: `${await db.get(`eight_ball.worker`,)}`, inline: true },
@@ -104,7 +106,6 @@ module.exports = {
                 { name: `say`, value: `${await db.get(`say.worker`,)}`, inline: true },
                 { name: `srv_info`, value: `${await db.get(`srv_info.worker`,)}`, inline: true },
                 { name: `blitz_stats`, value: `${await db.get(`blitz_stats.worker`,)}`, inline: true },
-                { name: `blitz_clan`, value: `${await db.get(`blitz_clan.worker`,)}`, inline: true },
             )//max 25 rzeczy w fields
 
         const embed_lista2 = new Discord.MessageEmbed()
@@ -123,6 +124,7 @@ module.exports = {
                 { name: `game`, value: `${await db.get(`game.worker`,)}`, inline: true },
                 { name: `yt_notyfications`, value: `${await db.get(`yt_notyfications.worker`,)}`, inline: true },
                 { name: `mute`, value: `${await db.get(`mute.worker`,)}`, inline: true },
+                { name: `blitz_clan`, value: `${await db.get(`blitz_clan.worker`,)}`, inline: true },
 
 
             )

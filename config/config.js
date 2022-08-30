@@ -1,7 +1,7 @@
 module.exports = {
     //token for tests
     token: "ODY5NTg3ODc3NDc3MTAxNTkw.GIyN9g.NpipCONWmTPmMR8Qfz09xXgfX6HH1o67_L9HZ0",
-    test_bot: false,
+    test_bot: true,
     status: "idle",//online/idle/invisible/dnd
     prefix: "$",//set deafult prefix
     commands_logs: "True",//True/False

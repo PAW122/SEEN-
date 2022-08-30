@@ -1,8 +1,8 @@
-const config = require(process.cwd() + `/config/worker.js`)
-const work = config.help
-const worker = config.help_work
-const reason = config.help_disable
-
+const workerhandler = require(process.cwd() + `/config/worker.js`)
+const work = workerhandler.help
+const worker = workerhandler.help_work
+const reason = workerhandler.help_disable
+const config = require("../../../config/config")
 const Discord = require('discord.js');
 const { SlashCommandBuilder } = require('@discordjs/builders');
 const prefix = config.prefix
@@ -36,7 +36,8 @@ const embed_pl = new Discord.MessageEmbed()
         
         { name: `Server settings`, value: `${prefix}srv_set`, inline: true },
         { name: `Economy`, value: `${prefix}helpeco`, inline: true },
-
+        { name: `Server logs`, value: `${prefix}srv_logs help`, inline: true },
+//reszte dać do 2 embeda
         { name: `------------------------------------------------------------------------`, value: `----------------------------------------------------------------------`, inline: false },
         { name: `SEEN - ANIME`, value: `lista komend dostępna pod:\n $animeseen help`, inline: false },
         { name: `ANIME`, value: `lista komend dostępna pod:\n $anime help`, inline: false },

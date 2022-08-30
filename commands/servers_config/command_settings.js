@@ -268,6 +268,18 @@ module.exports = {
         await db.set(`lvls_channel.channelId`, args[1])
         return message.reply("set")
       }
+/*
+      if(args[0] == "mod_logs"){
+        if(!args[1]) {
+          return message.reply("you need type channel id\n example: $settings mod_logs 16248716422")
+        }
+        if(isNaN(args[1])){
+         return message.reply("Wrong channel ID")
+        }
+        await db.set(`mod_logs.channelId`, args[1])
+        return message.reply("set")
+      }
+      */
 
       if (await db.get(`check.check`) == true) {
 

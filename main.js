@@ -7,6 +7,7 @@ const { REST } = require('@discordjs/rest');
 const { Routes } = require('discord-api-types/v9');
 const { Player} = require("discord-player");
 const { QuickDB } = require("quick.db");
+const logs = require('discord-logs');
 //wczytywanie configu
 const config = require("./config/config.js")
 const test_token = config.token
@@ -35,7 +36,7 @@ const emoji_reactions = require("./handlers/emoji-reactions.js")
 const generateImage = require("./handlers/welcome")
 
 //wczytywanie logów
-const logs = require("./handlers/logs")
+const logs_handler = require("./handlers/logs")
 
 //slash_commands_handler
 const slash_handler = require("./handlers/slash_commands_handler")
@@ -54,6 +55,9 @@ const ai_handler = require("./commands/komendy/AI/ai_handler")
 
 //lvling system
 const lvling = require("./handlers/lvling_handler")
+
+//mod logs handler
+const mod_logs_handler = require("./handlers/mod_logs_handler")
 
 
 const client = new Discord.Client({
@@ -78,7 +82,10 @@ if (test_bot == true) {
     slash_handler(client, token, clientId)
 }
 
-
+//logs system
+logs(client, {
+    debug: true
+});
 
 //command handler
 handler(client)
@@ -89,7 +96,7 @@ client.once('ready', () => {
     data = d.toLocaleDateString();
     console.log(`${client.user.tag} jest online`);
     client.user.setStatus('idle');
-    logs(`${data} ${time} ${client.user.tag} jest online`, logs_dir, 1)
+    logs_handler(`${data} ${time} ${client.user.tag} jest online`, logs_dir, 1)
 
     //powitania
     generateImage(client)
@@ -100,6 +107,9 @@ client.once('ready', () => {
     //lvling system
     lvling(client)
 
+    //mod logs
+    mod_logs_handler(client)
+
 
 });
 
@@ -109,7 +119,7 @@ client.once('ready', () => {
 client.on('messageCreate', async message => {
 
     //logi z serwerów
-    logs(message.content, null, 2, message.guild.id, message.author.tag, message.channel.name)
+    logs_handler(message.content, null, 2, message.guild.id, message.author.tag, message.channel.name)
 
 
     //auto reakcje
@@ -142,7 +152,7 @@ if (test_bot == true) {
 
 
 //error handler
-client.on('debug', (err) => { logs(`${err}`, save_messages_logs_dir, 1) })
+client.on('debug', (err) => { logs_handler(`${err}`, save_messages_logs_dir, 1) })
 client.on('warn', () => { console.log("error handler--warn") })
 client.on('error', () => { console.log("error handler--error") })
 //consola info
