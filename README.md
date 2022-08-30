@@ -76,8 +76,7 @@ zapisuje w db rekord punktów pod rząd żeby gracz mógł sprawdzić swój reko
     54.Dodać żeby bot zaposywał w logach wiadomości serwerowych nazwe serwera
     55.coś się popsuło bo na dc pod (/) nie wyświetla się komenda settings do naprawy
     56.zrobić cos ala papier kamień norzyce gdzie urzytkownik na pv bota odpisuje np papier
-    57.dodać nowy item do ekonomi <nazwa> zwiększający szczęście (szanse na większy drop monet, zwiększa szanse na wygranie w rool)
-    58.zrobić cos ala dyno logs
+
     59.przetestować i potwierdzić działanie powiaomień youtubowych
     60.zrobić do ekonomi lootboxy, z animacjami gdzie dla każdeg przedmiotu będzie animacja z jego wygraniem i jak ktoś wylosuje dany item to bot wysyła animacja, ka której dany item wypada na gifie
     61.naprawić ban bo nie działa
