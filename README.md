@@ -100,7 +100,6 @@ zapisuje w db rekord punktów pod rząd żeby gracz mógł sprawdzić swój reko
     }
 
     72.jak odbiera się weekly daily zaznacza się jako odebrane bez dodania chajsu za daily
-    73.dodać żeby przy użyciu $profil pokazywało, czy posiadasz przedmiot luckypotion
     74.helpeco wyświetla aktualną wersje bazy danyck jako undefind
     75.po użyciu $ecodeafult nie można ponownie użyc $daily mimo że powinno się dać
     76.dodać komende reload, która pozwala mi przez dc przeładować bota
@@ -113,14 +112,16 @@ zapisuje w db rekord punktów pod rząd żeby gracz mógł sprawdzić swój reko
     83.ogarnąć set status (w ready js w mainie bo nie dział)
 
     84.ekonomia dodać workery: birthday
-    85.dodać wszstkie kraje do gry flags w jsonie!!
 
     86.dodać liczenie największego rekordu i dodać możliość sprawdzenia leader bordu z top 10 graczy (dla gry w flagi)
 
     87.to samo co gra mapy ale dla województw w polsce
-    88.dodać żeby po przegraniu pokazywało ktra odp była poprawna
     89.dodać coś ala amke me channel (bot tworzy kanały głosowe na które jak się wbije bot stworzy kolejny kanał np na 2 osoby i przeniesie tam urzytkownika)
     90.zrobić coś ala jak bot eli miał np eli kill @kaktus (wysyłał gifa z anime + w fotter liczbe ile razy urzytkownik był "kill"), do tego inne pierdoły jak pat itp
+    91.zrobić coś ala auto moderation -- pozwala dodać słowa, które są banowane na serweże (możliwość włącenia banowanie przekleństw)
+    92.zrobić autoroles (urzytkownik dostaje role po wejściu na serwer)
+    93.blacklist users (serwerowa blacklista, która mutuje urzytkowników po tym jak wejdą na serwer)
+    94.autorespond -- pozwala administracji ustawić, że bot ospowiada danym textem na podany przez nich text (serwerowe)
 
 ## typowi ogarnąć żeby bot sprawdzał czy urzytkownik ma awatar, jeśli niue nie wysyła jego awataru(deafultowego)
 

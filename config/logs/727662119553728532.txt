@@ -4054,3 +4054,77 @@ D:Saint Kitts and Nevis
  TypeError: eval is not a function
 30.08.2022   16:34   bot   PAW#5844   $eval message.channel.send("test");
 30.08.2022   16:34   bot   SEEN-#5771   test
+30.08.2022   18:59   bot   PAW#5844   $help
+30.08.2022   18:59   bot   SEEN-#5771   
+30.08.2022   19:03   bot   PAW#5844   $help
+30.08.2022   19:03   bot   SEEN-#5771   
+30.08.2022   19:03   bot   SEEN-#5771   
+30.08.2022   19:07   bot   PAW#5844   $elp en
+30.08.2022   19:07   bot   PAW#5844   $help en
+30.08.2022   19:07   bot   SEEN-#5771   
+30.08.2022   19:07   bot   SEEN-#5771   
+30.08.2022   19:08   bot   SEEN-#5771   
+30.08.2022   20:17   bot   PAW#5844   $profil
+30.08.2022   20:17   bot   SEEN-#5771   masz 664 💵
+        
+przedmioty: undefined, undefined
+30.08.2022   20:20   bot   PAW#5844   $profil
+30.08.2022   20:20   bot   SEEN-#5771   masz 664 💵
+        
+nprzedmioty
+30.08.2022   20:22   bot   PAW#5844   $profil
+30.08.2022   20:22   bot   SEEN-#5771   masz 664 💵
+        
+Items
+30.08.2022   20:24   bot   PAW#5844   $profil
+30.08.2022   20:24   bot   SEEN-#5771   masz 664 💵
+        
+You dont have any items
+30.08.2022   20:24   bot   PAW#5844   $add 100 438336824516149249
+30.08.2022   20:24   bot   SEEN-#5771   Successfully added to user <@438336824516149249> 100 💵
+30.08.2022   20:24   bot   PAW#5844   $add 100000 438336824516149249
+30.08.2022   20:24   bot   SEEN-#5771   Successfully added to user <@438336824516149249> 100000 💵
+30.08.2022   20:24   bot   PAW#5844   $buy vip
+30.08.2022   20:24   bot   SEEN-#5771   Congratulations you just bought: vip
+30.08.2022   20:24   bot   PAW#5844   $profil
+30.08.2022   20:24   minc-serv-18   SEEN-#5771   
+30.08.2022   20:24   bot   SEEN-#5771   masz 80764 💵
+        
+You dont have any items
+30.08.2022   20:26   bot   PAW#5844   $profil
+30.08.2022   20:26   bot   SEEN-#5771   masz 80764 💵
+        
+You dont have any items
+30.08.2022   20:27   bot   PAW#5844   $daily
+30.08.2022   20:27   bot   SEEN-#5771   You can receive weekly reward
+ use $weekly to claim your reward
+30.08.2022   20:27   bot   SEEN-#5771   You got 106 💵
+                you have a total of 80870 💵
+30.08.2022   20:29   bot   PAW#5844   $profil
+30.08.2022   20:29   bot   SEEN-#5771   masz 80870 💵
+        
+You dont have any items
+30.08.2022   20:29   bot   PAW#5844   $profil
+30.08.2022   20:29   bot   SEEN-#5771   masz 80870 💵
+        
+Itemsvipvip
+30.08.2022   20:31   bot   PAW#5844   $profil
+30.08.2022   20:31   bot   SEEN-#5771   masz 80870 💵
+        
+Itemsvipundefined
+30.08.2022   20:31   bot   PAW#5844   $profil
+30.08.2022   20:31   bot   SEEN-#5771   masz 80870 💵
+        
+Items vip undefined
+30.08.2022   20:32   bot   PAW#5844   $profil
+30.08.2022   20:32   bot   SEEN-#5771   masz 80870 💵
+        
+Items vip undefined
+30.08.2022   20:46   bot   PAW#5844   $profil
+30.08.2022   20:46   bot   SEEN-#5771   masz 80870 💵
+        
+Items: >vip, >
+30.08.2022   20:47   bot   PAW#5844   $profil
+30.08.2022   20:47   bot   SEEN-#5771   masz 80870 💵
+        
+Items: vip,

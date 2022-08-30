@@ -26,10 +26,28 @@ module.exports = {
         }
         const coins = await db.get(`${userId}.coins`);
 
+        var eq_check1 = false
+        var eq_check2 = false
+
+        //przedmiot vip
+        if (await db.get(`${userId}.eq[0]`) == "vip") {
+            var eq1 = "vip"
+        }else{
+            var eq1 = ""
+        }
+
+
+        if (await db.get(`${userId}.eq[1]`) == "luckypotion") {
+            var eq2 = "luckypotion"
+        }else{
+            var eq2 = ""
+        }
+
+        var eq = `Items: ${eq1}, ${eq2}`
 
 
         message.reply(`masz ${coins} ${emoji}
-        przedmioty: ${await db.get(`${userId}.eq[0]`)}`)
+        \n${eq}`)
     }
 
 }
