@@ -6,7 +6,7 @@ const load_commands_logs = config.load_commands_logs
 
 const ascii = require("ascii-table")
 //zapo - zapowiedzi anime
-const table = new ascii().setHeading("Command","komendy","anime","zapo","PL","EN","worker","slashCommand")
+const table = new ascii().setHeading("Command","komendy","PL","EN","worker","slashCommand")
 
 //import modułu rysującego tabele
 const tabela = require("./ascii.js")
@@ -50,7 +50,7 @@ module.exports = (client) => {
 
              
             //ascii
-            var nr_tabeli = "2"
+            var nr_tabeli = "1"
             const name = command.name
             const name_en = command.name_en
             tabela(command,file,table,name,name_en,nr_tabeli)

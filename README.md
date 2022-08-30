@@ -87,22 +87,14 @@ zapisuje w db rekord punktów pod rząd żeby gracz mógł sprawdzić swój reko
     I tracisz ikeś monet
     Można wybrać ziężarówke ale ona jedzie wolniej i trzeba więcej czaau ake zarobisz więcej
     64.zrobić tak, że gdy ktoś wbija lvl za wiadomości dostaje kilka meoet
-    65.zrobic prywatne (gildyjne) systemy lvl
-    66.dodać do srv_set możliwość dodania kanału do powiadomień z lvl_handlera
-    67.dodać reporty: można zreportowac osobe, na kanale administracji pojawi się wiadomość w powodem reportu i id reportu, administrator może użyć $report accept/ reject. Jeżeli urzytkownik posiada ilość reportów ustaloną przez administracje(dfeafultowo 3 reporty) to administracji wyświetli się powiadomienie że urzytkownik przkroczył ilość reportów (albo bot może go banować/kikować w zależności od ustawień administracji)
-    68.do komendy ticket dodać channel id (jeżeli ejszcze nie ma)
-    69.dodać do lvling_handler zmienną z liczba wysłanych wiadomości (łącznie)
-    70.zamiast webhoka dodać żeby bot tworzył kanał z tym śledzeniem wiadomości
 
-    71.jak użytkownik przegra to pieniądze będo dodawane do profilu bota i będzie można sprawdzić ile łącznie przegrali gracze
-    {
-        
-    }
-    
+
+    67.dodać system warnów (po dobiciu do 3 warnów info na kanała dministracji że user jest do bana)
+
+
     76.dodać komende reload, która pozwala mi przez dc przeładować bota
 
     78.dodać te workery z weoker.js do wszystkich komend
-    79.jeżeli ktoś miał przekazywane pieniądze ma się liczyć do serwerowego banku, ale nie może się liczyć do branku globalnego
     80.zrobić coś ala $zrzutka i np wszyscy gracze będą się zrzecali na np vipa i potem z wszystkich ludzi będzie losowanie
     81.dodać komendę do resetowania global banku
     82.zrobić coś ala bindy na bocie
