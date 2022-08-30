@@ -7,8 +7,8 @@ const prefix = config.prefix
 const owner_id = config.owner_id
 module.exports = {
     name: "eval",
-
-    execute: async(message,args,client) => {
+//usunołem client, żeby ktoś nie mógł napieszać
+    execute: async(message,args) => {
 
         if(message.author.id != owner_id){
             return message.reply("Only bot owner can execute code")
