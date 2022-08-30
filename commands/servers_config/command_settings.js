@@ -430,6 +430,11 @@ module.exports = {
             await db.set(`yt_notyfications.reason`, "this command is disabled on this server.")
             return message.reply("set")
           }
+          if (command_name == "mute") {
+            await db.set(`mute.worker`, false)
+            await db.set(`mute.reason`, "this command is disabled on this server.")
+            return message.reply("set")
+          }
         }
 
         if (args[0] == "on") {
@@ -595,6 +600,11 @@ module.exports = {
           if (command_name == "yt_notyfications") {
             await db.set(`yt_notyfications.worker`, true)
             await db.set(`yt_notyfications.reason`, "this command is disabled on this server.")
+            return message.reply("set")
+          }
+          if (command_name == "mute") {
+            await db.set(`mute.worker`, true)
+            await db.set(`mute.reason`, "this command is disabled on this server.")
             return message.reply("set")
           }
         }

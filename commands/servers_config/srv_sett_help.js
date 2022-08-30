@@ -55,6 +55,7 @@ const embed_pl = new Discord.MessageEmbed()
          usage: $settings lvls_channel <channel_ID>
          example:  $settings lvls_channel 745768777022701648`, inline: true
         },
+        
 
 
     )
@@ -121,6 +122,7 @@ module.exports = {
                 { name: `rpg`, value: `${await db.get(`rpg.worker`,)}`, inline: true },
                 { name: `game`, value: `${await db.get(`game.worker`,)}`, inline: true },
                 { name: `yt_notyfications`, value: `${await db.get(`yt_notyfications.worker`,)}`, inline: true },
+                { name: `mute`, value: `${await db.get(`mute.worker`,)}`, inline: true },
 
 
             )

@@ -56,12 +56,10 @@ module.exports = (message,client) => {
         await db.set(`anime_seen`, { worker: true, reason: "this command is disabled on this server." })
         await db.set(`unban`, { worker: true, reason: "this command is disabled on this server." })
         await db.set(`ticket`, { worker: true, reason: "this command is disabled on this server." })
-
-
-        //nowe rzeczy:
         await db.set(`rpg`, { worker: true, reason: "this command is disabled on this server." })
         await db.set(`game`, { worker: true, reason: "this command is disabled on this server." })
         await db.set(`yt_notyfications`, { worker: true, reason: "this command is disabled on this server." })
+        await db.set(`mute`, { worker: true, reason: "this command is disabled on this server." })
 
         await new Promise(r => setTimeout(r, 2000));
 
