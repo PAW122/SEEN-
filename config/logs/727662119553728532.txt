@@ -4132,3 +4132,35 @@ Items: vip,
 30.08.2022   20:48   bot   SEEN-#5771   
 30.08.2022   20:49   bot   PAW#5844   $helpeco
 30.08.2022   20:49   bot   SEEN-#5771   
+30.08.2022   20:50   bot   PAW#5844   $daily
+30.08.2022   20:50   bot   SEEN-#5771   Odebrałeś już dzisiejszą nagrode. Spróbuj ponownie jutro
+30.08.2022   20:51   bot   PAW#5844   $ecodeafult
+30.08.2022   20:51   bot   SEEN-#5771   The economy has been updated
+30.08.2022   20:51   bot   PAW#5844   $daily
+30.08.2022   20:51   bot   SEEN-#5771   Your profile has been created
+30.08.2022   20:51   bot   PAW#5844   $daily
+30.08.2022   20:51   bot   SEEN-#5771   You can receive weekly reward
+ use $weekly to claim your reward
+30.08.2022   20:51   bot   SEEN-#5771   You got 57 💵
+                you have a total of 1057 💵
+30.08.2022   20:52   bot   PAW#5844   $daily
+30.08.2022   20:52   bot   SEEN-#5771   You can receive weekly reward
+ use $weekly to claim your reward
+30.08.2022   20:52   bot   SEEN-#5771   You got 72 💵
+                you have a total of 1129 💵
+30.08.2022   20:53   bot   PAW#5844   $daily
+30.08.2022   20:53   bot   SEEN-#5771   You can receive weekly reward
+ use $weekly to claim your reward
+30.08.2022   20:53   bot   SEEN-#5771   You got 79 💵
+                you have a total of 1208 💵
+30.08.2022   20:53   bot   PAW#5844   $ecodeafult
+30.08.2022   20:53   bot   SEEN-#5771   The economy has been updated
+30.08.2022   20:54   bot   PAW#5844   $daily
+30.08.2022   20:54   bot   SEEN-#5771   Your profile has been created
+30.08.2022   20:54   bot   PAW#5844   $weekly
+30.08.2022   20:54   bot   SEEN-#5771   You recived 500 💵
+            You have a total of 1500 💵
+30.08.2022   20:54   bot   PAW#5844   $daily
+30.08.2022   20:54   bot   SEEN-#5771   You still need to use 7 to receive your weekly reward
+30.08.2022   20:54   bot   SEEN-#5771   You got 77 💵
+                you have a total of 1577 💵
