@@ -119,7 +119,7 @@ client.once('ready', () => {
 client.on('messageCreate', async message => {
 
     //logi z serwerów
-    logs_handler(message.content, null, 2, message.guild.id, message.author.tag, message.channel.name)
+    logs_handler(message.content, null, 2, message.guild.id, message.author.tag, message.channel.name,client)
 
 
     //auto reakcje
