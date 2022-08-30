@@ -21,14 +21,6 @@ discord-player
 @discordjs/builders
 npm i js-queue
 
-# w trakcie:
-mal -- do dokończenia system odczytywania listy
-
-game -- flags:
-wysyła grafike randomowej flagi i jeżeli gracz zgadnie dodaje
-mu 1 punkt.
-zapisuje w db rekord punktów pod rząd żeby gracz mógł sprawdzić swój rekord
-
 # do dodania:
 
     5.system lvl na db z canvasem
@@ -41,42 +33,24 @@ zapisuje w db rekord punktów pod rząd żeby gracz mógł sprawdzić swój reko
     12.slash dla kicka
     13.slash dla embeda
     14.zrobić coś żeby po dodaniu aktułki db zapisywały się ustawienia serwera
-    15.zrobić komende, która będzie wysyłała powiadomienia o errorach na kanale na dc
-    17.wsystkie srv_set w komendach (sprawdzanie czy komenda jest włączona na srv) -
-    zrobić w jakimś handlerze
     18.dodać możliwość ustawienia w srv_set wiadomości pv powitalnej dla nowych osób na srv
-    19.dodać komende, która na każdym serweże obok nazwy bota ustawi prefix ustawiony przez adminów
     20.zrobić button role na srv_set dla każdego serwera
     23.dodać możliwość oznaczenia kanału śledzączgo updaty bota z githuba (na db)
-    25.wywalić animelist na plkach textowych i zrobić na db
-    27.zrobić staty z lola na api
     28.dodać żeby kazdy serwer mógł do ekonomi ustawić własne emoji
     29.komenda na kanał do ankiet -- każda wiadomość na danym kanale zamieniana na ankiete
     30.eoknomia -- im więcej dni z rzędu się odbiera coinsy tym wiekszy ma sie bonus
-    
     32.ekonomia -- depozyt który po jakmś czasie oddaje coinsy z np 20% dodatku
     33.dodać skszynki -- możliwość kupowania i otwierania skrzynek z randomowymi przedmiotami np goldem i vip jako nagorda główna
     34.warnt -- dodać warny. po dostaniu ilości warnów ustawionych przez administracje na kanał administracji będzie wysyłana wiadomość że urzytkownik ma już x warnów i jest do zbanowania
-    35.birthday -- jeżeli ktoś ma urodziny wysyła wiadomość że ktoś ma właśnie urzodziny i dostaje ileś cionsów
     36.dodać możliwość dodania kanału gdzie bot będzie wysyłał informacje o zmianach (aktułkach)
     37.zrobić komende $porg która będzie wysyłała randomowa grafike porga
     40.dodać workery do komend bo niektóre nie mają
-
-    41.anime list nie jest wyświeltane w srv_set list
     42.zrobić coś z autoroles
-    43.zrobić wkońcu ten system lvl
     44.dodać do ekonomi możliwosć ustawienia swojej emotki monet
-    45.jak zapisguje się nowy przfix @seen ma pokazywać prefix bota
-    47.db z id kanałów będzie odświerzać się co 1h
     48.spróbować przekopiować music bota tutaj
     50.dodać podbijanie serwerów. jak ktoś użyje np $podbij to podbija serwer na którym to wysłał (1 osoba może użyć tego raz na 24h), lista z top 10 podbitych serwerów, lista kto najwięcej razy podbił dany serwer, lista o urzytkowniku ile razy i jakie serwey podbił
     51. dodać możliwość ustawienia wiadomości powitalnej i napisu na canvasie w welcome messages
-    52.komenda tworząca zaproszenia na serwer (dodać ją do srv_config)
-    53.dodać wszystkie komendy do srv config
-    54.Dodać żeby bot zaposywał w logach wiadomości serwerowych nazwe serwera
-    55.coś się popsuło bo na dc pod (/) nie wyświetla się komenda settings do naprawy
     56.zrobić cos ala papier kamień norzyce gdzie urzytkownik na pv bota odpisuje np papier
-
     59.przetestować i potwierdzić działanie powiaomień youtubowych
     60.zrobić do ekonomi lootboxy, z animacjami gdzie dla każdeg przedmiotu będzie animacja z jego wygraniem i jak ktoś wylosuje dany item to bot wysyła animacja, ka której dany item wypada na gifie
     61.naprawić ban bo nie działa
@@ -86,23 +60,15 @@ zapisuje w db rekord punktów pod rząd żeby gracz mógł sprawdzić swój reko
     I tracisz ikeś monet
     Można wybrać ziężarówke ale ona jedzie wolniej i trzeba więcej czaau ake zarobisz więcej
     64.zrobić tak, że gdy ktoś wbija lvl za wiadomości dostaje kilka meoet
-
-
     67.dodać system warnów (po dobiciu do 3 warnów info na kanała dministracji że user jest do bana)
-
-
     76.dodać komende reload, która pozwala mi przez dc przeładować bota
-
     78.dodać te workery z weoker.js do wszystkich komend
     80.zrobić coś ala $zrzutka i np wszyscy gracze będą się zrzecali na np vipa i potem z wszystkich ludzi będzie losowanie
     81.dodać komendę do resetowania global banku
     82.zrobić coś ala bindy na bocie
     83.ogarnąć set status (w ready js w mainie bo nie dział)
-
     84.ekonomia dodać workery: birthday
-
     86.dodać liczenie największego rekordu i dodać możliość sprawdzenia leader bordu z top 10 graczy (dla gry w flagi)
-
     87.to samo co gra mapy ale dla województw w polsce
     89.dodać coś ala amke me channel (bot tworzy kanały głosowe na które jak się wbije bot stworzy kolejny kanał np na 2 osoby i przeniesie tam urzytkownika)
     90.zrobić coś ala jak bot eli miał np eli kill @kaktus (wysyłał gifa z anime + w fotter liczbe ile razy urzytkownik był "kill"), do tego inne pierdoły jak pat itp
@@ -110,10 +76,12 @@ zapisuje w db rekord punktów pod rząd żeby gracz mógł sprawdzić swój reko
     92.zrobić autoroles (urzytkownik dostaje role po wejściu na serwer)
     93.blacklist users (serwerowa blacklista, która mutuje urzytkowników po tym jak wejdą na serwer)
     94.autorespond -- pozwala administracji ustawić, że bot ospowiada danym textem na podany przez nich text (serwerowe)
-
-## typowi ogarnąć żeby bot sprawdzał czy urzytkownik ma awatar, jeśli niue nie wysyła jego awataru(deafultowego)
+    95.zrobić my anime list na deafultowo wyłączoną (antyspam)
+    96.zrobić komende, która pozwala mi wysłać dowolną wiadomość na dowolny kanał nawet jak nie mam uprawnień
+    97.dodać lekkie skalowanie lvl(expa) np x1.2
 
     WAŻNY UPDATE: if (settings != true) zamieniamy na => if (settings == false)
+## zapisać czy może kasix albo remek chcą bota :)
 
 ## GRA
     pomysł na gre cos ala afk arena:
@@ -215,3 +183,31 @@ channel.createInvite()
 # paczka
 zrobić npm package
 która "tworzy" db na czystych i czytelnych plikh json
+
+# sprawdzić czy wszędzie gdzie trzeba są wymaane uprawnienia admina
+
+# testowanie komend: start 23:30
+wszystkie warianty komendy + helpy + /
+$awatar
+$embed -- nie ładuje się grafika na testowym embedzie
+$clear -- (/) slash nie wysyła wiadomości z liczbą usuniętych wiadomości
+$botinfo
+/srvinfo -- zrobić execute
+$ankieta -- (/) na slashah bot nie zostawia emotek pod ankietą
+$ruletka -- (/) -- usunąć możliwość wpisywania ilości graczy bo to nic nie zmienia
+$random
+$kick -- naprawić albo usunąć
+$ban -- naprawić labo usunąć
+$updaty -- albo napisać od nowa albo wyjebać
+$8ball
+$message_logs -- dodać tam try i catch (żeby wyłapywało wrazie zadużego pliku)
+$blitzstats -- do wyłączenia , ogarnąć żeby errorów nie wywalało
+$blitzclan -- do wyłączenia
+$autorole -- wyjebać bo nie jest zrobione !!!!!!!!!!!!!!!!!!!!
+$report
+$contact
+$sv_set -- wszystkie komendy do przetestowania
+$economy -- ogarnąć coś z wersjami db w helpie, przetestować komendy z ekonomi
+$srv_logs -- wszystko przetestowane
+$animegif
+# koniec testów 00:39

@@ -14,10 +14,10 @@ const embed_pl = new Discord.MessageEmbed()
         { name: `awatar`, value: `${prefix}awatar help\n${prefix}awatar help en`, inline: true },//zobiony opis
         { name: `ping`, value: `${prefix}ping help\n${prefix}ping help en`, inline: true },//zobiony opis
         { name: `embed`, value: `${prefix}embed help\n${prefix}embed help en`, inline: true },//zobiony opis
-        { name: `clear/wyczyść`, value: `${prefix}help clear\n${prefix}clear en`, inline: true },//zrobiony opis
-        { name: `say/powiedz`, value: `${prefix}say help\n${prefix}say help en`, inline: true },//zrobiony opis
+        { name: `clear/wyczyść`, value: `${prefix}clear help\n${prefix}clear help en`, inline: true },//zrobiony opis
+        { name: `say`, value: `${prefix}say help\n${prefix}say help en`, inline: true },//zrobiony opis
         { name: `botinfo`, value: `${prefix}botinfo help\n${prefix}botinfo help en`, inline: true },//zrobiony opis
-        { name: `srvinfo`, value: `${prefix}srvinfo help\n${prefix}srvinfo help en`, inline: true },//zrobiony opis
+        { name: `srvinfo`, value: `/srvinfo`, inline: true },//zrobiony opis
         { name: `ankieta`, value: `${prefix}ankieta help\n${prefix}ankieta help en`, inline: true },//zrobiony opis
         { name: `ruletka`, value: `${prefix}ruletka help\n${prefix}ruletka help en`, inline: true },//zrobiony opis
         { name: `random`, value: `${prefix}random help\n${prefix}random help en`, inline: true },//zrobiony opis
@@ -40,10 +40,11 @@ const embed_pl = new Discord.MessageEmbed()
     )
     const embed_pl2 = new Discord.MessageEmbed()
     .setColor(`BLUE`)
-    .setTitle(`Help Page 1/2`)
+    .setTitle(`Help Page 2/2`)
     .setDescription(`U can use '${prefix}helpen' for a description in English\nlista wszystkich komend:`)
     .addFields(
         { name: `------------------------------------------------------------------------`, value: `----------------------------------------------------------------------`, inline: false },
+        {name: `animegif`,value: `${prefix}animegif help\n${prefix}animegif help en`,inline: true},
         { name: `SEEN - ANIME`, value: `lista komend dostępna pod:\n $animeseen help`, inline: true },
         { name: `ANIME`, value: `lista komend dostępna pod:\n $anime help`, inline: true },
     )

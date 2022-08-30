@@ -160,8 +160,7 @@ module.exports = {
             .setColor(`BLUE`)//PL
             .setTitle(`ruletka`)
             .setDescription(`ruletka jest dostępna dla 1-5 graczy. Po użyciu komendy bot informuje który z graczy zostaje wyeliminowany\n
-            użycie: "$ruletka @user1 @user2"
-            \n ruletka ma problemy z funkcjonowaniem na serwerze i czasem nie działa`)
+            użycie: "$ruletka @user1 @user2"`)
     
             .setFooter(message.author.tag, message.author.avatarURL({dynamic: true}));
     

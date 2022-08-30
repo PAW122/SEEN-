@@ -153,7 +153,7 @@ lesbian()	Sends a lesbian Gif
             3.lesbian
            
             !! bot may semetime need a while to send a gif !!
-            example: $ animegif pat`)
+            example: $animegif pat`)
             } else {
                 return message.reply(`Use one of the options:
         1.hug

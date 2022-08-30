@@ -41,7 +41,7 @@ module.exports = {
                 .setDescription(``)
                 .addFields(
                     { name: `$srv_logs start <channelID>`, value: `you need use this command to turn on everythink`, inline: true },
-                    { name: `turn on all logs`, value: `$srv_logs allon <channelId>`, inline: true },
+                    { name: `turn on all logs`, value: `$srv_logs allon`, inline: true },
                     { name: `turn off all logs`, value: `$srv_logs alloff`, inline: true },
                     { name: `**deafult settings**\nturn on all type of logs`, value: `$srv_logs deafult`, inline: true },
                     { name: `$srv_logs list`, value: `awnding list with status with all logs types`, inline: true },
@@ -66,46 +66,6 @@ module.exports = {
             saveData_start()
 
             return message.reply("set")
-        }
-
-        if (args[0] == "deafult") {
-            all_on()
-            return message.reply("set")
-        }
-
-        if (args[0] == "alloff") {
-            all_off()
-            return message.reply("set")
-        }
-        if (args[0] == "allon") {
-            all_on()
-            return message.reply("set")
-        }
-
-        if (args[0] = "on") {
-            if (!args[1]) return message.reply("Bad logs type name")
-            const command_name = args[1]
-
-            //sprawdż czy takie coś co pdał user w args[1] istnieje
-            if (name_check(command_name) == false) {
-                return message.reply("Bad logs type name")
-            } else {
-                //dobra nazwa
-                await db.set(command_name, true)
-            }
-        }
-
-        if (args[0] = "off") {
-            if (!args[1]) return message.reply("Bad logs type name")
-            const command_name = args[1]
-
-            //sprawdż czy takie coś co pdał user w args[1] istnieje
-            if (name_check(command_name) == false) {
-                return message.reply("Bad logs type name")
-            } else {
-                //dobra nazwa
-                await db.set(command_name, false)
-            }
         }
 
         if (args[0] == "list") {
@@ -134,14 +94,12 @@ module.exports = {
                     { name: `messageContentEdited`, value: `${await db.get(`messageContentEdited`)}`, inline: true },
                     { name: `guildMemberOffline`, value: `${await db.get(`guildMemberOffline`)}`, inline: true },
                     { name: `guildMemberOnline`, value: `${await db.get(`guildMemberOnline`)}`, inline: true },
-                    { name: `userAvatarUpdate`, value: `${await db.get(`userAvatarUpdate`)}`, inline: true },
                 )
             const embed_list2 = new Discord.MessageEmbed()
                 .setColor(`BLUE`)
                 .setTitle(`page 2/2`)
                 .setDescription(`All logs types list\n to turn off/on any of types Use: $srv_logs <on/off> <typeName>`)
                 .addFields(
-                    { name: `userFlagsUpdate`, value: `${await db.get(`userFlagsUpdate`)}`, inline: true },
                     { name: `voiceChannelJoin`, value: `${await db.get(`voiceChannelJoin`)}`, inline: true },
                     { name: `voiceChannelLeave`, value: `${await db.get(`voiceChannelLeave`)}`, inline: true },
                     { name: `voiceChannelSwitch`, value: `${await db.get(`voiceChannelSwitch`)}`, inline: true },
@@ -153,6 +111,48 @@ module.exports = {
                 )
             message.channel.send({ embeds: [embed_list] });
             return message.channel.send({ embeds: [embed_list2] });
+        }
+
+        if (args[0] == "deafult") {
+            all_on()
+            return message.reply("set")
+        }
+
+        if (args[0] == "alloff") {
+            all_off()
+            return message.reply("set")
+        }
+        if (args[0] == "allon") {
+            all_on()
+            return message.reply("set")
+        }
+
+        if (args[0] = "on") {
+            if (!args[1]) return message.reply("Bad logs type name")
+            var command_name = args[1]
+
+            //sprawdż czy takie coś co pdał user w args[1] istnieje
+            if (name_check(command_name) == false) {
+                return message.reply("Bad logs type name")
+            } else {
+                //dobra nazwa
+                await db.set(command_name, true)
+                return message.reply("set")
+            }
+        }
+
+        if (args[0] = "off") {
+            if (!args[1]) return message.reply("Bad logs type name")
+            var command_name = args[1]
+            console.log(name_check(command_name))
+            //sprawdż czy takie coś co pdał user w args[1] istnieje
+            if (name_check(command_name) == false) {
+                return message.reply("Bad logs type name")
+            } else {
+                //dobra nazwa
+                await db.set(command_name, false)
+                return message.reply("set")
+            }
         }
 
 
@@ -194,8 +194,6 @@ module.exports = {
             await db.set(`messageContentEdited`, true)
             await db.set(`guildMemberOffline`, true)
             await db.set(`guildMemberOnline`, true)
-            await db.set(`userAvatarUpdate`, true)
-            await db.set(`userFlagsUpdate`, true)
             await db.set(`voiceChannelJoin`, true)
             await db.set(`voiceChannelLeave`, true)
             await db.set(`voiceChannelSwitch`, true)
@@ -228,8 +226,6 @@ module.exports = {
             await db.set(`messageContentEdited`, false)
             await db.set(`guildMemberOffline`, false)
             await db.set(`guildMemberOnline`, false)
-            await db.set(`userAvatarUpdate`, false)
-            await db.set(`userFlagsUpdate`, false)
             await db.set(`voiceChannelJoin`, false)
             await db.set(`voiceChannelLeave`, false)
             await db.set(`voiceChannelSwitch`, false)
@@ -261,8 +257,6 @@ module.exports = {
                 && command_name != "messageContentEdited"
                 && command_name != "guildMemberOffline"
                 && command_name != "guildMemberOnline"
-                && command_name != "userAvatarUpdate"
-                && command_name != "userFlagsUpdate"
                 && command_name != "voiceChannelJoin"
                 && command_name != "voiceChannelLeave"
                 && command_name != "voiceChannelSwitch"
@@ -272,6 +266,8 @@ module.exports = {
                 && command_name != "voiceChannelUndeaf"
                 && command_name != "voiceStreamingStart") {
                 return false
+            }else{
+                return true
             }
         }
     }

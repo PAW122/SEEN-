@@ -12,12 +12,8 @@ const embed_pl = new Discord.MessageEmbed()
         .setTitle(`Help`)
         .setDescription(`anime help`)
         .addFields(//inline-w embedzie zamiast po dobą będą obok siebie
-        {name: `animegif`,value: `${prefix}animegif help\n${prefix}animegif help en`,inline: true},
-        {name: `anime episodes`,value: `${prefix}anime_odc_help\n${prefix}anime_odc_help en`,inline: true},   
         {name: `announcements summer2022`,value: `${prefix}announcements help\n${prefix}announcements help en`,inline: true},
         {name: `animelist`,value: `${prefix}animelist help\n${prefix}animelist help en`,inline: true},
-        {name: `myanimelist`,value: `${prefix}myanimelist help\n${prefix}myanimelist help en`,inline: true},
-
         )
 
 module.exports = {

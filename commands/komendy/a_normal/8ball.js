@@ -71,23 +71,23 @@ module.exports = {
 
         if(args[0] == "help"){
             if(args[1] == "en"){
-                message.channel.send(`the bot sends a random message from the list:
+                message.channel.send(`**$8ball en**\nthe bot sends a random message from the list:
                 **Yes**
                 **No**
                 **Maybe**
                 **I don't know**
                 **Probably**
-                **I guess**",
+                **I guess**
                 **I'm not sure**
                 **Surely**`)
             }else{
-                message.channel.send(`bot wysyła randomową wiadomość z listy:
+                message.channel.send(`**8ball**\nbot wysyła randomową wiadomość z listy:
                 **Tak**
                 **Nie**
                 **Może**
                 **Nie Wiem**
                 **Prawdopodobnie**
-                **Chyba**",
+                **Chyba**
                 **Nie Jestem Pewien**
                 **Na Pewno**`)
             }

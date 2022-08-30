@@ -1,6 +1,6 @@
 //npm i quick.db better-sqlite3
 const { QuickDB } = require("quick.db");
-const config = require("../../config/config")
+const config = require("../../config/eco_config")
 const eco_db_version = config.economy_db_version
 module.exports = (message) => {
     const guildId = message.guild.id

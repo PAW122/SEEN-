@@ -15,12 +15,14 @@ const Autor = "PAW#5844"
 const version = "1.1.9"
 const Engin_version = "16.9.0"
 const stowrzony = "29.05.2022"
+const discord_version ="13.9.1"
         const embed2 = new Discord.MessageEmbed()
 
-        .setTitle("SEEN-:")
+        .setTitle("SEEN-")
         .setDescription(`**Autor:**${Autor}\n
         **version:**${version} \n
-        **Wejsja silnika:** ${Engin_version} \n
+        **Wersja silnika:** ${Engin_version} \n
+        **Wersja Discorda:** ${discord_version}\n
         **Data stworzenia bota:**${stowrzony}`)
 
 

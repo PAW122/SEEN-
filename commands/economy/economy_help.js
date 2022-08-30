@@ -23,10 +23,11 @@ module.exports = {
         const embed_pl = new Discord.MessageEmbed()
             .setColor(`BLUE`)
             .setTitle(`Help`)
-            .addFields(//inline-w embedzie zamiast po dobą będą obok siebie
-                { name: `Economy version: ${economy_db_version}`, value: `if your version of the economy system is older for ${eco_ver} use **$ecodeafult** -- it will restore the system to deafult settings, all users statistics will be restarted, but you will gain access to new functions`, inline: true },
+            .addFields(
+                { name: `Economy version: ${economy_db_version}`, value: `if your version of the economy system is older for ${eco_ver} use **$ecodeafult** -- it will restore the system to deafult settings, all users statistics will be restarted, but you will gain access to new functions
+                \nif your economy version = undefind that is, you do not have a user profile in the economy system`, inline: true },
                 { name: `$daily`, value: `Receive a daily reward from 50 to 100 ${emoji}`, inline: true },
-                { name: `$birthday`, value: `receive the birthday present `, inline: true },
+                { name: `$birthday`, value: `receive the birthday present $birthday help`, inline: true },
                 { name: `$profil`, value: `displays information about how much ${emoji} you have eg.`, inline: true },
                 { name: `$weekly`, value: `Receive weekly reward ${emoji}`, inline: true },
                 { name: `$roll`, value: `you have a 30% chance to double the amount of ${emoji}. You can use this option a maximum of 15 times a day\n usage: $roll 10`, inline: true },

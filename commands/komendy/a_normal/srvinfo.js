@@ -10,9 +10,9 @@ const {QuickDB} = require("quick.db")
 //$srvinfo help
 //$srvinfo help en
 
-module.exports = {
-    name: "srvinfo",
-    name_en:"srvinfo",
+module.exports = {//jak dodam execute usunąć z helpa info, że only slash
+    //name: "srvinfo",
+    //name_en:"srvinfo",
     description: "Sends information about the server",
     usage: "$srvinfo",
     work: worker,

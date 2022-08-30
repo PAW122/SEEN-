@@ -13,8 +13,7 @@ const { QuickDB } = require("quick.db");
 //$pwoiedz help en
 const { SlashCommandBuilder } = require('@discordjs/builders');
 module.exports = {
-    name: "pwoiedz",
-    name_en:"say",
+    name:"say",
     description: "kopiuje wiadomość i wysyła ją",
     usage: "$say <wiadomość>",
     work: worker,
@@ -75,7 +74,7 @@ executeInteraction: async (inter) => {
                 .setColor(`RED`)//EN
                 .setTitle(`Say`)
                 .setDescription(`the bot copies and then deletes the user's message, then sends it itself \n
-                usage: "$say <message_content" \ n
+                usage: "$say <message_content" \n
                 example: "$say hello world"`)
         
                 .setFooter(message.author.tag, message.author.avatarURL({dynamic: true}));
@@ -86,10 +85,10 @@ executeInteraction: async (inter) => {
                 const embed_pl = new Discord.MessageEmbed()
 
                 .setColor(`BLUE`)//PL
-                .setTitle(`Powiedz`)
+                .setTitle(`say`)
                 .setDescription(`bot kopiuje a następnie usuwa wiadomość użytkownika, następnie sam ją wysyła\n
-                użycie: "$powiedz <treść_wiadomości"\n
-                przykład: "$powiedz hello world"`)
+                użycie: "$say <treść_wiadomości"\n
+                przykład: "$say hello world"`)
         
                 .setFooter(message.author.tag, message.author.avatarURL({dynamic: true}));
         

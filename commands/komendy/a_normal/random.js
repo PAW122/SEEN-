@@ -72,7 +72,7 @@ if(await db.get(`check.check`) == true){
             .setTitle(`Clear`)
             .setDescription(`sends a random number from 1 to any set by the user\n
             usage: "$random <maximal number>"\n
-            example: "$random 10" - the bot will draw a number from 1 to 10`)
+            example: "$random 10" - the bot will draw a number from 0 to 10`)
     
             .setFooter(message.author.tag, message.author.avatarURL({dynamic: true}));
     
@@ -85,7 +85,7 @@ if(await db.get(`check.check`) == true){
                 .setTitle(`Random`)
                 .setDescription(`wysyła randomową liczbe od 1 do ?\n
                 użycie: "$random <liczba makxymalna>"\n
-                przykład: "$random 10" -- bot wylosuje liczbe od 1 do 10`)
+                przykład: "$random 10" -- bot wylosuje liczbe od 0 do 10`)
         
                 .setFooter(message.author.tag, message.author.avatarURL({dynamic: true}));
         

@@ -59,8 +59,7 @@ executeInteraction: async (inter) => {
 
                 .setColor(`BLUE`)//PL
                 .setTitle(`logs`)
-                .setDescription(`bot wysyła plik textowy z wszystkimi
-                 wiadomościami wysłanymi na serwerze
+                .setDescription(`bot wysyła plik textowy z wszystkimi wiadomościami wysłanymi na serwerze po dodaniu bota
                  użycie: $message_logs`)
         
                 .setFooter(message.author.tag, message.author.avatarURL({dynamic: true}));

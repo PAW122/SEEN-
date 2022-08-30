@@ -514,7 +514,7 @@ main()
 
 })
 */
-
+/*
 // Avatar Updated
 client.on("userAvatarUpdate", (user, oldAvatarURL, newAvatarURL) => {
 
@@ -537,6 +537,7 @@ const guildId = user.guild.id
 main()
 
 })
+*/
 /*
 // Username Updated
 client.on("userUsernameUpdate", (user, oldUsername, newUsername) => {
@@ -586,7 +587,7 @@ main()
 
 })
 */
-
+/*
 // Flags Updated
 client.on("userFlagsUpdate", (user, oldFlags, newFlag) => {
 
@@ -609,6 +610,7 @@ const guildId = oldFlags.guild.id
 main()
 
 })
+*/
 
 // Joined VC
 client.on("voiceChannelJoin", (member, channel) => {

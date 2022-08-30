@@ -4165,3 +4165,374 @@ Items: vip,
 30.08.2022   20:54   bot   SEEN-#5771   You got 77 💵
                 you have a total of 1577 💵
 30.08.2022   21:20   priv   bot   PAW#5844   test
+30.08.2022   21:22   priv   bot   PAW#5844   $animelist
+30.08.2022   21:22   priv   bot   SEEN-#5771   
+30.08.2022   21:22   priv   bot   SEEN-#5771   
+30.08.2022   21:22   priv   bot   SEEN-#5771   
+30.08.2022   21:22   priv   bot   SEEN-#5771   
+30.08.2022   21:22   priv   bot   SEEN-#5771   
+30.08.2022   21:22   priv   bot   SEEN-#5771   
+30.08.2022   21:22   priv   bot   SEEN-#5771   
+30.08.2022   21:22   priv   bot   PAW#5844   $srv_set list
+30.08.2022   21:22   priv   bot   SEEN-#5771   
+30.08.2022   21:22   priv   bot   SEEN-#5771   
+30.08.2022   21:23   priv   bot   PAW#5844   $srv_set list
+30.08.2022   21:23   priv   bot   SEEN-#5771   
+30.08.2022   21:23   priv   bot   SEEN-#5771   
+30.08.2022   21:30   priv   bot   Senko#3667   $eval console.log("test")
+30.08.2022   21:30   priv   bot   SEEN-#5771   Only bot owner can execute code
+30.08.2022   23:04   priv   bot   PAW#5844   $eval console.log("test")
+30.08.2022   23:04   priv   minc-serv-18   SEEN-#5771   
+30.08.2022   23:15   priv   pasy-do-kont   PAW#5844   
+30.08.2022   23:15   priv   pasy-do-kont   PAW#5844   
+30.08.2022   23:34   priv   bot   PAW#5844   $help
+30.08.2022   23:34   priv   bot   SEEN-#5771   
+30.08.2022   23:34   priv   bot   SEEN-#5771   
+30.08.2022   23:34   priv   bot   PAW#5844   $awatar
+30.08.2022   23:34   priv   bot   SEEN-#5771   
+30.08.2022   23:34   priv   bot   PAW#5844   $awatar <@778643150981562368>
+30.08.2022   23:34   priv   bot   SEEN-#5771   
+30.08.2022   23:35   priv   bot   PAW#5844   $help
+30.08.2022   23:35   priv   bot   SEEN-#5771   
+30.08.2022   23:35   priv   bot   SEEN-#5771   
+30.08.2022   23:35   priv   bot   PAW#5844   $awatar help
+30.08.2022   23:35   priv   bot   SEEN-#5771   
+30.08.2022   23:35   priv   bot   PAW#5844   $awatar help en
+30.08.2022   23:35   priv   bot   SEEN-#5771   
+30.08.2022   23:36   priv   bot   SEEN-#5771   
+30.08.2022   23:36   priv   bot   PAW#5844   $help
+30.08.2022   23:36   priv   bot   SEEN-#5771   
+30.08.2022   23:36   priv   bot   SEEN-#5771   
+30.08.2022   23:37   priv   bot   PAW#5844   $embed help
+30.08.2022   23:37   priv   bot   SEEN-#5771   
+30.08.2022   23:37   priv   bot   PAW#5844   $embed help en
+30.08.2022   23:37   priv   bot   SEEN-#5771   
+30.08.2022   23:37   priv   bot   PAW#5844   $embed
+30.08.2022   23:37   priv   bot   SEEN-#5771   
+30.08.2022   23:38   priv   bot   PAW#5844   $help
+30.08.2022   23:38   priv   bot   SEEN-#5771   
+30.08.2022   23:38   priv   bot   SEEN-#5771   
+30.08.2022   23:38   priv   bot   PAW#5844   $help clear
+30.08.2022   23:38   priv   bot   SEEN-#5771   
+30.08.2022   23:38   priv   bot   SEEN-#5771   
+30.08.2022   23:39   priv   bot   PAW#5844   $clear help
+30.08.2022   23:39   priv   bot   SEEN-#5771   
+30.08.2022   23:39   priv   bot   PAW#5844   $clear help en
+30.08.2022   23:39   priv   bot   SEEN-#5771   
+30.08.2022   23:39   priv   bot   PAW#5844   $clear 5
+30.08.2022   23:39   priv   bot   SEEN-#5771   Usunąłem 5 wiadomości
+30.08.2022   23:39   priv   bot   PAW#5844   $wyczyść 1
+30.08.2022   23:39   priv   bot   SEEN-#5771   Usunąłem 1 wiadomości
+30.08.2022   23:39   priv   bot   SEEN-#5771   
+30.08.2022   23:40   priv   bot   PAW#5844   $say help
+30.08.2022   23:40   priv   bot   SEEN-#5771   
+30.08.2022   23:40   priv   bot   PAW#5844   $say help en
+30.08.2022   23:40   priv   bot   SEEN-#5771   
+30.08.2022   23:40   priv   bot   PAW#5844   $say cos
+30.08.2022   23:40   priv   bot   SEEN-#5771   cos
+30.08.2022   23:40   priv   bot   PAW#5844   $powiedz cos
+30.08.2022   23:41   priv   bot   PAW#5844   $powiedz cos
+30.08.2022   23:41   priv   bot   PAW#5844   $powiedz cos
+30.08.2022   23:41   priv   bot   SEEN-#5771   iedz cos
+30.08.2022   23:42   priv   bot   PAW#5844   $help
+30.08.2022   23:42   priv   bot   SEEN-#5771   
+30.08.2022   23:42   priv   bot   SEEN-#5771   
+30.08.2022   23:42   priv   bot   PAW#5844   $say cos
+30.08.2022   23:42   priv   bot   SEEN-#5771   cos
+30.08.2022   23:42   priv   bot   PAW#5844   $botinfo help
+30.08.2022   23:42   priv   bot   SEEN-#5771   
+30.08.2022   23:43   priv   bot   PAW#5844   $botinfo help en
+30.08.2022   23:43   priv   bot   SEEN-#5771   
+30.08.2022   23:43   priv   minc-serv-18   SEEN-#5771   
+30.08.2022   23:43   priv   bot   PAW#5844   $botinfo
+30.08.2022   23:43   priv   bot   SEEN-#5771   
+30.08.2022   23:44   priv   bot   PAW#5844   $help
+30.08.2022   23:44   priv   bot   SEEN-#5771   
+30.08.2022   23:44   priv   bot   SEEN-#5771   
+30.08.2022   23:45   priv   bot   PAW#5844   $srvinfo help
+30.08.2022   23:45   priv   bot   SEEN-#5771   Wystąpił błąd
+30.08.2022   23:46   priv   bot   PAW#5844   $help
+30.08.2022   23:46   priv   bot   SEEN-#5771   
+30.08.2022   23:46   priv   bot   SEEN-#5771   
+30.08.2022   23:47   priv   bot   SEEN-#5771   
+30.08.2022   23:47   priv   bot   PAW#5844   $ankieta help
+30.08.2022   23:47   priv   bot   SEEN-#5771   
+30.08.2022   23:47   priv   bot   PAW#5844   $ankieta help en
+30.08.2022   23:47   priv   bot   SEEN-#5771   
+30.08.2022   23:47   priv   bot   PAW#5844   $ankieta test
+30.08.2022   23:47   priv   bot   SEEN-#5771   
+30.08.2022   23:47   priv   bot   PAW#5844   $questionnaire SEEN is the best discord bot
+30.08.2022   23:47   priv   bot   SEEN-#5771   
+30.08.2022   23:48   priv   bot   SEEN-#5771   
+30.08.2022   23:48   priv   bot   PAW#5844   $help
+30.08.2022   23:48   priv   bot   SEEN-#5771   
+30.08.2022   23:48   priv   bot   SEEN-#5771   
+30.08.2022   23:49   priv   bot   PAW#5844   $ruletka help
+30.08.2022   23:49   priv   bot   SEEN-#5771   
+30.08.2022   23:49   priv   bot   PAW#5844   $ruletka help en
+30.08.2022   23:49   priv   bot   SEEN-#5771   
+30.08.2022   23:49   priv   bot   PAW#5844   $ruletka help
+30.08.2022   23:49   priv   bot   SEEN-#5771   
+30.08.2022   23:50   priv   bot   PAW#5844   $ruletka <@797070806885990431> <@438336824516149249>
+30.08.2022   23:50   priv   bot   SEEN-#5771   
+30.08.2022   23:50   priv   bot   SEEN-#5771   
+30.08.2022   23:50   priv   bot   SEEN-#5771   
+30.08.2022   23:50   priv   bot   SEEN-#5771   Was eliminated: <@869587877477101590>
+30.08.2022   23:50   priv   bot   SEEN-#5771   
+30.08.2022   23:50   priv   bot   SEEN-#5771   Was eliminated: <@797070806885990431>
+30.08.2022   23:51   priv   bot   PAW#5844   $help
+30.08.2022   23:51   priv   bot   SEEN-#5771   
+30.08.2022   23:51   priv   bot   SEEN-#5771   
+30.08.2022   23:51   priv   bot   PAW#5844   $random help
+30.08.2022   23:51   priv   bot   SEEN-#5771   
+30.08.2022   23:51   priv   bot   PAW#5844   $random help en
+30.08.2022   23:51   priv   bot   SEEN-#5771   
+30.08.2022   23:52   priv   bot   PAW#5844   $random  1
+30.08.2022   23:52   priv   bot   SEEN-#5771   wylosowana liczba: 0
+30.08.2022   23:52   priv   bot   PAW#5844   $random  10
+30.08.2022   23:52   priv   bot   SEEN-#5771   wylosowana liczba: 6
+30.08.2022   23:53   priv   bot   SEEN-#5771   
+30.08.2022   23:53   priv   bot   PAW#5844   $help
+30.08.2022   23:53   priv   bot   SEEN-#5771   
+30.08.2022   23:53   priv   bot   SEEN-#5771   
+30.08.2022   23:54   priv   bot   PAW#5844   $updaty help
+30.08.2022   23:54   priv   bot   SEEN-#5771   
+30.08.2022   23:54   priv   bot   PAW#5844   $updaty help en
+30.08.2022   23:54   priv   bot   SEEN-#5771   
+30.08.2022   23:54   priv   bot   PAW#5844   $updaty
+30.08.2022   23:54   priv   bot   SEEN-#5771   
+30.08.2022   23:55   priv   bot   PAW#5844   $help
+30.08.2022   23:55   priv   bot   SEEN-#5771   
+30.08.2022   23:55   priv   bot   SEEN-#5771   
+30.08.2022   23:55   priv   bot   PAW#5844   $8ball help
+30.08.2022   23:55   priv   bot   SEEN-#5771   bot wysyła randomową wiadomość z listy:
+                **Tak**
+                **Nie**
+                **Może**
+                **Nie Wiem**
+                **Prawdopodobnie**
+                **Chyba**",
+                **Nie Jestem Pewien**
+                **Na Pewno**
+30.08.2022   23:56   priv   bot   PAW#5844   $8ball help en
+30.08.2022   23:56   priv   bot   SEEN-#5771   the bot sends a random message from the list:
+                **Yes**
+                **No**
+                **Maybe**
+                **I don't know**
+                **Probably**
+                **I guess**",
+                **I'm not sure**
+                **Surely**
+30.08.2022   23:56   priv   bot   PAW#5844   $8ball
+30.08.2022   23:56   priv   bot   SEEN-#5771   **Yes**
+30.08.2022   23:56   priv   bot   PAW#5844   $8ball en
+30.08.2022   23:56   priv   bot   SEEN-#5771   **Surely**
+30.08.2022   23:56   priv   minc-serv-18   SEEN-#5771   
+30.08.2022   23:57   priv   bot   PAW#5844   $help
+30.08.2022   23:57   priv   bot   SEEN-#5771   
+30.08.2022   23:57   priv   bot   SEEN-#5771   
+30.08.2022   23:57   priv   bot   PAW#5844   $message_logs help
+30.08.2022   23:57   priv   bot   SEEN-#5771   
+30.08.2022   23:57   priv   bot   PAW#5844   $message_logs help en
+30.08.2022   23:57   priv   bot   SEEN-#5771   
+30.08.2022   23:58   priv   bot   PAW#5844   $message_logs
+30.08.2022   23:58   priv   bot   SEEN-#5771   
+30.08.2022   23:59   priv   bot   PAW#5844   $help
+30.08.2022   23:59   priv   bot   SEEN-#5771   
+30.08.2022   23:59   priv   bot   PAW#5844   $blitzstats help
+30.08.2022   23:59   priv   bot   SEEN-#5771   
+30.08.2022   23:59   priv   bot   PAW#5844   $blitzstats help en
+30.08.2022   23:59   priv   bot   SEEN-#5771   
+30.08.2022   23:59   priv   bot   PAW#5844   $blitzstats __PAW
+30.08.2022   23:59   priv   bot   SEEN-#5771   
+30.08.2022   23:59   priv   bot   PAW#5844   $blitzstats asfasf
+30.08.2022   23:59   priv   bot   SEEN-#5771   
+31.08.2022   00:00   priv   bot   PAW#5844   $blitzstats asfasfghaERJFHAGBZHFSGRE
+31.08.2022   00:01   priv   bot   PAW#5844   $help
+31.08.2022   00:01   priv   bot   SEEN-#5771   
+31.08.2022   00:01   priv   bot   SEEN-#5771   
+31.08.2022   00:01   priv   bot   PAW#5844   $autorole help
+31.08.2022   00:01   priv   bot   SEEN-#5771   użycie: $autorole
+                funkcja nie jest w finalnej wersji.
+                jak dodać konfiguracje roli dla serwera?: $autorole config
+31.08.2022   00:01   priv   bot   PAW#5844   $autorole
+31.08.2022   00:01   priv   bot   SEEN-#5771   
+31.08.2022   00:01   priv   bot   SEEN-#5771   
+31.08.2022   00:02   priv   bot   PAW#5844   $help
+31.08.2022   00:02   priv   bot   SEEN-#5771   
+31.08.2022   00:02   priv   bot   SEEN-#5771   
+31.08.2022   00:02   priv   bot   PAW#5844   $report help
+31.08.2022   00:02   priv   bot   SEEN-#5771   send questions / send bug reports
+            usage: $report <example-text>
+            example: $report how is this command working?
+31.08.2022   00:02   priv   bot   PAW#5844   $report test
+31.08.2022   00:02   priv   bot   SEEN-#5771   Thank you for informing about the errors
+ We will try to answer your question as soon as possible
+31.08.2022   00:02   priv   bot   SEEN-#5771   Thank you for informing about the errors
+ We will try to answer your question as soon as possible
+31.08.2022   00:03   priv   bot   PAW#5844   $help
+31.08.2022   00:03   priv   bot   SEEN-#5771   
+31.08.2022   00:03   priv   bot   SEEN-#5771   
+31.08.2022   00:03   priv   bot   PAW#5844   $lvl
+31.08.2022   00:03   priv   bot   SEEN-#5771   
+31.08.2022   00:04   priv   bot   PAW#5844   $report help
+31.08.2022   00:04   priv   bot   SEEN-#5771   send questions / send bug reports
+            usage: $report <example-text>
+            example: $report how is this command working?
+31.08.2022   00:04   priv   bot   PAW#5844   $contact
+31.08.2022   00:04   priv   bot   SEEN-#5771   Discord bot Suport: https://discord.gg/ATsqW78A4F
+        or user $report to send me message
+31.08.2022   00:04   priv   bot   PAW#5844   $flags
+31.08.2022   00:04   priv   bot   SEEN-#5771   A: Fiji
+B:China
+C:Luxembourg
+D:Guinea-Bissau
+31.08.2022   00:04   priv   bot   SEEN-#5771   You have 10s to type: **A**/**B**/**C**/**D**
+31.08.2022   00:04   priv   bot   SEEN-#5771   
+31.08.2022   00:05   priv   bot   SEEN-#5771   Bad answer. Correct answer is: **B**
+31.08.2022   00:05   priv   bot   SEEN-#5771   <@438336824516149249> best combo is: **1**
+31.08.2022   00:05   priv   bot   PAW#5844   $srv_set
+31.08.2022   00:05   priv   bot   SEEN-#5771   
+31.08.2022   00:06   priv   bot   PAW#5844   $srv_set
+31.08.2022   00:06   priv   bot   SEEN-#5771   
+31.08.2022   00:07   priv   bot   PAW#5844   $help
+31.08.2022   00:07   priv   bot   SEEN-#5771   
+31.08.2022   00:07   priv   bot   SEEN-#5771   
+31.08.2022   00:07   priv   bot   PAW#5844   $srv_set
+31.08.2022   00:07   priv   bot   SEEN-#5771   
+31.08.2022   00:08   priv   bot   PAW#5844   $help
+31.08.2022   00:08   priv   bot   SEEN-#5771   
+31.08.2022   00:08   priv   bot   SEEN-#5771   
+31.08.2022   00:08   priv   bot   PAW#5844   $helpeco
+31.08.2022   00:08   priv   bot   SEEN-#5771   
+31.08.2022   00:09   priv   bot   PAW#5844   $ecodeafult
+31.08.2022   00:09   priv   bot   SEEN-#5771   The economy has been updated
+31.08.2022   00:09   priv   bot   PAW#5844   $helpeco
+31.08.2022   00:09   priv   bot   SEEN-#5771   
+31.08.2022   00:11   priv   bot   PAW#5844   $ecodeafult
+31.08.2022   00:11   priv   bot   SEEN-#5771   The economy has been updated
+31.08.2022   00:11   priv   minc-serv-18   SEEN-#5771   
+31.08.2022   00:11   priv   bot   PAW#5844   $helpeco
+31.08.2022   00:11   priv   bot   SEEN-#5771   
+31.08.2022   00:12   priv   bot   PAW#5844   $daily
+31.08.2022   00:12   priv   bot   SEEN-#5771   Your profile has been created
+31.08.2022   00:12   priv   bot   PAW#5844   $helpeco
+31.08.2022   00:12   priv   bot   SEEN-#5771   
+31.08.2022   00:13   priv   bot   PAW#5844   $ecodeafult
+31.08.2022   00:13   priv   bot   SEEN-#5771   The economy has been updated
+31.08.2022   00:13   priv   bot   PAW#5844   $helpeco
+31.08.2022   00:13   priv   bot   SEEN-#5771   
+31.08.2022   00:13   priv   bot   PAW#5844   $daily
+31.08.2022   00:13   priv   bot   SEEN-#5771   Your profile has been created
+31.08.2022   00:13   priv   bot   PAW#5844   $helpeco
+31.08.2022   00:13   priv   bot   SEEN-#5771   
+31.08.2022   00:18   priv   bot   PAW#5844   $birthday
+31.08.2022   00:18   priv   bot   SEEN-#5771   its not correct date
+31.08.2022   00:18   priv   bot   PAW#5844   $birthday help
+31.08.2022   00:18   priv   bot   SEEN-#5771   set your birthday date to get extra coins
+            usage: $birthday <month> <day> <year>
+            !!u can change your birthday date only 1 time
+            
+            if you use $daily on your birthday you will get a reward
+31.08.2022   00:20   priv   bot   PAW#5844   $help
+31.08.2022   00:20   priv   bot   SEEN-#5771   
+31.08.2022   00:20   priv   bot   SEEN-#5771   
+31.08.2022   00:20   priv   bot   PAW#5844   $srv_logs help
+31.08.2022   00:20   priv   bot   SEEN-#5771   
+31.08.2022   00:21   priv   bot   PAW#5844   $srv_logs list
+31.08.2022   00:21   priv   bot   SEEN-#5771   Bad logs type name
+31.08.2022   00:22   priv   bot   PAW#5844   $srv_logs list
+31.08.2022   00:22   priv   bot   SEEN-#5771   
+31.08.2022   00:22   priv   bot   SEEN-#5771   
+31.08.2022   00:23   priv   bot   PAW#5844   $srv_logs start 923300408372396032
+31.08.2022   00:23   priv   bot   SEEN-#5771   set
+31.08.2022   00:23   priv   bot   SEEN-#5771   You arledy have settings profil. Only channel Id be updated
+31.08.2022   00:25   priv   bot   PAW#5844   $srv_logs off voiceChannelJoin
+31.08.2022   00:25   priv   bot   SEEN-#5771   Bad logs type name
+31.08.2022   00:26   priv   bot   PAW#5844   $srv_logs off voiceChannelJoin
+31.08.2022   00:26   priv   bot   SEEN-#5771   Bad logs type name
+31.08.2022   00:27   priv   bot   PAW#5844   $srv_logs off voiceChannelJoin
+31.08.2022   00:27   priv   bot   SEEN-#5771   Bad logs type name
+31.08.2022   00:28   priv   bot   PAW#5844   $srv_logs off voiceChannelJoin
+31.08.2022   00:28   priv   bot   SEEN-#5771   Bad logs type name
+31.08.2022   00:29   priv   bot   PAW#5844   $srv_logs off voiceChannelJoin
+31.08.2022   00:30   priv   minc-serv-18   SEEN-#5771   
+31.08.2022   00:31   priv   bot   PAW#5844   $srv_logs on voiceChannelJoin
+31.08.2022   00:31   priv   bot   SEEN-#5771   set
+31.08.2022   00:31   priv   minc-serv-18   SEEN-#5771   
+31.08.2022   00:31   priv   minc-serv-18   SEEN-#5771   
+31.08.2022   00:31   priv   bot   PAW#5844   $help
+31.08.2022   00:31   priv   bot   SEEN-#5771   
+31.08.2022   00:31   priv   bot   SEEN-#5771   
+31.08.2022   00:31   priv   bot   PAW#5844   $srv_logs help
+31.08.2022   00:31   priv   bot   SEEN-#5771   
+31.08.2022   00:31   priv   bot   PAW#5844   $srv_logs alloff
+31.08.2022   00:31   priv   bot   SEEN-#5771   set
+31.08.2022   00:31   priv   bot   PAW#5844   $srv_logs allon
+31.08.2022   00:31   priv   bot   SEEN-#5771   set
+31.08.2022   00:31   priv   minc-serv-18   SEEN-#5771   
+31.08.2022   00:31   priv   minc-serv-18   SEEN-#5771   
+31.08.2022   00:32   priv   bot   PAW#5844   $srv_logs deafult
+31.08.2022   00:32   priv   bot   SEEN-#5771   set
+31.08.2022   00:32   priv   minc-serv-18   SEEN-#5771   
+31.08.2022   00:32   priv   minc-serv-18   SEEN-#5771   
+31.08.2022   00:32   priv   minc-serv-18   SEEN-#5771   
+31.08.2022   00:33   priv   bot   PAW#5844   $help
+31.08.2022   00:33   priv   bot   SEEN-#5771   
+31.08.2022   00:33   priv   minc-serv-18   SEEN-#5771   
+31.08.2022   00:33   priv   bot   SEEN-#5771   
+31.08.2022   00:34   priv   bot   PAW#5844   $animeseen help
+31.08.2022   00:34   priv   bot   SEEN-#5771   
+31.08.2022   00:34   priv   bot   PAW#5844   $anime help
+31.08.2022   00:34   priv   bot   SEEN-#5771   
+31.08.2022   00:34   priv   bot   PAW#5844   $myanimelist help
+31.08.2022   00:35   priv   bot   PAW#5844   $myanimelist
+31.08.2022   00:35   priv   bot   PAW#5844   $announcements summer2022
+31.08.2022   00:35   priv   bot   SEEN-#5771   
+31.08.2022   00:36   priv   bot   PAW#5844   $anime episodes
+31.08.2022   00:36   priv   bot   SEEN-#5771   
+31.08.2022   00:36   priv   bot   PAW#5844   $anime_odc_help
+31.08.2022   00:37   priv   bot   PAW#5844   $help
+31.08.2022   00:37   priv   bot   SEEN-#5771   
+31.08.2022   00:37   priv   bot   SEEN-#5771   
+31.08.2022   00:38   priv   bot   PAW#5844   $animegif help
+31.08.2022   00:38   priv   bot   SEEN-#5771   Use one of the options:
+        1.hug
+        2.kiss
+        3.slap
+        4.punch
+        5.wink
+        6.pat
+        7.kill
+        8.cuddle
+        9.waifu
+        !!NSFW!!:
+
+        1.hentai
+        2.boobs
+        3.lesbian
+        
+        !!bot may sometime need a while to send a gif!!
+        przykład: $animegif pat
+31.08.2022   00:38   priv   bot   PAW#5844   $animegif help en
+31.08.2022   00:38   priv   bot   SEEN-#5771   use one of the options:
+            1.hug
+            2.kiss
+            3.slap
+            4.punch
+            5.wink
+            6 patent
+            7.kill
+            8.cuddle
+            9.waifu
+            !! NSFW !!:  n
+            1.hentai
+            2.boobs
+            3.lesbian
+           
+            !! bot may semetime need a while to send a gif !!
+            example: $ animegif pat
+31.08.2022   00:38   priv   bot   PAW#5844   $animegif pat
+31.08.2022   00:38   priv   bot   SEEN-#5771   https://media.tenor.com/images/70e121c7950605a48a5e8a30e6dda239/tenor.gif
+31.08.2022   01:12   priv   bot   PAW#5844   Sora no Method
