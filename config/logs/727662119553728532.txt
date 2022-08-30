@@ -3980,6 +3980,11 @@ D:Saint Kitts and Nevis
 30.08.2022   03:48   bot   PAW#5844   $settings anime_gif of
 30.08.2022   03:48   bot   PAW#5844   $settings anime_gif off
 30.08.2022   03:48   minc-serv-18   SEEN-#5771   
+<<<<<<< HEAD
+=======
+30.08.2022   12:55   bot   PAW#5844   $ping
+30.08.2022   12:55   bot   SEEN-#5771   pong!
+>>>>>>> 5f15edec772b27184f237f097f0686837f464216
 30.08.2022   14:15   bot   PAW#5844   $help
 30.08.2022   14:15   bot   -V1PE#3809   
 30.08.2022   14:15   bot   SEEN-#5771   
