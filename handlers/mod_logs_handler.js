@@ -15,7 +15,7 @@ client.on("guildChannelTopicUpdate", (channel, oldTopic, newTopic) => {
 async function main(){
 const guildId = channel.guild.id
     const db = new QuickDB({ filePath: process.cwd() + `/db/srv_logs/${guildId}.sqlite` });
-    if (await db.get(`check`) != true) {return}else{var channelID = await db.get(`channelId`)}
+    if (await db.get(`check`) != true || await db.get(`guildChannelTopicUpdate`) != true) {return}else{var channelID = await db.get(`channelId`)}
     
     const LogChannel = client.channels.cache.get(channelID); // Replace with your channel id
     const TopicUpdate = new MessageEmbed()
@@ -36,7 +36,7 @@ client.on("guildChannelPermissionsUpdate", (channel, oldPermissions, newPermissi
     async function main(){
 const guildId = channel.guild.id
     const db = new QuickDB({ filePath: process.cwd() + `/db/srv_logs/${guildId}.sqlite` });
-    if (await db.get(`check`) != true) {return}else{var channelID = await db.get(`channelId`)}
+    if (await db.get(`check`) != true || await db.get(`guildChannelPermissionsUpdate`) != true) {return}else{var channelID = await db.get(`channelId`)}
     
 
     const LogChannel = client.channels.cache.get(channelID); // Replace with your channel id
@@ -59,7 +59,7 @@ client.on("unhandledGuildChannelUpdate", (oldChannel, newChannel) => {
     async function main(){
 const guildId = oldChannel.guild.id
     const db = new QuickDB({ filePath: process.cwd() + `/db/srv_logs/${guildId}.sqlite` });
-    if (await db.get(`check`) != true) {return}else{var channelID = await db.get(`channelId`)}
+    if (await db.get(`check`) != true|| await db.get(`unhandledGuildChannelUpdate`) != true) {return}else{var channelID = await db.get(`channelId`)}
     
 
     const LogChannel = client.channels.cache.get(channelID); // Replace with your channel id
@@ -82,7 +82,7 @@ client.on("guildMemberBoost", (member) => {
     async function main(){
 const guildId = member.guild.id
     const db = new QuickDB({ filePath: process.cwd() + `/db/srv_logs/${guildId}.sqlite` });
-    if (await db.get(`check`) != true) {return}else{var channelID = await db.get(`channelId`)}
+    if (await db.get(`check`) != true|| await db.get(`guildMemberBoost`) != true) {return}else{var channelID = await db.get(`channelId`)}
     
 
     const LogChannel = client.channels.cache.get(channelID); // Replace with your channel id
@@ -104,7 +104,7 @@ client.on("guildMemberUnboost", (member) => {
     async function main(){
 const guildId = member.guild.id
     const db = new QuickDB({ filePath: process.cwd() + `/db/srv_logs/${guildId}.sqlite` });
-    if (await db.get(`check`) != true) {return}else{var channelID = await db.get(`channelId`)}
+    if (await db.get(`check`) != true|| await db.get(`guildMemberUnboost`) != true) {return}else{var channelID = await db.get(`channelId`)}
     
 
 
@@ -128,7 +128,7 @@ client.on("guildMemberRoleAdd", (member, role) => {
     async function main(){
 const guildId = member.guild.id
     const db = new QuickDB({ filePath: process.cwd() + `/db/srv_logs/${guildId}.sqlite` });
-    if (await db.get(`check`) != true) {return}else{var channelID = await db.get(`channelId`)}
+    if (await db.get(`check`) != true|| await db.get(`guildMemberRoleAdd`) != true) {return}else{var channelID = await db.get(`channelId`)}
     
 
     const LogChannel = client.channels.cache.get(channelID); // Replace with your channel id
@@ -151,7 +151,7 @@ client.on("guildMemberRoleRemove", (member, role) => {
     async function main(){
 const guildId = member.guild.id
     const db = new QuickDB({ filePath: process.cwd() + `/db/srv_logs/${guildId}.sqlite` });
-    if (await db.get(`check`) != true) {return}else{var channelID = await db.get(`channelId`)}
+    if (await db.get(`check`) != true|| await db.get(`guildMemberRoleRemove`) != true) {return}else{var channelID = await db.get(`channelId`)}
     
 
     const LogChannel = client.channels.cache.get(channelID); // Replace with your channel id
@@ -174,7 +174,7 @@ client.on("guildMemberNicknameUpdate", (member, oldNickname, newNickname) => {
     async function main(){
 const guildId = member.guild.id
     const db = new QuickDB({ filePath: process.cwd() + `/db/srv_logs/${guildId}.sqlite` });
-    if (await db.get(`check`) != true) {return}else{var channelID = await db.get(`channelId`)}
+    if (await db.get(`check`) != true|| await db.get(`guildMemberNicknameUpdate`) != true) {return}else{var channelID = await db.get(`channelId`)}
     
 
     const LogChannel = client.channels.cache.get(channelID); // Replace with your channel id
@@ -197,7 +197,7 @@ client.on("guildMemberEntered", (member) => {
     async function main(){
 const guildId = member.guild.id
     const db = new QuickDB({ filePath: process.cwd() + `/db/srv_logs/${guildId}.sqlite` });
-    if (await db.get(`check`) != true) {return}else{var channelID = await db.get(`channelId`)}
+    if (await db.get(`check`) != true|| await db.get(`guildMemberEntered`) != true) {return}else{var channelID = await db.get(`channelId`)}
     
 
     const LogChannel = client.channels.cache.get(channelID); // Replace with your channel id
@@ -220,7 +220,7 @@ client.on("guildBoostLevelUp", (guild, oldLevel, newLevel) => {
     async function main(){
 const guildId = guild.id
     const db = new QuickDB({ filePath: process.cwd() + `/db/srv_logs/${guildId}.sqlite` });
-    if (await db.get(`check`) != true) {return}else{var channelID = await db.get(`channelId`)}
+    if (await db.get(`check`) != true|| await db.get(`guildBoostLevelUp`) != true) {return}else{var channelID = await db.get(`channelId`)}
     
 
     const LogChannel = client.channels.cache.get(channelID); // Replace with your channel id
@@ -243,7 +243,7 @@ client.on("guildBoostLevelDown", (guild, oldLevel, newLevel) => {
     async function main(){
 const guildId = guild.id
     const db = new QuickDB({ filePath: process.cwd() + `/db/srv_logs/${guildId}.sqlite` });
-    if (await db.get(`check`) != true) {return}else{var channelID = await db.get(`channelId`)}
+    if (await db.get(`check`) != true|| await db.get(`guildBoostLevelDown`) != true) {return}else{var channelID = await db.get(`channelId`)}
     
 
     const LogChannel = client.channels.cache.get(channelID); // Replace with your channel id
@@ -266,7 +266,7 @@ client.on("guildBannerAdd", (guild, bannerURL) => {
     async function main(){
 const guildId = guild.id
     const db = new QuickDB({ filePath: process.cwd() + `/db/srv_logs/${guildId}.sqlite` });
-    if (await db.get(`check`) != true) {return}else{var channelID = await db.get(`channelId`)}
+    if (await db.get(`check`) != true|| await db.get(`guildBannerAdd`) != true) {return}else{var channelID = await db.get(`channelId`)}
     
 
     const LogChannel = client.channels.cache.get(channelID); // Replace with your channel id
@@ -289,7 +289,7 @@ client.on("guildAfkChannelAdd", (guild, afkChannel) => {
     async function main(){
 const guildId = guild.id
     const db = new QuickDB({ filePath: process.cwd() + `/db/srv_logs/${guildId}.sqlite` });
-    if (await db.get(`check`) != true) {return}else{var channelID = await db.get(`channelId`)}
+    if (await db.get(`check`) != true|| await db.get(`guildAfkChannelAdd`) != true) {return}else{var channelID = await db.get(`channelId`)}
     
 
     const LogChannel = client.channels.cache.get(channelID); // Replace with your channel id
@@ -312,7 +312,7 @@ client.on("guildVanityURLAdd", (guild, vanityURL) => {
     async function main(){
 const guildId = guild.id
     const db = new QuickDB({ filePath: process.cwd() + `/db/srv_logs/${guildId}.sqlite` });
-    if (await db.get(`check`) != true) {return}else{var channelID = await db.get(`channelId`)}
+    if (await db.get(`check`) != true|| await db.get(`guildVanityURLAdd`) != true) {return}else{var channelID = await db.get(`channelId`)}
     
 
     const LogChannel = client.channels.cache.get(channelID); // Replace with your channel id
@@ -335,7 +335,7 @@ client.on("guildVanityURLRemove", (guild, vanityURL) => {
     async function main(){
 const guildId = guild.id
     const db = new QuickDB({ filePath: process.cwd() + `/db/srv_logs/${guildId}.sqlite` });
-    if (await db.get(`check`) != true) {return}else{var channelID = await db.get(`channelId`)}
+    if (await db.get(`check`) != true|| await db.get(`guildVanityURLRemove`) != true) {return}else{var channelID = await db.get(`channelId`)}
     
 
     const LogChannel = client.channels.cache.get(channelID); // Replace with your channel id
@@ -358,7 +358,7 @@ client.on("guildVanityURLUpdate", (guild, oldVanityURL, newVanityURL) => {
     async function main(){
 const guildId = guild.id
     const db = new QuickDB({ filePath: process.cwd() + `/db/srv_logs/${guildId}.sqlite` });
-    if (await db.get(`check`) != true) {return}else{var channelID = await db.get(`channelId`)}
+    if (await db.get(`check`) != true|| await db.get(`guildVanityURLUpdate`) != true) {return}else{var channelID = await db.get(`channelId`)}
     
 
     const LogChannel = client.channels.cache.get(channelID); // Replace with your channel id
@@ -381,7 +381,7 @@ client.on("messagePinned", (message) => {
     async function main(){
 const guildId = message.guild.id
     const db = new QuickDB({ filePath: process.cwd() + `/db/srv_logs/${guildId}.sqlite` });
-    if (await db.get(`check`) != true) {return}else{var channelID = await db.get(`channelId`)}
+    if (await db.get(`check`) != true|| await db.get(`messagePinned`) != true) {return}else{var channelID = await db.get(`channelId`)}
     
 
     const LogChannel = client.channels.cache.get(channelID); // Replace with your channel id
@@ -404,7 +404,7 @@ client.on("messageContentEdited", (message, oldContent, newContent) => {
     async function main(){
 const guildId = message.guild.id
     const db = new QuickDB({ filePath: process.cwd() + `/db/srv_logs/${guildId}.sqlite` });
-    if (await db.get(`check`) != true) {return}else{var channelID = await db.get(`channelId`)}
+    if (await db.get(`check`) != true|| await db.get(`messageContentEdited`) != true) {return}else{var channelID = await db.get(`channelId`)}
     
 
     const LogChannel = client.channels.cache.get(channelID); // Replace with your channel id
@@ -427,7 +427,7 @@ client.on("guildMemberOffline", (member, oldStatus) => {
     async function main(){
 const guildId = member.guild.id
     const db = new QuickDB({ filePath: process.cwd() + `/db/srv_logs/${guildId}.sqlite` });
-    if (await db.get(`check`) != true) {return}else{var channelID = await db.get(`channelId`)}
+    if (await db.get(`check`) != true|| await db.get(`guildMemberOffline`) != true) {return}else{var channelID = await db.get(`channelId`)}
     
 
     const LogChannel = client.channels.cache.get(channelID); // Replace with your channel id
@@ -450,7 +450,7 @@ client.on("guildMemberOnline", (member, newStatus) => {
     async function main(){
 const guildId = member.guild.id
     const db = new QuickDB({ filePath: process.cwd() + `/db/srv_logs/${guildId}.sqlite` });
-    if (await db.get(`check`) != true) {return}else{var channelID = await db.get(`channelId`)}
+    if (await db.get(`check`) != true|| await db.get(`guildMemberOnline`) != true) {return}else{var channelID = await db.get(`channelId`)}
     
 
     const LogChannel = client.channels.cache.get(channelID); // Replace with your channel id
@@ -521,7 +521,7 @@ client.on("userAvatarUpdate", (user, oldAvatarURL, newAvatarURL) => {
     async function main(){
 const guildId = user.guild.id
     const db = new QuickDB({ filePath: process.cwd() + `/db/srv_logs/${guildId}.sqlite` });
-    if (await db.get(`check`) != true) {return}else{var channelID = await db.get(`channelId`)}
+    if (await db.get(`check`) != true|| await db.get(`userAvatarUpdate`) != true) {return}else{var channelID = await db.get(`channelId`)}
     
 
     const LogChannel = client.channels.cache.get(channelID); // Replace with your channel id
@@ -593,7 +593,7 @@ client.on("userFlagsUpdate", (user, oldFlags, newFlag) => {
     async function main(){
 const guildId = oldFlags.guild.id
     const db = new QuickDB({ filePath: process.cwd() + `/db/srv_logs/${guildId}.sqlite` });
-    if (await db.get(`check`) != true) {return}else{var channelID = await db.get(`channelId`)}
+    if (await db.get(`check`) != true|| await db.get(`userFlagsUpdate`) != true) {return}else{var channelID = await db.get(`channelId`)}
     
 
     const LogChannel = client.channels.cache.get(channelID); // Replace with your channel id
@@ -616,7 +616,7 @@ client.on("voiceChannelJoin", (member, channel) => {
     async function main(){
 const guildId = channel.guild.id
     const db = new QuickDB({ filePath: process.cwd() + `/db/srv_logs/${guildId}.sqlite` });
-    if (await db.get(`check`) != true) {return}else{var channelID = await db.get(`channelId`)}
+    if (await db.get(`check`) != true|| await db.get(`voiceChannelJoin`) != true) {return}else{var channelID = await db.get(`channelId`)}
     
 
     const LogChannel = client.channels.cache.get(channelID); // Replace with your channel id
@@ -639,7 +639,7 @@ client.on("voiceChannelLeave", (member, channel) => {
     async function main(){
 const guildId = channel.guild.id
     const db = new QuickDB({ filePath: process.cwd() + `/db/srv_logs/${guildId}.sqlite` });
-    if (await db.get(`check`) != true) {return}else{var channelID = await db.get(`channelId`)}
+    if (await db.get(`check`) != true|| await db.get(`voiceChannelLeave`) != true) {return}else{var channelID = await db.get(`channelId`)}
     
 
     const LogChannel = client.channels.cache.get(channelID); // Replace with your channel id
@@ -662,7 +662,7 @@ client.on("voiceChannelSwitch", (member, oldChannel, newChannel) => {
     async function main(){
 const guildId = member.guild.id
     const db = new QuickDB({ filePath: process.cwd() + `/db/srv_logs/${guildId}.sqlite` });
-    if (await db.get(`check`) != true) {return}else{var channelID = await db.get(`channelId`)}
+    if (await db.get(`check`) != true|| await db.get(`voiceChannelSwitch`) != true) {return}else{var channelID = await db.get(`channelId`)}
     
 
     const LogChannel = client.channels.cache.get(channelID); // Replace with your channel id
@@ -685,7 +685,7 @@ client.on("voiceChannelMute", (member, muteType) => {
     async function main(){
 const guildId = member.guild.id
     const db = new QuickDB({ filePath: process.cwd() + `/db/srv_logs/${guildId}.sqlite` });
-    if (await db.get(`check`) != true) {return}else{var channelID = await db.get(`channelId`)}
+    if (await db.get(`check`) != true|| await db.get(`voiceChannelMute`) != true) {return}else{var channelID = await db.get(`channelId`)}
     
 
     const LogChannel = client.channels.cache.get(channelID); // Replace with your channel id
@@ -708,7 +708,7 @@ client.on("voiceChannelUnmute", (member, oldMuteType) => {
     async function main(){
 const guildId = member.guild.id
     const db = new QuickDB({ filePath: process.cwd() + `/db/srv_logs/${guildId}.sqlite` });
-    if (await db.get(`check`) != true) {return}else{var channelID = await db.get(`channelId`)}
+    if (await db.get(`check`) != true|| await db.get(`voiceChannelUnmute`) != true) {return}else{var channelID = await db.get(`channelId`)}
     
     const LogChannel = client.channels.cache.get(channelID); // Replace with your channel id
     const VCUnmute = new MessageEmbed()
@@ -730,7 +730,7 @@ client.on("voiceChannelDeaf", (member, deafType) => {
     async function main(){
 const guildId = member.guild.id
     const db = new QuickDB({ filePath: process.cwd() + `/db/srv_logs/${guildId}.sqlite` });
-    if (await db.get(`check`) != true) {return}else{var channelID = await db.get(`channelId`)}
+    if (await db.get(`check`) != true|| await db.get(`voiceChannelDeaf`) != true) {return}else{var channelID = await db.get(`channelId`)}
     
 
     const LogChannel = client.channels.cache.get(channelID); // Replace with your channel id
@@ -753,7 +753,7 @@ client.on("voiceChannelUndeaf", (member, deafType) => {
     async function main(){
 const guildId = member.guild.id
     const db = new QuickDB({ filePath: process.cwd() + `/db/srv_logs/${guildId}.sqlite` });
-    if (await db.get(`check`) != true) {return}else{var channelID = await db.get(`channelId`)}
+    if (await db.get(`check`) != true|| await db.get(`voiceChannelUndeaf`) != true) {return}else{var channelID = await db.get(`channelId`)}
     
     const LogChannel = client.channels.cache.get(channelID); // Replace with your channel id
     const VCUndeafen = new MessageEmbed()
@@ -775,7 +775,7 @@ client.on("voiceStreamingStart", (member, voiceChannel) => {
     async function main(){
 const guildId = member.guild.id
     const db = new QuickDB({ filePath: process.cwd() + `/db/srv_logs/${guildId}.sqlite` });
-    if (await db.get(`check`) != true) {return}else{var channelID = await db.get(`channelId`)}
+    if (await db.get(`check`) != true|| await db.get(`voiceStreamingStart`) != true) {return}else{var channelID = await db.get(`channelId`)}
     
 
     const LogChannel = client.channels.cache.get(channelID); // Replace with your channel id
@@ -798,7 +798,7 @@ client.on("voiceStreamingStop", (member, voiceChannel) => {
     async function main(){
 const guildId = member.guild.id
     const db = new QuickDB({ filePath: process.cwd() + `/db/srv_logs/${guildId}.sqlite` });
-    if (await db.get(`check`) != true) {return}else{var channelID = await db.get(`channelId`)}
+    if (await db.get(`check`) != true|| await db.get(`voiceStreamingStop`) != true) {return}else{var channelID = await db.get(`channelId`)}
     
 
     const LogChannel = client.channels.cache.get(channelID); // Replace with your channel id
