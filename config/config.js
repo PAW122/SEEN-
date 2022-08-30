@@ -25,7 +25,6 @@ module.exports = {
 
     //zwiększać z każdą aktualizacją db
     db_version: "1.0",
-    economy_db_version: "0.3",
 
     //bot support
     report_channel_id: "1006283491568267374",

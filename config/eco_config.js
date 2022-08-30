@@ -1,4 +1,5 @@
 module.exports = {
+    economy_db_version: "0.3",
     economy_emoji: "💵",
     weekly_coins: 500,
     birthday_coins: 1000,
