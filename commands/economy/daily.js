@@ -13,7 +13,7 @@ module.exports = {
         if (await db2.get(`check.check`) == true) {
             const settings = await db2.get(`economy_command.worker`)
             const settings_reason = await db2.get(`economy_command.reason`)
-            if (settings != true) { return message.channel.send(settings_reason) }
+            if (settings == false) { return message.channel.send(settings_reason) }
         }
 
         const userId = message.author.id
@@ -61,7 +61,7 @@ module.exports = {
             const day = await db.get(`${userId}.birthday[1]`)
             const rok = await db.get(`${userId}.birthday[2]`)
 
-            if(rok > now_rok && day == now_day && month == now_month){
+            if (rok > now_rok && day == now_day && month == now_month) {
                 const user_coins = await db.get(`${userId}.coins[0]`);
                 const give = user_coins + birthday_coins
                 message.reply(`Happy birthday. This is a birthday present: ${birthday_coins} ${emoji}

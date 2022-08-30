@@ -72,7 +72,7 @@ module.exports = (message, lost_coins) => {
         } else {
             console.log("false")
             const coins = await globaldb.get(`roll_lost`)
-            if(coins == null) {
+            if (coins == null) {
                 const coins = 0
             }
             const coins_to_add = parseInt(coins) + lostCoins

@@ -45,7 +45,7 @@ module.exports = {
             if (await db.get(`report.check`) == true) {
                 const settings = await db.get(`report.worker`)
                 const settings_reason = await db.get(`report.reason`)
-                if (settings != true) { return message.channel.send(settings_reason) }
+                if (settings == false) { return message.channel.send(settings_reason) }
             }
 
             const message_content = inter.options.getString('messages')

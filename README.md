@@ -112,6 +112,19 @@ zapisuje w db rekord punktów pod rząd żeby gracz mógł sprawdzić swój reko
     82.zrobić coś ala bindy na bocie
     83.ogarnąć set status (w ready js w mainie bo nie dział)
 
+    84.ekonomia dodać workery: birthday
+    85.dodać wszstkie kraje do gry flags w jsonie!!
+
+    86.dodać liczenie największego rekordu i dodać możliość sprawdzenia leader bordu z top 10 graczy (dla gry w flagi)
+
+    87.to samo co gra mapy ale dla województw w polsce
+    88.dodać żeby po przegraniu pokazywało ktra odp była poprawna
+    89.dodać coś ala amke me channel (bot tworzy kanały głosowe na które jak się wbije bot stworzy kolejny kanał np na 2 osoby i przeniesie tam urzytkownika)
+
+## typowi ogarnąć żeby bot sprawdzał czy urzytkownik ma awatar, jeśli niue nie wysyła jego awataru(deafultowego)
+
+    WAŻNY UPDATE: if (settings != true) zamieniamy na => if (settings == false)
+
 ## GRA
     pomysł na gre cos ala afk arena:
     bot zapisuje o jakiej godz ostatnio były dobierane nagrody

@@ -2,17 +2,28 @@ const Discord = require("discord.js")
 const ms = require("ms")
 //npm i ms
 const { Permissions: { FLAGS } } = require('discord.js');
+const { QuickDB } = require("quick.db");
+
 
 module.exports = {
     name: "mute",
 
     execute: async (message, args, client) => {
 
+        //load server settings
+        const guildId = message.guild.id
+        const db2 = new QuickDB({ filePath: process.cwd() + `/db/srv_settings/commands/${guildId}.sqlite` });
+        if (await db2.get(`check.check`) == true) {
+            const settings = await db2.get(`mute.worker`)
+            const settings_reason = await db2.get(`mute.reason`)
+            if (settings == false) { return message.reply(settings_reason) }
+        }
+
         if (args[0] == "help") {
             return message.reply("example: $mute @user 10s\n usage: $mute <user> <time>")
         }
 
-        if (!inter.member.permissions.has(FLAGS.ADMINISTRATOR )) {
+        if (!message.member.permissions.has(FLAGS.ADMINISTRATOR )) {
             return(message.reply('Nie masz wystarczających permisji aby użyć tej komendy!'))
         } 
         //dodać logi kto i kogo mutował
@@ -52,6 +63,7 @@ module.exports = {
         await (toMute.roles.add(muteRole.id))
 
         message.reply(`Sucesfully muted ${toMute.user.tag}`)
+
 
         setTimeout(function () {
             toMute.roles.remove(muteRole.id);

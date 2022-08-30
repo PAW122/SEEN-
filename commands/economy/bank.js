@@ -9,9 +9,9 @@ module.exports = {
         const guildId = message.guild.id
         const userId = message.author.id
 
-    const localdb = new QuickDB({ filePath: process.cwd() + `/db/economy/local_economy/${guildId}local.sqlite` });
-    const globaldb = new QuickDB({ filePath: process.cwd() + `/db/economy/local_economy/${guildId}global.sqlite` });
-    const userdb = new QuickDB({ filePath: process.cwd() + `/db/economy/local_economy/${guildId}.sqlite` });
+        const localdb = new QuickDB({ filePath: process.cwd() + `/db/economy/local_economy/${guildId}local.sqlite` });
+        const globaldb = new QuickDB({ filePath: process.cwd() + `/db/economy/local_economy/${guildId}global.sqlite` });
+        const userdb = new QuickDB({ filePath: process.cwd() + `/db/economy/local_economy/${guildId}.sqlite` });
 
 
         const user_lost_coins = await userdb.get(`${userId}.roll_lost`)
@@ -24,9 +24,9 @@ module.exports = {
             .setTitle(`Bank Status`)
             .setDescription("How many coins been losed using rool command?")
             .setFields(
-                {name: "You", value: `${user_lost_coins}`},
-                {name: "Server", value: `${server_lost_coins}`},
-                {name: "All servers (Global)", value: `${global_lost_coins}`}
+                { name: "You", value: `${user_lost_coins}` },
+                { name: "Server", value: `${server_lost_coins}` },
+                { name: "All servers (Global)", value: `${global_lost_coins}` }
             )
         message.channel.send({ embeds: [embed] })//.then(msg => {msg.delete(5000)})
 

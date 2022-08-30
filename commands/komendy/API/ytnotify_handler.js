@@ -23,7 +23,7 @@ module.exports = {
         if (await db2.get(`check.check`) == true) {
             const settings = await db2.get(`yt_notyfications.worker`)
             const settings_reason = await db2.get(`yt_notyfications.reason`)
-            if (settings != true) { return message.channel.send(settings_reason) }
+            if (settings == false) { return message.channel.send(settings_reason) }
         }
         
 

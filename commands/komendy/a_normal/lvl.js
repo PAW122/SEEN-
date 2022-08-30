@@ -26,7 +26,7 @@ module.exports = {
         if (await db2.get(`check.check`) == true) {
             const settings = await db2.get(`lvl_command.worker`)
             const settings_reason = await db2.get(`lvl_command.reason`)
-            if (settings != true) { return inter.reply(settings_reason) }
+            if (settings == false) { return inter.reply(settings_reason) }
         }
 
         const db = new QuickDB({ filePath: process.cwd() + `/db/lvl/${guildId}.sqlite` });
@@ -70,7 +70,7 @@ module.exports = {
         if (await db2.get(`check.check`) == true) {
             const settings = await db2.get(`lvl_command.worker`)
             const settings_reason = await db2.get(`lvl_command.reason`)
-            if (settings != true) { return message.channel.send(settings_reason) }
+            if (settings == false) { return message.channel.send(settings_reason) }
         }
 
         const db = new QuickDB({ filePath: process.cwd() + `/db/lvl/${guildId}.sqlite` });

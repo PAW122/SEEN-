@@ -5,11 +5,11 @@ const reason = config.help_disable
 
 const Discord = require('discord.js');
 const { SlashCommandBuilder } = require('@discordjs/builders');
-const prefix = "$"
+const prefix = config.prefix
 const embed_pl = new Discord.MessageEmbed()
     .setColor(`BLUE`)
     .setTitle(`Help`)
-    .setDescription(`U can use '/helpen' for a description in English\nlista wszystkich komend:`)
+    .setDescription(`U can use '${prefix}helpen' for a description in English\nlista wszystkich komend:`)
     .addFields(//inline-w embedzie zamiast po dobą będą obok siebie
         { name: `awatar`, value: `${prefix}awatar help\n${prefix}awatar help en`, inline: true },//zobiony opis
         { name: `ping`, value: `${prefix}ping help\n${prefix}ping help en`, inline: true },//zobiony opis
@@ -31,6 +31,7 @@ const embed_pl = new Discord.MessageEmbed()
         { name: `report`, value: `send question to as\n ${prefix}report help`, inline: true },
         { name: `lvl`, value: `send informatiuon about tour lvl stats\n ${prefix}lvl`, inline: true },
         { name: `contact`, value: `link to bot support server\n ${prefix}report help`, inline: true },
+        { name: `flags`, value: `play flags game\n ${prefix}flags`, inline: true },
         { name: `------------------------------------------------------------------------`, value: `----------------------------------------------------------------------`, inline: false },
         
         { name: `Server settings`, value: `${prefix}srv_set`, inline: true },

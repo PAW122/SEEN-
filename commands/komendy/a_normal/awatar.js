@@ -46,7 +46,7 @@ module.exports = {
             if (await db.get(`check.check`) == true) {
                 const settings = await db.get(`ankieta.worker`)
                 const settings_reason = await db.get(`ankieta.reason`)
-                if (settings != true) { return message.channel.send(settings_reason) }
+                if (settings == false) { return message.channel.send(settings_reason) }
             }
 
             const user = inter.options.getUser('oznacz_osobe')
@@ -71,7 +71,7 @@ module.exports = {
         if (await db.get(`check.check`) == true) {
             const settings = await db.get(`ankieta.worker`)
             const settings_reason = await db.get(`ankieta.reason`)
-            if (settings != true) { return message.channel.send(settings_reason) }
+            if (settings == false) { return message.channel.send(settings_reason) }
         }
 
         if (work != true) { return message.channel.send(reason) }

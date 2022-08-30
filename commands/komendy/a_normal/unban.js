@@ -25,7 +25,7 @@ module.exports = {
         if (await db.get(`unban.check`) == true) {
             const settings = await db.get(`unban.worker`)
             const settings_reason = await db.get(`unban.reason`)
-            if (settings != true) { return message.channel.send(settings_reason) }
+            if (settings == false) { return message.channel.send(settings_reason) }
         }
 
         if (!inter.member.permissions.has(FLAGS.BAN_MEMBERS)) return inter.reply({ content: 'You do not have permission to use this command!', ephemeral: true });

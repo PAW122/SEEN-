@@ -24,7 +24,7 @@ module.exports = {
 
 
     //zwiększać z każdą aktualizacją db
-    db_version: "0.9",
+    db_version: "1.0",
     economy_db_version: "0.3",
 
     //bot support

@@ -3762,3 +3762,221 @@ you currently have: 1098 💵
 29.08.2022   15:39   bot   PAW#5844   $mute <@778643150981562368>   5s
 29.08.2022   15:39   bot   SEEN-#5771   Sucesfully muted Senko#3667
 29.08.2022   15:39   bot   SEEN-#5771   <@778643150981562368> został odciszony
+29.08.2022   17:58   bot   PAW#5844   $mute <@778643150981562368>   5s
+29.08.2022   17:58   bot   SEEN-#5771   Sucesfully muted Senko#3667
+29.08.2022   17:58   bot   SEEN-#5771   <@778643150981562368> has been unmuted
+29.08.2022   18:38   bot   PAW#5844   $mute <@778643150981562368>    5s
+29.08.2022   18:38   bot   SEEN-#5771   Sucesfully muted Senko#3667
+29.08.2022   18:38   bot   SEEN-#5771   <@778643150981562368> has been unmuted
+29.08.2022   18:48   bot   PAW#5844   $mute <@778643150981562368>  5s
+29.08.2022   18:50   bot   PAW#5844   $mute <@778643150981562368>  5s
+29.08.2022   18:50   bot   SEEN-#5771   Sucesfully muted Senko#3667
+29.08.2022   18:50   bot   SEEN-#5771   <@778643150981562368> has been unmuted
+29.08.2022   19:11   bot   PAW#5844   $mute <@778643150981562368>   5s
+29.08.2022   19:11   bot   SEEN-#5771   Sucesfully muted Senko#3667
+29.08.2022   19:11   bot   SEEN-#5771   <@778643150981562368> has been unmuted
+29.08.2022   19:15   bot   PAW#5844   $mute <@778643150981562368>    5s
+29.08.2022   19:15   bot   SEEN-#5771   Sucesfully muted Senko#3667
+29.08.2022   19:15   bot   SEEN-#5771   <@778643150981562368> has been unmuted
+29.08.2022   19:30   bot   PAW#5844   $game
+29.08.2022   19:30   bot   SEEN-#5771   A: Albania
+B:Algeria
+C:Argentina
+D:Armenia
+29.08.2022   19:30   bot   SEEN-#5771   You have 5s to type: **A**/**B**/**c**/**D**
+29.08.2022   19:30   bot   PAW#5844   A
+29.08.2022   19:32   bot   PAW#5844   $game
+29.08.2022   19:32   bot   SEEN-#5771   A: Angola
+B:Armenia
+C:Afghanistan
+D:Antigua and Barbuda
+29.08.2022   19:32   bot   SEEN-#5771   You have 5s to type: **A**/**B**/**c**/**D**
+29.08.2022   19:32   bot   PAW#5844   B
+29.08.2022   19:33   bot   PAW#5844   $game
+29.08.2022   19:33   bot   SEEN-#5771   A: Andorra
+B:Algeria
+C:Argentina
+D:Argentina
+29.08.2022   19:33   bot   SEEN-#5771   You have 5s to type: **A**/**B**/**c**/**D**
+29.08.2022   19:33   bot   PAW#5844   C
+29.08.2022   19:34   bot   PAW#5844   $game
+29.08.2022   19:34   bot   SEEN-#5771   A: Algeria
+B:Albania
+C:Afghanistan
+D:Antigua and Barbuda
+29.08.2022   19:34   bot   SEEN-#5771   You have 5s to type: **A**/**B**/**c**/**D**
+29.08.2022   19:34   bot   PAW#5844   A
+29.08.2022   19:36   bot   PAW#5844   $game
+29.08.2022   19:36   bot   SEEN-#5771   A: Andorra
+B:Algeria
+C:Algeria
+D:Argentina
+29.08.2022   19:36   bot   SEEN-#5771   You have 5s to type: **A**/**B**/**c**/**D**
+29.08.2022   19:36   bot   PAW#5844   A
+29.08.2022   19:36   bot   SEEN-#5771   Good anwser
+29.08.2022   19:44   bot   PAW#5844   $game
+29.08.2022   19:44   bot   SEEN-#5771   A: Antigua and Barbuda
+B:Armenia
+C:Andorra
+D:Albania
+29.08.2022   19:46   bot   PAW#5844   $game
+29.08.2022   19:46   bot   SEEN-#5771   A: Andorra
+B:Angola
+C:Afghanistan
+D:Algeria
+29.08.2022   19:46   bot   SEEN-#5771   You have 10s to type: **A**/**B**/**C**/**D**
+29.08.2022   19:46   bot   SEEN-#5771   
+29.08.2022   19:46   bot   PAW#5844   B
+29.08.2022   19:46   bot   SEEN-#5771   Good anwser
+29.08.2022   19:46   bot   PAW#5844   $game
+29.08.2022   19:46   bot   SEEN-#5771   A: Andorra
+B:Angola
+C:Angola
+D:Afghanistan
+29.08.2022   19:46   minc-serv-18   SEEN-#5771   
+29.08.2022   19:46   bot   SEEN-#5771   You have 10s to type: **A**/**B**/**C**/**D**
+29.08.2022   19:46   bot   SEEN-#5771   
+29.08.2022   19:46   bot   PAW#5844   A
+29.08.2022   19:46   bot   SEEN-#5771   Wrong answer
+29.08.2022   19:48   bot   PAW#5844   $game
+29.08.2022   19:48   bot   SEEN-#5771   A: Armenia
+B:Andorra
+C:Armenia
+D:Antigua and Barbuda
+29.08.2022   19:48   bot   SEEN-#5771   You have 10s to type: **A**/**B**/**C**/**D**
+29.08.2022   19:48   bot   SEEN-#5771   
+29.08.2022   19:48   bot   PAW#5844   C
+29.08.2022   19:48   bot   SEEN-#5771   Good anwser
+29.08.2022   20:37   bot   PAW#5844   $game
+29.08.2022   20:37   bot   SEEN-#5771   A: Afghanistan
+B:Angola
+C:Algeria
+D:Angola
+29.08.2022   20:37   bot   SEEN-#5771   You have 10s to type: **A**/**B**/**C**/**D**
+29.08.2022   20:37   bot   SEEN-#5771   
+29.08.2022   20:37   bot   PAW#5844   C
+29.08.2022   20:37   bot   SEEN-#5771   Wrong answer
+29.08.2022   21:46   bot   PAW#5844   $help
+29.08.2022   21:46   bot   SEEN-#5771   
+29.08.2022   23:59   bot   PAW#5844   $play
+29.08.2022   23:59   bot   PAW#5844   $game
+29.08.2022   23:59   bot   SEEN-#5771   A: Djibouti
+B:Tajikistan
+C:Andorra
+D:Chile
+29.08.2022   23:59   bot   SEEN-#5771   You have 10s to type: **A**/**B**/**C**/**D**
+29.08.2022   23:59   bot   SEEN-#5771   
+29.08.2022   23:59   bot   PAW#5844   C
+29.08.2022   23:59   bot   SEEN-#5771   Good anwser
+30.08.2022   00:00   bot   PAW#5844   $game
+30.08.2022   00:00   bot   SEEN-#5771   A: Romania
+B:Montenegro
+C:Eswatini (fmr. 'Swaziland')
+D:Moldova
+30.08.2022   00:00   bot   SEEN-#5771   You have 10s to type: **A**/**B**/**C**/**D**
+30.08.2022   00:00   bot   SEEN-#5771   
+30.08.2022   00:00   bot   PAW#5844   A
+30.08.2022   00:00   bot   SEEN-#5771   Bad answer. Correct answer is: **B**
+30.08.2022   00:33   bot   PAW#5844   $flags
+30.08.2022   00:33   bot   SEEN-#5771   A: Sao Tome and Principe
+B:Colombia
+C:Solomon Islands
+D:Guatemala
+30.08.2022   00:33   bot   SEEN-#5771   You have 10s to type: **A**/**B**/**C**/**D**
+30.08.2022   00:33   bot   SEEN-#5771   
+30.08.2022   00:33   bot   PAW#5844   D
+30.08.2022   00:33   bot   SEEN-#5771   Bad answer. Correct answer is: **B**
+30.08.2022   00:33   bot   PAW#5844   $falgs
+30.08.2022   00:33   bot   PAW#5844   $flags
+30.08.2022   00:33   bot   SEEN-#5771   A: Indonesia
+B:Jordan
+C:Mauritius
+D:Kenya
+30.08.2022   00:33   bot   SEEN-#5771   You have 10s to type: **A**/**B**/**C**/**D**
+30.08.2022   00:33   bot   SEEN-#5771   
+30.08.2022   00:33   bot   PAW#5844   A
+30.08.2022   00:35   bot   PAW#5844   $flags
+30.08.2022   00:35   bot   SEEN-#5771   A: Croatia
+B:Bahrain
+C:Madagascar
+D:Turkmenistan
+30.08.2022   00:35   bot   SEEN-#5771   You have 10s to type: **A**/**B**/**C**/**D**
+30.08.2022   00:35   bot   SEEN-#5771   
+30.08.2022   00:35   bot   PAW#5844   C
+30.08.2022   00:35   bot   SEEN-#5771   Bad answer. Correct answer is: **A**
+30.08.2022   00:35   bot   SEEN-#5771   <@438336824516149249> get new bewst combo: **0**
+30.08.2022   00:35   bot   PAW#5844   $flags
+30.08.2022   00:35   bot   SEEN-#5771   A: Ghana
+B:Niger
+C:Myanmar (formerly Burma)
+D:Morocco
+30.08.2022   00:35   bot   SEEN-#5771   You have 10s to type: **A**/**B**/**C**/**D**
+30.08.2022   00:35   bot   SEEN-#5771   
+30.08.2022   00:35   bot   PAW#5844   B
+30.08.2022   00:35   bot   SEEN-#5771   Bad answer. Correct answer is: **A**
+30.08.2022   00:35   bot   PAW#5844   $flags
+30.08.2022   00:35   bot   SEEN-#5771   A: Uzbekistan
+B:Kuwait
+C:Maldives
+D:Kyrgyzstan
+30.08.2022   00:35   bot   SEEN-#5771   You have 10s to type: **A**/**B**/**C**/**D**
+30.08.2022   00:35   bot   SEEN-#5771   
+30.08.2022   00:35   bot   PAW#5844   B
+30.08.2022   00:35   bot   PAW#5844   C
+30.08.2022   00:36   bot   PAW#5844   $flags
+30.08.2022   00:36   bot   SEEN-#5771   A: Sri Lanka
+B:New Zealand
+C:Central African Republic
+D:United States of America
+30.08.2022   00:36   bot   SEEN-#5771   You have 10s to type: **A**/**B**/**C**/**D**
+30.08.2022   00:36   bot   SEEN-#5771   
+30.08.2022   00:36   bot   PAW#5844   C
+30.08.2022   00:36   bot   SEEN-#5771   Good anwser
+30.08.2022   00:36   bot   SEEN-#5771   <@438336824516149249> get new bewst combo: **1**
+30.08.2022   00:55   bot   PAW#5844   $flags top
+30.08.2022   00:55   minc-serv-18   SEEN-#5771   
+30.08.2022   00:55   bot   SEEN-#5771   
+30.08.2022   00:56   bot   PAW#5844   $flags top
+30.08.2022   00:56   bot   SEEN-#5771   you haven't played any games before
+30.08.2022   00:56   bot   PAW#5844   $flags top
+30.08.2022   00:56   bot   SEEN-#5771   
+30.08.2022   01:02   bot   PAW#5844   $flags
+30.08.2022   01:02   bot   SEEN-#5771   A: Brazil
+B:Solomon Islands
+C:Bulgaria
+D:Saint Kitts and Nevis
+30.08.2022   01:02   bot   SEEN-#5771   You have 10s to type: **A**/**B**/**C**/**D**
+30.08.2022   01:02   bot   SEEN-#5771   
+30.08.2022   01:02   bot   PAW#5844   B
+30.08.2022   01:02   bot   SEEN-#5771   Good anwser
+30.08.2022   01:02   bot   SEEN-#5771   <@438336824516149249> get new best combo: **1**
+30.08.2022   01:02   bot   PAW#5844   $flags top
+30.08.2022   01:02   bot   SEEN-#5771   
+30.08.2022   01:03   bot   PAW#5844   $flags top
+30.08.2022   01:03   bot   SEEN-#5771   
+30.08.2022   01:04   bot   PAW#5844   $flags top
+30.08.2022   01:04   bot   SEEN-#5771   
+30.08.2022   01:04   bot   PAW#5844   $flags top
+30.08.2022   01:04   bot   SEEN-#5771   
+30.08.2022   01:06   bot   PAW#5844   $flags top
+30.08.2022   01:06   bot   SEEN-#5771   
+30.08.2022   01:07   bot   PAW#5844   $flags top
+30.08.2022   01:07   bot   SEEN-#5771   
+30.08.2022   01:08   bot   PAW#5844   $flags top
+30.08.2022   01:08   bot   SEEN-#5771   
+30.08.2022   01:08   bot   PAW#5844   $flags top
+30.08.2022   01:08   bot   SEEN-#5771   
+30.08.2022   01:09   bot   PAW#5844   $flags top
+30.08.2022   01:09   bot   SEEN-#5771   
+30.08.2022   01:09   bot   PAW#5844   $flags top
+30.08.2022   01:09   bot   SEEN-#5771   
+30.08.2022   01:10   bot   PAW#5844   $flags top
+30.08.2022   01:10   bot   SEEN-#5771   
+30.08.2022   03:22   bot   PAW#5844   $flags top
+30.08.2022   03:22   bot   SEEN-#5771   
+30.08.2022   03:48   bot   PAW#5844   $srv_set list
+30.08.2022   03:48   bot   SEEN-#5771   
+30.08.2022   03:48   bot   SEEN-#5771   
+30.08.2022   03:48   bot   PAW#5844   $settings anime_gif of
+30.08.2022   03:48   bot   PAW#5844   $settings anime_gif off
+30.08.2022   03:48   minc-serv-18   SEEN-#5771   

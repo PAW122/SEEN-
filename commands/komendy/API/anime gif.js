@@ -82,7 +82,7 @@ lesbian()	Sends a lesbian Gif
             if (await db.get(`check.check`) == true) {
                 const settings = await db.get(`anime_gif.worker`)
                 const settings_reason = await db.get(`anime_gif.reason`)
-                if (settings != true) { return message.channel.send(settings_reason) }
+                if (settings == false) { return message.channel.send(settings_reason) }
             }
 
             const response = inter.options.getString('wybierz_rodzaj_gifa')
@@ -110,7 +110,7 @@ lesbian()	Sends a lesbian Gif
         if (await db.get(`check.check`) == true) {
             const settings = await db.get(`anime_gif.worker`)
             const settings_reason = await db.get(`anime_gif.reason`)
-            if (settings != true) { return message.channel.send(settings_reason) }
+            if (settings == false) { return message.channel.send(settings_reason) }
         }
 
 
