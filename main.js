@@ -110,7 +110,6 @@ client.once('ready', () => {
     //mod logs
     mod_logs_handler(client)
 
-
 });
 
 

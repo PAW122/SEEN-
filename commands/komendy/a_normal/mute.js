@@ -3,7 +3,7 @@ const ms = require("ms")
 //npm i ms
 const { Permissions: { FLAGS } } = require('discord.js');
 const { QuickDB } = require("quick.db");
-
+const { SlashCommandBuilder } = require('@discordjs/builders');
 
 module.exports = {
     name: "mute",

@@ -78,8 +78,9 @@ npm i js-queue
     94.autorespond -- pozwala administracji ustawić, że bot ospowiada danym textem na podany przez nich text (serwerowe)
     95.zrobić my anime list na deafultowo wyłączoną (antyspam)
     96.zrobić komende, która pozwala mi wysłać dowolną wiadomość na dowolny kanał nawet jak nie mam uprawnień
-    97.dodać lekkie skalowanie lvl(expa) np x1.2
     98.zrobić mute na (/)
+    99.zrobić komendę lockdown, króra zamyka kanał i tylko administratorzu mogą na nim pisać
+    100.zrobić koemndę shutdown z eval()
 
     WAŻNY UPDATE: if (settings != true) zamieniamy na => if (settings == false)
 ## zapisać czy może kasix albo remek chcą bota :)

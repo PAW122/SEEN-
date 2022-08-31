@@ -4619,3 +4619,82 @@ D:Guinea-Bissau
 31.08.2022   16:10   priv   bot   SEEN-#5771   
 31.08.2022   16:12   priv   bot   PAW#5844   $lvl
 31.08.2022   16:12   priv   bot   SEEN-#5771   
+31.08.2022   17:36   priv   bot   PAW#5844   $eval console.log("test")
+31.08.2022   17:37   priv   bot   PAW#5844   $eval exit
+31.08.2022   17:37   priv   bot   SEEN-#5771   You meke mistake, error code:
+ ReferenceError: exit is not defined
+31.08.2022   17:37   priv   bot   PAW#5844   $eval exit0
+31.08.2022   17:37   priv   bot   SEEN-#5771   You meke mistake, error code:
+ ReferenceError: exit0 is not defined
+31.08.2022   17:38   priv   bot   PAW#5844   $eval die()
+31.08.2022   17:38   priv   bot   SEEN-#5771   You meke mistake, error code:
+ ReferenceError: die is not defined
+31.08.2022   17:38   priv   bot   PAW#5844   $eval die
+31.08.2022   17:38   priv   bot   SEEN-#5771   You meke mistake, error code:
+ ReferenceError: die is not defined
+31.08.2022   17:39   priv   bot   PAW#5844   $eval throw new Error();
+31.08.2022   17:39   priv   bot   SEEN-#5771   You meke mistake, error code:
+ Error
+31.08.2022   17:39   priv   bot   PAW#5844   $eval fail
+31.08.2022   17:39   priv   bot   SEEN-#5771   You meke mistake, error code:
+ ReferenceError: fail is not defined
+31.08.2022   17:46   priv   bot   PAW#5844   $eval message.channel.send("cos");
+31.08.2022   17:46   priv   bot   SEEN-#5771   cos
+31.08.2022   17:46   priv   bot   PAW#5844   $eval console.log("test");
+31.08.2022   17:50   priv   bot   PAW#5844   $eval console.log("test");
+31.08.2022   17:50   priv   bot   SEEN-#5771   Sucesfully executed code:
+```js
+ console.log("test");```
+31.08.2022   17:59   priv   bot   PAW#5844   $eval cont i = 0;
+ while(i == 100000){i += 0};
+console.log(i);
+31.08.2022   17:59   priv   bot   SEEN-#5771   You meke mistake, error code:
+ SyntaxError: Unexpected identifier
+31.08.2022   17:59   priv   bot   SEEN-#5771   You meke mistake, error code:
+ SyntaxError: Unexpected identifier
+31.08.2022   17:59   priv   bot   SEEN-#5771   You meke mistake, error code:
+ SyntaxError: Unexpected identifier
+31.08.2022   17:59   priv   bot   SEEN-#5771   You meke mistake, error code:
+ SyntaxError: Unexpected identifier
+31.08.2022   17:59   priv   bot   SEEN-#5771   You meke mistake, error code:
+ SyntaxError: Unexpected identifier
+31.08.2022   18:00   priv   bot   SEEN-#5771   You meke mistake, error code:
+ SyntaxError: Unexpected identifier
+31.08.2022   18:00   priv   bot   SEEN-#5771   You meke mistake, error code:
+ SyntaxError: Unexpected identifier
+31.08.2022   18:00   priv   bot   SEEN-#5771   You meke mistake, error code:
+ SyntaxError: Unexpected identifier
+31.08.2022   18:00   priv   bot   SEEN-#5771   You meke mistake, error code:
+ SyntaxError: Unexpected identifier
+31.08.2022   18:01   priv   bot   PAW#5844   $eval cont i = 0;
+ while(i == 100000){i += 0};
+console.log(i);
+31.08.2022   18:01   priv   bot   SEEN-#5771   You meke mistake, error code:
+ SyntaxError: Unexpected identifier
+31.08.2022   18:20   priv   bot   PAW#5844   $eval while(true){console.log("test")}
+31.08.2022   18:20   priv   bot   SEEN-#5771   You meke mistake, error code:
+ ReferenceError: stop is not defined
+31.08.2022   18:20   priv   bot   PAW#5844   $eval console.log("test");
+31.08.2022   18:20   priv   bot   SEEN-#5771   You meke mistake, error code:
+ ReferenceError: stop is not defined
+31.08.2022   18:21   priv   bot   PAW#5844   $eval console.log("test");
+31.08.2022   18:21   priv   bot   SEEN-#5771   Sucesfully executed code:
+```js
+ console.log("test");```
+31.08.2022   18:21   priv   bot   PAW#5844   $eval while(true){console.log("test")}
+31.08.2022   18:26   priv   bot   PAW#5844   $eval while(true){console.log("test")}
+31.08.2022   18:26   priv   bot   SEEN-#5771   You meke mistake, error code:
+ SyntaxError: Illegal return statement
+31.08.2022   18:27   priv   bot   PAW#5844   $eval while(true){console.log("test")}
+31.08.2022   18:27   priv   bot   SEEN-#5771   You meke mistake, error code:
+ SyntaxError: Illegal return statement
+31.08.2022   18:29   priv   bot   PAW#5844   $eval while(true){console.log("test")}
+31.08.2022   18:29   priv   bot   SEEN-#5771   You meke mistake, error code:
+```js
+SyntaxError: Illegal return statement```
+31.08.2022   18:31   priv   bot   PAW#5844   $eval while(true){console.log("test")}
+31.08.2022   18:31   priv   bot   SEEN-#5771   You meke mistake, error code:
+```js
+SyntaxError: Illegal return statement```
+31.08.2022   18:32   priv   bot   PAW#5844   $eval message.guild.id
+31.08.2022   18:32   priv   bot   SEEN-#5771   727662119553728532
