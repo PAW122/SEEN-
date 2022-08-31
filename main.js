@@ -95,7 +95,7 @@ client.once('ready', () => {
     var d = new Date;
     data = d.toLocaleDateString();
     console.log(`${client.user.tag} jest online`);
-    client.user.setStatus('idle');
+    client.user.setStatus('ready');//działa po długim czasie 
     logs_handler(`${data} ${time} ${client.user.tag} jest online`, logs_dir, 1)
 
     //powitania

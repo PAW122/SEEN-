@@ -82,6 +82,8 @@ npm i js-queue
     99.zrobić komendę lockdown, króra zamyka kanał i tylko administratorzu mogą na nim pisać
     100.zrobić koemndę shutdown z eval()
 
+    !!na lapku wywaliło error z lvling_handler.js: 75:69 undefind(reading:'send')
+
     WAŻNY UPDATE: if (settings != true) zamieniamy na => if (settings == false)
 ## zapisać czy może kasix albo remek chcą bota :)
 
