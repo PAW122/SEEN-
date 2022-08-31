@@ -4536,3 +4536,22 @@ D:Guinea-Bissau
 31.08.2022   00:38   priv   bot   PAW#5844   $animegif pat
 31.08.2022   00:38   priv   bot   SEEN-#5771   https://media.tenor.com/images/70e121c7950605a48a5e8a30e6dda239/tenor.gif
 31.08.2022   01:12   priv   bot   PAW#5844   Sora no Method
+31.08.2022   13:11   priv   bot   PAW#5844   $embed
+31.08.2022   13:11   priv   bot   SEEN-#5771   
+31.08.2022   13:12   priv   bot   PAW#5844   $embed
+31.08.2022   13:12   priv   bot   SEEN-#5771   
+31.08.2022   14:30   priv   bot   PAW#5844   $mute <@778643150981562368> 5s
+31.08.2022   14:30   priv   bot   SEEN-#5771   Sucesfully muted Senko#3667
+31.08.2022   14:30   priv   minc-serv-18   SEEN-#5771   
+31.08.2022   14:30   priv   bot   SEEN-#5771   <@778643150981562368> has been unmuted
+31.08.2022   14:30   priv   minc-serv-18   SEEN-#5771   
+31.08.2022   14:30   priv   bot   PAW#5844   @mute <@778643150981562368> temp
+31.08.2022   14:30   priv   bot   PAW#5844   $mute <@778643150981562368> temp
+31.08.2022   14:30   priv   minc-serv-18   SEEN-#5771   
+31.08.2022   14:30   priv   bot   SEEN-#5771   Sucesfully muted Senko#3667
+31.08.2022   14:30   priv   minc-serv-18   SEEN-#5771   
+31.08.2022   14:30   priv   bot   SEEN-#5771   <@778643150981562368> has been unmuted
+31.08.2022   14:31   priv   bot   PAW#5844   $mute <@778643150981562368> temp
+31.08.2022   14:31   priv   bot   SEEN-#5771   Sucesfully muted Senko#3667
+31.08.2022   14:31   priv   minc-serv-18   SEEN-#5771   
+31.08.2022   14:32   priv   minc-serv-18   SEEN-#5771   

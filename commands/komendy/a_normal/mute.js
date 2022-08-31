@@ -20,7 +20,7 @@ module.exports = {
         }
 
         if (args[0] == "help") {
-            return message.reply("example: $mute @user 10s\n usage: $mute <user> <time>")
+            return message.reply("example: $mute @user 10s\n usage: $mute <user> <time>\n $mute @user temp")
         }
 
         if (!message.member.permissions.has(FLAGS.ADMINISTRATOR )) {
@@ -64,6 +64,9 @@ module.exports = {
 
         message.reply(`Sucesfully muted ${toMute.user.tag}`)
 
+        if(args[1] == "temp"){
+            return
+        }
 
         setTimeout(function () {
             toMute.roles.remove(muteRole.id);
