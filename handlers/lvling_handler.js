@@ -6,6 +6,7 @@ const config = require("../config/config")
 const min_xp_per_message = config.min_xp_per_message
 const max_xp_per_message = config.max_xp_per_message - min_xp_per_message
 const xp_per_lvl = config.xp_per_lvl
+const xp_per_lvl_scaling = config.xp_per_lvl_scaling
 
 //dodać lvling worker
 
@@ -46,7 +47,7 @@ module.exports = (client) => {
         let curxp = data.xp
         let xp = curxp + xpAdd;
         let curlvl = data.level
-        let nxtLvl = curlvl * xp_per_lvl;
+        let nxtLvl = (curlvl * xp_per_lvl_scaling) * xp_per_lvl;
         let msg = data.msg + 1
 
         try {

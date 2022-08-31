@@ -83,17 +83,17 @@ module.exports = {
     anime_list_work: "yes",
     anime_list_disable: "command is disable: no reason",
 
-    blitz_stats: true,
-    blitz_stats_work: "yes",
-    blitz_stats_disable: "command is disable: no reason",
+    blitz_stats: false,
+    blitz_stats_work: "no",
+    blitz_stats_disable: "command is disable: the command is in progress",
 
-    blitz_clan: true,
-    blitz_clan_work: "yes",
-    blitz_clan_disable: "command is disable: no reason",
+    blitz_clan: false,
+    blitz_clan_work: "no",
+    blitz_clan_disable: "command is disable: the command is in progress",
 
-    autoroles: true,
-    autoroles_work: "yes",
-    autoroles_disable: "command is disable: no reason",
+    autoroles: false,
+    autoroles_work: "no",
+    autoroles_disable: "command is disable: command is being created",
 
     user_info: true,
     user_info_worker: "yes",

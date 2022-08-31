@@ -1,4 +1,4 @@
-module.exports = (client,interaction) => {
+module.exports = (client, interaction) => {
 
     client.on('interactionCreate', async interaction => {
         if (interaction.isButton) {
@@ -34,10 +34,12 @@ module.exports = (client,interaction) => {
         }
 
         //select menu
-        if(interaction.isSelectMenu()) {//wywala error (wykonuje się 2 razy)
-            interaction.reply({ content: `${interaction.values[0]}`})
+        if (interaction.isSelectMenu()) {//wywala error (wykonuje się 2 razy)
+            interaction.reply({ content: `${interaction.values[0]}` })
         }
 
+
     })
-    
+
+
 }

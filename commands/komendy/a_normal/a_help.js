@@ -23,13 +23,12 @@ const embed_pl = new Discord.MessageEmbed()
         { name: `random`, value: `${prefix}random help\n${prefix}random help en`, inline: true },//zrobiony opis
         { name: `kick`, value: `${prefix}kick help\n${prefix}kick help en`, inline: true },//zrobiony opis
         { name: `ban`, value: `${prefix}ban help\n${prefix}ban help en`, inline: true },//zrobiony opid
-        { name: `updaty`, value: `${prefix}updaty help\n${prefix}updaty help en`, inline: true },
         { name: `8ball`, value: `${prefix}8ball help\n${prefix}8ball help en`, inline: true },
         { name: `message_logs`, value: `${prefix}message_logs help\n${prefix}message_logs help en`, inline: true },
         { name: `blitzstats`, value: `${prefix}blitzstats help\n${prefix}blitzstats help en`, inline: true },
         { name: `autorole`, value: `${prefix}autorole help\n${prefix}autorole help en`, inline: true },
         { name: `report`, value: `send question to as\n ${prefix}report help`, inline: true },
-        { name: `lvl`, value: `send informatiuon about tour lvl stats\n ${prefix}lvl`, inline: true },
+        { name: `lvl`, value: `send informatiuon about your lvl stats\n ${prefix}lvl`, inline: true },
         { name: `contact`, value: `link to bot support server\n ${prefix}report help`, inline: true },
         { name: `flags`, value: `play flags game\n ${prefix}flags`, inline: true },
         { name: `------------------------------------------------------------------------`, value: `----------------------------------------------------------------------`, inline: false },

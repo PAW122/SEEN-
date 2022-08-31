@@ -4555,3 +4555,67 @@ D:Guinea-Bissau
 31.08.2022   14:31   priv   bot   SEEN-#5771   Sucesfully muted Senko#3667
 31.08.2022   14:31   priv   minc-serv-18   SEEN-#5771   
 31.08.2022   14:32   priv   minc-serv-18   SEEN-#5771   
+31.08.2022   14:34   priv   bot   SEEN-#5771   
+31.08.2022   14:34   priv   bot   SEEN-#5771   
+31.08.2022   14:34   priv   bot   SEEN-#5771   
+31.08.2022   14:35   priv   bot   SEEN-#5771   
+31.08.2022   14:36   priv   bot   SEEN-#5771   
+31.08.2022   14:38   priv   bot   SEEN-#5771   
+31.08.2022   14:39   priv   bot   SEEN-#5771   
+31.08.2022   14:45   priv   bot   SEEN-#5771   
+31.08.2022   14:45   priv   bot   SEEN-#5771   
+31.08.2022   14:49   priv   bot   SEEN-#5771   
+31.08.2022   14:49   priv   bot   SEEN-#5771   
+31.08.2022   14:50   priv   bot   SEEN-#5771   
+31.08.2022   14:51   priv   bot   SEEN-#5771   
+31.08.2022   14:57   priv   bot   SEEN-#5771   
+31.08.2022   15:06   priv   bot   PAW#5844   $kick <@778643150981562368> test
+31.08.2022   15:07   priv   ogólny   Senko#3667   
+31.08.2022   15:07   priv   bot   Senko#3667   $kick <@438336824516149249>
+31.08.2022   15:07   priv   bot   SEEN-#5771   nie masz uprawnień do kikowania
+31.08.2022   15:10   priv   bot   PAW#5844   $ban <@778643150981562368> reason
+31.08.2022   15:11   priv   ogólny   Senko#3667   
+31.08.2022   15:12   priv   bot   SEEN-#5771   
+31.08.2022   15:12   priv   ogólny   Senko#3667   
+31.08.2022   15:15   priv   bot   PAW#5844   $blitzstats
+31.08.2022   15:15   priv   bot   SEEN-#5771   command is disable: the command is in progress
+31.08.2022   15:15   priv   bot   PAW#5844   $blitzstats help
+31.08.2022   15:15   priv   bot   SEEN-#5771   
+31.08.2022   15:15   priv   bot   PAW#5844   $blitzstats help en
+31.08.2022   15:15   priv   bot   SEEN-#5771   
+31.08.2022   15:16   priv   bot   PAW#5844   $blitzclan
+31.08.2022   15:16   priv   bot   SEEN-#5771   nie podałeś nazwy klanu
+31.08.2022   15:16   priv   bot   SEEN-#5771   command is disable: the command is in progress
+31.08.2022   15:16   priv   bot   PAW#5844   $blitzclan help
+31.08.2022   15:16   priv   bot   SEEN-#5771   użycie: $blitzclan <clan tag>
+            przykład: $blitzclan DM-
+31.08.2022   15:16   priv   minc-serv-18   SEEN-#5771   
+31.08.2022   15:16   priv   bot   PAW#5844   $blitzclan SEEN
+31.08.2022   15:16   priv   bot   SEEN-#5771   command is disable: the command is in progress
+31.08.2022   15:16   priv   bot   PAW#5844   $autorole
+31.08.2022   15:16   priv   bot   SEEN-#5771   
+31.08.2022   15:17   priv   bot   PAW#5844   $autorole
+31.08.2022   15:17   priv   bot   SEEN-#5771   command is disable: the command is in progress
+31.08.2022   15:19   priv   bot   PAW#5844   $help
+31.08.2022   15:19   priv   bot   SEEN-#5771   
+31.08.2022   15:19   priv   bot   SEEN-#5771   
+31.08.2022   15:20   priv   bot   PAW#5844   $blitzstats help
+31.08.2022   15:20   priv   bot   SEEN-#5771   
+31.08.2022   15:27   priv   minc-serv-18   SEEN-#5771   
+31.08.2022   15:28   priv   bot   PAW#5844   $srv_set
+31.08.2022   15:28   priv   bot   SEEN-#5771   
+31.08.2022   15:28   priv   bot   PAW#5844   $helpeco
+31.08.2022   15:28   priv   bot   SEEN-#5771   
+31.08.2022   15:29   priv   bot   PAW#5844   $srv_logs help
+31.08.2022   15:29   priv   bot   SEEN-#5771   
+31.08.2022   15:32   priv   bot   PAW#5844   $help
+31.08.2022   15:32   priv   bot   SEEN-#5771   
+31.08.2022   15:32   priv   bot   SEEN-#5771   
+31.08.2022   16:08   priv   bot   PAW#5844   $lvl
+31.08.2022   16:08   priv   bot   SEEN-#5771   
+31.08.2022   16:09   priv   bot   PAW#5844   $lvl
+31.08.2022   16:09   priv   bot   SEEN-#5771   
+31.08.2022   16:10   priv   bot   PAW#5844   $lvl
+31.08.2022   16:10   priv   bot   SEEN-#5771   
+31.08.2022   16:12   priv   bot   PAW#5844   $lvl
+31.08.2022   16:12   priv   bot   SEEN-#5771   

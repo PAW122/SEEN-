@@ -29,54 +29,55 @@ module.exports = {
 
             .setRequired(true)),
     executeInteraction: async (inter) => {
-//load server settings
-const guildId = inter.guild.id
-const db = new QuickDB({ filePath: process.cwd() + `/db/srv_settings/commands/${guildId}.sqlite` });
-if(await db.get(`check.check`) == true){
-    const settings = await db.get(`ban.worker`)
-    const settings_reason = await db.get(`ban.reason`)
-    if(settings != true){return message.channel.send(settings_reason)}
-}
+        //load server settings
+        const guildId = inter.guild.id
+        const db = new QuickDB({ filePath: process.cwd() + `/db/srv_settings/commands/${guildId}.sqlite` });
+        if (await db.get(`check.check`) == true) {
+            const settings = await db.get(`ban.worker`)
+            const settings_reason = await db.get(`ban.reason`)
+            if (settings != true) { return message.channel.send(settings_reason) }
+        }
 
         if (!inter.member.permissions.has(FLAGS.BAN_MEMBERS)) {
-            return(inter.reply({ content: 'Nie masz wystarczających permisji aby użyć tej komendy!', ephemeral: true }));
+            return (inter.reply({ content: 'Nie masz wystarczających permisji aby użyć tej komendy!', ephemeral: true }));
         }
         const user = inter.options.getUser('user');
         const member = inter.guild.members.cache.get(user.id) || await inter.guild.members.fetch(user.id).catch(err => { console.log(err) })
         //console.log(member)
         if (!member == true) {
-            return(inter.reply("Nie można uzyskać informacji o użytkowniku!"))
+            return (inter.reply("Nie można uzyskać informacji o użytkowniku!"))
         };
 
         if (!member.bannable) {
-            return(inter.reply("Nie mogę zbanować tego użytkownika!"))
+            return (inter.reply("Nie mogę zbanować tego użytkownika!"))
         };
-        
-        if(inter.member.roles.highest.position <= member.roles.highest.position){
-            return(inter.reply('Użytkownik ma wyższą rolę niż ja,dlatego nie mogę go zbanować!'))};
-        
+
+        if (inter.member.roles.highest.position <= member.roles.highest.position) {
+            return (inter.reply('Użytkownik ma wyższą rolę niż ja,dlatego nie mogę go zbanować!'))
+        };
+
+        const reason = inter.options.getString('reason');
 
         const embed = new Discord.MessageEmbed()
-            .setDescription(`**${member.user.tag}** został zbanowany z powodu \`${reason}\``)
+            .setDescription(`**${member.user.tag}** został zbanowany z powodu ${reason}`)
             .setColor("RED")
             .setFooter({ text: inter.user.tag, iconURL: inter.user.avatarURL({ dynamic: true }) })
             .setTimestamp()
-        await member.user.send(`Zostałeś zbanowany na serverze **\`${inter.guild.name}\`** z powodu \`${reason}\``).catch(err => {console.log(err)})
-        const reason = inter.options.getString('reason');
-        member.ban({reason})
-        return(inter.reply({ embeds: [embed] }))
+        await member.user.send(`Zostałeś zbanowany na serverze **\`${inter.guild.name}\`** z powodu \`${reason}\``).catch(err => { console.log(err) })
+        member.ban({ reason })
+        return (inter.reply({ embeds: [embed] }))
     },
 
 
     execute: async (message, args, client) => {
-                        //load server settings
-const guildId = message.guild.id
-const db = new QuickDB({ filePath: process.cwd() + `/db/srv_settings/commands/${guildId}.sqlite` });
-if(await db.get(`check.check`) == true){
-    const settings = await db.get(`ban.worker`)
-    const settings_reason = await db.get(`ban.reason`)
-    if(settings != true){return message.channel.send(settings_reason)}
-}
+        //load server settings
+        const guildId = message.guild.id
+        const db = new QuickDB({ filePath: process.cwd() + `/db/srv_settings/commands/${guildId}.sqlite` });
+        if (await db.get(`check.check`) == true) {
+            const settings = await db.get(`ban.worker`)
+            const settings_reason = await db.get(`ban.reason`)
+            if (settings != true) { return message.channel.send(settings_reason) }
+        }
 
 
         if (work != true) { return message.channel.send(reason) }
@@ -88,7 +89,7 @@ if(await db.get(`check.check`) == true){
                     .setColor(`RED`)
                     .setTitle(`Ban`)
                     .setDescription(`ban the user from the server \n
-            usage: "$ban @user"`)
+            usage: "$ban @user reason"`)
 
                     .setFooter(message.author.tag, message.author.avatarURL({ dynamic: true }));
 
@@ -100,7 +101,7 @@ if(await db.get(`check.check`) == true){
                     .setColor(`BLUE`)//PL
                     .setTitle(`Ban`)
                     .setDescription(`ban the user from the server\n
-            usage: "$ban @user"`)
+            usage: "$ban @user reson"`)
 
                     .setFooter(message.author.tag, message.author.avatarURL({ dynamic: true }));
 
@@ -121,10 +122,16 @@ if(await db.get(`check.check`) == true){
                 return message.channel.send("I'am not authorized to ban users on this server")
             }
 
-            const target = message.mentions.members.first()
-            if (target == true) {
-                target.ban()
-            } else { message.channel.send("I can't execute this command") }
+            let member = message.mentions.members.first() || message.guild.members.cache.get(args[0]) || message.guild.members.cache.find(x => x.user.username.toLowerCase() === args.slice(0).join(" ") || x.user.username === args[0]);
+
+            var reason = args[1]
+            if (!args[1]) {
+                var reason = "no reason"
+            }
+
+            await member.ban({
+                reason: reason
+            })
 
         }
     }

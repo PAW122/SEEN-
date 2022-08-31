@@ -4,6 +4,7 @@ const fs = require("fs")
 
 const config = require("../../../config/config")
 const xp_per_lvl = config.xp_per_lvl
+const xp_per_lvl_scaling = config.xp_per_lvl_scaling
 
 const { SlashCommandBuilder } = require('@discordjs/builders');
 
@@ -46,7 +47,7 @@ module.exports = {
 
         const curxp = data.xp
         const curlvl = data.level
-        const nxtLvl = curlvl * xp_per_lvl;
+        let nxtLvl = (curlvl * xp_per_lvl_scaling) * xp_per_lvl;
         const msg = data.msg + 1
 
         const embed = new Discord.MessageEmbed()
@@ -54,7 +55,7 @@ module.exports = {
             .setColor(`BLUE`)
             .setTitle(`Profil data`)
             .setDescription(`<@${authorId}> your lvl is **${curlvl + 1}**
-                to get next lvl u have ${curxp}/${(curlvl + 1) * xp_per_lvl} xp.
+                to get next lvl u have ${curxp}/${((curlvl + 1) *xp_per_lvl_scaling) * xp_per_lvl} xp.
                 you sent in total ${msg} messages`)
 
         inter.reply({ embeds: [embed] })

@@ -35,6 +35,7 @@ module.exports = {
     min_xp_per_message: 7,
     max_xp_per_message: 15,
     xp_per_lvl: 300,
+    xp_per_lvl_scaling: 1.2,
 
     //rpg
     daily_basic_coins: 1000,

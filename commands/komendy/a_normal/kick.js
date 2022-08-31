@@ -33,7 +33,7 @@ if(await db.get(`check.check`) == true){
             .setColor(`RED`)//EN
             .setTitle(`Kick`)
             .setDescription(`kick the user from the server \n
-            use: "$kick @user"`)
+            use: "$kick @user <rason>"`)
     
             .setFooter(message.author.tag, message.author.avatarURL({dynamic: true}));
     
@@ -45,7 +45,7 @@ if(await db.get(`check.check`) == true){
                 .setColor(`BLUE`)//PL
                 .setTitle(`Kick`)
                 .setDescription(`wyrzuca użytkownika z serwera\n
-                użycie: "$kick @user"`)
+                użycie: $kick @user reson`)
         
                 .setFooter(message.author.tag, message.author.avatarURL({dynamic: true}));
         
@@ -57,22 +57,25 @@ if(await db.get(`check.check`) == true){
 
         //permisje
         if(!message.member.permissions.has("KICK_MEMBERS")) {
-            return message.channel.send("nie masz uprawnień do kikowania")
+            return message.channel.send("nie masz uprawnień do kickowania")
         }
 
 
         //bot sprawdza czy ma permisje do usówania na dc
         if(!message.guild.me.permissions.has("KICK_MEMBERS")) {
-            return message.channel.send("Nie posiadam uprawnień do kikowania")
+            return message.channel.send("Nie posiadam uprawnień do kickowania")
         }
 
-        const target = message.mentions.members.first()
+        let member = message.mentions.members.first() || message.guild.members.cache.get(args[0]) || message.guild.members.cache.find(x => x.user.username.toLowerCase() === args.slice(0).join(" ") || x.user.username === args[0]);
 
-        console.log(target)
-        console.log(args)
-        if(target == true){
-        target.kick()
-        }else{message.channel.send("nie moge go wyjebać")}
+        var reason = args[1]
+        if(!args[1]){
+            var reason = "no reason"
+        }
+
+        await member.kick({
+            reason: reason
+        })
 
     }
     }

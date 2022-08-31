@@ -79,6 +79,7 @@ npm i js-queue
     95.zrobić my anime list na deafultowo wyłączoną (antyspam)
     96.zrobić komende, która pozwala mi wysłać dowolną wiadomość na dowolny kanał nawet jak nie mam uprawnień
     97.dodać lekkie skalowanie lvl(expa) np x1.2
+    98.zrobić mute na (/)
 
     WAŻNY UPDATE: if (settings != true) zamieniamy na => if (settings == false)
 ## zapisać czy może kasix albo remek chcą bota :)
@@ -189,21 +190,17 @@ która "tworzy" db na czystych i czytelnych plikh json
 # testowanie komend: start 23:30
 wszystkie warianty komendy + helpy + /
 $awatar
-$embed -- nie ładuje się grafika na testowym embedzie
-$clear -- (/) slash nie wysyła wiadomości z liczbą usuniętych wiadomości
+$embed
+$clear
 $botinfo
 /srvinfo -- zrobić execute
 $ankieta -- (/) na slashah bot nie zostawia emotek pod ankietą
-$ruletka -- (/) -- usunąć możliwość wpisywania ilości graczy bo to nic nie zmienia
+$ruletka
 $random
-$kick -- naprawić albo usunąć
-$ban -- naprawić labo usunąć
-$updaty -- albo napisać od nowa albo wyjebać
+$kick
+$ban
 $8ball
 $message_logs -- dodać tam try i catch (żeby wyłapywało wrazie zadużego pliku)
-$blitzstats -- do wyłączenia , ogarnąć żeby errorów nie wywalało
-$blitzclan -- do wyłączenia
-$autorole -- wyjebać bo nie jest zrobione !!!!!!!!!!!!!!!!!!!!
 $report
 $contact
 $sv_set -- wszystkie komendy do przetestowania

@@ -123,8 +123,7 @@ module.exports = {
 
                 }
         }catch(err){
-            //przez niedorobiony slashcommand handler zawsze wywali 1 error
-            return 0
+            console.log(err)
         }
             },
 
