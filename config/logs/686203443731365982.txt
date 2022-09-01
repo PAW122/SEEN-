@@ -87,3 +87,17 @@ Marko123car
 30.08.2022   00:36   spam   Aftermath#0045   
 30.08.2022   04:48   spam   _Bounced#2829   V-stats utop1a_ 30
 30.08.2022   04:49   spam   Aftermath#0045   
+1.09.2022   02:28   ---   spam   _Bounced#2829   V-stats s0ulwavw
+1.09.2022   02:28   ---   spam   Aftermath#0045   Player `s0ulwavw` is not tracked by Aftermath, please specify the server to start tracking.
+1.09.2022   02:29   ---   spam   _Bounced#2829   V-stats s0ulwave
+1.09.2022   02:29   ---   spam   Aftermath#0045   Uh-oh, an error has occured:
+```There is not enough data to generate a session.```
+1.09.2022   02:39   ---   spam   _Bounced#2829   V-stats qadirjewgasser
+1.09.2022   02:39   ---   spam   Aftermath#0045   Player `qadirjewgasser` is not tracked by Aftermath, please specify the server to start tracking.
+1.09.2022   02:39   ---   spam   Aftermath#0045   Aftermath just started tracking this account, please check again after playing a few battles.
+1.09.2022   04:38   ---   spam   _Bounced#2829   
+1.09.2022   04:52   ---   spam   _Bounced#2829   V-stats abuthebombmakingmachine
+1.09.2022   04:52   ---   spam   Aftermath#0045   
+1.09.2022   05:08   ---   spam   Aftermath#0045   
+1.09.2022   05:11   ---   spam   Aftermath#0045   
+1.09.2022   05:15   ---   spam   Aftermath#0045   
