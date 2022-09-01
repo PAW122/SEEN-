@@ -10,7 +10,7 @@ const { SlashCommandBuilder } = require('@discordjs/builders');
 module.exports = {
     name: "eval",
 
-    execute: async (message, args) => {
+    execute: async (message, args,client) => {
 
         async function main(){
             if (message.author.id != owner_id) {

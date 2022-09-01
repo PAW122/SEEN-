@@ -5104,3 +5104,28 @@ you currently have: 1300 💵
 1.09.2022   19:02   priv   bot   PAW#5844   $bank
 1.09.2022   19:02   priv   bot   SEEN-#5771   
 1.09.2022   19:02   priv   bot   -V1PE#3809   
+1.09.2022   23:09   priv   bot   PAW#5844   $eval const channelId = client.guild.channels.cache.get()
+        console.log(channelId)
+1.09.2022   23:09   priv   bot   -V1PE#3809   You meke mistake, error code:
+```js
+ReferenceError: client is not defined```
+1.09.2022   23:09   priv   bot   -V1PE#3809   You meke mistake, error code:
+```js
+ReferenceError: client is not defined```
+1.09.2022   23:09   priv   bot   -V1PE#3809   
+1.09.2022   23:09   priv   bot   -V1PE#3809   
+1.09.2022   23:10   priv   727662119553728532   bot   PAW#5844   $eval const channelId = client.guild.channels.cache.get()
+        console.log(channelId)
+1.09.2022   23:10   priv   727662119553728532   bot   -V1PE#3809   You meke mistake, error code:
+```js
+TypeError: Cannot read properties of undefined (reading 'channels')```
+1.09.2022   23:10   priv   727662119553728532   bot   -V1PE#3809   You meke mistake, error code:
+```js
+ReferenceError: client is not defined```
+1.09.2022   23:11   priv   727662119553728532   bot   PAW#5844   $eval client.channels.cache.find(channel => channel.name === "ogólny");
+1.09.2022   23:11   priv   727662119553728532   bot   -V1PE#3809   You meke mistake, error code:
+```js
+ReferenceError: client is not defined```
+1.09.2022   23:11   priv   727662119553728532   bot   -V1PE#3809   Sucesfully executed code:
+```js
+ client.channels.cache.find(channel => channel.name === "ogólny");```
