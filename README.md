@@ -81,6 +81,19 @@ npm i js-queue
     98.zrobić mute na (/)
     99.zrobić komendę lockdown, króra zamyka kanał i tylko administratorzu mogą na nim pisać
     100.zrobić koemndę shutdown z eval()
+    101.sprawdzić działanie unban i dodać go do helpa
+    102.jeżelu urzytkownik ma zablokowanego bota i wywoła jego komendę to bot ma 
+    odpowiedzieć "Wysyłam komendę kiedy mie odblokujesz" (po angielsku)
+    103.dodać żeby po użyciu $roll pokazywało ile razy urzytkownik może ejszcze dzisiaj użyć roll
+    104.dodać żeby w $bank pokazywało, czy urzytkownik miał dodawane monety
+    105.czasami po użyciu economy deafult jest informacja, że już dzisiaj użyłeś komendy daily(prawdopodobnie czasami bot wogóle nie resetuje db do deafult)
+    106.do seenprofilhandler(bank) -- dodać informacje o najwyższym zakładzie(jednorazowaj przegranej (urzytkownika,serwera,globalnie)), dodać ilość przegranych razy
+    107.dodać możliwość sprawdzania czyiś profili ($profil) i na profilu bota mają być wszystkie monety (bank global)
+    108.naprawić api (na versni 0.7 settings db działa a na 1.0 juz nie !!)
+    109.dodać nowe rzeczy do api(lvl notyfication, globalbank)
+    110. Zrobić z api wersje "Graficzna" (normalną strone internetową z wszystkimi informacjami i ustawieniami serwera na przycisk narazie bez weryfikacji discorda)
+
+    !!na lapku wywaliło error z lvling_handler.js: 75:69 undefind(reading:'send')
 
     WAŻNY UPDATE: if (settings != true) zamieniamy na => if (settings == false)
 ## zapisać czy może kasix albo remek chcą bota :)

@@ -17,7 +17,7 @@ module.exports = {
                 .setDescription('Enter id of a user that you wish to unban')
                 .setRequired(true)
         )),
-    async execute(inter) {
+        executeInteraction: async (inter) => {
 
         //load server settings
         const guildId = inter.guild.id

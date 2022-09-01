@@ -4704,59 +4704,14 @@ SyntaxError: Illegal return statement```
 31.08.2022   19:48   priv   bot   PAW#5844   .
 31.08.2022   20:52   priv   bot   PAW#5844   test
 31.08.2022   20:59   priv   bot   PAW#5844   .
-31.08.2022   22:42   priv   bot   PAW#5844   $ping
-31.08.2022   22:42   priv   bot   SEEN-#5771   pong!
-31.08.2022   23:50   priv   ogólny   PAW#5844   Ogarnąć dc music bota z pendrajwa i wrzucić go do seena
-31.08.2022   23:52   priv   ogólny   PAW#5844   !
-1.09.2022   08:50   priv   bot   PAW#5844   $help
-1.09.2022   08:50   priv   bot   SEEN-#5771   
-1.09.2022   08:50   priv   bot   SEEN-#5771   
-1.09.2022   10:14   priv   bot   SEEN-#5771   
-1.09.2022   10:14   priv   bot   PAW#5844   21zł dla krokieta
-1.09.2022   11:51   priv   bot   PAW#5844   $help
-1.09.2022   11:51   priv   bot   SEEN-#5771   
-1.09.2022   11:51   priv   bot   SEEN-#5771   
-1.09.2022   11:51   priv   bot   PAW#5844   $daily
-1.09.2022   11:51   priv   bot   SEEN-#5771   You can receive weekly reward
- use $weekly to claim your reward
-1.09.2022   11:51   priv   bot   SEEN-#5771   You got 50 💵
-                you have a total of 1050 💵
-1.09.2022   11:51   priv   bot   PAW#5844   $weekly
-1.09.2022   11:51   priv   bot   SEEN-#5771   You recived 500 💵
-            You have a total of 1550 💵
-1.09.2022   11:52   priv   bot   PAW#5844   $roll 50
-1.09.2022   11:52   priv   bot   SEEN-#5771   You lost 50 💵
-                    
-you currently have: 1500 💵
-1.09.2022   11:53   priv   bot   PAW#5844   $report help
-1.09.2022   11:53   priv   bot   SEEN-#5771   send questions / send bug reports
-            usage: $report <example-text>
-            example: $report how is this command working?
-1.09.2022   12:01   priv   bot   PAW#5844   Dodać komendę jail
-1.09.2022   12:06   priv   bot   PAW#5844   Do komendy eval dodać cały string ze zmienną która przerywa wykonywanie kodu
-1.09.2022   12:14   priv   bot   PAW#5844   Do logów w zmianie nicku dodać if nowynick == null wysłać deafultowy nick
-1.09.2022   15:56   priv   ogólny   PAW#5844   do zrobienia na bocie -- wordlee
-https://youtube.com/shorts/cXW4lNpQ1DA?feature=share
-1.09.2022   17:15   priv   ogólny   PAW#5844   
-1.09.2022   17:18   priv   ogólny   PAW#5844   
-1.09.2022   17:18   priv   bot   PAW#5844   $help
-1.09.2022   17:18   priv   bot   SEEN-#5771   
-1.09.2022   17:18   priv   bot   SEEN-#5771   
-1.09.2022   17:18   priv   bot   PAW#5844   $lvl help
-1.09.2022   17:18   priv   bot   SEEN-#5771   
-1.09.2022   17:18   priv   bot   PAW#5844   $srv_set
-1.09.2022   17:18   priv   bot   SEEN-#5771   
-1.09.2022   17:18   priv   bot   PAW#5844   $srv_set list
-1.09.2022   17:18   priv   bot   SEEN-#5771   
-1.09.2022   17:18   priv   bot   SEEN-#5771   
 1.09.2022   17:34   priv   bot   PAW#5844   $bank
 1.09.2022   17:34   priv   bot   SEEN-#5771   
 1.09.2022   17:34   priv   bot   -V1PE#3809   
-1.09.2022   17:35   priv   bot   PAW#5844   $roll 100
-1.09.2022   17:35   priv   bot   SEEN-#5771   You lost 100 💵
+1.09.2022   17:34   priv   bot   PAW#5844   $roll 100
+1.09.2022   17:34   priv   bot   SEEN-#5771   You lost 100 💵
                     
 you currently have: 1400 💵
-1.09.2022   17:35   priv   bot   -V1PE#3809   You lost 100 💵
+1.09.2022   17:34   priv   bot   -V1PE#3809   You lost 100 💵
                     
 you currently have: 900 💵
 1.09.2022   17:35   priv   bot   PAW#5844   $bank
@@ -4886,7 +4841,7 @@ Items: ,
 1.09.2022   17:56   priv   bot   -V1PE#3809   masz 1000 💵
         
 Items: ,
-1.09.2022   17:57   priv   bot   PAW#5844   $roll 100
+1.09.2022   17:56   priv   bot   PAW#5844   $roll 100
 1.09.2022   17:57   priv   bot   SEEN-#5771   You won 200 💵
                     
 you currently have: 1377 💵
@@ -4911,7 +4866,6 @@ Items: ,
 1.09.2022   17:58   priv   bot   PAW#5844   $bank deafult
 1.09.2022   17:58   priv   bot   SEEN-#5771   
 1.09.2022   17:58   priv   bot   -V1PE#3809   Set data to deafult
-1.09.2022   18:00   priv   bot   PAW#5844   $profil
 1.09.2022   18:00   priv   bot   SEEN-#5771   masz 1377 💵
         
 Items: ,
@@ -4939,9 +4893,9 @@ you currently have: 1277 💵
                     
 you currently have: 1200 💵
 1.09.2022   18:00   priv   bot   SEEN-#5771   roll możesz użyć maksymalnie 15 razy dziennie
-1.09.2022   18:01   priv   bot   PAW#5844   $bank deafult
-1.09.2022   18:01   priv   bot   SEEN-#5771   
-1.09.2022   18:01   priv   bot   -V1PE#3809   Set data to deafult
+1.09.2022   18:00   priv   bot   PAW#5844   $bank deafult
+1.09.2022   18:00   priv   bot   SEEN-#5771   
+1.09.2022   18:00   priv   bot   -V1PE#3809   Set data to deafult
 1.09.2022   18:01   priv   bot   PAW#5844   $roll 10
 1.09.2022   18:01   priv   bot   -V1PE#3809   You won 20 💵
                     
@@ -4966,9 +4920,9 @@ you currently have: 1200 💵
 1.09.2022   18:01   priv   bot   PAW#5844   $bank
 1.09.2022   18:01   priv   bot   SEEN-#5771   
 1.09.2022   18:01   priv   bot   -V1PE#3809   
-1.09.2022   18:02   priv   bot   PAW#5844   $bank
-1.09.2022   18:02   priv   bot   SEEN-#5771   
-1.09.2022   18:02   priv   bot   -V1PE#3809   
+1.09.2022   18:01   priv   bot   PAW#5844   $bank
+1.09.2022   18:01   priv   bot   SEEN-#5771   
+1.09.2022   18:01   priv   bot   -V1PE#3809   
 1.09.2022   18:02   priv   bot   PAW#5844   $roll 100
 1.09.2022   18:02   priv   bot   SEEN-#5771   roll możesz użyć maksymalnie 15 razy dziennie
 1.09.2022   18:02   priv   bot   -V1PE#3809   You won 200 💵
@@ -5003,9 +4957,9 @@ you currently have: 1300 💵
 1.09.2022   18:03   priv   bot   PAW#5844   $ecodeafult
 1.09.2022   18:03   priv   bot   -V1PE#3809   The economy has been updated
 1.09.2022   18:03   priv   bot   SEEN-#5771   The economy has been updated
-1.09.2022   18:41   priv   bot   PAW#5844   $ecodeafult
-1.09.2022   18:41   priv   bot   -V1PE#3809   The economy has been updated
-1.09.2022   18:41   priv   bot   SEEN-#5771   The economy has been updated
+1.09.2022   18:40   priv   bot   PAW#5844   $ecodeafult
+1.09.2022   18:40   priv   bot   -V1PE#3809   The economy has been updated
+1.09.2022   18:40   priv   bot   SEEN-#5771   The economy has been updated
 1.09.2022   18:41   priv   bot   PAW#5844   $bank deafult
 1.09.2022   18:41   priv   bot   SEEN-#5771   
 1.09.2022   18:41   priv   bot   -V1PE#3809   Set data to deafult
@@ -5109,8 +5063,6 @@ you currently have: 1280 💵
 1.09.2022   18:55   priv   bot   -V1PE#3809   
 1.09.2022   18:55   priv   bot   SEEN-#5771   
 1.09.2022   18:55   priv   minc-serv-18   SEEN-#5771   
-1.09.2022   18:56   priv   bot   PAW#5844   $bank deafult
-1.09.2022   18:56   priv   bot   SEEN-#5771   
 1.09.2022   18:57   priv   bot   PAW#5844   $bank deafult
 1.09.2022   18:57   priv   bot   SEEN-#5771   
 1.09.2022   18:57   priv   bot   -V1PE#3809   Set data to deafult
@@ -5123,12 +5075,12 @@ you currently have: 1280 💵
 1.09.2022   19:00   priv   bot   PAW#5844   $bank
 1.09.2022   19:00   priv   bot   -V1PE#3809   
 1.09.2022   19:00   priv   bot   SEEN-#5771   
-1.09.2022   19:02   priv   bot   PAW#5844   $bank deafult
-1.09.2022   19:02   priv   bot   SEEN-#5771   
-1.09.2022   19:02   priv   bot   -V1PE#3809   Set data to deafult
-1.09.2022   19:02   priv   bot   PAW#5844   $bank
-1.09.2022   19:02   priv   bot   SEEN-#5771   
-1.09.2022   19:02   priv   bot   -V1PE#3809   
+1.09.2022   19:01   priv   bot   PAW#5844   $bank deafult
+1.09.2022   19:01   priv   bot   SEEN-#5771   
+1.09.2022   19:01   priv   bot   -V1PE#3809   Set data to deafult
+1.09.2022   19:01   priv   bot   PAW#5844   $bank
+1.09.2022   19:01   priv   bot   SEEN-#5771   
+1.09.2022   19:01   priv   bot   -V1PE#3809   
 1.09.2022   19:02   priv   bot   PAW#5844   $roll 10
 1.09.2022   19:02   priv   bot   -V1PE#3809   You lost 10 💵
                     
@@ -5152,40 +5104,3 @@ you currently have: 1300 💵
 1.09.2022   19:02   priv   bot   PAW#5844   $bank
 1.09.2022   19:02   priv   bot   SEEN-#5771   
 1.09.2022   19:02   priv   bot   -V1PE#3809   
-1.09.2022   21:29   priv   ogólny   PAW#5844   Dodać coś ala looybox z rolami. Admin może dodać ileś ról i włączyć losowanie, podać ile razy użytkownik morze wziąść udział w losowaniu
-
-Ilość losowań 1
-Urzytkwnik losuje i dostake role
-1.09.2022   21:29   priv   ogólny   PAW#5844   _________________
-
-______
-1.09.2022   21:29   priv   ogólny   PAW#5844   Dodać ruoetke na muty--
-Do włączenia przez admina, przegrany dostaje muta na ileś h (deafultowo 1h)
-1.09.2022   22:43   priv   bot   PAW#5844   $profil
-1.09.2022   22:43   priv   bot   -V1PE#3809   masz 870 💵
-        
-Items: ,
-1.09.2022   22:43   priv   bot   SEEN-#5771   masz 900 💵
-        
-Items: ,
-1.09.2022   22:44   priv   bot   PAW#5844   $help
-1.09.2022   22:44   priv   bot   -V1PE#3809   
-1.09.2022   22:44   priv   bot   SEEN-#5771   
-1.09.2022   22:44   priv   bot   -V1PE#3809   
-1.09.2022   22:44   priv   bot   SEEN-#5771   
-1.09.2022   22:44   priv   bot   PAW#5844   $srv_set
-1.09.2022   22:44   priv   bot   SEEN-#5771   
-1.09.2022   22:44   priv   bot   -V1PE#3809   
-1.09.2022   22:44   priv   bot   PAW#5844   $settings deafult
-1.09.2022   22:44   priv   minc-serv-18   SEEN-#5771   
-1.09.2022   22:44   priv   minc-serv-18   -V1PE#3809   
-1.09.2022   22:44   priv   bot   -V1PE#3809   deafult settings have been restored
-1.09.2022   22:44   priv   bot   SEEN-#5771   deafult settings have been restored
-1.09.2022   22:45   priv   bot   PAW#5844   $srv_set list
-1.09.2022   22:45   priv   bot   SEEN-#5771   
-1.09.2022   22:45   priv   bot   -V1PE#3809   
-1.09.2022   22:45   priv   bot   -V1PE#3809   
-1.09.2022   22:45   priv   bot   SEEN-#5771   
-1.09.2022   22:50   priv   bot   PAW#5844   $ping
-1.09.2022   22:50   priv   bot   -V1PE#3809   pong!
-1.09.2022   22:50   priv   bot   SEEN-#5771   pong!

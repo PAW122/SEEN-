@@ -6,6 +6,46 @@ module.exports = {
 
     execute: async (message, args, client) => {
 
+        if(args[0] == "help"){
+            return message.reply("$bank -- users lost coins\n $bank deafult -- reset data \n $bank mydeafult -- set your losed coins to 0")
+        }
+
+        if(args[0] == "deafult"){
+            const guildId = message.guild.id
+            const userId = message.author.id
+
+            //sprawdż uprawnienia admina
+            if (!message.member.permissions.has("ADMINISTRATOR")) {
+                return message.reply("You don't have admin authorization")
+            }
+
+            //user ma admina
+            const localdb = new QuickDB({ filePath: process.cwd() + `/db/economy/local_economy/${guildId}local.sqlite` });
+            const globaldb = new QuickDB({ filePath: process.cwd() + `/db/economy/local_economy/${guildId}global.sqlite` });
+            const userdb = new QuickDB({ filePath: process.cwd() + `/db/economy/local_economy/${guildId}.sqlite` });
+        
+            //od globala odejmij coinsy które były na serweże
+            const server_coins = await localdb.get(`coins`)
+            const global_coins = await globaldb.get(`roll_lost`)
+
+            const global_coins_set = parseInt(global_coins) - parseInt(server_coins)
+            await globaldb.set(`roll_lost`, global_coins_set)
+
+            //usuń wszystko
+            await localdb.deleteAll()
+            await userdb.set(`${userId}.roll_lost`, 0)
+
+            return message.reply("Set data to deafult")
+        }
+
+        if(args[0] == "mydeafult"){
+            if (!message.member.permissions.has("ADMINISTRATOR")) {
+                return message.reply("You don't have admin authorization")
+            }
+            await userdb.set(`${userId}.roll_lost`, 0)
+            return message.reply("Your loset coins is set on 0")
+        }
+
         const guildId = message.guild.id
         const userId = message.author.id
 
@@ -24,9 +64,9 @@ module.exports = {
             .setTitle(`Bank Status`)
             .setDescription("How many coins been losed using rool command?")
             .setFields(
-                { name: "You", value: `${user_lost_coins}` },
-                { name: "Server", value: `${server_lost_coins}` },
-                { name: "All servers (Global)", value: `${global_lost_coins}` }
+                { name: "Your losed coins", value: `${user_lost_coins}` },
+                { name: "Server losed coins", value: `${server_lost_coins}` },
+                { name: "All servers (Global) losed coins", value: `${global_lost_coins}` }
             )
         message.channel.send({ embeds: [embed] })//.then(msg => {msg.delete(5000)})
 
