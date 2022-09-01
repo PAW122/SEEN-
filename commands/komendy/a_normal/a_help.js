@@ -43,7 +43,8 @@ const embed_pl = new Discord.MessageEmbed()
     .setDescription(`U can use '${prefix}helpen' for a description in English\nlista wszystkich komend:`)
     .addFields(
         { name: `------------------------------------------------------------------------`, value: `----------------------------------------------------------------------`, inline: false },
-        {name: `animegif`,value: `${prefix}animegif help\n${prefix}animegif help en`,inline: true},
+        { name: `animegif`,value: `${prefix}animegif help\n${prefix}animegif help en`,inline: true},
+        { name: `Bank`, value: `check how many coins u losed using $roll:\n $bank help`, inline: true },
         { name: `SEEN - ANIME`, value: `lista komend dostępna pod:\n $animeseen help`, inline: true },
         { name: `ANIME`, value: `lista komend dostępna pod:\n $anime help`, inline: true },
     )

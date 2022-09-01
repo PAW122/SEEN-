@@ -81,6 +81,13 @@ npm i js-queue
     98.zrobić mute na (/)
     99.zrobić komendę lockdown, króra zamyka kanał i tylko administratorzu mogą na nim pisać
     100.zrobić koemndę shutdown z eval()
+    101.sprawdzić działanie unban i dodać go do helpa
+    102.jeżelu urzytkownik ma zablokowanego bota i wywoła jego komendę to bot ma 
+    odpowiedzieć "Wysyłam komendę kiedy mie odblokujesz" (po angielsku)
+    103.dodać żeby po użyciu $roll pokazywało ile razy urzytkownik może ejszcze dzisiaj użyć roll
+    104.dodać żeby w $bank pokazywało, czy urzytkownik miał dodawane monety
+    105.czasami po użyciu economy deafult jest informacja, że już dzisiaj użyłeś komendy daily(prawdopodobnie czasami bot wogóle nie resetuje db do deafult)
+    106.do seenprofilhandler(bank) -- dodać informacje o najwyższym zakładzie(jednorazowaj przegranej (urzytkownika,serwera,globalnie)), dodać ilość przegranych razy
 
     !!na lapku wywaliło error z lvling_handler.js: 75:69 undefind(reading:'send')
 

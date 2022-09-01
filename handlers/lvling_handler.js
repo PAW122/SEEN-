@@ -76,7 +76,7 @@ module.exports = (client) => {
                     } catch (err) {
                         console.log(err)
                         save_data()
-                        return message.channel.send("Probably administration set wrong channel id")
+                        return message.channel.send("Probably administration set wrong channel id.\n Use **$settings lvls_channel <channel_ID>**")
                     }
                 }
 

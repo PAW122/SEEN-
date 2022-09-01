@@ -35,49 +35,47 @@ module.exports = (message, lost_coins) => {
             var lostCoins = parseInt(lost_coins)
         }
 
-        //jeżeli db nie istnieje stwórz 
-
-        //jeżeli urzytkownik nie miał dodawanych moe
-        if (await userdb.get(`${userId}.added_coins`) != true) {
-
-            //localdb = ilość przegranych monet na serweże
-            if (await localdb.get(`check`) != true) {
-                //stwórz db
-                await localdb.set(`check`, true)
-                await localdb.set(`coins`, lostCoins)
-            } else {
-                const coins = await localdb.get(`coins`)
-                const coins_to_add = parseInt(coins) + lostCoins
-                await localdb.set(`coins`, coins_to_add)
-            }
 
 
-            //user db
-            //żeby urzyć rool urzytkownik musi posiadać konto więc można odrazu przypisać
-            await userdb.set(`${userId}.roll_lost`, lostCoins)
+        //losed roll -- serwerowe
+        if (await localdb.get(`check`) != true) {
+            await localdb.set(`check`, true)
+            await localdb.set(`coins`, lostCoins)
         } else {
-            return
+            //(coinsy serwerowe)
+            const coins = await localdb.get(`coins`)
+            const coins_to_add = coins + lostCoins
+            await localdb.set(`coins`, coins_to_add)
         }
 
 
-        console.log(await userdb.get(`${userId}.added_coins`))
-        if (await userdb.get(`${userId}.added_coins`) == true) return
-        console.log("work")
-        //global
-        if (await globaldb.get(`check`) == true) {
-            console.log("true")
-            //stwrz db
-            await globaldb.set(`check`, true)
-            await globaldb.set(`roll_lost`, lostCoins)
+        //losed roll -- urzytkownika
+        const user_coins = await userdb.get(`${userId}.roll_lost`)
+        if (!user_coins) {
+            await userdb.set(`${userId}.roll_lost`, lostCoins)
         } else {
-            console.log("false")
-            const coins = await globaldb.get(`roll_lost`)
-            if (coins == null) {
-                const coins = 0
+            const set_user_coins = user_coins + lostCoins
+            await userdb.set(`${userId}.roll_lost`, set_user_coins)
+        }
+
+
+        //losed roll -- globalne
+        if (await userdb.get(`${userId}.added_coins`) != true) {
+            //global
+            if (await globaldb.get(`check`) != true) {
+                console.log("true")
+                //stwrz db
+                await globaldb.set(`check`, true)
+                await globaldb.set(`roll_lost`, lostCoins)
+            } else {
+                const coins = await globaldb.get(`roll_lost`)
+                if (!coins) {
+                    await globaldb.set(`roll_lost`, lostCoins)
+                } else {
+                    const coins_to_add = coins + lostCoins
+                    await globaldb.set(`roll_lost`, coins_to_add)
+                }
             }
-            const coins_to_add = parseInt(coins) + lostCoins
-            console.log(coins_to_add)
-            await globaldb.set(`roll_lost`, coins_to_add)
         }
     }
     work(message, lost_coins)

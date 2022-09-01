@@ -4704,3 +4704,403 @@ SyntaxError: Illegal return statement```
 31.08.2022   19:48   priv   bot   PAW#5844   .
 31.08.2022   20:52   priv   bot   PAW#5844   test
 31.08.2022   20:59   priv   bot   PAW#5844   .
+1.09.2022   17:34   priv   bot   PAW#5844   $bank
+1.09.2022   17:34   priv   bot   SEEN-#5771   
+1.09.2022   17:34   priv   bot   -V1PE#3809   
+1.09.2022   17:34   priv   bot   PAW#5844   $roll 100
+1.09.2022   17:34   priv   bot   SEEN-#5771   You lost 100 💵
+                    
+you currently have: 1400 💵
+1.09.2022   17:34   priv   bot   -V1PE#3809   You lost 100 💵
+                    
+you currently have: 900 💵
+1.09.2022   17:35   priv   bot   PAW#5844   $bank
+1.09.2022   17:35   priv   bot   SEEN-#5771   
+1.09.2022   17:35   priv   bot   -V1PE#3809   
+1.09.2022   17:37   priv   bot   PAW#5844   $bank
+1.09.2022   17:37   priv   bot   SEEN-#5771   
+1.09.2022   17:37   priv   bot   -V1PE#3809   
+1.09.2022   17:37   priv   bot   PAW#5844   $roll 1
+1.09.2022   17:37   priv   bot   SEEN-#5771   You lost 1 💵
+                    
+you currently have: 1399 💵
+1.09.2022   17:37   priv   bot   -V1PE#3809   You lost 1 💵
+                    
+you currently have: 899 💵
+1.09.2022   17:38   priv   bot   PAW#5844   $roll 1
+1.09.2022   17:38   priv   bot   -V1PE#3809   You won 2 💵
+                    
+you currently have: 901 💵
+1.09.2022   17:38   priv   bot   SEEN-#5771   You lost 1 💵
+                    
+you currently have: 1398 💵
+1.09.2022   17:38   priv   bot   PAW#5844   $bank
+1.09.2022   17:38   priv   bot   -V1PE#3809   
+1.09.2022   17:38   priv   bot   SEEN-#5771   
+1.09.2022   17:38   priv   bot   PAW#5844   $roll 1
+1.09.2022   17:38   priv   bot   -V1PE#3809   You lost 1 💵
+                    
+you currently have: 900 💵
+1.09.2022   17:38   priv   bot   SEEN-#5771   You lost 1 💵
+                    
+you currently have: 1397 💵
+1.09.2022   17:38   priv   bot   PAW#5844   $bank
+1.09.2022   17:38   priv   bot   SEEN-#5771   
+1.09.2022   17:38   priv   bot   -V1PE#3809   
+1.09.2022   17:46   priv   bot   PAW#5844   $bank deafult
+1.09.2022   17:46   priv   bot   SEEN-#5771   
+1.09.2022   17:46   priv   bot   -V1PE#3809   Set data to deafult
+1.09.2022   17:48   priv   bot   PAW#5844   $bank
+1.09.2022   17:48   priv   bot   SEEN-#5771   
+1.09.2022   17:48   priv   bot   -V1PE#3809   
+1.09.2022   17:48   priv   bot   PAW#5844   $roll 1
+1.09.2022   17:48   priv   bot   SEEN-#5771   You lost 1 💵
+                    
+you currently have: 1396 💵
+1.09.2022   17:48   priv   bot   -V1PE#3809   Your profile has been created
+1.09.2022   17:48   priv   bot   PAW#5844   $bank
+1.09.2022   17:48   priv   bot   -V1PE#3809   
+1.09.2022   17:48   priv   bot   SEEN-#5771   
+1.09.2022   17:50   priv   bot   PAW#5844   $roll 1
+1.09.2022   17:50   priv   bot   SEEN-#5771   You won 2 💵
+                    
+you currently have: 1398 💵
+1.09.2022   17:50   priv   bot   -V1PE#3809   You lost 1 💵
+                    
+you currently have: 999 💵
+1.09.2022   17:50   priv   bot   PAW#5844   $bank
+1.09.2022   17:50   priv   bot   SEEN-#5771   
+1.09.2022   17:50   priv   bot   -V1PE#3809   
+1.09.2022   17:50   priv   bot   PAW#5844   $roll 100
+1.09.2022   17:50   priv   bot   -V1PE#3809   You lost 100 💵
+                    
+you currently have: 899 💵
+1.09.2022   17:50   priv   bot   SEEN-#5771   You lost 100 💵
+                    
+you currently have: 1298 💵
+1.09.2022   17:50   priv   bot   PAW#5844   $bank
+1.09.2022   17:50   priv   bot   SEEN-#5771   
+1.09.2022   17:50   priv   bot   -V1PE#3809   
+1.09.2022   17:51   priv   bot   PAW#5844   $roll 10
+1.09.2022   17:51   priv   bot   SEEN-#5771   You won 20 💵
+                    
+you currently have: 1318 💵
+1.09.2022   17:51   priv   bot   -V1PE#3809   You lost 10 💵
+                    
+you currently have: 889 💵
+1.09.2022   17:52   priv   bot   PAW#5844   $roll 10
+1.09.2022   17:52   priv   bot   -V1PE#3809   You lost 10 💵
+                    
+you currently have: 879 💵
+1.09.2022   17:52   priv   bot   SEEN-#5771   You lost 10 💵
+                    
+you currently have: 1308 💵
+1.09.2022   17:54   priv   bot   PAW#5844   $roll 10
+1.09.2022   17:54   priv   bot   -V1PE#3809   You lost 10 💵
+                    
+you currently have: 869 💵
+1.09.2022   17:54   priv   bot   SEEN-#5771   You won 20 💵
+                    
+you currently have: 1328 💵
+1.09.2022   17:54   priv   bot   PAW#5844   $bank
+1.09.2022   17:54   priv   bot   -V1PE#3809   
+1.09.2022   17:54   priv   bot   SEEN-#5771   
+1.09.2022   17:54   priv   bot   PAW#5844   $bank deafult
+1.09.2022   17:54   priv   bot   SEEN-#5771   
+1.09.2022   17:54   priv   bot   -V1PE#3809   Set data to deafult
+1.09.2022   17:54   priv   bot   PAW#5844   $bank
+1.09.2022   17:54   priv   bot   -V1PE#3809   
+1.09.2022   17:54   priv   bot   SEEN-#5771   
+1.09.2022   17:54   priv   bot   PAW#5844   $roll 100
+1.09.2022   17:54   priv   bot   SEEN-#5771   You lost 100 💵
+                    
+you currently have: 1228 💵
+1.09.2022   17:54   priv   bot   -V1PE#3809   Your profile has been created
+1.09.2022   17:54   priv   bot   PAW#5844   $roll 50
+1.09.2022   17:54   priv   bot   SEEN-#5771   You lost 50 💵
+                    
+you currently have: 1178 💵
+1.09.2022   17:54   priv   bot   -V1PE#3809   You lost 50 💵
+                    
+you currently have: 950 💵
+1.09.2022   17:54   priv   bot   PAW#5844   $bank
+1.09.2022   17:54   priv   bot   SEEN-#5771   
+1.09.2022   17:54   priv   bot   -V1PE#3809   
+1.09.2022   17:56   priv   bot   PAW#5844   $bank deafult
+1.09.2022   17:56   priv   bot   SEEN-#5771   
+1.09.2022   17:56   priv   bot   -V1PE#3809   Set data to deafult
+1.09.2022   17:56   priv   bot   PAW#5844   $roll 1
+1.09.2022   17:56   priv   bot   SEEN-#5771   You lost 1 💵
+                    
+you currently have: 1177 💵
+1.09.2022   17:56   priv   bot   -V1PE#3809   Your profile has been created
+1.09.2022   17:56   priv   bot   PAW#5844   $profil
+1.09.2022   17:56   priv   bot   SEEN-#5771   masz 1177 💵
+        
+Items: ,
+1.09.2022   17:56   priv   bot   -V1PE#3809   masz 1000 💵
+        
+Items: ,
+1.09.2022   17:56   priv   bot   PAW#5844   $roll 100
+1.09.2022   17:57   priv   bot   SEEN-#5771   You won 200 💵
+                    
+you currently have: 1377 💵
+1.09.2022   17:57   priv   bot   -V1PE#3809   You won 200 💵
+                    
+you currently have: 1200 💵
+1.09.2022   17:57   priv   bot   PAW#5844   $profil
+1.09.2022   17:57   priv   bot   SEEN-#5771   masz 1377 💵
+        
+Items: ,
+1.09.2022   17:57   priv   bot   -V1PE#3809   masz 1200 💵
+        
+Items: ,
+1.09.2022   17:57   priv   bot   PAW#5844   $bank deafult
+1.09.2022   17:57   priv   bot   SEEN-#5771   
+1.09.2022   17:57   priv   bot   -V1PE#3809   Set data to deafult
+1.09.2022   17:57   priv   bot   PAW#5844   $profil
+1.09.2022   17:57   priv   bot   SEEN-#5771   masz 1377 💵
+        
+Items: ,
+1.09.2022   17:57   priv   bot   -V1PE#3809   Your profile has been created
+1.09.2022   17:58   priv   bot   PAW#5844   $bank deafult
+1.09.2022   17:58   priv   bot   SEEN-#5771   
+1.09.2022   17:58   priv   bot   -V1PE#3809   Set data to deafult
+1.09.2022   18:00   priv   bot   SEEN-#5771   masz 1377 💵
+        
+Items: ,
+1.09.2022   18:00   priv   bot   PAW#5844   $profil
+1.09.2022   18:00   priv   bot   SEEN-#5771   masz 1377 💵
+        
+Items: ,
+1.09.2022   18:00   priv   bot   -V1PE#3809   Your profile has been created
+1.09.2022   18:00   priv   bot   PAW#5844   $profil
+1.09.2022   18:00   priv   bot   -V1PE#3809   masz 1000 💵
+        
+Items: ,
+1.09.2022   18:00   priv   bot   SEEN-#5771   masz 1377 💵
+        
+Items: ,
+1.09.2022   18:00   priv   bot   PAW#5844   $roll 100
+1.09.2022   18:00   priv   bot   -V1PE#3809   You won 200 💵
+                    
+you currently have: 1200 💵
+1.09.2022   18:00   priv   bot   SEEN-#5771   You lost 100 💵
+                    
+you currently have: 1277 💵
+1.09.2022   18:00   priv   bot   PAW#5844   $roll 0
+1.09.2022   18:00   priv   bot   -V1PE#3809   You lost 0 💵
+                    
+you currently have: 1200 💵
+1.09.2022   18:00   priv   bot   SEEN-#5771   roll możesz użyć maksymalnie 15 razy dziennie
+1.09.2022   18:00   priv   bot   PAW#5844   $bank deafult
+1.09.2022   18:00   priv   bot   SEEN-#5771   
+1.09.2022   18:00   priv   bot   -V1PE#3809   Set data to deafult
+1.09.2022   18:01   priv   bot   PAW#5844   $roll 10
+1.09.2022   18:01   priv   bot   -V1PE#3809   You won 20 💵
+                    
+you currently have: 1220 💵
+1.09.2022   18:01   priv   bot   SEEN-#5771   roll możesz użyć maksymalnie 15 razy dziennie
+1.09.2022   18:01   priv   bot   PAW#5844   $bank
+1.09.2022   18:01   priv   bot   SEEN-#5771   
+1.09.2022   18:01   priv   bot   -V1PE#3809   
+1.09.2022   18:01   priv   bot   PAW#5844   $roll 10
+1.09.2022   18:01   priv   bot   SEEN-#5771   roll możesz użyć maksymalnie 15 razy dziennie
+1.09.2022   18:01   priv   bot   -V1PE#3809   You lost 10 💵
+                    
+you currently have: 1210 💵
+1.09.2022   18:01   priv   bot   PAW#5844   $bank
+1.09.2022   18:01   priv   bot   SEEN-#5771   
+1.09.2022   18:01   priv   bot   -V1PE#3809   
+1.09.2022   18:01   priv   bot   PAW#5844   $roll 10
+1.09.2022   18:01   priv   bot   SEEN-#5771   roll możesz użyć maksymalnie 15 razy dziennie
+1.09.2022   18:01   priv   bot   -V1PE#3809   You lost 10 💵
+                    
+you currently have: 1200 💵
+1.09.2022   18:01   priv   bot   PAW#5844   $bank
+1.09.2022   18:01   priv   bot   SEEN-#5771   
+1.09.2022   18:01   priv   bot   -V1PE#3809   
+1.09.2022   18:01   priv   bot   PAW#5844   $bank
+1.09.2022   18:01   priv   bot   SEEN-#5771   
+1.09.2022   18:01   priv   bot   -V1PE#3809   
+1.09.2022   18:02   priv   bot   PAW#5844   $roll 100
+1.09.2022   18:02   priv   bot   SEEN-#5771   roll możesz użyć maksymalnie 15 razy dziennie
+1.09.2022   18:02   priv   bot   -V1PE#3809   You won 200 💵
+                    
+you currently have: 1400 💵
+1.09.2022   18:02   priv   bot   PAW#5844   $bank
+1.09.2022   18:02   priv   bot   -V1PE#3809   
+1.09.2022   18:02   priv   bot   SEEN-#5771   
+1.09.2022   18:02   priv   bot   PAW#5844   $roll 100
+1.09.2022   18:02   priv   bot   -V1PE#3809   You lost 100 💵
+                    
+you currently have: 1300 💵
+1.09.2022   18:02   priv   bot   SEEN-#5771   roll możesz użyć maksymalnie 15 razy dziennie
+1.09.2022   18:02   priv   bot   PAW#5844   $bank
+1.09.2022   18:02   priv   bot   -V1PE#3809   
+1.09.2022   18:02   priv   bot   SEEN-#5771   
+1.09.2022   18:02   priv   bot   PAW#5844   $bank
+1.09.2022   18:02   priv   bot   -V1PE#3809   
+1.09.2022   18:02   priv   bot   SEEN-#5771   
+1.09.2022   18:03   priv   bot   PAW#5844   $bank deafult
+1.09.2022   18:03   priv   bot   SEEN-#5771   
+1.09.2022   18:03   priv   bot   -V1PE#3809   Set data to deafult
+1.09.2022   18:03   priv   bot   PAW#5844   $economy deafult
+1.09.2022   18:03   priv   bot   PAW#5844   $help
+1.09.2022   18:03   priv   bot   SEEN-#5771   
+1.09.2022   18:03   priv   bot   -V1PE#3809   
+1.09.2022   18:03   priv   bot   SEEN-#5771   
+1.09.2022   18:03   priv   bot   -V1PE#3809   
+1.09.2022   18:03   priv   bot   PAW#5844   $helpeco
+1.09.2022   18:03   priv   bot   SEEN-#5771   
+1.09.2022   18:03   priv   bot   -V1PE#3809   
+1.09.2022   18:03   priv   bot   PAW#5844   $ecodeafult
+1.09.2022   18:03   priv   bot   -V1PE#3809   The economy has been updated
+1.09.2022   18:03   priv   bot   SEEN-#5771   The economy has been updated
+1.09.2022   18:40   priv   bot   PAW#5844   $ecodeafult
+1.09.2022   18:40   priv   bot   -V1PE#3809   The economy has been updated
+1.09.2022   18:40   priv   bot   SEEN-#5771   The economy has been updated
+1.09.2022   18:41   priv   bot   PAW#5844   $bank deafult
+1.09.2022   18:41   priv   bot   SEEN-#5771   
+1.09.2022   18:41   priv   bot   -V1PE#3809   Set data to deafult
+1.09.2022   18:41   priv   bot   PAW#5844   $daily
+1.09.2022   18:41   priv   bot   -V1PE#3809   Odebrałeś już dzisiejszą nagrode. Spróbuj ponownie jutro
+1.09.2022   18:41   priv   bot   SEEN-#5771   Your profile has been created
+1.09.2022   18:44   priv   bot   PAW#5844   $roll 10
+1.09.2022   18:44   priv   bot   SEEN-#5771   You lost 10 💵
+                    
+you currently have: 990 💵
+1.09.2022   18:44   priv   bot   -V1PE#3809   roll możesz użyć maksymalnie 15 razy dziennie
+1.09.2022   18:44   priv   bot   PAW#5844   $ecodeafult
+1.09.2022   18:44   priv   bot   -V1PE#3809   The economy has been updated
+1.09.2022   18:44   priv   bot   SEEN-#5771   The economy has been updated
+1.09.2022   18:44   priv   bot   PAW#5844   $roll 10
+1.09.2022   18:44   priv   bot   SEEN-#5771   Your profile has been created
+1.09.2022   18:44   priv   bot   -V1PE#3809   Your profile has been created
+1.09.2022   18:44   priv   bot   PAW#5844   $roll 10
+1.09.2022   18:44   priv   bot   SEEN-#5771   You lost 10 💵
+                    
+you currently have: 990 💵
+1.09.2022   18:44   priv   bot   -V1PE#3809   You lost 10 💵
+                    
+you currently have: 990 💵
+1.09.2022   18:45   priv   bot   PAW#5844   $roll 10
+1.09.2022   18:45   priv   bot   -V1PE#3809   You lost 10 💵
+                    
+you currently have: 980 💵
+1.09.2022   18:45   priv   bot   SEEN-#5771   You lost 10 💵
+                    
+you currently have: 980 💵
+1.09.2022   18:45   priv   bot   Senko#3667   $roll 20
+1.09.2022   18:45   priv   bot   -V1PE#3809   Your profile has been created
+1.09.2022   18:45   priv   bot   SEEN-#5771   Your profile has been created
+1.09.2022   18:45   priv   bot   Senko#3667   $roll 20
+1.09.2022   18:45   priv   bot   SEEN-#5771   You lost 20 💵
+                    
+you currently have: 980 💵
+1.09.2022   18:45   priv   bot   -V1PE#3809   You lost 20 💵
+                    
+you currently have: 980 💵
+1.09.2022   18:45   priv   bot   PAW#5844   $bank
+1.09.2022   18:45   priv   bot   SEEN-#5771   
+1.09.2022   18:45   priv   bot   -V1PE#3809   
+1.09.2022   18:45   priv   bot   Senko#3667   $bank
+1.09.2022   18:45   priv   bot   SEEN-#5771   
+1.09.2022   18:45   priv   bot   -V1PE#3809   
+1.09.2022   18:52   priv   bot   PAW#5844   $bank deafult
+1.09.2022   18:52   priv   bot   -V1PE#3809   Set data to deafult
+1.09.2022   18:52   priv   bot   SEEN-#5771   
+1.09.2022   18:52   priv   bot   PAW#5844   $roll 100
+1.09.2022   18:52   priv   bot   -V1PE#3809   You lost 100 💵
+                    
+you currently have: 880 💵
+1.09.2022   18:52   priv   bot   SEEN-#5771   You lost 100 💵
+                    
+you currently have: 880 💵
+1.09.2022   18:52   priv   bot   Senko#3667   $roll 100
+1.09.2022   18:52   priv   bot   -V1PE#3809   You won 200 💵
+                    
+you currently have: 1180 💵
+1.09.2022   18:52   priv   bot   SEEN-#5771   You won 200 💵
+                    
+you currently have: 1180 💵
+1.09.2022   18:52   priv   bot   Senko#3667   $roll 100
+1.09.2022   18:52   priv   bot   -V1PE#3809   You won 200 💵
+                    
+you currently have: 1380 💵
+1.09.2022   18:52   priv   bot   SEEN-#5771   You won 200 💵
+                    
+you currently have: 1380 💵
+1.09.2022   18:52   priv   bot   Senko#3667   $roll 100
+1.09.2022   18:52   priv   bot   -V1PE#3809   You lost 100 💵
+                    
+you currently have: 1280 💵
+1.09.2022   18:52   priv   bot   SEEN-#5771   You lost 100 💵
+                    
+you currently have: 1280 💵
+1.09.2022   18:52   priv   bot   PAW#5844   $bank
+1.09.2022   18:52   priv   bot   SEEN-#5771   
+1.09.2022   18:52   priv   bot   -V1PE#3809   
+1.09.2022   18:53   priv   bot   PAW#5844   $bank deafult
+1.09.2022   18:53   priv   bot   -V1PE#3809   Set data to deafult
+1.09.2022   18:53   priv   bot   SEEN-#5771   
+1.09.2022   18:53   priv   bot   PAW#5844   $bank
+1.09.2022   18:53   priv   bot   SEEN-#5771   
+1.09.2022   18:53   priv   bot   -V1PE#3809   
+1.09.2022   18:54   priv   bot   PAW#5844   $bank
+1.09.2022   18:54   priv   bot   -V1PE#3809   
+1.09.2022   18:54   priv   bot   SEEN-#5771   
+1.09.2022   18:55   priv   bot   PAW#5844   $bank deafult
+1.09.2022   18:55   priv   bot   -V1PE#3809   Set data to deafult
+1.09.2022   18:55   priv   bot   SEEN-#5771   
+1.09.2022   18:55   priv   bot   PAW#5844   $bank
+1.09.2022   18:55   priv   bot   -V1PE#3809   
+1.09.2022   18:55   priv   bot   SEEN-#5771   
+1.09.2022   18:55   priv   bot   PAW#5844   $bank deafult
+1.09.2022   18:55   priv   bot   -V1PE#3809   Set data to deafult
+1.09.2022   18:55   priv   bot   SEEN-#5771   
+1.09.2022   18:55   priv   bot   PAW#5844   $bank
+1.09.2022   18:55   priv   bot   -V1PE#3809   
+1.09.2022   18:55   priv   bot   SEEN-#5771   
+1.09.2022   18:55   priv   minc-serv-18   SEEN-#5771   
+1.09.2022   18:57   priv   bot   PAW#5844   $bank deafult
+1.09.2022   18:57   priv   bot   SEEN-#5771   
+1.09.2022   18:57   priv   bot   -V1PE#3809   Set data to deafult
+1.09.2022   18:57   priv   bot   PAW#5844   $bank
+1.09.2022   18:57   priv   bot   SEEN-#5771   
+1.09.2022   18:57   priv   bot   -V1PE#3809   
+1.09.2022   19:00   priv   bot   PAW#5844   $bank deafult
+1.09.2022   19:00   priv   bot   SEEN-#5771   
+1.09.2022   19:00   priv   bot   -V1PE#3809   Set data to deafult
+1.09.2022   19:00   priv   bot   PAW#5844   $bank
+1.09.2022   19:00   priv   bot   -V1PE#3809   
+1.09.2022   19:00   priv   bot   SEEN-#5771   
+1.09.2022   19:01   priv   bot   PAW#5844   $bank deafult
+1.09.2022   19:01   priv   bot   SEEN-#5771   
+1.09.2022   19:01   priv   bot   -V1PE#3809   Set data to deafult
+1.09.2022   19:01   priv   bot   PAW#5844   $bank
+1.09.2022   19:01   priv   bot   SEEN-#5771   
+1.09.2022   19:01   priv   bot   -V1PE#3809   
+1.09.2022   19:02   priv   bot   PAW#5844   $roll 10
+1.09.2022   19:02   priv   bot   -V1PE#3809   You lost 10 💵
+                    
+you currently have: 870 💵
+1.09.2022   19:02   priv   bot   SEEN-#5771   You won 20 💵
+                    
+you currently have: 900 💵
+1.09.2022   19:02   priv   bot   PAW#5844   $bank
+1.09.2022   19:02   priv   bot   -V1PE#3809   
+1.09.2022   19:02   priv   bot   SEEN-#5771   
+1.09.2022   19:02   priv   bot   Senko#3667   $roll 10
+1.09.2022   19:02   priv   bot   SEEN-#5771   You lost 10 💵
+                    
+you currently have: 1270 💵
+1.09.2022   19:02   priv   bot   -V1PE#3809   You won 20 💵
+                    
+you currently have: 1300 💵
+1.09.2022   19:02   priv   bot   Senko#3667   $bank
+1.09.2022   19:02   priv   bot   SEEN-#5771   
+1.09.2022   19:02   priv   bot   -V1PE#3809   
+1.09.2022   19:02   priv   bot   PAW#5844   $bank
+1.09.2022   19:02   priv   bot   SEEN-#5771   
+1.09.2022   19:02   priv   bot   -V1PE#3809   
