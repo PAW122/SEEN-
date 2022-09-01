@@ -92,7 +92,11 @@ npm i js-queue
     108.naprawić api (na versni 0.7 settings db działa a na 1.0 juz nie !!)
     109.dodać nowe rzeczy do api(lvl notyfication, globalbank)
     110. Zrobić z api wersje "Graficzna" (normalną strone internetową z wszystkimi informacjami i ustawieniami serwera na przycisk narazie bez weryfikacji discorda)
-
+    111.dodać ruletke na muty
+    112.Dodać coś ala looybox z rolami. Admin może dodać ileś ról i włączyć losowanie, podać ile razy użytkownik morze wziąść udział w losowaniu
+    113.dodać jail
+    114.dodać do mod_logs do client.on zmiananicku if(nowynick == null) w embedzie zamiast null ma być aktualny nick
+    115.create woordle (na priv filmik na generalu)
     !!na lapku wywaliło error z lvling_handler.js: 75:69 undefind(reading:'send')
 
     WAŻNY UPDATE: if (settings != true) zamieniamy na => if (settings == false)

@@ -74,6 +74,10 @@ module.exports = (client) => {
                         save_data()
                         return client.channels.cache.get(channel_id).send({ embeds: [embed] });
                     } catch (err) {
+                        if(err == "Cannot read properties of undefined (reading 'send')"){
+                            save_data()
+                            return message.channel.send("Probably administration set wrong channel id.\n Use **$settings lvls_channel <channel_ID>**")
+                        }
                         console.log(err)
                         save_data()
                         return message.channel.send("Probably administration set wrong channel id.\n Use **$settings lvls_channel <channel_ID>**")

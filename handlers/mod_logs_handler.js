@@ -30,29 +30,6 @@ const guildId = channel.guild.id
 main()
 });
 
-// Channel Permission Updating
-client.on("guildChannelPermissionsUpdate", (channel, oldPermissions, newPermissions) => {
-
-    async function main(){
-const guildId = channel.guild.id
-    const db = new QuickDB({ filePath: process.cwd() + `/db/srv_logs/${guildId}.sqlite` });
-    if (await db.get(`check`) != true || await db.get(`guildChannelPermissionsUpdate`) != true) {return}else{var channelID = await db.get(`channelId`)}
-    
-
-    const LogChannel = client.channels.cache.get(channelID); // Replace with your channel id
-    const PermissionUpdate = new MessageEmbed()
-        .setTitle('Permission Updated!')
-        .setColor('#2F3136')
-        .setDescription(`${channel.name}'s permissions updated!"`);
-
-    return LogChannel.send({
-        embeds: [PermissionUpdate]
-    });
-}
-main()
-
-})
-
 // unhandled Guild Channel Update
 client.on("unhandledGuildChannelUpdate", (oldChannel, newChannel) => {
 

@@ -5129,3 +5129,34 @@ ReferenceError: client is not defined```
 1.09.2022   23:11   priv   727662119553728532   bot   -V1PE#3809   Sucesfully executed code:
 ```js
  client.channels.cache.find(channel => channel.name === "ogólny");```
+1.09.2022   23:17   priv   727662119553728532   bot   PAW#5844   $eval console.log("test")
+1.09.2022   23:17   priv   727662119553728532   bot   -V1PE#3809   Sucesfully executed code:
+```js
+ console.log("test")```
+1.09.2022   23:17   priv   727662119553728532   bot   SEEN-#5771   Sucesfully executed code:
+```js
+ console.log("test")```
+1.09.2022   23:17   priv   727662119553728532   bot   -V1PE#3809   ```js
+undefined```
+1.09.2022   23:19   priv   727662119553728532   bot   PAW#5844   $eval console.log("test")
+1.09.2022   23:19   priv   727662119553728532   bot   -V1PE#3809   Sucesfully executed code:
+```js
+ console.log("test")```
+1.09.2022   23:19   priv   727662119553728532   bot   SEEN-#5771   Sucesfully executed code:
+```js
+ console.log("test")```
+1.09.2022   23:19   priv   727662119553728532   bot   -V1PE#3809   ```js
+undefined```
+1.09.2022   23:48   priv   727662119553728532   bot   PAW#5844   $guild_info 1014213623763193896
+1.09.2022   23:48   priv   727662119553728532   bot   SEEN-#5771   
+1.09.2022   23:49   priv   727662119553728532   bot   PAW#5844   $guild_info 1014213623763193896
+1.09.2022   23:49   priv   727662119553728532   bot   SEEN-#5771   
+1.09.2022   23:54   priv   727662119553728532   bot   PAW#5844   $guild_info 1014213623763193896
+1.09.2022   23:54   priv   727662119553728532   bot   SEEN-#5771   
+2.09.2022   00:04   priv   727662119553728532   bot   PAW#5844   $eval help
+2.09.2022   00:04   priv   727662119553728532   bot   SEEN-#5771   
+2.09.2022   00:04   priv   727662119553728532   bot   SEEN-#5771   You meke mistake, error code:
+```js
+ReferenceError: help is not defined```
+2.09.2022   00:05   priv   727662119553728532   bot   PAW#5844   $owner
+2.09.2022   00:05   priv   727662119553728532   bot   SEEN-#5771   

@@ -6,19 +6,33 @@ const config = require("../../../config/config")
 const prefix = config.prefix
 const owner_id = config.owner_id
 const { SlashCommandBuilder } = require('@discordjs/builders');
-
+const Discord = require("discord.js")
 module.exports = {
     name: "eval",
 
-    execute: async (message, args,client) => {
+    execute: async (message, args, client) => {
+        if (message.author.id != owner_id) {
+            return message.reply("Only bot owner can execute code")
+        }
+        if (args[0] == "help") {
+            const embed_en = new Discord.MessageEmbed()
+                .setColor(`RED`)
+                .setTitle(`Example commands`)
+                .setFields(
+                    { name: "shut down bot", value: `$eval process.exit(1);` },
+                    { name: "test", value: `$eval message.channel.send("test")` },
 
-        async function main(){
+                )
+           return message.channel.send({ embeds: [embed_en] });
+        }
+
+
+        async function main() {
             if (message.author.id != owner_id) {
                 return message.reply("Only bot owner can execute code")
             }
             try {
                 const code = eval(message.content.replace(`${prefix}eval`, ""));
-
 
 
                 //jeżeli wykonany kod jest stringiem => wyślij na kanał
@@ -33,14 +47,6 @@ module.exports = {
             }
         }
         main()
-        
-
-
-
-
-
-
-
 
     }
 }
