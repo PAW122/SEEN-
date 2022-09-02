@@ -226,3 +226,9 @@ $economy -- ogarnąć coś z wersjami db w helpie, przetestować komendy z ekono
 $srv_logs -- wszystko przetestowane
 $animegif
 # koniec testów 00:39
+
+
+# strona www ( api )
+po włączeniu strony jeżeli urzytkownik będzie chciał zatwierdzić zmiany ustawień serwera do właściciela serwera na dc będzie wywyłany kod z informacją, że urzytkownik chce edytować ustawienia serwera
+
+żeby zapisać ustawienia na stronie urzytkownik musi potwierdzidż toższamośc wpisując kod wysłany do właściciela strony
