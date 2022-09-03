@@ -5160,3 +5160,37 @@ undefined```
 ReferenceError: help is not defined```
 2.09.2022   00:05   priv   727662119553728532   bot   PAW#5844   $owner
 2.09.2022   00:05   priv   727662119553728532   bot   SEEN-#5771   
+3.09.2022   15:36   priv   727662119553728532   bot   -V1PE#3809   stworzono trwoje konto
+3.09.2022   15:38   priv   727662119553728532   bot   -V1PE#3809   stworzono trwoje konto
+3.09.2022   15:39   priv   727662119553728532   bot   -V1PE#3809   posiadasz jużkonto
+3.09.2022   15:39   priv   727662119553728532   bot   -V1PE#3809   posiadasz jużkonto
+3.09.2022   15:39   priv   727662119553728532   bot   -V1PE#3809   stworzono trwoje konto
+3.09.2022   17:00   priv   727662119553728532   bot   PAW#5844   $guild_members_info 727662119553728532
+3.09.2022   17:00   priv   727662119553728532   bot   -V1PE#3809   
+3.09.2022   17:00   priv   727662119553728532   bot   PAW#5844   $guild_members_info 727662119553728532
+3.09.2022   17:00   priv   727662119553728532   bot   -V1PE#3809   
+3.09.2022   17:02   priv   727662119553728532   bot   PAW#5844   $guild_members_info 727662119553728532
+3.09.2022   17:02   priv   727662119553728532   bot   -V1PE#3809   
+3.09.2022   17:02   priv   727662119553728532   bot   PAW#5844   $guild_members_info 727662119553728532
+3.09.2022   17:02   priv   727662119553728532   bot   -V1PE#3809   
+3.09.2022   17:04   priv   727662119553728532   bot   PAW#5844   $guild_members_info 727662119553728532
+3.09.2022   17:04   priv   727662119553728532   bot   -V1PE#3809   
+3.09.2022   17:06   priv   727662119553728532   bot   PAW#5844   $guild_members_info 727662119553728532
+3.09.2022   17:06   priv   727662119553728532   bot   -V1PE#3809   
+3.09.2022   17:06   priv   727662119553728532   minc-serv-18   -V1PE#3809   
+3.09.2022   17:06   priv   727662119553728532   minc-serv-18   SEEN-#5771   
+3.09.2022   17:07   priv   727662119553728532   bot   PAW#5844   $guild_members_info 438621187132751873
+3.09.2022   17:07   priv   727662119553728532   bot   -V1PE#3809   
+3.09.2022   17:11   priv   727662119553728532   bot   PAW#5844   $bot_servers
+3.09.2022   17:11   priv   727662119553728532   bot   -V1PE#3809   nie podałeś guild id
+3.09.2022   17:12   priv   727662119553728532   bot   PAW#5844   $bot_servers
+3.09.2022   17:12   priv   727662119553728532   bot   -V1PE#3809   
+3.09.2022   17:12   priv   727662119553728532   bot   PAW#5844   $bot_servers
+3.09.2022   17:12   priv   727662119553728532   bot   -V1PE#3809   
+3.09.2022   17:14   priv   727662119553728532   bot   PAW#5844   $bot_servers
+3.09.2022   17:14   priv   727662119553728532   bot   -V1PE#3809   
+3.09.2022   17:15   priv   727662119553728532   bot   PAW#5844   $bot_servers
+3.09.2022   17:15   priv   727662119553728532   bot   -V1PE#3809   
+3.09.2022   17:15   priv   727662119553728532   bot   SEEN-#5771   
+3.09.2022   17:16   priv   727662119553728532   bot   PAW#5844   $bot_servers
+3.09.2022   17:16   priv   727662119553728532   bot   -V1PE#3809   

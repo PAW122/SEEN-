@@ -1,5 +1,19 @@
 module.exports = {
 
+    //daily
+    daily_basic_coins: 1000,
+    daily_basic_daimonds_min: 5,
+    daily_basic_daimonds_max: 50,
+    daily_basic_xp_min: 1000,
+    daily_basic_xp_max: 5000,
+    rpg_coins_emoji: "💵",
+
+    //shop (lvl1 cost)
+    basic_hełm_upgrade_cost: 150,
+    basic_klata_upgrade_cost: 200,
+    basic_spodnie_upgrade_cost: 150,
+    basic_buty_upgrade_cost: 100,
+
     //grafika gui:
     heart_icon: "c/",//ikonka serduszka(życia)
     armor_icon: "",//ikonka tarczy(armora)

@@ -17,6 +17,7 @@ module.exports = {
             {name: "guild_info", value: `$guild_info <guildId>`},
             {name: "send_user", value: `$send_user <userId> <test>`},
             {name: "eval", value: `$eval <code>`},
+            {name: "guild_members_info", value: "$guild_members_info <guildID>"}
 
         )
         message.channel.send({ embeds: [embed_en] });
