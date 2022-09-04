@@ -33,7 +33,7 @@ module.exports = (message,client) => {
         await db.set(`anime_seem_help`, { worker: true, reason: "this command is disabled on this server." })
         await db.set(`anime_help`, { worker: true, reason: "this command is disabled on this server." })
         await db.set(`updaty`, { worker: true, reason: "this command is disabled on this server." })
-        await db.set(`anime_list`, { worker: true, reason: "this command is disabled on this server." })
+        await db.set(`anime_list`, { worker: false, reason: "this command is deafult disabled to prevent users from spamming\n administrator can use **$settings on anime_list**"})
         await db.set(`ankieta`, { worker: true, reason: "this command is disabled on this server." })
         await db.set(`awatar`, { worker: true, reason: "this command is disabled on this server." })
         await db.set(`ban`, { worker: true, reason: "this command is disabled on this server." })
