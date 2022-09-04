@@ -97,6 +97,8 @@ npm i js-queue
     113.dodać jail
     114.dodać do mod_logs do client.on zmiananicku if(nowynick == null) w embedzie zamiast null ma być aktualny nick
     115.create woordle (na priv filmik na generalu)
+
+    116.zrobić różne guizy
     !!na lapku wywaliło error z lvling_handler.js: 75:69 undefind(reading:'send')
 
     WAŻNY UPDATE: if (settings != true) zamieniamy na => if (settings == false)
@@ -226,3 +228,9 @@ $economy -- ogarnąć coś z wersjami db w helpie, przetestować komendy z ekono
 $srv_logs -- wszystko przetestowane
 $animegif
 # koniec testów 00:39
+
+
+# strona www ( api )
+po włączeniu strony jeżeli urzytkownik będzie chciał zatwierdzić zmiany ustawień serwera do właściciela serwera na dc będzie wywyłany kod z informacją, że urzytkownik chce edytować ustawienia serwera
+
+żeby zapisać ustawienia na stronie urzytkownik musi potwierdzidż toższamośc wpisując kod wysłany do właściciela strony
