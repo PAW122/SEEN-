@@ -5411,3 +5411,31 @@ you currently have: 910 💵
 4.09.2022   18:37   priv   727662119553728532   ogólny   PAW#5844   https://youtu.be/3hQQTEzdOmo
 4.09.2022   18:52   priv   727662119553728532   bot   PAW#5844   $ping
 4.09.2022   18:52   priv   727662119553728532   bot   SEEN-#5771   pong!
+4.09.2022   21:16   priv   727662119553728532   bot   PAW#5844   $flags
+4.09.2022   21:16   priv   727662119553728532   bot   SEEN-#5771   A: Austria
+B:Côte d'Ivoire
+C:Saint Kitts and Nevis
+D:Qatar
+4.09.2022   21:16   priv   727662119553728532   bot   SEEN-#5771   
+4.09.2022   21:16   priv   727662119553728532   bot   PAW#5844   C
+4.09.2022   21:16   priv   727662119553728532   bot   SEEN-#5771   Bad answer. Correct answer is: **A**
+4.09.2022   21:16   priv   727662119553728532   bot   SEEN-#5771   <@438336824516149249> best combo is: **1**
+4.09.2022   21:18   priv   727662119553728532   bot   PAW#5844   $flags
+4.09.2022   21:18   priv   727662119553728532   bot   SEEN-#5771   A: Benin
+B:United Arab Emirates
+C:Venezuela
+D:France
+4.09.2022   21:18   priv   727662119553728532   bot   SEEN-#5771   
+4.09.2022   21:18   priv   727662119553728532   bot   PAW#5844   B
+4.09.2022   21:18   priv   727662119553728532   bot   SEEN-#5771   Bad answer. Correct answer is: **A**
+4.09.2022   21:18   priv   727662119553728532   bot   SEEN-#5771   <@438336824516149249> best combo is: **1**
+4.09.2022   22:23   priv   727662119553728532   bot   PAW#5844   $flags
+4.09.2022   22:23   priv   727662119553728532   bot   SEEN-#5771   A: Israel
+B:Tonga
+C:Greece
+D:Congo (Congo-Brazzaville)
+4.09.2022   22:23   priv   727662119553728532   bot   SEEN-#5771   
+4.09.2022   22:23   priv   727662119553728532   bot   SEEN-#5771   
+4.09.2022   22:23   priv   727662119553728532   bot   PAW#5844   A
+4.09.2022   22:24   priv   727662119553728532   bot   SEEN-#5771   Bad answer. Correct answer is: **B**
+4.09.2022   22:24   priv   727662119553728532   bot   SEEN-#5771   <@438336824516149249> best combo is: **1**

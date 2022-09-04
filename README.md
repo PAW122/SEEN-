@@ -94,6 +94,7 @@ npm i js-queue
     115.create woordle (na priv filmik na generalu)
     116.zrobić różne quizy
     117.dodać takie cuś, jeżeli urzytkownik ma w nick SEEN-nick to dostaje jakiś bonus w ekonomi
+    118.zakualizowac mal
 
     !!na lapku wywaliło error z lvling_handler.js: 75:69 undefind(reading:'send')
 

@@ -7,11 +7,13 @@ const { QuickDB } = require("quick.db")
 const data = require("./data.json")
 const Discord = require("discord.js")
 const handler = require("./top")
+
 module.exports = {
     name: "flags",
 
     execute: async (message, args, client) => {
-
+        process.setMaxListeners(0);
+       // process.on('warning', e => { console.log(e)});
         //load server settings
         const author = message.author.id
         const guildId = message.guild.id

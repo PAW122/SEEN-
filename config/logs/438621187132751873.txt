@@ -4096,3 +4096,513 @@ B:Armenia
 C:Romania
 D:Yemen
 4.09.2022   19:18   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   
+4.09.2022   19:18   Porg Comunuty   438621187132751873   『-🤖-』botownia   ToxicWaste#1928   B
+4.09.2022   19:18   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   Good anwser
+4.09.2022   19:19   Porg Comunuty   438621187132751873   『-🤖-』botownia   ToxicWaste#1928   $flags
+4.09.2022   19:19   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   A: Djibouti
+B:Vietnam
+C:Samoa
+D:Central African Republic
+4.09.2022   19:19   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   
+4.09.2022   19:19   Porg Comunuty   438621187132751873   『-🤖-』botownia   ToxicWaste#1928   B
+4.09.2022   19:19   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   Good anwser
+4.09.2022   19:19   Porg Comunuty   438621187132751873   『-🤖-』botownia   ToxicWaste#1928   $flags
+4.09.2022   19:19   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   A: Bhutan
+B:Mauritius
+C:Colombia
+D:Yemen
+4.09.2022   19:19   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   
+4.09.2022   19:19   Porg Comunuty   438621187132751873   『-💭-』general   Porg Generał#5726   
+4.09.2022   19:19   Porg Comunuty   438621187132751873   『-🤖-』botownia   ToxicWaste#1928   B
+4.09.2022   19:19   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   Good anwser
+4.09.2022   19:20   Porg Comunuty   438621187132751873   『-👮moderacja-』   Porg Generał#5726   !rank
+4.09.2022   19:20   Porg Comunuty   438621187132751873   『-👮moderacja-』   Carl-bot#1536   ```!rank <role>
+      ^^^^^^
+role is a required argument that is missing.```
+4.09.2022   19:20   Porg Comunuty   438621187132751873   『-👮moderacja-』   MEE6#4876   
+4.09.2022   19:20   Porg Comunuty   438621187132751873   『-kanał-dla-bota-📊-』   PAW#5844   !rank
+4.09.2022   19:20   Porg Comunuty   438621187132751873   『-kanał-dla-bota-📊-』   Carl-bot#1536   ```!rank <role>
+      ^^^^^^
+role is a required argument that is missing.```
+4.09.2022   19:20   Porg Comunuty   438621187132751873   『-kanał-dla-bota-📊-』   MEE6#4876   
+4.09.2022   19:20   Porg Comunuty   438621187132751873   『-👮moderacja-』   Porg Generał#5726   !rank <@577507822011416592>
+4.09.2022   19:20   Porg Comunuty   438621187132751873   『-👮moderacja-』   Carl-bot#1536   Role "<@​577507822011416592>" not found.
+4.09.2022   19:20   Porg Comunuty   438621187132751873   『-👮moderacja-』   MEE6#4876   
+4.09.2022   19:20   Porg Comunuty   438621187132751873   『-👮moderacja-』   Porg Generał#5726   !top
+4.09.2022   19:20   Porg Comunuty   438621187132751873   『-👮moderacja-』   ToxicWaste#1928   !wylew
+4.09.2022   19:21   Porg Comunuty   438621187132751873   『-🤖-』botownia   PAW#5844   $help
+4.09.2022   19:21   Porg Comunuty   438621187132751873   『-👮moderacja-』   ToxicWaste#1928   S?stats
+4.09.2022   19:21   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   
+4.09.2022   19:21   Porg Comunuty   438621187132751873   『-👮moderacja-』   Statbot#3472   
+4.09.2022   19:21   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   
+4.09.2022   19:21   Porg Comunuty   438621187132751873   『-👮moderacja-』   Porg Generał#5726   !rank <@438336824516149249>
+4.09.2022   19:21   Porg Comunuty   438621187132751873   『-👮moderacja-』   Carl-bot#1536   Role "<@​438336824516149249>" not found.
+4.09.2022   19:21   Porg Comunuty   438621187132751873   『-👮moderacja-』   MEE6#4876   
+4.09.2022   19:21   Porg Comunuty   438621187132751873   『-👮moderacja-』   ToxicWaste#1928   s?stats server
+4.09.2022   19:21   Porg Comunuty   438621187132751873   『-👮moderacja-』   Statbot#3472   
+4.09.2022   19:21   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   
+4.09.2022   19:21   Porg Comunuty   438621187132751873   『-👮moderacja-』   Porg Generał#5726   S?stats
+4.09.2022   19:21   Porg Comunuty   438621187132751873   『-👮moderacja-』   Statbot#3472   
+4.09.2022   19:22   Porg Comunuty   438621187132751873   『-🤖-』botownia   ToxicWaste#1928   $flags
+4.09.2022   19:22   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   A: Albania
+B:Myanmar (formerly Burma)
+C:Haiti
+D:Sweden
+4.09.2022   19:22   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   
+4.09.2022   19:22   Porg Comunuty   438621187132751873   『-🤖-』botownia   ToxicWaste#1928   B
+4.09.2022   19:22   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   Good anwser
+4.09.2022   19:23   Porg Comunuty   438621187132751873   『-🤖-』botownia   ToxicWaste#1928   $flags
+4.09.2022   19:23   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   A: Zambia
+B:Iran
+C:Somalia
+D:Eswatini (fmr. 'Swaziland')
+4.09.2022   19:23   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   
+4.09.2022   19:23   Porg Comunuty   438621187132751873   『-🤖-』botownia   ToxicWaste#1928   B
+4.09.2022   19:23   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   Good anwser
+4.09.2022   19:23   Porg Comunuty   438621187132751873   『-🤖-』botownia   ToxicWaste#1928   $flags
+4.09.2022   19:23   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   A: Timor-Leste
+B:Canada
+C:Nauru
+D:Albania
+4.09.2022   19:23   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   
+4.09.2022   19:23   Porg Comunuty   438621187132751873   『-🤖-』botownia   ToxicWaste#1928   A
+4.09.2022   19:24   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   Bad answer. Correct answer is: **C**
+4.09.2022   19:24   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   <@577507822011416592> best combo is: **7**
+4.09.2022   19:24   Porg Comunuty   438621187132751873   『-🤖-』botownia   ToxicWaste#1928   $flags
+4.09.2022   19:24   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   A: Bahrain
+B:Cabo Verde
+C:Qatar
+D:New Zealand
+4.09.2022   19:24   Porg Comunuty   438621187132751873   『-👋-』powitalnia   SEEN-#5771   
+4.09.2022   19:24   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   
+4.09.2022   19:24   Porg Comunuty   438621187132751873   『-🤖-』botownia   ToxicWaste#1928   C
+4.09.2022   19:24   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   Bad answer. Correct answer is: **A**
+4.09.2022   19:24   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   <@577507822011416592> best combo is: **7**
+4.09.2022   19:24   Porg Comunuty   438621187132751873   『-🤖-』botownia   ToxicWaste#1928   $flags
+4.09.2022   19:24   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   A: Congo (Congo-Brazzaville)
+B:Singapore
+C:Dominican Republic
+D:Guyana
+4.09.2022   19:24   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   
+4.09.2022   19:24   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+4.09.2022   19:24   Porg Comunuty   438621187132751873   『-🤖-』botownia   ToxicWaste#1928   D
+4.09.2022   19:24   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   Bad answer. Correct answer is: **C**
+4.09.2022   19:24   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   <@577507822011416592> best combo is: **7**
+4.09.2022   19:24   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+4.09.2022   19:24   Porg Comunuty   438621187132751873   『-🤖-』botownia   ToxicWaste#1928   $flags
+4.09.2022   19:24   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   A: Eritrea
+B:Philippines
+C:Chad
+D:Lebanon
+4.09.2022   19:24   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   
+4.09.2022   19:24   Porg Comunuty   438621187132751873   『-🤖-』botownia   ToxicWaste#1928   D
+4.09.2022   19:25   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   Bad answer. Correct answer is: **A**
+4.09.2022   19:25   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   <@577507822011416592> best combo is: **7**
+4.09.2022   19:25   Porg Comunuty   438621187132751873   『-🤖-』botownia   ToxicWaste#1928   $flags
+4.09.2022   19:25   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   A: Gambia
+B:Palau
+C:Comoros
+D:Indonesia
+4.09.2022   19:25   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   
+4.09.2022   19:25   Porg Comunuty   438621187132751873   『-🤖-』botownia   ToxicWaste#1928   C
+4.09.2022   19:25   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   Bad answer. Correct answer is: **A**
+4.09.2022   19:25   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   <@577507822011416592> best combo is: **7**
+4.09.2022   19:25   Porg Comunuty   438621187132751873   『-🤖-』botownia   ToxicWaste#1928   kurwica
+4.09.2022   19:25   Porg Comunuty   438621187132751873   『-🤖-』botownia   ToxicWaste#1928   $flags
+4.09.2022   19:25   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   A: Tunisia
+B:Brazil
+C:North Korea
+D:Croatia
+4.09.2022   19:25   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   
+4.09.2022   19:25   Porg Comunuty   438621187132751873   『-🤖-』botownia   ToxicWaste#1928   B
+4.09.2022   19:25   Porg Comunuty   438621187132751873   『-🤖-』botownia   ToxicWaste#1928   $flags
+4.09.2022   19:25   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   A: Pakistan
+B:Holy See
+C:Namibia
+D:Sri Lanka
+4.09.2022   19:25   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   
+4.09.2022   19:25   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   Bad answer. Correct answer is: **B**
+4.09.2022   19:25   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   <@577507822011416592> best combo is: **7**
+4.09.2022   19:25   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   Bad answer. Correct answer is: **C**
+4.09.2022   19:25   Porg Comunuty   438621187132751873   『-🤖-』botownia   ToxicWaste#1928   $flags
+4.09.2022   19:25   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   <@577507822011416592> best combo is: **7**
+4.09.2022   19:25   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   A: Sudan
+B:Brunei
+C:Mali
+D:Turkey
+4.09.2022   19:25   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   
+4.09.2022   19:25   Porg Comunuty   438621187132751873   『-🤖-』botownia   ToxicWaste#1928   C
+4.09.2022   19:25   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   Good anwser
+4.09.2022   19:26   Porg Comunuty   438621187132751873   『-🤖-』botownia   ToxicWaste#1928   $flags
+4.09.2022   19:26   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   A: Tunisia
+B:Oman
+C:Marshall Islands
+D:Sweden
+4.09.2022   19:26   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   
+4.09.2022   19:26   Porg Comunuty   438621187132751873   『-🤖-』botownia   ToxicWaste#1928   A
+4.09.2022   19:26   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   Good anwser
+4.09.2022   19:26   Porg Comunuty   438621187132751873   『-🤖-』botownia   ToxicWaste#1928   $flags
+4.09.2022   19:26   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   A: Norway
+B:Mexico
+C:Belize
+D:Bangladesh
+4.09.2022   19:26   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   
+4.09.2022   19:26   Porg Comunuty   438621187132751873   『-🤖-』botownia   ToxicWaste#1928   B
+4.09.2022   19:26   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   Good anwser
+4.09.2022   19:26   Porg Comunuty   438621187132751873   『-🤖-』botownia   ToxicWaste#1928   $flags
+4.09.2022   19:26   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   A: Guinea
+B:Marshall Islands
+C:Sri Lanka
+D:Belize
+4.09.2022   19:26   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   
+4.09.2022   19:26   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   Bad answer. Correct answer is: **A**
+4.09.2022   19:26   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   <@577507822011416592> best combo is: **7**
+4.09.2022   19:26   Porg Comunuty   438621187132751873   『-🤖-』botownia   ToxicWaste#1928   A
+4.09.2022   19:26   Porg Comunuty   438621187132751873   『-🤖-』botownia   ToxicWaste#1928   $flags
+4.09.2022   19:26   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   A: Antigua and Barbuda
+B:Germany
+C:Malaysia
+D:Ethiopia
+4.09.2022   19:26   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   
+4.09.2022   19:26   Porg Comunuty   438621187132751873   『-🤖-』botownia   ToxicWaste#1928   C
+4.09.2022   19:26   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   Good anwser
+4.09.2022   19:26   Porg Comunuty   438621187132751873   『-🤖-』botownia   ToxicWaste#1928   $flags
+4.09.2022   19:26   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   A: Belize
+B:Mexico
+C:Indonesia
+D:Cyprus
+4.09.2022   19:26   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   
+4.09.2022   19:26   Porg Comunuty   438621187132751873   『-🤖-』botownia   ToxicWaste#1928   A
+4.09.2022   19:27   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   Good anwser
+4.09.2022   19:27   Porg Comunuty   438621187132751873   『-🤖-』botownia   ToxicWaste#1928   $flags
+4.09.2022   19:27   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   A: Portugal
+B:Lithuania
+C:Sierra Leone
+D:Nicaragua
+4.09.2022   19:27   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   
+4.09.2022   19:27   Porg Comunuty   438621187132751873   『-🤖-』botownia   ToxicWaste#1928   A
+4.09.2022   19:27   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   Good anwser
+4.09.2022   19:27   Porg Comunuty   438621187132751873   『-🤖-』botownia   ToxicWaste#1928   $flags
+4.09.2022   19:27   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   A: Qatar
+B:Italy
+C:Paraguay
+D:Tuvalu
+4.09.2022   19:27   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   
+4.09.2022   19:27   Porg Comunuty   438621187132751873   『-🤖-』botownia   ToxicWaste#1928   D
+4.09.2022   19:27   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   Bad answer. Correct answer is: **C**
+4.09.2022   19:27   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   <@577507822011416592> best combo is: **7**
+4.09.2022   19:27   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+4.09.2022   19:28   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+4.09.2022   19:28   Porg Comunuty   438621187132751873   『-🤖-』botownia   ToxicWaste#1928   $flags
+4.09.2022   19:28   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   A: Central African Republic
+B:Qatar
+C:Saint Kitts and Nevis
+D:Saudi Arabia
+4.09.2022   19:28   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   
+4.09.2022   19:28   Porg Comunuty   438621187132751873   『-🤖-』botownia   ToxicWaste#1928   A
+4.09.2022   19:28   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   Good anwser
+4.09.2022   19:28   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+4.09.2022   19:28   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+4.09.2022   19:28   Porg Comunuty   438621187132751873   『-🤖-』botownia   ToxicWaste#1928   $flags
+4.09.2022   19:28   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   A: Cameroon
+B:Qatar
+C:Rwanda
+D:Botswana
+4.09.2022   19:28   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   
+4.09.2022   19:29   Porg Comunuty   438621187132751873   『-🤖-』botownia   ToxicWaste#1928   A
+4.09.2022   19:29   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   Bad answer. Correct answer is: **C**
+4.09.2022   19:29   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   <@577507822011416592> best combo is: **7**
+4.09.2022   19:29   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+4.09.2022   19:29   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+4.09.2022   19:30   Porg Comunuty   438621187132751873   『-🤖-』botownia   Porg Generał#5726   $flags
+4.09.2022   19:30   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   A: Tunisia
+B:Central African Republic
+C:Norway
+D:Armenia
+4.09.2022   19:30   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   
+4.09.2022   19:30   Porg Comunuty   438621187132751873   『-🤖-』botownia   Porg Generał#5726   A
+4.09.2022   19:30   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   Good anwser
+4.09.2022   19:30   Porg Comunuty   438621187132751873   『-🤖-』botownia   Porg Generał#5726   $flags
+4.09.2022   19:30   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   A: Kenya
+B:El Salvador
+C:Vietnam
+D:Malta
+4.09.2022   19:30   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   
+4.09.2022   19:30   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+4.09.2022   19:30   Porg Comunuty   438621187132751873   『-🤖-』botownia   Porg Generał#5726   B
+4.09.2022   19:30   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   Good anwser
+4.09.2022   19:30   Porg Comunuty   438621187132751873   『-🤖-』botownia   Porg Generał#5726   $flags
+4.09.2022   19:30   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   A: Gabon
+B:Luxembourg
+C:Burundi
+D:Burundi
+4.09.2022   19:30   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   
+4.09.2022   19:30   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+4.09.2022   19:30   Porg Comunuty   438621187132751873   『-🤖-』botownia   _Manfredi#6878   $flags
+4.09.2022   19:30   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   A: Trinidad and Tobago
+B:Turkey
+C:Palestine State
+D:Egypt
+4.09.2022   19:30   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   
+4.09.2022   19:30   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   Bad answer. Correct answer is: **B**
+4.09.2022   19:30   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   <@692621246017568799> best combo is: **3**
+4.09.2022   19:30   Porg Comunuty   438621187132751873   『-🤖-』botownia   _Manfredi#6878   C
+4.09.2022   19:30   Porg Comunuty   438621187132751873   『-🤖-』botownia   Porg Generał#5726   C
+4.09.2022   19:30   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   Bad answer. Correct answer is: **A**
+4.09.2022   19:30   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   <@759765392787767316> best combo is: **7**
+4.09.2022   19:31   Porg Comunuty   438621187132751873   『-🤖-』botownia   ToxicWaste#1928   $flags
+4.09.2022   19:31   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   A: Colombia
+B:San Marino
+C:Panama
+D:Barbados
+4.09.2022   19:31   Porg Comunuty   438621187132751873   『-👋-』powitalnia   SEEN-#5771   
+4.09.2022   19:31   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   
+4.09.2022   19:31   Porg Comunuty   438621187132751873   『-🤖-』botownia   ToxicWaste#1928   D
+4.09.2022   19:31   Porg Comunuty   438621187132751873   『-🤖-』botownia   _Manfredi#6878   $flags
+4.09.2022   19:31   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   A: Kyrgyzstan
+B:Turkey
+C:Tajikistan
+D:Ethiopia
+4.09.2022   19:31   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   
+4.09.2022   19:31   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   Bad answer. Correct answer is: **C**
+4.09.2022   19:31   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   <@577507822011416592> best combo is: **7**
+4.09.2022   19:31   Porg Comunuty   438621187132751873   『-🤖-』botownia   _Manfredi#6878   B
+4.09.2022   19:31   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   Good anwser
+4.09.2022   19:31   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+4.09.2022   19:31   Porg Comunuty   438621187132751873   『-🤖-』botownia   ToxicWaste#1928   $flags
+4.09.2022   19:31   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   A: Colombia
+B:Andorra
+C:Azerbaijan
+D:Zambia
+4.09.2022   19:31   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   
+4.09.2022   19:31   Porg Comunuty   438621187132751873   『-🤖-』botownia   _Manfredi#6878   $flags
+4.09.2022   19:31   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   A: Australia
+B:United Arab Emirates
+C:Denmark
+D:Honduras
+4.09.2022   19:31   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   
+4.09.2022   19:31   Porg Comunuty   438621187132751873   『-🤖-』botownia   ToxicWaste#1928   D
+4.09.2022   19:31   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+4.09.2022   19:31   Porg Comunuty   438621187132751873   『-🤖-』botownia   _Manfredi#6878   B
+4.09.2022   19:31   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   Bad answer. Correct answer is: **A**
+4.09.2022   19:31   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   <@577507822011416592> best combo is: **7**
+4.09.2022   19:31   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+4.09.2022   19:31   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   Bad answer. Correct answer is: **B**
+4.09.2022   19:31   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   <@759765392787767316> best combo is: **7**
+4.09.2022   19:31   Porg Comunuty   438621187132751873   『-🤖-』botownia   ToxicWaste#1928   $flags
+4.09.2022   19:31   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   A: Benin
+B:Zambia
+C:Senegal
+D:Togo
+4.09.2022   19:31   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   
+4.09.2022   19:31   Porg Comunuty   438621187132751873   『-🤖-』botownia   ToxicWaste#1928   C
+4.09.2022   19:32   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   Good anwser
+4.09.2022   19:32   Porg Comunuty   438621187132751873   『-🤖-』botownia   ToxicWaste#1928   $flags
+4.09.2022   19:32   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   A: Saint Vincent and the Grenadines
+B:Lithuania
+C:Namibia
+D:Palau
+4.09.2022   19:32   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   
+4.09.2022   19:32   Porg Comunuty   438621187132751873   『-🤖-』botownia   ToxicWaste#1928   A
+4.09.2022   19:32   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   Good anwser
+4.09.2022   19:32   Porg Comunuty   438621187132751873   『-🤖-』botownia   _Manfredi#6878   $flags
+4.09.2022   19:32   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   A: Malawi
+B:Iraq
+C:Kyrgyzstan
+D:Uruguay
+4.09.2022   19:32   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   
+4.09.2022   19:32   Porg Comunuty   438621187132751873   『-🤖-』botownia   _Manfredi#6878   C
+4.09.2022   19:32   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   Good anwser
+4.09.2022   19:32   Porg Comunuty   438621187132751873   『-🤖-』botownia   _Manfredi#6878   $flags
+4.09.2022   19:32   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   A: Poland
+B:North Korea
+C:Brunei
+D:Romania
+4.09.2022   19:32   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   
+4.09.2022   19:32   Porg Comunuty   438621187132751873   『-🤖-』botownia   ToxicWaste#1928   $flags
+4.09.2022   19:32   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   A: Bolivia
+B:Lithuania
+C:Belgium
+D:Uzbekistan
+4.09.2022   19:32   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   
+4.09.2022   19:33   Porg Comunuty   438621187132751873   『-🤖-』botownia   _Manfredi#6878   A
+4.09.2022   19:33   Porg Comunuty   438621187132751873   『-🤖-』botownia   ToxicWaste#1928   A
+4.09.2022   19:33   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   Bad answer. Correct answer is: **A**
+4.09.2022   19:33   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   <@759765392787767316> best combo is: **7**
+4.09.2022   19:33   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   Bad answer. Correct answer is: **A**
+4.09.2022   19:33   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   <@577507822011416592> best combo is: **7**
+4.09.2022   19:33   Porg Comunuty   438621187132751873   『-🤖-』botownia   ToxicWaste#1928   $flags
+4.09.2022   19:33   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   A: Sierra Leone
+B:Namibia
+C:Barbados
+D:Sri Lanka
+4.09.2022   19:33   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   
+4.09.2022   19:33   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   Bad answer. Correct answer is: **B**
+4.09.2022   19:33   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   <@577507822011416592> best combo is: **7**
+4.09.2022   19:33   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+4.09.2022   19:33   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+4.09.2022   19:33   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+4.09.2022   19:33   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+4.09.2022   19:34   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+4.09.2022   19:34   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+4.09.2022   19:34   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+4.09.2022   19:34   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+4.09.2022   19:34   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+4.09.2022   19:34   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+4.09.2022   19:35   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+4.09.2022   19:35   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+4.09.2022   19:39   Porg Comunuty   438621187132751873   『-🤖-』botownia   Porg Generał#5726   $flags
+4.09.2022   19:39   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   A: Tunisia
+B:Czechia (Czech Republic)
+C:San Marino
+D:India
+4.09.2022   19:39   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   
+4.09.2022   19:39   Porg Comunuty   438621187132751873   『-🤖-』botownia   Porg Generał#5726   A
+4.09.2022   19:39   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   Good anwser
+4.09.2022   19:39   Porg Comunuty   438621187132751873   『-🤖-』botownia   Porg Generał#5726   $flags
+4.09.2022   19:39   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   A: Slovakia
+B:Chile
+C:Jordan
+D:Saint Vincent and the Grenadines
+4.09.2022   19:39   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   
+4.09.2022   19:39   Porg Comunuty   438621187132751873   『-🤖-』botownia   Porg Generał#5726   A
+4.09.2022   19:39   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   Good anwser
+4.09.2022   19:39   Porg Comunuty   438621187132751873   『-🤖-』botownia   Porg Generał#5726   $flags
+4.09.2022   19:39   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   A: Cuba
+B:Namibia
+C:Iran
+D:Canada
+4.09.2022   19:39   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   
+4.09.2022   19:39   Porg Comunuty   438621187132751873   『-🤖-』botownia   Porg Generał#5726   B
+4.09.2022   19:39   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   Good anwser
+4.09.2022   19:40   Porg Comunuty   438621187132751873   『-🤖-』botownia   Porg Generał#5726   $flags
+4.09.2022   19:40   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   A: Haiti
+B:Yemen
+C:Australia
+D:Fiji
+4.09.2022   19:40   Porg Comunuty   438621187132751873   『-👋-』powitalnia   SEEN-#5771   
+4.09.2022   19:40   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   
+4.09.2022   19:40   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+4.09.2022   19:40   Porg Comunuty   438621187132751873   『-🤖-』botownia   Porg Generał#5726   C
+4.09.2022   19:40   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   Bad answer. Correct answer is: **B**
+4.09.2022   19:40   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   <@692621246017568799> best combo is: **3**
+4.09.2022   19:40   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+4.09.2022   19:40   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+4.09.2022   19:43   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+4.09.2022   19:43   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+4.09.2022   19:43   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+4.09.2022   19:44   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+4.09.2022   19:45   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+4.09.2022   19:45   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+4.09.2022   19:52   Porg Comunuty   438621187132751873   『-🤖-』botownia   PAW#5844   $flags
+4.09.2022   19:52   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   A: Slovakia
+B:Guinea-Bissau
+C:Afghanistan
+D:Australia
+4.09.2022   19:52   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   
+4.09.2022   19:52   Porg Comunuty   438621187132751873   『-🤖-』botownia   PAW#5844   A
+4.09.2022   19:52   Porg Comunuty   438621187132751873   『-👋-』powitalnia   SEEN-#5771   
+4.09.2022   19:52   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   Good anwser
+4.09.2022   19:52   Porg Comunuty   438621187132751873   『-🤖-』botownia   PAW#5844   $flags
+4.09.2022   19:52   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   A: New Zealand
+B:Nepal
+C:France
+D:Venezuela
+4.09.2022   19:52   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   
+4.09.2022   19:52   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+4.09.2022   19:52   Porg Comunuty   438621187132751873   『-🤖-』botownia   PAW#5844   A
+4.09.2022   19:52   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   Bad answer. Correct answer is: **B**
+4.09.2022   19:52   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   <@438336824516149249> best combo is: **1**
+4.09.2022   19:55   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+4.09.2022   19:55   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+4.09.2022   19:55   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+4.09.2022   19:55   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+4.09.2022   19:55   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+4.09.2022   19:56   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+4.09.2022   20:00   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+4.09.2022   20:01   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+4.09.2022   20:08   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+4.09.2022   20:08   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+4.09.2022   20:11   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+4.09.2022   20:12   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+4.09.2022   20:30   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+4.09.2022   20:30   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+4.09.2022   21:04   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+4.09.2022   21:06   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+4.09.2022   21:07   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+4.09.2022   21:07   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+4.09.2022   21:07   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+4.09.2022   22:11   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+4.09.2022   22:11   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+4.09.2022   22:13   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+4.09.2022   22:13   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+4.09.2022   22:48   Porg Comunuty   438621187132751873   『-🤖-』botownia   泉こなた#8031   $flags
+4.09.2022   22:48   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   A: Antigua and Barbuda
+B:Suriname
+C:Fiji
+D:Monaco
+4.09.2022   22:48   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   
+4.09.2022   22:48   Porg Comunuty   438621187132751873   『-🤖-』botownia   泉こなた#8031   b
+4.09.2022   22:48   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   Bad answer. Correct answer is: **B**
+4.09.2022   22:48   Porg Comunuty   438621187132751873   『-🤖-』botownia   泉こなた#8031   B
+4.09.2022   22:49   Porg Comunuty   438621187132751873   『-🤖-』botownia   泉こなた#8031   $flags
+4.09.2022   22:49   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   A: Mali
+B:Azerbaijan
+C:Tonga
+D:Bangladesh
+4.09.2022   22:49   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   
+4.09.2022   22:49   Porg Comunuty   438621187132751873   『-🤖-』botownia   泉こなた#8031   C
+4.09.2022   22:49   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   Good anwser
+4.09.2022   22:49   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   <@490214064207822848> get new best combo: **2**
+4.09.2022   22:50   Porg Comunuty   438621187132751873   『-🤖-』botownia   泉こなた#8031   $flags
+4.09.2022   22:50   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   A: Bahamas
+B:Bahamas
+C:Belize
+D:Albania
+4.09.2022   22:50   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   
+4.09.2022   22:50   Porg Comunuty   438621187132751873   『-🤖-』botownia   泉こなた#8031   A
+4.09.2022   22:50   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   Bad answer. Correct answer is: **C**
+4.09.2022   22:50   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   <@490214064207822848> best combo is: **2**
+4.09.2022   22:50   Porg Comunuty   438621187132751873   『-🤖-』botownia   泉こなた#8031   $flags
+4.09.2022   22:50   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   A: Palestine State
+B:North Macedonia
+C:Turkey
+D:Comoros
+4.09.2022   22:50   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   
+4.09.2022   22:50   Porg Comunuty   438621187132751873   『-🤖-』botownia   泉こなた#8031   B
+4.09.2022   22:50   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   Good anwser
+4.09.2022   22:50   Porg Comunuty   438621187132751873   『-🤖-』botownia   泉こなた#8031   $flags
+4.09.2022   22:50   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   A: Pakistan
+B:Liechtenstein
+C:Tonga
+D:Sierra Leone
+4.09.2022   22:50   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   
+4.09.2022   22:51   Porg Comunuty   438621187132751873   『-🤖-』botownia   泉こなた#8031   C
+4.09.2022   22:51   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   Good anwser
+4.09.2022   22:51   Porg Comunuty   438621187132751873   『-🤖-』botownia   泉こなた#8031   $flags
+4.09.2022   22:51   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   A: Guinea
+B:Guinea-Bissau
+C:Monaco
+D:Niger
+4.09.2022   22:51   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   
+4.09.2022   22:51   Porg Comunuty   438621187132751873   『-🤖-』botownia   泉こなた#8031   C
+4.09.2022   22:51   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   Good anwser
+4.09.2022   22:51   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   <@490214064207822848> get new best combo: **3**
+4.09.2022   22:51   Porg Comunuty   438621187132751873   『-🤖-』botownia   泉こなた#8031   $flags
+4.09.2022   22:51   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   A: Greece
+B:Oman
+C:Jamaica
+D:Venezuela
+4.09.2022   22:51   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   
+4.09.2022   22:51   Porg Comunuty   438621187132751873   『-🤖-』botownia   泉こなた#8031   A
+4.09.2022   22:51   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   Good anwser
+4.09.2022   22:51   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   <@490214064207822848> get new best combo: **4**
+4.09.2022   22:53   Porg Comunuty   438621187132751873   『-🤖-』botownia   泉こなた#8031   $flags
+4.09.2022   22:53   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   A: Latvia
+B:Gambia
+C:Benin
+D:Trinidad and Tobago
+4.09.2022   22:53   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   
+4.09.2022   22:53   Porg Comunuty   438621187132751873   『-🤖-』botownia   泉こなた#8031   B
+4.09.2022   22:53   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   Bad answer. Correct answer is: **C**
+4.09.2022   22:53   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   <@490214064207822848> best combo is: **4**
