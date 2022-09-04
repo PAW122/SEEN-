@@ -5160,3 +5160,102 @@ undefined```
 ReferenceError: help is not defined```
 2.09.2022   00:05   priv   727662119553728532   bot   PAW#5844   $owner
 2.09.2022   00:05   priv   727662119553728532   bot   SEEN-#5771   
+2.09.2022   00:42   priv   727662119553728532   ogólny   PAW#5844   https://youtube.com/shorts/ZTavfFXOTzY?feature=share
+2.09.2022   02:25   priv   727662119553728532   bot   SEEN-#5771   
+2.09.2022   10:50   priv   727662119553728532   ogólny   PAW#5844   Dodac kody bonusowe na coinsy do ekenomi i na rużne rzeczy do rpg
+2.09.2022   11:39   priv   727662119553728532   documentacion   PAW#5844   
+2.09.2022   11:39   priv   727662119553728532   ogólny   PAW#5844   documentacion
+2.09.2022   11:39   priv   727662119553728532   documentacion   PAW#5844   Db z kodami :(do czego jest kod np ekonomia/rpg, data ważności kody, ilość urzyć, id, nagrody)
+2.09.2022   12:30   priv   727662119553728532   bot   PAW#5844   $eval message.chabnel.send("test")
+2.09.2022   16:53   priv   727662119553728532   bot   PAW#5844   eval message.channel.send("test")
+2.09.2022   16:53   priv   727662119553728532   bot   PAW#5844   $eval message.channel.send("test")
+2.09.2022   16:53   priv   727662119553728532   bot   PAW#5844   $ping
+2.09.2022   17:01   priv   727662119553728532   bot   PAW#5844   $ping
+2.09.2022   17:01   priv   727662119553728532   bot   SEEN-#5771   pong!
+2.09.2022   17:01   priv   727662119553728532   bot   PAW#5844   $ping
+2.09.2022   17:01   priv   727662119553728532   bot   SEEN-#5771   pong!
+2.09.2022   20:13   priv   727662119553728532   ogólny   PAW#5844   $help
+2.09.2022   20:13   priv   727662119553728532   ogólny   SEEN-#5771   
+2.09.2022   20:13   priv   727662119553728532   ogólny   SEEN-#5771   
+2.09.2022   20:13   priv   727662119553728532   ogólny   PAW#5844   $ecohelp
+2.09.2022   20:13   priv   727662119553728532   ogólny   PAW#5844   $helpeco
+2.09.2022   20:13   priv   727662119553728532   ogólny   SEEN-#5771   
+3.09.2022   01:22   priv   727662119553728532   bot   PAW#5844   $lvl
+3.09.2022   01:22   priv   727662119553728532   bot   SEEN-#5771   
+3.09.2022   14:13   priv   727662119553728532   bot   PAW#5844   $ping
+3.09.2022   14:13   priv   727662119553728532   bot   SEEN-#5771   pong!
+3.09.2022   15:34   priv   727662119553728532   bot   -V1PE#3809   Nagrode możesz odebrać maxymalnie 1 raz na godzinę
+ Spróbuj za godzinę
+3.09.2022   15:36   priv   727662119553728532   bot   -V1PE#3809   stworzono trwoje konto
+3.09.2022   15:38   priv   727662119553728532   bot   -V1PE#3809   stworzono trwoje konto
+3.09.2022   15:39   priv   727662119553728532   bot   -V1PE#3809   posiadasz jużkonto
+3.09.2022   15:39   priv   727662119553728532   bot   -V1PE#3809   posiadasz jużkonto
+3.09.2022   15:39   priv   727662119553728532   bot   -V1PE#3809   stworzono trwoje konto
+3.09.2022   17:00   priv   727662119553728532   bot   PAW#5844   $guild_members_info 727662119553728532
+3.09.2022   17:00   priv   727662119553728532   bot   -V1PE#3809   
+3.09.2022   17:01   priv   727662119553728532   bot   PAW#5844   $guild_members_info 727662119553728532
+3.09.2022   17:01   priv   727662119553728532   bot   -V1PE#3809   
+3.09.2022   17:02   priv   727662119553728532   bot   PAW#5844   $guild_members_info 727662119553728532
+3.09.2022   17:02   priv   727662119553728532   bot   -V1PE#3809   
+3.09.2022   17:02   priv   727662119553728532   bot   PAW#5844   $guild_members_info 727662119553728532
+3.09.2022   17:02   priv   727662119553728532   bot   -V1PE#3809   
+3.09.2022   17:04   priv   727662119553728532   bot   PAW#5844   $guild_members_info 727662119553728532
+3.09.2022   17:04   priv   727662119553728532   bot   -V1PE#3809   
+3.09.2022   17:06   priv   727662119553728532   bot   PAW#5844   $guild_members_info 727662119553728532
+3.09.2022   17:06   priv   727662119553728532   bot   -V1PE#3809   
+3.09.2022   17:06   priv   727662119553728532   minc-serv-18   -V1PE#3809   
+3.09.2022   17:06   priv   727662119553728532   minc-serv-18   SEEN-#5771   
+3.09.2022   17:07   priv   727662119553728532   bot   PAW#5844   $guild_members_info 438621187132751873
+3.09.2022   17:07   priv   727662119553728532   bot   -V1PE#3809   
+3.09.2022   17:10   priv   727662119553728532   bot   PAW#5844   $guild_members_info 438621187132751873
+3.09.2022   17:11   priv   727662119553728532   bot   PAW#5844   $bot_servers
+3.09.2022   17:11   priv   727662119553728532   bot   -V1PE#3809   nie podałeś guild id
+3.09.2022   17:11   priv   727662119553728532   bot   PAW#5844   $bot_servers
+3.09.2022   17:12   priv   727662119553728532   bot   PAW#5844   $bot_servers
+3.09.2022   17:12   priv   727662119553728532   bot   -V1PE#3809   
+3.09.2022   17:12   priv   727662119553728532   bot   PAW#5844   $bot_servers
+3.09.2022   17:12   priv   727662119553728532   bot   -V1PE#3809   
+3.09.2022   17:14   priv   727662119553728532   bot   PAW#5844   $bot_servers
+3.09.2022   17:14   priv   727662119553728532   bot   -V1PE#3809   
+3.09.2022   17:15   priv   727662119553728532   bot   PAW#5844   $bot_servers
+3.09.2022   17:15   priv   727662119553728532   bot   -V1PE#3809   
+3.09.2022   17:15   priv   727662119553728532   bot   SEEN-#5771   
+3.09.2022   17:16   priv   727662119553728532   bot   PAW#5844   $bot_servers
+3.09.2022   17:16   priv   727662119553728532   bot   -V1PE#3809   
+3.09.2022   23:15   priv   727662119553728532   bot   PAW#5844   $ping
+3.09.2022   23:15   priv   727662119553728532   bot   SEEN-#5771   pong!
+3.09.2022   23:15   priv   727662119553728532   bot   -V1PE#3809   pong!
+4.09.2022   02:34   priv   727662119553728532   bot   PAW#5844   $roll
+4.09.2022   02:34   priv   727662119553728532   bot   SEEN-#5771   You need to enter the amount of 💵 that you want to bet
+4.09.2022   02:34   priv   727662119553728532   bot   -V1PE#3809   You need to enter the amount of 💵 that you want to bet
+4.09.2022   02:34   priv   727662119553728532   bot   PAW#5844   $roll 10
+4.09.2022   02:34   priv   727662119553728532   bot   SEEN-#5771   You lost 10 💵
+                    
+you currently have: 890 💵
+4.09.2022   02:34   priv   727662119553728532   bot   -V1PE#3809   You won 20 💵 
+ you use 4/15 rols today
+                    
+you currently have: 920 💵
+4.09.2022   02:34   priv   727662119553728532   bot   PAW#5844   $roll 20
+4.09.2022   02:34   priv   727662119553728532   bot   -V1PE#3809   You lost 20 💵
+                    
+you currently have: 900 💵
+ you use 1/15 rols today
+4.09.2022   02:34   priv   727662119553728532   bot   SEEN-#5771   You lost 20 💵
+                    
+you currently have: 870 💵
+4.09.2022   02:34   priv   727662119553728532   bot   PAW#5844   $roll 10
+4.09.2022   02:34   priv   727662119553728532   bot   -V1PE#3809   You lost 10 💵
+                    
+you currently have: 890 💵
+ you use 2/15 rols today
+4.09.2022   02:34   priv   727662119553728532   bot   SEEN-#5771   You lost 10 💵
+                    
+you currently have: 860 💵
+4.09.2022   02:36   priv   727662119553728532   bot   PAW#5844   $roll 10
+4.09.2022   02:36   priv   727662119553728532   bot   SEEN-#5771   You won 20 💵
+                    
+you currently have: 880 💵
+4.09.2022   02:36   priv   727662119553728532   bot   -V1PE#3809   You won 20 💵 
+ you use 3/15 rols today
+you currently have: 910 💵
