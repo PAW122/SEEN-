@@ -76,7 +76,6 @@ npm i js-queue
     92.zrobić autoroles (urzytkownik dostaje role po wejściu na serwer)
     93.blacklist users (serwerowa blacklista, która mutuje urzytkowników po tym jak wejdą na serwer)
     94.autorespond -- pozwala administracji ustawić, że bot ospowiada danym textem na podany przez nich text (serwerowe)
-    95.zrobić my anime list na deafultowo wyłączoną (antyspam)
     96.zrobić komende, która pozwala mi wysłać dowolną wiadomość na dowolny kanał nawet jak nie mam uprawnień
     98.zrobić mute na (/)
     99.zrobić komendę lockdown, króra zamyka kanał i tylko administratorzu mogą na nim pisać
@@ -84,8 +83,6 @@ npm i js-queue
     101.sprawdzić działanie unban i dodać go do helpa
     102.jeżelu urzytkownik ma zablokowanego bota i wywoła jego komendę to bot ma 
     odpowiedzieć "Wysyłam komendę kiedy mie odblokujesz" (po angielsku)
-    103.dodać żeby po użyciu $roll pokazywało ile razy urzytkownik może ejszcze dzisiaj użyć roll
-    104.dodać żeby w $bank pokazywało, czy urzytkownik miał dodawane monety
     105.czasami po użyciu economy deafult jest informacja, że już dzisiaj użyłeś komendy daily(prawdopodobnie czasami bot wogóle nie resetuje db do deafult)
     106.do seenprofilhandler(bank) -- dodać informacje o najwyższym zakładzie(jednorazowaj przegranej (urzytkownika,serwera,globalnie)), dodać ilość przegranych razy
     107.dodać możliwość sprawdzania czyiś profili ($profil) i na profilu bota mają być wszystkie monety (bank global)

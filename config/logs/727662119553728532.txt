@@ -5259,3 +5259,25 @@ you currently have: 880 💵
 4.09.2022   02:36   priv   727662119553728532   bot   -V1PE#3809   You won 20 💵 
  you use 3/15 rols today
 you currently have: 910 💵
+4.09.2022   02:44   priv   727662119553728532   bot   PAW#5844   $bank
+4.09.2022   02:44   priv   727662119553728532   bot   SEEN-#5771   
+4.09.2022   02:45   priv   727662119553728532   bot   PAW#5844   $bank
+4.09.2022   02:45   priv   727662119553728532   bot   SEEN-#5771   
+4.09.2022   02:51   priv   727662119553728532   bot   PAW#5844   $bank status?
+4.09.2022   02:51   priv   727662119553728532   bot   SEEN-#5771   
+4.09.2022   02:52   priv   727662119553728532   bot   PAW#5844   $bank
+4.09.2022   02:52   priv   727662119553728532   bot   SEEN-#5771   
+4.09.2022   02:52   priv   727662119553728532   bot   PAW#5844   $bank status?
+4.09.2022   02:52   priv   727662119553728532   bot   SEEN-#5771   
+4.09.2022   02:53   priv   727662119553728532   bot   PAW#5844   $bank status
+4.09.2022   02:53   priv   727662119553728532   bot   SEEN-#5771   you meant **status?**
+4.09.2022   02:56   priv   727662119553728532   bot   PAW#5844   $settings
+4.09.2022   02:56   priv   727662119553728532   bot   SEEN-#5771   You didn't enter an argument
+            commands - gives you the ability to disable individual commands
+            usage eg: $settings <on/off> <command_name>
+4.09.2022   02:56   priv   727662119553728532   bot   SEEN-#5771   you didn't enter an argument
+4.09.2022   04:12   priv   727662119553728532   bot   PAW#5844   s$help
+4.09.2022   04:13   priv   727662119553728532   bot   PAW#5844   s$HELP
+4.09.2022   04:14   priv   727662119553728532   bot   PAW#5844   s$help
+4.09.2022   04:15   priv   727662119553728532   bot   PAW#5844   s$help
+4.09.2022   04:16   priv   727662119553728532   bot   PAW#5844   cos

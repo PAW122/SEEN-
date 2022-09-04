@@ -59,6 +59,9 @@ const lvling = require("./handlers/lvling_handler")
 //mod logs handler
 const mod_logs_handler = require("./handlers/mod_logs_handler")
 
+//automod
+const automod_handler = require("./commands/servers_config/auto_mod_handler")
+
 
 const client = new Discord.Client({
     intents: [
@@ -110,12 +113,16 @@ client.once('ready', () => {
     //mod logs
     mod_logs_handler(client)
 
+
 });
 
 
 
 
 client.on('messageCreate', async message => {
+
+    //automod handler
+    automod_handler(client,message)
 
     //logi z serwerów
     logs_handler(message.content, null, 2, message.guild.id, message.author.tag, message.channel.name,client)
