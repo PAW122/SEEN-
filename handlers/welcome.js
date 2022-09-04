@@ -68,8 +68,15 @@ client.once("guildMemberAdd", member => {
         } else {
             const attachment = new Discord.MessageAttachment(canvas.toBuffer(), "welcome.png")
             const channelId = member.guild.channels.cache.get(welcomeChannelId)
+
+            if(await db.get(`welocme_content_check`) == true){
+                var welcom_message = await db.get(`welocme_content`)
+            }else{
+                var welcom_message = `<@${member.id}> Welcome to the server!`
+            }
+
             return channelId.send({
-                content: `<@${member.id}> Welcome to the server!`,
+                content: welcom_message,
                 files: [attachment]
             })
         }
