@@ -5355,3 +5355,56 @@ you currently have: 910 💵
 4.09.2022   15:15   priv   727662119553728532   bot   SEEN-#5771   
 4.09.2022   15:15   priv   727662119553728532   bot   PAW#5844   $automod help
 4.09.2022   15:15   priv   727662119553728532   bot   SEEN-#5771   
+4.09.2022   15:17   priv   727662119553728532   bot   PAW#5844   $help
+4.09.2022   15:17   priv   727662119553728532   bot   SEEN-#5771   
+4.09.2022   15:17   priv   727662119553728532   bot   SEEN-#5771   
+4.09.2022   15:18   priv   727662119553728532   bot   PAW#5844   $automod help
+4.09.2022   15:18   priv   727662119553728532   bot   SEEN-#5771   
+4.09.2022   15:20   priv   727662119553728532   bot   PAW#5844   $help
+4.09.2022   15:20   priv   727662119553728532   bot   SEEN-#5771   
+4.09.2022   15:20   priv   727662119553728532   bot   SEEN-#5771   
+4.09.2022   15:20   priv   727662119553728532   bot   PAW#5844   $srv_set
+4.09.2022   15:20   priv   727662119553728532   bot   SEEN-#5771   
+4.09.2022   15:21   priv   727662119553728532   bot   PAW#5844   $settings welcome_messages_content test
+4.09.2022   15:21   priv   727662119553728532   bot   SEEN-#5771   set
+4.09.2022   15:21   priv   727662119553728532   ogólny   Senko#3667   
+4.09.2022   15:21   priv   727662119553728532   bot   PAW#5844   $settings welcome_messages 745768777022701648
+4.09.2022   15:21   priv   727662119553728532   bot   SEEN-#5771   set
+4.09.2022   15:22   priv   727662119553728532   ogólny   Senko#3667   
+4.09.2022   15:22   priv   727662119553728532   bot   PAW#5844   $srv_set list
+4.09.2022   15:22   priv   727662119553728532   bot   SEEN-#5771   
+4.09.2022   15:22   priv   727662119553728532   bot   SEEN-#5771   
+4.09.2022   15:23   priv   727662119553728532   bot   PAW#5844   $settings welcome_messages 745768777022701648
+4.09.2022   15:23   priv   727662119553728532   bot   SEEN-#5771   set
+4.09.2022   15:23   priv   727662119553728532   bot   PAW#5844   $settings welcome_messages_content test2
+4.09.2022   15:23   priv   727662119553728532   bot   SEEN-#5771   set
+4.09.2022   15:23   priv   727662119553728532   ogólny   Senko#3667   
+4.09.2022   15:23   priv   727662119553728532   bot   SEEN-#5771   $settings welcome_messages_content test2
+4.09.2022   15:26   priv   727662119553728532   bot   PAW#5844   $settings welcome_messages_content test2
+4.09.2022   15:26   priv   727662119553728532   bot   SEEN-#5771   set
+4.09.2022   15:28   priv   727662119553728532   bot   PAW#5844   $settings welcome_messages_content test2
+4.09.2022   15:28   priv   727662119553728532   bot   SEEN-#5771   set
+4.09.2022   15:28   priv   727662119553728532   bot   PAW#5844   $settings welcome_messages_content test2
+4.09.2022   15:29   priv   727662119553728532   bot   SEEN-#5771   set
+4.09.2022   15:31   priv   727662119553728532   bot   PAW#5844   $settings welcome_messages_content test2
+4.09.2022   15:31   priv   727662119553728532   bot   SEEN-#5771   set
+4.09.2022   15:32   priv   727662119553728532   bot   PAW#5844   $settings welcome_messages_content test2
+4.09.2022   15:32   priv   727662119553728532   bot   SEEN-#5771   set
+4.09.2022   15:32   priv   727662119553728532   bot   PAW#5844   $settings welcome_messages_content test2
+4.09.2022   15:32   priv   727662119553728532   bot   SEEN-#5771   set
+4.09.2022   15:33   priv   727662119553728532   bot   PAW#5844   $settings welcome_messages_content test2
+4.09.2022   15:33   priv   727662119553728532   bot   SEEN-#5771   set
+4.09.2022   15:34   priv   727662119553728532   bot   PAW#5844   $settings welcome_messages_content test2
+4.09.2022   15:34   priv   727662119553728532   bot   SEEN-#5771   set
+4.09.2022   15:35   priv   727662119553728532   bot   PAW#5844   $settings welcome_messages_content test2
+4.09.2022   15:35   priv   727662119553728532   bot   SEEN-#5771   set
+4.09.2022   15:36   priv   727662119553728532   bot   PAW#5844   $settings welcome_messages_content test2
+4.09.2022   15:36   priv   727662119553728532   bot   SEEN-#5771   set
+4.09.2022   15:36   priv   727662119553728532   bot   PAW#5844   $settings welcome_messages_content test2 sd sds
+4.09.2022   15:36   priv   727662119553728532   bot   SEEN-#5771   set
+4.09.2022   15:36   priv   727662119553728532   ogólny   Senko#3667   
+4.09.2022   15:36   priv   727662119553728532   bot   SEEN-#5771   test2 sd sds
+4.09.2022   15:37   priv   727662119553728532   bot   PAW#5844   $srv_set
+4.09.2022   15:37   priv   727662119553728532   bot   SEEN-#5771   
+4.09.2022   15:39   priv   727662119553728532   bot   PAW#5844   $srv_set
+4.09.2022   15:39   priv   727662119553728532   bot   SEEN-#5771   

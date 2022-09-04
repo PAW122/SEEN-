@@ -59,9 +59,21 @@ module.exports = {
 
       }
 
-      if (args[0] == "welcome_messages_content") {
-        const prefix = await db.get(`prefix`)
-        const welocme_content = message.contenr.slice(args[0].lenght + prefix.lenght)
+      if (args[0] == "welcome_msg_content") {
+        if(args[1] == "off"){
+          await db.set(`welocme_content_check`, false)
+          return message.reply("set")
+        }
+        if(args[1] == "on"){
+          await db.set(`welocme_content_check`, true)
+          return message.reply("set")
+        }
+        const prefix = await db.get(`prefix.check`)
+        const command_len = "settings"
+        const content = message.content
+        const arg = args[0]
+        const to_slice = parseInt(arg.length) + parseInt(prefix.length) + command_len.length + 2
+        const welocme_content = content.slice(to_slice)
 
         await db.set(`welocme_content`, welocme_content)
         await db.set(`welocme_content_check`, true)

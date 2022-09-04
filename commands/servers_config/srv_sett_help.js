@@ -10,7 +10,6 @@ const prefix = config.prefix
 const embed_pl = new Discord.MessageEmbed()
     .setColor(`BLUE`)
     .setTitle(`Help`)
-    .setDescription(`U can use '/helpen' for a description in English\nlista wszystkich komend:`)
     .addFields(//inline-w embedzie zamiast po dobą będą obok siebie
         {
             name: `$settings deafult`,
@@ -44,10 +43,12 @@ const embed_pl = new Discord.MessageEmbed()
         },
 
         {
-            name: `$settings welcome_messages_content`,
+            name: `$settings welcome_msg_content`,
             value: `enter the text of the welcome message
-         usage: $settings welcome_messages_content <message>
-         example: $settings welcome_messages_content Hello`, inline: false
+         usage: $settings welcome_msg_content <message>
+         example: $settings welcome_msg_content Hello
+         turn off" $settings welcome_msg_content off
+         turn on" $settings welcome_msg_content on`, inline: false
         },
 
         {
@@ -87,52 +88,52 @@ module.exports = {
     if your db_version in not: ${db_version} use $settings deafult
     WARNING!! when db is updated u loss all of your settings`)
             .addFields(
-                { name: `db version:`, value: `${await db.get(`version.check`,)}`, inline: false },
-                { name: `prefix`, value: `${await db.get(`prefix.check`,)}`, inline: false },
-                { name: `welcome channel id`, value: `${await db.get(`welcome.channelId`,)}`, inline: false },
-                { name: `tickets`, value: `users channel id:${await db.get(`tickets.settings[0]`,)} \n administration channel id:${await db.get(`tickets.settings[1]`,)}`, inline: false },
-                { name: `lvls notifications`, value: `${ await db.get(`lvls_channel.channelId`)}`, inline: false },
+                { name: `db version:`, value: `${await db.get(`version.check`,)}`, inline: true },
+                { name: `prefix`, value: `${await db.get(`prefix.check`,)}`, inline: true },
+                { name: `welcome channel id`, value: `${await db.get(`welcome.channelId`,)}`, inline: true },
+                { name: `tickets`, value: `users channel id:${await db.get(`tickets.settings[0]`,)} \n administration channel id:${await db.get(`tickets.settings[1]`,)}`, inline: true },
+                { name: `lvls notifications`, value: `${ await db.get(`lvls_channel.channelId`)}`, inline: true },
               
 
-                { name: `command name`, value: `on/off`, inline: false },
-                { name: `anime_gif`, value: `${await db.get(`anime_gif.worker`,)}`, inline: false },
-                { name: `eight_ball`, value: `${await db.get(`eight_ball.worker`,)}`, inline: false },
-                { name: `anime_seem_help`, value: `${await db.get(`anime_seem_help.worker`,)}`, inline: false },
-                { name: `anime_help`, value: `${await db.get(`anime_help.worker`,)}`, inline: false },
-                { name: `updaty`, value: `${await db.get(`updaty.worker`,)}`, inline: false },
-                { name: `ankieta`, value: `${await db.get(`ankieta.worker`,)}`, inline: false },
-                { name: `awatar`, value: `${await db.get(`awatar.worker`,)}`, inline: false },
-                { name: `ban`, value: `${await db.get(`ban.worker`,)}`, inline: false },
-                { name: `bot_info`, value: `${await db.get(`bot_info.worker`,)}`, inline: false },
-                { name: `clear`, value: `${await db.get(`clear.worker`,)}`, inline: false },
-                { name: `embed`, value: `${await db.get(`embed.worker`,)}`, inline: false },
-                { name: `kick`, value: `${await db.get(`kick.worker`,)}`, inline: false },
-                { name: `random`, value: `${await db.get(`random.worker`,)}`, inline: false },
-                { name: `ping`, value: `${await db.get(`ping.worker`,)}`, inline: false },
-                { name: `ruletka`, value: `${await db.get(`ruletka.worker`,)}`, inline: false },
-                { name: `say`, value: `${await db.get(`say.worker`,)}`, inline: false },
-                { name: `srv_info`, value: `${await db.get(`srv_info.worker`,)}`, inline: false },
-                { name: `blitz_stats`, value: `${await db.get(`blitz_stats.worker`,)}`, inline: false },
+                { name: `command name`, value: `on/off`, inline: true },
+                { name: `anime_gif`, value: `${await db.get(`anime_gif.worker`,)}`, inline: true },
+                { name: `eight_ball`, value: `${await db.get(`eight_ball.worker`,)}`, inline: true },
+                { name: `anime_seem_help`, value: `${await db.get(`anime_seem_help.worker`,)}`, inline: true },
+                { name: `anime_help`, value: `${await db.get(`anime_help.worker`,)}`, inline: true },
+                { name: `updaty`, value: `${await db.get(`updaty.worker`,)}`, inline: true },
+                { name: `ankieta`, value: `${await db.get(`ankieta.worker`,)}`, inline: true },
+                { name: `awatar`, value: `${await db.get(`awatar.worker`,)}`, inline: true },
+                { name: `ban`, value: `${await db.get(`ban.worker`,)}`, inline: true },
+                { name: `bot_info`, value: `${await db.get(`bot_info.worker`,)}`, inline: true },
+                { name: `clear`, value: `${await db.get(`clear.worker`,)}`, inline: true },
+                { name: `embed`, value: `${await db.get(`embed.worker`,)}`, inline: true },
+                { name: `kick`, value: `${await db.get(`kick.worker`,)}`, inline: true },
+                { name: `random`, value: `${await db.get(`random.worker`,)}`, inline: true },
+                { name: `ping`, value: `${await db.get(`ping.worker`,)}`, inline: true },
+                { name: `ruletka`, value: `${await db.get(`ruletka.worker`,)}`, inline: true },
+                { name: `say`, value: `${await db.get(`say.worker`,)}`, inline: true },
+                { name: `srv_info`, value: `${await db.get(`srv_info.worker`,)}`, inline: true },
+                { name: `blitz_stats`, value: `${await db.get(`blitz_stats.worker`,)}`, inline: true },
             )//max 25 rzeczy w fields
 
         const embed_lista2 = new Discord.MessageEmbed()
             .setColor(`BLUE`)
             .setTitle(`List of all commands page 2/2`)
             .addFields(
-                { name: `autoroles`, value: `${await db.get(`autoroles.worker`,)}`, inline: false },
-                { name: `user_info`, value: `${await db.get(`user_info.worker`,)}`, inline: false },
-                { name: `lvl_command`, value: `${await db.get(`lvl_command.worker`,)}`, inline: false },
-                { name: `economy_command`, value: `${await db.get(`economy_command.worker`,)}`, inline: false },
-                { name: `anime_zapowiedzi`, value: `${await db.get(`anime_zapowiedzi.worker`,)}`, inline: false },
-                { name: `anime_seen`, value: `${await db.get(`anime_seen.worker`,)}`, inline: false },
-                { name: `unban`, value: `${await db.get(`unban.worker`,)}`, inline: false },
-                { name: `ticket`, value: `${await db.get(`ticket.worker`,)}`, inline: false },
-                { name: `rpg`, value: `${await db.get(`rpg.worker`,)}`, inline: false },
-                { name: `game`, value: `${await db.get(`game.worker`,)}`, inline: false },
-                { name: `yt_notyfications`, value: `${await db.get(`yt_notyfications.worker`,)}`, inline: false },
-                { name: `mute`, value: `${await db.get(`mute.worker`,)}`, inline: false },
-                { name: `blitz_clan`, value: `${await db.get(`blitz_clan.worker`,)}`, inline: false },
-                { name: `anime_list`, value: `${await db.get(`anime_list.worker`,)}`, inline: false },
+                { name: `autoroles`, value: `${await db.get(`autoroles.worker`,)}`, inline: true },
+                { name: `user_info`, value: `${await db.get(`user_info.worker`,)}`, inline: true },
+                { name: `lvl_command`, value: `${await db.get(`lvl_command.worker`,)}`, inline: true },
+                { name: `economy_command`, value: `${await db.get(`economy_command.worker`,)}`, inline: true },
+                { name: `anime_zapowiedzi`, value: `${await db.get(`anime_zapowiedzi.worker`,)}`, inline: true },
+                { name: `anime_seen`, value: `${await db.get(`anime_seen.worker`,)}`, inline: true },
+                { name: `unban`, value: `${await db.get(`unban.worker`,)}`, inline: true },
+                { name: `ticket`, value: `${await db.get(`ticket.worker`,)}`, inline: true },
+                { name: `rpg`, value: `${await db.get(`rpg.worker`,)}`, inline: true },
+                { name: `game`, value: `${await db.get(`game.worker`,)}`, inline: true },
+                { name: `yt_notyfications`, value: `${await db.get(`yt_notyfications.worker`,)}`, inline: true },
+                { name: `mute`, value: `${await db.get(`mute.worker`,)}`, inline: true },
+                { name: `blitz_clan`, value: `${await db.get(`blitz_clan.worker`,)}`, inline: true },
+                { name: `anime_list`, value: `${await db.get(`anime_list.worker`,)}`, inline: true },
 
 
             )
