@@ -29,13 +29,13 @@ const embed_pl = new Discord.MessageEmbed()
         { name: `autorole`, value: `${prefix}autorole help\n${prefix}autorole help en`, inline: true },
         { name: `report`, value: `send question to as\n ${prefix}report help`, inline: true },
         { name: `lvl`, value: `send informatiuon about your lvl stats\n ${prefix}lvl`, inline: true },
-        { name: `contact`, value: `link to bot support server\n ${prefix}report help`, inline: true },
         { name: `flags`, value: `play flags game\n ${prefix}flags`, inline: true },
         { name: `------------------------------------------------------------------------`, value: `----------------------------------------------------------------------`, inline: false },
         
         { name: `Server settings`, value: `${prefix}srv_set`, inline: true },
         { name: `Economy`, value: `${prefix}helpeco`, inline: true },
         { name: `Server logs`, value: `${prefix}srv_logs help`, inline: true },
+        { name: `automod`, value: `${prefix}automod help`, inline: true },
     )
     const embed_pl2 = new Discord.MessageEmbed()
     .setColor(`BLUE`)
@@ -43,6 +43,7 @@ const embed_pl = new Discord.MessageEmbed()
     .setDescription(`U can use '${prefix}helpen' for a description in English\nlista wszystkich komend:`)
     .addFields(
         { name: `------------------------------------------------------------------------`, value: `----------------------------------------------------------------------`, inline: false },
+        { name: `contact`, value: `link to bot support server\n ${prefix}report help`, inline: true },
         { name: `animegif`,value: `${prefix}animegif help\n${prefix}animegif help en`,inline: true},
         { name: `Bank`, value: `check how many coins u losed using $roll:\n $bank help`, inline: true },
         { name: `SEEN - ANIME`, value: `lista komend dostępna pod:\n $animeseen help`, inline: true },

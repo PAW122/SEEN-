@@ -5281,3 +5281,52 @@ you currently have: 910 💵
 4.09.2022   04:14   priv   727662119553728532   bot   PAW#5844   s$help
 4.09.2022   04:15   priv   727662119553728532   bot   PAW#5844   s$help
 4.09.2022   04:16   priv   727662119553728532   bot   PAW#5844   cos
+4.09.2022   12:38   priv   727662119553728532   bot   PAW#5844   .
+4.09.2022   12:38   priv   727662119553728532   bot   PAW#5844   .
+4.09.2022   12:44   priv   727662119553728532   bot   PAW#5844   $automod help
+4.09.2022   12:44   priv   727662119553728532   bot   SEEN-#5771   usage: **$automod on**
+ turning on the automaton automatically deletes vulgar messages
+            Use **$automod channel <channelID>** to specify on what channel bot send all automod actions
+            Add banned word: $automod word <word>
+4.09.2022   12:45   priv   727662119553728532   bot   PAW#5844   $automod on
+4.09.2022   12:45   priv   727662119553728532   bot   SEEN-#5771   Your server profil is created
+4.09.2022   12:45   priv   727662119553728532   bot   PAW#5844   $automod word test
+4.09.2022   12:45   priv   727662119553728532   bot   SEEN-#5771   Word 'test' is added to baned words
+4.09.2022   12:45   priv   727662119553728532   bot   PAW#5844   test
+4.09.2022   12:46   priv   727662119553728532   bot   PAW#5844   test
+4.09.2022   12:46   priv   727662119553728532   bot   PAW#5844   test
+4.09.2022   12:50   priv   727662119553728532   bot   PAW#5844   test
+4.09.2022   12:50   priv   727662119553728532   bot   PAW#5844   test
+4.09.2022   12:53   priv   727662119553728532   bot   PAW#5844   test
+4.09.2022   12:53   priv   727662119553728532   bot   SEEN-#5771   
+4.09.2022   12:54   priv   727662119553728532   bot   PAW#5844   .
+4.09.2022   12:54   priv   727662119553728532   bot   PAW#5844   test
+4.09.2022   12:55   priv   727662119553728532   bot   PAW#5844   test
+4.09.2022   12:57   priv   727662119553728532   bot   PAW#5844   test
+4.09.2022   12:57   priv   727662119553728532   bot   PAW#5844   test cos
+4.09.2022   12:58   priv   727662119553728532   bot   PAW#5844   test
+4.09.2022   12:58   priv   727662119553728532   bot   PAW#5844   $automod help
+4.09.2022   12:58   priv   727662119553728532   bot   SEEN-#5771   usage: **$automod on**
+ turning on the automaton automatically deletes vulgar messages
+            Use **$automod channel <channelID>** to specify on what channel bot send all automod actions
+            Add banned word: $automod word <word>
+4.09.2022   12:58   priv   727662119553728532   bot   PAW#5844   $automod on
+4.09.2022   12:58   priv   727662119553728532   bot   SEEN-#5771   Auto mod ON
+4.09.2022   12:58   priv   727662119553728532   bot   PAW#5844   test
+4.09.2022   13:00   priv   727662119553728532   bot   PAW#5844   test
+4.09.2022   13:00   priv   727662119553728532   bot   PAW#5844   test
+4.09.2022   13:00   priv   727662119553728532   bot   PAW#5844   test
+4.09.2022   13:00   priv   727662119553728532   bot   PAW#5844   cos test
+4.09.2022   13:06   priv   727662119553728532   bot   PAW#5844   $automod channel 923300408372396032
+4.09.2022   13:06   priv   727662119553728532   bot   PAW#5844   test
+4.09.2022   13:07   priv   727662119553728532   bot   PAW#5844   test
+4.09.2022   13:08   priv   727662119553728532   bot   PAW#5844   $automod channel 923300408372396032
+4.09.2022   13:08   priv   727662119553728532   bot   SEEN-#5771   set
+4.09.2022   13:08   priv   727662119553728532   bot   PAW#5844   test
+4.09.2022   13:08   priv   727662119553728532   minc-serv-18   SEEN-#5771   Automod delete message: __'test'__
+ Message is send by <@438336824516149249>
+4.09.2022   13:16   priv   727662119553728532   bot   PAW#5844   $automod help
+4.09.2022   13:16   priv   727662119553728532   bot   SEEN-#5771   
+4.09.2022   13:20   priv   727662119553728532   bot   PAW#5844   $help
+4.09.2022   13:20   priv   727662119553728532   bot   SEEN-#5771   
+4.09.2022   13:20   priv   727662119553728532   bot   SEEN-#5771   
