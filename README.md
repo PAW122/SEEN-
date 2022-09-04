@@ -49,11 +49,9 @@ npm i js-queue
     44.dodać do ekonomi możliwosć ustawienia swojej emotki monet
     48.spróbować przekopiować music bota tutaj
     50.dodać podbijanie serwerów. jak ktoś użyje np $podbij to podbija serwer na którym to wysłał (1 osoba może użyć tego raz na 24h), lista z top 10 podbitych serwerów, lista kto najwięcej razy podbił dany serwer, lista o urzytkowniku ile razy i jakie serwey podbił
-    51. dodać możliwość ustawienia wiadomości powitalnej i napisu na canvasie w welcome messages
     56.zrobić cos ala papier kamień norzyce gdzie urzytkownik na pv bota odpisuje np papier
     59.przetestować i potwierdzić działanie powiaomień youtubowych
     60.zrobić do ekonomi lootboxy, z animacjami gdzie dla każdeg przedmiotu będzie animacja z jego wygraniem i jak ktoś wylosuje dany item to bot wysyła animacja, ka której dany item wypada na gifie
-    61.naprawić ban bo nie działa
     62.naprawić albo napisać na nowo tabele asci do komend po wszystko odwala kilka razy
     63.Ojcja na komende work
     Jedziesz samochodem np 10h i możesz lrzyspieszyć ale wtedy zwiększa się szansa na eypadek

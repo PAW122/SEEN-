@@ -26,7 +26,7 @@ module.exports = {
             return message.reply("play: $flags\n top plays information: $flags top")
         }
 
-        if (args[0] == "top") {
+        if (args[0] == "$top") {
             return handler(message, client)
         }
 
@@ -80,9 +80,13 @@ module.exports = {
 
 
         const attachment = new Discord.MessageAttachment(`commands/komendy/game_flags/flags/${rng}.png`)
-        message.channel.send({ files: [attachment] })
-        message.channel.send("You have 10s to type: **A**/**B**/**C**/**D**")
+        const embed_pl = new Discord.MessageEmbed()
 
+            .setColor(`BLUE`)//PL
+            .setTitle(`You have 10s to type: **A**/**B**/**C**/**D**`)
+
+            .setFooter(message.author.tag, message.author.avatarURL({ dynamic: true }));
+        message.channel.send({ embeds: [embed_pl] , files: [attachment] });
 
         var i = 1;
 
