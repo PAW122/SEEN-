@@ -54,19 +54,19 @@ module.exports = {
 
         const luckypotion = await db.get(`${userId}.eq[0]`);
 
+        const roll_info = await db.get(`${userId}.roll_usage[0]`)
+ 
         async function losowanie(rng, coins, obstawione_monet) {
             if (luckypotion != true) {
                 if (rng != 1) {
 
                     const suma = coins - obstawione_monet
-                    message.reply(`You lost ${obstawione_monet} ${emoji}
-                    \nyou currently have: ${suma} ${emoji}`)
+                    message.reply(`You lost ${obstawione_monet} ${emoji}\nyou currently have: ${suma} ${emoji}\n you use ${roll_info}/15 rols today`)
                     await db.set(`${userId}.coins[0]`, suma)
                     seenprefilhandler(message, obstawione_monet)
                 } else {
                     const suma = (obstawione_monet * 2) + coins
-                    message.reply(`You won ${obstawione_monet * 2} ${emoji}
-                    \nyou currently have: ${suma} ${emoji}`)
+                    message.reply(`You won ${obstawione_monet * 2} ${emoji} \n you use ${roll_info}/15 rols today\nyou currently have: ${suma} ${emoji}`)
                     await db.set(`${userId}.coins[0]`, suma)
                 }
             } else {
@@ -74,14 +74,12 @@ module.exports = {
                 if (rng2 != 1) {
 
                     const suma = coins - obstawione_monet
-                    message.reply(`You lost ${obstawione_monet} ${emoji}
-                    \nyou currently have: ${suma} ${emoji}`)
+                    message.reply(`You lost ${obstawione_monet} ${emoji} \n you use ${roll_info}/15 rols today\nyou currently have: ${suma} ${emoji}`)
                     seenprefilhandler(message, obstawione_monet)
                     await db.set(`${userId}.coins[0]`, suma)
                 } else {
                     const suma = (obstawione_monet * 2) + coins
-                    message.reply(`You won ${obstawione_monet * 2} ${emoji}
-                    \nyou currently have: ${suma} ${emoji}`)
+                    message.reply(`You won ${obstawione_monet * 2} ${emoji} \n you use ${roll_info}/15 rols today\nyou currently have: ${suma} ${emoji}`)
                     await db.set(`${userId}.coins[0]`, suma)
                 }
             }
