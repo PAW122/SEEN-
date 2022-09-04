@@ -25,7 +25,7 @@ const embed_pl = new Discord.MessageEmbed()
         { name: `ban`, value: `${prefix}ban help\n${prefix}ban help en`, inline: true },//zrobiony opid
         { name: `8ball`, value: `${prefix}8ball help\n${prefix}8ball help en`, inline: true },
         { name: `message_logs`, value: `${prefix}message_logs help\n${prefix}message_logs help en`, inline: true },
-        { name: `blitzstats`, value: `${prefix}blitzstats help\n${prefix}blitzstats help en`, inline: true },
+        { name: `mute`, value: `${prefix}mute help\n${prefix}mute @user 1h`, inline: true },
         { name: `autorole`, value: `${prefix}autorole help\n${prefix}autorole help en`, inline: true },
         { name: `report`, value: `send question to as\n ${prefix}report help`, inline: true },
         { name: `lvl`, value: `send informatiuon about your lvl stats\n ${prefix}lvl`, inline: true },
@@ -48,6 +48,7 @@ const embed_pl = new Discord.MessageEmbed()
         { name: `Bank`, value: `check how many coins u losed using $roll:\n $bank help`, inline: true },
         { name: `SEEN - ANIME`, value: `lista komend dostępna pod:\n $animeseen help`, inline: true },
         { name: `ANIME`, value: `lista komend dostępna pod:\n $anime help`, inline: true },
+        { name: `blitzstats`, value: `${prefix}blitzstats help\n${prefix}blitzstats help en`, inline: true },
     )
 
 

@@ -5330,3 +5330,28 @@ you currently have: 910 💵
 4.09.2022   13:20   priv   727662119553728532   bot   PAW#5844   $help
 4.09.2022   13:20   priv   727662119553728532   bot   SEEN-#5771   
 4.09.2022   13:20   priv   727662119553728532   bot   SEEN-#5771   
+4.09.2022   14:50   priv   727662119553728532   bot   SEEN-#5771   
+4.09.2022   14:52   priv   727662119553728532   bot   PAW#5844   $help
+4.09.2022   14:52   priv   727662119553728532   bot   SEEN-#5771   
+4.09.2022   14:52   priv   727662119553728532   bot   SEEN-#5771   
+4.09.2022   14:52   priv   727662119553728532   bot   PAW#5844   $mute help
+4.09.2022   14:52   priv   727662119553728532   bot   SEEN-#5771   example: $mute @user 10s
+ usage: $mute <user> <time>
+ $mute @user temp
+4.09.2022   15:04   priv   727662119553728532   bot   PAW#5844   $automod list
+4.09.2022   15:04   priv   727662119553728532   bot   SEEN-#5771   
+4.09.2022   15:08   priv   727662119553728532   bot   PAW#5844   $automod del test
+4.09.2022   15:08   priv   727662119553728532   minc-serv-18   SEEN-#5771   Automod delete message: __'$automod del test'__
+ Message is send by <@438336824516149249>
+4.09.2022   15:10   priv   727662119553728532   bot   PAW#5844   $automod del test
+4.09.2022   15:10   priv   727662119553728532   minc-serv-18   SEEN-#5771   Automod delete message: __'$automod del test'__
+ Message is send by <@438336824516149249>
+4.09.2022   15:11   priv   727662119553728532   bot   PAW#5844   $automod del test
+4.09.2022   15:15   priv   727662119553728532   bot   PAW#5844   $automod del test
+4.09.2022   15:15   priv   727662119553728532   bot   SEEN-#5771   found and deleted the word: 'test'
+4.09.2022   15:15   priv   727662119553728532   bot   PAW#5844   test
+4.09.2022   15:15   priv   727662119553728532   bot   SEEN-#5771   
+4.09.2022   15:15   priv   727662119553728532   bot   PAW#5844   $automod list
+4.09.2022   15:15   priv   727662119553728532   bot   SEEN-#5771   
+4.09.2022   15:15   priv   727662119553728532   bot   PAW#5844   $automod help
+4.09.2022   15:15   priv   727662119553728532   bot   SEEN-#5771   

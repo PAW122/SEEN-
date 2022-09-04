@@ -94,8 +94,9 @@ npm i js-queue
     113.dodać jail
     114.dodać do mod_logs do client.on zmiananicku if(nowynick == null) w embedzie zamiast null ma być aktualny nick
     115.create woordle (na priv filmik na generalu)
+    116.zrobić różne quizy
+    117.dodać takie cuś, jeżeli urzytkownik ma w nick SEEN-nick to dostaje jakiś bonus w ekonomi
 
-    116.zrobić różne guizy
     !!na lapku wywaliło error z lvling_handler.js: 75:69 undefind(reading:'send')
 
     WAŻNY UPDATE: if (settings != true) zamieniamy na => if (settings == false)

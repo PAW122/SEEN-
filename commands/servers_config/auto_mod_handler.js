@@ -1,8 +1,10 @@
 const { QuickDB } = require("quick.db");
 const Discord = require("discord.js");
+const { Permissions: { FLAGS } } = require('discord.js');
 
 module.exports = (client, message) => {
     async function main() {
+        if(message.author.bot) return;
 
         const guildId = message.guild.id
 
@@ -15,6 +17,11 @@ module.exports = (client, message) => {
         const status = await db.get(`${guildId}.status`)
 
         if (status == false) return;
+
+        //nie usówaj słów wysłanych przez administracje
+        if (message.member.permissions.has(FLAGS.ADMINISTRATOR )) {
+            return
+        } 
 
         //lista banowanych słów
         var banned_words = await db_words.get(`${guildId}.worldlist`)
