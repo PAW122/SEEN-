@@ -59,6 +59,16 @@ module.exports = {
 
       }
 
+      if (args[0] == "welcome_messages_content") {
+        const prefix = await db.get(`prefix`)
+        const welocme_content = message.contenr.slice(args[0].lenght + prefix.lenght)
+
+        await db.set(`welocme_content`, welocme_content)
+        await db.set(`welocme_content_check`, true)
+        return message.reply("set")
+
+      }
+
       if (args[0] == "ticket") {
         if (isNaN(args[1])) {
           return message.reply("wrong channel id")
