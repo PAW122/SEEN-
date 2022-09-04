@@ -2,7 +2,7 @@ const { QuickDB } = require("quick.db");
 const Discord = require("discord.js")
 
 module.exports = (client,message) => {
-
+async function main(){
     const guildId = message.guild.id
     const db = new QuickDB({ filePath: process.cwd() + `/db/auto_mod/${guildId}.sqlite` });
 
@@ -12,4 +12,6 @@ module.exports = (client,message) => {
     const status = await db.get(`${guildId}.status`)
 
     if(status == false) return;
+}
+main()
 }
