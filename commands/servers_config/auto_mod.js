@@ -1,6 +1,6 @@
 const { QuickDB } = require("quick.db");
 const Discord = require("discord.js")
-
+const { Permissions: { FLAGS } } = require('discord.js');
 module.exports = {
     name: "automod",
 
@@ -21,6 +21,10 @@ module.exports = {
                 )
            return message.reply({ embeds: [embed] });
         }
+
+        if (!message.member.permissions.has(FLAGS.ADMINISTRATOR )) {
+            return(message.reply('You do not have enough permissions to use this command!'))
+        } 
 
         async function main(){
             //wczytaj 

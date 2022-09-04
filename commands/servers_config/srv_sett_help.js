@@ -44,6 +44,13 @@ const embed_pl = new Discord.MessageEmbed()
         },
 
         {
+            name: `$settings welcome_messages_content`,
+            value: `enter the text of the welcome message
+         usage: $settings welcome_messages_content <message>
+         example: $settings welcome_messages_content Hello`, inline: false
+        },
+
+        {
             name: `$settings ticket`,
             value: `gives the possibility to set up channels for tickets
          usage: $settings ticket <channel id for users> <channel id for administrators>
