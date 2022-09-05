@@ -5439,3 +5439,4 @@ D:Congo (Congo-Brazzaville)
 4.09.2022   22:23   priv   727662119553728532   bot   PAW#5844   A
 4.09.2022   22:24   priv   727662119553728532   bot   SEEN-#5771   Bad answer. Correct answer is: **B**
 4.09.2022   22:24   priv   727662119553728532   bot   SEEN-#5771   <@438336824516149249> best combo is: **1**
+5.09.2022   06:21   priv   727662119553728532   ogólny   PAW#5844   https://youtube.com/shorts/ca2J0bvfzOQ?feature=share
