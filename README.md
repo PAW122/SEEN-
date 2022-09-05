@@ -95,6 +95,7 @@ npm i js-queue
     116.zrobić różne quizy
     117.dodać takie cuś, jeżeli urzytkownik ma w nick SEEN-nick to dostaje jakiś bonus w ekonomi
     118.zakualizowac mal
+    119.zaktualizować blitzstats żeby
 
     !!na lapku wywaliło error z lvling_handler.js: 75:69 undefind(reading:'send')
 
@@ -205,29 +206,33 @@ która "tworzy" db na czystych i czytelnych plikh json
 # sprawdzić czy wszędzie gdzie trzeba są wymaane uprawnienia admina
 
 # testowanie komend: start 23:30
-wszystkie warianty komendy + helpy + /
-$awatar
-$embed
-$clear
-$botinfo
-/srvinfo -- zrobić execute
-$ankieta -- (/) na slashah bot nie zostawia emotek pod ankietą
-$ruletka
-$random
-$kick
-$ban
-$8ball
-$message_logs -- dodać tam try i catch (żeby wyłapywało wrazie zadużego pliku)
-$report
-$contact
-$sv_set -- wszystkie komendy do przetestowania
-$economy -- ogarnąć coś z wersjami db w helpie, przetestować komendy z ekonomi
-$srv_logs -- wszystko przetestowane
-$animegif
+    wszystkie warianty komendy + helpy + /
+    $awatar
+    $embed
+    $clear
+    $botinfo
+    /srvinfo -- zrobić execute
+    $ankieta -- (/) na slashah bot nie zostawia emotek pod ankietą
+    $ruletka
+    $random
+    $kick
+    $ban
+    $8ball
+    $message_logs -- dodać tam try i catch (żeby wyłapywało wrazie zadużego pliku)
+    $report
+    $contact
+    $sv_set -- wszystkie komendy do przetestowania
+    $economy -- ogarnąć coś z wersjami db w helpie, przetestować komendy z ekonomi
+    $srv_logs -- wszystko przetestowane
+    $animegif
+
 # koniec testów 00:39
 
 
 # strona www ( api )
-po włączeniu strony jeżeli urzytkownik będzie chciał zatwierdzić zmiany ustawień serwera do właściciela serwera na dc będzie wywyłany kod z informacją, że urzytkownik chce edytować ustawienia serwera
+    po włączeniu strony jeżeli urzytkownik będzie chciał zatwierdzić zmiany ustawień serwera do właściciela serwera na dc będzie wywyłany kod z informacją, że urzytkownik chce edytować ustawienia serwera
 
-żeby zapisać ustawienia na stronie urzytkownik musi potwierdzidż toższamośc wpisując kod wysłany do właściciela strony
+    żeby zapisać ustawienia na stronie urzytkownik musi potwierdzidż toższamośc wpisując kod wysłany do właściciela strony
+
+# Niemiecki gra
+    obrazek z np smogiem do tego 4 słówka po niemiecku i 1 z nich jest poprawne(słówka z książki)
