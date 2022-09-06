@@ -74,6 +74,7 @@ module.exports = {
                 .setTitle(`page 1/2`)
                 .setDescription(`All logs types list\n to turn off/on any of types Use: $srv_logs <on/off> <typeName>`)
                 .addFields(
+                    { name: `messagedelete`, value: `${await db.get(`messagedelete`)}`, inline: true },
                     { name: `guildChannelTopicUpdate`, value: `${await db.get(`guildChannelTopicUpdate`)}`, inline: true },
                     { name: `unhandledGuildChannelUpdate`, value: `${await db.get(`unhandledGuildChannelUpdate`)}`, inline: true },
                     { name: `guildMemberBoost`, value: `${await db.get(`guildMemberBoost`)}`, inline: true },
@@ -173,6 +174,7 @@ module.exports = {
 
         async function all_on() {
             //wszysttkie syfy
+            await db.set(`messagedelete`, true)
             await db.set(`guildChannelTopicUpdate`, true)
             await db.set(`unhandledGuildChannelUpdate`, true)
             await db.set(`guildMemberBoost`, true)
@@ -204,6 +206,7 @@ module.exports = {
 
         async function all_off() {
             //wszysttkie syfy
+            await db.set(`messagedelete`, true)
             await db.set(`guildChannelTopicUpdate`, false)
             await db.set(`unhandledGuildChannelUpdate`, false)
             await db.set(`guildMemberBoost`, false)
@@ -235,6 +238,7 @@ module.exports = {
 
         function name_check() {
             if (command_name != "guildChannelTopicUpdate"
+                && command_name != "messagedelete"
                 && command_name != "unhandledGuildChannelUpdate"
                 && command_name != "guildMemberBoost"
                 && command_name != "guildMemberUnboost"
@@ -262,7 +266,7 @@ module.exports = {
                 && command_name != "voiceChannelUndeaf"
                 && command_name != "voiceStreamingStart") {
                 return false
-            }else{
+            } else {
                 return true
             }
         }

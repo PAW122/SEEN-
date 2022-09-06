@@ -236,3 +236,5 @@ która "tworzy" db na czystych i czytelnych plikh json
 
 # Niemiecki gra
     obrazek z np smogiem do tego 4 słówka po niemiecku i 1 z nich jest poprawne(słówka z książki)
+    (i tak jak flagi zrobić combo)
+    (kilka kategori z 3 działóc czy coś)

@@ -10,6 +10,34 @@ na samym początku sprawdzać czy guild.id jest w db jeżeli nie return
 
 module.exports =(client)=> {
 
+client.on("messageDelete", async (messageDelete) => {
+    async function main(){
+        const guildId = messageDelete.guild.id
+            const db = new QuickDB({ filePath: process.cwd() + `/db/srv_logs/${guildId}.sqlite` });
+            if (await db.get(`check`) != true || await db.get(`messagedelete`) == false) {return}else{var channelID = await db.get(`channelId`)}
+            
+            if(messageDelete.attachments.size >= 1) {
+                var files = "yes"
+            }else{
+                var files = "no"
+            }
+
+            let logs = await messageDelete.guild.fetchAuditLogs({type: 72});
+            let entry = logs.entries.first();
+
+            const LogChannel = client.channels.cache.get(channelID);
+            const TopicUpdate = new MessageEmbed()
+                .setTitle('Message Deleted')
+                .setColor('#2F3136')//kolor embeda (nie ma paska)
+                .setDescription(`Message content:` + "```js\n" +`${messageDelete.content}`+"```" + `be deleted on channel: ${messageDelete.channel}\n Message files?: ${files} \n Message deleted by: ${entry.executor}`);
+                
+            return LogChannel.send({
+                embeds: [TopicUpdate]
+            });
+        }
+        main()
+});
+
 // Channel Topic Updating 
 client.on("guildChannelTopicUpdate", (channel, oldTopic, newTopic) => {
 async function main(){
