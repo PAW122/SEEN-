@@ -5443,3 +5443,11 @@ D:Congo (Congo-Brazzaville)
 5.09.2022   22:20   priv   727662119553728532   pasy-do-kont   PAW#5844   Netflix:
 pawelklin10@gmail.com
 ||143702Pawel||
+6.09.2022   18:25   priv   727662119553728532   bot   SEEN-#5771   
+6.09.2022   22:40   priv   727662119553728532   bot   PAW#5844   $srv_logs help
+6.09.2022   22:40   priv   727662119553728532   bot   SEEN-#5771   
+6.09.2022   22:40   priv   727662119553728532   bot   PAW#5844   $srv_logs start 923300408372396032
+6.09.2022   22:40   priv   727662119553728532   bot   SEEN-#5771   set
+6.09.2022   22:40   priv   727662119553728532   bot   SEEN-#5771   You arledy have settings profil. Only channel Id be updated
+6.09.2022   22:40   priv   727662119553728532   bot   PAW#5844   cos
+6.09.2022   22:40   priv   727662119553728532   minc-serv-18   SEEN-#5771   

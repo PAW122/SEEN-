@@ -115,3 +115,12 @@ Marko123car
 5.09.2022   07:14   ---   686203443731365982   spam   _Bounced#2829   V-stats parosh4595
 5.09.2022   07:14   ---   686203443731365982   spam   Aftermath#0045   Player `parosh4595` is not tracked by Aftermath, please specify the server to start tracking.
 5.09.2022   07:14   ---   686203443731365982   spam   Aftermath#0045   Aftermath just started tracking this account, please check again after playing a few battles.
+6.09.2022   03:28   ---   686203443731365982   spam   _Bounced#2829   V-stats _peppapigthesealclubber
+6.09.2022   03:28   ---   686203443731365982   spam   Aftermath#0045   
+6.09.2022   03:28   ---   686203443731365982   spam   _Bounced#2829   V-stats _peppapigthesealclubber 30
+6.09.2022   03:28   ---   686203443731365982   spam   Aftermath#0045   
+6.09.2022   03:49   ---   686203443731365982   spam   _Bounced#2829   V-stats _habibjihadihukk
+6.09.2022   03:49   ---   686203443731365982   spam   Aftermath#0045   Player `_habibjihadihukk` is not tracked by Aftermath, please specify the server to start tracking.
+6.09.2022   03:49   ---   686203443731365982   spam   _Bounced#2829   V-stats _habibjihadihulk
+6.09.2022   03:49   ---   686203443731365982   spam   Aftermath#0045   Player `_habibjihadihulk` is not tracked by Aftermath, please specify the server to start tracking.
+6.09.2022   03:49   ---   686203443731365982   spam   Aftermath#0045   Aftermath just started tracking this account, please check again after playing a few battles.
