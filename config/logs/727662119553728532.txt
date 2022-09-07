@@ -5530,3 +5530,21 @@ D:Russia
 7.09.2022   10:39   priv   727662119553728532   bot   PAW#5844   $report ogarnąć angola
 7.09.2022   10:39   priv   727662119553728532   bot   SEEN-#5771   Thank you for informing about the errors
  We will try to answer your question as soon as possible
+7.09.2022   15:15   priv   727662119553728532   bot   PAW#5844   Zrobić ai na client on message
+7.09.2022   15:22   priv   727662119553728532   bot   PAW#5844   $eval prompt('heh');
+7.09.2022   15:22   priv   727662119553728532   bot   SEEN-#5771   You meke mistake, error code:
+```js
+ReferenceError: prompt is not defined```
+7.09.2022   15:23   priv   727662119553728532   bot   PAW#5844   $eval let creating = browser.windows.create( createData // optional object )
+7.09.2022   15:23   priv   727662119553728532   bot   SEEN-#5771   You meke mistake, error code:
+```js
+SyntaxError: missing ) after argument list```
+7.09.2022   15:23   priv   727662119553728532   bot   SEEN-#5771   
+7.09.2022   15:24   priv   727662119553728532   bot   PAW#5844   $eval let creating = browser.windows.create( createData)
+7.09.2022   15:24   priv   727662119553728532   bot   SEEN-#5771   You meke mistake, error code:
+```js
+ReferenceError: browser is not defined```
+7.09.2022   15:24   priv   727662119553728532   bot   PAW#5844   $eval let creating = windows.create( )
+7.09.2022   15:24   priv   727662119553728532   bot   SEEN-#5771   You meke mistake, error code:
+```js
+ReferenceError: windows is not defined```
