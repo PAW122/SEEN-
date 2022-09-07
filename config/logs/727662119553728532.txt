@@ -5472,3 +5472,61 @@ cos
 6.09.2022   23:03   priv   727662119553728532   minc-serv-18   SEEN-#5771   
 6.09.2022   23:05   priv   727662119553728532   bot   PAW#5844   test
 6.09.2022   23:05   priv   727662119553728532   minc-serv-18   SEEN-#5771   
+7.09.2022   06:41   priv   727662119553728532   bot   PAW#5844   $flags
+7.09.2022   06:41   priv   727662119553728532   bot   SEEN-#5771   A: Uruguay
+B:Lithuania
+C:Chad
+D:Guyana
+7.09.2022   06:41   priv   727662119553728532   bot   SEEN-#5771   
+7.09.2022   06:41   priv   727662119553728532   bot   PAW#5844   B
+7.09.2022   06:41   priv   727662119553728532   bot   SEEN-#5771   Bad answer. Correct answer is: **C**
+7.09.2022   06:41   priv   727662119553728532   bot   SEEN-#5771   <@438336824516149249> best combo is: **1**
+7.09.2022   07:59   priv   727662119553728532   ogólny   PAW#5844   17:00 malina piątek
+7.09.2022   08:50   priv   727662119553728532   bot   PAW#5844   $flags
+7.09.2022   08:50   priv   727662119553728532   bot   SEEN-#5771   A: Lebanon
+B:Italy
+C:Sierra Leone
+D:Bolivia
+7.09.2022   08:50   priv   727662119553728532   bot   SEEN-#5771   
+7.09.2022   08:50   priv   727662119553728532   bot   PAW#5844   A
+7.09.2022   08:50   priv   727662119553728532   bot   SEEN-#5771   Good anwser
+7.09.2022   08:50   priv   727662119553728532   bot   PAW#5844   $flags
+7.09.2022   08:50   priv   727662119553728532   bot   SEEN-#5771   A: Tuvalu
+B:Brunei
+C:Kenya
+D:Russia
+7.09.2022   08:51   priv   727662119553728532   bot   SEEN-#5771   
+7.09.2022   08:51   priv   727662119553728532   bot   PAW#5844   C
+7.09.2022   08:51   priv   727662119553728532   bot   SEEN-#5771   Good anwser
+7.09.2022   08:51   priv   727662119553728532   bot   SEEN-#5771   <@438336824516149249> get new best combo: **2**
+7.09.2022   09:43   priv   727662119553728532   bot   PAW#5844   $animegof pat
+7.09.2022   09:43   priv   727662119553728532   bot   PAW#5844   $animegif pat
+7.09.2022   09:43   priv   727662119553728532   bot   SEEN-#5771   https://media.tenor.com/images/5a5c96f548e3fd491a023a91090e1b32/tenor.gif
+7.09.2022   09:43   priv   727662119553728532   bot   PAW#5844   $animegif
+7.09.2022   09:43   priv   727662119553728532   bot   SEEN-#5771   podaj rodzaj gifa:
+
+        1.hug
+        2.kiss
+        3.slap
+        4.punch
+        5.wink
+        6.pat
+        7.kill
+        8.cuddle
+        9.waifu
+        !!NSFW!!:
+
+        1.hentai
+        2.boobs
+        3.lesbian
+7.09.2022   09:44   priv   727662119553728532   bot   PAW#5844   $help
+7.09.2022   09:44   priv   727662119553728532   bot   SEEN-#5771   
+7.09.2022   09:44   priv   727662119553728532   bot   SEEN-#5771   
+7.09.2022   09:45   priv   727662119553728532   bot   PAW#5844   $eval message.channel.send("cos")
+7.09.2022   09:45   priv   727662119553728532   bot   SEEN-#5771   cos
+7.09.2022   09:45   priv   727662119553728532   bot   SEEN-#5771   Sucesfully executed code:
+```js
+ message.channel.send("cos")```
+7.09.2022   10:39   priv   727662119553728532   bot   PAW#5844   $report ogarnąć angola
+7.09.2022   10:39   priv   727662119553728532   bot   SEEN-#5771   Thank you for informing about the errors
+ We will try to answer your question as soon as possible
