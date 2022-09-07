@@ -5548,3 +5548,12 @@ ReferenceError: browser is not defined```
 7.09.2022   15:24   priv   727662119553728532   bot   SEEN-#5771   You meke mistake, error code:
 ```js
 ReferenceError: windows is not defined```
+7.09.2022   18:14   priv   727662119553728532   bot   PAW#5844   $flags top
+7.09.2022   18:14   priv   727662119553728532   bot   SEEN-#5771   A: Kuwait
+B:Romania
+C:Switzerland
+D:Papua New Guinea
+7.09.2022   18:14   priv   727662119553728532   bot   SEEN-#5771   
+7.09.2022   18:14   priv   727662119553728532   bot   PAW#5844   $flags top
+7.09.2022   18:14   priv   727662119553728532   bot   SEEN-#5771   
+7.09.2022   21:33   priv   727662119553728532   ogólny   PAW#5844   https://youtu.be/7EMUpLpYhZA

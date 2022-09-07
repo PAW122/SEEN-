@@ -28,7 +28,7 @@ module.exports = {
             return message.reply("play: $flags\n top plays information: $flags top")
         }
 
-        if (args[0] == "$top") {
+        if (args[0] == "top") {
             return handler(message, client)
         }
 
