@@ -96,6 +96,11 @@ npm i js-queue
     117.dodać takie cuś, jeżeli urzytkownik ma w nick SEEN-nick to dostaje jakiś bonus w ekonomi
     118.zakualizowac mal
     119.zaktualizować blitzstats żeby
+    120.dodać staty: ilość wysłanych wiadomości na kanałach,przez poszczególne osoby
+    (staty z: 1d,7d,30d,może all) - starsze dane do usunięcia
+    spróbować - logi ilości h spędzonych na kanale (o której godz user wbił i o której wyszedł z kanału) (1d,7d,30d)
+
+    dodać do tego top chanels(top kanał z wiadomościami, top kanał vc z ilością h)
 
     !!na lapku wywaliło error z lvling_handler.js: 75:69 undefind(reading:'send')
 
