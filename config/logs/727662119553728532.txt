@@ -5557,3 +5557,9 @@ D:Papua New Guinea
 7.09.2022   18:14   priv   727662119553728532   bot   PAW#5844   $flags top
 7.09.2022   18:14   priv   727662119553728532   bot   SEEN-#5771   
 7.09.2022   21:33   priv   727662119553728532   ogólny   PAW#5844   https://youtu.be/7EMUpLpYhZA
+7.09.2022   22:28   priv   727662119553728532   bot   PAW#5844   $ping
+7.09.2022   22:28   priv   727662119553728532   bot   SEEN-#5771   pong!
+8.09.2022   14:31   priv   727662119553728532   ogólny   PAW#5844   Zrobic jwckbota na bocie
+8.09.2022   14:47   priv   727662119553728532   ogólny   PAW#5844   Jackpota
+8.09.2022   14:48   priv   727662119553728532   bot   SEEN-#5771   
+8.09.2022   17:30   priv   727662119553728532   ogólny   PAW#5844   https://youtube.com/shorts/7IRH290OqqQ?feature=share
