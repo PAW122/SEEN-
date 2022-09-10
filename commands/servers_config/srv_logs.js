@@ -46,6 +46,11 @@ module.exports = {
                     { name: `**deafult settings**\nturn on all type of logs`, value: `$srv_logs deafult`, inline: true },
                     { name: `$srv_logs list`, value: `awnding list with status with all logs types`, inline: true },
                     { name: `$srv_logs <on/off> <typeName>`, value: `turn on/off one of logs type. Example: **$srv_logs off voiceChannelJoin**`, inline: true },
+                    { name: `**Warring!!**`, value: ` __**Warning for mod_logs message delete!!**
+                    In case the message is deleted by the bot
+                    will remain in the logs as the person who deleted the message
+                    bot will not be tagged. The user will be marked,
+                    who last deleted the message before the bot__`, inline: false}
 
                 )
             return message.channel.send({ embeds: [embed_pl] });

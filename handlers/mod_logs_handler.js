@@ -1,6 +1,6 @@
-const { MessageEmbed} = require('discord.js');
+const { MessageEmbed } = require('discord.js');
 const { QuickDB } = require("quick.db");
-
+const { AuditLogEvent } = require('discord.js');
 /*
 w każdym client.on sprawdza guild.id i jeżeli guild id
 posiada mod.logs w db to będzie wysyłane na dany kanał
@@ -8,817 +8,823 @@ posiada mod.logs w db to będzie wysyłane na dany kanał
 na samym początku sprawdzać czy guild.id jest w db jeżeli nie return
 */
 
-module.exports =(client)=> {
+module.exports = (client) => {
 
-client.on("messageDelete", async (messageDelete) => {
-    async function main(){
-        const guildId = messageDelete.guild.id
+    client.on("messageDelete", async (message) => {
+        async function main() {
+
+           
+            const guildId = message.guild.id
             const db = new QuickDB({ filePath: process.cwd() + `/db/srv_logs/${guildId}.sqlite` });
-            if (await db.get(`check`) != true || await db.get(`messagedelete`) == false) {return}else{var channelID = await db.get(`channelId`)}
-            
-            if(messageDelete.attachments.size >= 1) {
+            if (await db.get(`check`) != true || await db.get(`message`) == false) { return } else { var channelID = await db.get(`channelId`) }
+
+            if (message.attachments.size >= 1) {
                 var files = "yes"
-            }else{
+            } else {
                 var files = "no"
             }
 
-            let logs = await messageDelete.guild.fetchAuditLogs({type: 72});
+            let logs = await message.guild.fetchAuditLogs({ type: 72 });
             let entry = logs.entries.first();
+
+            //  console.log(logs)
+            //  console.log(entry)
+            //  console.log(entry.executor)
 
             const LogChannel = client.channels.cache.get(channelID);
             const TopicUpdate = new MessageEmbed()
                 .setTitle('Message Deleted')
                 .setColor('#2F3136')//kolor embeda (nie ma paska)
-                .setDescription(`Message content:` + "```js\n" +`${messageDelete.content}`+"```" + `be deleted on channel: ${messageDelete.channel}\n Message files?: ${files} \n Message deleted by: ${entry.executor}`);
-                
+                .setDescription(`Message content:` + "```js\n" + `${message.content}` + "```" + `be deleted on channel: ${message.channel}\n Message files?: ${files} \n Message deleted by: ${entry.executor}`);
+
             return LogChannel.send({
                 embeds: [TopicUpdate]
             });
         }
         main()
-});
-
-// Channel Topic Updating 
-client.on("guildChannelTopicUpdate", (channel, oldTopic, newTopic) => {
-async function main(){
-const guildId = channel.guild.id
-    const db = new QuickDB({ filePath: process.cwd() + `/db/srv_logs/${guildId}.sqlite` });
-    if (await db.get(`check`) != true || await db.get(`guildChannelTopicUpdate`) != true) {return}else{var channelID = await db.get(`channelId`)}
-    
-    const LogChannel = client.channels.cache.get(channelID); // Replace with your channel id
-    const TopicUpdate = new MessageEmbed()
-        .setTitle('Topic Updated!')
-        .setColor('#2F3136')
-        .setDescription(`${channel} Topic changed from **${oldTopic}** to **${newTopic}**`);
-
-    return LogChannel.send({
-        embeds: [TopicUpdate]
     });
-}
-main()
-});
 
-// unhandled Guild Channel Update
-client.on("unhandledGuildChannelUpdate", (oldChannel, newChannel) => {
+    // Channel Topic Updating 
+    client.on("guildChannelTopicUpdate", (channel, oldTopic, newTopic) => {
+        async function main() {
+            const guildId = channel.guild.id
+            const db = new QuickDB({ filePath: process.cwd() + `/db/srv_logs/${guildId}.sqlite` });
+            if (await db.get(`check`) != true || await db.get(`guildChannelTopicUpdate`) != true) { return } else { var channelID = await db.get(`channelId`) }
 
-    async function main(){
-const guildId = oldChannel.guild.id
-    const db = new QuickDB({ filePath: process.cwd() + `/db/srv_logs/${guildId}.sqlite` });
-    if (await db.get(`check`) != true|| await db.get(`unhandledGuildChannelUpdate`) != true) {return}else{var channelID = await db.get(`channelId`)}
-    
+            const LogChannel = client.channels.cache.get(channelID); // Replace with your channel id
+            const TopicUpdate = new MessageEmbed()
+                .setTitle('Topic Updated!')
+                .setColor('#2F3136')
+                .setDescription(`${channel} Topic changed from **${oldTopic}** to **${newTopic}**`);
 
-    const LogChannel = client.channels.cache.get(channelID); // Replace with your channel id
-    const unhandledGuildChannelUpdate = new MessageEmbed()
-        .setTitle('Channel Updated!')
-        .setColor('#2F3136')
-        .setDescription("Channel '" + oldChannel.id + "' was edited but discord-logs couldn't find what was updated...");
-
-    return LogChannel.send({
-        embeds: [unhandledGuildChannelUpdate]
+            return LogChannel.send({
+                embeds: [TopicUpdate]
+            });
+        }
+        main()
     });
-}
-main()
 
-});
+    // unhandled Guild Channel Update
+    client.on("unhandledGuildChannelUpdate", (oldChannel, newChannel) => {
 
-// Member Started Boosting
-client.on("guildMemberBoost", (member) => {
+        async function main() {
+            const guildId = oldChannel.guild.id
+            const db = new QuickDB({ filePath: process.cwd() + `/db/srv_logs/${guildId}.sqlite` });
+            if (await db.get(`check`) != true || await db.get(`unhandledGuildChannelUpdate`) != true) { return } else { var channelID = await db.get(`channelId`) }
 
-    async function main(){
-const guildId = member.guild.id
-    const db = new QuickDB({ filePath: process.cwd() + `/db/srv_logs/${guildId}.sqlite` });
-    if (await db.get(`check`) != true|| await db.get(`guildMemberBoost`) != true) {return}else{var channelID = await db.get(`channelId`)}
-    
 
-    const LogChannel = client.channels.cache.get(channelID); // Replace with your channel id
-    const MemberBoost = new MessageEmbed()
-        .setTitle('User Started Boosting!')
-        .setColor('#2F3136')
-        .setDescription(`**${member.user.tag}** has started boosting  ${member.guild.name}!`);
-    return LogChannel.send({
-        embeds: [MemberBoost]
+            const LogChannel = client.channels.cache.get(channelID); // Replace with your channel id
+            const unhandledGuildChannelUpdate = new MessageEmbed()
+                .setTitle('Channel Updated!')
+                .setColor('#2F3136')
+                .setDescription("Channel '" + oldChannel.id + "' was edited but discord-logs couldn't find what was updated...");
+
+            return LogChannel.send({
+                embeds: [unhandledGuildChannelUpdate]
+            });
+        }
+        main()
+
     });
-}
-main()
 
-})
+    // Member Started Boosting
+    client.on("guildMemberBoost", (member) => {
 
-// Member Unboosted
-client.on("guildMemberUnboost", (member) => {
+        async function main() {
+            const guildId = member.guild.id
+            const db = new QuickDB({ filePath: process.cwd() + `/db/srv_logs/${guildId}.sqlite` });
+            if (await db.get(`check`) != true || await db.get(`guildMemberBoost`) != true) { return } else { var channelID = await db.get(`channelId`) }
 
-    async function main(){
-const guildId = member.guild.id
-    const db = new QuickDB({ filePath: process.cwd() + `/db/srv_logs/${guildId}.sqlite` });
-    if (await db.get(`check`) != true|| await db.get(`guildMemberUnboost`) != true) {return}else{var channelID = await db.get(`channelId`)}
+
+            const LogChannel = client.channels.cache.get(channelID); // Replace with your channel id
+            const MemberBoost = new MessageEmbed()
+                .setTitle('User Started Boosting!')
+                .setColor('#2F3136')
+                .setDescription(`**${member.user.tag}** has started boosting  ${member.guild.name}!`);
+            return LogChannel.send({
+                embeds: [MemberBoost]
+            });
+        }
+        main()
+
+    })
+
+    // Member Unboosted
+    client.on("guildMemberUnboost", (member) => {
+
+        async function main() {
+            const guildId = member.guild.id
+            const db = new QuickDB({ filePath: process.cwd() + `/db/srv_logs/${guildId}.sqlite` });
+            if (await db.get(`check`) != true || await db.get(`guildMemberUnboost`) != true) { return } else { var channelID = await db.get(`channelId`) }
+
+
+
+            const LogChannel = client.channels.cache.get(channelID); // Replace with your channel id
+            const MemberUnboost = new MessageEmbed()
+                .setTitle('User Stoped Boosting!')
+                .setColor('#2F3136')
+                .setDescription(`**${member.user.tag}** has stopped boosting  ${member.guild.name}!`);
+
+            return LogChannel.send({
+                embeds: [MemberUnboost]
+            });
+        }
+        main()
+
+    })
+
+    // Member Got Role
+    client.on("guildMemberRoleAdd", (member, role) => {
+
+        async function main() {
+            const guildId = member.guild.id
+            const db = new QuickDB({ filePath: process.cwd() + `/db/srv_logs/${guildId}.sqlite` });
+            if (await db.get(`check`) != true || await db.get(`guildMemberRoleAdd`) != true) { return } else { var channelID = await db.get(`channelId`) }
+
+
+            const LogChannel = client.channels.cache.get(channelID); // Replace with your channel id
+            const MemberRoleAdd = new MessageEmbed()
+                .setTitle('User Got Role!')
+                .setColor('#2F3136')
+                .setDescription(`**${member.user.tag}** got the role \`${role.name}\``);
+
+            return LogChannel.send({
+                embeds: [MemberRoleAdd]
+            });
+        }
+        main()
+
+    })
+
+    // Member Lost Role
+    client.on("guildMemberRoleRemove", (member, role) => {
+
+        async function main() {
+            const guildId = member.guild.id
+            const db = new QuickDB({ filePath: process.cwd() + `/db/srv_logs/${guildId}.sqlite` });
+            if (await db.get(`check`) != true || await db.get(`guildMemberRoleRemove`) != true) { return } else { var channelID = await db.get(`channelId`) }
+
+
+            const LogChannel = client.channels.cache.get(channelID); // Replace with your channel id
+            const MemberRoleRemove = new MessageEmbed()
+                .setTitle('User Lost Role!')
+                .setColor('#2F3136')
+                .setDescription(`**${member.user.tag}** lost the role \`${role.name}\``);
+
+            return LogChannel.send({
+                embeds: [MemberRoleRemove]
+            });
+        }
+        main()
+
+    })
+
+    // Nickname Changed
+    client.on("guildMemberNicknameUpdate", (member, oldNickname, newNickname) => {
+
+        async function main() {
+            const guildId = member.guild.id
+            const db = new QuickDB({ filePath: process.cwd() + `/db/srv_logs/${guildId}.sqlite` });
+            if (await db.get(`check`) != true || await db.get(`guildMemberNicknameUpdate`) != true) { return } else { var channelID = await db.get(`channelId`) }
+
+
+            const LogChannel = client.channels.cache.get(channelID); // Replace with your channel id
+            const MemberNicknameUpdate = new MessageEmbed()
+                .setTitle('Nickname Updated')
+                .setColor('#2F3136')
+                .setDescription(`${member.user.tag} changed nickname from \`${oldNickname}\` to \`${newNickname}\``);
+
+            return LogChannel.send({
+                embeds: [MemberNicknameUpdate]
+            });
+        }
+        main()
+
+    })
+
+    // Member Joined
+    client.on("guildMemberEntered", (member) => {
+
+        async function main() {
+            const guildId = member.guild.id
+            const db = new QuickDB({ filePath: process.cwd() + `/db/srv_logs/${guildId}.sqlite` });
+            if (await db.get(`check`) != true || await db.get(`guildMemberEntered`) != true) { return } else { var channelID = await db.get(`channelId`) }
+
+
+            const LogChannel = client.channels.cache.get(channelID); // Replace with your channel id
+            const MemberJoined = new MessageEmbed()
+                .setTitle('User Joined')
+                .setColor('#2F3136')
+                .setDescription(`${member.user.tag} Joined!`);
+
+            return LogChannel.send({
+                embeds: [MemberJoined]
+            });
+        }
+        main()
+
+    })
+
+    // Server Boost Level Up
+    client.on("guildBoostLevelUp", (guild, oldLevel, newLevel) => {
+
+        async function main() {
+            const guildId = guild.id
+            const db = new QuickDB({ filePath: process.cwd() + `/db/srv_logs/${guildId}.sqlite` });
+            if (await db.get(`check`) != true || await db.get(`guildBoostLevelUp`) != true) { return } else { var channelID = await db.get(`channelId`) }
+
+
+            const LogChannel = client.channels.cache.get(channelID); // Replace with your channel id
+            const LevelUp = new MessageEmbed()
+                .setTitle('Server Boost Level Up')
+                .setColor('#2F3136')
+                .setDescription(`${guild.name} reached the boost level ${newLevel}`);
+
+            return LogChannel.send({
+                embeds: [LevelUp]
+            });
+        }
+        main()
+
+    })
+
+    // Server Boost Level Down
+    client.on("guildBoostLevelDown", (guild, oldLevel, newLevel) => {
+
+        async function main() {
+            const guildId = guild.id
+            const db = new QuickDB({ filePath: process.cwd() + `/db/srv_logs/${guildId}.sqlite` });
+            if (await db.get(`check`) != true || await db.get(`guildBoostLevelDown`) != true) { return } else { var channelID = await db.get(`channelId`) }
+
+
+            const LogChannel = client.channels.cache.get(channelID); // Replace with your channel id
+            const LevelDown = new MessageEmbed()
+                .setTitle('Server Boost Level Down')
+                .setColor('#2F3136')
+                .setDescription(`${guild.name} lost a level from ${oldLevel} to ${newLevel}`);
+
+            return LogChannel.send({
+                embeds: [LevelDown]
+            });
+        }
+        main()
+
+    })
+
+    // Banner Added
+    client.on("guildBannerAdd", (guild, bannerURL) => {
+
+        async function main() {
+            const guildId = guild.id
+            const db = new QuickDB({ filePath: process.cwd() + `/db/srv_logs/${guildId}.sqlite` });
+            if (await db.get(`check`) != true || await db.get(`guildBannerAdd`) != true) { return } else { var channelID = await db.get(`channelId`) }
+
+
+            const LogChannel = client.channels.cache.get(channelID); // Replace with your channel id
+            const BannerAdd = new MessageEmbed()
+                .setTitle('Server Got a new banner')
+                .setColor('#2F3136')
+                .setImage(bannerURL)
+
+            return LogChannel.send({
+                embeds: [BannerAdd]
+            });
+        }
+        main()
+
+    })
+
+    // AFK Channel Added
+    client.on("guildAfkChannelAdd", (guild, afkChannel) => {
+
+        async function main() {
+            const guildId = guild.id
+            const db = new QuickDB({ filePath: process.cwd() + `/db/srv_logs/${guildId}.sqlite` });
+            if (await db.get(`check`) != true || await db.get(`guildAfkChannelAdd`) != true) { return } else { var channelID = await db.get(`channelId`) }
+
+
+            const LogChannel = client.channels.cache.get(channelID); // Replace with your channel id
+            const AFKAdd = new MessageEmbed()
+                .setTitle('AFK Channel Added')
+                .setColor('#2F3136')
+                .setDescription(`${guild.name} has a new afk channel ${afkChannel}`);
+
+            return LogChannel.send({
+                embeds: [AFKAdd]
+            });
+        }
+        main()
+
+    })
+
+    // Guild Vanity Add
+    client.on("guildVanityURLAdd", (guild, vanityURL) => {
+
+        async function main() {
+            const guildId = guild.id
+            const db = new QuickDB({ filePath: process.cwd() + `/db/srv_logs/${guildId}.sqlite` });
+            if (await db.get(`check`) != true || await db.get(`guildVanityURLAdd`) != true) { return } else { var channelID = await db.get(`channelId`) }
+
+
+            const LogChannel = client.channels.cache.get(channelID); // Replace with your channel id
+            const VanityAdd = new MessageEmbed()
+                .setTitle('Vanity Link Added')
+                .setColor('#2F3136')
+                .setDescription(`${guild.name} has a vanity link ${vanityURL}`);
+
+            return LogChannel.send({
+                embeds: [VanityAdd]
+            });
+        }
+        main()
+
+    })
+
+    // Guild Vanity Remove
+    client.on("guildVanityURLRemove", (guild, vanityURL) => {
+
+        async function main() {
+            const guildId = guild.id
+            const db = new QuickDB({ filePath: process.cwd() + `/db/srv_logs/${guildId}.sqlite` });
+            if (await db.get(`check`) != true || await db.get(`guildVanityURLRemove`) != true) { return } else { var channelID = await db.get(`channelId`) }
+
+
+            const LogChannel = client.channels.cache.get(channelID); // Replace with your channel id
+            const VanityRemove = new MessageEmbed()
+                .setTitle('Vanity Link Removed')
+                .setColor('#2F3136')
+                .setDescription(`${guild.name} has removed its vanity URL ${vanityURL}`);
+
+            return LogChannel.send({
+                embeds: [VanityRemove]
+            });
+        }
+        main()
+
+    })
+
+    // Guild Vanity Link Updated
+    client.on("guildVanityURLUpdate", (guild, oldVanityURL, newVanityURL) => {
+
+        async function main() {
+            const guildId = guild.id
+            const db = new QuickDB({ filePath: process.cwd() + `/db/srv_logs/${guildId}.sqlite` });
+            if (await db.get(`check`) != true || await db.get(`guildVanityURLUpdate`) != true) { return } else { var channelID = await db.get(`channelId`) }
+
+
+            const LogChannel = client.channels.cache.get(channelID); // Replace with your channel id
+            const VanityUpdated = new MessageEmbed()
+                .setTitle('Vanity Link Updated')
+                .setColor('#2F3136')
+                .setDescription(`${guild.name} has changed its vanity URL from ${oldVanityURL} to ${newVanityURL}!`);
+
+            return LogChannel.send({
+                embeds: [VanityUpdated]
+            });
+        }
+        main()
+
+    })
+
+    // Message Pinned
+    client.on("messagePinned", (message) => {
+
+        async function main() {
+            const guildId = message.guild.id
+            const db = new QuickDB({ filePath: process.cwd() + `/db/srv_logs/${guildId}.sqlite` });
+            if (await db.get(`check`) != true || await db.get(`messagePinned`) != true) { return } else { var channelID = await db.get(`channelId`) }
+
+
+            const LogChannel = client.channels.cache.get(channelID); // Replace with your channel id
+            const MessagePinned = new MessageEmbed()
+                .setTitle('Message Pinned')
+                .setColor('#2F3136')
+                .setDescription("This message has been pinned : " + message);
+
+            return LogChannel.send({
+                embeds: [MessagePinned]
+            });
+        }
+        main()
+
+    })
+
+    // Message Edited
+    client.on("messageContentEdited", (message, oldContent, newContent) => {
+
+        async function main() {
+            const guildId = message.guild.id
+            const db = new QuickDB({ filePath: process.cwd() + `/db/srv_logs/${guildId}.sqlite` });
+            if (await db.get(`check`) != true || await db.get(`messageContentEdited`) != true) { return } else { var channelID = await db.get(`channelId`) }
+
+
+            const LogChannel = client.channels.cache.get(channelID); // Replace with your channel id
+            const MessageEdited = new MessageEmbed()
+                .setTitle('Message Edited')
+                .setColor('#2F3136')
+                .setDescription(`Message Edited from \`${oldContent}\` to \`${newContent}\``);
+
+            return LogChannel.send({
+                embeds: [MessageEdited]
+            });
+        }
+        main()
+
+    })
+
+    // Member Became Offline
+    client.on("guildMemberOffline", (member, oldStatus) => {
+
+        async function main() {
+            const guildId = member.guild.id
+            const db = new QuickDB({ filePath: process.cwd() + `/db/srv_logs/${guildId}.sqlite` });
+            if (await db.get(`check`) != true || await db.get(`guildMemberOffline`) != true) { return } else { var channelID = await db.get(`channelId`) }
+
+
+            const LogChannel = client.channels.cache.get(channelID); // Replace with your channel id
+            const MemberOffline = new MessageEmbed()
+                .setTitle('Message Offline')
+                .setColor('#2F3136')
+                .setDescription(member.user.tag + " became offline!");
+
+            return LogChannel.send({
+                embeds: [MemberOffline]
+            });
+        }
+        main()
+
+    })
+
+    // Member Became Online
+    client.on("guildMemberOnline", (member, newStatus) => {
+
+        async function main() {
+            const guildId = member.guild.id
+            const db = new QuickDB({ filePath: process.cwd() + `/db/srv_logs/${guildId}.sqlite` });
+            if (await db.get(`check`) != true || await db.get(`guildMemberOnline`) != true) { return } else { var channelID = await db.get(`channelId`) }
+
+
+            const LogChannel = client.channels.cache.get(channelID); // Replace with your channel id
+            const MemberOnline = new MessageEmbed()
+                .setTitle('Message Online')
+                .setColor('#2F3136')
+                .setDescription(member.user.tag + " was offline and is now " + newStatus + "!");
+
+            return LogChannel.send({
+                embeds: [MemberOnline]
+            });
+        }
+        main()
+
+    })
+    /*
+    // Role Position Updated
+    client.on("rolePositionUpdate", (role, oldPosition, newPosition) => {
+        
+        async function main(){
+        const guildId = guild.id
+        const db = new QuickDB({ filePath: process.cwd() + `/db/srv_logs/${guildId}.sqlite` });
+        if (await db.get(`check`) != true) {return}else{var channelID = await db.get(`channelId`)}
+        
     
-
-
-    const LogChannel = client.channels.cache.get(channelID); // Replace with your channel id
-    const MemberUnboost = new MessageEmbed()
-        .setTitle('User Stoped Boosting!')
-        .setColor('#2F3136')
-        .setDescription(`**${member.user.tag}** has stopped boosting  ${member.guild.name}!`);
-
-    return LogChannel.send({
-        embeds: [MemberUnboost]
-    });
-}
-main()
-
-})
-
-// Member Got Role
-client.on("guildMemberRoleAdd", (member, role) => {
+        const LogChannel = client.channels.cache.get(guildId); // Replace with your channel id
+        const RolePositionUpdated = new MessageEmbed()
+            .setTitle('Role Position Updated')
+            .setColor('#2F3136')
+            .setDescription(role.name + " role was at position " + oldPosition + " and now is at position " + newPosition);
     
-    async function main(){
-const guildId = member.guild.id
-    const db = new QuickDB({ filePath: process.cwd() + `/db/srv_logs/${guildId}.sqlite` });
-    if (await db.get(`check`) != true|| await db.get(`guildMemberRoleAdd`) != true) {return}else{var channelID = await db.get(`channelId`)}
+        return LogChannel.send({
+            embeds: [RolePositionUpdated]
+        });
+    }
+    main()
     
-
-    const LogChannel = client.channels.cache.get(channelID); // Replace with your channel id
-    const MemberRoleAdd = new MessageEmbed()
-        .setTitle('User Got Role!')
-        .setColor('#2F3136')
-        .setDescription(`**${member.user.tag}** got the role \`${role.name}\``);
-
-    return LogChannel.send({
-        embeds: [MemberRoleAdd]
-    });
-}
-main()
-
-})
-
-// Member Lost Role
-client.on("guildMemberRoleRemove", (member, role) => {
-
-    async function main(){
-const guildId = member.guild.id
-    const db = new QuickDB({ filePath: process.cwd() + `/db/srv_logs/${guildId}.sqlite` });
-    if (await db.get(`check`) != true|| await db.get(`guildMemberRoleRemove`) != true) {return}else{var channelID = await db.get(`channelId`)}
+    })
+    */
+    /*
+    // Role Permission Updated
+    client.on("rolePermissionsUpdate", (role, oldPermissions, newPermissions) => {
     
-
-    const LogChannel = client.channels.cache.get(channelID); // Replace with your channel id
-    const MemberRoleRemove = new MessageEmbed()
-        .setTitle('User Lost Role!')
-        .setColor('#2F3136')
-        .setDescription(`**${member.user.tag}** lost the role \`${role.name}\``);
-
-    return LogChannel.send({
-        embeds: [MemberRoleRemove]
-    });
-}
-main()
-
-})
-
-// Nickname Changed
-client.on("guildMemberNicknameUpdate", (member, oldNickname, newNickname) => {
-
-    async function main(){
-const guildId = member.guild.id
-    const db = new QuickDB({ filePath: process.cwd() + `/db/srv_logs/${guildId}.sqlite` });
-    if (await db.get(`check`) != true|| await db.get(`guildMemberNicknameUpdate`) != true) {return}else{var channelID = await db.get(`channelId`)}
-    
-
-    const LogChannel = client.channels.cache.get(channelID); // Replace with your channel id
-    const MemberNicknameUpdate = new MessageEmbed()
-        .setTitle('Nickname Updated')
-        .setColor('#2F3136')
-        .setDescription(`${member.user.tag} changed nickname from \`${oldNickname}\` to \`${newNickname}\``);
-
-    return LogChannel.send({
-        embeds: [MemberNicknameUpdate]
-    });
-}
-main()
-
-})
-
-// Member Joined
-client.on("guildMemberEntered", (member) => {
-
-    async function main(){
-const guildId = member.guild.id
-    const db = new QuickDB({ filePath: process.cwd() + `/db/srv_logs/${guildId}.sqlite` });
-    if (await db.get(`check`) != true|| await db.get(`guildMemberEntered`) != true) {return}else{var channelID = await db.get(`channelId`)}
-    
-
-    const LogChannel = client.channels.cache.get(channelID); // Replace with your channel id
-    const MemberJoined = new MessageEmbed()
-        .setTitle('User Joined')
-        .setColor('#2F3136')
-        .setDescription(`${member.user.tag} Joined!`);
-
-    return LogChannel.send({
-        embeds: [MemberJoined]
-    });
-}
-main()
-
-})
-
-// Server Boost Level Up
-client.on("guildBoostLevelUp", (guild, oldLevel, newLevel) => {
-
-    async function main(){
-const guildId = guild.id
-    const db = new QuickDB({ filePath: process.cwd() + `/db/srv_logs/${guildId}.sqlite` });
-    if (await db.get(`check`) != true|| await db.get(`guildBoostLevelUp`) != true) {return}else{var channelID = await db.get(`channelId`)}
-    
-
-    const LogChannel = client.channels.cache.get(channelID); // Replace with your channel id
-    const LevelUp = new MessageEmbed()
-        .setTitle('Server Boost Level Up')
-        .setColor('#2F3136')
-        .setDescription(`${guild.name} reached the boost level ${newLevel}`);
-
-    return LogChannel.send({
-        embeds: [LevelUp]
-    });
-}
-main()
-
-})
-
-// Server Boost Level Down
-client.on("guildBoostLevelDown", (guild, oldLevel, newLevel) => {
-
-    async function main(){
-const guildId = guild.id
-    const db = new QuickDB({ filePath: process.cwd() + `/db/srv_logs/${guildId}.sqlite` });
-    if (await db.get(`check`) != true|| await db.get(`guildBoostLevelDown`) != true) {return}else{var channelID = await db.get(`channelId`)}
-    
-
-    const LogChannel = client.channels.cache.get(channelID); // Replace with your channel id
-    const LevelDown = new MessageEmbed()
-        .setTitle('Server Boost Level Down')
-        .setColor('#2F3136')
-        .setDescription(`${guild.name} lost a level from ${oldLevel} to ${newLevel}`);
-
-    return LogChannel.send({
-        embeds: [LevelDown]
-    });
-}
-main()
-
-})
-
-// Banner Added
-client.on("guildBannerAdd", (guild, bannerURL) => {
-
-    async function main(){
-const guildId = guild.id
-    const db = new QuickDB({ filePath: process.cwd() + `/db/srv_logs/${guildId}.sqlite` });
-    if (await db.get(`check`) != true|| await db.get(`guildBannerAdd`) != true) {return}else{var channelID = await db.get(`channelId`)}
-    
-
-    const LogChannel = client.channels.cache.get(channelID); // Replace with your channel id
-    const BannerAdd = new MessageEmbed()
-        .setTitle('Server Got a new banner')
-        .setColor('#2F3136')
-        .setImage(bannerURL)
-
-    return LogChannel.send({
-        embeds: [BannerAdd]
-    });
-}
-main()
-
-})
-
-// AFK Channel Added
-client.on("guildAfkChannelAdd", (guild, afkChannel) => {
-
-    async function main(){
-const guildId = guild.id
-    const db = new QuickDB({ filePath: process.cwd() + `/db/srv_logs/${guildId}.sqlite` });
-    if (await db.get(`check`) != true|| await db.get(`guildAfkChannelAdd`) != true) {return}else{var channelID = await db.get(`channelId`)}
-    
-
-    const LogChannel = client.channels.cache.get(channelID); // Replace with your channel id
-    const AFKAdd = new MessageEmbed()
-        .setTitle('AFK Channel Added')
-        .setColor('#2F3136')
-        .setDescription(`${guild.name} has a new afk channel ${afkChannel}`);
-
-    return LogChannel.send({
-        embeds: [AFKAdd]
-    });
-}
-main()
-
-})
-
-// Guild Vanity Add
-client.on("guildVanityURLAdd", (guild, vanityURL) => {
-
-    async function main(){
-const guildId = guild.id
-    const db = new QuickDB({ filePath: process.cwd() + `/db/srv_logs/${guildId}.sqlite` });
-    if (await db.get(`check`) != true|| await db.get(`guildVanityURLAdd`) != true) {return}else{var channelID = await db.get(`channelId`)}
-    
-
-    const LogChannel = client.channels.cache.get(channelID); // Replace with your channel id
-    const VanityAdd = new MessageEmbed()
-        .setTitle('Vanity Link Added')
-        .setColor('#2F3136')
-        .setDescription(`${guild.name} has a vanity link ${vanityURL}`);
-
-    return LogChannel.send({
-        embeds: [VanityAdd]
-    });
-}
-main()
-
-})
-
-// Guild Vanity Remove
-client.on("guildVanityURLRemove", (guild, vanityURL) => {
-
-    async function main(){
-const guildId = guild.id
-    const db = new QuickDB({ filePath: process.cwd() + `/db/srv_logs/${guildId}.sqlite` });
-    if (await db.get(`check`) != true|| await db.get(`guildVanityURLRemove`) != true) {return}else{var channelID = await db.get(`channelId`)}
-    
-
-    const LogChannel = client.channels.cache.get(channelID); // Replace with your channel id
-    const VanityRemove = new MessageEmbed()
-        .setTitle('Vanity Link Removed')
-        .setColor('#2F3136')
-        .setDescription(`${guild.name} has removed its vanity URL ${vanityURL}`);
-
-    return LogChannel.send({
-        embeds: [VanityRemove]
-    });
-}
-main()
-
-})
-
-// Guild Vanity Link Updated
-client.on("guildVanityURLUpdate", (guild, oldVanityURL, newVanityURL) => {
-
-    async function main(){
-const guildId = guild.id
-    const db = new QuickDB({ filePath: process.cwd() + `/db/srv_logs/${guildId}.sqlite` });
-    if (await db.get(`check`) != true|| await db.get(`guildVanityURLUpdate`) != true) {return}else{var channelID = await db.get(`channelId`)}
-    
-
-    const LogChannel = client.channels.cache.get(channelID); // Replace with your channel id
-    const VanityUpdated = new MessageEmbed()
-        .setTitle('Vanity Link Updated')
-        .setColor('#2F3136')
-        .setDescription(`${guild.name} has changed its vanity URL from ${oldVanityURL} to ${newVanityURL}!`);
-
-    return LogChannel.send({
-        embeds: [VanityUpdated]
-    });
-}
-main()
-
-})
-
-// Message Pinned
-client.on("messagePinned", (message) => {
-
-    async function main(){
-const guildId = message.guild.id
-    const db = new QuickDB({ filePath: process.cwd() + `/db/srv_logs/${guildId}.sqlite` });
-    if (await db.get(`check`) != true|| await db.get(`messagePinned`) != true) {return}else{var channelID = await db.get(`channelId`)}
-    
-
-    const LogChannel = client.channels.cache.get(channelID); // Replace with your channel id
-    const MessagePinned = new MessageEmbed()
-        .setTitle('Message Pinned')
-        .setColor('#2F3136')
-        .setDescription("This message has been pinned : " + message);
-
-    return LogChannel.send({
-        embeds: [MessagePinned]
-    });
-}
-main()
-
-})
-
-// Message Edited
-client.on("messageContentEdited", (message, oldContent, newContent) => {
-
-    async function main(){
-const guildId = message.guild.id
-    const db = new QuickDB({ filePath: process.cwd() + `/db/srv_logs/${guildId}.sqlite` });
-    if (await db.get(`check`) != true|| await db.get(`messageContentEdited`) != true) {return}else{var channelID = await db.get(`channelId`)}
-    
-
-    const LogChannel = client.channels.cache.get(channelID); // Replace with your channel id
-    const MessageEdited = new MessageEmbed()
-        .setTitle('Message Edited')
-        .setColor('#2F3136')
-        .setDescription(`Message Edited from \`${oldContent}\` to \`${newContent}\``);
-
-    return LogChannel.send({
-        embeds: [MessageEdited]
-    });
-}
-main()
-
-})
-
-// Member Became Offline
-client.on("guildMemberOffline", (member, oldStatus) => {
-
-    async function main(){
-const guildId = member.guild.id
-    const db = new QuickDB({ filePath: process.cwd() + `/db/srv_logs/${guildId}.sqlite` });
-    if (await db.get(`check`) != true|| await db.get(`guildMemberOffline`) != true) {return}else{var channelID = await db.get(`channelId`)}
-    
-
-    const LogChannel = client.channels.cache.get(channelID); // Replace with your channel id
-    const MemberOffline = new MessageEmbed()
-        .setTitle('Message Offline')
-        .setColor('#2F3136')
-        .setDescription(member.user.tag + " became offline!");
-
-    return LogChannel.send({
-        embeds: [MemberOffline]
-    });
-}
-main()
-
-})
-
-// Member Became Online
-client.on("guildMemberOnline", (member, newStatus) => {
-
-    async function main(){
-const guildId = member.guild.id
-    const db = new QuickDB({ filePath: process.cwd() + `/db/srv_logs/${guildId}.sqlite` });
-    if (await db.get(`check`) != true|| await db.get(`guildMemberOnline`) != true) {return}else{var channelID = await db.get(`channelId`)}
-    
-
-    const LogChannel = client.channels.cache.get(channelID); // Replace with your channel id
-    const MemberOnline = new MessageEmbed()
-        .setTitle('Message Online')
-        .setColor('#2F3136')
-        .setDescription(member.user.tag + " was offline and is now " + newStatus + "!");
-
-    return LogChannel.send({
-        embeds: [MemberOnline]
-    });
-}
-main()
-
-})
-/*
-// Role Position Updated
-client.on("rolePositionUpdate", (role, oldPosition, newPosition) => {
-    
-    async function main(){
+        async function main(){
     const guildId = guild.id
-    const db = new QuickDB({ filePath: process.cwd() + `/db/srv_logs/${guildId}.sqlite` });
-    if (await db.get(`check`) != true) {return}else{var channelID = await db.get(`channelId`)}
+        const db = new QuickDB({ filePath: process.cwd() + `/db/srv_logs/${guildId}.sqlite` });
+        if (await db.get(`check`) != true) {return}else{var channelID = await db.get(`channelId`)}
+        
     
-
-    const LogChannel = client.channels.cache.get(guildId); // Replace with your channel id
-    const RolePositionUpdated = new MessageEmbed()
-        .setTitle('Role Position Updated')
-        .setColor('#2F3136')
-        .setDescription(role.name + " role was at position " + oldPosition + " and now is at position " + newPosition);
-
-    return LogChannel.send({
-        embeds: [RolePositionUpdated]
-    });
-}
-main()
-
-})
-*/
-/*
-// Role Permission Updated
-client.on("rolePermissionsUpdate", (role, oldPermissions, newPermissions) => {
-
-    async function main(){
-const guildId = guild.id
-    const db = new QuickDB({ filePath: process.cwd() + `/db/srv_logs/${guildId}.sqlite` });
-    if (await db.get(`check`) != true) {return}else{var channelID = await db.get(`channelId`)}
+        const LogChannel = client.channels.cache.get(channelID); // Replace with your channel id
+        const RolePermissionUpdated = new MessageEmbed()
+            .setTitle('Role Permission Updated')
+            .setColor('#2F3136')
+            .setDescription(role.name + " had as permissions " + oldPermissions + " and now has as permissions " + newPermissions);
     
-
-    const LogChannel = client.channels.cache.get(channelID); // Replace with your channel id
-    const RolePermissionUpdated = new MessageEmbed()
-        .setTitle('Role Permission Updated')
-        .setColor('#2F3136')
-        .setDescription(role.name + " had as permissions " + oldPermissions + " and now has as permissions " + newPermissions);
-
-    return LogChannel.send({
-        embeds: [RolePermissionUpdated]
-    });
-}
-main()
-
-})
-*/
-/*
-// Avatar Updated
-client.on("userAvatarUpdate", (user, oldAvatarURL, newAvatarURL) => {
-
-    async function main(){
-const guildId = user.guild.id
-    const db = new QuickDB({ filePath: process.cwd() + `/db/srv_logs/${guildId}.sqlite` });
-    if (await db.get(`check`) != true|| await db.get(`userAvatarUpdate`) != true) {return}else{var channelID = await db.get(`channelId`)}
+        return LogChannel.send({
+            embeds: [RolePermissionUpdated]
+        });
+    }
+    main()
     
-
-    const LogChannel = client.channels.cache.get(channelID); // Replace with your channel id
-    const AvatarUpdated = new MessageEmbed()
-        .setTitle('Avatar Updated')
-        .setColor('#2F3136')
-        .setDescription(`${user.tag} updated avatar from [Old Avatar](${oldAvatarURL}) to [New Avatar(${newAvatarURL})]`);
-
-    return LogChannel.send({
-        embeds: [AvatarUpdated]
-    });
-}
-main()
-
-})
-*/
-/*
-// Username Updated
-client.on("userUsernameUpdate", (user, oldUsername, newUsername) => {
-
-    async function main(){
-const guildId = user.guild.id
-    const db = new QuickDB({ filePath: process.cwd() + `/db/srv_logs/${guildId}.sqlite` });
-    if (await db.get(`check`) != true) {return}else{var channelID = await db.get(`channelId`)}
+    })
+    */
+    /*
+    // Avatar Updated
+    client.on("userAvatarUpdate", (user, oldAvatarURL, newAvatarURL) => {
     
-
-    const LogChannel = client.channels.cache.get(channelID); // Replace with your channel id
-    const Username = new MessageEmbed()
-        .setTitle('Username Updated')
-        .setColor('#2F3136')
-        .setDescription(`${user.tag} updated thier username from ${oldUsername} to ${newUsername}`);
-
-    return LogChannel.send({
-        embeds: [Username]
-    });
-}
-main()
-
-})
-*/
-
-/*
-// Discriminator Updated
-client.on("userDiscriminatorUpdate", (user, oldDiscriminator, newDiscriminator,guild) => {
-
-    async function main(){
-const guildId = guild.id
-    const db = new QuickDB({ filePath: process.cwd() + `/db/srv_logs/${guildId}.sqlite` });
-    if (await db.get(`check`) != true) {return}else{var channelID = await db.get(`channelId`)}
+        async function main(){
+    const guildId = user.guild.id
+        const db = new QuickDB({ filePath: process.cwd() + `/db/srv_logs/${guildId}.sqlite` });
+        if (await db.get(`check`) != true|| await db.get(`userAvatarUpdate`) != true) {return}else{var channelID = await db.get(`channelId`)}
+        
     
-
-    const LogChannel = client.channels.cache.get(channelID); // Replace with your channel id
-    const Discriminator = new MessageEmbed()
-        .setTitle('Discriminator Updated')
-        .setColor('#2F3136')
-        .setDescription(`${user.tag} updated thier discriminator from ${oldDiscriminator} to ${oldDiscriminator}`);
-
-    return LogChannel.send({
-        embeds: [Discriminator]
-    });
-}
-main()
-
-})
-*/
-/*
-// Flags Updated
-client.on("userFlagsUpdate", (user, oldFlags, newFlag) => {
-
-    async function main(){
-const guildId = oldFlags.guild.id
-    const db = new QuickDB({ filePath: process.cwd() + `/db/srv_logs/${guildId}.sqlite` });
-    if (await db.get(`check`) != true|| await db.get(`userFlagsUpdate`) != true) {return}else{var channelID = await db.get(`channelId`)}
+        const LogChannel = client.channels.cache.get(channelID); // Replace with your channel id
+        const AvatarUpdated = new MessageEmbed()
+            .setTitle('Avatar Updated')
+            .setColor('#2F3136')
+            .setDescription(`${user.tag} updated avatar from [Old Avatar](${oldAvatarURL}) to [New Avatar(${newAvatarURL})]`);
     
-
-    const LogChannel = client.channels.cache.get(channelID); // Replace with your channel id
-    const FlagsUpdate = new MessageEmbed()
-        .setTitle('Flags Updated')
-        .setColor('#2F3136')
-        .setDescription(`${user.tag} updated thier flags from ${oldFlags} to ${newFlags}`);
-
-    return LogChannel.send({
-        embeds: [FlagsUpdate]
-    });
-}
-main()
-
-})
-*/
-
-// Joined VC
-client.on("voiceChannelJoin", (member, channel) => {
-
-    async function main(){
-const guildId = channel.guild.id
-    const db = new QuickDB({ filePath: process.cwd() + `/db/srv_logs/${guildId}.sqlite` });
-    if (await db.get(`check`) != true|| await db.get(`voiceChannelJoin`) != true) {return}else{var channelID = await db.get(`channelId`)}
+        return LogChannel.send({
+            embeds: [AvatarUpdated]
+        });
+    }
+    main()
     
-
-    const LogChannel = client.channels.cache.get(channelID); // Replace with your channel id
-    const VCJoined = new MessageEmbed()
-        .setTitle('Voice Channel Joined')
-        .setColor('#2F3136')
-        .setDescription(member.user.tag + " joined " + `${channel}` + "!");
-
-    return LogChannel.send({
-        embeds: [VCJoined]
-    });
-}
-main()
-
-})
-
-// Left VC
-client.on("voiceChannelLeave", (member, channel) => {
+    })
+    */
+    /*
+    // Username Updated
+    client.on("userUsernameUpdate", (user, oldUsername, newUsername) => {
     
-    async function main(){
-const guildId = channel.guild.id
-    const db = new QuickDB({ filePath: process.cwd() + `/db/srv_logs/${guildId}.sqlite` });
-    if (await db.get(`check`) != true|| await db.get(`voiceChannelLeave`) != true) {return}else{var channelID = await db.get(`channelId`)}
+        async function main(){
+    const guildId = user.guild.id
+        const db = new QuickDB({ filePath: process.cwd() + `/db/srv_logs/${guildId}.sqlite` });
+        if (await db.get(`check`) != true) {return}else{var channelID = await db.get(`channelId`)}
+        
     
-
-    const LogChannel = client.channels.cache.get(channelID); // Replace with your channel id
-    const VCLeft = new MessageEmbed()
-        .setTitle('Voice Channel Left')
-        .setColor('#2F3136')
-        .setDescription(member.user.tag + " left " + `${channel}` + "!");
-
-    return LogChannel.send({
-        embeds: [VCLeft]
-    });
-}
-main()
-
-})
-
-// VC Switch
-client.on("voiceChannelSwitch", (member, oldChannel, newChannel) => {
-
-    async function main(){
-const guildId = member.guild.id
-    const db = new QuickDB({ filePath: process.cwd() + `/db/srv_logs/${guildId}.sqlite` });
-    if (await db.get(`check`) != true|| await db.get(`voiceChannelSwitch`) != true) {return}else{var channelID = await db.get(`channelId`)}
+        const LogChannel = client.channels.cache.get(channelID); // Replace with your channel id
+        const Username = new MessageEmbed()
+            .setTitle('Username Updated')
+            .setColor('#2F3136')
+            .setDescription(`${user.tag} updated thier username from ${oldUsername} to ${newUsername}`);
     
-
-    const LogChannel = client.channels.cache.get(channelID); // Replace with your channel id
-    const VCSwitch = new MessageEmbed()
-        .setTitle('Voice Channel Switched')
-        .setColor('#2F3136')
-        .setDescription(member.user.tag + " left " + oldChannel.name + " and joined " + newChannel.name + "!");
-
-    return LogChannel.send({
-        embeds: [VCSwitch]
-    });
-}
-main()
-
-})
-
-// VC Mute
-client.on("voiceChannelMute", (member, muteType) => {
-
-    async function main(){
-const guildId = member.guild.id
-    const db = new QuickDB({ filePath: process.cwd() + `/db/srv_logs/${guildId}.sqlite` });
-    if (await db.get(`check`) != true|| await db.get(`voiceChannelMute`) != true) {return}else{var channelID = await db.get(`channelId`)}
+        return LogChannel.send({
+            embeds: [Username]
+        });
+    }
+    main()
     
+    })
+    */
 
-    const LogChannel = client.channels.cache.get(channelID); // Replace with your channel id
-    const VCMute = new MessageEmbed()
-        .setTitle('User Muted')
-        .setColor('#2F3136')
-        .setDescription(member.user.tag + " became muted! (type: " + muteType + ")");
-
-    return LogChannel.send({
-        embeds: [VCMute]
-    });
-}
-main()
-
-})
-
-// VC Unmute
-client.on("voiceChannelUnmute", (member, oldMuteType) => {
-
-    async function main(){
-const guildId = member.guild.id
-    const db = new QuickDB({ filePath: process.cwd() + `/db/srv_logs/${guildId}.sqlite` });
-    if (await db.get(`check`) != true|| await db.get(`voiceChannelUnmute`) != true) {return}else{var channelID = await db.get(`channelId`)}
+    /*
+    // Discriminator Updated
+    client.on("userDiscriminatorUpdate", (user, oldDiscriminator, newDiscriminator,guild) => {
     
-    const LogChannel = client.channels.cache.get(channelID); // Replace with your channel id
-    const VCUnmute = new MessageEmbed()
-        .setTitle('User Unmuted')
-        .setColor('#2F3136')
-        .setDescription(member.user.tag + " became unmuted!");
-
-    return LogChannel.send({
-        embeds: [VCUnmute]
-    });
-}
-main()
-
-})
-
-// VC Defean
-client.on("voiceChannelDeaf", (member, deafType) => {
-
-    async function main(){
-const guildId = member.guild.id
-    const db = new QuickDB({ filePath: process.cwd() + `/db/srv_logs/${guildId}.sqlite` });
-    if (await db.get(`check`) != true|| await db.get(`voiceChannelDeaf`) != true) {return}else{var channelID = await db.get(`channelId`)}
+        async function main(){
+    const guildId = guild.id
+        const db = new QuickDB({ filePath: process.cwd() + `/db/srv_logs/${guildId}.sqlite` });
+        if (await db.get(`check`) != true) {return}else{var channelID = await db.get(`channelId`)}
+        
     
-
-    const LogChannel = client.channels.cache.get(channelID); // Replace with your channel id
-    const VCDeafen = new MessageEmbed()
-        .setTitle('User Deafend')
-        .setColor('#2F3136')
-        .setDescription(member.user.tag + " become deafed!");
-
-    return LogChannel.send({
-        embeds: [VCDeafen]
-    });
-}
-main()
-
-})
-
-// VC Undefean
-client.on("voiceChannelUndeaf", (member, deafType) => {
-
-    async function main(){
-const guildId = member.guild.id
-    const db = new QuickDB({ filePath: process.cwd() + `/db/srv_logs/${guildId}.sqlite` });
-    if (await db.get(`check`) != true|| await db.get(`voiceChannelUndeaf`) != true) {return}else{var channelID = await db.get(`channelId`)}
+        const LogChannel = client.channels.cache.get(channelID); // Replace with your channel id
+        const Discriminator = new MessageEmbed()
+            .setTitle('Discriminator Updated')
+            .setColor('#2F3136')
+            .setDescription(`${user.tag} updated thier discriminator from ${oldDiscriminator} to ${oldDiscriminator}`);
     
-    const LogChannel = client.channels.cache.get(channelID); // Replace with your channel id
-    const VCUndeafen = new MessageEmbed()
-        .setTitle('User Undeafend')
-        .setColor('#2F3136')
-        .setDescription(member.user.tag + " become undeafed!");
-
-    return LogChannel.send({
-        embeds: [VCUndeafen]
-    });
-}
-main()
-
-})
-
-// User Started to Stream
-client.on("voiceStreamingStart", (member, voiceChannel) => {
-
-    async function main(){
-const guildId = member.guild.id
-    const db = new QuickDB({ filePath: process.cwd() + `/db/srv_logs/${guildId}.sqlite` });
-    if (await db.get(`check`) != true|| await db.get(`voiceStreamingStart`) != true) {return}else{var channelID = await db.get(`channelId`)}
+        return LogChannel.send({
+            embeds: [Discriminator]
+        });
+    }
+    main()
     
-
-    const LogChannel = client.channels.cache.get(channelID); // Replace with your channel id
-    const UserStreaming = new MessageEmbed()
-        .setTitle('User Started to Stream')
-        .setColor('#2F3136')
-        .setDescription(member.user.tag + " started streaming in " + voiceChannel.name);
-
-    return LogChannel.send({
-        embeds: [UserStreaming]
-    });
-}
-main()
+    })
+    */
+    /*
+    // Flags Updated
+    client.on("userFlagsUpdate", (user, oldFlags, newFlag) => {
     
-})
-
-// User Stopped to Stream
-client.on("voiceStreamingStop", (member, voiceChannel) => {
-
-    async function main(){
-const guildId = member.guild.id
-    const db = new QuickDB({ filePath: process.cwd() + `/db/srv_logs/${guildId}.sqlite` });
-    if (await db.get(`check`) != true|| await db.get(`voiceStreamingStop`) != true) {return}else{var channelID = await db.get(`channelId`)}
+        async function main(){
+    const guildId = oldFlags.guild.id
+        const db = new QuickDB({ filePath: process.cwd() + `/db/srv_logs/${guildId}.sqlite` });
+        if (await db.get(`check`) != true|| await db.get(`userFlagsUpdate`) != true) {return}else{var channelID = await db.get(`channelId`)}
+        
     
+        const LogChannel = client.channels.cache.get(channelID); // Replace with your channel id
+        const FlagsUpdate = new MessageEmbed()
+            .setTitle('Flags Updated')
+            .setColor('#2F3136')
+            .setDescription(`${user.tag} updated thier flags from ${oldFlags} to ${newFlags}`);
+    
+        return LogChannel.send({
+            embeds: [FlagsUpdate]
+        });
+    }
+    main()
+    
+    })
+    */
 
-    const LogChannel = client.channels.cache.get(channelID); // Replace with your channel id
-    const UserStoppedStreaming = new MessageEmbed()
-        .setTitle('User Stopped to Stream')
-        .setColor('#2F3136')
-        .setDescription(member.user.tag + " stopped streaming in " + voiceChannel.name);
+    // Joined VC
+    client.on("voiceChannelJoin", (member, channel) => {
 
-    return LogChannel.send({
-        embeds: [UserStoppedStreaming]
-    });
-}
-main()
+        async function main() {
+            const guildId = channel.guild.id
+            const db = new QuickDB({ filePath: process.cwd() + `/db/srv_logs/${guildId}.sqlite` });
+            if (await db.get(`check`) != true || await db.get(`voiceChannelJoin`) != true) { return } else { var channelID = await db.get(`channelId`) }
 
-})
+
+            const LogChannel = client.channels.cache.get(channelID); // Replace with your channel id
+            const VCJoined = new MessageEmbed()
+                .setTitle('Voice Channel Joined')
+                .setColor('#2F3136')
+                .setDescription(member.user.tag + " joined " + `${channel}` + "!");
+
+            return LogChannel.send({
+                embeds: [VCJoined]
+            });
+        }
+        main()
+
+    })
+
+    // Left VC
+    client.on("voiceChannelLeave", (member, channel) => {
+
+        async function main() {
+            const guildId = channel.guild.id
+            const db = new QuickDB({ filePath: process.cwd() + `/db/srv_logs/${guildId}.sqlite` });
+            if (await db.get(`check`) != true || await db.get(`voiceChannelLeave`) != true) { return } else { var channelID = await db.get(`channelId`) }
+
+
+            const LogChannel = client.channels.cache.get(channelID); // Replace with your channel id
+            const VCLeft = new MessageEmbed()
+                .setTitle('Voice Channel Left')
+                .setColor('#2F3136')
+                .setDescription(member.user.tag + " left " + `${channel}` + "!");
+
+            return LogChannel.send({
+                embeds: [VCLeft]
+            });
+        }
+        main()
+
+    })
+
+    // VC Switch
+    client.on("voiceChannelSwitch", (member, oldChannel, newChannel) => {
+
+        async function main() {
+            const guildId = member.guild.id
+            const db = new QuickDB({ filePath: process.cwd() + `/db/srv_logs/${guildId}.sqlite` });
+            if (await db.get(`check`) != true || await db.get(`voiceChannelSwitch`) != true) { return } else { var channelID = await db.get(`channelId`) }
+
+
+            const LogChannel = client.channels.cache.get(channelID); // Replace with your channel id
+            const VCSwitch = new MessageEmbed()
+                .setTitle('Voice Channel Switched')
+                .setColor('#2F3136')
+                .setDescription(member.user.tag + " left " + oldChannel.name + " and joined " + newChannel.name + "!");
+
+            return LogChannel.send({
+                embeds: [VCSwitch]
+            });
+        }
+        main()
+
+    })
+
+    // VC Mute
+    client.on("voiceChannelMute", (member, muteType) => {
+
+        async function main() {
+            const guildId = member.guild.id
+            const db = new QuickDB({ filePath: process.cwd() + `/db/srv_logs/${guildId}.sqlite` });
+            if (await db.get(`check`) != true || await db.get(`voiceChannelMute`) != true) { return } else { var channelID = await db.get(`channelId`) }
+
+
+            const LogChannel = client.channels.cache.get(channelID); // Replace with your channel id
+            const VCMute = new MessageEmbed()
+                .setTitle('User Muted')
+                .setColor('#2F3136')
+                .setDescription(member.user.tag + " became muted! (type: " + muteType + ")");
+
+            return LogChannel.send({
+                embeds: [VCMute]
+            });
+        }
+        main()
+
+    })
+
+    // VC Unmute
+    client.on("voiceChannelUnmute", (member, oldMuteType) => {
+
+        async function main() {
+            const guildId = member.guild.id
+            const db = new QuickDB({ filePath: process.cwd() + `/db/srv_logs/${guildId}.sqlite` });
+            if (await db.get(`check`) != true || await db.get(`voiceChannelUnmute`) != true) { return } else { var channelID = await db.get(`channelId`) }
+
+            const LogChannel = client.channels.cache.get(channelID); // Replace with your channel id
+            const VCUnmute = new MessageEmbed()
+                .setTitle('User Unmuted')
+                .setColor('#2F3136')
+                .setDescription(member.user.tag + " became unmuted!");
+
+            return LogChannel.send({
+                embeds: [VCUnmute]
+            });
+        }
+        main()
+
+    })
+
+    // VC Defean
+    client.on("voiceChannelDeaf", (member, deafType) => {
+
+        async function main() {
+            const guildId = member.guild.id
+            const db = new QuickDB({ filePath: process.cwd() + `/db/srv_logs/${guildId}.sqlite` });
+            if (await db.get(`check`) != true || await db.get(`voiceChannelDeaf`) != true) { return } else { var channelID = await db.get(`channelId`) }
+
+
+            const LogChannel = client.channels.cache.get(channelID); // Replace with your channel id
+            const VCDeafen = new MessageEmbed()
+                .setTitle('User Deafend')
+                .setColor('#2F3136')
+                .setDescription(member.user.tag + " become deafed!");
+
+            return LogChannel.send({
+                embeds: [VCDeafen]
+            });
+        }
+        main()
+
+    })
+
+    // VC Undefean
+    client.on("voiceChannelUndeaf", (member, deafType) => {
+
+        async function main() {
+            const guildId = member.guild.id
+            const db = new QuickDB({ filePath: process.cwd() + `/db/srv_logs/${guildId}.sqlite` });
+            if (await db.get(`check`) != true || await db.get(`voiceChannelUndeaf`) != true) { return } else { var channelID = await db.get(`channelId`) }
+
+            const LogChannel = client.channels.cache.get(channelID); // Replace with your channel id
+            const VCUndeafen = new MessageEmbed()
+                .setTitle('User Undeafend')
+                .setColor('#2F3136')
+                .setDescription(member.user.tag + " become undeafed!");
+
+            return LogChannel.send({
+                embeds: [VCUndeafen]
+            });
+        }
+        main()
+
+    })
+
+    // User Started to Stream
+    client.on("voiceStreamingStart", (member, voiceChannel) => {
+
+        async function main() {
+            const guildId = member.guild.id
+            const db = new QuickDB({ filePath: process.cwd() + `/db/srv_logs/${guildId}.sqlite` });
+            if (await db.get(`check`) != true || await db.get(`voiceStreamingStart`) != true) { return } else { var channelID = await db.get(`channelId`) }
+
+
+            const LogChannel = client.channels.cache.get(channelID); // Replace with your channel id
+            const UserStreaming = new MessageEmbed()
+                .setTitle('User Started to Stream')
+                .setColor('#2F3136')
+                .setDescription(member.user.tag + " started streaming in " + voiceChannel.name);
+
+            return LogChannel.send({
+                embeds: [UserStreaming]
+            });
+        }
+        main()
+
+    })
+
+    // User Stopped to Stream
+    client.on("voiceStreamingStop", (member, voiceChannel) => {
+
+        async function main() {
+            const guildId = member.guild.id
+            const db = new QuickDB({ filePath: process.cwd() + `/db/srv_logs/${guildId}.sqlite` });
+            if (await db.get(`check`) != true || await db.get(`voiceStreamingStop`) != true) { return } else { var channelID = await db.get(`channelId`) }
+
+
+            const LogChannel = client.channels.cache.get(channelID); // Replace with your channel id
+            const UserStoppedStreaming = new MessageEmbed()
+                .setTitle('User Stopped to Stream')
+                .setColor('#2F3136')
+                .setDescription(member.user.tag + " stopped streaming in " + voiceChannel.name);
+
+            return LogChannel.send({
+                embeds: [UserStoppedStreaming]
+            });
+        }
+        main()
+
+    })
 }
