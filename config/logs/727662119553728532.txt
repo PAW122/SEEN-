@@ -5563,3 +5563,54 @@ D:Papua New Guinea
 8.09.2022   14:47   priv   727662119553728532   ogólny   PAW#5844   Jackpota
 8.09.2022   14:48   priv   727662119553728532   bot   SEEN-#5771   
 8.09.2022   17:30   priv   727662119553728532   ogólny   PAW#5844   https://youtube.com/shorts/7IRH290OqqQ?feature=share
+9.09.2022   08:44   priv   727662119553728532   ogólny   PAW#5844   Doładować karte miejską
+9.09.2022   09:19   priv   727662119553728532   bot   PAW#5844   Zrobić komendę google do wyszykiwania syfu
+9.09.2022   09:20   priv   727662119553728532   ogólny   PAW#5844   Zrobić komendę google do wyszykiwania syfu
+9.09.2022   09:22   priv   727662119553728532   bot   PAW#5844   $owner help
+9.09.2022   09:22   priv   727662119553728532   bot   SEEN-#5771   
+9.09.2022   09:22   priv   727662119553728532   bot   SEEN-#5771   Usage: **$guild_info <serverId>
+9.09.2022   09:22   priv   727662119553728532   bot   PAW#5844   $guild_info 1014213623763193896
+9.09.2022   09:22   priv   727662119553728532   bot   SEEN-#5771   
+9.09.2022   09:23   priv   727662119553728532   bot   PAW#5844   $guild_members_info 1014213623763193896
+9.09.2022   09:23   priv   727662119553728532   bot   PAW#5844   $ping
+9.09.2022   09:23   priv   727662119553728532   bot   SEEN-#5771   pong!
+9.09.2022   09:24   priv   727662119553728532   bot   PAW#5844   $guild_members_info 1014213623763193896
+9.09.2022   09:25   priv   727662119553728532   ogólny   PAW#5844   Dodać do owner commands: send channel id - wysyła wiadomość na kanał o danym id
+9.09.2022   09:25   priv   727662119553728532   minc-serv-18   SEEN-#5771   
+9.09.2022   09:25   priv   727662119553728532   minc-serv-18   SEEN-#5771   
+9.09.2022   09:27   priv   727662119553728532   ogólny   PAW#5844   
+9.09.2022   09:27   priv   727662119553728532   ogólny   PAW#5844   "to" musi być bardziej widoczne np w * albo w 'js '
+9.09.2022   09:30   priv   727662119553728532   ogólny   PAW#5844   Dodać deafultowo wyłączone powiadomienia o self-mute w mod logs bo za mocno spami
+
+I ogarnąć te mazwy typów logów do mod logs
+9.09.2022   09:30   priv   727662119553728532   minc-serv-18   SEEN-#5771   
+9.09.2022   09:30   priv   727662119553728532   bug   PAW#5844   
+9.09.2022   09:30   priv   727662119553728532   bug   PAW#5844   Dodać kilka /n po i przed "to"
+9.09.2022   09:31   priv   727662119553728532   bot   PAW#5844   $help
+9.09.2022   09:31   priv   727662119553728532   bot   SEEN-#5771   
+9.09.2022   09:31   priv   727662119553728532   bot   SEEN-#5771   
+9.09.2022   09:31   priv   727662119553728532   bot   PAW#5844   $blitzstats cos
+9.09.2022   09:31   priv   727662119553728532   bot   SEEN-#5771   command is disable: the command is in progress
+9.09.2022   09:32   priv   727662119553728532   bot   PAW#5844   $report help
+9.09.2022   09:32   priv   727662119553728532   bot   SEEN-#5771   send questions / send bug reports
+            usage: $report <example-text>
+            example: $report how is this command working?
+9.09.2022   09:33   priv   727662119553728532   ogólny   PAW#5844   ..
+
+Contack ma w helpie użycie komendy jako $report zamiat $contact
+9.09.2022   23:30   priv   727662119553728532   ogólny   PAW#5844   albion aktualnie 133K set 100%
+10.09.2022   13:40   priv   727662119553728532   bot   PAW#5844   $lvl
+10.09.2022   13:40   priv   727662119553728532   bot   SEEN-#5771   
+10.09.2022   13:40   priv   727662119553728532   bot   PAW#5844   $help
+10.09.2022   13:40   priv   727662119553728532   bot   SEEN-#5771   
+10.09.2022   13:40   priv   727662119553728532   bot   SEEN-#5771   
+10.09.2022   13:40   priv   727662119553728532   bot   PAW#5844   $srv_set
+10.09.2022   13:40   priv   727662119553728532   bot   SEEN-#5771   
+10.09.2022   13:40   priv   727662119553728532   bot   SEEN-#5771   
+10.09.2022   13:40   priv   727662119553728532   bot   PAW#5844   $settings 923300408372396032
+10.09.2022   13:40   priv   727662119553728532   bot   SEEN-#5771   you didn't enter an argument
+10.09.2022   13:41   priv   727662119553728532   bot   PAW#5844   $settings lvls_channel 923300408372396032
+10.09.2022   13:41   priv   727662119553728532   bot   SEEN-#5771   set
+10.09.2022   13:41   priv   727662119553728532   bot   PAW#5844   cos
+10.09.2022   13:41   priv   727662119553728532   bot   PAW#5844   $lvl
+10.09.2022   13:41   priv   727662119553728532   bot   SEEN-#5771   
