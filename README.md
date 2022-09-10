@@ -99,6 +99,7 @@ npm i js-queue
     120.dodać staty: ilość wysłanych wiadomości na kanałach,przez poszczególne osoby
     (staty z: 1d,7d,30d,może all) - starsze dane do usunięcia
     spróbować - logi ilości h spędzonych na kanale (o której godz user wbił i o której wyszedł z kanału) (1d,7d,30d)
+    121.zrobić pożegania (jak welcome ale dal osób wychodzących)
 
     dodać do tego top chanels(top kanał z wiadomościami, top kanał vc z ilością h)
 

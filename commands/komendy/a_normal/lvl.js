@@ -47,16 +47,17 @@ module.exports = {
 
         const curxp = data.xp
         const curlvl = data.level
-        let nxtLvl = (curlvl * xp_per_lvl_scaling) * xp_per_lvl;
+        let nxtLvl = ((curlvl + 1) * xp_per_lvl_scaling) * xp_per_lvl;
         const msg = data.msg + 1
+
 
         const embed = new Discord.MessageEmbed()
 
             .setColor(`BLUE`)
             .setTitle(`Profil data`)
             .setDescription(`<@${authorId}> your lvl is **${curlvl + 1}**
-                to get next lvl u have ${curxp}/${((curlvl + 1) *xp_per_lvl_scaling) * xp_per_lvl} xp.
-                you sent in total ${msg} messages`)
+                to get next lvl u have ${curxp}/${nxtLvl} xp.
+                you sent in total ${msg} messages`)//${curxp}/${curlvl * xp_per_lvl} xp.
 
         inter.reply({ embeds: [embed] })
 
@@ -91,17 +92,18 @@ module.exports = {
 
         const curxp = data.xp
         const curlvl = data.level
-        const nxtLvl = curlvl * xp_per_lvl;
+        let nxtLvl = ((curlvl + 1) * xp_per_lvl_scaling) * xp_per_lvl;
         const msg = data.msg + 1
+
 
 
         const embed = new Discord.MessageEmbed()
 
-            .setColor(`BLUE`)
-            .setTitle(`Profil data`)
-            .setDescription(`<@${authorId}> your lvl is **${curlvl + 1}**
-                to get next lvl u have ${curxp}/${(curlvl + 1) * xp_per_lvl} xp.
-                you sent in total ${msg} messages`)
+        .setColor(`BLUE`)
+        .setTitle(`Profil data`)
+        .setDescription(`<@${authorId}> your lvl is **${curlvl + 1}**
+            to get next lvl u have ${curxp.toFixed(0)}/${nxtLvl.toFixed(0)} xp.
+            you sent in total ${msg} messages`)
         message.channel.send({ embeds: [embed] })//.then(msg => {msg.delete(5000)})
 
     }

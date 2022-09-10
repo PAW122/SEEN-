@@ -47,11 +47,13 @@ module.exports = (client) => {
         let curxp = data.xp
         let xp = curxp + xpAdd;
         let curlvl = data.level
-        let nxtLvl = (curlvl * xp_per_lvl_scaling) * xp_per_lvl;
+        let nxtLvl = ((curlvl + 1) * xp_per_lvl_scaling) * xp_per_lvl;
         let msg = data.msg + 1
+
 
         try {
             if (nxtLvl <= curxp) {
+                let nxtLvl = ((curlvl + 2) * xp_per_lvl_scaling) * xp_per_lvl;
                 const db2 = new QuickDB({ filePath: process.cwd() + `/db/srv_settings/commands/${guildId}.sqlite` });
                 //pobiera undefind a powinno obrać false do naprawy
                 const channel_id = await db2.get(`lvls_channel.channelId`)
@@ -62,7 +64,7 @@ module.exports = (client) => {
                     .setColor(`BLUE`)//EN
                     .setTitle(`Lvl up`)
                     .setDescription(`<@${authorId}> your lvl is **${curlvl + 1}**
-                to get next lvl u have ${curxp}/${(curlvl) * xp_per_lvl} xp.
+                to get next lvl u have ${curxp.toFixed(0)}/${nxtLvl.toFixed(0)} xp.
                 you sent in total ${msg} messages`)
 
                 //jeżeli serwer ma ustawione lvls channel id w ustawieniach:
