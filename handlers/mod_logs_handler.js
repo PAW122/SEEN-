@@ -422,7 +422,7 @@ module.exports = (client) => {
             const MessageEdited = new MessageEmbed()
                 .setTitle('Message Edited')
                 .setColor('#2F3136')
-                .setDescription(`Message Edited from \`${oldContent}\` to \`${newContent}\``);
+                .setDescription(`Message Edited from \n \`${oldContent}\`\n to \n \`${newContent}\``);
 
             return LogChannel.send({
                 embeds: [MessageEdited]

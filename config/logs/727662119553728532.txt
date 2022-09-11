@@ -5949,3 +5949,267 @@ sd
 10.09.2022   15:24   priv   727662119553728532   bot   SEEN-#5771   
 10.09.2022   15:24   priv   727662119553728532   bot   PAW#5844   $srv_logs help
 10.09.2022   15:24   priv   727662119553728532   bot   SEEN-#5771   
+10.09.2022   15:27   priv   727662119553728532   bot   PAW#5844   cos
+10.09.2022   15:27   priv   727662119553728532   minc-serv-18   SEEN-#5771   
+10.09.2022   15:31   priv   727662119553728532   minc-serv-18   PAW#5844   co
+10.09.2022   15:31   priv   727662119553728532   minc-serv-18   SEEN-#5771   
+10.09.2022   19:07   priv   727662119553728532   bot   PAW#5844   $niemiecki-quiz
+10.09.2022   19:07   priv   727662119553728532   minc-serv-18   SEEN-#5771   
+10.09.2022   19:14   priv   727662119553728532   bot   PAW#5844   $niemiecki-quiz
+10.09.2022   19:14   priv   727662119553728532   bot   PAW#5844   $niemiecki-quiz
+10.09.2022   19:15   priv   727662119553728532   bot   PAW#5844   $niemiecki-quiz
+10.09.2022   19:20   priv   727662119553728532   bot   PAW#5844   $niemiec
+10.09.2022   19:20   priv   727662119553728532   bot   SEEN-#5771   Przetłumacz: po polsku
+             A: po niemicku
+B:po niemicku
+C:po niemicku
+D:po niemicku
+10.09.2022   19:20   priv   727662119553728532   bot   SEEN-#5771   
+10.09.2022   19:21   priv   727662119553728532   bot   PAW#5844   $niemiec
+10.09.2022   19:21   priv   727662119553728532   bot   SEEN-#5771   Przetłumacz: po polsku 
+
+             A: po niemicku
+B:po niemicku
+C:po niemicku
+D:po niemicku
+10.09.2022   19:21   priv   727662119553728532   bot   SEEN-#5771   
+10.09.2022   19:21   priv   727662119553728532   bot   PAW#5844   a
+10.09.2022   19:22   priv   727662119553728532   bot   SEEN-#5771   Bad answer. Correct answer is: **C**
+10.09.2022   19:22   priv   727662119553728532   bot   PAW#5844   $niemiec
+10.09.2022   19:22   priv   727662119553728532   bot   SEEN-#5771   Przetłumacz: po polsku
+             
+A: po niemicku
+B:po niemicku
+C:po niemicku
+D:po niemicku
+10.09.2022   19:22   priv   727662119553728532   bot   SEEN-#5771   
+10.09.2022   19:22   priv   727662119553728532   bot   PAW#5844   b
+10.09.2022   19:22   priv   727662119553728532   bot   SEEN-#5771   Bad answer. Correct answer is: **A**
+10.09.2022   22:00   priv   727662119553728532   ogólny   PAW#5844   McAfee - antywirus do pobrania
+10.09.2022   22:09   priv   727662119553728532   bot   PAW#5844   $ai_set 745768777022701648
+10.09.2022   22:09   priv   727662119553728532   bot   SEEN-#5771   Sucesfully saved now <#745768777022701648> be writen by SEEN AI
+10.09.2022   22:09   priv   727662119553728532   bot   PAW#5844   siema
+10.09.2022   22:09   priv   727662119553728532   bot   PAW#5844   hello
+10.09.2022   22:10   priv   727662119553728532   bot   PAW#5844   hello
+10.09.2022   22:10   priv   727662119553728532   bot   PAW#5844   c
+10.09.2022   22:10   priv   727662119553728532   bot   PAW#5844   hello
+10.09.2022   22:10   priv   727662119553728532   bot   PAW#5844   cos
+10.09.2022   22:10   priv   727662119553728532   bot   PAW#5844   cos
+10.09.2022   22:11   priv   727662119553728532   bot   PAW#5844   .
+10.09.2022   22:11   priv   727662119553728532   bot   PAW#5844   cos
+10.09.2022   22:13   priv   727662119553728532   bot   PAW#5844   cos
+10.09.2022   22:14   priv   727662119553728532   bot   PAW#5844   z
+10.09.2022   22:16   priv   727662119553728532   bot   PAW#5844   z
+10.09.2022   22:16   priv   727662119553728532   bot   PAW#5844   c
+10.09.2022   22:16   priv   727662119553728532   bot   PAW#5844   hello
+10.09.2022   22:17   priv   727662119553728532   minc-serv-18   PAW#5844   hello
+10.09.2022   22:19   priv   727662119553728532   bot   PAW#5844   hello
+10.09.2022   22:20   priv   727662119553728532   minc-serv-18   PAW#5844   hello
+10.09.2022   22:20   priv   727662119553728532   bot   PAW#5844   hello
+10.09.2022   22:21   priv   727662119553728532   bot   PAW#5844   hello
+10.09.2022   22:22   priv   727662119553728532   bot   PAW#5844   hello
+10.09.2022   22:23   priv   727662119553728532   bot   PAW#5844   hello
+10.09.2022   22:25   priv   727662119553728532   bot   PAW#5844   hello
+10.09.2022   22:26   priv   727662119553728532   bot   PAW#5844   hello
+10.09.2022   22:28   priv   727662119553728532   bot   PAW#5844   hello
+10.09.2022   22:28   priv   727662119553728532   bot   PAW#5844   hello
+10.09.2022   22:29   priv   727662119553728532   bot   PAW#5844   hello
+10.09.2022   22:29   priv   727662119553728532   bot   PAW#5844   hello
+10.09.2022   22:30   priv   727662119553728532   bot   PAW#5844   hello
+10.09.2022   22:31   priv   727662119553728532   bot   PAW#5844   hello
+10.09.2022   22:32   priv   727662119553728532   bot   PAW#5844   hello
+10.09.2022   22:33   priv   727662119553728532   bot   PAW#5844   hello
+10.09.2022   22:33   priv   727662119553728532   bot   SEEN-#5771   co tam u ciebie
+10.09.2022   22:33   priv   727662119553728532   bot   SEEN-#5771   co tam u ciebie
+10.09.2022   22:33   priv   727662119553728532   bot   PAW#5844   hello
+10.09.2022   22:33   priv   727662119553728532   bot   SEEN-#5771   co tam u ciebie
+10.09.2022   22:33   priv   727662119553728532   bot   SEEN-#5771   co tam u ciebie
+10.09.2022   22:34   priv   727662119553728532   bot   PAW#5844   hello
+10.09.2022   22:34   priv   727662119553728532   bot   SEEN-#5771   cześć co tam u ciebie
+10.09.2022   22:34   priv   727662119553728532   bot   SEEN-#5771   cześć co tam u ciebie
+10.09.2022   22:37   priv   727662119553728532   bot   PAW#5844   cos
+10.09.2022   22:37   priv   727662119553728532   bot   PAW#5844   hello
+10.09.2022   22:37   priv   727662119553728532   bot   SEEN-#5771   cześć co tam u ciebie
+10.09.2022   22:37   priv   727662119553728532   bot   SEEN-#5771   cześć co tam u ciebie
+10.09.2022   22:42   priv   727662119553728532   bot   PAW#5844   hello
+10.09.2022   22:42   priv   727662119553728532   bot   SEEN-#5771   cześć co tam u ciebie
+10.09.2022   22:42   priv   727662119553728532   bot   SEEN-#5771   cześć co tam u ciebie
+10.09.2022   23:44   priv   727662119553728532   bot   PAW#5844   hello
+10.09.2022   23:44   priv   727662119553728532   bot   SEEN-#5771   cześć co tam u ciebie
+10.09.2022   23:44   priv   727662119553728532   bot   SEEN-#5771   cześć co tam u ciebie
+10.09.2022   23:49   priv   727662119553728532   bot   PAW#5844   $help
+10.09.2022   23:49   priv   727662119553728532   bot   SEEN-#5771   
+10.09.2022   23:49   priv   727662119553728532   bot   SEEN-#5771   
+11.09.2022   00:58   priv   727662119553728532   bot   PAW#5844   cos
+11.09.2022   00:59   priv   727662119553728532   bot   PAW#5844   cos
+11.09.2022   00:59   priv   727662119553728532   bot   PAW#5844   cos
+11.09.2022   00:59   priv   727662119553728532   bot   PAW#5844   cos
+11.09.2022   00:59   priv   727662119553728532   bot   PAW#5844   hello
+11.09.2022   00:59   priv   727662119553728532   bot   SEEN-#5771   cześć co tam u ciebie
+11.09.2022   01:01   priv   727662119553728532   bot   PAW#5844   siema
+11.09.2022   01:01   priv   727662119553728532   bot   SEEN-#5771   cześć co tam u ciebie
+11.09.2022   01:01   priv   727662119553728532   bot   PAW#5844   siema co tam
+11.09.2022   01:01   priv   727662119553728532   bot   SEEN-#5771   cześć co tam u ciebie
+11.09.2022   01:03   priv   727662119553728532   minc-serv-18   PAW#5844   siema
+11.09.2022   01:03   priv   727662119553728532   bot   PAW#5844   siemasiema
+11.09.2022   01:03   priv   727662119553728532   bot   PAW#5844   siema
+11.09.2022   01:03   priv   727662119553728532   bot   SEEN-#5771   cześć co tam u ciebie
+11.09.2022   01:03   priv   727662119553728532   bot   PAW#5844   siema
+11.09.2022   01:03   priv   727662119553728532   bot   SEEN-#5771   cześć co tam u ciebie
+11.09.2022   01:03   priv   727662119553728532   bot   PAW#5844   siema
+11.09.2022   01:03   priv   727662119553728532   bot   SEEN-#5771   cześć co tam u ciebie
+11.09.2022   01:03   priv   727662119553728532   bot   PAW#5844   siema
+11.09.2022   01:03   priv   727662119553728532   bot   SEEN-#5771   cześć co tam u ciebie
+11.09.2022   01:04   priv   727662119553728532   bot   PAW#5844   siema
+11.09.2022   01:04   priv   727662119553728532   bot   SEEN-#5771   cześć
+11.09.2022   01:04   priv   727662119553728532   bot   PAW#5844   siema
+11.09.2022   01:04   priv   727662119553728532   bot   SEEN-#5771   cześć co tam u ciebie
+11.09.2022   01:04   priv   727662119553728532   bot   PAW#5844   siema
+11.09.2022   01:04   priv   727662119553728532   bot   SEEN-#5771   cześć
+11.09.2022   01:04   priv   727662119553728532   minc-serv-18   SEEN-#5771   
+11.09.2022   01:04   priv   727662119553728532   bot   PAW#5844   siema
+11.09.2022   01:04   priv   727662119553728532   bot   SEEN-#5771   cześć
+11.09.2022   01:04   priv   727662119553728532   bot   PAW#5844   siema
+11.09.2022   01:04   priv   727662119553728532   bot   SEEN-#5771   cześć
+11.09.2022   01:04   priv   727662119553728532   bot   PAW#5844   siema
+11.09.2022   01:04   priv   727662119553728532   bot   SEEN-#5771   cześć co tam u ciebie
+11.09.2022   01:04   priv   727662119553728532   bot   PAW#5844   siema
+11.09.2022   01:04   priv   727662119553728532   bot   SEEN-#5771   cześć co tam u ciebie
+11.09.2022   01:04   priv   727662119553728532   bot   PAW#5844   siema
+11.09.2022   01:04   priv   727662119553728532   bot   SEEN-#5771   cześć
+11.09.2022   01:04   priv   727662119553728532   bot   PAW#5844   siema
+11.09.2022   01:04   priv   727662119553728532   bot   SEEN-#5771   cześć
+11.09.2022   01:04   priv   727662119553728532   bot   PAW#5844   siema
+11.09.2022   01:04   priv   727662119553728532   bot   SEEN-#5771   cześć co tam u ciebie
+11.09.2022   01:04   priv   727662119553728532   bot   PAW#5844   siema
+11.09.2022   01:04   priv   727662119553728532   bot   SEEN-#5771   cześć
+11.09.2022   01:04   priv   727662119553728532   bot   PAW#5844   siema
+11.09.2022   01:04   priv   727662119553728532   bot   SEEN-#5771   cześć
+11.09.2022   01:05   priv   727662119553728532   bot   PAW#5844   siema
+11.09.2022   01:05   priv   727662119553728532   bot   SEEN-#5771   siema
+11.09.2022   01:05   priv   727662119553728532   bot   PAW#5844   siema
+11.09.2022   01:05   priv   727662119553728532   bot   SEEN-#5771   siema
+11.09.2022   01:05   priv   727662119553728532   bot   PAW#5844   siema
+11.09.2022   01:05   priv   727662119553728532   bot   SEEN-#5771   siema
+11.09.2022   01:05   priv   727662119553728532   bot   PAW#5844   siema
+11.09.2022   01:05   priv   727662119553728532   bot   SEEN-#5771   siema
+11.09.2022   01:05   priv   727662119553728532   bot   PAW#5844   siema
+11.09.2022   01:05   priv   727662119553728532   bot   SEEN-#5771   siema
+11.09.2022   01:05   priv   727662119553728532   bot   PAW#5844   siema
+11.09.2022   01:05   priv   727662119553728532   bot   SEEN-#5771   cześć
+11.09.2022   01:05   priv   727662119553728532   bot   PAW#5844   siema
+11.09.2022   01:05   priv   727662119553728532   bot   SEEN-#5771   cześć
+11.09.2022   01:05   priv   727662119553728532   bot   PAW#5844   siema
+11.09.2022   01:05   priv   727662119553728532   bot   SEEN-#5771   cześć
+11.09.2022   01:06   priv   727662119553728532   bot   PAW#5844   siema
+11.09.2022   01:06   priv   727662119553728532   bot   SEEN-#5771   cześć
+11.09.2022   01:06   priv   727662119553728532   bot   PAW#5844   siema
+11.09.2022   01:06   priv   727662119553728532   bot   SEEN-#5771   cześć
+11.09.2022   01:06   priv   727662119553728532   bot   PAW#5844   siema
+11.09.2022   01:06   priv   727662119553728532   bot   SEEN-#5771   cześć
+11.09.2022   01:06   priv   727662119553728532   bot   PAW#5844   siema
+11.09.2022   01:06   priv   727662119553728532   bot   SEEN-#5771   cześć
+11.09.2022   01:06   priv   727662119553728532   bot   PAW#5844   siema
+11.09.2022   01:06   priv   727662119553728532   bot   SEEN-#5771   cześć
+11.09.2022   01:06   priv   727662119553728532   bot   PAW#5844   siema
+11.09.2022   01:06   priv   727662119553728532   bot   SEEN-#5771   cześć
+11.09.2022   01:06   priv   727662119553728532   bot   PAW#5844   siema
+11.09.2022   01:06   priv   727662119553728532   bot   SEEN-#5771   cześć
+11.09.2022   01:06   priv   727662119553728532   bot   PAW#5844   siema
+11.09.2022   01:06   priv   727662119553728532   bot   SEEN-#5771   siema
+11.09.2022   01:06   priv   727662119553728532   bot   PAW#5844   siema
+11.09.2022   01:06   priv   727662119553728532   bot   SEEN-#5771   siema
+11.09.2022   01:06   priv   727662119553728532   bot   PAW#5844   siema
+11.09.2022   01:06   priv   727662119553728532   bot   SEEN-#5771   siema
+11.09.2022   01:06   priv   727662119553728532   bot   PAW#5844   siema
+11.09.2022   01:06   priv   727662119553728532   bot   SEEN-#5771   cześć
+11.09.2022   01:06   priv   727662119553728532   bot   PAW#5844   siema
+11.09.2022   01:06   priv   727662119553728532   bot   SEEN-#5771   cześć
+11.09.2022   01:06   priv   727662119553728532   bot   PAW#5844   siema
+11.09.2022   01:06   priv   727662119553728532   bot   SEEN-#5771   cześć
+11.09.2022   01:06   priv   727662119553728532   bot   PAW#5844   siema
+11.09.2022   01:06   priv   727662119553728532   bot   SEEN-#5771   cześć
+11.09.2022   01:06   priv   727662119553728532   minc-serv-18   SEEN-#5771   
+11.09.2022   01:06   priv   727662119553728532   bot   PAW#5844   siema
+11.09.2022   01:06   priv   727662119553728532   bot   SEEN-#5771   siema
+11.09.2022   01:06   priv   727662119553728532   bot   PAW#5844   siema
+11.09.2022   01:06   priv   727662119553728532   bot   SEEN-#5771   cześć co tam u ciebie
+11.09.2022   01:06   priv   727662119553728532   bot   PAW#5844   siema
+11.09.2022   01:06   priv   727662119553728532   bot   SEEN-#5771   cześć co tam u ciebie
+11.09.2022   01:06   priv   727662119553728532   bot   PAW#5844   siema
+11.09.2022   01:06   priv   727662119553728532   bot   SEEN-#5771   cześć
+11.09.2022   01:48   priv   727662119553728532   bot   PAW#5844   $backgrounds
+11.09.2022   01:48   priv   727662119553728532   bot   PAW#5844   $backgrounds
+11.09.2022   01:48   priv   727662119553728532   bot   SEEN-#5771   
+11.09.2022   01:48   priv   727662119553728532   bot   PAW#5844   $backgrounds list
+11.09.2022   01:48   priv   727662119553728532   bot   SEEN-#5771   
+11.09.2022   01:49   priv   727662119553728532   bot   PAW#5844   $backgrounds set 10
+11.09.2022   01:49   priv   727662119553728532   bot   SEEN-#5771   
+11.09.2022   01:50   priv   727662119553728532   bot   PAW#5844   $backgrounds set 10
+11.09.2022   01:50   priv   727662119553728532   bot   SEEN-#5771   set
+11.09.2022   01:51   priv   727662119553728532   ogólny   Senko#3667   
+11.09.2022   01:51   priv   727662119553728532   bot   SEEN-#5771   test2 sd sds
+11.09.2022   01:52   priv   727662119553728532   bot   PAW#5844   $backgrounds set 3
+11.09.2022   01:52   priv   727662119553728532   bot   SEEN-#5771   set
+11.09.2022   01:52   priv   727662119553728532   ogólny   Senko#3667   
+11.09.2022   01:53   priv   727662119553728532   ogólny   Senko#3667   
+11.09.2022   01:53   priv   727662119553728532   bot   PAW#5844   $backgrounds set 9
+11.09.2022   01:53   priv   727662119553728532   bot   SEEN-#5771   set
+11.09.2022   01:53   priv   727662119553728532   ogólny   Senko#3667   
+11.09.2022   01:55   priv   727662119553728532   bot   PAW#5844   $backgrounds set 4
+11.09.2022   01:55   priv   727662119553728532   bot   SEEN-#5771   set
+11.09.2022   01:55   priv   727662119553728532   ogólny   Senko#3667   
+11.09.2022   01:55   priv   727662119553728532   bot   SEEN-#5771   test2 sd sds
+11.09.2022   01:55   priv   727662119553728532   bot   PAW#5844   $backgrounds set 1
+11.09.2022   01:55   priv   727662119553728532   bot   SEEN-#5771   set
+11.09.2022   01:55   priv   727662119553728532   ogólny   Senko#3667   
+11.09.2022   01:55   priv   727662119553728532   ogólny   Senko#3667   
+11.09.2022   01:55   priv   727662119553728532   bot   SEEN-#5771   test2 sd sds
+11.09.2022   01:56   priv   727662119553728532   bot   PAW#5844   $backgrounds set 9
+11.09.2022   01:56   priv   727662119553728532   bot   SEEN-#5771   set
+11.09.2022   01:57   priv   727662119553728532   ogólny   Senko#3667   
+11.09.2022   01:58   priv   727662119553728532   bot   PAW#5844   $backgrounds set 9
+11.09.2022   01:58   priv   727662119553728532   bot   SEEN-#5771   set
+11.09.2022   01:59   priv   727662119553728532   ogólny   Senko#3667   
+11.09.2022   01:59   priv   727662119553728532   bot   SEEN-#5771   test2 sd sds
+11.09.2022   01:59   priv   727662119553728532   bot   PAW#5844   $backgrounds set 8
+11.09.2022   01:59   priv   727662119553728532   bot   SEEN-#5771   set
+11.09.2022   01:59   priv   727662119553728532   ogólny   Senko#3667   
+11.09.2022   02:00   priv   727662119553728532   ogólny   PAW#5844   $clear 5
+11.09.2022   02:00   priv   727662119553728532   ogólny   SEEN-#5771   Usunąłem 5 wiadomości
+11.09.2022   02:00   priv   727662119553728532   minc-serv-18   SEEN-#5771   
+11.09.2022   02:06   priv   727662119553728532   bot   PAW#5844   $backgrounds set 8
+11.09.2022   02:06   priv   727662119553728532   bot   SEEN-#5771   set
+11.09.2022   02:06   priv   727662119553728532   ogólny   Senko#3667   
+11.09.2022   02:06   priv   727662119553728532   bot   SEEN-#5771   test2 sd sds
+11.09.2022   02:06   priv   727662119553728532   bot   PAW#5844   $backgrounds set 7
+11.09.2022   02:06   priv   727662119553728532   bot   SEEN-#5771   set
+11.09.2022   02:06   priv   727662119553728532   ogólny   Senko#3667   
+11.09.2022   02:08   priv   727662119553728532   bot   PAW#5844   $backgrounds set 10
+11.09.2022   02:08   priv   727662119553728532   bot   SEEN-#5771   set
+11.09.2022   02:08   priv   727662119553728532   ogólny   Senko#3667   
+11.09.2022   02:08   priv   727662119553728532   bot   SEEN-#5771   test2 sd sds
+11.09.2022   02:08   priv   727662119553728532   ogólny   Senko#3667   
+11.09.2022   02:10   priv   727662119553728532   bot   PAW#5844   $backgrounds set 5
+11.09.2022   02:10   priv   727662119553728532   bot   SEEN-#5771   set
+11.09.2022   02:11   priv   727662119553728532   ogólny   SEEN-#4498   
+11.09.2022   02:13   priv   727662119553728532   bot   PAW#5844   $backgrounds
+11.09.2022   02:13   priv   727662119553728532   bot   SEEN-#5771   
+11.09.2022   02:14   priv   727662119553728532   bot   PAW#5844   $backgrounds
+11.09.2022   02:14   priv   727662119553728532   bot   SEEN-#5771   
+11.09.2022   02:15   priv   727662119553728532   bot   PAW#5844   $backgrounds custom https://i.pinimg.com/originals/44/03/78/440378aa4bcfb02fce71a3a98ee09539.jpg
+11.09.2022   02:15   priv   727662119553728532   bot   SEEN-#5771   set
+11.09.2022   02:15   priv   727662119553728532   ogólny   Senko#3667   
+11.09.2022   02:15   priv   727662119553728532   bot   SEEN-#5771   test2 sd sds
+11.09.2022   02:16   priv   727662119553728532   bot   PAW#5844   $backgrounds custom https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCG0sdyfkBJlKg43klvJT1Nf02SQbik8aa0Q&usqp=CAU
+11.09.2022   02:16   priv   727662119553728532   bot   SEEN-#5771   set
+11.09.2022   02:16   priv   727662119553728532   ogólny   Senko#3667   
+11.09.2022   02:17   priv   727662119553728532   bot   SEEN-#5771   test2 sd sds
+11.09.2022   02:17   priv   727662119553728532   bot   SEEN-#5771   test2 sd sds
+11.09.2022   02:17   priv   727662119553728532   ogólny   Senko#3667   
+11.09.2022   02:17   priv   727662119553728532   ogólny   PAW#5844   $clear 15
+11.09.2022   02:17   priv   727662119553728532   ogólny   SEEN-#5771   Usunąłem 15 wiadomości
+11.09.2022   02:17   priv   727662119553728532   minc-serv-18   SEEN-#5771   
+11.09.2022   02:17   priv   727662119553728532   ogólny   PAW#5844   client.once -- reaguje tylko raz na wiadomość z discorda
+11.09.2022   02:18   priv   727662119553728532   ogólny   PAW#5844   
+11.09.2022   02:18   priv   727662119553728532   minc-serv-18   SEEN-#5771   

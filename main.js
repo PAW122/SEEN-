@@ -50,9 +50,6 @@ const interaction_handler = require("./handlers/interaction_handler")
 //yt notifcation handler
 const yt_notify = require("./commands/komendy/API/yt-notifications")
 
-//wczytuje AI
-const ai_handler = require("./commands/komendy/AI/ai_handler")
-
 //lvling system
 const lvling = require("./handlers/lvling_handler")
 
@@ -61,6 +58,9 @@ const mod_logs_handler = require("./handlers/mod_logs_handler")
 
 //automod
 const automod_handler = require("./commands/servers_config/auto_mod_handler")
+
+//ai handler
+const ai = require("./commands/komendy/AI/ai_handler")
 
 
 const client = new Discord.Client({
@@ -104,16 +104,13 @@ client.once('ready', () => {
     //powitania
     generateImage(client)
 
-    //ai handler
-    ai_handler(client)
-
     //lvling system
     lvling(client)
 
     //mod logs
     mod_logs_handler(client)
 
-
+    ai(client)
 });
 
 

@@ -54,7 +54,7 @@ npm i js-queue
     60.zrobić do ekonomi lootboxy, z animacjami gdzie dla każdeg przedmiotu będzie animacja z jego wygraniem i jak ktoś wylosuje dany item to bot wysyła animacja, ka której dany item wypada na gifie
     62.naprawić albo napisać na nowo tabele asci do komend po wszystko odwala kilka razy
     63.Ojcja na komende work
-    Jedziesz samochodem np 10h i możesz lrzyspieszyć ale wtedy zwiększa się szansa na eypadek
+    Jedziesz samochodem np 10h i możesz lrzyspieszyć ale wtedy zwiększa się szansa na wypadek
     I tracisz ikeś monet
     Można wybrać ziężarówke ale ona jedzie wolniej i trzeba więcej czaau ake zarobisz więcej
     64.zrobić tak, że gdy ktoś wbija lvl za wiadomości dostaje kilka meoet
@@ -64,7 +64,6 @@ npm i js-queue
     80.zrobić coś ala $zrzutka i np wszyscy gracze będą się zrzecali na np vipa i potem z wszystkich ludzi będzie losowanie
     81.dodać komendę do resetowania global banku
     82.zrobić coś ala bindy na bocie
-    83.ogarnąć set status (w ready js w mainie bo nie dział)
     84.ekonomia dodać workery: birthday
     86.dodać liczenie największego rekordu i dodać możliość sprawdzenia leader bordu z top 10 graczy (dla gry w flagi)
     87.to samo co gra mapy ale dla województw w polsce
@@ -100,6 +99,16 @@ npm i js-queue
     (staty z: 1d,7d,30d,może all) - starsze dane do usunięcia
     spróbować - logi ilości h spędzonych na kanale (o której godz user wbił i o której wyszedł z kanału) (1d,7d,30d)
     121.zrobić pożegania (jak welcome ale dal osób wychodzących)
+
+    122.dodać wybór tła do welcome (wrzucić tam kilka standardowych , kilka anime
+    i bot nie wysyła 1 ss gdzie będą ,ponumerowane wszystkie tła do wyboró)
+    123.Zrobić komendę google do wyszykiwania syfu
+    124.owner command - channel id - wysyła wiadomość na kanał o danym id
+    125. zrobić jackpota na ekonomi(jak urzytkownik przegra jego pieiądze trafiają do puli nagród (szanse na wygranie - 1%) jeżeli ktoś wygra pula nagród w jaskpocie jest ustawiana na 10000, minimalna stawka zagrania to 1000)
+    126.dodać system kodów bonusiwaych(bot owner może urzyć komendy żeby wygenerować randomowy kod, który po aktywowaniu będzie dodawał np konto premium, coinsy, itemu w eco itp), jeżeli urzytkownik będzie próbował wpisać randomowy kod (np 20razy z rzędu poda błędny kod dostaje bana na urzywanie kodów bonusowych)
+    127.dodać konto premium do ekonomi(zwiększa wszystkie nagrody o 20%, konto premium będzie do pupienia za jakąś sporą sume)
+    128.ogarnąć coś żeby po zmianie tła do welcome bot przełwadował ustawienia
+    (zrobić reload) + w ustawiania tła dodać wymagane uprawnienia administratora
 
     dodać do tego top chanels(top kanał z wiadomościami, top kanał vc z ilością h)
 
@@ -244,3 +253,5 @@ która "tworzy" db na czystych i czytelnych plikh json
     obrazek z np smogiem do tego 4 słówka po niemiecku i 1 z nich jest poprawne(słówka z książki)
     (i tak jak flagi zrobić combo)
     (kilka kategori z 3 działóc czy coś)
+
+    dodać funkcje tłumaczenia na niemiecki (api gogle tłumacza)

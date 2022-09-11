@@ -63,6 +63,13 @@ const embed_pl = new Discord.MessageEmbed()
          usage: $settings lvls_channel <channel_ID>
          example:  $settings lvls_channel 745768777022701648`, inline: false
         },
+        {//do ogarnięcia
+            name: `$backgrounds help`,
+            value: `set a unique background for your welcome message
+         usage: $backgrounds help
+         example:  $settings background 1
+         backgrounds. use: **$backgrounds list** to get list of all backgrounds`, inline: false
+        },
         
 
 

@@ -21,6 +21,7 @@ module.exports ={
     //zapisz do db
     await db.set(`${guildId}.guild`, guildId)
     await db.set(`${guildId}.channelid`, ai_chammel)
+    await db.set(`${guildId}.check`, true)
     return message.channel.send(`Sucesfully saved now <#${ai_chammel}> be writen by SEEN AI`)
 
     }

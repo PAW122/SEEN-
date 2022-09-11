@@ -24,6 +24,8 @@ module.exports = (message,client) => {
         await db.set(`check`, { check: true })
         await db.set(`prefix`, { check: "$" })
         await db.set(`welcome`, { channelId: "null" })
+        await db.set(`background`, { check: false,custom:false,type: 1})//deafult type: 1
+        await db.set(`bglink`, { link: "", check: false })
         await db.set(`version`, { check: `${db_version}` })
         await db.set(`tickets`, { settings: ["null", "null"] })
         await db.set(`lvls_channel`, { channelId: false})

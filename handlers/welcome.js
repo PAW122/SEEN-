@@ -1,6 +1,6 @@
 const Canvas = require("canvas")
 const Discord = require("discord.js")
-const background = "https://i.imgur.com/zvWTUVu.jpg"
+var background = "https://i.imgur.com/zvWTUVu.jpg"
 const { QuickDB } = require("quick.db");
 const dim = {
     height: 675,
@@ -16,7 +16,36 @@ const av = {
 
 module.exports = (client) => {
 client.once("guildMemberAdd", member => {
+    console.log(member.user.tag)
+   // delete require.cache[require.resolve(`./welcome.js`)];//odświerza plik
     async function welcome() {
+        
+        //get background
+        const guildId = member.guild.id
+        const db = new QuickDB({ filePath: process.cwd() + `/db/srv_settings/commands/${guildId}.sqlite` });
+        if(await db.get(`background.check`) != true) {
+            var background = "https://i.imgur.com/zvWTUVu.jpg"
+
+        }else if(await db.get(`background.custom`) == true){
+            if(await db.get(`bglink.check`) != true) return message.channel.send("Worng wellcome background settings")
+            
+            var background = `${await db.get(`bglink.link`)}`
+        }else if(await db.get(`background.check`) == true){
+            //tło z galeri bota
+            const bgtype = await db.get(`background.type`)
+            if(bgtype == 1)var background = `https://i.imgur.com/zvWTUVu.jpg`
+            if(bgtype == 2)var background = `https://wallpaperaccess.com/full/2071603.jpg`
+            if(bgtype == 3)var background = `https://www.geeklawblog.com/wp-content/uploads/sites/528/2018/12/liprofile.png`
+            if(bgtype == 4)var background = `https://pbs.twimg.com/media/FUJ8dDrXEAIGk3o?format=jpg&name=large`
+            if(bgtype == 5)var background = `https://cdn.wallpapersafari.com/39/38/SimM0C.jpg`
+            if(bgtype == 6)var background = `https://img.freepik.com/free-vector/japanese-street-pastel-colours_52683-44714.jpg?w=2000`
+            if(bgtype == 7)var background = `https://i.pinimg.com/736x/35/3b/fa/353bfaa8b76b23dc8dfaf1af6482d220.jpg`
+            if(bgtype == 8)var background = `https://t4.ftcdn.net/jpg/03/08/24/29/360_F_308242904_BNor0M6K6I19nVW6AVv8Qg9fWtuU9hMB.jpg`
+            if(bgtype == 9)var background = `https://t3.ftcdn.net/jpg/04/49/19/08/360_F_449190831_i2whvIQdDIGtuIVWT6QfenWwmRApVJ5l.jpg`
+            if(bgtype == 10)var background = `https://impuls.nzsug.pl/wp-content/uploads/2020/01/HXcsVY5.png`
+        }//do tego trzeba zrobić komendę odświerzaącą bota
+        console.log(`bg: ${background}`)
+
         let username = member.user.username
         let discrim = member.user.discriminator
         let avatarURL = member.user.displayAvatarURL({ format: "png", dynamic: false, size: av.size })
@@ -59,8 +88,6 @@ client.once("guildMemberAdd", member => {
         ctx.font = "bold 40px serif"
         ctx.fillText("to the server", dim.width / 2, dim.height - dim.margin - 50)
 
-        const guildId = member.guild.id
-        const db = new QuickDB({ filePath: process.cwd() + `/db/srv_settings/commands/${guildId}.sqlite` });
 
         const welcomeChannelId = await db.get(`welcome.channelId`)
         if (welcomeChannelId == "null" || welcomeChannelId == null) {
@@ -79,6 +106,7 @@ client.once("guildMemberAdd", member => {
                 content: welcom_message,
                 files: [attachment]
             })
+
         }
 
     }

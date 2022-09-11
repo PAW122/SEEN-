@@ -23,7 +23,7 @@ module.exports = (client) => {
     const animezapowiedziFolders = fs.readdirSync(__dirname +`/../commands/anime zapowiedz`)//dla zapowiedzi
     const economy_commands = fs.readdirSync(__dirname +`/../commands/economy`)//dla ekonomi
     const settings_commands = fs.readdirSync(__dirname +`/../commands/servers_config`)//dla ekonomi
-    //command handler 
+    //command handler
     
     for (const folder of komendyFolders) {//command handler dla komend
         const commandsFile = fs.readdirSync(__dirname +`/../commands/komendy/${folder}`).filter(file => file.endsWith(".js"));
@@ -108,8 +108,7 @@ module.exports = (client) => {
             tabela(command,file,table,name,name_en,nr_tabeli)
         }
     }
-    
-    
+
     //wypisuje w konsoli tabelke co zostało załadowane
     if(load_commands_logs == "True"){
     console.log(table.toString())}
