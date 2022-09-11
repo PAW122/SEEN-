@@ -6213,3 +6213,7 @@ D:po niemicku
 11.09.2022   02:17   priv   727662119553728532   ogólny   PAW#5844   client.once -- reaguje tylko raz na wiadomość z discorda
 11.09.2022   02:18   priv   727662119553728532   ogólny   PAW#5844   
 11.09.2022   02:18   priv   727662119553728532   minc-serv-18   SEEN-#5771   
+11.09.2022   13:56   priv   727662119553728532   bot   PAW#5844   $backgrounds set 10
+11.09.2022   13:56   priv   727662119553728532   bot   SEEN-#5771   set
+11.09.2022   13:56   priv   727662119553728532   ogólny   Senko#3667   
+11.09.2022   13:56   priv   727662119553728532   bot   SEEN-#5771   test2 sd sds
