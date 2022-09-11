@@ -32,20 +32,20 @@ module.exports = {
         }
 
         if(args[0] == "set"){
-            //ustaw jedną z grafik bota
+            
             if(!args[1]) return message.channel.send("you dont type nackground id")
             if(isNaN(args[1])) return message.reply("wrong id. Id need to be nunber")
             if(args[1] < 1 || args[1] > 10){
                 return message.reply("worng id. type if form 1 to 10")
             }
-            //poprawne id
+            
             // await db.set(`background`, { check: true,custom:false,type: 1})
             await db.set(`background`, { check: true,custom:false,type: args[1]})
             return message.reply("set")
         }
 
         if(args[0] == "custom"){
-            //tło z customowego linu urzytkownika
+            
             await db.set(`background`, { check: true,custom:true,type: args[1]})
             await db.set(`bglink`, { link: `${args[1]}`, check: true })
             return message.reply("set")

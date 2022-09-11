@@ -6213,3 +6213,23 @@ D:po niemicku
 11.09.2022   02:17   priv   727662119553728532   ogólny   PAW#5844   client.once -- reaguje tylko raz na wiadomość z discorda
 11.09.2022   02:18   priv   727662119553728532   ogólny   PAW#5844   
 11.09.2022   02:18   priv   727662119553728532   minc-serv-18   SEEN-#5771   
+11.09.2022   13:58   priv   727662119553728532   bot   PAW#5844   --------------------------------------------------------------
+11.09.2022   13:59   priv   727662119553728532   bot   PAW#5844   $backgrounds custom https://png.pngtree.com/thumb_back/fh260/background/20200714/pngtree-modern-double-color-futuristic-neon-background-image_351866.jpg
+11.09.2022   13:59   priv   727662119553728532   bot   SEEN-#5771   set
+11.09.2022   14:00   priv   727662119553728532   ogólny   Senko#3667   
+11.09.2022   14:00   priv   727662119553728532   bot   SEEN-#5771   test2 sd sds
+11.09.2022   14:00   priv   727662119553728532   bot   PAW#5844   $backgrounds custom https://img.freepik.com/premium-wektory/recznie-malowane-tlo-w-kolorach-fioletu-i-pomaranczy_23-2148427578.jpg?w=2000
+11.09.2022   14:00   priv   727662119553728532   bot   SEEN-#5771   set
+11.09.2022   14:00   priv   727662119553728532   ogólny   Senko#3667   
+11.09.2022   17:02   priv   727662119553728532   ogólny   PAW#5844   https://youtu.be/B09MKHcWdTk
+11.09.2022   17:02   priv   727662119553728532   ogólny   PAW#5844   
+11.09.2022   17:02   priv   727662119553728532   minc-serv-18   SEEN-#5771   
+11.09.2022   17:02   priv   727662119553728532   minc-serv-18   SEEN-#5771   
+11.09.2022   17:27   priv   727662119553728532   paylody   PAW#5844   zmieniający kursor
+11.09.2022   23:56   priv   727662119553728532   bot   PAW#5844   $backgrounds
+11.09.2022   23:56   priv   727662119553728532   bot   SEEN-#5771   
+11.09.2022   23:56   priv   727662119553728532   bot   PAW#5844   $backgrounds list
+11.09.2022   23:56   priv   727662119553728532   bot   SEEN-#5771   
+11.09.2022   23:56   priv   727662119553728532   bot   PAW#5844   $backgrounds set 10
+11.09.2022   23:56   priv   727662119553728532   bot   SEEN-#5771   set
+11.09.2022   23:57   priv   727662119553728532   ogólny   Senko#3667   

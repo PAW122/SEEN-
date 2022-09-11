@@ -109,6 +109,7 @@ npm i js-queue
     127.dodać konto premium do ekonomi(zwiększa wszystkie nagrody o 20%, konto premium będzie do pupienia za jakąś sporą sume)
     128.ogarnąć coś żeby po zmianie tła do welcome bot przełwadował ustawienia
     (zrobić reload) + w ustawiania tła dodać wymagane uprawnienia administratora
+    129.zrobić to samo co muted ale do tworzenia zaproszeń
 
     dodać do tego top chanels(top kanał z wiadomościami, top kanał vc z ilością h)
 

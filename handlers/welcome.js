@@ -17,7 +17,7 @@ const av = {
 module.exports = (client) => {
 client.once("guildMemberAdd", member => {
     console.log(member.user.tag)
-   // delete require.cache[require.resolve(`./welcome.js`)];//odświerza plik
+
     async function welcome() {
         
         //get background
@@ -43,7 +43,7 @@ client.once("guildMemberAdd", member => {
             if(bgtype == 8)var background = `https://t4.ftcdn.net/jpg/03/08/24/29/360_F_308242904_BNor0M6K6I19nVW6AVv8Qg9fWtuU9hMB.jpg`
             if(bgtype == 9)var background = `https://t3.ftcdn.net/jpg/04/49/19/08/360_F_449190831_i2whvIQdDIGtuIVWT6QfenWwmRApVJ5l.jpg`
             if(bgtype == 10)var background = `https://impuls.nzsug.pl/wp-content/uploads/2020/01/HXcsVY5.png`
-        }//do tego trzeba zrobić komendę odświerzaącą bota
+        }
         console.log(`bg: ${background}`)
 
         let username = member.user.username
@@ -113,5 +113,3 @@ client.once("guildMemberAdd", member => {
     welcome(member)
 })
 }
-
-//module.exports = generateImage
