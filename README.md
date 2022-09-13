@@ -110,13 +110,14 @@ npm i js-queue
     128.ogarnąć coś żeby po zmianie tła do welcome bot przełwadował ustawienia
     (zrobić reload) + w ustawiania tła dodać wymagane uprawnienia administratora
     129.zrobić to samo co muted ale do tworzenia zaproszeń
+    130.zrobić na localhoscie stronke internetową z wszystkimi informacjami:lista gildi bota - po kilknięciu wszytkie informacje,(urzytkownicy,rangi,dane z db bota) takie owner API
+    131.dodać w flags, żeby jak ktoś przegrał przez czas pokazywało mu , że przegrał przez timeout
 
     dodać do tego top chanels(top kanał z wiadomościami, top kanał vc z ilością h)
 
     !!na lapku wywaliło error z lvling_handler.js: 75:69 undefind(reading:'send')
 
     WAŻNY UPDATE: if (settings != true) zamieniamy na => if (settings == false)
-## zapisać czy może kasix albo remek chcą bota :)
 
 ## GRA
     pomysł na gre cos ala afk arena:
