@@ -111,8 +111,8 @@ npm i js-queue
     (zrobić reload) + w ustawiania tła dodać wymagane uprawnienia administratora
     129.zrobić to samo co muted ale do tworzenia zaproszeń
     130.zrobić na localhoscie stronke internetową z wszystkimi informacjami:lista gildi bota - po kilknięciu wszytkie informacje,(urzytkownicy,rangi,dane z db bota) takie owner API
-    131.dodać w flags, żeby jak ktoś przegrał przez czas pokazywało mu , że przegrał przez timeout
     132.dodać $love @user, $kill @user itp z gifami z anime i licznikiem ile razy ktoś dostarł love,kill itp 
+    133.zrobić dylemat wagonika na bocie
 
     dodać do tego top chanels(top kanał z wiadomościami, top kanał vc z ilością h)
 
