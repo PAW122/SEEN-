@@ -111,6 +111,9 @@ client.once('ready', () => {
     mod_logs_handler(client)
 
     ai(client)
+
+    //ram limiter
+    client.setMaxListeners(50);
 });
 
 
@@ -126,7 +129,7 @@ client.on('messageCreate', async message => {
 
 
     //auto reakcje
-    emoji_reactions(message)
+    emoji_reactions(message) 
 
 
     //sprawdzanie prefixu serwerowego
