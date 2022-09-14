@@ -13,7 +13,7 @@ module.exports = {
 
     execute: async (message, args, client) => {
         process.setMaxListeners(0);
-       // process.on('warning', e => { console.log(e)});
+        // process.on('warning', e => { console.log(e)});
         //load server settings
         const author = message.author.id
         const guildId = message.guild.id
@@ -88,7 +88,7 @@ module.exports = {
             .setTitle(`You have 10s to type: **A**/**B**/**C**/**D**`)
 
             .setFooter(message.author.tag, message.author.avatarURL({ dynamic: true }));
-        message.channel.send({ embeds: [embed_pl] , files: [attachment] });
+        message.channel.send({ embeds: [embed_pl], files: [attachment] });
 
         var i = 1;
 
@@ -104,10 +104,15 @@ module.exports = {
                 if (lastMessage.author.id == message.author.id && lastMessage.content == good_anwser) {
                     combo(true)
                     return message.reply("Good anwser")
+                } else if (lastMessage.author.id == message.author.id && (lastMessage.content.toLowerCase() == "a" || lastMessage.content.toLowerCase() == "b" ||lastMessage.content.toLowerCase() == "c"|| lastMessage.content.toLowerCase() == "d")) {
+                    combo(false)
+                    return message.reply(`Bad answer. Correct answer is: **${good_anwser}**`)
+
                 }
             }
-            message.reply(`Bad answer. Correct answer is: **${good_anwser}**`)
             combo(false)
+            return message.reply(`Time out. Correct answer is: **${good_anwser}**`)
+
         })
 
         async function combo(answer) {

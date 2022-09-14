@@ -6229,3 +6229,135 @@ D:po niemicku
 14.09.2022   20:57   priv   727662119553728532   bot   SEEN-#5771   
 14.09.2022   20:57   priv   727662119553728532   bot   PAW#5844   $announcements summer2022
 14.09.2022   20:57   priv   727662119553728532   bot   SEEN-#5771   
+14.09.2022   22:05   priv   727662119553728532   bot   PAW#5844   $flags
+14.09.2022   22:05   priv   727662119553728532   bot   SEEN-#5771   A: Congo (Congo-Brazzaville)
+B:Haiti
+C:Bolivia
+D:Tonga
+14.09.2022   22:05   priv   727662119553728532   bot   SEEN-#5771   
+14.09.2022   22:05   priv   727662119553728532   bot   SEEN-#5771   Time out. Correct answer is: **B**
+14.09.2022   22:05   priv   727662119553728532   bot   SEEN-#5771   <@438336824516149249> best combo is: **2**
+14.09.2022   22:05   priv   727662119553728532   bot   PAW#5844   $flags
+14.09.2022   22:05   priv   727662119553728532   bot   SEEN-#5771   A: Somalia
+B:Senegal
+C:Romania
+D:Tonga
+14.09.2022   22:05   priv   727662119553728532   bot   SEEN-#5771   
+14.09.2022   22:05   priv   727662119553728532   bot   PAW#5844   B
+14.09.2022   22:05   priv   727662119553728532   bot   SEEN-#5771   Time out. Correct answer is: **A**
+14.09.2022   22:05   priv   727662119553728532   bot   SEEN-#5771   <@438336824516149249> best combo is: **2**
+14.09.2022   22:07   priv   727662119553728532   bot   PAW#5844   $flags
+14.09.2022   22:07   priv   727662119553728532   bot   SEEN-#5771   A: Brunei
+B:Grenada
+C:Sweden
+D:Turkey
+14.09.2022   22:07   priv   727662119553728532   bot   SEEN-#5771   
+14.09.2022   22:07   priv   727662119553728532   bot   PAW#5844   C
+14.09.2022   22:07   priv   727662119553728532   bot   SEEN-#5771   Good anwser
+14.09.2022   22:07   priv   727662119553728532   bot   PAW#5844   $flags
+14.09.2022   22:07   priv   727662119553728532   bot   SEEN-#5771   A: Algeria
+B:Chile
+C:South Africa
+D:Nauru
+14.09.2022   22:07   priv   727662119553728532   bot   SEEN-#5771   
+14.09.2022   22:07   priv   727662119553728532   bot   PAW#5844   d
+14.09.2022   22:07   priv   727662119553728532   bot   SEEN-#5771   Bad answer. Correct answer is: **B**
+14.09.2022   22:07   priv   727662119553728532   bot   SEEN-#5771   Time out. Correct answer is: **B**
+14.09.2022   22:07   priv   727662119553728532   bot   SEEN-#5771   <@438336824516149249> best combo is: **2**
+14.09.2022   22:07   priv   727662119553728532   bot   SEEN-#5771   <@438336824516149249> best combo is: **2**
+14.09.2022   22:08   priv   727662119553728532   bot   PAW#5844   $flags
+14.09.2022   22:08   priv   727662119553728532   bot   SEEN-#5771   A: Cambodia
+B:India
+C:Mozambique
+D:Tanzania
+14.09.2022   22:08   priv   727662119553728532   bot   SEEN-#5771   
+14.09.2022   22:08   priv   727662119553728532   bot   PAW#5844   b
+14.09.2022   22:08   priv   727662119553728532   bot   SEEN-#5771   Bad answer. Correct answer is: **C**
+14.09.2022   22:08   priv   727662119553728532   bot   SEEN-#5771   <@438336824516149249> best combo is: **2**
+14.09.2022   22:08   priv   727662119553728532   bot   PAW#5844   $flags
+14.09.2022   22:08   priv   727662119553728532   bot   SEEN-#5771   A: Greece
+B:Nigeria
+C:Myanmar (formerly Burma)
+D:Sri Lanka
+14.09.2022   22:08   priv   727662119553728532   bot   SEEN-#5771   
+14.09.2022   22:09   priv   727662119553728532   bot   SEEN-#5771   Time out. Correct answer is: **C**
+14.09.2022   22:09   priv   727662119553728532   bot   SEEN-#5771   <@438336824516149249> best combo is: **2**
+14.09.2022   22:09   priv   727662119553728532   bot   PAW#5844   $flags
+14.09.2022   22:09   priv   727662119553728532   bot   SEEN-#5771   A: Portugal
+B:Liechtenstein
+C:Oman
+D:North Macedonia
+14.09.2022   22:09   priv   727662119553728532   bot   SEEN-#5771   
+14.09.2022   22:09   priv   727662119553728532   bot   PAW#5844   D
+14.09.2022   22:09   priv   727662119553728532   bot   SEEN-#5771   Time out. Correct answer is: **B**
+14.09.2022   22:09   priv   727662119553728532   bot   SEEN-#5771   <@438336824516149249> best combo is: **2**
+14.09.2022   22:10   priv   727662119553728532   bot   PAW#5844   $flags
+14.09.2022   22:10   priv   727662119553728532   bot   SEEN-#5771   A: United Kingdom
+B:Burkina Faso
+C:Syria
+D:Qatar
+14.09.2022   22:10   priv   727662119553728532   bot   SEEN-#5771   
+14.09.2022   22:10   priv   727662119553728532   bot   PAW#5844   a
+14.09.2022   22:10   priv   727662119553728532   bot   SEEN-#5771   Bad answer. Correct answer is: **B**
+14.09.2022   22:10   priv   727662119553728532   bot   SEEN-#5771   <@438336824516149249> best combo is: **2**
+14.09.2022   22:10   priv   727662119553728532   bot   PAW#5844   $flags
+14.09.2022   22:10   priv   727662119553728532   bot   SEEN-#5771   A: Georgia
+B:Cameroon
+C:Equatorial Guinea
+D:Grenada
+14.09.2022   22:10   priv   727662119553728532   bot   SEEN-#5771   
+14.09.2022   22:11   priv   727662119553728532   bot   SEEN-#5771   Time out. Correct answer is: **B**
+14.09.2022   22:11   priv   727662119553728532   bot   SEEN-#5771   <@438336824516149249> best combo is: **2**
+14.09.2022   22:11   priv   727662119553728532   bot   PAW#5844   $flags
+14.09.2022   22:11   priv   727662119553728532   bot   SEEN-#5771   A: Laos
+B:Germany
+C:Somalia
+D:Gabon
+14.09.2022   22:11   priv   727662119553728532   bot   SEEN-#5771   
+14.09.2022   22:11   priv   727662119553728532   bot   PAW#5844   A
+14.09.2022   22:11   priv   727662119553728532   bot   SEEN-#5771   Bad answer. Correct answer is: **C**
+14.09.2022   22:11   priv   727662119553728532   bot   SEEN-#5771   <@438336824516149249> best combo is: **2**
+14.09.2022   22:11   priv   727662119553728532   bot   PAW#5844   $flags
+14.09.2022   22:11   priv   727662119553728532   bot   SEEN-#5771   A: Bulgaria
+B:United Arab Emirates
+C:Qatar
+D:Georgia
+14.09.2022   22:11   priv   727662119553728532   bot   SEEN-#5771   
+14.09.2022   22:11   priv   727662119553728532   bot   PAW#5844   A
+14.09.2022   22:11   priv   727662119553728532   bot   SEEN-#5771   Time out. Correct answer is: **A**
+14.09.2022   22:11   priv   727662119553728532   bot   SEEN-#5771   <@438336824516149249> best combo is: **2**
+14.09.2022   22:11   priv   727662119553728532   bot   PAW#5844   $flags
+14.09.2022   22:11   priv   727662119553728532   bot   SEEN-#5771   A: Nepal
+B:Fiji
+C:Palestine State
+D:Yemen
+14.09.2022   22:11   priv   727662119553728532   bot   SEEN-#5771   
+14.09.2022   22:11   priv   727662119553728532   bot   PAW#5844   C
+14.09.2022   22:11   priv   727662119553728532   bot   SEEN-#5771   Bad answer. Correct answer is: **A**
+14.09.2022   22:11   priv   727662119553728532   bot   SEEN-#5771   <@438336824516149249> best combo is: **2**
+14.09.2022   22:11   priv   727662119553728532   bot   PAW#5844   $flags
+14.09.2022   22:11   priv   727662119553728532   bot   SEEN-#5771   A: France
+B:Portugal
+C:Mongolia
+D:Malawi
+14.09.2022   22:11   priv   727662119553728532   bot   SEEN-#5771   
+14.09.2022   22:12   priv   727662119553728532   bot   PAW#5844   B
+14.09.2022   22:12   priv   727662119553728532   bot   SEEN-#5771   Bad answer. Correct answer is: **C**
+14.09.2022   22:12   priv   727662119553728532   bot   SEEN-#5771   <@438336824516149249> best combo is: **2**
+14.09.2022   22:12   priv   727662119553728532   bot   PAW#5844   $flags
+14.09.2022   22:12   priv   727662119553728532   bot   SEEN-#5771   A: Rwanda
+B:Jordan
+C:Azerbaijan
+D:Uruguay
+14.09.2022   22:12   priv   727662119553728532   bot   SEEN-#5771   
+14.09.2022   22:12   priv   727662119553728532   bot   PAW#5844   D
+14.09.2022   22:12   priv   727662119553728532   bot   SEEN-#5771   Bad answer. Correct answer is: **C**
+14.09.2022   22:12   priv   727662119553728532   bot   SEEN-#5771   <@438336824516149249> best combo is: **2**
+14.09.2022   22:12   priv   727662119553728532   bot   PAW#5844   $flags
+14.09.2022   22:12   priv   727662119553728532   bot   SEEN-#5771   A: Austria
+B:Greece
+C:Saudi Arabia
+D:Saint Lucia
+14.09.2022   22:12   priv   727662119553728532   bot   SEEN-#5771   
+14.09.2022   22:12   priv   727662119553728532   bot   PAW#5844   C
+14.09.2022   22:12   priv   727662119553728532   bot   SEEN-#5771   Good anwser

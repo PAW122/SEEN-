@@ -11,6 +11,7 @@ module.exports = {
     name: "niemiec-finish",
 
     execute: async(message,args,client) => {
+        return // narazie wyłączone
         process.setMaxListeners(0);
         // process.on('warning', e => { console.log(e)});
          //load server settings
