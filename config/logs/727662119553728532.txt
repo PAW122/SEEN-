@@ -6362,3 +6362,30 @@ D:Saint Lucia
 14.09.2022   22:12   priv   727662119553728532   bot   PAW#5844   C
 14.09.2022   22:12   priv   727662119553728532   bot   SEEN-#5771   Good anwser
 14.09.2022   22:17   priv   727662119553728532   bot   PAW#5844   
+15.09.2022   08:49   priv   727662119553728532   bot   PAW#5844   $animelist
+15.09.2022   08:49   priv   727662119553728532   bot   SEEN-#5771   
+15.09.2022   08:49   priv   727662119553728532   bot   SEEN-#5771   
+15.09.2022   08:49   priv   727662119553728532   bot   SEEN-#5771   
+15.09.2022   08:49   priv   727662119553728532   bot   SEEN-#5771   
+15.09.2022   08:49   priv   727662119553728532   bot   SEEN-#5771   
+15.09.2022   08:49   priv   727662119553728532   bot   SEEN-#5771   
+15.09.2022   08:49   priv   727662119553728532   bot   SEEN-#5771   
+15.09.2022   14:55   priv   727662119553728532   ogólny   PAW#5844   Zrobić quiz z klasyfikacji praktycznej na mechatronika
+15.09.2022   14:55   priv   727662119553728532   minc-serv-18   SEEN-#5771   
+15.09.2022   15:41   priv   727662119553728532   ogólny   PAW#5844   Zrobić te pożegnanaia (kupia powitań z inną nazwą db i zmienianwm wywylywaniem komendy i handlerem)
+15.09.2022   15:44   priv   727662119553728532   ogólny   PAW#5844   https://kwalifikacjewzawodzie.pl/kwalifikacje/kwalifikacja-e18/
+15.09.2022   15:49   priv   727662119553728532   dane   PAW#5844   
+15.09.2022   15:49   priv   727662119553728532   ogólny   PAW#5844   dane
+15.09.2022   15:49   priv   727662119553728532   dane   PAW#5844   Jeżeli urzytkownik nie odpowie na pytanie w ciągu 5min test kest przerywany
+15.09.2022   15:55   priv   727662119553728532   dane   PAW#5844   Niech bot losuje z listy kolejność pytań
+I=ilosc pytan
+Lista=[pytanie a,b]
+Funkcja wylosuj pytanie, wyślij i usuń z listy
+Lista pobierana z jsona
+15.09.2022   15:55   priv   727662119553728532   minc-serv-18   SEEN-#5771   
+15.09.2022   15:56   priv   727662119553728532   dane   PAW#5844   ..
+
+W jsonie dodać zmienna: file: false
+(Nie ma pliku)
+Jezeli jest plik pobrac lokalizacje i wyslac 
+Jezeli nie ma to 2 funkcja bez wysylania pliku
