@@ -6494,3 +6494,50 @@ odp:A: **3**
  odp:D: **6**
 15.09.2022   23:07   priv   727662119553728532   bot   SEEN-#5771   
 15.09.2022   23:07   priv   727662119553728532   bot   SEEN-#5771   żle. poprawna odp to: poprawnaodp
+15.09.2022   23:47   priv   727662119553728532   angielski-słówka   PAW#5844   divider-podzielić
+15.09.2022   23:47   priv   727662119553728532   angielski-słówka   PAW#5844   Eaxh other-na wzajem
+15.09.2022   23:47   priv   727662119553728532   angielski-słówka   PAW#5844   Seen-wydawać się
+15.09.2022   23:47   priv   727662119553728532   angielski-słówka   PAW#5844   Geat advice
+15.09.2022   23:48   priv   727662119553728532   angielski-słówka   PAW#5844   In common
+15.09.2022   23:48   priv   727662119553728532   angielski-słówka   PAW#5844   Invite
+15.09.2022   23:48   priv   727662119553728532   angielski-słówka   PAW#5844   Inteoduction
+15.09.2022   23:48   priv   727662119553728532   minc-serv-18   SEEN-#5771   
+15.09.2022   23:48   priv   727662119553728532   angielski-słówka   PAW#5844   Gig-kontakt
+15.09.2022   23:48   priv   727662119553728532   angielski-słówka   PAW#5844   Values-wartość
+15.09.2022   23:49   priv   727662119553728532   angielski-słówka   PAW#5844   Society-społeczeństwo
+15.09.2022   23:49   priv   727662119553728532   angielski-słówka   PAW#5844   Opportiunities
+15.09.2022   23:49   priv   727662119553728532   angielski-słówka   PAW#5844   Develop-rozwijać
+15.09.2022   23:49   priv   727662119553728532   angielski-słówka   PAW#5844   Digmity-godność
+15.09.2022   23:50   priv   727662119553728532   angielski-słówka   PAW#5844   Loyer-prawnio
+15.09.2022   23:50   priv   727662119553728532   minc-serv-18   SEEN-#5771   
+15.09.2022   23:50   priv   727662119553728532   angielski-słówka   PAW#5844   Justice-sprawiedliwość
+15.09.2022   23:50   priv   727662119553728532   angielski-słówka   PAW#5844   Live safings- oszczędności życia
+15.09.2022   23:51   priv   727662119553728532   angielski-słówka   PAW#5844   Quality of live-jakość życia
+15.09.2022   23:51   priv   727662119553728532   angielski-słówka   PAW#5844   Siblings-rodzeństwo
+15.09.2022   23:51   priv   727662119553728532   angielski-słówka   PAW#5844   Amount-ilość
+15.09.2022   23:51   priv   727662119553728532   angielski-słówka   PAW#5844   Attention-ówaga
+15.09.2022   23:52   priv   727662119553728532   angielski-słówka   PAW#5844   Hojny-
+15.09.2022   23:52   priv   727662119553728532   angielski-słówka   PAW#5844   Overweigjt-z nadwagą
+15.09.2022   23:52   priv   727662119553728532   angielski-słówka   PAW#5844   Nieuczciwy
+15.09.2022   23:53   priv   727662119553728532   angielski-słówka   PAW#5844   Scar-blizna
+15.09.2022   23:53   priv   727662119553728532   angielski-słówka   PAW#5844   Rozmowny
+15.09.2022   23:53   priv   727662119553728532   angielski-słówka   PAW#5844   Ocupation-Zawód
+15.09.2022   23:53   priv   727662119553728532   angielski-słówka   PAW#5844   Delikatny
+15.09.2022   23:53   priv   727662119553728532   angielski-słówka   PAW#5844   Zazdrosny
+15.09.2022   23:54   priv   727662119553728532   angielski-słówka   PAW#5844   Niedojrzały
+15.09.2022   23:54   priv   727662119553728532   angielski-słówka   PAW#5844   Scared-przerażony
+15.09.2022   23:54   priv   727662119553728532   angielski-słówka   PAW#5844   Zawstydzony
+15.09.2022   23:54   priv   727662119553728532   angielski-słówka   PAW#5844   Keep away from-trzymać się z daleka od
+16.09.2022   07:12   priv   727662119553728532   minc-serv-18   SEEN-#5771   
+16.09.2022   07:13   priv   727662119553728532   minc-serv-18   SEEN-#5771   
+16.09.2022   07:13   priv   727662119553728532   minc-serv-18   SEEN-#5771   
+16.09.2022   07:14   priv   727662119553728532   minc-serv-18   SEEN-#5771   
+16.09.2022   07:15   priv   727662119553728532   minc-serv-18   SEEN-#5771   
+16.09.2022   07:15   priv   727662119553728532   minc-serv-18   SEEN-#5771   
+16.09.2022   07:16   priv   727662119553728532   minc-serv-18   SEEN-#5771   
+16.09.2022   07:17   priv   727662119553728532   minc-serv-18   SEEN-#5771   
+16.09.2022   07:17   priv   727662119553728532   minc-serv-18   SEEN-#5771   
+16.09.2022   07:18   priv   727662119553728532   minc-serv-18   SEEN-#5771   
+16.09.2022   07:49   priv   727662119553728532   minc-serv-18   SEEN-#5771   
+16.09.2022   10:37   priv   727662119553728532   minc-serv-18   SEEN-#5771   
+16.09.2022   10:40   priv   727662119553728532   minc-serv-18   SEEN-#5771   
