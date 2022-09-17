@@ -113,6 +113,13 @@ npm i js-queue
     130.zrobić na localhoscie stronke internetową z wszystkimi informacjami:lista gildi bota - po kilknięciu wszytkie informacje,(urzytkownicy,rangi,dane z db bota) takie owner API
     132.dodać $love @user, $kill @user itp z gifami z anime i licznikiem ile razy ktoś dostarł love,kill itp 
     133.zrobić dylemat wagonika na bocie
+    134.komenda animelist -- zapisuje to co napisał urzytkownik i dodaje na końcu \n (dać urzytkownikowi info że może dodać \n w texcie aby zrobić enter) 
+    zapisywać w db cały czas w 1 stringu
+    (db.safe(`${userid}.string, string"))
+    135.zrobić mod logs na db (logi typu user wbił na kanał, user się wyciszył) mają sapisywać się w db i być wyciągane przez administratora komendą
+    136.zrobić komende $snipe (wysyłą oatatnie usunięte wiadomości) -- handler zapisuje każdą usuniętą wiadomość i jej autora, zapisuje czas usunięcia wiadomości (jeżeli usunięta wiadomość jest starsza niż 1h to usuń ją z db)
+    137.jak będę robił rpg na bocie, to zrobić poczki npm do ogarniania rzeczy (lvl,eq,walki ipt (npm i paw-rpg)) (paczki mają mieć funkcje do zapisu i odczytu danych z wywołania funkcji)
+    138.zrobić własny system db na jsonach (można dodać na paczke npm)
 
     dodać do tego top chanels(top kanał z wiadomościami, top kanał vc z ilością h)
 
