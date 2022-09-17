@@ -88,9 +88,11 @@ module.exports = {
 
                 if (!lastMessage.author.bot) {
                     if (lastMessage.author.id == message.author.id && lastMessage.content == good_anwser) {
-                        right_anwser()
+                        const user_inpur = lastMessage.content
+                        right_anwser(user_inpur)
                     } else if (lastMessage.author.id == message.author.id && (lastMessage.content.toLowerCase() == "a" || lastMessage.content.toLowerCase() == "b" || lastMessage.content.toLowerCase() == "c" || lastMessage.content.toLowerCase() == "d")) {
-                        bad_anwser()
+                        const user_inpur = lastMessage.content
+                        bad_anwser(user_inpur)
                     }
                 } else {
                     bad_anwser()
@@ -98,8 +100,8 @@ module.exports = {
 
             })
 
-            async function right_anwser() {
-                safe_answers(question_number,true)
+            async function right_anwser(user_inpur) {
+                safe_answers(question_number,true,user_inpur)
                 message.reply("dobrze")
 
                 if(question_number == 40) {
@@ -110,7 +112,7 @@ module.exports = {
                 //zapisz do db nr pytania i informacje poprawna odpowiedż
                 
             }
-            async function bad_anwser() {
+            async function bad_anwser(user_inpur) {
                 safe_answers(question_number,false)
                 message.reply(`żle. poprawna odp to: ${good_anwser}`)
                 if(question_number == 40) {
@@ -119,16 +121,19 @@ module.exports = {
                 //zapisz do db nr pytania i informacje niepoprawna odpowiedż
             }
 
-            async function safe_answers(question_number,answer) {
+            async function safe_answers(question_number,answer,user_inpur) {
                 if(answer == false) {
                     //zapisz nr pytania i oznacz jako błąd (oznacz co wybrał urzytkownik)
+                    await db.set({question_nr: question_number, user_answer: `${user_inpur}`, is_corrext: false})
                 }else if(answer == true) {
                     //zapisz nr pytania i oznacz jako poprawnie (oznacz co wybrał urzytkownik)
+                    await db.set({question_nr: question_number, user_answer: `${user_inpur}`, is_corrext: true})
                 }
             }
 
             async function end_test() {
                 //gdy urzytkownik odpowiedział już na wszytkie pytania
+                message.channel.send("test end")
             }
 
     }

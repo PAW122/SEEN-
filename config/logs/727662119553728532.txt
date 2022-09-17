@@ -6541,3 +6541,19 @@ odp:A: **3**
 16.09.2022   07:49   priv   727662119553728532   minc-serv-18   SEEN-#5771   
 16.09.2022   10:37   priv   727662119553728532   minc-serv-18   SEEN-#5771   
 16.09.2022   10:40   priv   727662119553728532   minc-serv-18   SEEN-#5771   
+16.09.2022   21:31   priv   727662119553728532   bot   PAW#5844   
+16.09.2022   21:32   priv   727662119553728532   bot   PAW#5844   
+16.09.2022   21:32   priv   727662119553728532   bot   PAW#5844   
+16.09.2022   21:32   priv   727662119553728532   bot   PAW#5844   
+16.09.2022   21:32   priv   727662119553728532   bot   PAW#5844   
+16.09.2022   21:32   priv   727662119553728532   bot   PAW#5844   
+16.09.2022   21:32   priv   727662119553728532   bot   PAW#5844   
+17.09.2022   00:19   priv   727662119553728532   ogólny   PAW#5844   339K lutu w skrzyni gildyjnej
+17.09.2022   00:19   priv   727662119553728532   ogólny   PAW#5844   
+17.09.2022   00:19   priv   727662119553728532   minc-serv-18   SEEN-#5771   
+17.09.2022   00:19   priv   727662119553728532   minc-serv-18   SEEN-#5771   
+17.09.2022   00:25   priv   727662119553728532   ogólny   PAW#5844   zrobić na wyspie gildi skrzynke zmodyfikowaną
+17.09.2022   02:34   priv   727662119553728532   minc-serv-18   SEEN-#5771   
+17.09.2022   23:09   priv   727662119553728532   ogólny   PAW#5844   komenda animelist -- zapisuje to co napisał urzytkownik i dodaje na końcu \n (dać urzytkownikowi info że może dodać \n w texcie aby zrobić enter) 
+zapisywać w db cały czas w 1 stringu
+(db.safe(`${userid}.string, string"))
