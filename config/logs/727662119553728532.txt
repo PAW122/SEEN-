@@ -6557,3 +6557,17 @@ odp:A: **3**
 17.09.2022   23:09   priv   727662119553728532   ogólny   PAW#5844   komenda animelist -- zapisuje to co napisał urzytkownik i dodaje na końcu \n (dać urzytkownikowi info że może dodać \n w texcie aby zrobić enter) 
 zapisywać w db cały czas w 1 stringu
 (db.safe(`${userid}.string, string"))
+18.09.2022   00:38   priv   727662119553728532   ogólny   PAW#5844   Dodać administration-alert-system :
+Jeżeli urzytkownik, który nie jest właścicielem serwera kogoś wyrzyci,zbamuje,zrobi coś z rangą,zrobi coś z kanałem - to bot wysyła właścicielowi serwera informację na pv że dany user coś zrobił
+18.09.2022   00:39   priv   727662119553728532   dc-bot   PAW#5844   .
+Naprawić economy-birthday
+.
+18.09.2022   00:41   priv   727662119553728532   dc-bot   PAW#5844   .
+Zamienić "moje daty" na np timesampy albo jakis inny system dat i godzin łatwy do porówynywania
+18.09.2022   00:41   priv   727662119553728532   minc-serv-18   SEEN-#5771   
+18.09.2022   00:42   priv   727662119553728532   dc-bot   PAW#5844   .
+Zrobić minigre w szachy na canvasie
+.
+18.09.2022   00:55   priv   727662119553728532   dc-bot   PAW#5844   .
+Dodać komend3 $bruh
+.
