@@ -120,6 +120,7 @@ npm i js-queue
     136.zrobić komende $snipe (wysyłą oatatnie usunięte wiadomości) -- handler zapisuje każdą usuniętą wiadomość i jej autora, zapisuje czas usunięcia wiadomości (jeżeli usunięta wiadomość jest starsza niż 1h to usuń ją z db)
     137.jak będę robił rpg na bocie, to zrobić poczki npm do ogarniania rzeczy (lvl,eq,walki ipt (npm i paw-rpg)) (paczki mają mieć funkcje do zapisu i odczytu danych z wywołania funkcji)
     138.zrobić własny system db na jsonach (można dodać na paczke npm)
+    139.mod logs message edit - dodać sprawdzanie czy wiadomość ma więcej niż 900 znaków, jeżeli tak to daj tylko część wiadomości bo jak się przekroczy 2k znaków to wywali błąd
 
     dodać do tego top chanels(top kanał z wiadomościami, top kanał vc z ilością h)
 

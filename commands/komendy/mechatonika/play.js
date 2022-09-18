@@ -124,10 +124,17 @@ module.exports = {
             async function safe_answers(question_number,answer,user_inpur) {
                 if(answer == false) {
                     //zapisz nr pytania i oznacz jako błąd (oznacz co wybrał urzytkownik)
-                    await db.set({question_nr: question_number, user_answer: `${user_inpur}`, is_corrext: false})
+                    await db.set(`question_nr`,question_number)
+                    await db.set("user_answer",user_inpur)
+                    await db.set("is_corrext", false)
+                    await db.set("check", true)
+
                 }else if(answer == true) {
                     //zapisz nr pytania i oznacz jako poprawnie (oznacz co wybrał urzytkownik)
-                    await db.set({question_nr: question_number, user_answer: `${user_inpur}`, is_corrext: true})
+                    await db.set("question_nr",question_number)
+                    await db.set("user_answer",user_inpur)
+                    await db.set("is_corrext", true)
+                    await db.set("check", true)
                 }
             }
 
