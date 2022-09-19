@@ -419,6 +419,7 @@ module.exports = (client) => {
 
 
             const LogChannel = client.channels.cache.get(channelID); // Replace with your channel id
+           
             const MessageEdited = new MessageEmbed()
                 .setTitle('Message Edited')
                 .setColor('#2F3136')

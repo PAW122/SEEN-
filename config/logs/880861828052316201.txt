@@ -1,0 +1,44 @@
+19.09.2022   20:14   WannaDance   880861828052316201   ogólny   SEEN-#5771   
+19.09.2022   20:15   WannaDance   880861828052316201   bot   PAW#5844   $help
+19.09.2022   20:15   WannaDance   880861828052316201   bot   SEEN-#5771   
+19.09.2022   20:15   WannaDance   880861828052316201   bot   SEEN-#5771   
+19.09.2022   20:16   WannaDance   880861828052316201   bot   PAW#5844   $srv_logs help
+19.09.2022   20:16   WannaDance   880861828052316201   bot   SEEN-#5771   
+19.09.2022   20:18   WannaDance   880861828052316201   ogólny   nino#4401   
+19.09.2022   20:18   WannaDance   880861828052316201   ogólny   nino#4401   
+19.09.2022   20:18   WannaDance   880861828052316201   ogólny   nino#4401   <@691162236756033567>
+19.09.2022   20:19   WannaDance   880861828052316201   bot   PAW#5844   $srv_logs start 1021485522176196668
+19.09.2022   20:19   WannaDance   880861828052316201   bot   SEEN-#5771   set
+19.09.2022   20:19   WannaDance   880861828052316201   bot   MEE6#4876   GG <@438336824516149249>, you just advanced to level 1!
+19.09.2022   20:20   WannaDance   880861828052316201   bot   PAW#5844   .
+19.09.2022   20:20   WannaDance   880861828052316201   bot   PAW#5844   $lvl
+19.09.2022   20:20   WannaDance   880861828052316201   bot   SEEN-#5771   
+19.09.2022   20:21   WannaDance   880861828052316201   logi   SEEN-#5771   
+19.09.2022   20:21   WannaDance   880861828052316201   logi   SEEN-#5771   
+19.09.2022   20:21   WannaDance   880861828052316201   bot   PAW#5844   $srv_set list
+19.09.2022   20:21   WannaDance   880861828052316201   bot   SEEN-#5771   
+19.09.2022   20:21   WannaDance   880861828052316201   bot   SEEN-#5771   
+19.09.2022   20:21   WannaDance   880861828052316201   bot   PAW#5844   $srv_set
+19.09.2022   20:21   WannaDance   880861828052316201   bot   SEEN-#5771   
+19.09.2022   20:21   WannaDance   880861828052316201   bot   PAW#5844   $settings deafult
+19.09.2022   20:21   WannaDance   880861828052316201   logi   SEEN-#5771   
+19.09.2022   20:21   WannaDance   880861828052316201   bot   SEEN-#5771   deafult settings have been restored
+19.09.2022   20:21   WannaDance   880861828052316201   bot   PAW#5844   $srv_set list
+19.09.2022   20:21   WannaDance   880861828052316201   bot   SEEN-#5771   
+19.09.2022   20:21   WannaDance   880861828052316201   bot   SEEN-#5771   
+19.09.2022   20:22   WannaDance   880861828052316201   bot   PAW#5844   $clear 10
+19.09.2022   20:22   WannaDance   880861828052316201   bot   SEEN-#5771   Usunąłem 10 wiadomości
+19.09.2022   20:28   WannaDance   880861828052316201   logi   SEEN-#5771   
+19.09.2022   20:29   WannaDance   880861828052316201   bot   PAW#5844   $srv_set help
+19.09.2022   20:29   WannaDance   880861828052316201   bot   SEEN-#5771   
+19.09.2022   20:29   WannaDance   880861828052316201   logi   SEEN-#5771   
+19.09.2022   20:29   WannaDance   880861828052316201   logi   SEEN-#5771   
+19.09.2022   20:29   WannaDance   880861828052316201   logi   SEEN-#5771   
+19.09.2022   20:29   WannaDance   880861828052316201   bot   PAW#5844   $settings welcome_messages 882439816871047198
+19.09.2022   20:29   WannaDance   880861828052316201   bot   SEEN-#5771   set
+19.09.2022   20:30   WannaDance   880861828052316201   ogólny   crrono#2569   
+19.09.2022   20:30   WannaDance   880861828052316201   informacje   SEEN-#5771   <@710397930581786665> Welcome to the server!
+19.09.2022   20:30   WannaDance   880861828052316201   logi   SEEN-#5771   
+19.09.2022   20:30   WannaDance   880861828052316201   logi   SEEN-#5771   
+19.09.2022   20:31   WannaDance   880861828052316201   logi   SEEN-#5771   
+19.09.2022   20:31   WannaDance   880861828052316201   logi   SEEN-#5771   

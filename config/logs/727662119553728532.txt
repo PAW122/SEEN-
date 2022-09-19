@@ -6571,3 +6571,38 @@ Zrobić minigre w szachy na canvasie
 18.09.2022   00:55   priv   727662119553728532   dc-bot   PAW#5844   .
 Dodać komend3 $bruh
 .
+19.09.2022   09:29   priv   727662119553728532   bot   Senko#3667   $help
+19.09.2022   09:29   priv   727662119553728532   bot   SEEN-#5771   
+19.09.2022   09:29   priv   727662119553728532   bot   SEEN-#5771   
+19.09.2022   09:29   priv   727662119553728532   bot   Senko#3667   $bank
+19.09.2022   09:29   priv   727662119553728532   bot   SEEN-#5771   
+19.09.2022   09:29   priv   727662119553728532   bot   Senko#3667   $bank help
+19.09.2022   09:29   priv   727662119553728532   bot   SEEN-#5771   $bank -- users lost coins
+ $bank deafult -- reset data 
+ $bank mydeafult -- set your losed coins to 0
+19.09.2022   09:29   priv   727662119553728532   bot   Senko#3667   $bank deafult
+19.09.2022   09:29   priv   727662119553728532   bot   SEEN-#5771   You don't have admin authorization
+19.09.2022   09:30   priv   727662119553728532   bot   PAW#5844   $bank deafult
+19.09.2022   09:30   priv   727662119553728532   bot   SEEN-#5771   Set data to deafult
+19.09.2022   09:30   priv   727662119553728532   bot   PAW#5844   $roll 10
+19.09.2022   09:30   priv   727662119553728532   bot   SEEN-#5771   You lost 10 💵
+you currently have: 870 💵
+ you use 4/15 rols today
+19.09.2022   09:31   priv   727662119553728532   bot   PAW#5844   $roll 20
+19.09.2022   09:31   priv   727662119553728532   bot   SEEN-#5771   You lost 20 💵
+you currently have: 850 💵
+ you use 1/15 rols today
+19.09.2022   09:31   priv   727662119553728532   bot   PAW#5844   $bank
+19.09.2022   09:31   priv   727662119553728532   bot   SEEN-#5771   
+19.09.2022   09:41   priv   727662119553728532   bot   PAW#5844   ¯\_(ツ)_/¯
+19.09.2022   09:43   priv   727662119553728532   bot   PAW#5844   cos
+19.09.2022   09:46   priv   727662119553728532   bot   PAW#5844   cos
+19.09.2022   09:47   priv   727662119553728532   bot   PAW#5844   cos
+19.09.2022   09:48   priv   727662119553728532   bot   PAW#5844   cos
+19.09.2022   09:51   priv   727662119553728532   bot   PAW#5844   cos4
+19.09.2022   09:56   priv   727662119553728532   bot   PAW#5844   cos
+19.09.2022   09:59   priv   727662119553728532   bot   PAW#5844   cos
+19.09.2022   09:59   priv   727662119553728532   minc-serv-18   SEEN-#5771   
+19.09.2022   09:59   priv   727662119553728532   bot   PAW#5844   xosssssssssssssssssssssssssssssssssssssxosssssssssssssssssssssssssssssssssssssxosssssssssssssssssssssssssssssssssssssxosssssssssssssssssssssssssssssssssssssxosssssssssssssssssssssssssssssssssssssxosssssssssssssssssssssssssssssssssssssxosssssssssssssssssssssssssssssssssssssxosssssssssssssssssssssssssssssssssssssxosssssssssssssssssssssssssssssssssssssxosssssssssssssssssssssssssssssssssssssxosssssssssssssssssssssssssssssssssssssxosssssssssssssssssssssssssssssssssssssxosssssssssssssssssssssssssssssssssssssxosssssssssssssssssssssssssssssssssssssxosssssssssssssssssssssssssssssssssssssxosssssssssssssssssssssssssssssssssssssxosssssssssssssssssssssssssssssssssssssxosssssssssssssssssssssssssssssssssssssxosssssssssssssssssssssssssssssssssssssxosssssssssssssssssssssssssssssssssssssxosssssssssssssssssssssssssssssssssssssxosssssssssssssssssssssssssssssssssssssxosssssssssssssssssssssssssssssssssssssxosssssssssssssssssssssssssssssssssssssxosssssssssssssssssssssssssssssssssssssxosssssssssssssssssssssssssssssssssssssxosssssssssssssssssssssssssssssssssssssxosssssssssssssssssssssssssssssssssssssxosssssssssssssssssssssssssssssssssssssxosssssssssssssssssssssssssssssssssssssxosssssssssssssssssssssssssssssssssssssxosssssssssssssssssssssssssssssssssssssxosssssssssssssssssssssssssssssssssssssxosssssssssssssssssssssssssssssssssssssxosssssssssssssssssssssssssssssssssssssxosssssssssssssssssssssssssssssssssssssxosssssssssssssssssssssssssssssssssssssxosssssssssssssssssssssssssssssssssssssxosssssssssssssssssssssssssssssssssssssxosssssssssssssssssssssssssssssssssssssxosssssssssssssssssssssssssssssssssssssxosssssssssssssssssssssssssssssssssssssxosssssssssssssssssssssssssssssssssssssxosssssssssssssssssssssssssssssssssssssxosssssssssssssssssssssssssssssssssssssxosssssssssssssssssssssssssssssssssssssxosssssssssssssssssssssssssssssssssssssxosssssssssssssssssssssssssssssssssssssxosssssssssssssssssssssssssssssssssssssssssxosssssssssssssssssssssssssssssssssssssxosssssssssssssssssssssssssssssssssssssxosssss
+19.09.2022   09:59   priv   727662119553728532   minc-serv-18   SEEN-#5771   
+19.09.2022   19:25   priv   727662119553728532   bot   PAW#5844   hajs za wycieczke !!
