@@ -44,3 +44,39 @@
 19.09.2022   20:31   WannaDance   880861828052316201   logi   SEEN-#5771   
 19.09.2022   20:33   WannaDance   880861828052316201   logi   SEEN-#5771   
 19.09.2022   20:33   WannaDance   880861828052316201   logi   SEEN-#5771   
+19.09.2022   20:36   WannaDance   880861828052316201   logi   SEEN-#5771   
+19.09.2022   20:36   WannaDance   880861828052316201   logi   SEEN-#5771   
+19.09.2022   20:36   WannaDance   880861828052316201   logi   SEEN-#5771   
+19.09.2022   20:36   WannaDance   880861828052316201   logi   SEEN-#5771   
+19.09.2022   20:36   WannaDance   880861828052316201   logi   SEEN-#5771   
+19.09.2022   20:36   WannaDance   880861828052316201   logi   SEEN-#5771   
+19.09.2022   20:36   WannaDance   880861828052316201   logi   SEEN-#5771   
+19.09.2022   20:36   WannaDance   880861828052316201   logi   SEEN-#5771   
+19.09.2022   20:36   WannaDance   880861828052316201   logi   SEEN-#5771   
+19.09.2022   20:36   WannaDance   880861828052316201   logi   SEEN-#5771   
+19.09.2022   20:37   WannaDance   880861828052316201   logi   SEEN-#5771   
+19.09.2022   20:37   WannaDance   880861828052316201   logi   SEEN-#5771   
+19.09.2022   20:41   WannaDance   880861828052316201   logi   SEEN-#5771   
+19.09.2022   20:42   WannaDance   880861828052316201   logi   SEEN-#5771   
+19.09.2022   20:43   WannaDance   880861828052316201   logi   SEEN-#5771   
+19.09.2022   20:45   WannaDance   880861828052316201   bot   PAW#5844   $settings welcome_msg_content Witamy w WannaDance
+19.09.2022   20:45   WannaDance   880861828052316201   bot   SEEN-#5771   set
+19.09.2022   20:57   WannaDance   880861828052316201   logi   SEEN-#5771   
+19.09.2022   21:02   WannaDance   880861828052316201   logi   SEEN-#5771   
+19.09.2022   21:03   WannaDance   880861828052316201   logi   SEEN-#5771   
+19.09.2022   21:06   WannaDance   880861828052316201   logi   SEEN-#5771   
+19.09.2022   21:07   WannaDance   880861828052316201   logi   SEEN-#5771   
+19.09.2022   21:07   WannaDance   880861828052316201   logi   SEEN-#5771   
+19.09.2022   21:07   WannaDance   880861828052316201   logi   SEEN-#5771   
+19.09.2022   21:09   WannaDance   880861828052316201   bot   BobaFett#5726   ;;Play https://open.spotify.com/playlist/37i9dQZF1DWXJnyndhASBe?si=U-uKVRjRQQ-WqWQrp6KgRA
+19.09.2022   21:10   WannaDance   880861828052316201   logi   SEEN-#5771   
+19.09.2022   21:10   WannaDance   880861828052316201   logi   SEEN-#5771   
+19.09.2022   21:10   WannaDance   880861828052316201   logi   SEEN-#5771   
+19.09.2022   21:11   WannaDance   880861828052316201   logi   SEEN-#5771   
+19.09.2022   21:12   WannaDance   880861828052316201   logi   SEEN-#5771   
+19.09.2022   21:14   WannaDance   880861828052316201   logi   SEEN-#5771   
+19.09.2022   21:14   WannaDance   880861828052316201   logi   SEEN-#5771   
+19.09.2022   21:14   WannaDance   880861828052316201   logi   SEEN-#5771   
+19.09.2022   21:14   WannaDance   880861828052316201   logi   SEEN-#5771   
+19.09.2022   21:21   WannaDance   880861828052316201   bot   BobaFett#5726   ;;Play gangi w La Pezet
+19.09.2022   21:21   WannaDance   880861828052316201   ogólny   BobaFett#5726   ;;Play gangi w La Pezet

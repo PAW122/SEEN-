@@ -123,6 +123,11 @@ npm i js-queue
     140.dodać resetowanie banku globalnego
     141.zrobić "tryb serwisowy" -- jeżeli jest włączony to po użyciu jakiejś komendy bot zamiast wywoływać execute to wysyła wiadomość że tryb seriwsowy jest włączony i należy spróbować pożniej
 
+
+    142.usunąć z console.log() logi o nicku dołączającego i linku grafiki z tła
+    mod_logs)handler :38 errer .setDescription entry.executor
+
+
     dodać do tego top chanels(top kanał z wiadomościami, top kanał vc z ilością h)
 
     !!na lapku wywaliło error z lvling_handler.js: 75:69 undefind(reading:'send')

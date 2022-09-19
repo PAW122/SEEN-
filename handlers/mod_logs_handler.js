@@ -31,15 +31,27 @@ module.exports = (client) => {
             //  console.log(entry)
             //  console.log(entry.executor)
 
-            const LogChannel = client.channels.cache.get(channelID);
-            const TopicUpdate = new MessageEmbed()
-                .setTitle('Message Deleted')
-                .setColor('#2F3136')//kolor embeda (nie ma paska)
-                .setDescription(`Message content:` + "```js\n" + `${message.content}` + "```" + `be deleted on channel: ${message.channel}\n Message files?: ${files} \n Message deleted by: ${entry.executor}`);
-
-            return LogChannel.send({
-                embeds: [TopicUpdate]
-            });
+            if(!entry.executor) {
+                const LogChannel = client.channels.cache.get(channelID);
+                const TopicUpdate = new MessageEmbed()
+                    .setTitle('Message Deleted')
+                    .setColor('#2F3136')//kolor embeda (nie ma paska)
+                    .setDescription(`Message content:` + "```js\n" + `${message.content}` + "```" + `be deleted on channel: ${message.channel}\n Message files?: ${files} \n Message deleted by: ??`);
+    
+                return LogChannel.send({
+                    embeds: [TopicUpdate]
+                });  
+            }else{
+                const LogChannel = client.channels.cache.get(channelID);
+                const TopicUpdate = new MessageEmbed()
+                    .setTitle('Message Deleted')
+                    .setColor('#2F3136')//kolor embeda (nie ma paska)
+                    .setDescription(`Message content:` + "```js\n" + `${message.content}` + "```" + `be deleted on channel: ${message.channel}\n Message files?: ${files} \n Message deleted by: ${entry.executor}`);
+    
+                return LogChannel.send({
+                    embeds: [TopicUpdate]
+                });   
+            }
         }
         main()
     });
