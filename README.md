@@ -126,6 +126,7 @@ npm i js-queue
 
     142.usunąć z console.log() logi o nicku dołączającego i linku grafiki z tła
     mod_logs)handler :38 errer .setDescription entry.executor
+    143.przetestowac i naprawić message delete na nowym serwie bo błędy wywala
 
 
     dodać do tego top chanels(top kanał z wiadomościami, top kanał vc z ilością h)

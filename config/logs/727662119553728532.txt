@@ -6607,3 +6607,35 @@ you currently have: 850 💵
 19.09.2022   09:59   priv   727662119553728532   minc-serv-18   SEEN-#5771   
 19.09.2022   19:25   priv   727662119553728532   bot   PAW#5844   hajs za wycieczke !!
 20.09.2022   09:19   priv   727662119553728532   pomysły   PAW#5844   Zrobić apke mobilną do której wrzucasz zdjęcia i filmy wubierasz w jakiej kolejności mają być, wy ierasz przejścia pomiędzy rzeczami albo apka robi automatycznie i potem apka robi z tego filmik
+20.09.2022   12:18   priv   727662119553728532   bot   PAW#5844   $help
+20.09.2022   12:18   priv   727662119553728532   bot   SEEN-#5771   
+20.09.2022   12:18   priv   727662119553728532   bot   SEEN-#5771   
+20.09.2022   12:18   priv   727662119553728532   bot   PAW#5844   $test
+20.09.2022   12:18   priv   727662119553728532   bot   SEEN-#5771   Pytanie: **Wskaż którą metodą pracownik dokonuje pomiaru prędkości obrotowej zespołu napędowego.**
+            
+odp:A: **Kontaktową, przy pomocy tachometru.**
+ odp:B: **Bezkontaktową, przy pomocy czujnika odbiciowego.**
+ odp:C: **Bezkontaktową, przy pomocy lampy stroboskopowej.**
+ odp:D: **Bezkontaktową, przy pomocy czujnika indukcyjnego**
+20.09.2022   12:18   priv   727662119553728532   bot   SEEN-#5771   
+20.09.2022   12:18   priv   727662119553728532   bot   PAW#5844   a
+20.09.2022   12:20   priv   727662119553728532   bot   PAW#5844   $test
+20.09.2022   12:20   priv   727662119553728532   bot   SEEN-#5771   Pytanie: **Którego narzędzia należy użyć do ucięcia aluminiowej rury przeznaczonej do instalacji pneumatycznej?**
+            
+odp:A: ** **
+ odp:B: ** **
+ odp:C: ** **
+ odp:D: ** **
+20.09.2022   12:20   priv   727662119553728532   bot   SEEN-#5771   
+20.09.2022   12:21   priv   727662119553728532   bot   PAW#5844   b
+20.09.2022   12:21   priv   727662119553728532   bot   SEEN-#5771   żle. poprawna odp to: a
+20.09.2022   12:21   priv   727662119553728532   bot   PAW#5844   $test
+20.09.2022   12:21   priv   727662119553728532   bot   SEEN-#5771   Pytanie: **Rysunek przedstawia schemat ideowy urządzenia służącego do regulacji prędkości silnika asynchroniczngo, realizowanej poprzez zmianę**
+            
+odp:A: **liczby par biegunów silnika **
+ odp:B: **polaryzacji napięcia zasilającego silnik. **
+ odp:C: **częstotliwości napięcia zasilającego silnik **
+ odp:D: **wartości rezystancji rezystora regulacyjnego **
+20.09.2022   12:21   priv   727662119553728532   bot   SEEN-#5771   
+20.09.2022   12:21   priv   727662119553728532   bot   PAW#5844   b
+20.09.2022   12:21   priv   727662119553728532   bot   SEEN-#5771   żle. poprawna odp to: c

@@ -52,8 +52,10 @@ module.exports = (client) => {
                     embeds: [TopicUpdate]
                 });   
             }
-        }
+        }//wywala błąd z entry executor
+        try{
         main()
+        }catch(err){return console.log(err)}
     });
 
     // Channel Topic Updating 

@@ -86,3 +86,88 @@
 20.09.2022   02:06   WannaDance   880861828052316201   logi   SEEN-#5771   
 20.09.2022   03:14   WannaDance   880861828052316201   logi   SEEN-#5771   
 20.09.2022   06:27   WannaDance   880861828052316201   logi   SEEN-#5771   
+20.09.2022   11:27   WannaDance   880861828052316201   logi   SEEN-#5771   
+20.09.2022   11:33   WannaDance   880861828052316201   logi   SEEN-#5771   
+20.09.2022   11:34   WannaDance   880861828052316201   logi   SEEN-#5771   
+20.09.2022   11:34   WannaDance   880861828052316201   logi   SEEN-#5771   
+20.09.2022   11:34   WannaDance   880861828052316201   logi   SEEN-#5771   
+20.09.2022   11:34   WannaDance   880861828052316201   logi   SEEN-#5771   
+20.09.2022   12:05   WannaDance   880861828052316201   logi   SEEN-#5771   
+20.09.2022   12:26   WannaDance   880861828052316201   logi   SEEN-#5771   
+20.09.2022   12:51   WannaDance   880861828052316201   logi   SEEN-#5771   
+20.09.2022   12:56   WannaDance   880861828052316201   logi   SEEN-#5771   
+20.09.2022   12:56   WannaDance   880861828052316201   logi   SEEN-#5771   
+20.09.2022   13:00   WannaDance   880861828052316201   logi   SEEN-#5771   
+20.09.2022   13:29   WannaDance   880861828052316201   logi   SEEN-#5771   
+20.09.2022   13:29   WannaDance   880861828052316201   logi   SEEN-#5771   
+20.09.2022   13:31   WannaDance   880861828052316201   logi   SEEN-#5771   
+20.09.2022   13:33   WannaDance   880861828052316201   logi   SEEN-#5771   
+20.09.2022   13:33   WannaDance   880861828052316201   logi   SEEN-#5771   
+20.09.2022   13:35   WannaDance   880861828052316201   logi   SEEN-#5771   
+20.09.2022   13:35   WannaDance   880861828052316201   logi   SEEN-#5771   
+20.09.2022   13:44   WannaDance   880861828052316201   logi   SEEN-#5771   
+20.09.2022   13:46   WannaDance   880861828052316201   logi   SEEN-#5771   
+20.09.2022   13:46   WannaDance   880861828052316201   logi   SEEN-#5771   
+20.09.2022   13:46   WannaDance   880861828052316201   logi   SEEN-#5771   
+20.09.2022   13:47   WannaDance   880861828052316201   logi   SEEN-#5771   
+20.09.2022   14:08   WannaDance   880861828052316201   ogólny   ARK#5525   
+20.09.2022   14:08   WannaDance   880861828052316201   informacje   ARK#5525   yoyo
+20.09.2022   14:11   WannaDance   880861828052316201   logi   SEEN-#5771   
+20.09.2022   14:11   WannaDance   880861828052316201   logi   SEEN-#5771   
+20.09.2022   14:29   WannaDance   880861828052316201   logi   SEEN-#5771   
+20.09.2022   14:35   WannaDance   880861828052316201   ogólny   CiernistyTyp#2044   
+20.09.2022   14:47   WannaDance   880861828052316201   logi   SEEN-#5771   
+20.09.2022   14:49   WannaDance   880861828052316201   logi   SEEN-#5771   
+20.09.2022   14:49   WannaDance   880861828052316201   logi   SEEN-#5771   
+20.09.2022   15:03   WannaDance   880861828052316201   logi   SEEN-#5771   
+20.09.2022   15:14   WannaDance   880861828052316201   logi   SEEN-#5771   
+20.09.2022   15:15   WannaDance   880861828052316201   logi   SEEN-#5771   
+20.09.2022   15:23   WannaDance   880861828052316201   logi   SEEN-#5771   
+20.09.2022   15:24   WannaDance   880861828052316201   logi   SEEN-#5771   
+20.09.2022   15:27   WannaDance   880861828052316201   logi   SEEN-#5771   
+20.09.2022   15:57   WannaDance   880861828052316201   logi   SEEN-#5771   
+20.09.2022   15:57   WannaDance   880861828052316201   logi   SEEN-#5771   
+20.09.2022   16:06   WannaDance   880861828052316201   logi   SEEN-#5771   
+20.09.2022   16:10   WannaDance   880861828052316201   logi   SEEN-#5771   
+20.09.2022   16:22   WannaDance   880861828052316201   logi   SEEN-#5771   
+20.09.2022   16:23   WannaDance   880861828052316201   logi   SEEN-#5771   
+20.09.2022   16:27   WannaDance   880861828052316201   logi   SEEN-#5771   
+20.09.2022   16:27   WannaDance   880861828052316201   logi   SEEN-#5771   
+20.09.2022   16:52   WannaDance   880861828052316201   logi   SEEN-#5771   
+20.09.2022   16:52   WannaDance   880861828052316201   logi   SEEN-#5771   
+20.09.2022   16:52   WannaDance   880861828052316201   logi   SEEN-#5771   
+20.09.2022   17:10   WannaDance   880861828052316201   logi   SEEN-#5771   
+20.09.2022   17:24   WannaDance   880861828052316201   logi   SEEN-#5771   
+20.09.2022   17:24   WannaDance   880861828052316201   logi   SEEN-#5771   
+20.09.2022   17:25   WannaDance   880861828052316201   logi   SEEN-#5771   
+20.09.2022   17:25   WannaDance   880861828052316201   logi   SEEN-#5771   
+20.09.2022   17:41   WannaDance   880861828052316201   logi   SEEN-#5771   
+20.09.2022   17:41   WannaDance   880861828052316201   logi   SEEN-#5771   
+20.09.2022   17:42   WannaDance   880861828052316201   ogólny   jasno 2#6686   
+20.09.2022   17:43   WannaDance   880861828052316201   informacje   jasno 2#6686   siema
+20.09.2022   17:43   WannaDance   880861828052316201   logi   SEEN-#5771   
+20.09.2022   17:43   WannaDance   880861828052316201   logi   SEEN-#5771   
+20.09.2022   17:43   WannaDance   880861828052316201   logi   SEEN-#5771   
+20.09.2022   17:44   WannaDance   880861828052316201   informacje   nino#4401   wbij rekrutacja
+20.09.2022   17:44   WannaDance   880861828052316201   logi   SEEN-#5771   
+20.09.2022   17:50   WannaDance   880861828052316201   logi   SEEN-#5771   
+20.09.2022   17:50   WannaDance   880861828052316201   logi   SEEN-#5771   
+20.09.2022   17:52   WannaDance   880861828052316201   logi   SEEN-#5771   
+20.09.2022   17:54   WannaDance   880861828052316201   logi   SEEN-#5771   
+20.09.2022   17:54   WannaDance   880861828052316201   logi   SEEN-#5771   
+20.09.2022   18:54   WannaDance   880861828052316201   logi   SEEN-#5771   
+20.09.2022   18:54   WannaDance   880861828052316201   logi   SEEN-#5771   
+20.09.2022   19:04   WannaDance   880861828052316201   informacje   nino#4401   @everyone zmieniamy gildie
+20.09.2022   19:04   WannaDance   880861828052316201   informacje   BobaFett#5726   Jak
+20.09.2022   19:04   WannaDance   880861828052316201   informacje   PAW#5844   ?
+20.09.2022   19:04   WannaDance   880861828052316201   informacje   nino#4401   normalnie
+20.09.2022   19:05   WannaDance   880861828052316201   informacje   nino#4401   wszystko ogarnięte więcej ludzi
+20.09.2022   19:05   WannaDance   880861828052316201   informacje   BobaFett#5726   Na jaką
+20.09.2022   19:05   WannaDance   880861828052316201   informacje   nino#4401   rosyjski wywiad
+20.09.2022   19:09   WannaDance   880861828052316201   informacje   nino#4401   https://discord.gg/32FSb9RP
+20.09.2022   19:14   WannaDance   880861828052316201   informacje   nino#4401   @everyone wbijcie dc
+20.09.2022   19:14   WannaDance   880861828052316201   logi   SEEN-#5771   
+20.09.2022   19:15   WannaDance   880861828052316201   logi   SEEN-#5771   
+20.09.2022   19:16   WannaDance   880861828052316201   informacje   nino#4401   +
+20.09.2022   19:16   WannaDance   880861828052316201   informacje   nino#4401   podanie dac
+20.09.2022   19:26   WannaDance   880861828052316201   informacje   nino#4401   @everyone
