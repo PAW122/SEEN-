@@ -27,6 +27,8 @@ module.exports = (client) => {
             let logs = await message.guild.fetchAuditLogs({ type: 72 });
             let entry = logs.entries.first();
 
+            if(!entry) return//żeby nie wywalało errora
+
             //  console.log(logs)
             //  console.log(entry)
             //  console.log(entry.executor)
@@ -65,7 +67,7 @@ module.exports = (client) => {
             const db = new QuickDB({ filePath: process.cwd() + `/db/srv_logs/${guildId}.sqlite` });
             if (await db.get(`check`) != true || await db.get(`guildChannelTopicUpdate`) != true) { return } else { var channelID = await db.get(`channelId`) }
 
-            const LogChannel = client.channels.cache.get(channelID); // Replace with your channel id
+            const LogChannel = client.channels.cache.get(channelID);  
             const TopicUpdate = new MessageEmbed()
                 .setTitle('Topic Updated!')
                 .setColor('#2F3136')
@@ -87,7 +89,7 @@ module.exports = (client) => {
             if (await db.get(`check`) != true || await db.get(`unhandledGuildChannelUpdate`) != true) { return } else { var channelID = await db.get(`channelId`) }
 
 
-            const LogChannel = client.channels.cache.get(channelID); // Replace with your channel id
+            const LogChannel = client.channels.cache.get(channelID);  
             const unhandledGuildChannelUpdate = new MessageEmbed()
                 .setTitle('Channel Updated!')
                 .setColor('#2F3136')
@@ -110,7 +112,7 @@ module.exports = (client) => {
             if (await db.get(`check`) != true || await db.get(`guildMemberBoost`) != true) { return } else { var channelID = await db.get(`channelId`) }
 
 
-            const LogChannel = client.channels.cache.get(channelID); // Replace with your channel id
+            const LogChannel = client.channels.cache.get(channelID);  
             const MemberBoost = new MessageEmbed()
                 .setTitle('User Started Boosting!')
                 .setColor('#2F3136')
@@ -133,7 +135,7 @@ module.exports = (client) => {
 
 
 
-            const LogChannel = client.channels.cache.get(channelID); // Replace with your channel id
+            const LogChannel = client.channels.cache.get(channelID);  
             const MemberUnboost = new MessageEmbed()
                 .setTitle('User Stoped Boosting!')
                 .setColor('#2F3136')
@@ -156,7 +158,7 @@ module.exports = (client) => {
             if (await db.get(`check`) != true || await db.get(`guildMemberRoleAdd`) != true) { return } else { var channelID = await db.get(`channelId`) }
 
 
-            const LogChannel = client.channels.cache.get(channelID); // Replace with your channel id
+            const LogChannel = client.channels.cache.get(channelID);  
             const MemberRoleAdd = new MessageEmbed()
                 .setTitle('User Got Role!')
                 .setColor('#2F3136')
@@ -179,7 +181,7 @@ module.exports = (client) => {
             if (await db.get(`check`) != true || await db.get(`guildMemberRoleRemove`) != true) { return } else { var channelID = await db.get(`channelId`) }
 
 
-            const LogChannel = client.channels.cache.get(channelID); // Replace with your channel id
+            const LogChannel = client.channels.cache.get(channelID);  
             const MemberRoleRemove = new MessageEmbed()
                 .setTitle('User Lost Role!')
                 .setColor('#2F3136')
@@ -202,7 +204,7 @@ module.exports = (client) => {
             if (await db.get(`check`) != true || await db.get(`guildMemberNicknameUpdate`) != true) { return } else { var channelID = await db.get(`channelId`) }
 
 
-            const LogChannel = client.channels.cache.get(channelID); // Replace with your channel id
+            const LogChannel = client.channels.cache.get(channelID);  
             const MemberNicknameUpdate = new MessageEmbed()
                 .setTitle('Nickname Updated')
                 .setColor('#2F3136')
@@ -225,7 +227,7 @@ module.exports = (client) => {
             if (await db.get(`check`) != true || await db.get(`guildMemberEntered`) != true) { return } else { var channelID = await db.get(`channelId`) }
 
 
-            const LogChannel = client.channels.cache.get(channelID); // Replace with your channel id
+            const LogChannel = client.channels.cache.get(channelID);  
             const MemberJoined = new MessageEmbed()
                 .setTitle('User Joined')
                 .setColor('#2F3136')
@@ -248,7 +250,7 @@ module.exports = (client) => {
             if (await db.get(`check`) != true || await db.get(`guildBoostLevelUp`) != true) { return } else { var channelID = await db.get(`channelId`) }
 
 
-            const LogChannel = client.channels.cache.get(channelID); // Replace with your channel id
+            const LogChannel = client.channels.cache.get(channelID);  
             const LevelUp = new MessageEmbed()
                 .setTitle('Server Boost Level Up')
                 .setColor('#2F3136')
@@ -271,7 +273,7 @@ module.exports = (client) => {
             if (await db.get(`check`) != true || await db.get(`guildBoostLevelDown`) != true) { return } else { var channelID = await db.get(`channelId`) }
 
 
-            const LogChannel = client.channels.cache.get(channelID); // Replace with your channel id
+            const LogChannel = client.channels.cache.get(channelID);  
             const LevelDown = new MessageEmbed()
                 .setTitle('Server Boost Level Down')
                 .setColor('#2F3136')
@@ -294,7 +296,7 @@ module.exports = (client) => {
             if (await db.get(`check`) != true || await db.get(`guildBannerAdd`) != true) { return } else { var channelID = await db.get(`channelId`) }
 
 
-            const LogChannel = client.channels.cache.get(channelID); // Replace with your channel id
+            const LogChannel = client.channels.cache.get(channelID);  
             const BannerAdd = new MessageEmbed()
                 .setTitle('Server Got a new banner')
                 .setColor('#2F3136')
@@ -317,7 +319,7 @@ module.exports = (client) => {
             if (await db.get(`check`) != true || await db.get(`guildAfkChannelAdd`) != true) { return } else { var channelID = await db.get(`channelId`) }
 
 
-            const LogChannel = client.channels.cache.get(channelID); // Replace with your channel id
+            const LogChannel = client.channels.cache.get(channelID);  
             const AFKAdd = new MessageEmbed()
                 .setTitle('AFK Channel Added')
                 .setColor('#2F3136')
@@ -340,7 +342,7 @@ module.exports = (client) => {
             if (await db.get(`check`) != true || await db.get(`guildVanityURLAdd`) != true) { return } else { var channelID = await db.get(`channelId`) }
 
 
-            const LogChannel = client.channels.cache.get(channelID); // Replace with your channel id
+            const LogChannel = client.channels.cache.get(channelID);  
             const VanityAdd = new MessageEmbed()
                 .setTitle('Vanity Link Added')
                 .setColor('#2F3136')
@@ -363,7 +365,7 @@ module.exports = (client) => {
             if (await db.get(`check`) != true || await db.get(`guildVanityURLRemove`) != true) { return } else { var channelID = await db.get(`channelId`) }
 
 
-            const LogChannel = client.channels.cache.get(channelID); // Replace with your channel id
+            const LogChannel = client.channels.cache.get(channelID);  
             const VanityRemove = new MessageEmbed()
                 .setTitle('Vanity Link Removed')
                 .setColor('#2F3136')
@@ -386,7 +388,7 @@ module.exports = (client) => {
             if (await db.get(`check`) != true || await db.get(`guildVanityURLUpdate`) != true) { return } else { var channelID = await db.get(`channelId`) }
 
 
-            const LogChannel = client.channels.cache.get(channelID); // Replace with your channel id
+            const LogChannel = client.channels.cache.get(channelID);  
             const VanityUpdated = new MessageEmbed()
                 .setTitle('Vanity Link Updated')
                 .setColor('#2F3136')
@@ -409,7 +411,7 @@ module.exports = (client) => {
             if (await db.get(`check`) != true || await db.get(`messagePinned`) != true) { return } else { var channelID = await db.get(`channelId`) }
 
 
-            const LogChannel = client.channels.cache.get(channelID); // Replace with your channel id
+            const LogChannel = client.channels.cache.get(channelID);  
             const MessagePinned = new MessageEmbed()
                 .setTitle('Message Pinned')
                 .setColor('#2F3136')
@@ -432,7 +434,7 @@ module.exports = (client) => {
             if (await db.get(`check`) != true || await db.get(`messageContentEdited`) != true) { return } else { var channelID = await db.get(`channelId`) }
 
 
-            const LogChannel = client.channels.cache.get(channelID); // Replace with your channel id
+            const LogChannel = client.channels.cache.get(channelID);
            
             const MessageEdited = new MessageEmbed()
                 .setTitle('Message Edited')
@@ -456,7 +458,7 @@ module.exports = (client) => {
             if (await db.get(`check`) != true || await db.get(`guildMemberOffline`) != true) { return } else { var channelID = await db.get(`channelId`) }
 
 
-            const LogChannel = client.channels.cache.get(channelID); // Replace with your channel id
+            const LogChannel = client.channels.cache.get(channelID);  
             const MemberOffline = new MessageEmbed()
                 .setTitle('Message Offline')
                 .setColor('#2F3136')
@@ -479,7 +481,7 @@ module.exports = (client) => {
             if (await db.get(`check`) != true || await db.get(`guildMemberOnline`) != true) { return } else { var channelID = await db.get(`channelId`) }
 
 
-            const LogChannel = client.channels.cache.get(channelID); // Replace with your channel id
+            const LogChannel = client.channels.cache.get(channelID);  
             const MemberOnline = new MessageEmbed()
                 .setTitle('Message Online')
                 .setColor('#2F3136')
@@ -502,7 +504,7 @@ module.exports = (client) => {
         if (await db.get(`check`) != true) {return}else{var channelID = await db.get(`channelId`)}
         
     
-        const LogChannel = client.channels.cache.get(guildId); // Replace with your channel id
+        const LogChannel = client.channels.cache.get(guildId);  
         const RolePositionUpdated = new MessageEmbed()
             .setTitle('Role Position Updated')
             .setColor('#2F3136')
@@ -526,7 +528,7 @@ module.exports = (client) => {
         if (await db.get(`check`) != true) {return}else{var channelID = await db.get(`channelId`)}
         
     
-        const LogChannel = client.channels.cache.get(channelID); // Replace with your channel id
+        const LogChannel = client.channels.cache.get(channelID);  
         const RolePermissionUpdated = new MessageEmbed()
             .setTitle('Role Permission Updated')
             .setColor('#2F3136')
@@ -550,7 +552,7 @@ module.exports = (client) => {
         if (await db.get(`check`) != true|| await db.get(`userAvatarUpdate`) != true) {return}else{var channelID = await db.get(`channelId`)}
         
     
-        const LogChannel = client.channels.cache.get(channelID); // Replace with your channel id
+        const LogChannel = client.channels.cache.get(channelID);  
         const AvatarUpdated = new MessageEmbed()
             .setTitle('Avatar Updated')
             .setColor('#2F3136')
@@ -574,7 +576,7 @@ module.exports = (client) => {
         if (await db.get(`check`) != true) {return}else{var channelID = await db.get(`channelId`)}
         
     
-        const LogChannel = client.channels.cache.get(channelID); // Replace with your channel id
+        const LogChannel = client.channels.cache.get(channelID);  
         const Username = new MessageEmbed()
             .setTitle('Username Updated')
             .setColor('#2F3136')
@@ -599,7 +601,7 @@ module.exports = (client) => {
         if (await db.get(`check`) != true) {return}else{var channelID = await db.get(`channelId`)}
         
     
-        const LogChannel = client.channels.cache.get(channelID); // Replace with your channel id
+        const LogChannel = client.channels.cache.get(channelID);  
         const Discriminator = new MessageEmbed()
             .setTitle('Discriminator Updated')
             .setColor('#2F3136')
@@ -623,7 +625,7 @@ module.exports = (client) => {
         if (await db.get(`check`) != true|| await db.get(`userFlagsUpdate`) != true) {return}else{var channelID = await db.get(`channelId`)}
         
     
-        const LogChannel = client.channels.cache.get(channelID); // Replace with your channel id
+        const LogChannel = client.channels.cache.get(channelID);  
         const FlagsUpdate = new MessageEmbed()
             .setTitle('Flags Updated')
             .setColor('#2F3136')
@@ -647,7 +649,7 @@ module.exports = (client) => {
             if (await db.get(`check`) != true || await db.get(`voiceChannelJoin`) != true) { return } else { var channelID = await db.get(`channelId`) }
 
 
-            const LogChannel = client.channels.cache.get(channelID); // Replace with your channel id
+            const LogChannel = client.channels.cache.get(channelID);  
             const VCJoined = new MessageEmbed()
                 .setTitle('Voice Channel Joined')
                 .setColor('#2F3136')
@@ -670,7 +672,7 @@ module.exports = (client) => {
             if (await db.get(`check`) != true || await db.get(`voiceChannelLeave`) != true) { return } else { var channelID = await db.get(`channelId`) }
 
 
-            const LogChannel = client.channels.cache.get(channelID); // Replace with your channel id
+            const LogChannel = client.channels.cache.get(channelID);  
             const VCLeft = new MessageEmbed()
                 .setTitle('Voice Channel Left')
                 .setColor('#2F3136')
@@ -693,7 +695,7 @@ module.exports = (client) => {
             if (await db.get(`check`) != true || await db.get(`voiceChannelSwitch`) != true) { return } else { var channelID = await db.get(`channelId`) }
 
 
-            const LogChannel = client.channels.cache.get(channelID); // Replace with your channel id
+            const LogChannel = client.channels.cache.get(channelID);  
             const VCSwitch = new MessageEmbed()
                 .setTitle('Voice Channel Switched')
                 .setColor('#2F3136')
@@ -716,7 +718,7 @@ module.exports = (client) => {
             if (await db.get(`check`) != true || await db.get(`voiceChannelMute`) != true) { return } else { var channelID = await db.get(`channelId`) }
 
 
-            const LogChannel = client.channels.cache.get(channelID); // Replace with your channel id
+            const LogChannel = client.channels.cache.get(channelID);  
             const VCMute = new MessageEmbed()
                 .setTitle('User Muted')
                 .setColor('#2F3136')
@@ -738,7 +740,7 @@ module.exports = (client) => {
             const db = new QuickDB({ filePath: process.cwd() + `/db/srv_logs/${guildId}.sqlite` });
             if (await db.get(`check`) != true || await db.get(`voiceChannelUnmute`) != true) { return } else { var channelID = await db.get(`channelId`) }
 
-            const LogChannel = client.channels.cache.get(channelID); // Replace with your channel id
+            const LogChannel = client.channels.cache.get(channelID);  
             const VCUnmute = new MessageEmbed()
                 .setTitle('User Unmuted')
                 .setColor('#2F3136')
@@ -761,7 +763,7 @@ module.exports = (client) => {
             if (await db.get(`check`) != true || await db.get(`voiceChannelDeaf`) != true) { return } else { var channelID = await db.get(`channelId`) }
 
 
-            const LogChannel = client.channels.cache.get(channelID); // Replace with your channel id
+            const LogChannel = client.channels.cache.get(channelID);  
             const VCDeafen = new MessageEmbed()
                 .setTitle('User Deafend')
                 .setColor('#2F3136')
@@ -783,7 +785,7 @@ module.exports = (client) => {
             const db = new QuickDB({ filePath: process.cwd() + `/db/srv_logs/${guildId}.sqlite` });
             if (await db.get(`check`) != true || await db.get(`voiceChannelUndeaf`) != true) { return } else { var channelID = await db.get(`channelId`) }
 
-            const LogChannel = client.channels.cache.get(channelID); // Replace with your channel id
+            const LogChannel = client.channels.cache.get(channelID);  
             const VCUndeafen = new MessageEmbed()
                 .setTitle('User Undeafend')
                 .setColor('#2F3136')
@@ -806,7 +808,7 @@ module.exports = (client) => {
             if (await db.get(`check`) != true || await db.get(`voiceStreamingStart`) != true) { return } else { var channelID = await db.get(`channelId`) }
 
 
-            const LogChannel = client.channels.cache.get(channelID); // Replace with your channel id
+            const LogChannel = client.channels.cache.get(channelID);  
             const UserStreaming = new MessageEmbed()
                 .setTitle('User Started to Stream')
                 .setColor('#2F3136')
@@ -829,7 +831,7 @@ module.exports = (client) => {
             if (await db.get(`check`) != true || await db.get(`voiceStreamingStop`) != true) { return } else { var channelID = await db.get(`channelId`) }
 
 
-            const LogChannel = client.channels.cache.get(channelID); // Replace with your channel id
+            const LogChannel = client.channels.cache.get(channelID);  
             const UserStoppedStreaming = new MessageEmbed()
                 .setTitle('User Stopped to Stream')
                 .setColor('#2F3136')

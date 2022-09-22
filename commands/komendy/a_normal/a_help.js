@@ -49,6 +49,7 @@ const embed_pl = new Discord.MessageEmbed()
         { name: `SEEN - ANIME`, value: `lista komend dostępna pod:\n $animeseen help`, inline: true },
         { name: `ANIME`, value: `lista komend dostępna pod:\n $anime help`, inline: true },
         { name: `blitzstats`, value: `${prefix}blitzstats help\n${prefix}blitzstats help en`, inline: true },
+        { name: `bruh`, value: `$bruh`, inline: true },
     )
 
 
