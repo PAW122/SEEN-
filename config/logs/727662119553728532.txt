@@ -6639,3 +6639,36 @@ odp:A: **liczby par biegunów silnika **
 20.09.2022   12:21   priv   727662119553728532   bot   SEEN-#5771   
 20.09.2022   12:21   priv   727662119553728532   bot   PAW#5844   b
 20.09.2022   12:21   priv   727662119553728532   bot   SEEN-#5771   żle. poprawna odp to: c
+21.09.2022   17:54   priv   727662119553728532   bot   PAW#5844   
+21.09.2022   17:54   priv   727662119553728532   bot   PAW#5844   
+21.09.2022   17:54   priv   727662119553728532   bot   PAW#5844   
+21.09.2022   17:54   priv   727662119553728532   minc-serv-18   SEEN-#5771   
+21.09.2022   17:54   priv   727662119553728532   bot   PAW#5844   
+21.09.2022   18:49   priv   727662119553728532   bot   PAW#5844   większa odporności
+22.09.2022   07:58   priv   727662119553728532   debug   PAW#5844   
+22.09.2022   07:58   priv   727662119553728532   dc-bot   PAW#5844   debug
+22.09.2022   07:58   priv   727662119553728532   debug   PAW#5844   Ususnąć funkcję wybierania tła to nie działa / wlbo ją wyłączyć
+22.09.2022   08:00   priv   727662119553728532   ogólny   PAW#5844   .
+Doładować kartę miejską
+22.09.2022   08:32   priv   727662119553728532   dc-bot   PAW#5844   .
+System przywracania rang --
+Jeżeli ktoś dostaje range bot zapisuje nazwy wyszystkich rang.
+
+Jeżeli na srv wbije user którego id jest w db to dostaje wszystkie role które miał (role po nazwie)
+22.09.2022   08:36   priv   727662119553728532   bot   PAW#5844   $ping
+22.09.2022   08:36   priv   727662119553728532   bot   SEEN-#5771   pong!
+22.09.2022   08:38   priv   727662119553728532   dc-bot   PAW#5844   .
+Dodać ograniczenie długości prefixu bo nick ma ograniczoną długość
+Np if(ilością liter > 10 )return msg nie możesz
+22.09.2022   08:43   priv   727662119553728532   bot   PAW#5844   Test czy długi mut działa
+22.09.2022   08:43   priv   727662119553728532   bot   PAW#5844   $mute <@926587631645630475> 1h
+22.09.2022   08:43   priv   727662119553728532   bot   SEEN-#5771   Sucesfully muted Senko acc#0349
+22.09.2022   08:43   priv   727662119553728532   minc-serv-18   SEEN-#5771   
+22.09.2022   08:48   priv   727662119553728532   dc-bot   PAW#5844   .
+Zrobić jakiś ładne lvl na canvasie
+.
+22.09.2022   08:49   priv   727662119553728532   minc-serv-18   SEEN-#5771   
+22.09.2022   09:43   priv   727662119553728532   bot   SEEN-#5771   <@926587631645630475> has been unmuted
+22.09.2022   09:43   priv   727662119553728532   minc-serv-18   SEEN-#5771   
+22.09.2022   16:06   priv   727662119553728532   bot   PAW#5844   coS
+22.09.2022   16:06   priv   727662119553728532   minc-serv-18   SEEN-#5771   

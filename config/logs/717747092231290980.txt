@@ -13,3 +13,29 @@
 3.09.2022   00:11   Polska30   717747092231290980   kanał-dla-bota   -V1PE#3809   twój profil został stworzony
 3.09.2022   00:11   Polska30   717747092231290980   kanał-dla-bota   -V1PE#3809   twój profil został stworzony
 3.09.2022   00:12   Polska30   717747092231290980   kanał-dla-bota   -V1PE#3809   twój profil został stworzony
+22.09.2022   16:07   Polska30   717747092231290980   witamy   SEEN-#5771   
+22.09.2022   16:07   Polska30   717747092231290980   witamy   PAW#5844   $help
+22.09.2022   16:07   Polska30   717747092231290980   witamy   SEEN-#5771   
+22.09.2022   16:07   Polska30   717747092231290980   witamy   SEEN-#5771   
+22.09.2022   16:07   Polska30   717747092231290980   witamy   PAW#5844   $message_logs
+22.09.2022   16:07   Polska30   717747092231290980   witamy   SEEN-#5771   
+22.09.2022   16:08   Polska30   717747092231290980   witamy   PAW#5844   $srv_logs help
+22.09.2022   16:08   Polska30   717747092231290980   witamy   SEEN-#5771   
+22.09.2022   16:09   Polska30   717747092231290980   witamy   PAW#5844   $srv_logs start 778917662289821696
+22.09.2022   16:09   Polska30   717747092231290980   witamy   SEEN-#5771   set
+22.09.2022   16:09   Polska30   717747092231290980   witamy   PAW#5844   cos
+22.09.2022   16:09   Polska30   717747092231290980   turniej-ogłoszenia   SEEN-#5771   
+22.09.2022   16:09   Polska30   717747092231290980   witamy   PAW#5844   cos
+22.09.2022   16:09   Polska30   717747092231290980   witamy   PAW#5844   $clear 1
+22.09.2022   16:09   Polska30   717747092231290980   witamy   SEEN-#5771   Usunąłem 1 wiadomości
+22.09.2022   16:09   Polska30   717747092231290980   turniej-ogłoszenia   SEEN-#5771   
+22.09.2022   16:09   Polska30   717747092231290980   turniej-ogłoszenia   SEEN-#5771   
+22.09.2022   16:10   Polska30   717747092231290980   witamy   SEEN-#5771   
+22.09.2022   16:10   Polska30   717747092231290980   witamy   PAW#5844   cos
+22.09.2022   16:10   Polska30   717747092231290980   witamy   PAW#5844   $srv_logs start 778917662289821696
+22.09.2022   16:10   Polska30   717747092231290980   witamy   SEEN-#5771   set
+22.09.2022   16:10   Polska30   717747092231290980   witamy   SEEN-#5771   You arledy have settings profil. Only channel Id be updated
+22.09.2022   16:11   Polska30   717747092231290980   witamy   PAW#5844   cos
+22.09.2022   16:11   Polska30   717747092231290980   witamy   PAW#5844   $clear 2
+22.09.2022   16:11   Polska30   717747092231290980   witamy   SEEN-#5771   Usunąłem 2 wiadomości
+22.09.2022   16:11   Polska30   717747092231290980   turniej-ogłoszenia   SEEN-#5771   
