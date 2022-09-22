@@ -129,7 +129,8 @@ npm i js-queue
     143.przetestowac i naprawić message delete na nowym serwie bo błędy wywala
     144.ogarnąć ładniejszego i czytelniejszego helpa
     145.po wyrzuceniu bota z serwera wywaliło go
-
+    146.dodać bruch.js do workera serwerowega
+    147.dodać $bruh do helpa
 
     dodać do tego top chanels(top kanał z wiadomościami, top kanał vc z ilością h)
 

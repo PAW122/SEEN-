@@ -111,6 +111,10 @@ client.once("guildMemberAdd", member => {
         }
 
     }
+    try{
     welcome(member)
+    }catch(err){
+        console.log(err)
+    }
 })
 }
