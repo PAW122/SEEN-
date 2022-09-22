@@ -5,6 +5,11 @@ module.exports = {
     name: "backgrounds",
 
     execute: async (message, args, client) => {
+
+
+        return message.reply("this feature is temporarily disabled. Work on restoring it to functioning is ongoing")
+
+
         const guildId = message.guild.id
     const db = new QuickDB({ filePath: process.cwd() + `/db/srv_settings/commands/${guildId}.sqlite` });
 

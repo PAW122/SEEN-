@@ -19,7 +19,7 @@ client.once("guildMemberAdd", member => {
     console.log(member.user.tag)
 
     async function welcome() {
-        
+        /*
         //get background
         const guildId = member.guild.id
         const db = new QuickDB({ filePath: process.cwd() + `/db/srv_settings/commands/${guildId}.sqlite` });
@@ -45,6 +45,7 @@ client.once("guildMemberAdd", member => {
             if(bgtype == 10)var background = `https://impuls.nzsug.pl/wp-content/uploads/2020/01/HXcsVY5.png`
         }
         console.log(`bg: ${background}`)
+        */
 
         let username = member.user.username
         let discrim = member.user.discriminator
