@@ -6677,3 +6677,41 @@ Zrobić jakiś ładne lvl na canvasie
 22.09.2022   23:39   priv   727662119553728532   bot   SEEN-#5771   
 22.09.2022   23:40   priv   727662119553728532   bot   PAW#5844   $bruh
 22.09.2022   23:40   priv   727662119553728532   bot   SEEN-#5771   
+22.09.2022   23:54   priv   727662119553728532   dc-bot   PAW#5844   .
+Ogarnąć skalowanie lvl na bocie żeby było potrzeba więcej expa na każdy następny lvl
+22.09.2022   23:55   priv   727662119553728532   dc-bot   PAW#5844   .
+Jak się da to zrobić tak, żeby bot sobie kolor baneru ustawił na czerowny/albo niech se ustawi baner
+22.09.2022   23:57   priv   727662119553728532   bot   PAW#5844   $help
+22.09.2022   23:57   priv   727662119553728532   bot   SEEN-#5771   
+22.09.2022   23:57   priv   727662119553728532   bot   SEEN-#5771   
+22.09.2022   23:57   priv   727662119553728532   bot   PAW#5844   $mute help
+22.09.2022   23:57   priv   727662119553728532   bot   SEEN-#5771   example: $mute @user 10s
+ usage: $mute <user> <time>
+ $mute @user temp
+22.09.2022   23:57   priv   727662119553728532   bot   PAW#5844   $mute <@980848895301124107>  temp
+22.09.2022   23:59   priv   727662119553728532   bot   PAW#5844   $mute <@&1022622914283048993>  temp
+22.09.2022   23:59   priv   727662119553728532   bot   SEEN-#5771   you have not provided information about whom you want to mute
+22.09.2022   23:59   priv   727662119553728532   bot   PAW#5844   $mute <@980848895301124107> temp
+22.09.2022   23:59   priv   727662119553728532   bot   SEEN-#5771   Sucesfully muted SEEN-#4498
+22.09.2022   23:59   priv   727662119553728532   minc-serv-18   SEEN-#5771   
+23.09.2022   00:06   priv   727662119553728532   pasy-do-kont   PAW#5844   Konto seen nie może widzieć kanału bo kiedyś dawałem token tego konta typowi z wota
+23.09.2022   09:38   priv   727662119553728532   bot   SEEN-#5771   
+23.09.2022   09:38   priv   727662119553728532   bot   PAW#5844   $bruh
+23.09.2022   09:38   priv   727662119553728532   bot   SEEN-#5771   
+23.09.2022   10:33   priv   727662119553728532   bot   PAW#5844   $help
+23.09.2022   10:33   priv   727662119553728532   bot   SEEN-#5771   
+23.09.2022   10:33   priv   727662119553728532   bot   SEEN-#5771   
+23.09.2022   10:39   priv   727662119553728532   bot   PAW#5844   Fun/normal
+Awatar, ping,embed,clear,botinfo,srvinfo,ankieta,ruletka,rnadom,8ball,lvl,blitzstats,bruh
+
+Help commands:
+report,contact
+
+Games:
+Flags,to z niemca
+
+Administration:
+Clear,say,kick,ban,message_logs,mute,autorole,srv_logs,automod,srv_set
+
+Economy:
+Roll,daily,
