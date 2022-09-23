@@ -63,8 +63,6 @@ module.exports = (message, lost_coins) => {
         if (await userdb.get(`${userId}.added_coins`) != true) {
             //global
             if (await globaldb.get(`check`) != true) {
-                console.log("true")
-                //stwrz db
                 await globaldb.set(`check`, true)
                 await globaldb.set(`roll_lost`, lostCoins)
             } else {

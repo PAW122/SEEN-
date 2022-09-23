@@ -127,10 +127,9 @@ npm i js-queue
     142.usunąć z console.log() logi o nicku dołączającego i linku grafiki z tła
     mod_logs)handler :38 errer .setDescription entry.executor
     143.przetestowac i naprawić message delete na nowym serwie bo błędy wywala
-    144.ogarnąć ładniejszego i czytelniejszego helpa
     145.po wyrzuceniu bota z serwera wywaliło go
     146.dodać bruch.js do workera serwerowega
-    147.dodać $bruh do helpa
+    148.dodać możliwość przypisania, żeby bot wysyłał wiadomość zawsze gdy będzie online na kanał
 
     dodać do tego top chanels(top kanał z wiadomościami, top kanał vc z ilością h)
 

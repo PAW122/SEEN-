@@ -6715,3 +6715,81 @@ Clear,say,kick,ban,message_logs,mute,autorole,srv_logs,automod,srv_set
 
 Economy:
 Roll,daily,
+24.09.2022   00:07   priv   727662119553728532   bot   PAW#5844   awatar
+ping
+embed
+clear
+say
+botinfo
+srvinfo
+ankieta
+ruletka
+random
+kick
+ban
+8ball
+message_logs
+mute
+autorole
+report
+lvlflags
+24.09.2022   00:07   priv   727662119553728532   minc-serv-18   SEEN-#5771   
+24.09.2022   00:10   priv   727662119553728532   minc-serv-18   SEEN-#5771   
+24.09.2022   00:12   priv   727662119553728532   minc-serv-18   SEEN-#5771   
+24.09.2022   00:12   priv   727662119553728532   minc-serv-18   SEEN-#5771   
+24.09.2022   00:12   priv   727662119553728532   minc-serv-18   SEEN-#5771   
+24.09.2022   00:14   priv   727662119553728532   minc-serv-18   SEEN-#5771   
+24.09.2022   00:14   priv   727662119553728532   bot   PAW#5844   wyłączyć embed dla userów, usunąć z helpa
+24.09.2022   00:15   priv   727662119553728532   bot   PAW#5844   upewnić ise że każda z podanych komend po dodaiu po spacji "help" pokaże helpa
+24.09.2022   00:16   priv   727662119553728532   minc-serv-18   SEEN-#5771   
+24.09.2022   00:23   priv   727662119553728532   bot   Carl-bot#1536   
+24.09.2022   00:24   priv   727662119553728532   minc-serv-18   SEEN-#5771   
+24.09.2022   00:24   priv   727662119553728532   bot   PAW#5844   ``cos``
+24.09.2022   00:24   priv   727662119553728532   minc-serv-18   SEEN-#5771   
+24.09.2022   00:28   priv   727662119553728532   bot   PAW#5844   $help2
+24.09.2022   00:28   priv   727662119553728532   bot   SEEN-#5771   
+24.09.2022   00:28   priv   727662119553728532   bot   PAW#5844   $help2
+24.09.2022   00:28   priv   727662119553728532   bot   SEEN-#5771   
+24.09.2022   00:30   priv   727662119553728532   bot   PAW#5844   $help2
+24.09.2022   00:30   priv   727662119553728532   bot   SEEN-#5771   
+24.09.2022   00:32   priv   727662119553728532   bot   PAW#5844   $help2
+24.09.2022   00:32   priv   727662119553728532   bot   SEEN-#5771   
+24.09.2022   00:33   priv   727662119553728532   bot   PAW#5844   $help2
+24.09.2022   00:33   priv   727662119553728532   bot   SEEN-#5771   
+24.09.2022   00:34   priv   727662119553728532   bot   PAW#5844   $help
+24.09.2022   00:34   priv   727662119553728532   bot   SEEN-#5771   
+24.09.2022   00:34   priv   727662119553728532   bot   SEEN-#5771   
+24.09.2022   00:34   priv   727662119553728532   bot   PAW#5844   $helpeco
+24.09.2022   00:34   priv   727662119553728532   bot   SEEN-#5771   
+24.09.2022   00:37   priv   727662119553728532   bot   PAW#5844   $help2
+24.09.2022   00:37   priv   727662119553728532   bot   SEEN-#5771   
+24.09.2022   00:39   priv   727662119553728532   bot   PAW#5844   $help
+24.09.2022   00:39   priv   727662119553728532   bot   SEEN-#5771   
+24.09.2022   00:39   priv   727662119553728532   bot   PAW#5844   $help!
+24.09.2022   00:39   priv   727662119553728532   bot   SEEN-#5771   
+24.09.2022   00:39   priv   727662119553728532   bot   SEEN-#5771   
+24.09.2022   00:41   priv   727662119553728532   bot   PAW#5844   $bank
+24.09.2022   00:41   priv   727662119553728532   bot   SEEN-#5771   
+24.09.2022   00:41   priv   727662119553728532   bot   PAW#5844   $help
+24.09.2022   00:41   priv   727662119553728532   bot   SEEN-#5771   
+24.09.2022   00:41   priv   727662119553728532   bot   PAW#5844   $contat
+24.09.2022   00:41   priv   727662119553728532   bot   PAW#5844   $contact
+24.09.2022   00:41   priv   727662119553728532   bot   SEEN-#5771   Discord bot Suport: https://discord.gg/ATsqW78A4F
+        or user $report to send me message
+24.09.2022   00:44   priv   727662119553728532   bot   PAW#5844   $pvp help
+24.09.2022   00:44   priv   727662119553728532   bot   SEEN-#5771   $pvp <coins> <userid>
+24.09.2022   00:44   priv   727662119553728532   bot   SEEN-#5771   you did not enter the number of coins
+24.09.2022   00:53   priv   727662119553728532   bot   PAW#5844   $bank_deafult
+24.09.2022   00:53   priv   727662119553728532   bot   SEEN-#5771   Restart global bank to 0 coins. Onlu bot woner can use this command
+24.09.2022   00:53   priv   727662119553728532   bot   PAW#5844   $bank
+24.09.2022   00:53   priv   727662119553728532   bot   SEEN-#5771   
+24.09.2022   00:55   priv   727662119553728532   bot   PAW#5844   $bank_deafult
+24.09.2022   00:55   priv   727662119553728532   bot   SEEN-#5771   Restart global bank to 0 coins. Onlu bot woner can use this command
+24.09.2022   00:55   priv   727662119553728532   bot   PAW#5844   $bank
+24.09.2022   00:55   priv   727662119553728532   bot   SEEN-#5771   
+24.09.2022   00:56   priv   727662119553728532   bot   PAW#5844   $bank_deafult
+24.09.2022   00:56   priv   727662119553728532   bot   SEEN-#5771   Restart global bank to 0 coins. Onlu bot woner can use this command
+24.09.2022   00:58   priv   727662119553728532   bot   PAW#5844   $bank_deafult
+24.09.2022   00:58   priv   727662119553728532   bot   SEEN-#5771   Global bank coins set to 0 sucesfully
+24.09.2022   00:58   priv   727662119553728532   bot   PAW#5844   $bank
+24.09.2022   00:58   priv   727662119553728532   bot   SEEN-#5771   
