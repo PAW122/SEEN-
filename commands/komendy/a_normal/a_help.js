@@ -54,7 +54,7 @@ const embed_pl = new Discord.MessageEmbed()
 
 
 module.exports = {
-    name: `help`,
+    name: `help!`,
     description: `help command`,
     usage: `$help`,
     work: worker,
