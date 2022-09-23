@@ -17,7 +17,7 @@ module.exports = {
         }
 
         if (args[0] == "help") {
-            message.reply("$pvp <coins> <userid>")
+           return message.reply("$pvp <coins> <userid>")
         }
 
         const db = new QuickDB({ filePath: process.cwd() + `/db/economy/local_economy/${guildId}.sqlite` });
