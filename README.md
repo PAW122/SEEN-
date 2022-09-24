@@ -130,6 +130,7 @@ npm i js-queue
     145.po wyrzuceniu bota z serwera wywaliło go
     146.dodać bruch.js do workera serwerowega
     148.dodać możliwość przypisania, żeby bot wysyłał wiadomość zawsze gdy będzie online na kanał
+    149.zrobić error handler - każdy błąd (nawet te w catch w komendach) ma być wysyłąny do handlera i zapisywany w pliku albo txt albo json albo w db
 
     dodać do tego top chanels(top kanał z wiadomościami, top kanał vc z ilością h)
 
