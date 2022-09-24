@@ -28,6 +28,9 @@ const embed_pl = new Discord.MessageEmbed()
         { name: `***economy***`, value: 
         "``daily``"+","+"``profil``"+","+"``weekly``"+","+"``roll``"+","+"``shop``"+","+"``pvp``"+","+"``pay``"+","+"``add``"+","+"``birthday``"+","+"``bank``", inline: false },
 
+        { name: `***reactions***`, value: 
+        "``angry``"+","+"``eat``"+","+"``happy``"+","+"``kill``"+","+"``love``"+","+"``run``"+","+"``scarry``"+","+"``sleep``", inline: false },
+
         { name: `***Support***`, value: 
         "``contact``"+","+"``report``", inline: false },
         

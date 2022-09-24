@@ -120,7 +120,7 @@ npm i js-queue
     136.zrobić komende $snipe (wysyłą oatatnie usunięte wiadomości) -- handler zapisuje każdą usuniętą wiadomość i jej autora, zapisuje czas usunięcia wiadomości (jeżeli usunięta wiadomość jest starsza niż 1h to usuń ją z db)
     137.jak będę robił rpg na bocie, to zrobić poczki npm do ogarniania rzeczy (lvl,eq,walki ipt (npm i paw-rpg)) (paczki mają mieć funkcje do zapisu i odczytu danych z wywołania funkcji)
     138.zrobić własny system db na jsonach (można dodać na paczke npm)
-    140.dodać resetowanie banku globalnego
+
     141.zrobić "tryb serwisowy" -- jeżeli jest włączony to po użyciu jakiejś komendy bot zamiast wywoływać execute to wysyła wiadomość że tryb seriwsowy jest włączony i należy spróbować pożniej
 
 
