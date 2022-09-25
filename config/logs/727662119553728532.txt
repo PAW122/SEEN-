@@ -6871,3 +6871,6 @@ lvlflags
 25.09.2022   00:08   priv   727662119553728532   bot   PAW#5844   $settings welcome_messages 727662119553728535
 25.09.2022   00:08   priv   727662119553728532   bot   SEEN-#5771   set
 25.09.2022   01:34   priv   727662119553728532   bot   PAW#5844   kórtka królewska
+25.09.2022   20:30   priv   727662119553728532   ogólny   PAW#5844   https://youtube.com/shorts/_48QSMrjklA?feature=share
+25.09.2022   20:30   priv   727662119553728532   ogólny   PAW#5844   
+25.09.2022   20:30   priv   727662119553728532   minc-serv-18   SEEN-#5771   
