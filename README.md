@@ -131,6 +131,8 @@ npm i js-queue
     146.dodać bruch.js do workera serwerowega
     148.dodać możliwość przypisania, żeby bot wysyłał wiadomość zawsze gdy będzie online na kanał
     149.zrobić error handler - każdy błąd (nawet te w catch w komendach) ma być wysyłąny do handlera i zapisywany w pliku albo txt albo json albo w db
+    150.do przetestowania reactions handler (trzego dodać wywlołanie handlera i przetestować na angry czy działa)
+    151.settings deafult nie wymaga admina a ma wymgać
 
     dodać do tego top chanels(top kanał z wiadomościami, top kanał vc z ilością h)
 

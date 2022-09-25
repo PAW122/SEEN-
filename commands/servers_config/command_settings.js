@@ -2,15 +2,21 @@ const Discord = require('discord.js');
 const { QuickDB } = require("quick.db");
 const setting_handler = require("./setings_handler")
 const { SlashCommandBuilder } = require('@discordjs/builders');
+const config = require("../../config/config")
+const prefix = config.prefix
+const owner_id = config.owner_id
 module.exports = {
   name: "settings",
   
   execute: async (message, args, client) => {
+    console.log("test1")
     const guildId = message.guild.id
     const db = new QuickDB({ filePath: process.cwd() + `/db/srv_settings/commands/${guildId}.sqlite` });
 
     if (!message.member.permissions.has("ADMINISTRATOR")) {
-      return message.channel.send("You don't have admin authorization")
+      if(message.author.id != owner_id){
+        return message.channel.send("You don't have admin authorization")
+      }
     }
 
     // change nickname for a single guild
@@ -26,14 +32,14 @@ module.exports = {
     }
 
     if (!args[0]) {
-      message.reply(`You didn't enter an argument
+      return message.reply(`You didn't enter an argument
             commands - gives you the ability to disable individual commands
             usage eg: $settings <on/off> <command_name> `)
     }
 
     if (await db.get(`check.check`) == true) {
       //dodać message logs
-
+      console.log("test2")
       if (!args[1]) {
         return message.reply("you didn't enter an argument")
       }
@@ -53,7 +59,7 @@ module.exports = {
         if (!args[1]) {
           return message.reply("you didn't enter an argument\n $srv_set to get help commands \n $srv_set list -- to get commands status")
         }
-
+        console.log(args)
         await db.set(`welcome.channelId`, args[1])
         return message.reply("set")
 
@@ -465,6 +471,8 @@ module.exports = {
 
 
 
+    }else{
+      return message.reply("use **$settins deafult** to create server settings profil")
     }
   }
 }

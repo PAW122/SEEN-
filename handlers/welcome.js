@@ -16,7 +16,6 @@ const av = {
 
 module.exports = (client) => {
 client.once("guildMemberAdd", member => {
-    console.log(member.user.tag)
 
     async function welcome() {
         /*
@@ -46,6 +45,9 @@ client.once("guildMemberAdd", member => {
         }
         console.log(`bg: ${background}`)
         */
+
+        const guildId = member.guild.id
+        const db = new QuickDB({ filePath: process.cwd() + `/db/srv_settings/commands/${guildId}.sqlite` });
 
         let username = member.user.username
         let discrim = member.user.discriminator
@@ -91,6 +93,7 @@ client.once("guildMemberAdd", member => {
 
 
         const welcomeChannelId = await db.get(`welcome.channelId`)
+        if(!welcomeChannelId) return;
         if (welcomeChannelId == "null" || welcomeChannelId == null) {
             return
         } else {
