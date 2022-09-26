@@ -1,13 +1,15 @@
 const { MessageAttachment } = require('discord.js');
 const Discord = require('discord.js');
 
+const reactions_handler = require("./reactions_handler");
+var action_type = "eat"
 module.exports = {
     name: "eat",
 
     execute: async (message, args, client) => {
 
         if (args[0] == "help") {
-            return message.reply("bot sending random gif.\n u can tag someone example:\n $angry <@797070806885990431>")
+            return message.reply("bot sending random gif.\n u can tag someone example:\n $angry <@797070806885990431>\n u can too use $reactions help")
         }
 
         const gifs = 6
@@ -22,6 +24,7 @@ module.exports = {
             try {
                 message.channel.send(`${tag_user}`);
                 message.channel.send({ files: [attachment] });
+                reactions_handler(action_type,message)
             } catch (error) {
                 console.log(error)
                 message.reply("error")
@@ -32,6 +35,7 @@ module.exports = {
         try {
             message.channel.send(`${message.author} eating`)
             message.channel.send({ files: [attachment] });
+            reactions_handler(action_type,message)
         } catch (error) {
             console.log(error)
             message.reply("error")

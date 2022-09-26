@@ -13,25 +13,25 @@ const embed_pl = new Discord.MessageEmbed()
     command list:`)
     .setFooter("use $name help to get comand info")
     .addFields(//inline-w embedzie zamiast po dobą będą obok siebie
-        { name: `***fun***`, value: 
+        { name: `***😁fun***`, value: 
         "``ruletka``" +","+ "``bruh``" +","+ "``random``"+","+ "``8ball``" +","+"``flags``"+","+"``animegif``", inline: false },
 
-        { name: `***info***`, value: 
+        { name: `***❓info***`, value: 
         "``awatar``"+ ","+"``ping``"+","+"``botinfo``"+","+"``srvinfo``"+","+"``lvl``", inline: false },
 
-        { name: `***administration***`, value: 
+        { name: `***👑administration***`, value: 
         "``clear``"+","+"``say``"+","+"``kick``"+","+"``ban``"+","+"``message_logs``"+","+"``mute``"+","+"``autorole ``", inline: false },
 
-        { name: `***bot config***`, value: 
-        "``srv_set ``"+","+"``srv_logs``"+","+"``automod ``"+",", inline: false },
+        { name: `***⚙️bot config***`, value: 
+        "``srv_set ``"+","+"``srv_logs``"+","+"``automod ``", inline: false },
 
-        { name: `***economy***`, value: 
+        { name: `***💵economy***`, value: 
         "``daily``"+","+"``profil``"+","+"``weekly``"+","+"``roll``"+","+"``shop``"+","+"``pvp``"+","+"``pay``"+","+"``add``"+","+"``birthday``"+","+"``bank``", inline: false },
 
-        { name: `***reactions***`, value: 
-        "``angry``"+","+"``eat``"+","+"``happy``"+","+"``kill``"+","+"``love``"+","+"``run``"+","+"``scarry``"+","+"``sleep``", inline: false },
+        { name: `***🤯reactions***`, value: 
+        "``reactions help``"+","+"``angry``"+","+"``eat``"+","+"``happy``"+","+"``kill``"+","+"``love``"+","+"``run``"+","+"``scarry``"+","+"``sleep``", inline: false },
 
-        { name: `***Support***`, value: 
+        { name: `***🆘Support***`, value: 
         "``contact``"+","+"``report``", inline: false },
         
     )
