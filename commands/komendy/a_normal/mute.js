@@ -54,6 +54,12 @@ module.exports = {
             } catch (err) {
                 console.log(err)
             }
+
+        }
+
+        if(args[1] == "temp"){
+            await (toMute.roles.add(muteRole.id))
+            return  message.reply(`Sucesfully muted ${toMute.user.tag}`)
         }
 
         let muteTime = args[1];
@@ -64,9 +70,7 @@ module.exports = {
 
         message.reply(`Sucesfully muted ${toMute.user.tag}`)
 
-        if(args[1] == "temp"){
-            return
-        }
+        
 
         setTimeout(function () {
             toMute.roles.remove(muteRole.id);
