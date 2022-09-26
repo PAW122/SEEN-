@@ -6953,3 +6953,8 @@ przetestować czy tempm ute działa
 26.09.2022   19:15   priv   727662119553728532   bot   SEEN-#5771   Sucesfully muted Senko music#3875
 26.09.2022   19:15   priv   727662119553728532   minc-serv-18   SEEN-#5771   
 26.09.2022   19:15   priv   727662119553728532   minc-serv-18   SEEN-#5771   
+26.09.2022   19:21   priv   727662119553728532   temp mut - częściowo zrobiony   PAW#5844   
+26.09.2022   19:21   priv   727662119553728532   dc-bot   PAW#5844   temp mut - częściowo zrobiony
+26.09.2022   19:21   priv   727662119553728532   temp mut - częściowo zrobiony   PAW#5844   temp mut działa ale nie wiemc zy jest dodane sprawdzanie uprawnień
+26.09.2022   19:21   priv   727662119553728532   minc-serv-18   SEEN-#5771   
+26.09.2022   19:22   priv   727662119553728532   minc-serv-18   SEEN-#5771   
