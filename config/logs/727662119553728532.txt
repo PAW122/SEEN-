@@ -6958,3 +6958,27 @@ przetestować czy tempm ute działa
 26.09.2022   19:21   priv   727662119553728532   temp mut - częściowo zrobiony   PAW#5844   temp mut działa ale nie wiemc zy jest dodane sprawdzanie uprawnień
 26.09.2022   19:21   priv   727662119553728532   minc-serv-18   SEEN-#5771   
 26.09.2022   19:22   priv   727662119553728532   minc-serv-18   SEEN-#5771   
+27.09.2022   07:49   priv   727662119553728532   dc-bot   PAW#5844   Quiz mechatroniczny zrobić na slashah i z listy dac do wybrania który test chce się robić
+27.09.2022   07:51   priv   727662119553728532   dc-bot   PAW#5844   .
+Dodać komende która pokazuje ostatnią date i hodz restartu bota
+
+Np po użyciu ping pokazuje że not sie resetował dzisiaj o 14
+27.09.2022   11:11   priv   727662119553728532   bot   PAW#5844   $help
+27.09.2022   11:11   priv   727662119553728532   bot   SEEN-#5771   
+27.09.2022   11:12   priv   727662119553728532   bot   PAW#5844   $kill
+27.09.2022   11:12   priv   727662119553728532   bot   SEEN-#5771   <@438336824516149249> wana kill someone
+27.09.2022   11:12   priv   727662119553728532   bot   SEEN-#5771   
+27.09.2022   11:13   priv   727662119553728532   minc-serv-18   SEEN-#5771   
+27.09.2022   11:14   priv   727662119553728532   dc-bot   PAW#5844   .
+Dodać komende invite z linkiem do bota
+.
+27.09.2022   11:17   priv   727662119553728532   bot   PAW#5844   $flags
+27.09.2022   11:18   priv   727662119553728532   bot   SEEN-#5771   A: Uzbekistan
+B:Barbados
+C:Iraq
+D:Austria
+27.09.2022   11:18   priv   727662119553728532   bot   SEEN-#5771   
+27.09.2022   11:18   priv   727662119553728532   bot   PAW#5844   C
+27.09.2022   11:18   priv   727662119553728532   bot   SEEN-#5771   Bad answer. Correct answer is: **A**
+27.09.2022   11:18   priv   727662119553728532   bot   SEEN-#5771   <@438336824516149249> best combo is: **2**
+27.09.2022   12:30   priv   727662119553728532   ogólny   PAW#5844   Nauczyć si3 na matme vo jutro jets kartja
