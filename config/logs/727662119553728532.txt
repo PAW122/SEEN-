@@ -7007,3 +7007,19 @@ Admin wysyła link który jest blokowany
 28.09.2022   10:42   priv   727662119553728532   minc-serv-18   SEEN-#5771   
 28.09.2022   10:49   priv   727662119553728532   dc-bot   PAW#5844   robić komendę sponsorzy gdzie bot będzie wysyłał grafikę z awatarami sponsorów bota i narazie wrzucić tam logo porg comunity jako sponsor
 28.09.2022   13:36   priv   727662119553728532   ogólny   PAW#5844   Zrobić dc bota na replicie
+28.09.2022   22:25   priv   727662119553728532   dc-bot   PAW#5844   .
+Mal na dc bocie
+Zrobić na slashu cos ala profil-info: bot wywyła wiadomość wodoczną tylko dla urzytkownika z widocznym id konta o hasłem i można z innego konta urzyć /mal login id hasło
+Żeby dodać to 2 konto jako właściciela mala
+
+
+Opcja2 dodać opcje kopiowania animelisty np: copy @username mal
+
+To coś kopiuje animeliste jakiejś osoby i dodaje ją do twojej listy
+28.09.2022   22:43   priv   727662119553728532   dc-bot   PAW#5844   .
+Komena: ostrzeganie własciela:
+Jeżeli ktoś srobić coś ważnego an sev bot wywyła co kto zrobił właścicielowi serwera na pv mp user kiknie kogoś z serwera
+
+Opcja2 admin może włączyć żeby bot wysyłał ostrzeżenie danej osobie zamiast właścicielowi serwera
+.
+28.09.2022   22:43   priv   727662119553728532   minc-serv-18   SEEN-#5771   
