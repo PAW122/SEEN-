@@ -6982,3 +6982,28 @@ D:Austria
 27.09.2022   11:18   priv   727662119553728532   bot   SEEN-#5771   Bad answer. Correct answer is: **A**
 27.09.2022   11:18   priv   727662119553728532   bot   SEEN-#5771   <@438336824516149249> best combo is: **2**
 27.09.2022   12:30   priv   727662119553728532   ogólny   PAW#5844   Nauczyć si3 na matme vo jutro jets kartja
+27.09.2022   23:16   priv   727662119553728532   ogólny   PAW#5844   Nie zapisałem danych z db na stacjonarce to trzeba będzie usunąć zmiany przed updatem na gicie
+28.09.2022   10:36   priv   727662119553728532   dc-bot   PAW#5844   .
+Dodać do automoda możliwość blokowania linków
+.
+28.09.2022   10:37   priv   727662119553728532   working   PAW#5844   
+28.09.2022   10:37   priv   727662119553728532   working   PAW#5844   Np jeżeli wiadomość posiada https:/discord cośtam to usów te wiadomość, wysyła ostrzeżenie ale ignoruje wiadomości administratorów
+28.09.2022   10:37   priv   727662119553728532   minc-serv-18   SEEN-#5771   
+28.09.2022   10:38   priv   727662119553728532   working   PAW#5844   .
+Opcja2 blok wszystkich linków
+Jeżeli link ma jakiekolwiek http albo https albo www albo com czy cokolwiek to uwówa eiadomość
+.
+28.09.2022   10:39   priv   727662119553728532   working   PAW#5844   .
+Opcja3 blokowanie customowych linków
+Admin wysyła link który jest blokowany
+.
+28.09.2022   10:40   priv   727662119553728532   opis   PAW#5844   
+28.09.2022   10:40   priv   727662119553728532   dc-bot   PAW#5844   opis
+28.09.2022   10:40   priv   727662119553728532   opis   PAW#5844   Link musi mieć uprawnienia do aplicarion commands żeby slashe działały
+28.09.2022   10:42   priv   727662119553728532   data   PAW#5844   
+28.09.2022   10:42   priv   727662119553728532   dc-bot   PAW#5844   data
+28.09.2022   10:42   priv   727662119553728532   data   PAW#5844   Dać opcje wybrania które pytanie chce się z testu np /mechatronika test-styczeń-2021 zadanie-2
+28.09.2022   10:42   priv   727662119553728532   minc-serv-18   SEEN-#5771   
+28.09.2022   10:42   priv   727662119553728532   minc-serv-18   SEEN-#5771   
+28.09.2022   10:49   priv   727662119553728532   dc-bot   PAW#5844   robić komendę sponsorzy gdzie bot będzie wysyłał grafikę z awatarami sponsorów bota i narazie wrzucić tam logo porg comunity jako sponsor
+28.09.2022   13:36   priv   727662119553728532   ogólny   PAW#5844   Zrobić dc bota na replicie
