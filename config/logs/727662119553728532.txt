@@ -7065,3 +7065,7 @@ Dodać helpy do animców do helpa
 29.09.2022   12:35   priv   727662119553728532   bot   PAW#5844   $automod
 29.09.2022   12:35   priv   727662119553728532   bot   PAW#5844   $automod help
 29.09.2022   12:35   priv   727662119553728532   bot   SEEN-#5771   
+29.09.2022   19:30   priv   727662119553728532   bot   PAW#5844   $zapowiedzi_jesień 2022
+29.09.2022   19:31   priv   727662119553728532   bot   PAW#5844   $zapowiedzi_jesień 2022
+29.09.2022   19:31   priv   727662119553728532   bot   PAW#5844   $zapowiedzi_jesień 2022
+29.09.2022   19:31   priv   727662119553728532   bot   SEEN-#5771   

@@ -3,8 +3,8 @@
 const Discord = require('discord.js');
 const { QuickDB } = require("quick.db");
 module.exports = {
-    name: "zapowiedzi",
-    name_en: "announcements",
+    name: "zapowiedzi_jesień",
+    name_en: "announcements_autumn",
     description: "wysyła pong",
     usage: "$ping",
 
@@ -88,8 +88,9 @@ module.exports = {
         {name: "21.**yuusha party wo tsuihou sareta beast tamer**",value: "01.10.2022", inline: false},
         )
 
-        if(args[0] == "autumn2022"){message.channel.send({embeds: [embed_2022_en]});}
-        if(args[0] == "jesień2022" || args[0] == "jesien2022"){message.channel.send({embeds: [embed_2022]});}
+        if(message.content.startsWith("$zapowiedzi_jesień") && args[0] == "2022"){message.channel.send({embeds: [embed_2022_en]});}
+        if(message.content.startsWith("$announcements_autumn")&& args[0] == "2022"){message.channel.send({embeds: [embed_2022]});}
+
         }
     }
 }
