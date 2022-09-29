@@ -7023,3 +7023,45 @@ Jeżeli ktoś srobić coś ważnego an sev bot wywyła co kto zrobił właścici
 Opcja2 admin może włączyć żeby bot wysyłał ostrzeżenie danej osobie zamiast właścicielowi serwera
 .
 28.09.2022   22:43   priv   727662119553728532   minc-serv-18   SEEN-#5771   
+29.09.2022   00:23   priv   727662119553728532   ogólny   PAW#5844   https://youtube.com/shorts/riTIvgadzL8?feature=share
+29.09.2022   01:19   priv   727662119553728532   dc-bot   PAW#5844   .
+Dodać coś takiego że jeżeli bot dostaje kicka z serwera to wywyła do właściciela serwera ankiete dlaczego wyrzucili bota z serwera.
+29.09.2022   07:53   priv   727662119553728532   dc-bot   PAW#5844   .
+Dodać komendę pokazującą 
+%urzycia procka,
+%urzycia karty sieciowej
+.
+29.09.2022   07:55   priv   727662119553728532   szczeguły   PAW#5844   
+29.09.2022   07:55   priv   727662119553728532   szczeguły   PAW#5844   https://stackoverflow.com/questions/36816181/get-view-memory-cpu-usage-via-nodejs
+29.09.2022   07:56   priv   727662119553728532   minc-serv-18   SEEN-#5771   
+29.09.2022   08:04   priv   727662119553728532   dc-bot   PAW#5844   .
+Aktualna prędkość wi-fi.
+https://stackoverflow.com/questions/5529718/how-to-detect-internet-speed-in-javascript
+.
+29.09.2022   12:26   priv   727662119553728532   bot   PAW#5844   $zapowiedzi jesień2022
+29.09.2022   12:26   priv   727662119553728532   bot   PAW#5844   $help
+29.09.2022   12:26   priv   727662119553728532   bot   SEEN-#5771   
+29.09.2022   12:27   priv   727662119553728532   dc-bot   PAW#5844   Reactions ma niepotrzebnie 2 razy napisane
+29.09.2022   12:27   priv   727662119553728532   dc-bot   PAW#5844   
+29.09.2022   12:27   priv   727662119553728532   dc-bot   PAW#5844   .
+Dodać anime zapowiedzi do helpa
+
+Dodać helpy do animców do helpa
+.
+29.09.2022   12:27   priv   727662119553728532   bot   PAW#5844   $help!
+29.09.2022   12:27   priv   727662119553728532   bot   SEEN-#5771   
+29.09.2022   12:27   priv   727662119553728532   bot   SEEN-#5771   
+29.09.2022   12:27   priv   727662119553728532   bot   PAW#5844   $anime help
+29.09.2022   12:27   priv   727662119553728532   bot   SEEN-#5771   
+29.09.2022   12:29   priv   727662119553728532   bot   PAW#5844   $announcements help
+29.09.2022   12:29   priv   727662119553728532   bot   SEEN-#5771   Wysyła liste zapowiedzi anime na sezon
+ $zapowiedzi <sezon> 
+ przykład: $zapowiedzi lato2022
+29.09.2022   12:29   priv   727662119553728532   bot   PAW#5844   $zapowiedzi jesień2022
+29.09.2022   12:29   priv   727662119553728532   bot   PAW#5844   $zapowiedzi jesien2022
+29.09.2022   12:33   priv   727662119553728532   bot   SEEN-#5771   
+29.09.2022   12:34   priv   727662119553728532   bot   PAW#5844   $srv_set
+29.09.2022   12:34   priv   727662119553728532   bot   SEEN-#5771   
+29.09.2022   12:35   priv   727662119553728532   bot   PAW#5844   $automod
+29.09.2022   12:35   priv   727662119553728532   bot   PAW#5844   $automod help
+29.09.2022   12:35   priv   727662119553728532   bot   SEEN-#5771   
