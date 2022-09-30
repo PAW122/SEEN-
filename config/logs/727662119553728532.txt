@@ -7141,3 +7141,14 @@ you currently have: 1164 💵
 W ekonomi globalny bank nie działa
 (Działa lokalnie zamiast globalnie)
 .
+30.09.2022   20:19   priv   727662119553728532   bot   PAW#5844   $link
+30.09.2022   20:19   priv   727662119553728532   bot   SEEN-#5771   https://discord.com/api/oauth2/authorize?client_id=797070806885990431&permissions=8&scope=bot%20applications.commands
+30.09.2022   20:20   priv   727662119553728532   bot   PAW#5844   $link
+30.09.2022   20:20   priv   727662119553728532   bot   SEEN-#5771   ** Invite bot link: 
+ https://discord.com/api/oauth2/authorize?client_id=797070806885990431&permissions=8&scope=bot%20applications.commands
+30.09.2022   20:21   priv   727662119553728532   bot   PAW#5844   $help
+30.09.2022   20:21   priv   727662119553728532   bot   SEEN-#5771   
+30.09.2022   20:22   priv   727662119553728532   bot   PAW#5844   $help
+30.09.2022   20:22   priv   727662119553728532   bot   SEEN-#5771   
+30.09.2022   20:23   priv   727662119553728532   bot   SEEN-#5771   
+30.09.2022   20:23   priv   727662119553728532   bot   SEEN-#5771   

@@ -17,7 +17,7 @@ const embed_pl = new Discord.MessageEmbed()
         "``ruletka``" +","+ "``bruh``" +","+ "``random``"+","+ "``8ball``" +","+"``flags``"+","+"``animegif``", inline: false },
 
         { name: `***❓info***`, value: 
-        "``awatar``"+ ","+"``ping``"+","+"``botinfo``"+","+"``srvinfo``"+","+"``lvl``", inline: false },
+        "``awatar``"+ ","+"``ping``"+","+"``botinfo``"+","+"``srvinfo``"+","+"``lvl``"+","+"``link``", inline: false },
 
         { name: `***👑administration***`, value: 
         "``clear``"+","+"``say``"+","+"``kick``"+","+"``ban``"+","+"``message_logs``"+","+"``mute``"+","+"``autorole ``", inline: false },
@@ -44,7 +44,7 @@ module.exports = {
 
     data: new SlashCommandBuilder()
         .setName('help')
-        .setDescription('display current ping'),
+        .setDescription('send list with all bot commands'),
     executeInteraction: async (inter) => { 
         if(work != true){
             const embed_worker = new Discord.MessageEmbed()

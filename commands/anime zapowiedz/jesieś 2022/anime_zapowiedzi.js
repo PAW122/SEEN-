@@ -79,7 +79,7 @@ module.exports = {
         {name: "12.**mushikaburi-hime**",value: "06.10.2022", inline: false},
         {name: "13.**noumin kanren no skill bakka agetetara nazeka tsuyoku natta**",value: "01.10.2022", inline: false},
         {name: "14.**renai flops**",value: "12.10.2022", inline: false},
-        {name: "15.**romantic killer",value: "27.10.2022", inline: false},
+        {name: "15.**romantic killer**",value: "27.10.2022", inline: false},
         {name: "16.**shinami reninjutsushi no tenpo keie**",value: "03.10.2022", inline: false},
         {name: "17.**shinobi no ittoki**",value: "04.10.2022", inline: false},
         {name: "18.**tensei shitara ken deshita**",value: "28.09.2022", inline: false},
@@ -93,6 +93,6 @@ module.exports = {
 
         }
     }
-}
+} 
 
 
