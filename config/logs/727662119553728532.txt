@@ -7069,3 +7069,75 @@ Dodać helpy do animców do helpa
 29.09.2022   19:31   priv   727662119553728532   bot   PAW#5844   $zapowiedzi_jesień 2022
 29.09.2022   19:31   priv   727662119553728532   bot   PAW#5844   $zapowiedzi_jesień 2022
 29.09.2022   19:31   priv   727662119553728532   bot   SEEN-#5771   
+30.09.2022   07:54   priv   727662119553728532   bot   PAW#5844   $ping
+30.09.2022   07:54   priv   727662119553728532   bot   SEEN-#5771   pong!
+30.09.2022   10:40   priv   727662119553728532   bot   PAW#5844   $help
+30.09.2022   10:40   priv   727662119553728532   bot   SEEN-#5771   
+30.09.2022   10:40   priv   727662119553728532   bot   PAW#5844   $mesaage_logs
+30.09.2022   10:40   priv   727662119553728532   bot   PAW#5844   $message_logs
+30.09.2022   10:40   priv   727662119553728532   bot   SEEN-#5771   
+30.09.2022   10:43   priv   727662119553728532   bot   PAW#5844   $reactions
+30.09.2022   10:43   priv   727662119553728532   bot   SEEN-#5771   Try use: **$reactions help**
+30.09.2022   10:43   priv   727662119553728532   bot   PAW#5844   $daily
+30.09.2022   10:43   priv   727662119553728532   bot   SEEN-#5771   You can receive weekly reward
+ use $weekly to claim your reward
+30.09.2022   10:43   priv   727662119553728532   bot   SEEN-#5771   You got 94 💵
+                you have a total of 944 💵
+30.09.2022   10:44   priv   727662119553728532   bot   PAW#5844   $pvp 438336824516149249 100
+30.09.2022   10:44   priv   727662119553728532   bot   SEEN-#5771   your opponent has no profile in the economy system
+30.09.2022   10:44   priv   727662119553728532   bot   PAW#5844   $pvp 100 438336824516149249
+30.09.2022   10:44   priv   727662119553728532   bot   SEEN-#5771   <@438336824516149249> did you accept pvp with <@438336824516149249> four 100 coins?
+ you have 10 secounds to type **accept**
+30.09.2022   10:44   priv   727662119553728532   bot   PAW#5844   Accept
+30.09.2022   10:44   priv   727662119553728532   bot   PAW#5844   accept
+30.09.2022   10:44   priv   727662119553728532   bot   SEEN-#5771   <@438336824516149249> dont have thats many coins
+30.09.2022   10:46   priv   727662119553728532   dc-bot   PAW#5844   .
+Naprawić $pvp 
+1.wysyła, że user nie posiada wystarczająco pienieędzy (prawdopodobnie myli user id z coinsami)
+
+2.zmienić user id na oznaczanie urzytkownika
+
+3.zablokować opcje pvp z samym sobą
+.
+30.09.2022   10:46   priv   727662119553728532   bot   PAW#5844   $roll
+30.09.2022   10:46   priv   727662119553728532   minc-serv-18   SEEN-#5771   
+30.09.2022   10:46   priv   727662119553728532   bot   SEEN-#5771   You need to enter the amount of 💵 that you want to bet
+30.09.2022   10:46   priv   727662119553728532   bot   PAW#5844   $roll 10
+30.09.2022   10:46   priv   727662119553728532   bot   SEEN-#5771   You won 20 💵 
+ you use 2/15 rols today
+you currently have: 964 💵
+30.09.2022   10:46   priv   727662119553728532   bot   PAW#5844   $weekly
+30.09.2022   10:46   priv   727662119553728532   bot   SEEN-#5771   You recived 500 💵
+            You have a total of 1464 💵
+30.09.2022   10:48   priv   727662119553728532   dc-bot   PAW#5844   .
+Dodać administracji możliwość ustawienia od ile do ile expa dostake się za 1 wiadomość
+
+2.dodać możliwość administracji ustawienie skalowania lvl
+
+3. Zrobić topke serwera lvl
+30.09.2022   10:48   priv   727662119553728532   bot   PAW#5844   $bank
+30.09.2022   10:48   priv   727662119553728532   bot   SEEN-#5771   
+30.09.2022   10:48   priv   727662119553728532   bot   PAW#5844   $roll 100
+30.09.2022   10:48   priv   727662119553728532   bot   SEEN-#5771   You won 200 💵 
+ you use 1/15 rols today
+you currently have: 1664 💵
+30.09.2022   10:48   priv   727662119553728532   bot   PAW#5844   $roll 50
+30.09.2022   10:48   priv   727662119553728532   bot   SEEN-#5771   You won 100 💵 
+ you use 2/15 rols today
+you currently have: 1764 💵
+30.09.2022   10:48   priv   727662119553728532   bot   PAW#5844   $roll 200
+30.09.2022   10:48   priv   727662119553728532   bot   SEEN-#5771   You won 400 💵 
+ you use 3/15 rols today
+you currently have: 2164 💵
+30.09.2022   10:49   priv   727662119553728532   bot   PAW#5844   $roll 1000
+30.09.2022   10:49   priv   727662119553728532   bot   SEEN-#5771   You lost 1000 💵
+you currently have: 1164 💵
+ you use 4/15 rols today
+30.09.2022   10:49   priv   727662119553728532   bot   PAW#5844   $bank
+30.09.2022   10:49   priv   727662119553728532   bot   SEEN-#5771   
+30.09.2022   10:49   priv   727662119553728532   bot   PAW#5844   $bank
+30.09.2022   10:49   priv   727662119553728532   bot   SEEN-#5771   
+30.09.2022   10:50   priv   727662119553728532   dc-bot   PAW#5844   .
+W ekonomi globalny bank nie działa
+(Działa lokalnie zamiast globalnie)
+.
