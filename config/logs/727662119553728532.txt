@@ -7152,3 +7152,121 @@ W ekonomi globalny bank nie działa
 30.09.2022   20:22   priv   727662119553728532   bot   SEEN-#5771   
 30.09.2022   20:23   priv   727662119553728532   bot   SEEN-#5771   
 30.09.2022   20:23   priv   727662119553728532   bot   SEEN-#5771   
+1.10.2022   15:35   priv   727662119553728532   dc-bot   PAW#5844   Top 5 osób które jako pierwsze dołączyły na serwer
+.
+1.10.2022   15:36   priv   727662119553728532   dc-bot   PAW#5844   .
+Invite tracker
+(Funkcja do welcome)
+2.10.2022   01:05   priv   727662119553728532   dc-bot   PAW#5844   .
+Dodać komende dla administracji:
+Admin ustawia sobie czy bot ma wysłać osobie dołączjącej na srv coś,
+
+Admin może ustawić treść wiadomości
+.
+2.10.2022   01:06   priv   727662119553728532   dc-bot   PAW#5844   .
+Dodać info na pv o wyrzuceniu urzytkownika z serwera
+Np(zostałeś wyrzucony z serwera priv przez username z powodu: nieznany)
+2.10.2022   02:06   priv   727662119553728532   dc-bot   PAW#5844   .
+Ai update
+Zrobić funkcje uczenia ai:
+Bot napisze np co tam?
+I jeżeli odp wysłana przez urzytkownika nie widnieje w pliku json to jest tam zapisywana, dostaje status false(niezweryfikowany) i ręczenie albo kiedys za pomocą komend trzeba ustawić na rrue żeby bot mugł twgo urzywać
+
+I w taki sposób bot będzie się uczył
+.
+2.10.2022   02:09   priv   727662119553728532   dc-bot   PAW#5844   .
+System sprawdzania
+Bot zapisuje w db jaką odp do jakiego oytania ma zweryfikować,
+Wysyła pytanie i odp na kanale na dc
+I tak jak w report urzytkownik za pomocą message id weryfikuje czy ta odo jest piprawna i jeżeli jest to w jsonie dostake status true.
+2.10.2022   02:10   priv   727662119553728532   dc-bot   PAW#5844   .
+Trub zweryfikowanej nauki:
+Jezeli id kanału z wyslaną wiadomoscia == id kanału w specjalnej db
+To wiadomości nie wymagają weryfikacj
+.
+2.10.2022   02:11   priv   727662119553728532   dc-bot   PAW#5844   Ai ma być przypisywana do kanału na srv (max 1 kanał) 
+.
+2.10.2022   15:59   priv   727662119553728532   bot   PAW#5844   $ping
+2.10.2022   15:59   priv   727662119553728532   bot   SEEN-#5771   pong!
+2.10.2022   18:47   priv   727662119553728532   bot   PAW#5844   57 - koni
+2staki skury
+2.10.2022   23:05   priv   727662119553728532   dc-bot   PAW#5844   .
+Funkcja chmury:
+User urzywa komendy i w tej samej iwadomości dołącza plik.
+Bot zapisuje plik i potem urzytkownik może urzyc komendy zeby bot wyslał ten plik,
++Komenda pokazująca liste plików (nazwy plików),
+
+
+Bot tworzy folder z nazwą id urzytkownika i zapisuje tam pliki,
+
+Jeżeli wszystkie sloty na plik są zajęte. Info który z plików bot ma usunąć
+
+Max 5 plików na raz 
+.
+3.10.2022   07:54   priv   727662119553728532   bot   PAW#5844   $ping
+3.10.2022   07:54   priv   727662119553728532   bot   SEEN-#5771   pong!
+3.10.2022   20:50   priv   727662119553728532   bot   PAW#5844   szpony
+kaptur skrytobujcy
+szata uczonego
+buty skryto/ łowcy
+3.10.2022   21:25   priv   727662119553728532   bot   PAW#5844   29k
+3.10.2022   23:40   priv   727662119553728532   ogólny   PAW#5844   https://youtu.be/Jfvg3CS1X3A
+4.10.2022   14:01   priv   727662119553728532   bot   SEEN-#5771   
+4.10.2022   14:28   priv   727662119553728532   dc-bot   PAW#5844   https://gist.github.com/applenick/6575ec32e5ee45b8cd0760298fd5e6b7
+4.10.2022   14:29   priv   727662119553728532   dc-bot   PAW#5844   Zrobić komendę mc srv status
+Mc-srv config:
+Admin podaje IP serwera
+I każdy na serweze deafultowo korzysta info tego srv
+
+Jak user chce to może jako dodatkowy argument podać ip swojego serwera
+4.10.2022   15:04   priv   727662119553728532   bot   PAW#5844   $help
+4.10.2022   15:04   priv   727662119553728532   bot   SEEN-#5771   
+4.10.2022   15:04   priv   727662119553728532   minc-serv-18   SEEN-#5771   
+4.10.2022   16:30   priv   727662119553728532   bot   PAW#5844   >ping
+4.10.2022   16:31   priv   727662119553728532   bot   PAW#5844   >ping
+4.10.2022   16:31   priv   727662119553728532   bot   -V1PE#3809   pong!
+4.10.2022   16:32   priv   727662119553728532   bot   PAW#5844   >ping
+4.10.2022   16:32   priv   727662119553728532   bot   -V1PE#3809   pong!
+4.10.2022   16:43   priv   727662119553728532   bot   PAW#5844   $stats
+4.10.2022   16:43   priv   727662119553728532   bot   PAW#5844   >stats
+4.10.2022   16:44   priv   727662119553728532   bot   PAW#5844   >stats
+4.10.2022   16:45   priv   727662119553728532   bot   PAW#5844   >stats
+4.10.2022   16:45   priv   727662119553728532   bot   PAW#5844   >stats
+4.10.2022   16:46   priv   727662119553728532   bot   PAW#5844   >stats
+4.10.2022   16:48   priv   727662119553728532   bot   PAW#5844   >stats
+4.10.2022   16:50   priv   727662119553728532   bot   PAW#5844   >stats
+4.10.2022   16:52   priv   727662119553728532   bot   PAW#5844   >stats
+4.10.2022   16:52   priv   727662119553728532   bot   PAW#5844   >stats
+4.10.2022   16:52   priv   727662119553728532   bot   PAW#5844   >mc
+4.10.2022   16:58   priv   727662119553728532   bot   PAW#5844   >mc
+4.10.2022   16:59   priv   727662119553728532   bot   PAW#5844   mc
+4.10.2022   16:59   priv   727662119553728532   bot   PAW#5844   >mc
+4.10.2022   17:00   priv   727662119553728532   bot   PAW#5844   >mc
+4.10.2022   17:01   priv   727662119553728532   bot   PAW#5844   >mc
+4.10.2022   17:01   priv   727662119553728532   bot   PAW#5844   >mc
+4.10.2022   17:03   priv   727662119553728532   bot   PAW#5844   >stats
+4.10.2022   17:04   priv   727662119553728532   bot   PAW#5844   >stats
+4.10.2022   17:05   priv   727662119553728532   bot   PAW#5844   >stats
+4.10.2022   17:06   priv   727662119553728532   bot   PAW#5844   >stats
+4.10.2022   17:07   priv   727662119553728532   bot   PAW#5844   >stats
+4.10.2022   17:09   priv   727662119553728532   bot   PAW#5844   >stats
+4.10.2022   17:09   priv   727662119553728532   bot   PAW#5844   >stats
+4.10.2022   17:09   priv   727662119553728532   bot   PAW#5844   >stats
+4.10.2022   17:10   priv   727662119553728532   bot   PAW#5844   >stats
+4.10.2022   17:10   priv   727662119553728532   bot   PAW#5844   >stats
+4.10.2022   17:11   priv   727662119553728532   bot   PAW#5844   >stats
+4.10.2022   17:11   priv   727662119553728532   bot   -V1PE#3809   
+4.10.2022   17:12   priv   727662119553728532   bot   PAW#5844   >stats
+4.10.2022   17:12   priv   727662119553728532   bot   -V1PE#3809   
+4.10.2022   17:25   priv   727662119553728532   bot   PAW#5844   $help
+4.10.2022   17:25   priv   727662119553728532   bot   SEEN-#5771   
+4.10.2022   17:25   priv   727662119553728532   bot   PAW#5844   $srv_set
+4.10.2022   17:25   priv   727662119553728532   minc-serv-18   SEEN-#5771   
+4.10.2022   17:25   priv   727662119553728532   bot   SEEN-#5771   
+4.10.2022   21:02   priv   727662119553728532   bot   PAW#5844   
+4.10.2022   23:37   priv   727662119553728532   dc-bot   PAW#5844   https://youtube.com/shorts/OuPeFvv2js0?feature=share
+Dać jego rozkminy w komendzie bota
+5.10.2022   11:29   priv   727662119553728532   bot   PAW#5844   $ping
+5.10.2022   11:29   priv   727662119553728532   bot   SEEN-#5771   pong!
+5.10.2022   11:35   priv   727662119553728532   dc-bot   PAW#5844   Zrobic botowi patrinajta
+5.10.2022   15:41   priv   727662119553728532   bot   PAW#5844   https://youtu.be/cMrnSANs2So
