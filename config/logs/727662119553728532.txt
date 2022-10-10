@@ -7270,3 +7270,43 @@ Dać jego rozkminy w komendzie bota
 5.10.2022   11:29   priv   727662119553728532   bot   SEEN-#5771   pong!
 5.10.2022   11:35   priv   727662119553728532   dc-bot   PAW#5844   Zrobic botowi patrinajta
 5.10.2022   15:41   priv   727662119553728532   bot   PAW#5844   https://youtu.be/cMrnSANs2So
+5.10.2022   23:47   priv   727662119553728532   dc-bot   PAW#5844   bot nie zaragował na dołączenie usera na serwer! (welcome) (na porg comunity)
+5.10.2022   23:49   priv   727662119553728532   ogólny   PAW#5844   
+6.10.2022   08:29   priv   727662119553728532   dc-bot   PAW#5844   https://youtube.com/shorts/RBjOuUO1Jm4?feature=share
+6.10.2022   09:57   priv   727662119553728532   ogólny   PAW#5844   Richard donkins
+6.10.2022   18:48   priv   727662119553728532   bot   PAW#5844   >stats
+6.10.2022   18:50   priv   727662119553728532   bot   PAW#5844   >stats
+6.10.2022   18:50   priv   727662119553728532   bot   PAW#5844   >stats
+6.10.2022   18:51   priv   727662119553728532   bot   PAW#5844   >stats
+6.10.2022   18:52   priv   727662119553728532   bot   PAW#5844   >stats
+6.10.2022   18:54   priv   727662119553728532   bot   PAW#5844   >stats
+6.10.2022   18:55   priv   727662119553728532   bot   PAW#5844   >stats
+6.10.2022   18:55   priv   727662119553728532   bot   PAW#5844   >stats
+6.10.2022   19:03   priv   727662119553728532   bot   PAW#5844   >stats
+7.10.2022   08:50   priv   727662119553728532   minc-serv-18   SEEN-#5771   
+7.10.2022   09:01   priv   727662119553728532   ogólny   PAW#5844   https://forums.kleientertainment.com/forums/topic/59171-hosting-caves-with-the-preconfigured-servers/
+7.10.2022   12:06   priv   727662119553728532   ogólny   PAW#5844   
+7.10.2022   17:46   priv   727662119553728532   bot   PAW#5844   https://dashboard.twitch.tv/popout/u/pawiu117/stream-manager/chat?uuid=c355cc8ddde8c668859548f9dee46518
+8.10.2022   22:56   priv   727662119553728532   dc-bot   PAW#5844   Srv mem:.
+Pozwala administracji zapisać mema (grafike) i potem użyć $mem idmema  żeby bot wyslał mema
+9.10.2022   10:38   priv   727662119553728532   bot   PAW#5844   $ping
+9.10.2022   10:38   priv   727662119553728532   bot   SEEN-#5771   pong!
+9.10.2022   10:49   priv   727662119553728532   dc-bot   PAW#5844   antyraid:
+jeżeli na serwer dołącza durzo osób w krótkim czasue bot sprawdza jak stare są te konta (np 1d) i jeżeli konta są młodsze niż np 7dni to wszystkie konta, które dołączyły na srv przez ostatnie 10 min dostają muta
+9.10.2022   10:51   priv   727662119553728532   dc-bot   PAW#5844   .
+antynuke:
+jeżeli jakiś urzytkownik zbanuje więcej niż 10 osób w 10 min albo usunie więcej niż np3 kanały w 10 min i nie jest właścicielem serwera bot sprubuje zabrać mu rangi\zbanować\dać muta następnie wysyła wiadomość na pv do właściciela serwera że srv dostgał nuka
+9.10.2022   10:54   priv   727662119553728532   dc-bot   PAW#5844   .
+anty spam- jeżeli urzytkownik wyśle bardzo dużo krótkich wiadomości np 1/2 znaki to dostaje ostrzeżenie na czacie, jeżeli dalej będzie spamił dostaje muta i bot usówa jego wiadomości
+9.10.2022   15:50   priv   727662119553728532   bot   PAW#5844   https://knify.gg/product/tactical-knife-default/
+10.10.2022   11:46   priv   727662119553728532   dc-bot   PAW#5844   Dodac logi executów
+10.10.2022   12:31   priv   727662119553728532   minc-serv-18   SEEN-#5771   
+10.10.2022   12:32   priv   727662119553728532   dc-bot   PAW#5844   .
+Co console log edytowanej wiadomości dodać kanał
+.
+10.10.2022   12:34   priv   727662119553728532   dc-bot   PAW#5844   .
+Bot wywalił wię:
+Timeout
+.
+10.10.2022   20:33   priv   727662119553728532   bot   PAW#5844   $ping
+10.10.2022   20:33   priv   727662119553728532   bot   SEEN-#5771   pong!
