@@ -17,25 +17,27 @@ module.exports = {
         }
 
         if (args[0] == "help") {
-           return message.reply("$pvp <coins> <userid>")
+           return message.reply("$pvp <coins> <@user> \n example: $pvp 100 <@797070806885990431>")
         }
 
         const db = new QuickDB({ filePath: process.cwd() + `/db/economy/local_economy/${guildId}.sqlite` });
 
         const authorId = message.author.id
         const coins = args[0]
-        const targer = args[1]
+        const target = message.mentions.users.first();
+        const target_id = target.id
 
 
         if (!args[0] || isNaN(args[0])) return message.reply("you did not enter the number of coins");
-        if (!args[1] || isNaN(args[1])) return message.reply("you did not enter the enemy userId");
+        if (!target_id) return message.reply("you did not enter the enemy userId");
 
         //sprawdż czy urzytkownik istnieje
         if (await db.get(`${authorId}.check`) != true) return message.reply("you do not have a profile in the economy system");
-        if (await db.get(`${targer}.check`) != true) return message.reply("your opponent has no profile in the economy system");
+        if (await db.get(`${target_id}.check`) != true) return message.reply("your opponent has no profile in the economy system");
 
+        if(authorId == target_id) return message.reply("you cant play with yourself");
 
-        message.channel.send(`<@${targer}> did you accept pvp with ${message.author} four ${coins} coins?\n you have 10 secounds to type **accept**`)
+        message.channel.send(`<@${target_id}> did you accept pvp with ${message.author} four ${coins} coins?\n you have 10 secounds to type **accept**`)
 
         //żeby zaakceptowac 2 użytkownik musi użyć accept
         let channel = client.channels.cache.get(message.channel.id)
@@ -53,7 +55,7 @@ module.exports = {
             let lastMessage = messages.first();
 
             if (!lastMessage.author.bot) {
-                if (lastMessage.author.id == targer && lastMessage.content == "accept") {
+                if (lastMessage.author.id == target_id && lastMessage.content == "accept") {
                     pvp_game()
                 }else{
                     return
@@ -67,10 +69,10 @@ module.exports = {
         async function pvp_game(){
 
             const player1_coins = await db.get(`${authorId}.coins[0]`)
-            const player2_coins = await db.get(`${targer}.coins[0]`)
+            const player2_coins = await db.get(`${target_id}.coins[0]`)
 
-            if(player1_coins > coins) return message.reply(`<@${userId}> dont have thats many coins`);
-            if(player2_coins > coins) return message.reply(`<@${targer}> You dont have thats many coins`);
+            if(player1_coins < coins) return message.reply(`<@${userId}> dont have thats many coins`);
+            if(player2_coins < coins) return message.reply(`<@${target_id}> You dont have thats many coins`);
 
             const rng = Math.floor(Math.random() * 2) + 1 // albo 1 albo 2
             if(rng == 1){
@@ -79,7 +81,7 @@ module.exports = {
 
                 //zapisz dane
                 await db.set(`${authorId}.coins[0]`,player1_setCoins)
-                await db.set(`${targer}.coins[0]`,player2_setCoins)
+                await db.set(`${target_id}.coins[0]`,player2_setCoins)
 
                 return message.reply(`<@${authorId}> is winner\n redwad is ${coins}`)
             }else if(rng == 2){
@@ -88,8 +90,8 @@ module.exports = {
 
                 //zapisz dane
                 await db.set(`${authorId}.coins[0]`,player1_setCoins)
-                await db.set(`${targer}.coins[0]`,player2_setCoins)
-                return message.reply(`<@${targer}> is winner\n redwad is ${coins}`)
+                await db.set(`${target_id}.coins[0]`,player2_setCoins)
+                return message.reply(`<@${target_id}> is winner\n redwad is ${coins}`)
             }
         }
 
