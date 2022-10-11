@@ -7310,3 +7310,44 @@ Timeout
 .
 10.10.2022   20:33   priv   727662119553728532   bot   PAW#5844   $ping
 10.10.2022   20:33   priv   727662119553728532   bot   SEEN-#5771   pong!
+11.10.2022   14:11   priv   727662119553728532   bot   PAW#5844   $przemyślenia
+11.10.2022   14:12   priv   727662119553728532   bot   PAW#5844   $przemyślenia
+11.10.2022   14:12   priv   727662119553728532   minc-serv-18   SEEN-#5771   
+11.10.2022   14:14   priv   727662119553728532   bot   PAW#5844   $przemyślenia
+11.10.2022   14:14   priv   727662119553728532   bot   SEEN-#5771   
+11.10.2022   14:14   priv   727662119553728532   bot   PAW#5844   $przemyślenia
+11.10.2022   14:14   priv   727662119553728532   bot   SEEN-#5771   
+11.10.2022   14:14   priv   727662119553728532   bot   PAW#5844   $przemyślenia
+11.10.2022   14:14   priv   727662119553728532   bot   SEEN-#5771   
+11.10.2022   14:19   priv   727662119553728532   bot   PAW#5844   $help
+11.10.2022   14:19   priv   727662119553728532   bot   SEEN-#5771   
+11.10.2022   14:19   priv   727662119553728532   bot   PAW#5844   $pvp <@438336824516149249>
+11.10.2022   14:19   priv   727662119553728532   bot   SEEN-#5771   you did not enter the number of coins
+11.10.2022   14:19   priv   727662119553728532   bot   PAW#5844   $pvp <@438336824516149249> 100
+11.10.2022   14:19   priv   727662119553728532   bot   SEEN-#5771   you did not enter the number of coins
+11.10.2022   14:20   priv   727662119553728532   bot   PAW#5844   $pvp 100 438336824516149249
+11.10.2022   14:20   priv   727662119553728532   bot   SEEN-#5771   <@438336824516149249> did you accept pvp with <@438336824516149249> four 100 coins?
+ you have 10 secounds to type **accept**
+11.10.2022   14:20   priv   727662119553728532   bot   PAW#5844   accept
+11.10.2022   14:20   priv   727662119553728532   bot   SEEN-#5771   <@438336824516149249> dont have thats many coins
+11.10.2022   14:23   priv   727662119553728532   bot   PAW#5844   $pvp 100 438336824516149249
+11.10.2022   14:23   priv   727662119553728532   bot   SEEN-#5771   <@438336824516149249> did you accept pvp with <@438336824516149249> four 100 coins?
+ you have 10 secounds to type **accept**
+11.10.2022   14:23   priv   727662119553728532   bot   PAW#5844   accept
+11.10.2022   14:23   priv   727662119553728532   bot   SEEN-#5771   <@438336824516149249> is winner
+ redwad is 100
+11.10.2022   14:26   priv   727662119553728532   bot   PAW#5844   $pvp 100 <@797070806885990431>
+11.10.2022   14:26   priv   727662119553728532   bot   SEEN-#5771   your opponent has no profile in the economy system
+11.10.2022   14:26   priv   727662119553728532   bot   PAW#5844   $pvp 100 <@438336824516149249>
+11.10.2022   14:26   priv   727662119553728532   bot   SEEN-#5771   your opponent has no profile in the economy system
+11.10.2022   14:28   priv   727662119553728532   bot   PAW#5844   $pvp 100 <@438336824516149249>
+11.10.2022   14:28   priv   727662119553728532   bot   SEEN-#5771   <@438336824516149249> did you accept pvp with <@438336824516149249> four 100 coins?
+ you have 10 secounds to type **accept**
+11.10.2022   14:28   priv   727662119553728532   bot   PAW#5844   accept
+11.10.2022   14:28   priv   727662119553728532   bot   SEEN-#5771   <@438336824516149249> is winner
+ redwad is 100
+11.10.2022   14:29   priv   727662119553728532   bot   PAW#5844   $pvp 100 <@438336824516149249>
+11.10.2022   14:29   priv   727662119553728532   bot   SEEN-#5771   you cant play with yourself
+11.10.2022   14:30   priv   727662119553728532   bot   PAW#5844   $pvp help
+11.10.2022   14:30   priv   727662119553728532   bot   SEEN-#5771   $pvp <coins> <@user> 
+ example: $pvp 100 <@797070806885990431>
