@@ -14,7 +14,7 @@ const embed_pl = new Discord.MessageEmbed()
     .setFooter("use $name help to get comand info")
     .addFields(//inline-w embedzie zamiast po dobą będą obok siebie
         { name: `***😁fun***`, value: 
-        "``ruletka``" +","+ "``bruh``" +","+ "``random``"+","+ "``8ball``" +","+"``flags``"+","+"``animegif``", inline: false },
+        "``ruletka``" +","+ "``bruh``" +","+ "``random``"+","+ "``8ball``" +","+"``flags``"+","+"``animegif``"+","+"``przemyślenia``", inline: false },
 
         { name: `***❓info***`, value: 
         "``awatar``"+ ","+"``ping``"+","+"``botinfo``"+","+"``srvinfo``"+","+"``lvl``"+","+"``link``", inline: false },
