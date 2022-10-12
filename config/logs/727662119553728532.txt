@@ -7351,3 +7351,112 @@ Timeout
 11.10.2022   14:30   priv   727662119553728532   bot   PAW#5844   $pvp help
 11.10.2022   14:30   priv   727662119553728532   bot   SEEN-#5771   $pvp <coins> <@user> 
  example: $pvp 100 <@797070806885990431>
+11.10.2022   22:39   priv   727662119553728532   fizyka-optyka-cz1   Senko#3667   **optyka cz1**
+``kąt padania``
+to kąt między promieniem padającym a prostą prostopadłą do powierzchni odbijającej.
+ 
+Analogicznie: ``kąt odbicia``:to kąt miendzy promieniem odbitym a prostą prostopadłą do powierzchni odbijającej.
+11.10.2022   22:40   priv   727662119553728532   fizyka-optyka-cz1   PAW#5844   
+11.10.2022   22:40   priv   727662119553728532   fizyka-optyka-cz1   Senko#3667   ``kąt dobicia jest równy kątowi padania !!
+11.10.2022   22:40   priv   727662119553728532   minc-serv-18   SEEN-#5771   
+11.10.2022   22:42   priv   727662119553728532   fizyka-optyka-cz1   Senko#3667   zmiana kierunku rozchodzenia się fali podczas przejścia z jednego ośrodka do drugiego nazywa się ``załamaniem fali``
+11.10.2022   22:43   priv   727662119553728532   minc-serv-18   SEEN-#5771   
+11.10.2022   22:44   priv   727662119553728532   fizyka-optyka-cz1   Senko#3667   ``gdy fala przechodzi do ośrodka, w którym rozchodzi się wolniej, kąt załamania jest miejsy od kąta padania.
+11.10.2022   23:10   priv   727662119553728532   bot   Senko#3667   $ping
+11.10.2022   23:10   priv   727662119553728532   bot   SEEN-#5771   pong!
+11.10.2022   23:14   priv   727662119553728532   bot   Senko#3667   $ping
+11.10.2022   23:14   priv   727662119553728532   bot   SEEN-#5771   pong!
+11.10.2022   23:17   priv   727662119553728532   bot   Senko#3667   $ping
+11.10.2022   23:17   priv   727662119553728532   bot   SEEN-#5771   pong!
+11.10.2022   23:17   priv   727662119553728532   bot   Senko#3667   $ping
+11.10.2022   23:17   priv   727662119553728532   bot   SEEN-#5771   pong!
+11.10.2022   23:18   priv   727662119553728532   bot   Senko#3667   $ping
+11.10.2022   23:18   priv   727662119553728532   bot   SEEN-#5771   pong!
+11.10.2022   23:19   priv   727662119553728532   bot   Senko#3667   ping
+11.10.2022   23:19   priv   727662119553728532   bot   Senko#3667   $ping
+11.10.2022   23:19   priv   727662119553728532   bot   SEEN-#5771   pong!
+11.10.2022   23:20   priv   727662119553728532   bot   Senko#3667   $ping
+11.10.2022   23:20   priv   727662119553728532   bot   SEEN-#5771   pong!
+11.10.2022   23:21   priv   727662119553728532   bot   Senko#3667   $ping
+11.10.2022   23:21   priv   727662119553728532   bot   SEEN-#5771   pong!
+11.10.2022   23:21   priv   727662119553728532   bot   -V1PE#3809   pong
+11.10.2022   23:24   priv   727662119553728532   fizyka-optyka-cz1   Senko#3667   $fizyka
+11.10.2022   23:24   priv   727662119553728532   minc-serv-18   SEEN-#5771   
+11.10.2022   23:25   priv   727662119553728532   bot   Senko#3667   $fizyka
+11.10.2022   23:25   priv   727662119553728532   bot   -V1PE#3809   **optyka cz1**
+        **kąt padania**
+        to kąt między promieniem padającym a prostą prostopadłą do powierzchni odbijającej.
+         
+        Analogicznie: **kąt odbicia**:to kąt miendzy promieniem odbitym a prostą prostopadłą do powierzchni odbijającej.
+        
+        **kąt dobicia jest równy kątowi padania !!**
+        
+        .
+zmiana kierunku rozchodzenia się fali podczas przejścia z jednego ośrodka do drugiego nazywa się **załamaniem fali**
+**gdy fala przechodzi do ośrodka, w którym rozchodzi się wolniej, kąt załamania jest miejsy od kąta padania.
+11.10.2022   23:27   priv   727662119553728532   bot   Senko#3667   $fizyka
+11.10.2022   23:27   priv   727662119553728532   bot   -V1PE#3809   **optyka cz1**
+        **kąt padania**
+        to kąt między promieniem padającym a prostą prostopadłą do powierzchni odbijającej.
+         
+        Analogicznie: **kąt odbicia**:to kąt miendzy promieniem odbitym a prostą prostopadłą do powierzchni odbijającej.
+        
+        **kąt dobicia jest równy kątowi padania !!**
+        
+        https://cdn.discordapp.com/attachments/1029492832672686150/1029493612523831316/IMG_20221011_223928.jpg
+
+        .
+zmiana kierunku rozchodzenia się fali podczas przejścia z jednego ośrodka do drugiego nazywa się **załamaniem fali**
+
+gdy fala przechodzi do ośrodka, w którym rozchodzi się wolniej, kąt załamania jest miejsy od kąta padania.
+11.10.2022   23:27   priv   727662119553728532   bot   Senko#3667   $help
+11.10.2022   23:27   priv   727662119553728532   bot   SEEN-#5771   
+11.10.2022   23:27   priv   727662119553728532   bot   -V1PE#3809   use ``$fizyka``
+11.10.2022   23:27   priv   727662119553728532   minc-serv-18   SEEN-#5771   
+11.10.2022   23:27   priv   727662119553728532   minc-serv-18   SEEN-#5771   
+11.10.2022   23:27   priv   727662119553728532   minc-serv-18   SEEN-#5771   
+11.10.2022   23:38   priv   727662119553728532   bot   Senko#3667   >fizyka
+11.10.2022   23:38   priv   727662119553728532   bot   -V1PE#3809   **optyka cz1**
+        **kąt padania**
+        to kąt między promieniem padającym a prostą prostopadłą do powierzchni odbijającej.
+         
+        Analogicznie: **kąt odbicia**:to kąt miendzy promieniem odbitym a prostą prostopadłą do powierzchni odbijającej.
+        
+        **kąt dobicia jest równy kątowi padania !!**
+        
+        https://cdn.discordapp.com/attachments/1029492832672686150/1029493612523831316/IMG_20221011_223928.jpg
+
+        .
+zmiana kierunku rozchodzenia się fali podczas przejścia z jednego ośrodka do drugiego nazywa się **załamaniem fali**
+
+gdy fala przechodzi do ośrodka, w którym rozchodzi się wolniej, kąt załamania jest miejsy od kąta padania.
+
+przykładowe zadanie:
+ile wynosi kąt między kromieniem odbitym i powierzchnią odbijającą, jeżeli 3/4 konta między promieniem padającym i dobitym wynosi 60 stopni?
+
+odp 40 stopni (3/4 = 60, 1/4 = 20) - kąt = 80, kąt pomiędzy prostą a promieniem padającym = połowa konta = 40 stopni
+11.10.2022   23:39   priv   727662119553728532   bot   Senko#3667   z
+11.10.2022   23:39   priv   727662119553728532   bot   Senko#3667   >fizyka
+11.10.2022   23:39   priv   727662119553728532   bot   -V1PE#3809   **optyka cz1**
+        **kąt padania**
+        to kąt między promieniem padającym a prostą prostopadłą do powierzchni odbijającej.
+         
+        Analogicznie: **kąt odbicia**:to kąt miendzy promieniem odbitym a prostą prostopadłą do powierzchni odbijającej.
+        
+        **kąt dobicia jest równy kątowi padania !!**
+
+        .
+zmiana kierunku rozchodzenia się fali podczas przejścia z jednego ośrodka do drugiego nazywa się **załamaniem fali**
+
+gdy fala przechodzi do ośrodka, w którym rozchodzi się wolniej, kąt załamania jest miejsy od kąta padania.
+
+przykładowe zadanie:
+ile wynosi kąt między kromieniem odbitym i powierzchnią odbijającą, jeżeli 3/4 konta między promieniem padającym i dobitym wynosi 60 stopni?
+
+odp 40 stopni (3/4 = 60, 1/4 = 20)
+ kąt = 80, kąt pomiędzy prostą a promieniem padającym = połowa konta = 40 stopni
+
+grafika:
+https://cdn.discordapp.com/attachments/1029492832672686150/1029493612523831316/IMG_20221011_223928.jpg
+12.10.2022   00:36   priv   727662119553728532   ogólny   PAW#5844   https://youtube.com/shorts/W-rvrPmmE38?feature=share
+12.10.2022   10:20   priv   727662119553728532   dc-bot   PAW#5844   Zrobić ten quiz z mehatroniki: $mechatronika <nr pytania>
