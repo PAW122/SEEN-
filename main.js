@@ -198,27 +198,6 @@ ruletka nie chce działać na serweże !! do naprawy
 
 
 
-
-
-
-
-
-//kopioa seen-
-//client.login('OTgwMjAzNzM0OTI5OTI4MjUy.GZ5xIp.fKALWn8VmwNuxM9ddr9EQc6Nt3_u03JXpEmoLM')
-
-//sprawdzanie nazwy kanału
-/*
-if(message.channel.name == "nazwa-kanału"){
-    //kod
-} else if (message.channel.name == "nazwa-2-kanału"){
-    //kod2
-}
-*/
-
-
-
-
-
 //komendy:(polskie nazwy)
 
 //$animelist
