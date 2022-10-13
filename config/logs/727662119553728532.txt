@@ -7460,3 +7460,6 @@ grafika:
 https://cdn.discordapp.com/attachments/1029492832672686150/1029493612523831316/IMG_20221011_223928.jpg
 12.10.2022   00:36   priv   727662119553728532   ogólny   PAW#5844   https://youtube.com/shorts/W-rvrPmmE38?feature=share
 12.10.2022   10:20   priv   727662119553728532   dc-bot   PAW#5844   Zrobić ten quiz z mehatroniki: $mechatronika <nr pytania>
+13.10.2022   00:20   priv   727662119553728532   bot   PAW#5844   >help
+13.10.2022   12:46   priv   727662119553728532   ogólny   PAW#5844   https://youtube.com/shorts/s3y2utgNQdA?feature=share
+13.10.2022   15:29   priv   727662119553728532   bot   PAW#5844   ping
