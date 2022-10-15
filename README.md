@@ -134,6 +134,7 @@ npm i js-queue
     150.do przetestowania reactions handler (trzego dodać wywlołanie handlera i przetestować na angry czy działa)
     151.settings deafult nie wymaga admina a ma wymgać
     152.dodać komendę (bot owner) dzięki której po id serwera i id roli bot dodaje sobie role
+    153.isalt logs: coś jak mod logs ale sprawdza czy user nie jest altem (admin ustawia ile dni ma mieć konto, jezeli jest młodsze niż x dni to :opcja1: wysyła loga na podany kanał, opcja2: kikuje urzytkownika, opcja3 banuje urzytkownika, jeżeli na serweże jest już przypisany kanał do logów dodaje opcje4: wiadomość na mod_logs kanał)
 
     dodać do tego top chanels(top kanał z wiadomościami, top kanał vc z ilością h)
 

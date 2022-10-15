@@ -1,4 +1,4 @@
-//rozpoczyna test
+//rozpoczyna mechatronic
 //json: nr pytania,treść pytanioa, a,b,c,d,
 //posiadane załączniki?(true/false), nazwa grafiki(1.jpg)
 //false -- koniec
@@ -12,22 +12,26 @@
 /*
 usunąć informacje o poprawnej lub błędnej odpowiedzy,
 każda błędna i poprawna odp będzie zapisywana w bazie danych
-po włączeniu testu db będzie dla danego urzytkownika
+po włączeniu mechatronicu db będzie dla danego urzytkownika
 zawsze resetowana od 0
 po tescie bot wyśle ile % dobrze, wyśle jakie odp były dobrze a jakie żle
+*/
+
+/*
+użycie (nowe)
+$mehatronika mechatronic: nrmechatronicu zad:nrazd
+$odp <nazwamechatronicu> <nrzad>
 */
 
 const { QuickDB } = require("quick.db")
 const data = require("./data.json")
 const Discord = require("discord.js")
-var question_number = 1
 //Egzamin styczeń 2019
 
 module.exports = {
-    name: "test",
+    name: "mechatronic",
 
     execute: async (message, args, client) => {
-        return //wyłączone dla testów
         process.setMaxListeners(100);
 
         //dodać do sutawnień serwerowych i dodać workera
@@ -37,115 +41,70 @@ module.exports = {
         const db = new QuickDB({ filePath: process.cwd() + `/db/mechatronika/${author}.sqlite` });
 
         if (args[0] == "help") {
-            return message.reply("Quiz\n**Kwalifikacja E18 Eksploatacja urządzeń i systemów mechatronicznych**")
+            const embed_pl = new Discord.MessageEmbed()
+                .setColor(`BLUE`)
+                .setTitle(`kfalifikacja zawodowa mechatronik E18`)
+                .addFields(
+                    {name: "zadanie:", value: "**$mechatronic <nr pytania>**\nprzykład **$mechatronic 1**"},
+                    {name: "sprawdzanie odpowiedzi", value: "**$mechatronic odp <nr_pytania>**\n przykład **$mechatronic odp 1**"}
+                )
+
+                .setFooter(message.author.tag, message.author.avatarURL({ dynamic: true }));
+            return message.channel.send({ embeds: [embed_pl] });
         }
 
-        const questions = 39 //(-1)
+        const records = data.records
 
-        //pentla z zadawanymi pytaniami
-        //losowanie pytania
-        var rng = Math.floor(Math.random() * questions) + 1;
-        //zaminić na po kolei!!
-
-        var rng = await db.get(`question_nr`)
-        if (rng == null) {
-
+        if (args[0] == "odp") {
+            return user_input()
         }
 
-        message.channel.send(`Pytanie Nr: ${user_question_nr}
-        \nPytanie: **${data[rng][0]}**
-            \nodp:${data[rng][1]}\n odp:${data[rng][2]}\n odp:${data[rng][3]}\n odp:${data[rng][4]}`);
 
-
+        const question_nr = args[0]
+        if (isNaN(question_nr) || question_nr < 1 || question_nr > records) {
+            return message.reply(`Wybierz nr pytania od 1 do ${records}`)
+        }
 
         //jeżeli posiada plik (1)
-        if (data[rng][6] == true) {
-            const filename = data[rng][7]
+        if (data[question_nr][6] == true) {
+            const filename = data[question_nr][7]
             const attachment = new Discord.MessageAttachment(`commands/komendy/mechatonika/files/${filename}`)
             const embed_pl = new Discord.MessageEmbed()
                 .setColor(`BLUE`)//PL
-                .setTitle(`You have 10s to type: **A**/**B**/**C**/**D**`)
+                .setTitle(`Pytanie: **${data[question_nr][0]}**`)
+                .setDescription(`${data[question_nr][1]}\n ${data[question_nr][2]}\n ${data[question_nr][3]}\n ${data[question_nr][4]} \n użyj:** $mechatronic odp ${question_nr}** aby sprawdzić poprawną odpowiedż`)
 
                 .setFooter(message.author.tag, message.author.avatarURL({ dynamic: true }));
             message.channel.send({ embeds: [embed_pl], files: [attachment] });
-        } else if (data[rng][6] == false) {
+        } else if (data[question_nr][6] == false) {
             const embed_pl = new Discord.MessageEmbed()
                 //nie posiada pliku
                 .setColor(`BLUE`)//PL
-                .setTitle(`You have 10s to type: **A**/**B**/**C**/**D**`)
+                .setTitle(`Pytanie: **${data[question_nr][0]}**`)
+                .setDescription(`${data[question_nr][1]}\n ${data[question_nr][2]}\n ${data[question_nr][3]}\n ${data[question_nr][4]}`)
 
                 .setFooter(message.author.tag, message.author.avatarURL({ dynamic: true }));
             message.channel.send({ embeds: [embed_pl] });
         }
 
-        //ilość wiadomości
-        var x = 1;
+        //------------------------------------------------------------------------------------------------------------------------------------------------
+        //sprawdzanie odpowiedzi
+        //------------------------------------------------------------------------------------------------------------------------------------------------
 
-        client.on('messageCreate', async message => {
-            var x = x + 1
-        });
-        await new Promise(r => setTimeout(r, 10000));
 
-        //pobierz odp
-        const good_anwser = data[rng][5]
-        message.channel.messages.fetch({ limit: x }).then(messages => {
-            let lastMessage = messages.first();
-
-            if (!lastMessage.author.bot) {
-                if (lastMessage.author.id == message.author.id && lastMessage.content == good_anwser) {
-                    const user_input = lastMessage.content
-                    right_anwser(user_input)
-                } else if (lastMessage.author.id == message.author.id && (lastMessage.content.toLowerCase() == "a" || lastMessage.content.toLowerCase() == "b" || lastMessage.content.toLowerCase() == "c" || lastMessage.content.toLowerCase() == "d")) {
-                    const user_input = lastMessage.content
-                    bad_anwser(user_input)
-                }
-            } else {
-                bad_anwser(user_input)
+        function user_input() {
+            const question_nr = args[1]
+            if (isNaN(question_nr) || question_nr < 1 || question_nr > records) {
+                return message.reply(`Wybierz nr putania od 0 do ${records}`)
             }
 
-        })
+            const embed_pl = new Discord.MessageEmbed()
+                .setColor(`BLUE`)
+                .setTitle(`Pytanie: **${data[question_nr][0]}**`)
+                .setDescription(`Poprawna odpowiedź to: **${data[question_nr][5]}**`)
 
-        async function right_anwser(user_input) {
-            safe_answers(question_number, true, user_input)
-            message.reply("dobrze")
-
-            if (question_number == 40) {
-                return end_test()
-            }
-
-            await db.set({ last_question: `${question_number}` })
-            //zapisz do db nr pytania i informacje poprawna odpowiedż
-
-        }
-        async function bad_anwser(user_input) {
-            safe_answers(question_number, false, user_input)
-            message.reply(`żle. poprawna odp to: ${good_anwser}`)
-            if (question_number == 40) {
-                return end_test()
-            }
-            //zapisz do db nr pytania i informacje niepoprawna odpowiedż
-        }
-
-        async function safe_answers(question_number, answer, user_input) {
-            if (answer == false) {
-                //zapisz nr pytania i oznacz jako błąd (oznacz co wybrał urzytkownik)
-                await db.set(`question_nr`, question_number)
-                await db.set("user_answer", user_input)
-                await db.set("is_corrext", false)
-                await db.set("check", true)
-
-            } else if (answer == true) {
-                //zapisz nr pytania i oznacz jako poprawnie (oznacz co wybrał urzytkownik)
-                await db.set("question_nr", question_number)
-                await db.set("user_answer", user_input)
-                await db.set("is_corrext", true)
-                await db.set("check", true)
-            }
-        }
-
-        async function end_test() {
-            //gdy urzytkownik odpowiedział już na wszytkie pytania
-            return message.channel.send("test end")
+                .setFooter(message.author.tag, message.author.avatarURL({ dynamic: true }));
+            message.channel.send({ embeds: [embed_pl] });
         }
 
     }
