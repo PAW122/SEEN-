@@ -19,7 +19,7 @@ module.exports = {
     servers_logs: "True",
 
     wargaming_api_key: "ebc751064d5418bfefad7af6819e9c19",
-    riot_api: "RGAPI-dd865e39-d1fa-4360-bf07-c4f5aaa00eac",
+    riot_api: "RGAPI-0fcf3318-d4f7-4f44-b06b-cc20fa574b0e",
     yt_api_key: "AIzaSyAuBIMudnt0-hHzBQGVjhs89G1Dz6P2aw4",
 
 
