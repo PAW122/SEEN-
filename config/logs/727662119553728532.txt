@@ -7524,3 +7524,276 @@ https://cdn.discordapp.com/attachments/1029492832672686150/1029493612523831316/I
 15.10.2022   02:25   priv   727662119553728532   bot   SEEN-#5771   I'm sure it's not alt
 15.10.2022   02:27   priv   727662119553728532   bot   PAW#5844   $help
 15.10.2022   02:27   priv   727662119553728532   bot   SEEN-#5771   
+16.10.2022   13:37   priv   727662119553728532   dc-bot   PAW#5844   Sev_ste jeżeli bot nie znajdzie kabału np do modlogs to ustawia w db jako false i nie prubuje już szukać kanału
+Tak samo dla welcome i tikarów
+16.10.2022   23:59   priv   727662119553728532   ogólny   PAW#5844   https://youtube.com/shorts/PBNjbsvYdZI?feature=share
+18.10.2022   00:42   priv   727662119553728532   dc-bot   Senko#3667   ogarnąć coś ala zdalny dostęp do konsol żeby resetować bota jak się zatnie/wywali
+18.10.2022   00:43   priv   727662119553728532   dc-bot   Senko#3667   dodać auto reset bota
+18.10.2022   00:43   priv   727662119553728532   dc-bot   Senko#3667   dodac komende do przeladowania bota
+18.10.2022   00:43   priv   727662119553728532   dc-bot   Senko#3667   dodać komende do restertu bota
+18.10.2022   00:43   priv   727662119553728532   dc-bot   Senko#3667   (coś ala skrypt króry otworzy nową konsole, odpali tam bota i zamknie starą
+18.10.2022   00:43   priv   727662119553728532   minc-serv-18   SEEN-#5771   
+18.10.2022   01:58   priv   727662119553728532   bot   PAW#5844   $help
+18.10.2022   01:58   priv   727662119553728532   bot   SEEN-#5771   
+18.10.2022   09:56   priv   727662119553728532   bot   PAW#5844   $ping
+18.10.2022   09:56   priv   727662119553728532   bot   SEEN-#5771   pong!
+18.10.2022   09:56   priv   727662119553728532   minc-serv-18   SEEN-#5771   
+18.10.2022   09:57   priv   727662119553728532   bot   PAW#5844   $mod_logs
+18.10.2022   09:58   priv   727662119553728532   bot   PAW#5844   $srv_log
+18.10.2022   09:58   priv   727662119553728532   bot   PAW#5844   $ping
+18.10.2022   09:58   priv   727662119553728532   bot   SEEN-#5771   pong!
+18.10.2022   09:58   priv   727662119553728532   bot   PAW#5844   $srv_logs
+18.10.2022   09:58   priv   727662119553728532   bot   SEEN-#5771   Bad logs type name
+18.10.2022   09:58   priv   727662119553728532   bot   PAW#5844   $srv_logs help
+18.10.2022   09:58   priv   727662119553728532   bot   SEEN-#5771   
+18.10.2022   17:24   priv   727662119553728532   ogólny   PAW#5844   GCC dziła
+https://sourceforge.net/projects/tdm-gcc/
+19.10.2022   08:04   priv   727662119553728532   bot   PAW#5844   >fizyka
+19.10.2022   08:04   priv   727662119553728532   bot   -V1PE#3809   **optyka cz1**
+        **kąt padania**
+        to kąt między promieniem padającym a prostą prostopadłą do powierzchni odbijającej.
+         
+        Analogicznie: **kąt odbicia**:to kąt miendzy promieniem odbitym a prostą prostopadłą do powierzchni odbijającej.
+        
+        **kąt dobicia jest równy kątowi padania !!**
+
+        .
+zmiana kierunku rozchodzenia się fali podczas przejścia z jednego ośrodka do drugiego nazywa się **załamaniem fali**
+
+gdy fala przechodzi do ośrodka, w którym rozchodzi się wolniej, kąt załamania jest miejsy od kąta padania.
+
+przykładowe zadanie:
+ile wynosi kąt między kromieniem odbitym i powierzchnią odbijającą, jeżeli 3/4 konta między promieniem padającym i dobitym wynosi 60 stopni?
+
+odp 40 stopni (3/4 = 60, 1/4 = 20)
+ kąt = 80, kąt pomiędzy prostą a promieniem padającym = połowa konta = 40 stopni
+
+grafika:
+https://cdn.discordapp.com/attachments/1029492832672686150/1029493612523831316/IMG_20221011_223928.jpg
+19.10.2022   08:21   priv   727662119553728532   dc-bot   PAW#5844   Dodać do wiadomości powitalnej bota informacje którym użytkownikiem jest osoba dołączjąca np member 120
+19.10.2022   08:24   priv   727662119553728532   dc-bot   PAW#5844   .
+
+Dodać ograniczenie ilości znaków w prefixuie,
+<@797070806885990431> prefix deafult -- ma resetować ustawienia
+19.10.2022   08:25   priv   727662119553728532   dc-bot   PAW#5844   .
+Ogólnie zrobić tak,że można zamiast prefixa pingować bita
+19.10.2022   08:25   priv   727662119553728532   minc-serv-18   SEEN-#5771   
+19.10.2022   08:30   priv   727662119553728532   dc-bot   PAW#5844   .
+Dodać komendę do usówania message_logs(przenosi plik do innej lokalizacji)jeżeli w tej innej lokalizacji jest już taki plik to dodaje w nazwie .2 np plik.2.txt
+(Zamiast 2 bierze ostatnią cyfre z nazwy pliku,dodaje 1 i zapisuje po .
+19.10.2022   10:23   priv   727662119553728532   bot   PAW#5844   $help
+19.10.2022   10:23   priv   727662119553728532   bot   SEEN-#5771   
+19.10.2022   10:24   priv   727662119553728532   bot   PAW#5844   $srv_set
+19.10.2022   10:24   priv   727662119553728532   bot   SEEN-#5771   
+19.10.2022   10:24   priv   727662119553728532   bot   PAW#5844   $srv_logs
+19.10.2022   10:24   priv   727662119553728532   bot   SEEN-#5771   Bad logs type name
+19.10.2022   10:24   priv   727662119553728532   bot   PAW#5844   $srv_logs help
+19.10.2022   10:24   priv   727662119553728532   bot   SEEN-#5771   
+19.10.2022   10:25   priv   727662119553728532   bot   PAW#5844   $srv_logs list
+19.10.2022   10:25   priv   727662119553728532   bot   SEEN-#5771   
+19.10.2022   10:25   priv   727662119553728532   bot   SEEN-#5771   
+19.10.2022   10:26   priv   727662119553728532   bot   PAW#5844   ¯\_(ツ)_/¯
+19.10.2022   10:26   priv   727662119553728532   bot   PAW#5844   $help
+19.10.2022   10:27   priv   727662119553728532   bot   SEEN-#5771   
+19.10.2022   10:27   priv   727662119553728532   bot   PAW#5844   $automod
+19.10.2022   10:27   priv   727662119553728532   bot   PAW#5844   $automod help
+19.10.2022   10:27   priv   727662119553728532   bot   SEEN-#5771   
+19.10.2022   10:34   priv   727662119553728532   dc-bot   PAW#5844   Do reakcji dodać cry
+19.10.2022   10:34   priv   727662119553728532   bot   PAW#5844   $scarry
+19.10.2022   10:34   priv   727662119553728532   bot   SEEN-#5771   <@438336824516149249> is been scarred
+19.10.2022   10:34   priv   727662119553728532   bot   SEEN-#5771   
+19.10.2022   10:36   priv   727662119553728532   bot   PAW#5844   $daily
+19.10.2022   10:36   priv   727662119553728532   bot   SEEN-#5771   You still need to use 7 to receive your weekly reward
+19.10.2022   10:36   priv   727662119553728532   bot   SEEN-#5771   You got 64 💵
+                you have a total of 1164100164 💵
+19.10.2022   10:36   priv   727662119553728532   bot   PAW#5844   $bank
+19.10.2022   10:36   priv   727662119553728532   bot   SEEN-#5771   
+19.10.2022   10:36   priv   727662119553728532   bot   PAW#5844   $economy deafult
+19.10.2022   10:36   priv   727662119553728532   bot   PAW#5844   $help
+19.10.2022   10:36   priv   727662119553728532   bot   SEEN-#5771   
+19.10.2022   10:36   priv   727662119553728532   bot   PAW#5844   $srv_set
+19.10.2022   10:36   priv   727662119553728532   bot   SEEN-#5771   
+19.10.2022   10:37   priv   727662119553728532   dc-bot   PAW#5844   .
+W helpie nie ma żadnej informacji jak przywrucić ekonomie do deafultowej
+19.10.2022   10:37   priv   727662119553728532   bot   PAW#5844   $help!
+19.10.2022   10:37   priv   727662119553728532   bot   SEEN-#5771   
+19.10.2022   10:37   priv   727662119553728532   bot   SEEN-#5771   
+19.10.2022   10:38   priv   727662119553728532   bot   PAW#5844   $helpeco
+19.10.2022   10:38   priv   727662119553728532   bot   SEEN-#5771   
+19.10.2022   10:38   priv   727662119553728532   bot   PAW#5844   $ecodeafult
+19.10.2022   10:38   priv   727662119553728532   bot   SEEN-#5771   The economy has been updated
+19.10.2022   10:38   priv   727662119553728532   bot   PAW#5844   $daily
+19.10.2022   10:38   priv   727662119553728532   minc-serv-18   SEEN-#5771   
+19.10.2022   10:38   priv   727662119553728532   bot   SEEN-#5771   Your profile has been created
+19.10.2022   10:38   priv   727662119553728532   bot   PAW#5844   $daily
+19.10.2022   10:38   priv   727662119553728532   bot   SEEN-#5771   You can receive weekly reward
+ use $weekly to claim your reward
+19.10.2022   10:38   priv   727662119553728532   bot   SEEN-#5771   You got 78 💵
+                you have a total of 1078 💵
+19.10.2022   10:38   priv   727662119553728532   bot   PAW#5844   $weekly
+19.10.2022   10:38   priv   727662119553728532   bot   SEEN-#5771   You recived 500 💵
+            You have a total of 1578 💵
+19.10.2022   10:38   priv   727662119553728532   bot   PAW#5844   $daily
+19.10.2022   10:38   priv   727662119553728532   bot   SEEN-#5771   Odebrałeś już dzisiejszą nagrode. Spróbuj ponownie jutro
+19.10.2022   10:38   priv   727662119553728532   bot   PAW#5844   $pvp <@438336824516149249> 100
+19.10.2022   10:38   priv   727662119553728532   bot   SEEN-#5771   you did not enter the number of coins
+19.10.2022   10:39   priv   727662119553728532   bot   PAW#5844   $pvp 100 <@438336824516149249>
+19.10.2022   10:39   priv   727662119553728532   bot   SEEN-#5771   you cant play with yourself
+19.10.2022   10:39   priv   727662119553728532   bot   PAW#5844   $pvp 100 <@797070806885990431>
+19.10.2022   10:39   priv   727662119553728532   bot   SEEN-#5771   your opponent has no profile in the economy system
+19.10.2022   10:41   priv   727662119553728532   dc-bot   PAW#5844   .
+$pvp 100 <@797070806885990431> 
+Wysyla informacje że wygrana z botem to szansa 1% i jeżeli ilość coinsów jest większa niż 1000 to user musi zaakceptować wiadomością, albo będzie tworzył sie profil bota albo te coinsy znikną
+19.10.2022   10:41   priv   727662119553728532   dc-bot   PAW#5844   .
+Dodac możliwość sorawdzania czyjegoś profilu w ekonomi
+19.10.2022   23:55   priv   727662119553728532   anime   PAW#5844   Hyouka 01 (Napisy PL)
+19.10.2022   23:55   priv   727662119553728532   anime   PAW#5844   https://www.cda.pl/video/36561370f
+20.10.2022   00:50   priv   727662119553728532   anime   PAW#5844   Odc 3
+21.10.2022   00:56   priv   727662119553728532   ogólny   PAW#5844   Gladia bots
+21.10.2022   01:07   priv   727662119553728532   anime   PAW#5844   Sakura quest do sprawdzenia
+21.10.2022   09:43   priv   727662119553728532   bot   Senko#3667   $help
+21.10.2022   09:43   priv   727662119553728532   bot   SEEN-#5771   
+21.10.2022   09:43   priv   727662119553728532   bot   Senko#3667   $srv_set list
+21.10.2022   09:43   priv   727662119553728532   bot   SEEN-#5771   
+21.10.2022   09:43   priv   727662119553728532   bot   SEEN-#5771   
+21.10.2022   09:44   priv   727662119553728532   bot   Senko#3667   $srv_set
+21.10.2022   09:44   priv   727662119553728532   bot   SEEN-#5771   
+21.10.2022   10:36   priv   727662119553728532   bot   Senko#3667   $help
+21.10.2022   10:36   priv   727662119553728532   bot   SEEN-#5771   
+21.10.2022   10:37   priv   727662119553728532   bot   Senko#3667   $mechatronic
+21.10.2022   10:37   priv   727662119553728532   bot   SEEN-#5771   Wybierz nr pytania od 1 do 40
+21.10.2022   10:37   priv   727662119553728532   bot   Senko#3667   $mechatronic 1
+21.10.2022   10:37   priv   727662119553728532   bot   SEEN-#5771   
+21.10.2022   10:37   priv   727662119553728532   bot   Senko#3667   $mechatronic odp 1
+21.10.2022   10:37   priv   727662119553728532   bot   SEEN-#5771   
+21.10.2022   10:43   priv   727662119553728532   bot   Senko#3667   $help
+21.10.2022   10:43   priv   727662119553728532   bot   SEEN-#5771   
+21.10.2022   10:44   priv   727662119553728532   bot   Senko#3667   $mechatronic 2
+21.10.2022   10:44   priv   727662119553728532   bot   SEEN-#5771   
+21.10.2022   10:44   priv   727662119553728532   bot   Senko#3667   $mechatronic odp 2b
+21.10.2022   10:44   priv   727662119553728532   bot   SEEN-#5771   Wybierz nr putania od 0 do 40
+21.10.2022   10:44   priv   727662119553728532   bot   Senko#3667   $mechatronic odp 2
+21.10.2022   10:44   priv   727662119553728532   bot   SEEN-#5771   
+21.10.2022   10:44   priv   727662119553728532   bot   Senko#3667   $mechatronic 3
+21.10.2022   10:44   priv   727662119553728532   bot   SEEN-#5771   
+21.10.2022   10:45   priv   727662119553728532   bot   Senko#3667   $mechatronic odp 3
+21.10.2022   10:45   priv   727662119553728532   bot   SEEN-#5771   
+21.10.2022   10:46   priv   727662119553728532   bot   Senko#3667   $mechatronic 4
+21.10.2022   10:46   priv   727662119553728532   bot   SEEN-#5771   
+21.10.2022   10:46   priv   727662119553728532   bot   Senko#3667   $mechatronic odp 4
+21.10.2022   10:46   priv   727662119553728532   bot   SEEN-#5771   
+21.10.2022   10:46   priv   727662119553728532   bot   Senko#3667   $flags
+21.10.2022   10:46   priv   727662119553728532   bot   SEEN-#5771   A: Ecuador
+B:Guyana
+C:Singapore
+D:San Marino
+21.10.2022   10:46   priv   727662119553728532   bot   SEEN-#5771   
+21.10.2022   10:47   priv   727662119553728532   bot   Senko#3667   a
+21.10.2022   10:47   priv   727662119553728532   bot   SEEN-#5771   Bad answer. Correct answer is: **A**
+21.10.2022   10:47   priv   727662119553728532   bot   Senko#3667   $flags
+21.10.2022   10:47   priv   727662119553728532   bot   SEEN-#5771   A: Dominican Republic
+B:Lesotho
+C:Dominican Republic
+D:Democratic Republic of the Congo
+21.10.2022   10:47   priv   727662119553728532   bot   SEEN-#5771   
+21.10.2022   10:47   priv   727662119553728532   bot   Senko#3667   B
+21.10.2022   10:47   priv   727662119553728532   bot   SEEN-#5771   Time out. Correct answer is: **B**
+21.10.2022   10:47   priv   727662119553728532   bot   SEEN-#5771   <@778643150981562368> get new best combo: **0**
+21.10.2022   10:47   priv   727662119553728532   bot   Senko#3667   $flags
+21.10.2022   10:47   priv   727662119553728532   bot   SEEN-#5771   A: Colombia
+B:United States of America
+C:Romania
+D:Iraq
+21.10.2022   10:47   priv   727662119553728532   bot   SEEN-#5771   
+21.10.2022   10:47   priv   727662119553728532   bot   Senko#3667   B
+21.10.2022   10:47   priv   727662119553728532   bot   SEEN-#5771   Good anwser
+21.10.2022   10:47   priv   727662119553728532   bot   SEEN-#5771   <@778643150981562368> get new best combo: **1**
+21.10.2022   10:47   priv   727662119553728532   bot   Senko#3667   $flags
+21.10.2022   10:47   priv   727662119553728532   bot   SEEN-#5771   A: Australia
+B:Sri Lanka
+C:Albania
+D:Uganda
+21.10.2022   10:47   priv   727662119553728532   bot   SEEN-#5771   
+21.10.2022   10:47   priv   727662119553728532   bot   Senko#3667   A
+21.10.2022   10:48   priv   727662119553728532   bot   SEEN-#5771   Good anwser
+21.10.2022   10:48   priv   727662119553728532   bot   SEEN-#5771   <@778643150981562368> get new best combo: **2**
+21.10.2022   10:48   priv   727662119553728532   bot   Senko#3667   $flags
+21.10.2022   10:48   priv   727662119553728532   bot   SEEN-#5771   A: Slovakia
+B:San Marino
+C:Mauritania
+D:Marshall Islands
+21.10.2022   10:48   priv   727662119553728532   bot   SEEN-#5771   
+21.10.2022   10:48   priv   727662119553728532   bot   Senko#3667   B
+21.10.2022   10:48   priv   727662119553728532   bot   SEEN-#5771   Good anwser
+21.10.2022   10:48   priv   727662119553728532   bot   SEEN-#5771   <@778643150981562368> get new best combo: **3**
+21.10.2022   10:48   priv   727662119553728532   bot   Senko#3667   $flags
+21.10.2022   10:48   priv   727662119553728532   bot   SEEN-#5771   A: Kuwait
+B:Cameroon
+C:Ireland
+D:Chile
+21.10.2022   10:48   priv   727662119553728532   bot   SEEN-#5771   
+21.10.2022   10:48   priv   727662119553728532   bot   Senko#3667   A
+21.10.2022   10:48   priv   727662119553728532   bot   SEEN-#5771   Good anwser
+21.10.2022   10:48   priv   727662119553728532   bot   SEEN-#5771   <@778643150981562368> get new best combo: **4**
+21.10.2022   10:48   priv   727662119553728532   bot   Senko#3667   $flags
+21.10.2022   10:48   priv   727662119553728532   bot   SEEN-#5771   A: Chad
+B:Bhutan
+C:Portugal
+D:Philippines
+21.10.2022   10:48   priv   727662119553728532   bot   SEEN-#5771   
+21.10.2022   10:48   priv   727662119553728532   bot   Senko#3667   C
+21.10.2022   10:48   priv   727662119553728532   bot   SEEN-#5771   Good anwser
+21.10.2022   10:48   priv   727662119553728532   bot   SEEN-#5771   <@778643150981562368> get new best combo: **5**
+21.10.2022   10:48   priv   727662119553728532   bot   Senko#3667   $flags
+21.10.2022   10:48   priv   727662119553728532   bot   SEEN-#5771   A: Tunisia
+B:Saint Vincent and the Grenadines
+C:Zambia
+D:Chile
+21.10.2022   10:48   priv   727662119553728532   bot   SEEN-#5771   
+21.10.2022   10:48   priv   727662119553728532   bot   Senko#3667   A
+21.10.2022   10:48   priv   727662119553728532   bot   SEEN-#5771   Good anwser
+21.10.2022   10:48   priv   727662119553728532   bot   SEEN-#5771   <@778643150981562368> get new best combo: **6**
+21.10.2022   10:48   priv   727662119553728532   bot   Senko#3667   $flags
+21.10.2022   10:48   priv   727662119553728532   bot   SEEN-#5771   A: Malaysia
+B:Germany
+C:Belgium
+D:Brazil
+21.10.2022   10:48   priv   727662119553728532   bot   SEEN-#5771   
+21.10.2022   10:49   priv   727662119553728532   bot   Senko#3667   C
+21.10.2022   10:49   priv   727662119553728532   bot   SEEN-#5771   Good anwser
+21.10.2022   10:49   priv   727662119553728532   bot   SEEN-#5771   <@778643150981562368> get new best combo: **7**
+21.10.2022   10:49   priv   727662119553728532   bot   Senko#3667   $flags
+21.10.2022   10:49   priv   727662119553728532   bot   SEEN-#5771   A: Tuvalu
+B:Liechtenstein
+C:Guatemala
+D:Eritrea
+21.10.2022   10:49   priv   727662119553728532   minc-serv-18   SEEN-#5771   
+21.10.2022   10:49   priv   727662119553728532   bot   SEEN-#5771   
+21.10.2022   10:49   priv   727662119553728532   bot   Senko#3667   C
+21.10.2022   10:49   priv   727662119553728532   bot   SEEN-#5771   Good anwser
+21.10.2022   10:49   priv   727662119553728532   bot   SEEN-#5771   <@778643150981562368> get new best combo: **8**
+21.10.2022   10:49   priv   727662119553728532   bot   Senko#3667   $flags
+21.10.2022   10:49   priv   727662119553728532   bot   SEEN-#5771   A: Tuvalu
+B:North Macedonia
+C:Angola
+D:Egypt
+21.10.2022   10:49   priv   727662119553728532   bot   SEEN-#5771   
+21.10.2022   10:49   priv   727662119553728532   bot   Senko#3667   B
+21.10.2022   10:49   priv   727662119553728532   bot   SEEN-#5771   Good anwser
+21.10.2022   10:49   priv   727662119553728532   bot   SEEN-#5771   <@778643150981562368> get new best combo: **9**
+21.10.2022   10:49   priv   727662119553728532   bot   Senko#3667   $flags
+21.10.2022   10:49   priv   727662119553728532   bot   SEEN-#5771   A: Benin
+B:Kiribati
+C:Finland
+D:Rwanda
+21.10.2022   10:49   priv   727662119553728532   bot   SEEN-#5771   
+21.10.2022   10:49   priv   727662119553728532   bot   Senko#3667   D
+21.10.2022   10:49   priv   727662119553728532   bot   SEEN-#5771   Bad answer. Correct answer is: **A**
+21.10.2022   10:49   priv   727662119553728532   bot   SEEN-#5771   <@778643150981562368> best combo is: **9**
+21.10.2022   11:47   priv   727662119553728532   ogólny   PAW#5844   Przjeściówke hdmi
+21.10.2022   20:01   priv   727662119553728532   bot   PAW#5844   $ping
+21.10.2022   20:01   priv   727662119553728532   bot   SEEN-#5771   pong!
+22.10.2022   13:47   priv   727662119553728532   bot   PAW#5844   $ping
+22.10.2022   13:47   priv   727662119553728532   bot   SEEN-#5771   pong!
+22.10.2022   15:38   priv   727662119553728532   bot   PAW#5844   $ping
+22.10.2022   15:38   priv   727662119553728532   bot   SEEN-#5771   pong!
