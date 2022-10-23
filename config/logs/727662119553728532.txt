@@ -7801,3 +7801,39 @@ D:Rwanda
 23.10.2022   17:39   priv   727662119553728532   bot   PAW#5844   $ping
 23.10.2022   17:39   priv   727662119553728532   bot   SEEN-#5771   pong!
 23.10.2022   17:39   priv   727662119553728532   bot   SEEN-#5771   pong!
+23.10.2022   17:54   priv   727662119553728532   minc-serv-18   PAW#5844   cos
+23.10.2022   17:54   priv   727662119553728532   minc-serv-18   SEEN-#5771   
+23.10.2022   17:54   priv   727662119553728532   minc-serv-18   PAW#5844   $srv_set
+23.10.2022   17:54   priv   727662119553728532   minc-serv-18   SEEN-#5771   
+23.10.2022   17:54   priv   727662119553728532   minc-serv-18   PAW#5844   $help
+23.10.2022   17:54   priv   727662119553728532   minc-serv-18   SEEN-#5771   
+23.10.2022   17:54   priv   727662119553728532   minc-serv-18   PAW#5844   $srv_logs
+23.10.2022   17:54   priv   727662119553728532   minc-serv-18   SEEN-#5771   Bad logs type name
+23.10.2022   17:54   priv   727662119553728532   minc-serv-18   PAW#5844   $srv_logs help
+23.10.2022   17:54   priv   727662119553728532   minc-serv-18   SEEN-#5771   
+23.10.2022   17:54   priv   727662119553728532   minc-serv-18   PAW#5844   $srv_logs start 923300408372396030
+23.10.2022   17:54   priv   727662119553728532   minc-serv-18   SEEN-#5771   set
+23.10.2022   17:55   priv   727662119553728532   minc-serv-18   SEEN-#5771   You arledy have settings profil. Only channel Id be updated
+23.10.2022   17:55   priv   727662119553728532   minc-serv-18   PAW#5844   cos
+23.10.2022   17:58   priv   727662119553728532   minc-serv-18   PAW#5844   $srv_logs start 923300408372396030
+23.10.2022   18:00   priv   727662119553728532   minc-serv-18   PAW#5844   $srv_logs start 923300408372396030
+23.10.2022   18:01   priv   727662119553728532   minc-serv-18   PAW#5844   $srv_logs start 923300408372396030
+23.10.2022   18:01   priv   727662119553728532   minc-serv-18   SEEN-#5771   Wrong channel id
+23.10.2022   18:01   priv   727662119553728532   minc-serv-18   PAW#5844   $srv_logs start 923300408372396032
+23.10.2022   18:01   priv   727662119553728532   minc-serv-18   SEEN-#5771   set
+23.10.2022   18:01   priv   727662119553728532   minc-serv-18   SEEN-#5771   You arledy have settings profil. Only channel Id be updated
+23.10.2022   18:03   priv   727662119553728532   minc-serv-18   PAW#5844   $srv_logs start 923300408372396030
+23.10.2022   18:03   priv   727662119553728532   minc-serv-18   SEEN-#5771   set
+23.10.2022   18:03   priv   727662119553728532   minc-serv-18   SEEN-#5771   You arledy have settings profil. Only channel Id be updated
+23.10.2022   18:03   priv   727662119553728532   minc-serv-18   SEEN-#5771   Wrong channel id
+23.10.2022   18:04   priv   727662119553728532   minc-serv-18   PAW#5844   $srv_logs start 923300408372396030
+23.10.2022   18:04   priv   727662119553728532   minc-serv-18   SEEN-#5771   Wrong channel id
+23.10.2022   18:04   priv   727662119553728532   minc-serv-18   SEEN-#5771   set
+23.10.2022   18:04   priv   727662119553728532   minc-serv-18   SEEN-#5771   You arledy have settings profil. Only channel Id be updated
+23.10.2022   18:04   priv   727662119553728532   minc-serv-18   PAW#5844   $help
+23.10.2022   18:04   priv   727662119553728532   minc-serv-18   SEEN-#5771   
+23.10.2022   18:04   priv   727662119553728532   minc-serv-18   PAW#5844   $srv_logs help
+23.10.2022   18:04   priv   727662119553728532   minc-serv-18   SEEN-#5771   
+23.10.2022   18:04   priv   727662119553728532   minc-serv-18   SEEN-#5771   
+23.10.2022   18:05   priv   727662119553728532   minc-serv-18   PAW#5844   $srv_set help
+23.10.2022   18:05   priv   727662119553728532   minc-serv-18   SEEN-#5771   

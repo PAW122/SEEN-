@@ -30,6 +30,7 @@ module.exports = {
     name: "srv_logs",
 
     execute: async (message, args, client) => {
+        
 
         const guildId = message.guild.id
         const db = new QuickDB({ filePath: process.cwd() + `/db/srv_logs/${guildId}.sqlite` });
@@ -68,6 +69,16 @@ module.exports = {
                 return message.reply("you type bad channel Id")
             }
             var channelId = args[1]
+            try{
+            let channel = await client.channels.fetch(channelId)
+            }catch(err){
+                if(err == "DiscordAPIError: Unknown Channel"){
+                    return message.reply("Wrong channel id")
+                }else{
+                    return console.log(err)
+                }
+            }
+
             saveData_start()
 
             return message.reply("set")

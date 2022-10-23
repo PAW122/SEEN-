@@ -7,14 +7,14 @@ const prefix = config.prefix
 const owner_id = config.owner_id
 module.exports = {
   name: "settings",
-  
+
   execute: async (message, args, client) => {
     console.log("test1")
     const guildId = message.guild.id
     const db = new QuickDB({ filePath: process.cwd() + `/db/srv_settings/commands/${guildId}.sqlite` });
 
     if (!message.member.permissions.has("ADMINISTRATOR")) {
-      if(message.author.id != owner_id){
+      if (message.author.id != owner_id) {
         return message.channel.send("You don't have admin authorization")
       }
     }
@@ -26,7 +26,7 @@ module.exports = {
     }
 
     if (args[0] == "deafult") {
-      setting_handler(message,client)
+      setting_handler(message, client)
       await new Promise(r => setTimeout(r, 2000));
       return message.reply("deafult settings have been restored")
     }
@@ -39,7 +39,7 @@ module.exports = {
 
     if (await db.get(`check.check`) == true) {
       //dodać message logs
-      console.log("test2")
+      //console.log("test2")
       if (!args[1]) {
         return message.reply("you didn't enter an argument")
       }
@@ -47,9 +47,9 @@ module.exports = {
       if (args[0] == "prefix") {
         await db.set(`prefix.check`, args[1])
         const guild_id = message.guild.id
-        try{
-        updateNickname(guild_id, args[1])
-        }catch(err){
+        try {
+          updateNickname(guild_id, args[1])
+        } catch (err) {
           console.log(err)
         }
         return message.reply("set")
@@ -59,18 +59,26 @@ module.exports = {
         if (!args[1]) {
           return message.reply("you didn't enter an argument\n $srv_set to get help commands \n $srv_set list -- to get commands status")
         }
-        console.log(args)
+        try {
+          let channel = await client.channels.fetch(args[1])
+        } catch (err) {
+          if (err == "DiscordAPIError: Unknown Channel") {
+            return message.reply("Wrong channel id")
+          } else {
+            return console.log(err)
+          }
+        }
         await db.set(`welcome.channelId`, args[1])
         return message.reply("set")
 
       }
 
       if (args[0] == "welcome_msg_content") {
-        if(args[1] == "off"){
+        if (args[1] == "off") {
           await db.set(`welocme_content_check`, false)
           return message.reply("set")
         }
-        if(args[1] == "on"){
+        if (args[1] == "on") {
           await db.set(`welocme_content_check`, true)
           return message.reply("set")
         }
@@ -91,8 +99,26 @@ module.exports = {
         if (isNaN(args[1])) {
           return message.reply("wrong channel id")
         }
+        try {
+          let channel = await client.channels.fetch(args[1])
+        } catch (err) {
+          if (err == "DiscordAPIError: Unknown Channel") {
+            return message.reply("Wrong channel id")
+          } else {
+            return console.log(err)
+          }
+        }
         if (isNaN(args[2])) {
           return message.reply("wrong channel id")
+        }
+        try {
+          let channel = await client.channels.fetch(args[2])
+        } catch (err) {
+          if (err == "DiscordAPIError: Unknown Channel") {
+            return message.reply("Wrong channel id")
+          } else {
+            return console.log(err)
+          }
         }
         //await db.set(`tickets`, { settings: ["null", "null"] })
         await db.set(`tickets.settings`, [args[1], args[2]])
@@ -100,28 +126,37 @@ module.exports = {
         return message.reply("set")
       }
 
-      if(args[0] == "lvls_channel"){
-        if(!args[1]) {
+      if (args[0] == "lvls_channel") {
+        if (!args[1]) {
           return message.reply("you need type channel id\n example: $settings lvls_channel 16248716422")
         }
-        if(isNaN(args[1])){
-         return message.reply("Wrong channel ID")
+        if (isNaN(args[1])) {
+          return message.reply("Wrong channel ID")
+        }
+        try {
+          let channel = await client.channels.fetch(args[1])
+        } catch (err) {
+          if (err == "DiscordAPIError: Unknown Channel") {
+            return message.reply("Wrong channel id")
+          } else {
+            return console.log(err)
+          }
         }
         await db.set(`lvls_channel.channelId`, args[1])
         return message.reply("set")
       }
-/*
-      if(args[0] == "mod_logs"){
-        if(!args[1]) {
-          return message.reply("you need type channel id\n example: $settings mod_logs 16248716422")
-        }
-        if(isNaN(args[1])){
-         return message.reply("Wrong channel ID")
-        }
-        await db.set(`mod_logs.channelId`, args[1])
-        return message.reply("set")
-      }
-      */
+      /*
+            if(args[0] == "mod_logs"){
+              if(!args[1]) {
+                return message.reply("you need type channel id\n example: $settings mod_logs 16248716422")
+              }
+              if(isNaN(args[1])){
+               return message.reply("Wrong channel ID")
+              }
+              await db.set(`mod_logs.channelId`, args[1])
+              return message.reply("set")
+            }
+            */
 
       if (await db.get(`check.check`) == true) {
 
@@ -471,7 +506,7 @@ module.exports = {
 
 
 
-    }else{
+    } else {
       return message.reply("use **$settins deafult** to create server settings profil")
     }
   }
