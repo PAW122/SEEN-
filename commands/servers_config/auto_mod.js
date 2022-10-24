@@ -71,13 +71,13 @@ module.exports = {
 
                 if (args[1] == "$help") return message.reply("U cant do that")
                 if (args[1] == "$replrt") return message.reply("U cant do that")
-
+console.log(args[1])
                 await db_words.push(`${guildId}.worldlist`, args[1])
                 return message.reply(`Word '${args[1]}' is added to baned words`)
             }
 
             if (args[0] == "worddelall") {
-                await db_words.del(`${guildId}.worldlist`)
+                await db_words.delete(`${guildId}.worldlist`)
                 await db.set(`${guildId}.check`, false)
                 return message.reply(`Word list is deleted`)
             }
@@ -86,6 +86,16 @@ module.exports = {
 
                 if (!args[1] || isNaN(args[1])) return message.reply(`You dont type channel id **$automod channel <channelID>**`)
                 const channelId = args[1]
+
+                try {
+                    let channel = await client.channels.fetch(channelId)
+                } catch (err) {
+                    if (err == "DiscordAPIError: Unknown Channel") {
+                        return message.reply("Wrong channel id")
+                    } else {
+                        return console.log(err)
+                    }
+                }
 
                 await db.set(`${guildId}.channel`, channelId)
                 await db.set(`${guildId}.channelcheck`, true)

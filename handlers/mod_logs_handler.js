@@ -186,10 +186,13 @@ module.exports = (client) => {
                 .setTitle('User Lost Role!')
                 .setColor('#2F3136')
                 .setDescription(`**${member.user.tag}** lost the role \`${role.name}\``);
-
+try{
             return LogChannel.send({
                 embeds: [MemberRoleRemove]
             });
+        }catch(err){
+            console.log(err)
+        }
         }
         main()
 

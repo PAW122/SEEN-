@@ -4,7 +4,7 @@ const { Permissions: { FLAGS } } = require('discord.js');
 
 module.exports = (client, message) => {
     async function main() {
-        if(message.author.bot) return;
+        if (message.author.bot) return;
 
         const guildId = message.guild.id
 
@@ -16,16 +16,15 @@ module.exports = (client, message) => {
         if (await db.get(`${guildId}.check`) != true) return;
         const status = await db.get(`${guildId}.status`)
 
-        if (status == false) return;
+        if (status != true) return;
 
         //nie usówaj słów wysłanych przez administracje
-        if (message.member.permissions.has(FLAGS.ADMINISTRATOR )) {
+        if (message.member.permissions.has(FLAGS.ADMINISTRATOR)) {
             return
-        } 
+        }
 
         //lista banowanych słów
         var banned_words = await db_words.get(`${guildId}.worldlist`)
-
         args.forEach(element => {
             banned_words.forEach(word => {
                 if (word == element) {

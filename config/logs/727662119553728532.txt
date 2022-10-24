@@ -7837,3 +7837,99 @@ D:Rwanda
 23.10.2022   18:04   priv   727662119553728532   minc-serv-18   SEEN-#5771   
 23.10.2022   18:05   priv   727662119553728532   minc-serv-18   PAW#5844   $srv_set help
 23.10.2022   18:05   priv   727662119553728532   minc-serv-18   SEEN-#5771   
+23.10.2022   18:11   priv   727662119553728532   minc-serv-18   PAW#5844   $automod
+23.10.2022   18:11   priv   727662119553728532   minc-serv-18   PAW#5844   $automod help
+23.10.2022   18:11   priv   727662119553728532   minc-serv-18   SEEN-#5771   
+23.10.2022   18:12   priv   727662119553728532   minc-serv-18   PAW#5844   $automod list
+23.10.2022   18:12   priv   727662119553728532   minc-serv-18   SEEN-#5771   
+23.10.2022   18:13   priv   727662119553728532   minc-serv-18   PAW#5844   $automod del cos
+23.10.2022   18:13   priv   727662119553728532   minc-serv-18   PAW#5844   $automod word cos
+23.10.2022   18:13   priv   727662119553728532   minc-serv-18   SEEN-#5771   Word 'cos' is added to baned words
+23.10.2022   18:13   priv   727662119553728532   minc-serv-18   PAW#5844   cos
+23.10.2022   18:13   priv   727662119553728532   minc-serv-18   PAW#5844   cos
+23.10.2022   18:13   priv   727662119553728532   minc-serv-18   PAW#5844   cos
+23.10.2022   18:13   priv   727662119553728532   minc-serv-18   PAW#5844   $automod on
+23.10.2022   18:13   priv   727662119553728532   minc-serv-18   SEEN-#5771   Auto mod ON
+23.10.2022   18:13   priv   727662119553728532   minc-serv-18   PAW#5844   cos
+23.10.2022   18:13   priv   727662119553728532   minc-serv-18   PAW#5844   cos
+23.10.2022   18:13   priv   727662119553728532   minc-serv-18   PAW#5844   cos
+23.10.2022   18:13   priv   727662119553728532   minc-serv-18   PAW#5844   $automod channel 923300408372396032
+23.10.2022   18:13   priv   727662119553728532   minc-serv-18   SEEN-#5771   set
+23.10.2022   18:13   priv   727662119553728532   minc-serv-18   PAW#5844   cops
+23.10.2022   18:13   priv   727662119553728532   minc-serv-18   PAW#5844   cos
+23.10.2022   18:14   priv   727662119553728532   minc-serv-18   PAW#5844   $automod list
+23.10.2022   18:14   priv   727662119553728532   minc-serv-18   SEEN-#5771   
+23.10.2022   18:15   priv   727662119553728532   minc-serv-18   PAW#5844   $automod word test
+23.10.2022   18:15   priv   727662119553728532   minc-serv-18   SEEN-#5771   Word 'test' is added to baned words
+23.10.2022   18:15   priv   727662119553728532   minc-serv-18   PAW#5844   test
+23.10.2022   18:15   priv   727662119553728532   minc-serv-18   PAW#5844   $automod list
+23.10.2022   18:15   priv   727662119553728532   minc-serv-18   SEEN-#5771   
+23.10.2022   18:15   priv   727662119553728532   minc-serv-18   PAW#5844   ,cos
+23.10.2022   18:15   priv   727662119553728532   minc-serv-18   PAW#5844   ,cos,test
+23.10.2022   18:18   priv   727662119553728532   bot   PAW#5844   $automod worddelall
+23.10.2022   18:18   priv   727662119553728532   bot   SEEN-#5771   Word list is deleted
+23.10.2022   18:18   priv   727662119553728532   bot   PAW#5844   $automod help
+23.10.2022   18:18   priv   727662119553728532   bot   SEEN-#5771   
+23.10.2022   18:19   priv   727662119553728532   bot   PAW#5844   $automod on
+23.10.2022   18:19   priv   727662119553728532   bot   SEEN-#5771   Your server profil is created
+23.10.2022   18:19   priv   727662119553728532   bot   PAW#5844   $automod word siema
+23.10.2022   18:19   priv   727662119553728532   bot   SEEN-#5771   Word 'siema' is added to baned words
+23.10.2022   18:19   priv   727662119553728532   bot   PAW#5844   siema
+23.10.2022   18:19   priv   727662119553728532   bot   SEEN-#5771   cześć
+23.10.2022   18:19   priv   727662119553728532   bot   Senko#3667   siema
+23.10.2022   18:19   priv   727662119553728532   bot   SEEN-#5771   cześć
+23.10.2022   18:21   priv   727662119553728532   bot   Senko#3667   siema
+23.10.2022   18:21   priv   727662119553728532   bot   SEEN-#5771   siema
+23.10.2022   18:21   priv   727662119553728532   bot   PAW#5844   $automod word huj
+23.10.2022   18:21   priv   727662119553728532   bot   SEEN-#5771   Word 'huj' is added to baned words
+23.10.2022   18:22   priv   727662119553728532   bot   Senko#3667   huj
+23.10.2022   18:24   priv   727662119553728532   bot   Senko#3667   huj
+23.10.2022   18:25   priv   727662119553728532   bot   Senko#3667   huj
+23.10.2022   18:30   priv   727662119553728532   bot   PAW#5844   $automod on
+23.10.2022   18:30   priv   727662119553728532   bot   SEEN-#5771   Auto mod ON
+23.10.2022   18:30   priv   727662119553728532   bot   Senko#3667   huj
+23.10.2022   18:30   priv   727662119553728532   minc-serv-18   SEEN-#5771   Automod delete message: __'huj'__
+ Message is send by <@778643150981562368>
+23.10.2022   18:31   priv   727662119553728532   bot   PAW#5844   $help
+23.10.2022   18:31   priv   727662119553728532   bot   SEEN-#5771   
+23.10.2022   18:32   priv   727662119553728532   bot   PAW#5844   $srv_logs
+23.10.2022   18:32   priv   727662119553728532   bot   SEEN-#5771   Bad logs type name
+23.10.2022   18:32   priv   727662119553728532   bot   PAW#5844   $srv_logs help
+23.10.2022   18:32   priv   727662119553728532   bot   SEEN-#5771   
+23.10.2022   18:32   priv   727662119553728532   bot   PAW#5844   $srv_logs start 923300408372396032
+23.10.2022   18:32   priv   727662119553728532   bot   SEEN-#5771   set
+23.10.2022   18:32   priv   727662119553728532   minc-serv-18   SEEN-#5771   
+23.10.2022   18:32   priv   727662119553728532   bot   SEEN-#5771   You arledy have settings profil. Only channel Id be updated
+23.10.2022   18:32   priv   727662119553728532   bot   Senko#3667   huj
+23.10.2022   18:32   priv   727662119553728532   minc-serv-18   SEEN-#5771   Automod delete message: __'huj'__
+ Message is send by <@778643150981562368>
+23.10.2022   18:32   priv   727662119553728532   minc-serv-18   SEEN-#5771   
+23.10.2022   18:34   priv   727662119553728532   bot   PAW#5844   $help
+23.10.2022   18:34   priv   727662119553728532   bot   SEEN-#5771   
+23.10.2022   18:35   priv   727662119553728532   bot   PAW#5844   $animegif
+23.10.2022   18:35   priv   727662119553728532   bot   SEEN-#5771   podaj rodzaj gifa:
+
+        1.hug
+        2.kiss
+        3.slap
+        4.punch
+        5.wink
+        6.pat
+        7.kill
+        8.cuddle
+        9.waifu
+        !!NSFW!!:
+
+        1.hentai
+        2.boobs
+        3.lesbian
+23.10.2022   18:35   priv   727662119553728532   minc-serv-18   SEEN-#5771   
+23.10.2022   18:35   priv   727662119553728532   minc-serv-18   SEEN-#5771   
+23.10.2022   18:35   priv   727662119553728532   bot   PAW#5844   $autorole
+23.10.2022   18:35   priv   727662119553728532   bot   SEEN-#5771   command is disable: command is being created
+23.10.2022   18:36   priv   727662119553728532   bot   PAW#5844   $isalt <@778643150981562368>
+23.10.2022   18:36   priv   727662119553728532   bot   SEEN-#5771   This user is not on record as his account is more than 7 days old
+23.10.2022   18:36   priv   727662119553728532   minc-serv-18   SEEN-#5771   
+23.10.2022   18:36   priv   727662119553728532   minc-serv-18   SEEN-#5771   
+23.10.2022   20:39   priv   727662119553728532   anime   PAW#5844   Kage No Jitsuryokusha Ni Naritakute! 03 PL
+23.10.2022   22:52   priv   727662119553728532   bot   PAW#5844   test
