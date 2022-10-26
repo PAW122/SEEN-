@@ -140,6 +140,7 @@ npm i js-queue
     153.isalt logs: coś jak mod logs ale sprawdza czy user nie jest altem (admin ustawia ile dni ma mieć konto, jezeli jest młodsze niż x dni to :opcja1: wysyła loga na podany kanał, opcja2: kikuje urzytkownika, opcja3 banuje urzytkownika, jeżeli na serweże jest już przypisany kanał do logów dodaje opcje4: wiadomość na mod_logs kanał)
     154.dodać opcje pingowania bota zamiast używania prefixu: jeżeli user zapinguje bota i nic nie napisze dostaje helpa, a jeżeli zapinguje bota i coś napisze to bot prubuje wywołać zwykłą komendę, jeżeli nie znajdzie danej komendy to wysyła wiadomość try use @seen help
     155.przy spaowaniu żeby clearować 100 wiadomości da się wywalić bota jeżeli na kanale jest tylko kilka wiadomości !! bot musi sprawdzać ile wiadomości jest na kanale i tyle usówać + trzeba dodać cooldowa cleara
+    156.zrobić w shelu albo exe automotycze pobieranie paczek, to samo ale dodać odpalanie bota w exe (bat to exe)
 
     dodać do tego top chanels(top kanał z wiadomościami, top kanał vc z ilością h)
 
