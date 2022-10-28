@@ -1,38 +1,58 @@
-<html>
-    <head>
-        <title>Webside Power by SEEN-</title>
-        <link rel="stylesheet" href="styl.css">
-    </head>
+<!DOCTYPE html>
+<html lang="en">
 
-    <body>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SEEN panel</title>
+    <link rel="stylesheet" href="styles.css">
 
-        <div class="main">
-            <nav>
-                <div class="logo">
-                    <img src="images/logo.webp">
-                </div>
-                <div class="nav-links">
-                    <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Informations</a></li>
-                        <li><a href="#">Commands</a></li>
-                        <li><a href="#">Help</a></li>
-                    </ul>
-                </div>
-                
-            </nav>
+</head>
 
-            <div class="information">
-                <div id="circle">
-                    <div class="feature"></div>
-                    <div class="feature"></div>
-                    <div class="feature"></div>
-                    <div class="feature"></div>
-                </div>
+<body>
+    <nav class="navbar">
+        <div class="navbar__container">
+            <a href="/" id="navbar__logo">NEXT</a>
+            <div class="navbar__toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
             </div>
-
-
+            <ul class="navbar__menu">
+                <li class="navbar__item">
+                    <a href="/" class="navbar__links">Home</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="/tech.html" class="navbar__links">Tech</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="/" class="navbar__links">Products</a>
+                </li>
+                <li class="navbar__btn">
+                    <a href="/" class="button">Sign Up</a>
+                </li>
+            </ul>
         </div>
+    </nav>
+    <!-- Hero Section -->
+    <div class="main">
+        <div class="main__container">
+            <div class="main__content">
+                <h1>Next Genetartion</h1>
+                <h2>Texchnology</h2>
+                <p>See what makes us diffrent</p>
+                <button class="main__btn">
+                    <a href="/">Get Start</a>
+                </button>
+            </div>
+            <div class="main_img--container">
+                <img src="images/pic1.svg" alt="pic" id="main__img">
+            </div>
+        </div>
+    </div>
 
-    </body>
+    <script src="app.js"></script>
+</body>
+
 </html>
