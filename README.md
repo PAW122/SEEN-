@@ -141,6 +141,7 @@ npm i js-queue
     154.dodać opcje pingowania bota zamiast używania prefixu: jeżeli user zapinguje bota i nic nie napisze dostaje helpa, a jeżeli zapinguje bota i coś napisze to bot prubuje wywołać zwykłą komendę, jeżeli nie znajdzie danej komendy to wysyła wiadomość try use @seen help
     155.przy spaowaniu żeby clearować 100 wiadomości da się wywalić bota jeżeli na kanale jest tylko kilka wiadomości !! bot musi sprawdzać ile wiadomości jest na kanale i tyle usówać + trzeba dodać cooldowa cleara
     156.zrobić w shelu albo exe automotycze pobieranie paczek, to samo ale dodać odpalanie bota w exe (bat to exe)
+    157.dodać do $help! wszystkie komendy w tym $zapowiedzi_jesień 2022
 
     dodać do tego top chanels(top kanał z wiadomościami, top kanał vc z ilością h)
 

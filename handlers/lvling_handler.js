@@ -55,7 +55,7 @@ module.exports = (client) => {
             if (nxtLvl <= curxp) {
                 let nxtLvl = ((curlvl + 2) * xp_per_lvl_scaling) * xp_per_lvl;
                 const db2 = new QuickDB({ filePath: process.cwd() + `/db/srv_settings/commands/${guildId}.sqlite` });
-                //pobiera undefind a powinno obrać false do naprawy
+                
                 const channel_id = await db2.get(`lvls_channel.channelId`)
                 curlvl = curlvl + 1;
 
@@ -72,6 +72,17 @@ module.exports = (client) => {
                     save_data()
                     return message.channel.send({ embeds: [embed] })
                 } else {
+                    //check chanel id
+                    try {
+                        let channel = await client.channels.fetch(channel_id)
+                      } catch (err) {
+                        if (err == "DiscordAPIError: Unknown Channel") {
+                          return message.reply("Probably administration set wrong channel id.\n Use **$settings lvls_channel <channel_ID>**")
+                        } else {
+                          return console.log(err)
+                        }
+                      }
+
                     try {
                         save_data()
                         return client.channels.cache.get(channel_id).send({ embeds: [embed] });
