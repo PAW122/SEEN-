@@ -15756,3 +15756,368 @@ D:Cabo Verde
 29.10.2022   02:46   Porg Comunuty   438621187132751873   『-💭-』general   Ryouuk#1511   oj tak +1 byczq
 29.10.2022   02:48   Porg Comunuty   438621187132751873   『-💭-』general   Twój stary czupakabra#9781   %jebac ramba
 29.10.2022   02:48   Porg Comunuty   438621187132751873   『-💭-』general   Ryouuk#1511   kurwa oczywiscie ze tak
+29.10.2022   03:19   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+29.10.2022   03:19   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+29.10.2022   03:19   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+29.10.2022   03:19   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+29.10.2022   03:19   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+29.10.2022   03:19   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+29.10.2022   03:19   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+29.10.2022   03:20   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+29.10.2022   03:20   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+29.10.2022   04:01   Porg Comunuty   438621187132751873   『-🤖-』botownia   PAW#5844   >ping
+29.10.2022   04:01   Porg Comunuty   438621187132751873   『-🤖-』botownia   Krokiet™#9206   pong
+29.10.2022   04:03   Porg Comunuty   438621187132751873   『-🤖-』botownia   Twój stary czupakabra#9781   %jebac rama
+29.10.2022   04:03   Porg Comunuty   438621187132751873   『-🤖-』botownia   Twój stary czupakabra#9781   %jebac ramba
+29.10.2022   04:04   Porg Comunuty   438621187132751873   『-🤖-』botownia   Twój stary czupakabra#9781   %jebac_ramba
+29.10.2022   04:05   Porg Comunuty   438621187132751873   『-🤖-』botownia   Twój stary czupakabra#9781   %jebac_ramba
+29.10.2022   04:06   Porg Comunuty   438621187132751873   『-🤖-』botownia   Twój stary czupakabra#9781   %jebac_ramba
+29.10.2022   04:08   Porg Comunuty   438621187132751873   『-🤖-』botownia   PAW#5844   %jebac_ramba
+29.10.2022   04:11   Porg Comunuty   438621187132751873   『-🤖-』botownia   Twój stary czupakabra#9781   %jebac_ramba
+29.10.2022   04:13   Porg Comunuty   438621187132751873   『-🤖-』botownia   PAW#5844   %ping
+29.10.2022   04:13   Porg Comunuty   438621187132751873   『-🤖-』botownia   Ryouuk#1511   pong
+29.10.2022   04:14   Porg Comunuty   438621187132751873   『-🤖-』botownia   Twój stary czupakabra#9781   ```module.exports = {
+    name: "jebac_ramba",
+    execute:async(message, args, client)=> {
+        message.channel.send("kurwa, oczywiście że tak")
+    }
+}
+```
+29.10.2022   04:14   Porg Comunuty   438621187132751873   『-🤖-』botownia   Twój stary czupakabra#9781   
+29.10.2022   04:15   Porg Comunuty   438621187132751873   『-🤖-』botownia   Twój stary czupakabra#9781   %jebac_ramba
+29.10.2022   04:16   Porg Comunuty   438621187132751873   『-🤖-』botownia   PAW#5844   >jebac_ramba
+29.10.2022   04:16   Porg Comunuty   438621187132751873   『-🤖-』botownia   Krokiet™#9206   kurwa, oczywiście że tak
+29.10.2022   04:16   Porg Comunuty   438621187132751873   『-🤖-』botownia   Twój stary czupakabra#9781   ```const Discord = require('discord.js');
+const fs = require("fs");
+
+module.exports = (client) => {
+
+    client.command = new Discord.Collection();
+
+    const komendyFolders = fs.readdirSync(process.cwd() + `/commands/komendy`)
+
+    for (const folder of komendyFolders) {
+        const commandsFile = fs.readdirSync(process.cwd() + `\\commands\\komendy`).filter(file => file.endsWith(".js"));
+
+        for (const file of commandsFile) {
+            const command = require(process.cwd() + `/commands/komendy/${file}`);
+            client.command.set(command.name, command);
+            console.log(command)
+        }
+    }
+}
+```
+29.10.2022   04:17   Porg Comunuty   438621187132751873   『-🤖-』botownia   Twój stary czupakabra#9781   ```const Discord = require("discord.js");
+
+module.exports = (client, prefix, message)=>{
+    if(!message.author.bot && message.content.startsWith(prefix)){
+const args = message.content.slice(prefix.lenght).trim().split(/ +/);
+const commandName = args.shift().toLowerCase();
+if(!client.command.has(commandName))return;
+
+const command = client.command.get(commandName);
+try{
+    command.execute(message, args, client);
+    console.log(`${message.author}use ${commandName}`)
+    
+    }catch (err){
+        console.log(err)
+        message.channel.send("wystapil blad")
+
+}
+    }
+}
+
+```
+29.10.2022   04:17   Porg Comunuty   438621187132751873   『-📣-』ogłoszenia-parafialne   MEE6#4876   GG <@572341297340350464>, you just advanced to level 3!
+29.10.2022   04:17   Porg Comunuty   438621187132751873   『-🤖-』botownia   PAW#5844   >ping
+29.10.2022   04:19   Porg Comunuty   438621187132751873   『-🤖-』botownia   Twój stary czupakabra#9781   %jebac_ramba
+29.10.2022   04:19   Porg Comunuty   438621187132751873   『-🤖-』botownia   Ryouuk#1511   kurwa, oczywiście że tak
+29.10.2022   04:19   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+29.10.2022   04:19   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+29.10.2022   04:22   Porg Comunuty   438621187132751873   『-🤖-』botownia   PAW#5844   >ping
+29.10.2022   04:23   Porg Comunuty   438621187132751873   『-🤖-』botownia   PAW#5844   >ping
+29.10.2022   04:24   Porg Comunuty   438621187132751873   『-🤖-』botownia   PAW#5844   >ping
+29.10.2022   04:25   Porg Comunuty   438621187132751873   『-🤖-』botownia   PAW#5844   >ping
+29.10.2022   04:25   Porg Comunuty   438621187132751873   『-🤖-』botownia   PAW#5844   >ping
+29.10.2022   04:26   Porg Comunuty   438621187132751873   『-🤖-』botownia   PAW#5844   >ping
+29.10.2022   04:26   Porg Comunuty   438621187132751873   『-🤖-』botownia   PAW#5844   >ping
+29.10.2022   04:26   Porg Comunuty   438621187132751873   『-🤖-』botownia   Krokiet™#9206   pong
+29.10.2022   10:44   Porg Comunuty   438621187132751873   『-🤖-』botownia   Twój stary czupakabra#9781   %ban
+29.10.2022   10:44   Porg Comunuty   438621187132751873   『-🤖-』botownia   Ryouuk#1511   spierdalaj
+29.10.2022   10:44   Porg Comunuty   438621187132751873   『-🤖-』botownia   Twój stary czupakabra#9781   dziala
+29.10.2022   10:45   Porg Comunuty   438621187132751873   『-🤖-』botownia   Twój stary czupakabra#9781   %pomozesz_mi
+29.10.2022   10:45   Porg Comunuty   438621187132751873   『-🤖-』botownia   Ryouuk#1511   spierdalaj
+29.10.2022   10:45   Porg Comunuty   438621187132751873   『-🤖-』botownia   Twój stary czupakabra#9781   okej
+29.10.2022   10:46   Porg Comunuty   438621187132751873   『-🤖-』botownia   Twój stary czupakabra#9781   %jebac_ramba
+29.10.2022   10:46   Porg Comunuty   438621187132751873   『-🤖-』botownia   Ryouuk#1511   kurwa, oczywiście że tak
+29.10.2022   10:47   Porg Comunuty   438621187132751873   『-💭-』general   Twój stary czupakabra#9781   %jebac_ramba
+29.10.2022   10:47   Porg Comunuty   438621187132751873   『-💭-』general   Ryouuk#1511   kurwa, oczywiście że tak
+29.10.2022   10:48   Porg Comunuty   438621187132751873   『-💭-』general   Twój stary czupakabra#9781   %co_myslisz_o_rambie
+29.10.2022   10:48   Porg Comunuty   438621187132751873   『-💭-』general   Ryouuk#1511   jebany dzieciak bez mutacji
+29.10.2022   10:48   Porg Comunuty   438621187132751873   『-💭-』general   Twój stary czupakabra#9781   XDDDD
+29.10.2022   10:48   Porg Comunuty   438621187132751873   『-💭-』general   Twój stary czupakabra#9781   <@759765392787767316>
+29.10.2022   10:50   Porg Comunuty   438621187132751873   『-💭-』general   _Manfredi#6878   Wiwiwiwiwiwpierdalaj
+29.10.2022   10:51   Porg Comunuty   438621187132751873   『-💭-』general   Twój stary czupakabra#9781   %jebac_ramba
+29.10.2022   10:51   Porg Comunuty   438621187132751873   『-💭-』general   Ryouuk#1511   kurwa, oczywiście że tak
+29.10.2022   10:52   Porg Comunuty   438621187132751873   『-💭-』general   Twój stary czupakabra#9781   rambo debil
+29.10.2022   10:54   Porg Comunuty   438621187132751873   『-💭-』general   Twój stary czupakabra#9781   %rambo_jest_spoko
+29.10.2022   10:54   Porg Comunuty   438621187132751873   『-💭-』general   Ryouuk#1511   no chyba cie pojebało on jest upośledzony jakiś
+29.10.2022   10:55   Porg Comunuty   438621187132751873   『-💭-』general   Twój stary czupakabra#9781   wiem
+29.10.2022   10:57   Porg Comunuty   438621187132751873   『-💭-』general   Twój stary czupakabra#9781   %jebac
+29.10.2022   10:57   Porg Comunuty   438621187132751873   『-💭-』general   Ryouuk#1511   RAmba dziwke
+29.10.2022   10:57   Porg Comunuty   438621187132751873   『-💭-』general   Twój stary czupakabra#9781   %jebac
+29.10.2022   10:58   Porg Comunuty   438621187132751873   『-💭-』general   Twój stary czupakabra#9781   %jebac
+29.10.2022   10:58   Porg Comunuty   438621187132751873   『-💭-』general   Ryouuk#1511   Ramba dziwke
+29.10.2022   10:58   Porg Comunuty   438621187132751873   『-💭-』general   Twój stary czupakabra#9781   dokładnie
+29.10.2022   11:00   Porg Comunuty   438621187132751873   『-💭-』general   Twój stary czupakabra#9781   %<@759765392787767316>
+29.10.2022   11:01   Porg Comunuty   438621187132751873   『-💭-』general   Twój stary czupakabra#9781   %ej_Rambo
+29.10.2022   11:01   Porg Comunuty   438621187132751873   『-💭-』general   Twój stary czupakabra#9781   %ej_Rambo
+29.10.2022   11:02   Porg Comunuty   438621187132751873   『-💭-』general   Twój stary czupakabra#9781   %ej_rambo
+29.10.2022   11:02   Porg Comunuty   438621187132751873   『-💭-』general   Ryouuk#1511   co ty chcesz od tego zjeba?
+29.10.2022   11:04   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+29.10.2022   11:04   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+29.10.2022   11:04   Porg Comunuty   438621187132751873   『-💭-』general   Twój stary czupakabra#9781   ryuk
+29.10.2022   11:04   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+29.10.2022   11:06   Porg Comunuty   438621187132751873   『-💭-』general   Twój stary czupakabra#9781   %pomozesz_mi
+29.10.2022   11:06   Porg Comunuty   438621187132751873   『-💭-』general   Ryouuk#1511   spierdalaj
+29.10.2022   11:06   Porg Comunuty   438621187132751873   『-💭-』general   PAW#5844   $clear 50
+29.10.2022   11:06   Porg Comunuty   438621187132751873   『-💭-』general   SEEN-#5771   Usunąłem 50 wiadomości
+29.10.2022   11:06   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+29.10.2022   11:06   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+29.10.2022   11:06   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+29.10.2022   11:08   Porg Comunuty   438621187132751873   『-🤖-』botownia   PAW#5844   $say Ruchanie
+29.10.2022   11:08   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   Ruchanie
+29.10.2022   11:08   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+29.10.2022   11:08   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+29.10.2022   11:08   Porg Comunuty   438621187132751873   『-🤖-』botownia   PAW#5844   $say siema
+29.10.2022   11:09   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   siema
+29.10.2022   11:09   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+29.10.2022   11:46   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+29.10.2022   11:46   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+29.10.2022   11:46   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+29.10.2022   11:48   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+29.10.2022   11:49   Porg Comunuty   438621187132751873   『-kanał-dla-bota-📊-』   BobaFett#5726   =music Play znowu mam bana
+29.10.2022   11:49   Porg Comunuty   438621187132751873   『-kanał-dla-bota-📊-』   Ayana#8911   ```
+ 1 : Znowu mam bana - 58 seconds
+ 2 : Znowu mam bana - 2 minutes 29 seconds
+ 3 : Znowu Mam Bana - A Minecraft Parody  Carly Rae Jepsen - Call Me Maybe - 3 minutes 13 seconds
+ 4 : Znowu Mam Bana - A Minecraft Parody  Carly Rae Jepsen - Call Me Maybe - 3 minutes 13 seconds
+ 5 : Znowu Mam Bana Cover Emo - 2 minutes 18 seconds
+ 6 : NIGHTCORE - Znowu Mam Bana (Polish Cover) MINECRAFT PARODY - 2 minutes 49 seconds
+ 7 : Znowu Mam Bana - A Minecraft Parody (Carly Rae Jepsen - Call Me Maybe) - 3 minutes 14 seconds
+ 8 : Bejl Ajlainer - Znowu mam bana - 3 minutes 14 seconds
+ 9 : Znowu Mam Bana  - A Minecraft Parody (Carly Rae Jepsen - Call Me Maybe) - 3 minutes 14 seconds
+10 : Trill Pem - Ey Znowu To Mam - 2 minutes 56 seconds
+```
+29.10.2022   11:50   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+29.10.2022   11:50   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+29.10.2022   11:50   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+29.10.2022   11:50   Porg Comunuty   438621187132751873   『-kanał-dla-bota-📊-』   Ayana#8911   
+29.10.2022   11:50   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+29.10.2022   11:50   Porg Comunuty   438621187132751873   『-kanał-dla-bota-📊-』   BobaFett#5726   =music Play znowu mam bana
+29.10.2022   11:50   Porg Comunuty   438621187132751873   『-kanał-dla-bota-📊-』   Ayana#8911   ```
+ 1 : Znowu mam bana - 58 seconds
+ 2 : Znowu mam bana - 2 minutes 29 seconds
+ 3 : Znowu Mam Bana - A Minecraft Parody  Carly Rae Jepsen - Call Me Maybe - 3 minutes 13 seconds
+ 4 : Znowu Mam Bana - A Minecraft Parody  Carly Rae Jepsen - Call Me Maybe - 3 minutes 13 seconds
+ 5 : Znowu Mam Bana Cover Emo - 2 minutes 18 seconds
+ 6 : NIGHTCORE - Znowu Mam Bana (Polish Cover) MINECRAFT PARODY - 2 minutes 49 seconds
+ 7 : Znowu Mam Bana - A Minecraft Parody (Carly Rae Jepsen - Call Me Maybe) - 3 minutes 14 seconds
+ 8 : Bejl Ajlainer - Znowu mam bana - 3 minutes 14 seconds
+ 9 : Znowu Mam Bana  - A Minecraft Parody (Carly Rae Jepsen - Call Me Maybe) - 3 minutes 14 seconds
+10 : Trill Pem - Ey Znowu To Mam - 2 minutes 56 seconds
+```
+29.10.2022   11:50   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+29.10.2022   11:50   Porg Comunuty   438621187132751873   『-kanał-dla-bota-📊-』   BobaFett#5726   =music skip
+29.10.2022   11:50   Porg Comunuty   438621187132751873   『-kanał-dla-bota-📊-』   Ayana#8911   :arrow_forward: Skipped `Znowu mam bana`.
+29.10.2022   11:50   Porg Comunuty   438621187132751873   『-kanał-dla-bota-📊-』   Ayana#8911   
+29.10.2022   12:04   Porg Comunuty   438621187132751873   『-kanał-dla-bota-📊-』   Ayana#8911   :no_entry_sign: Left channel due to inactivity.
+29.10.2022   12:04   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+29.10.2022   12:10   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+29.10.2022   12:10   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+29.10.2022   13:31   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+29.10.2022   13:31   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+29.10.2022   13:34   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+29.10.2022   13:34   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+29.10.2022   13:52   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+29.10.2022   13:52   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+29.10.2022   13:54   Porg Comunuty   438621187132751873   『-🤖-』botownia   Twój stary czupakabra#9781   %co_na_obiad
+29.10.2022   13:55   Porg Comunuty   438621187132751873   『-🤖-』botownia   Ryouuk#1511   to co sobie zrobisz
+29.10.2022   13:55   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+29.10.2022   14:09   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+29.10.2022   14:14   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+29.10.2022   14:15   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+29.10.2022   14:28   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+29.10.2022   14:28   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+29.10.2022   14:32   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+29.10.2022   14:33   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+29.10.2022   14:33   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+29.10.2022   14:41   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+29.10.2022   14:41   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+29.10.2022   14:50   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+29.10.2022   14:50   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+29.10.2022   18:29   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+29.10.2022   18:29   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+29.10.2022   18:37   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+29.10.2022   18:37   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+29.10.2022   18:59   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+29.10.2022   18:59   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+30.10.2022   18:16   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+30.10.2022   18:16   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+30.10.2022   18:33   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+30.10.2022   18:33   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+30.10.2022   18:40   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+30.10.2022   18:40   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+30.10.2022   19:21   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+30.10.2022   19:21   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+30.10.2022   19:21   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+30.10.2022   19:21   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+30.10.2022   19:33   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+30.10.2022   19:33   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+30.10.2022   19:33   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+30.10.2022   19:47   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+30.10.2022   19:55   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+30.10.2022   19:55   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+30.10.2022   19:55   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+30.10.2022   19:55   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+30.10.2022   19:58   Porg Comunuty   438621187132751873   『-💭-』general   PAW#5844   <@609743130987593749> <@998643291211976764>
+30.10.2022   19:58   Porg Comunuty   438621187132751873   『-💭-』general   PAW#5844   valo
+30.10.2022   20:33   Porg Comunuty   438621187132751873   『-💭-』general   PAW#5844   <@683404986880753691>
+30.10.2022   20:53   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+30.10.2022   20:53   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+30.10.2022   21:01   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+30.10.2022   21:01   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+30.10.2022   21:56   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+30.10.2022   21:56   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+30.10.2022   21:56   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+30.10.2022   21:56   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+30.10.2022   21:56   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+30.10.2022   21:57   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+30.10.2022   22:10   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+30.10.2022   22:10   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+30.10.2022   22:49   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+30.10.2022   23:33   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+30.10.2022   23:34   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+30.10.2022   23:36   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+30.10.2022   23:36   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+31.10.2022   01:02   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+31.10.2022   01:03   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+31.10.2022   01:12   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+31.10.2022   01:25   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+31.10.2022   01:33   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+31.10.2022   01:36   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+31.10.2022   01:37   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+31.10.2022   01:56   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+31.10.2022   01:56   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+31.10.2022   14:55   Porg Comunuty   438621187132751873   『-💭-』general   PAW#5844   <@577507822011416592> <@692621246017568799> gracie?
+31.10.2022   14:55   Porg Comunuty   438621187132751873   『-💭-』general   ToxicWaste#1928   darek obecnie raczej nie oddycha
+31.10.2022   14:56   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+31.10.2022   14:56   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+31.10.2022   14:56   Porg Comunuty   438621187132751873   『-💭-』general   ToxicWaste#1928   ale no duo można giercać
+31.10.2022   14:56   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+31.10.2022   14:57   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+31.10.2022   14:57   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+31.10.2022   15:43   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+31.10.2022   15:43   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+31.10.2022   16:49   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+31.10.2022   16:50   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+31.10.2022   17:23   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+31.10.2022   17:23   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+31.10.2022   17:30   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+31.10.2022   17:32   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+31.10.2022   18:02   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+31.10.2022   18:12   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+31.10.2022   18:15   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+31.10.2022   18:16   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+31.10.2022   19:21   Porg Comunuty   438621187132751873   『-💭-』general   BobaFett#5726   <@438336824516149249> <@577507822011416592>
+31.10.2022   19:21   Porg Comunuty   438621187132751873   『-💭-』general   ToxicWaste#1928   wat
+31.10.2022   19:21   Porg Comunuty   438621187132751873   『-💭-』general   BobaFett#5726   Valo
+31.10.2022   19:21   Porg Comunuty   438621187132751873   『-💭-』general   ToxicWaste#1928   pamiętasz jaki miałem ping?
+31.10.2022   19:21   Porg Comunuty   438621187132751873   『-💭-』general   BobaFett#5726   Ta
+31.10.2022   19:21   Porg Comunuty   438621187132751873   『-💭-』general   BobaFett#5726   I co
+31.10.2022   19:21   Porg Comunuty   438621187132751873   『-💭-』general   ToxicWaste#1928   no nie wiem
+31.10.2022   19:22   Porg Comunuty   438621187132751873   『-💭-』general   ToxicWaste#1928   fajnie by było gdybym mógł się poruszać w grze typu fps nie sądzisz?
+31.10.2022   19:22   Porg Comunuty   438621187132751873   『-💭-』general   BobaFett#5726   Nie
+31.10.2022   19:22   Porg Comunuty   438621187132751873   『-💭-』general   ToxicWaste#1928   rozumiem że nie myślisz
+31.10.2022   19:22   Porg Comunuty   438621187132751873   『-💭-』general   ToxicWaste#1928   understandable
+31.10.2022   19:22   Porg Comunuty   438621187132751873   『-💭-』general   BobaFett#5726   Kurwo jebana
+31.10.2022   19:23   Porg Comunuty   438621187132751873   『-💭-』general   ToxicWaste#1928   ściagnij tu pawła i mogę grać na twoją odpowiedzialność
+31.10.2022   19:23   Porg Comunuty   438621187132751873   『-💭-』general   ToxicWaste#1928   i tak muszę wyschnąć
+31.10.2022   19:23   Porg Comunuty   438621187132751873   『-👋-』powitalnia   SEEN-#5771   
+31.10.2022   19:23   Porg Comunuty   438621187132751873   『-💭-』general   BobaFett#5726   Odpaliłem mecz
+31.10.2022   19:24   Porg Comunuty   438621187132751873   『-💭-』general   ToxicWaste#1928   a no to jeszcze lepiej
+31.10.2022   19:24   Porg Comunuty   438621187132751873   『-💭-』general   BobaFett#5726   Es
+31.10.2022   19:30   Porg Comunuty   438621187132751873   『-💭-』general   PAW#5844   za 5 min
+31.10.2022   19:30   Porg Comunuty   438621187132751873   『-👋-』powitalnia   SEEN-#5771   
+31.10.2022   19:31   Porg Comunuty   438621187132751873   『-💭-』general   ToxicWaste#1928   daj po prostu ping jak skończysz ten mecz
+31.10.2022   19:41   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+31.10.2022   19:44   Porg Comunuty   438621187132751873   『-💭-』general   PAW#5844   <@692621246017568799> vc?
+31.10.2022   19:45   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+31.10.2022   19:45   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+31.10.2022   19:57   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+31.10.2022   19:58   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+31.10.2022   20:03   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+31.10.2022   20:03   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+31.10.2022   20:30   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+31.10.2022   20:30   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+31.10.2022   20:30   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+31.10.2022   20:30   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+31.10.2022   20:30   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+31.10.2022   20:31   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+31.10.2022   20:31   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+31.10.2022   20:34   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+31.10.2022   20:34   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+31.10.2022   20:35   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+31.10.2022   20:44   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+31.10.2022   20:45   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+31.10.2022   20:45   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+31.10.2022   21:04   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+31.10.2022   21:04   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+31.10.2022   21:04   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+31.10.2022   21:04   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+31.10.2022   21:04   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+31.10.2022   21:09   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+31.10.2022   21:09   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+31.10.2022   21:09   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+31.10.2022   21:09   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+31.10.2022   21:17   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+31.10.2022   21:31   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+31.10.2022   21:32   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+31.10.2022   21:32   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+31.10.2022   21:32   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+31.10.2022   21:33   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+31.10.2022   21:33   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+31.10.2022   21:34   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+31.10.2022   21:34   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+31.10.2022   21:36   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+31.10.2022   21:36   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+31.10.2022   21:37   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+31.10.2022   21:37   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+31.10.2022   21:37   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+31.10.2022   21:37   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+31.10.2022   21:40   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+31.10.2022   21:40   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+31.10.2022   22:18   Porg Comunuty   438621187132751873   『-💭-』general   BobaFett#5726   
+31.10.2022   23:00   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+1.11.2022   18:03   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+1.11.2022   18:03   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+1.11.2022   18:05   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+1.11.2022   18:05   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+1.11.2022   18:06   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+1.11.2022   18:07   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+1.11.2022   18:12   Porg Comunuty   438621187132751873   『-💭-』general   BobaFett#5726   .
+1.11.2022   18:13   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+1.11.2022   18:13   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+1.11.2022   18:13   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+1.11.2022   18:25   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+1.11.2022   18:34   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+1.11.2022   18:38   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+1.11.2022   18:40   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+1.11.2022   18:49   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+1.11.2022   18:50   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+1.11.2022   20:04   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+1.11.2022   20:04   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+1.11.2022   21:45   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+1.11.2022   21:45   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+1.11.2022   21:45   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   

@@ -5,7 +5,7 @@ const consola = require('consola')
 
 const { REST } = require('@discordjs/rest');
 const { Routes } = require('discord-api-types/v9');
-const { Player} = require("discord-player");
+const { Player } = require("discord-player");
 const { QuickDB } = require("quick.db");
 const logs = require('discord-logs');
 //wczytywanie configu
@@ -62,6 +62,8 @@ const automod_handler = require("./commands/servers_config/auto_mod_handler")
 //ai handler
 const ai = require("./commands/komendy/AI/ai_handler")
 
+//const bot_webside = require("./bot_webside/app")
+//const seen_api = require("./seen_api/app")
 
 const client = new Discord.Client({
     intents: [
@@ -122,14 +124,14 @@ client.once('ready', () => {
 client.on('messageCreate', async message => {
 
     //automod handler
-    automod_handler(client,message)
+    automod_handler(client, message)
 
     //logi z serwerów
-    logs_handler(message.content, null, 2, message.guild.id, message.author.tag, message.channel.name,client)
+    logs_handler(message.content, null, 2, message.guild.id, message.author.tag, message.channel.name, client)
 
 
     //auto reakcje
-    emoji_reactions(message) 
+    emoji_reactions(message)
 
 
     //sprawdzanie prefixu serwerowego
@@ -146,8 +148,11 @@ client.on('messageCreate', async message => {
 
 });
 
+//seen_api();
+
 //interakcje
-    interaction_handler(client)
+interaction_handler(client)
+
 
 if (test_bot == true) {
     client.login(test_token)
@@ -155,6 +160,7 @@ if (test_bot == true) {
     client.login(token)
 }
 
+//bot_webside();
 
 
 //error handler
@@ -163,160 +169,3 @@ client.on('warn', () => { console.log("error handler--warn") })
 client.on('error', () => { console.log("error handler--error") })
 //consola info
 consola.success('Built!')
-
-
-
-
-
-//do zrobienia
-/*
-help dla komend anime
-wszystkie anime z zapowiedzi i premier lato 2022
-help dla zapowiedzi anime i
-w foleże help opisy
-
-zrobić na nowo w $help en angielską cześc bo coś się zjebało
-
-zrobć każdy help w pliku komendy żeby ograniczyć pliki
-
-dokończyć help w plikach
-(komendy/a_normal - zrobione)
-
-zrobić helpa dla anime i dodać amnestie itp
-usunąć z komend kategori anime _ w nazwach komend
-
-zrobić komende pokazująco zmiany w aktualizachjach bota
-
-naprawić opisu helpa
-zmienić w help opisy z
-$help awatar
-na $awatar help
-
-
-ruletka nie chce działać na serweże !! do naprawy
-*/
-
-
-
-//komendy:(polskie nazwy)
-
-//$animelist
-//$animelist help
-//$animelist help en
-
-//$anikieta
-//$ankieta help
-//$anikieta help en
-
-//$awatar
-//$awatar help
-//$awatar help en
-
-//$ban
-//$ban help
-//$ban help en
-
-//$botinfo
-//$botinfo help
-//$botinfo help en
-
-//$clear
-//$clear help
-//$clear help en
-//$wyczyść
-//$wyczyść help
-//$wyczyść help en
-
-//$embed
-//$embed help
-//$embed help en
-
-//$kick
-//$kick help
-//$kick help en
-
-//$ping
-//$ping help
-//$ping help en
-
-//$random
-//$random help
-//$random help en
-
-//$ruletka
-//$ruletka help
-//$ruletka help en
-//$roulette
-//$roulette help
-//$roulette help en
-
-//$say
-//$say help
-//$say help en
-//$pwoiedz
-//$pwoiedz help
-//$pwoiedz help en
-
-//$srvinfo
-//$srvinfo help
-//$srvinfo help en
-
-//$animegif
-//$animegif help
-//$animegif help en
-
-//$kontynuacje
-//$kontynuacje help
-//$kontynuacje help en
-//$continuations
-//$continuations help
-//$continuations help en
-
-//$zapowiedzi
-//$zapowiedzi help
-//$zapowiedzi help en
-//$announcements
-//$announcements help
-//$announcements help en
-
-//aktualizacje
-//aktualizacje help
-//aktualizacje help en
-//updaty
-//updaty help
-//updaty help en
-
-//senko_odc
-//lucky_star_odc
-//amnestia_odc
-
-//amnesia --opis anime
-//heroine_info -opis anime
-//heroine  --losowa grafika
-
-//anime help
-
-//$ruletkaextream !!Nieskończone / niedziałające
-
-//$blitzstats !!Niedokończone / niedziałające
-
-//24.06.2022
-/*
-update cały folder help idzie do śmieci a wszystkie komendy help sa w plikach komend (optymalizacja plików)
-*/
-
-//25.06.2022
-/*
-poprawiona komenda $help(poprawiona komenda help)
-plik anime.json przeniesiony do każdego folderu anime (optymalizacja plików)
-*/
-
-//28.06.2022
-/*
-dodane nowe anime do animelist
-*/
-
-//29.06.2022
-/*
-naprawiny błąd w komendzie ruletka
-*/
