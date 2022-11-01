@@ -17,14 +17,17 @@ app.get("/api/paw", (req, res) => {
 });
 
 //economy
-app.get("/api/seen/economy/:guildId/:userid", (req, res) => {
+//http://localhost:2137/api/seen/economy/:guildId/:userid/:read
+//http://localhost:2137/api/seen/economy/:guildId/:userid/true
+//http://localhost:2137/api/seen/economy/:guildId/:userid/false
+app.get("/api/seen/economy/:guildId/:userid/:read", (req, res) => {
 
     async function data() {
         const guildId = req.params.guildId
         const userId = req.params.userid
+        const read = req.params.read
 
         const db = new QuickDB({ filePath: `../db/economy/local_economy/${guildId}.sqlite` });
-
         const coins = await db.get(`${userId}.coins`);
         const items = await db.get(`${userId}.eq`)
         const roll_usage = await db.get(`${userId}.roll_usage`)
@@ -32,27 +35,53 @@ app.get("/api/seen/economy/:guildId/:userid", (req, res) => {
         const birthday = await db.get(`${userId}.birthday`)
         const birthday_changes = await db.get(`${userId}.birthday_changes`)
 
-
-        res.send([req.params.userid,
-        req.params.guildId,
-            coins,
-            items,
-            roll_usage,
-            weekly,
-            birthday,
-            birthday_changes])
+        /*
+        res.send([
+            [["userID"],[req.params.userid]],
+            [["guildID"],[req.params.guildId]],
+            [["coins"],[coins]],
+            [["items"],[items]],
+            [["roll usage"],[roll_usage]],
+            [["wekly"],[weekly]],
+            [["birthday"] , [birthday]],
+            [["birthday_changes"] , [birthday_changes]]
+        ])
+        */
+       if(read == "true"){
+        res.send({
+            "userId": req.params.userid,
+            "guildId": req.params.guildId,
+            "coins": coins,
+            "items": items,
+            "roll_usages": roll_usage,
+            "weekly": weekly,
+            "birthday": birthday,
+            "birthday_changes": birthday_changes
+           })
+       }else{
+        res.send(`
+        <p>userId: ${req.params.userid} </p>
+        <p>guildId: ${ req.params.guildId} </p>
+        <p>coins: ${coins} </p>
+        <p>items: ${items} </p>
+        <p>roll_usages: ${roll_usage} </p>
+        <p>weekly: ${weekly} </p>
+        <p>birthday: ${birthday} </p>
+        <p>birthday_changes: ${birthday_changes} </p>`)
+       }
+    
     }
     data()
 });
 
-
+//http://localhost:2137/api/seen/server_settings/:guildId
 app.get("/api/seen/server_settings/:guildId", (req, res) => {
 
     async function data2() {
         const guildId = req.params.guildId
 
         const db = new QuickDB({ filePath: `../db/srv_settings/commands/${guildId}.sqlite` });
-
+        
         const prefix = await db.get(`prefix.check`);
         const welcome = await db.get(`welcome.channelId`);
         const version = await db.get(`version.check`);
@@ -176,4 +205,7 @@ reason -- if command is disabeld sending this message
 
 // PORT
 const port = process.env.PORT || 2137
+
 app.listen(port, () => console.log(`SEEN api Listening on port ${port}`))
+
+
