@@ -8064,3 +8064,100 @@ Jeżeli tak bierze dane z jsona i wysyła na odpowiedni kanał
 1.11.2022   22:38   priv   727662119553728532   minc-serv-18   SEEN-#5771   
 2.11.2022   00:46   priv   727662119553728532   bot   PAW#5844   
 2.11.2022   00:46   priv   727662119553728532   bot   PAW#5844   
+2.11.2022   21:28   priv   727662119553728532   minc-serv-18   SEEN-#5771   
+2.11.2022   22:04   priv   727662119553728532   bot   PAW#5844   $help!
+2.11.2022   22:04   priv   727662119553728532   bot   SEEN-#5771   
+2.11.2022   22:04   priv   727662119553728532   bot   SEEN-#5771   
+2.11.2022   22:04   priv   727662119553728532   bot   PAW#5844   $anime help
+2.11.2022   22:04   priv   727662119553728532   bot   SEEN-#5771   
+2.11.2022   22:04   priv   727662119553728532   bot   PAW#5844   $announcements summer2022
+2.11.2022   22:05   priv   727662119553728532   bot   PAW#5844   $zapowiedzi_jesień 2022
+2.11.2022   22:05   priv   727662119553728532   bot   SEEN-#5771   
+2.11.2022   22:57   priv   727662119553728532   bot   PAW#5844   $help
+2.11.2022   22:57   priv   727662119553728532   bot   SEEN-#5771   
+2.11.2022   22:57   priv   727662119553728532   bot   PAW#5844   $srv_set
+2.11.2022   22:57   priv   727662119553728532   bot   SEEN-#5771   
+2.11.2022   22:58   priv   727662119553728532   bot   PAW#5844   $backgrounds help
+2.11.2022   22:58   priv   727662119553728532   bot   SEEN-#5771   this feature is temporarily disabled. Work on restoring it to functioning is ongoing
+2.11.2022   22:58   priv   727662119553728532   bot   PAW#5844   $backgrounds help
+2.11.2022   22:58   priv   727662119553728532   bot   SEEN-#5771   
+2.11.2022   22:58   priv   727662119553728532   bot   PAW#5844   $backgrounds list
+2.11.2022   22:58   priv   727662119553728532   bot   SEEN-#5771   
+2.11.2022   22:58   priv   727662119553728532   minc-serv-18   SEEN-#5771   
+2.11.2022   23:02   priv   727662119553728532   bot   PAW#5844   $help
+2.11.2022   23:02   priv   727662119553728532   bot   SEEN-#5771   
+2.11.2022   23:02   priv   727662119553728532   bot   PAW#5844   $https://i.imgur.com/zvWTUVu.jpg
+2.11.2022   23:03   priv   727662119553728532   minc-serv-18   SEEN-#5771   
+2.11.2022   23:03   priv   727662119553728532   bot   PAW#5844   $dailt
+2.11.2022   23:03   priv   727662119553728532   bot   PAW#5844   $daily
+2.11.2022   23:03   priv   727662119553728532   bot   SEEN-#5771   You still need to use 7 to receive your weekly reward
+2.11.2022   23:03   priv   727662119553728532   bot   SEEN-#5771   You got 98 💵
+                you have a total of 1676 💵
+2.11.2022   23:03   priv   727662119553728532   bot   PAW#5844   $daily
+2.11.2022   23:03   priv   727662119553728532   bot   SEEN-#5771   Odebrałeś już dzisiejszą nagrode. Spróbuj ponownie jutro
+2.11.2022   23:03   priv   727662119553728532   bot   PAW#5844   $profil
+2.11.2022   23:03   priv   727662119553728532   bot   SEEN-#5771   masz 1676 💵
+        
+Items: ,
+2.11.2022   23:03   priv   727662119553728532   bot   PAW#5844   $profil <@797070806885990431>
+2.11.2022   23:03   priv   727662119553728532   bot   SEEN-#5771   masz 1676 💵
+        
+Items: ,
+2.11.2022   23:09   priv   727662119553728532   bot   PAW#5844   $profil <@797070806885990431>
+2.11.2022   23:09   priv   727662119553728532   bot   SEEN-#5771   <@797070806885990431> dont have profil in economy system
+2.11.2022   23:10   priv   727662119553728532   bot   PAW#5844   $profil <@778643150981562368>
+2.11.2022   23:10   priv   727662119553728532   bot   SEEN-#5771   <@778643150981562368> dont have profil in economy system
+2.11.2022   23:10   priv   727662119553728532   bot   PAW#5844   $profil <@438336824516149249>
+2.11.2022   23:10   priv   727662119553728532   bot   SEEN-#5771   masz 1676 💵
+        
+Items: ,
+2.11.2022   23:10   priv   727662119553728532   bot   Senko#3667   $dailt
+2.11.2022   23:10   priv   727662119553728532   bot   Senko#3667   $daily
+2.11.2022   23:10   priv   727662119553728532   bot   SEEN-#5771   Your profile has been created
+2.11.2022   23:10   priv   727662119553728532   bot   Senko#3667   $daily
+2.11.2022   23:10   priv   727662119553728532   bot   SEEN-#5771   You can receive weekly reward
+ use $weekly to claim your reward
+2.11.2022   23:10   priv   727662119553728532   bot   SEEN-#5771   You got 87 💵
+                you have a total of 1087 💵
+2.11.2022   23:10   priv   727662119553728532   bot   PAW#5844   $profil <@778643150981562368>
+2.11.2022   23:10   priv   727662119553728532   bot   SEEN-#5771   masz 1087 💵
+        
+Items: ,
+2.11.2022   23:11   priv   727662119553728532   bot   PAW#5844   $profil help
+2.11.2022   23:11   priv   727662119553728532   bot   SEEN-#5771   use: **$profil** to get your profil informations
+ use: **$profil @user** to get someone profil informations
+2.11.2022   23:13   priv   727662119553728532   bot   PAW#5844   $profil <@797070806885990431>
+2.11.2022   23:13   priv   727662119553728532   bot   SEEN-#5771   <@797070806885990431> dont have profil in economy system
+2.11.2022   23:14   priv   727662119553728532   bot   PAW#5844   $profil <@797070806885990431>
+2.11.2022   23:14   priv   727662119553728532   bot   SEEN-#5771   <@797070806885990431> dont have profil in economy system
+2.11.2022   23:14   priv   727662119553728532   bot   PAW#5844   $profil <@797070806885990431>
+2.11.2022   23:15   priv   727662119553728532   bot   PAW#5844   $profil <@797070806885990431>
+2.11.2022   23:15   priv   727662119553728532   bot   SEEN-#5771   I have everythink <3
+2.11.2022   23:30   priv   727662119553728532   ogólny   Senko#3667   
+2.11.2022   23:30   priv   727662119553728532   ogólny   SEEN-#5771   test2 sd sds
+2.11.2022   23:33   priv   727662119553728532   ogólny   Senko#3667   
+2.11.2022   23:33   priv   727662119553728532   ogólny   SEEN-#5771   test2 sd sds
+2.11.2022   23:34   priv   727662119553728532   ogólny   Senko#3667   
+2.11.2022   23:35   priv   727662119553728532   ogólny   Senko#3667   
+2.11.2022   23:35   priv   727662119553728532   ogólny   SEEN-#5771   test2 sd sds
+2.11.2022   23:37   priv   727662119553728532   minc-serv-18   SEEN-#5771   
+2.11.2022   23:37   priv   727662119553728532   minc-serv-18   SEEN-#5771   
+2.11.2022   23:37   priv   727662119553728532   ogólny   PAW#5844   $backgrounds set 19
+2.11.2022   23:37   priv   727662119553728532   ogólny   SEEN-#5771   worng id. type if form 1 to 10
+2.11.2022   23:37   priv   727662119553728532   ogólny   PAW#5844   $backgrounds set 9
+2.11.2022   23:37   priv   727662119553728532   ogólny   SEEN-#5771   set
+2.11.2022   23:37   priv   727662119553728532   ogólny   Senko#3667   
+2.11.2022   23:38   priv   727662119553728532   ogólny   Senko#3667   
+2.11.2022   23:38   priv   727662119553728532   ogólny   SEEN-#5771   test2 sd sds
+2.11.2022   23:38   priv   727662119553728532   ogólny   PAW#5844   $backgrounds set 10
+2.11.2022   23:38   priv   727662119553728532   ogólny   SEEN-#5771   set
+2.11.2022   23:39   priv   727662119553728532   ogólny   Senko#3667   
+2.11.2022   23:43   priv   727662119553728532   ogólny   SEEN-#4498   
+2.11.2022   23:44   priv   727662119553728532   ogólny   SEEN-#5771   Nie posiadasz uprawnień administratora. W razie pytań użyj $report <wiadomość>
+2.11.2022   23:45   priv   727662119553728532   ogólny   SEEN-#4498   
+2.11.2022   23:45   priv   727662119553728532   ogólny   PAW#5844   $dlear 10
+2.11.2022   23:45   priv   727662119553728532   ogólny   PAW#5844   $clear 10
+2.11.2022   23:45   priv   727662119553728532   ogólny   SEEN-#5771   Usunąłem 10 wiadomości
+2.11.2022   23:45   priv   727662119553728532   minc-serv-18   SEEN-#5771   
+2.11.2022   23:45   priv   727662119553728532   minc-serv-18   SEEN-#5771   
+2.11.2022   23:46   priv   727662119553728532   ogólny   PAW#5844   GodMode.{ED7BA470-8E54-465E-825C-99712043E01C}
