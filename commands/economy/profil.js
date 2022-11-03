@@ -5,7 +5,12 @@ const emoji = config.economy_emoji
 module.exports = {
     name: "profil",
 
-    execute: async (message, args) => {
+    execute: async (message, args,client) => {
+
+        if(args[0] == "help") {
+            return message.reply("use: **$profil** to get your profil informations\n use: **$profil @user** to get someone profil informations")
+        }
+
         //load server settings
         const guildId = message.guild.id
         const db2 = new QuickDB({ filePath: process.cwd() + `/db/srv_settings/commands/${guildId}.sqlite` });
@@ -17,7 +22,19 @@ module.exports = {
 
 
         const db = new QuickDB({ filePath: process.cwd() + `/db/economy/local_economy/${guildId}.sqlite` });
-        const userId = message.author.id
+        const target = message.mentions.users.first() || message.author;
+        const userId = target.id
+        const botId = client.user.id
+
+        if(botId == userId) {
+            return message.reply("I have everythink <3");
+        }
+
+        if(message.author.id != userId){
+            if (await db.get(userId) == null) {
+                return message.reply(`<@${userId}> dont have profil in economy system`)
+            }
+        }
 
         if (await db.get(userId) == null) {
             check_db(message)
