@@ -18,7 +18,7 @@ module.exports = (client) => {
 client.once("guildMemberAdd", member => {
 
     async function welcome() {
-        /*
+        
         //get background
         const guildId = member.guild.id
         const db = new QuickDB({ filePath: process.cwd() + `/db/srv_settings/commands/${guildId}.sqlite` });
@@ -44,10 +44,10 @@ client.once("guildMemberAdd", member => {
             if(bgtype == 10)var background = `https://impuls.nzsug.pl/wp-content/uploads/2020/01/HXcsVY5.png`
         }
         console.log(`bg: ${background}`)
-        */
+        
 
-        const guildId = member.guild.id
-        const db = new QuickDB({ filePath: process.cwd() + `/db/srv_settings/commands/${guildId}.sqlite` });
+        //const guildId = member.guild.id
+        //const db = new QuickDB({ filePath: process.cwd() + `/db/srv_settings/commands/${guildId}.sqlite` });
 
         let username = member.user.username
         let discrim = member.user.discriminator
@@ -57,8 +57,14 @@ client.once("guildMemberAdd", member => {
         const ctx = canvas.getContext("2d")
 
         // draw in the background
+        try{
         const backimg = await Canvas.loadImage(background)
         ctx.drawImage(backimg, 0, 0)
+        }catch(err){
+            console.log(`${background} -- link creating error`)
+            const backimg = await Canvas.loadImage("https://i.imgur.com/zvWTUVu.jpg")
+        ctx.drawImage(backimg, 0, 0)
+        }
 
         // draw black tinted box
         ctx.fillStyle = "rgba(0,0,0,0.8)"

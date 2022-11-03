@@ -7,7 +7,7 @@ module.exports = {
     execute: async (message, args, client) => {
 
 
-        return message.reply("this feature is temporarily disabled. Work on restoring it to functioning is ongoing")
+        //return message.reply("this feature is temporarily disabled. Work on restoring it to functioning is ongoing")
 
 
         const guildId = message.guild.id
