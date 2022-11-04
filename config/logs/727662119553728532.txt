@@ -8161,3 +8161,63 @@ Items: ,
 2.11.2022   23:45   priv   727662119553728532   minc-serv-18   SEEN-#5771   
 2.11.2022   23:45   priv   727662119553728532   minc-serv-18   SEEN-#5771   
 2.11.2022   23:46   priv   727662119553728532   ogólny   PAW#5844   GodMode.{ED7BA470-8E54-465E-825C-99712043E01C}
+3.11.2022   01:15   priv   727662119553728532   dc-bot   PAW#5844   Zrobić coś ala aplikacje albo strone internetową dla hosta bota:
+Wcztane komendy, errory, komendy wuwołane przez urzytkowników, start i stop button
+3.11.2022   01:17   priv   727662119553728532   ogólny   PAW#5844   9;34 miejski z dworca
+3.11.2022   01:17   priv   727662119553728532   ogólny   PAW#5844   8:27 latocha z osiedla
+3.11.2022   08:54   priv   727662119553728532   bot   PAW#5844   $ping
+3.11.2022   08:54   priv   727662119553728532   bot   SEEN-#5771   pong!
+3.11.2022   09:05   priv   727662119553728532   Przygotowania   PAW#5844   
+3.11.2022   09:05   priv   727662119553728532   dc-bot   PAW#5844   Przygotowania
+3.11.2022   09:05   priv   727662119553728532   Przygotowania   PAW#5844   https://discord.gg/THzRQY5D
+3.11.2022   09:05   priv   727662119553728532   minc-serv-18   SEEN-#5771   
+3.11.2022   09:05   priv   727662119553728532   Przygotowania   PAW#5844   https://youtu.be/n6bWPHpYdbs
+3.11.2022   09:05   priv   727662119553728532   minc-serv-18   SEEN-#5771   
+3.11.2022   09:27   priv   727662119553728532   dc-bot   PAW#5844   Zrobic test ja na mechatronike ale na prawko
+3.11.2022   10:06   priv   727662119553728532   bot   PAW#5844   $help
+3.11.2022   10:06   priv   727662119553728532   bot   SEEN-#5771   
+3.11.2022   12:18   priv   727662119553728532   bot   PAW#5844   $economy help
+3.11.2022   12:18   priv   727662119553728532   bot   PAW#5844   $ecohelp
+3.11.2022   12:19   priv   727662119553728532   bot   PAW#5844   $help!
+3.11.2022   12:19   priv   727662119553728532   bot   SEEN-#5771   
+3.11.2022   12:19   priv   727662119553728532   bot   SEEN-#5771   
+3.11.2022   12:19   priv   727662119553728532   dc-bot   PAW#5844   .
+Dodać $helpeco do helpa
+3.11.2022   12:19   priv   727662119553728532   bot   PAW#5844   $helpeco
+3.11.2022   12:19   priv   727662119553728532   bot   SEEN-#5771   
+3.11.2022   12:21   priv   727662119553728532   bot   PAW#5844   $birthday
+3.11.2022   12:21   priv   727662119553728532   bot   SEEN-#5771   its not correct date
+3.11.2022   12:21   priv   727662119553728532   bot   PAW#5844   $birthday help
+3.11.2022   12:21   priv   727662119553728532   bot   SEEN-#5771   set your birthday date to get extra coins
+            usage: $birthday <month> <day> <year>
+            !!u can change your birthday date only 1 time
+            
+            if you use $daily on your birthday you will get a reward
+3.11.2022   12:22   priv   727662119553728532   bot   PAW#5844   $birthday 02 23 2005
+3.11.2022   12:22   priv   727662119553728532   bot   SEEN-#5771   set
+3.11.2022   12:22   priv   727662119553728532   bot   PAW#5844   $daily
+3.11.2022   12:22   priv   727662119553728532   bot   SEEN-#5771   Odebrałeś już dzisiejszą nagrode. Spróbuj ponownie jutro
+3.11.2022   12:25   priv   727662119553728532   dc-bot   PAW#5844   Zrobić konsole z róźnymi logami np: wiadomości urzytkowników, logi executów, debug itp
+https://stackoverflow.com/questions/20592756/how-to-interact-with-multiple-console-windows
+3.11.2022   12:29   priv   727662119553728532   Consola   PAW#5844   
+3.11.2022   12:29   priv   727662119553728532   Consola   PAW#5844   https://nodejs.org/api/console.html
+3.11.2022   13:53   priv   727662119553728532   ogólny   PAW#5844   https://youtu.be/nu_pCVPKzTk
+3.11.2022   14:15   priv   727662119553728532   ogólny   PAW#5844   https://www.guru99.com/how-to-hack-website.html
+3.11.2022   16:21   priv   727662119553728532   bot   PAW#5844   $ping
+3.11.2022   16:21   priv   727662119553728532   bot   SEEN-#5771   pong!
+3.11.2022   16:23   priv   727662119553728532   bot   PAW#5844   
+3.11.2022   17:25   priv   727662119553728532   bot   PAW#5844   $HELP
+3.11.2022   17:25   priv   727662119553728532   bot   SEEN-#5771   
+3.11.2022   17:53   priv   727662119553728532   bot   PAW#5844   
+3.11.2022   19:37   priv   727662119553728532   bot   PAW#5844   $ping
+3.11.2022   19:38   priv   727662119553728532   bot   SEEN-#5771   pong!
+3.11.2022   19:39   priv   727662119553728532   dc-bot   PAW#5844   dodać komendy tylko na pl:
+np: $valo - daje range valo
+3.11.2022   23:31   priv   727662119553728532   anime   PAW#5844   Tensei Shitara Ken Deshita odc 6
+4.11.2022   07:49   priv   727662119553728532   bot   PAW#5844   $ping
+4.11.2022   07:49   priv   727662119553728532   bot   SEEN-#5771   pong!
+4.11.2022   07:49   priv   727662119553728532   bot   PAW#5844   <@797070806885990431> ping
+4.11.2022   07:49   priv   727662119553728532   bot   SEEN-#5771   pong!
+4.11.2022   07:50   priv   727662119553728532   bot   SEEN-#5771   
+4.11.2022   14:57   priv   727662119553728532   bot   PAW#5844   $ping
+4.11.2022   14:57   priv   727662119553728532   bot   SEEN-#5771   pong!
