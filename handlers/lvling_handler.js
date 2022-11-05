@@ -25,8 +25,12 @@ module.exports = (client) => {
         if (await db2.get(`check.check`) == true) {
             const settings = await db2.get(`lvl_command.worker`)
             const settings_reason = await db2.get(`lvl_command.reason`)
-            if (settings != true) { return message.channel.send(settings_reason) }
+            if (settings != true) { return }//nie wysyłaj powodu wyłączenia przy wbiciu lvl
         }
+
+        //jeżeli nie jest podany kanał id dla lvl: return
+        const lvl_status = await db2.get(`lvls_channel.check`)
+        if(lvl_status != true) return;
 
         let xpAdd = Math.floor(Math.random() * min_xp_per_message) + max_xp_per_message
 
@@ -77,7 +81,10 @@ module.exports = (client) => {
                         let channel = await client.channels.fetch(channel_id)
                       } catch (err) {
                         if (err == "DiscordAPIError: Unknown Channel") {
-                          return message.reply("Probably administration set wrong channel id.\n Use **$settings lvls_channel <channel_ID>**")
+                            const lvl_status = await db2.set(`lvls_channel.check`, false)
+                          return message.reply("Probably administration set wrong channel id.\n Use **$settings lvls_channel <channel_ID> \nlvling channel: deafult**")
+                            //lvling channel = false
+                            
                         } else {
                           return console.log(err)
                         }

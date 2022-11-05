@@ -141,7 +141,7 @@ module.exports = {
                 { name: `mute`, value: `${await db.get(`mute.worker`,)}`, inline: true },
                 { name: `blitz_clan`, value: `${await db.get(`blitz_clan.worker`,)}`, inline: true },
                 { name: `anime_list`, value: `${await db.get(`anime_list.worker`,)}`, inline: true },
-
+                { name: `lvls notifications on?`, value: `${ await db.get(`lvls_channel.check`)}`, inline: true },
 
             )
 

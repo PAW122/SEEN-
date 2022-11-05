@@ -8221,3 +8221,8 @@ np: $valo - daje range valo
 4.11.2022   07:50   priv   727662119553728532   bot   SEEN-#5771   
 4.11.2022   14:57   priv   727662119553728532   bot   PAW#5844   $ping
 4.11.2022   14:57   priv   727662119553728532   bot   SEEN-#5771   pong!
+4.11.2022   15:04   priv   727662119553728532   bot   PAW#5844   dodać komende ktora pozwala mi zapisywać zmiany np welcom mesages bez wysyłanua wiadomości na kanale danego serwera
+5.11.2022   20:27   priv   727662119553728532   bot   PAW#5844   $help
+5.11.2022   20:27   priv   727662119553728532   bot   SEEN-#5771   
+5.11.2022   20:27   priv   727662119553728532   bot   PAW#5844   $srv_set
+5.11.2022   20:27   priv   727662119553728532   bot   SEEN-#5771   

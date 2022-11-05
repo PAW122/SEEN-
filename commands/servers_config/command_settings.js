@@ -143,6 +143,7 @@ module.exports = {
           }
         }
         await db.set(`lvls_channel.channelId`, args[1])
+        await db.set(`lvls_channel.check`, true)
         return message.reply("set")
       }
       /*
