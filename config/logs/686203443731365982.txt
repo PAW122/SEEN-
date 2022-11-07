@@ -328,3 +328,34 @@ bounced4444@gmail.com
 5.11.2022   21:54   ---   686203443731365982   spam   _Bounced#2829   
 5.11.2022   21:55   ---   686203443731365982   spam   _Bounced#2829   
 6.11.2022   15:43   ---   686203443731365982   spam   _Bounced#2829   Rid3rt18890
+7.11.2022   16:06   ---   686203443731365982   next-day   _Bounced#2829   Ustawki acc 102
+7.11.2022   16:06   ---   686203443731365982   next-day   _Bounced#2829   113
+7.11.2022   16:06   ---   686203443731365982   tanks-getting   _Bounced#2829   113
+7.11.2022   16:12   ---   686203443731365982   next-day   _Bounced#2829   121
+7.11.2022   16:16   ---   686203443731365982   next-day   _Bounced#2829   124
+7.11.2022   16:22   ---   686203443731365982   next-day   _Bounced#2829   132
+7.11.2022   16:25   ---   686203443731365982   next-day   _Bounced#2829   135
+7.11.2022   16:25   ---   686203443731365982   tanks-getting   _Bounced#2829   135 - spike
+7.11.2022   17:19   ---   686203443731365982   next-day   _Bounced#2829   144
+7.11.2022   17:32   ---   686203443731365982   next-day   _Bounced#2829   149
+7.11.2022   17:41   ---   686203443731365982   next-day   _Bounced#2829   153
+7.11.2022   17:41   ---   686203443731365982   spam   _Bounced#2829   https://tenor.com/view/discord-discord-mod-dance-discord-moderator-simulator2020-gif-19199899
+7.11.2022   17:49   ---   686203443731365982   next-day   _Bounced#2829   156
+7.11.2022   18:01   ---   686203443731365982   next-day   _Bounced#2829   173 (3 ads)
+7.11.2022   19:42   ---   686203443731365982   tanks-getting   _Bounced#2829   193 - t55a
+7.11.2022   19:45   ---   686203443731365982   tanks-getting   _Bounced#2829   195
+7.11.2022   19:50   ---   686203443731365982   next-day   _Bounced#2829   195
+7.11.2022   19:50   ---   686203443731365982   next-day   _Bounced#2829   198
+7.11.2022   19:55   ---   686203443731365982   next-day   _Bounced#2829   204
+7.11.2022   20:41   ---   686203443731365982   next-day   _Bounced#2829   225
+7.11.2022   20:53   ---   686203443731365982   next-day   _Bounced#2829   226
+7.11.2022   22:42   ---   686203443731365982   next-day   _Bounced#2829   252
+7.11.2022   22:42   ---   686203443731365982   tanks-getting   _Bounced#2829   252 - wz blaze
+7.11.2022   23:51   ---   686203443731365982   spam   _Bounced#2829   V-stats tgtgtgtgtgtgtgtgtg
+7.11.2022   23:51   ---   686203443731365982   spam   Aftermath#0045   Player `tgtgtgtgtgtgtgtgtg` is not tracked by Aftermath, please specify the server to start tracking.
+7.11.2022   23:51   ---   686203443731365982   spam   _Bounced#2829   V-stats tgtgtgtgtgtgtgtgtgtg
+7.11.2022   23:51   ---   686203443731365982   spam   Aftermath#0045   Player `tgtgtgtgtgtgtgtgtgtg` is not tracked by Aftermath, please specify the server to start tracking.
+7.11.2022   23:51   ---   686203443731365982   spam   _Bounced#2829   V-stats tgtgtgtgtgtgtgtgtgtg
+7.11.2022   23:51   ---   686203443731365982   spam   Aftermath#0045   Player `tgtgtgtgtgtgtgtgtgtg` is not tracked by Aftermath, please specify the server to start tracking.
+7.11.2022   23:51   ---   686203443731365982   spam   _Bounced#2829   V-stats tgtgtgtgtgtgtgtgtgtgtg
+7.11.2022   23:51   ---   686203443731365982   spam   Aftermath#0045   

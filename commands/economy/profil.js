@@ -5,9 +5,9 @@ const emoji = config.economy_emoji
 module.exports = {
     name: "profil",
 
-    execute: async (message, args,client) => {
+    execute: async (message, args, client) => {
 
-        if(args[0] == "help") {
+        if (args[0] == "help") {
             return message.reply("use: **$profil** to get your profil informations\n use: **$profil @user** to get someone profil informations")
         }
 
@@ -26,11 +26,11 @@ module.exports = {
         const userId = target.id
         const botId = client.user.id
 
-        if(botId == userId) {
+        if (botId == userId) {
             return message.reply("I have everythink <3");
         }
 
-        if(message.author.id != userId){
+        if (message.author.id != userId) {
             if (await db.get(userId) == null) {
                 return message.reply(`<@${userId}> dont have profil in economy system`)
             }
@@ -43,27 +43,30 @@ module.exports = {
         }
         const coins = await db.get(`${userId}.coins`);
 
-        var eq_check1 = false
-        var eq_check2 = false
-
         //przedmiot vip
         if (await db.get(`${userId}.eq[0]`) == "vip") {
             var eq1 = "vip"
-        }else{
+        } else {
             var eq1 = ""
         }
 
 
         if (await db.get(`${userId}.eq[1]`) == "luckypotion") {
             var eq2 = "luckypotion"
-        }else{
+        } else {
             var eq2 = ""
         }
 
         var eq = `Items: ${eq1}, ${eq2}`
 
+        //ostatnie odebranie daily coinsów:
+        const rok = await db.get(`${userId}.daily_coins[0]`)
+        const month = await db.get(`${userId}.daily_coins[1]`)
+        const day = await db.get(`${userId}.daily_coins[2]`)
 
-        message.reply(`masz ${coins} ${emoji}
+
+        message.reply(`\nposziadasz: ${coins} ${emoji}
+        \nostatnie urzycie daily: ${day}.${month}.${rok}
         \n${eq}`)
     }
 

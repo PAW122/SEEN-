@@ -8227,3 +8227,14 @@ np: $valo - daje range valo
 5.11.2022   20:27   priv   727662119553728532   bot   PAW#5844   $srv_set
 5.11.2022   20:27   priv   727662119553728532   bot   SEEN-#5771   
 6.11.2022   00:30   priv   727662119553728532   ogólny   PAW#5844   https://youtu.be/mIpePYFBKtY
+7.11.2022   21:52   priv   727662119553728532   bot   PAW#5844   $profil <@438336824516149249>
+7.11.2022   21:52   priv   727662119553728532   bot   SEEN-#5771   masz 1676 💵
+        
+Items: ,
+7.11.2022   21:52   priv   727662119553728532   bot   SEEN-#5771   posziadasz: 1676 💵
+
+        ostatnie urzycie daily: 19.11.2022
+        
+Items: ,
+7.11.2022   23:35   priv   727662119553728532   ogólny   PAW#5844   
+7.11.2022   23:36   priv   727662119553728532   ogólny   PAW#5844   
