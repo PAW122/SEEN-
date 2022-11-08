@@ -8238,3 +8238,7 @@ Items: ,
 Items: ,
 7.11.2022   23:35   priv   727662119553728532   ogólny   PAW#5844   
 7.11.2022   23:36   priv   727662119553728532   ogólny   PAW#5844   
+8.11.2022   09:20   priv   727662119553728532   bot   PAW#5844   $daily
+8.11.2022   09:20   priv   727662119553728532   bot   SEEN-#5771   Odebrałeś już dzisiejszą nagrode. Spróbuj ponownie jutro
+8.11.2022   09:21   priv   727662119553728532   bot   PAW#5844   $help
+8.11.2022   09:21   priv   727662119553728532   bot   SEEN-#5771   
