@@ -26,7 +26,7 @@ const embed_pl = new Discord.MessageEmbed()
         "``srv_set ``"+","+"``srv_logs``"+","+"``automod ``", inline: false },
 
         { name: `***💵economy***`, value: 
-        "``daily``"+","+"``profil``"+","+"``weekly``"+","+"``roll``"+","+"``shop``"+","+"``pvp``"+","+"``pay``"+","+"``add``"+","+"``birthday``"+","+"``bank``", inline: false },
+        "``helpeco``"+","+"``daily``"+","+"``profil``"+","+"``weekly``"+","+"``roll``"+","+"``shop``"+","+"``pvp``"+","+"``pay``"+","+"``add``"+","+"``birthday``"+","+"``bank``", inline: false },
 
         { name: `***🤯reactions***`, value: 
         "``reactions help``"+","+"``angry``"+","+"``eat``"+","+"``happy``"+","+"``kill``"+","+"``love``"+","+"``run``"+","+"``scarry``"+","+"``sleep``", inline: false },
