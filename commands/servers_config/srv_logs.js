@@ -57,6 +57,10 @@ module.exports = {
             return message.channel.send({ embeds: [embed_pl] });
         }
 
+        if(!args[0]) {
+            return message.channel.send("try use: **$srv_logs help**");
+        }
+
 
         if (!message.member.permissions.has("ADMINISTRATOR")) {
             return message.channel.send("You don't have admin authorization")
