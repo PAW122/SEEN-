@@ -29,7 +29,7 @@ const embed_pl = new Discord.MessageEmbed()
         },
         {
             name: `$settings prefix`,
-            value: `allows you to change the prefix for the server
+            value: `allows you to change the prefix for the server (max 10 characters)
 
          usage: $settings prefix <your prefix>
          example: $settings prefix $`, inline: false

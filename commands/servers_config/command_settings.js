@@ -9,7 +9,6 @@ module.exports = {
   name: "settings",
 
   execute: async (message, args, client) => {
-    console.log("test1")
     const guildId = message.guild.id
     const db = new QuickDB({ filePath: process.cwd() + `/db/srv_settings/commands/${guildId}.sqlite` });
 
@@ -45,20 +44,25 @@ module.exports = {
       }
 
       if (args[0] == "prefix") {
-        await db.set(`prefix.check`, args[1])
+        const new_prefix = args[1]
+        if(new_prefix.length() < 10) {
+          return message.reply("Bot prefix cant have more then 10 characters")
+        }
+        await db.set(`prefix.check`, new_prefix)
         const guild_id = message.guild.id
         try {
-          updateNickname(guild_id, args[1])
+          updateNickname(guild_id, new_prefix)
         } catch (err) {
           console.log(err)
         }
-        return message.reply("set")
+        return message.reply(`set prefix to: **${new_prefix}**`)
       }
 
       if (args[0] == "welcome_messages") {
         if (!args[1]) {
           return message.reply("you didn't enter an argument\n $srv_set to get help commands \n $srv_set list -- to get commands status")
         }
+        if(isNan(args[1])) return message.reply("bad channel id")
         try {
           let channel = await client.channels.fetch(args[1])
         } catch (err) {
@@ -69,7 +73,7 @@ module.exports = {
           }
         }
         await db.set(`welcome.channelId`, args[1])
-        return message.reply("set")
+        return message.reply(`set welcome_messages channel id to: **${args[1]}**`)
 
       }
 
@@ -91,7 +95,7 @@ module.exports = {
 
         await db.set(`welocme_content`, welocme_content)
         await db.set(`welocme_content_check`, true)
-        return message.reply("set")
+        return message.reply(`set welcome_msg_content to: **${welocme_content}**`)
 
       }
 
@@ -123,7 +127,7 @@ module.exports = {
         //await db.set(`tickets`, { settings: ["null", "null"] })
         await db.set(`tickets.settings`, [args[1], args[2]])
         //<channel id for users> 
-        return message.reply("set")
+        return message.reply(`set ticket:\n users Channel: ${args[1]}\n administration channel: ${args[2]}`)
       }
 
       if (args[0] == "lvls_channel") {
@@ -144,7 +148,7 @@ module.exports = {
         }
         await db.set(`lvls_channel.channelId`, args[1])
         await db.set(`lvls_channel.check`, true)
-        return message.reply("set")
+        return message.reply(`set lvl channel: <#${args[1]}>`)
       }
       /*
             if(args[0] == "mod_logs"){
