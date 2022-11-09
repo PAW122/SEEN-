@@ -8242,3 +8242,21 @@ Items: ,
 8.11.2022   09:20   priv   727662119553728532   bot   SEEN-#5771   Odebrałeś już dzisiejszą nagrode. Spróbuj ponownie jutro
 8.11.2022   09:21   priv   727662119553728532   bot   PAW#5844   $help
 8.11.2022   09:21   priv   727662119553728532   bot   SEEN-#5771   
+8.11.2022   17:25   priv   727662119553728532   ogólny   PAW#5844   750bitew na 252u
+8.11.2022   17:25   priv   727662119553728532   ogólny   PAW#5844   125zł
+8.11.2022   17:25   priv   727662119553728532   ogólny   PAW#5844   + później 125zł za 750 bitew na sharku
+8.11.2022   17:45   priv   727662119553728532   ogólny   PAW#5844   35-3:50
+8.11.2022   18:14   priv   727662119553728532   ogólny   PAW#5844   msi gs 63vr 7rg stelt pto 7700hq qtx70 8G ram 16
+8.11.2022   18:49   priv   727662119553728532   bot   PAW#5844   $helpeco
+8.11.2022   18:49   priv   727662119553728532   bot   SEEN-#5771   
+8.11.2022   18:57   priv   727662119553728532   bot   PAW#5844   $help
+8.11.2022   18:57   priv   727662119553728532   bot   SEEN-#5771   
+8.11.2022   18:57   priv   727662119553728532   bot   PAW#5844   $srv_set
+8.11.2022   18:57   priv   727662119553728532   bot   SEEN-#5771   
+9.11.2022   16:43   priv   727662119553728532   anime   PAW#5844   Chainsaw Man - 5
+9.11.2022   17:59   priv   727662119553728532   dc-bot   PAW#5844   dodać komende notatki: zapisuje 10 ostatnich notatek, jeżeli wszystkie 10 slotów zostanie zajęte bot nadpisuje pierwszą notatke
+9.11.2022   19:13   priv   727662119553728532   bot   PAW#5844   .
+9.11.2022   19:28   priv   727662119553728532   bot   PAW#5844   >ping
+9.11.2022   19:28   priv   727662119553728532   minc-serv-18   SEEN-#5771   
+10.11.2022   00:21   priv   727662119553728532   anime   PAW#5844   Kannagi
+ Odcinek 3

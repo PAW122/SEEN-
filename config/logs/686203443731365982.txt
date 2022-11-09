@@ -391,3 +391,4 @@ mathu_1@interia.pl
 8.11.2022   06:38   ---   686203443731365982   next-day   _Bounced#2829   ustawki.acc79@jebac.hub.pl
 8.11.2022   06:40   ---   686203443731365982   next-day   _Bounced#2829   ustawki.acc81@vip.interia.pl
 8.11.2022   06:45   ---   686203443731365982   next-day   _Bounced#2829   ustawki.acc86@vip.interia.pl
+8.11.2022   16:55   ---   686203443731365982   next-day   _Bounced#2829   phantom_and_fury@interia.pl
