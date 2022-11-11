@@ -208,6 +208,8 @@ module.exports = {
             }
 
             return message.reply("w trakcie prac");
+            //ma pokazywać po 5 ostatnich zagranych meczy +
+            //zrobić coś ala premium i będzie pokazywał 25 ostatnich meczy
         }
 
         async function get_article() {
