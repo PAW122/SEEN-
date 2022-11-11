@@ -8262,3 +8262,127 @@ Items: ,
  Odcinek 3
 10.11.2022   00:47   priv   727662119553728532   anime   PAW#5844   serei gensouki  - do sprawdzenia
 10.11.2022   01:19   priv   727662119553728532   anime   PAW#5844   Yichang shengwu
+10.11.2022   21:51   priv   727662119553728532   bot   PAW#5844   $valo mrr PAW1172016 EUNE
+10.11.2022   21:52   priv   727662119553728532   bot   PAW#5844   $valo mrr PAW1172016 EUNE
+10.11.2022   21:53   priv   727662119553728532   bot   PAW#5844   $valo mrr PAW1172016 EUNE
+10.11.2022   21:54   priv   727662119553728532   bot   PAW#5844   $valo mrr PAW1172016 EUNE
+10.11.2022   21:55   priv   727662119553728532   bot   PAW#5844   $valo mrr PAW1172016 EUNE
+10.11.2022   21:56   priv   727662119553728532   bot   PAW#5844   $valo mrr PAW1172016 EUNE
+10.11.2022   21:57   priv   727662119553728532   bot   PAW#5844   $valo mrr PAW1172016 EUNE
+10.11.2022   21:58   priv   727662119553728532   bot   PAW#5844   $valo mrr PAW1172016 EUNE
+10.11.2022   21:58   priv   727662119553728532   bot   PAW#5844   $valo mrr PAW1172016 EUNE
+10.11.2022   21:58   priv   727662119553728532   bot   PAW#5844   $valo mrr PAW1172016 EUNE
+10.11.2022   22:04   priv   727662119553728532   bot   PAW#5844   $valo mrr PAW1172016 EUNE
+10.11.2022   22:04   priv   727662119553728532   bot   PAW#5844   $valo mrr PAW1172016 EUNE
+10.11.2022   22:05   priv   727662119553728532   bot   PAW#5844   $valo mrr PAW1172016 EUNE
+10.11.2022   22:05   priv   727662119553728532   bot   PAW#5844   $valo mrr PAW1172016 EUNE
+10.11.2022   22:06   priv   727662119553728532   bot   PAW#5844   $valo mrr PAW1172016 EUNE
+10.11.2022   22:06   priv   727662119553728532   bot   PAW#5844   $valo mrr PAW1172016 EUNE
+10.11.2022   22:06   priv   727662119553728532   bot   PAW#5844   $valo mrr PAW1172016 EUNE
+10.11.2022   22:07   priv   727662119553728532   bot   PAW#5844   $valo mrr PAW1172016 EUNE
+10.11.2022   22:08   priv   727662119553728532   bot   PAW#5844   $valo mrr PAW1172016 EUNE
+10.11.2022   22:09   priv   727662119553728532   bot   PAW#5844   $valo mrr PAW1172016 EUNE
+10.11.2022   22:11   priv   727662119553728532   bot   PAW#5844   $valo mrr PAW1172016 EUNE
+10.11.2022   22:11   priv   727662119553728532   bot   PAW#5844   $valo mrr PAW1172016 EUNE
+10.11.2022   22:12   priv   727662119553728532   bot   PAW#5844   $valo mrr PAW1172016 EUNE
+10.11.2022   22:12   priv   727662119553728532   bot   PAW#5844   $valo mrr PAW1172016 EUNE
+10.11.2022   22:13   priv   727662119553728532   bot   PAW#5844   $valo mrr PAW1172016 EUNE
+10.11.2022   22:14   priv   727662119553728532   bot   PAW#5844   $valo mrr PAW1172016 EUNE
+10.11.2022   22:14   priv   727662119553728532   bot   PAW#5844   $valo mrr PAW1172016 EUNE
+10.11.2022   22:14   priv   727662119553728532   bot   PAW#5844   $valo mrr PAW1172016 EUNE
+10.11.2022   22:14   priv   727662119553728532   bot   SEEN-#5771   
+10.11.2022   22:22   priv   727662119553728532   bot   PAW#5844   $valo mrr PAW1172016 EUNE
+10.11.2022   22:22   priv   727662119553728532   bot   SEEN-#5771   
+10.11.2022   22:22   priv   727662119553728532   bot   PAW#5844   $valo mrr PAW1172016 EUNa
+10.11.2022   22:23   priv   727662119553728532   bot   PAW#5844   $valo mrr PAW1172016 EUNa
+10.11.2022   22:23   priv   727662119553728532   bot   SEEN-#5771   Bad informations
+10.11.2022   22:27   priv   727662119553728532   bot   PAW#5844   $help valo
+10.11.2022   22:27   priv   727662119553728532   bot   SEEN-#5771   
+10.11.2022   22:27   priv   727662119553728532   bot   PAW#5844   $valo help
+10.11.2022   22:27   priv   727662119553728532   bot   SEEN-#5771   
+10.11.2022   22:27   priv   727662119553728532   minc-serv-18   SEEN-#5771   
+10.11.2022   22:27   priv   727662119553728532   minc-serv-18   SEEN-#5771   
+10.11.2022   22:28   priv   727662119553728532   bot   PAW#5844   $valo mrrHistory PAW1172016 EUNE
+10.11.2022   22:28   priv   727662119553728532   bot   PAW#5844   $valo mrrHistory PAW1172016 EUNE
+10.11.2022   22:28   priv   727662119553728532   bot   PAW#5844   $valo mrrHistory PAW1172016 EUNE
+10.11.2022   22:47   priv   727662119553728532   bot   PAW#5844   $valo mrrHistory PAW1172016 EUNE
+10.11.2022   22:51   priv   727662119553728532   bot   PAW#5844   $valo mrrHistory PAW1172016 EUNE
+10.11.2022   22:52   priv   727662119553728532   bot   SEEN-#5771   
+10.11.2022   22:54   priv   727662119553728532   bot   PAW#5844   $valo mrrHistory PAW1172016 EUNE
+10.11.2022   22:54   priv   727662119553728532   bot   SEEN-#5771   
+10.11.2022   23:03   priv   727662119553728532   bot   PAW#5844   $valo help
+10.11.2022   23:03   priv   727662119553728532   bot   SEEN-#5771   
+10.11.2022   23:03   priv   727662119553728532   bot   PAW#5844   $valo leaderboard eu
+10.11.2022   23:03   priv   727662119553728532   bot   SEEN-#5771   Bad informations. Check nickname and tagline.
+ try use $valo help
+10.11.2022   23:05   priv   727662119553728532   bot   PAW#5844   $valo leaderboard eu
+10.11.2022   23:05   priv   727662119553728532   bot   SEEN-#5771   Bad informations. Check nickname and tagline.
+ try use $valo help
+10.11.2022   23:06   priv   727662119553728532   bot   PAW#5844   $valo leaderboard eu
+10.11.2022   23:06   priv   727662119553728532   bot   SEEN-#5771   Bad informations. Check nickname and tagline.
+ try use $valo help
+10.11.2022   23:06   priv   727662119553728532   bot   PAW#5844   $valo leaderboard eu
+10.11.2022   23:06   priv   727662119553728532   bot   SEEN-#5771   Bad informations. Check nickname and tagline.
+ try use $valo help
+10.11.2022   23:10   priv   727662119553728532   minc-serv-18   PAW#5844   $lvl
+10.11.2022   23:10   priv   727662119553728532   minc-serv-18   SEEN-#5771   
+10.11.2022   23:10   priv   727662119553728532   bot   PAW#5844   $valo help
+10.11.2022   23:10   priv   727662119553728532   bot   SEEN-#5771   
+10.11.2022   23:10   priv   727662119553728532   minc-serv-18   PAW#5844   $lvl
+10.11.2022   23:10   priv   727662119553728532   minc-serv-18   SEEN-#5771   
+10.11.2022   23:11   priv   727662119553728532   bot   PAW#5844   $valo server_status
+10.11.2022   23:12   priv   727662119553728532   bot   PAW#5844   $valo server_status
+10.11.2022   23:12   priv   727662119553728532   bot   PAW#5844   $valo server_status
+10.11.2022   23:31   priv   727662119553728532   bot   PAW#5844   $valo help
+10.11.2022   23:31   priv   727662119553728532   bot   SEEN-#5771   
+10.11.2022   23:31   priv   727662119553728532   bot   PAW#5844   $get_article game_updates
+10.11.2022   23:32   priv   727662119553728532   bot   PAW#5844   $valo get_article game_updates
+10.11.2022   23:38   priv   727662119553728532   bot   PAW#5844   $valo get_article game_updates
+10.11.2022   23:38   priv   727662119553728532   bot   SEEN-#5771   
+10.11.2022   23:38   priv   727662119553728532   bot   PAW#5844   $valo help
+10.11.2022   23:38   priv   727662119553728532   bot   SEEN-#5771   
+10.11.2022   23:41   priv   727662119553728532   bot   PAW#5844   $valo mrr PAW1172016 EUNE
+10.11.2022   23:42   priv   727662119553728532   bot   PAW#5844   $valo mrr PAW1172016 EUNE
+10.11.2022   23:52   priv   727662119553728532   bot   PAW#5844   $valo mrr PAW1172016 EUNE
+10.11.2022   23:52   priv   727662119553728532   bot   PAW#5844   $valo mmr PAW1172016 EUNE
+10.11.2022   23:52   priv   727662119553728532   bot   SEEN-#5771   
+10.11.2022   23:53   priv   727662119553728532   bot   PAW#5844   $valo mmr PAW1172016 EUNE
+10.11.2022   23:57   priv   727662119553728532   bot   PAW#5844   $valo mmr PAW1172016 EUNE
+10.11.2022   23:57   priv   727662119553728532   bot   SEEN-#5771   
+10.11.2022   23:58   priv   727662119553728532   bot   PAW#5844   \🎮
+10.11.2022   23:59   priv   727662119553728532   bot   PAW#5844   $valo help
+10.11.2022   23:59   priv   727662119553728532   bot   SEEN-#5771   
+11.11.2022   01:41   priv   727662119553728532   bot   PAW#5844   $help
+11.11.2022   01:41   priv   727662119553728532   bot   SEEN-#5771   
+11.11.2022   01:41   priv   727662119553728532   bot   PAW#5844   $valo get_article
+11.11.2022   01:41   priv   727662119553728532   bot   SEEN-#5771   you dont specify article type. 
+ use **$valo help** to get more informations how use this command
+11.11.2022   01:41   priv   727662119553728532   minc-serv-18   SEEN-#5771   
+11.11.2022   01:42   priv   727662119553728532   minc-serv-18   SEEN-#5771   
+11.11.2022   01:42   priv   727662119553728532   bot   PAW#5844   $valo help
+11.11.2022   01:42   priv   727662119553728532   bot   SEEN-#5771   
+11.11.2022   01:42   priv   727662119553728532   bot   PAW#5844   $help
+11.11.2022   01:42   priv   727662119553728532   bot   SEEN-#5771   
+11.11.2022   01:42   priv   727662119553728532   bot   PAW#5844   $srv_set
+11.11.2022   01:42   priv   727662119553728532   bot   SEEN-#5771   
+11.11.2022   01:43   priv   727662119553728532   bot   PAW#5844   $srv_set list
+11.11.2022   01:43   priv   727662119553728532   bot   SEEN-#5771   
+11.11.2022   01:43   priv   727662119553728532   bot   SEEN-#5771   
+11.11.2022   01:43   priv   727662119553728532   bot   PAW#5844   $settings lvls notifications on
+11.11.2022   01:43   priv   727662119553728532   bot   PAW#5844   $settings lvls_notifications on
+11.11.2022   01:43   priv   727662119553728532   bot   PAW#5844   $settings lvls_channel 923300408372396032
+11.11.2022   01:43   priv   727662119553728532   bot   SEEN-#5771   set lvl channel: <#923300408372396032>
+11.11.2022   01:43   priv   727662119553728532   minc-serv-18   PAW#5844   cos
+11.11.2022   01:43   priv   727662119553728532   minc-serv-18   PAW#5844   $lvl
+11.11.2022   01:43   priv   727662119553728532   minc-serv-18   SEEN-#5771   
+11.11.2022   01:43   priv   727662119553728532   minc-serv-18   PAW#5844   cos2
+11.11.2022   01:43   priv   727662119553728532   minc-serv-18   PAW#5844   $lvl
+11.11.2022   01:43   priv   727662119553728532   minc-serv-18   SEEN-#5771   
+11.11.2022   01:45   priv   727662119553728532   bot   PAW#5844   $srv_set list
+11.11.2022   01:45   priv   727662119553728532   bot   SEEN-#5771   
+11.11.2022   01:45   priv   727662119553728532   bot   SEEN-#5771   
+11.11.2022   01:50   priv   727662119553728532   bot   PAW#5844   $lvl help
+11.11.2022   01:50   priv   727662119553728532   minc-serv-18   SEEN-#5771   
+11.11.2022   01:50   priv   727662119553728532   bot   SEEN-#5771   
+11.11.2022   01:50   priv   727662119553728532   bot   PAW#5844   $lvl help
+11.11.2022   01:50   priv   727662119553728532   bot   SEEN-#5771   
