@@ -31,12 +31,14 @@ const embed_pl = new Discord.MessageEmbed()
         { name: `***🤯reactions***`, value: 
         "``reactions help``"+","+"``angry``"+","+"``eat``"+","+"``happy``"+","+"``kill``"+","+"``love``"+","+"``run``"+","+"``scarry``"+","+"``sleep``", inline: false },
 
+        { name: `***🎮Valorant***`, value:
+        "``valo help``" + "," + "``valo mmr``" + "," + "``valo mmr history``" + "," + "``valo get_article``" + "," + "``valo last mathces``", inline: false },
+        
         { name: `***🆘Support***`, value: 
         "``contact``"+","+"``report``", inline: false },
 
         { name: `***🧠Quiz***`, value:
         "``mechatronic``", inline: false }
-        
     )
 module.exports = {
     name: `help`,
