@@ -20,6 +20,7 @@ module.exports = {
     executeInteraction: async (inter) => {
 
 
+
         const authorId = inter.user.id
         //load server settings
         const guildId = inter.guild.id
@@ -66,6 +67,19 @@ module.exports = {
     execute: async (message, args, client) => {
         const guildId = message.guild.id
         const authorId = message.author.id
+
+        if(args[0] == "help") {
+            const embed_pl = new Discord.MessageEmbed()
+            .setColor(`BLUE`)//PL
+            .setTitle("lvling system error explain")
+            .addFields(
+                { name: `show your lvl:`, value: `.`, inline: false },
+                { name: `wchy my lvl dont working:`, value: `if you send messages and your lvl dont incrise use **$srv_set list** and check is __lvls notifications on?__ is true. If not use **$$settings lvls_channel <channelId>.\n wchy __lvls notifications on?__ changing automatic on false?: when you set wrong channel id bot automaticly turn off lvl notifications and stop counting next message as administration dont set good channel id`, inline: false },
+
+            )
+            .setFooter(message.author.tag, message.author.avatarURL({ dynamic: true }));
+        return message.channel.send({ embeds: [embed_pl] });
+        }
 
         //worker
         const db2 = new QuickDB({ filePath: process.cwd() + `/db/srv_settings/commands/${guildId}.sqlite` });
