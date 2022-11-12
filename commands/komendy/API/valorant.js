@@ -33,7 +33,7 @@ module.exports = {
 
         async function mmr() {
             const link = `https://api.henrikdev.xyz/valorant/v1/account/${nickname}/${tagline}`
-            console.log(link)
+            //console.log(link)
             const response = await axios.get(link)
                 .catch(err => {
                     console.log(err)
@@ -76,7 +76,7 @@ module.exports = {
 
         async function mmr_History() {
             const link = `https://api.henrikdev.xyz/valorant/v1/account/${nickname}/${tagline}`
-            console.log(link)
+            //console.log(link)
             const response = await axios.get(link)
                 .catch(err => {
                     console.log(err)
@@ -222,7 +222,7 @@ module.exports = {
 
 
             const link = `https://api.henrikdev.xyz/valorant/v1/website/en-us?filter=${type}`
-            console.log(link)
+            //console.log(link)
             const response = await axios.get(link)
                 .catch(err => {
                     console.log(err)
