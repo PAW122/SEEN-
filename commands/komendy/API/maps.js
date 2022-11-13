@@ -15,7 +15,7 @@ module.exports = (message, args, client) => {
     async function main() {
 
         if (!args[1]) {
-            return message.reply("type map name. usage: $valo maps <map name>\n **$valo maps Ascent**\n use **$valo maps list** to get map list")
+            return message.reply("type map name. usage: $valo maps <map name>\n example: **$valo maps Ascent**\n use **$valo maps list** to get map list")
         }
 
         if (args[1] == "list") {
@@ -58,7 +58,6 @@ module.exports = (message, args, client) => {
         }).catch(err => {
             console.log(err);
         })
-
     }
     main()
 }

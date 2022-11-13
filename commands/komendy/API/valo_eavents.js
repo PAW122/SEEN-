@@ -3,7 +3,7 @@ const Discord = require("discord.js");
 
 module.exports = (message,args,client) => {
     async function main(){
-
+        message.react("✅")
         const link = `https://valorant-api.com/v1/events`
         const res = axios.get(link).then(res => {
             try{

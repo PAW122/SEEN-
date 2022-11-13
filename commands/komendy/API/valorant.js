@@ -280,7 +280,13 @@ module.exports = {
 
         async function get_article() {
             message.react("✅")
-            if (!args[1]) return message.reply("you dont specify article type. \n use **$valo help** to get more informations how use this command")
+
+            if(args[1] == "list") {
+                return message.reply(`__game_updates__ , __dev__ , __esports__ , __announcments__`)
+            }
+
+
+            if (!args[1]) return message.reply("you dont specify article type. \n usage: **$valo get_article <artcile type>**\n example: **$valo get_article game_updates**\n use **$valo get_article list** to get list with all article types")
             const type = args[1]
             if (type != "game_updates" && type != "dev" && type != "esports" && type != "announcments") {
                 return message.reply("you dont specify article type. \n use **$valo help** to get more informations how use this command")
@@ -295,7 +301,7 @@ module.exports = {
                 })
 
             if (response.data.status == 429) { return message.reply("the bot has reached the maximum number of queries sent. Please try in a few minutes") }
-            if (!response || response.data.status != 200) return message.reply("Bad informations. Check nickname and tagline.\n try use $valo help")
+            if (!response || response.data.status != 200) return message.reply("Bad informations. Check nickname and tagline.\n try use $valo help \n")
 
             const one = response.data.data[0]
             const two = response.data.data[1]
