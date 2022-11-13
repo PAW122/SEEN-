@@ -7,6 +7,11 @@ const Discord = require('discord.js');
 const { SlashCommandBuilder } = require('@discordjs/builders');
 const { Permissions: { FLAGS } } = require('discord.js');
 const { QuickDB } = require("quick.db");
+
+//do cooldowna \/
+const talkedRecently = new Set();
+const cooldown = 60000
+
 //$clear
 //$clear help
 //$clear help en
@@ -23,11 +28,11 @@ module.exports = {
 
     data: new SlashCommandBuilder()
         .setName('clear')
-        .setDescription('wysyła liste anime obejrzanych przez autora bota')
+        .setDescription('del amount of messages')
         .addNumberOption((option) =>
             option
                 .setName("messages")
-                .setDescription("jak dużo wiadomości chcesz usunąć?")
+                .setDescription("how many messages u wana delete?")
                 .setRequired(true)
         ),
     executeInteraction: async (inter) => {
@@ -46,6 +51,20 @@ module.exports = {
                 const settings = await db.get(`clear.worker`)
                 const settings_reason = await db.get(`clear.reason`)
                 if (settings == false) { return message.channel.send(settings_reason) }
+            }
+
+            //do cooldowna
+            if (talkedRecently.has(inter.user.id)) {
+               return inter.reply("Wait 1 minute before getting typing this again. - <@" + inter.user.id + ">");
+            } else {
+
+                // the user can type the command ... your command code goes here :)
+                // Adds the user to the set so that they can't talk for a minute
+                talkedRecently.add(inter.user.id);
+                setTimeout(() => {
+                    // Removes the user from the set after a minute
+                    talkedRecently.delete(inter.user.id);
+                }, cooldown);
             }
 
             const to_delete = inter.options.getNumber('messages')
@@ -118,6 +137,20 @@ module.exports = {
                 message.channel.send({ embeds: [embed_pl] });
             }
         } else {
+
+            //do cooldowna
+            if (talkedRecently.has(message.author.id)) {
+                return message.channel.send("Wait 1 minute before getting typing this again. - <@" + message.author + ">");
+            } else {
+
+                // the user can type the command ... your command code goes here :)
+                // Adds the user to the set so that they can't talk for a minute
+                talkedRecently.add(message.author.id);
+                setTimeout(() => {
+                    // Removes the user from the set after a minute
+                    talkedRecently.delete(message.author.id);
+                }, cooldown);
+            }
 
             if (message.deletable) {
                 message.delete();
