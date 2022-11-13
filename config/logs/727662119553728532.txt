@@ -8504,3 +8504,74 @@ Items: ,
 12.11.2022   23:43   priv   727662119553728532   bot   SEEN-#5771   
 12.11.2022   23:43   priv   727662119553728532   minc-serv-18   SEEN-#5771   
 13.11.2022   03:04   priv   727662119553728532   dc-bot   PAW#5844   Zrobic dlashe do valo commands
+13.11.2022   14:55   priv   727662119553728532   bot   SEEN-#5771   
+13.11.2022   18:55   priv   727662119553728532   ogólny   PAW#5844   mail tojsowej
+tczprojektyzst@gmail.com
+13.11.2022   18:55   priv   727662119553728532   ogólny   PAW#5844   
+13.11.2022   18:55   priv   727662119553728532   minc-serv-18   SEEN-#5771   
+13.11.2022   22:39   priv   727662119553728532   anime   PAW#5844   Fuufu Ijou, Koibito Miman - ODC6
+13.11.2022   23:11   priv   727662119553728532   piniondz   PAW#5844   $clear 100
+13.11.2022   23:12   priv   727662119553728532   piniondz   PAW#5844   $clear 100
+13.11.2022   23:12   priv   727662119553728532   piniondz   SEEN-#5771   Usunąłem 100 wiadomości
+13.11.2022   23:12   priv   727662119553728532   piniondz   PAW#5844   $clear 100
+13.11.2022   23:12   priv   727662119553728532   minc-serv-18   SEEN-#5771   
+13.11.2022   23:12   priv   727662119553728532   piniondz   SEEN-#5771   Usunąłem 100 wiadomości
+13.11.2022   23:12   priv   727662119553728532   piniondz   PAW#5844   $clear 100
+13.11.2022   23:12   priv   727662119553728532   minc-serv-18   SEEN-#5771   
+13.11.2022   23:12   priv   727662119553728532   piniondz   SEEN-#5771   coś poszło nie tak: DiscordAPIError: Unknown Message
+13.11.2022   23:12   priv   727662119553728532   piniondz   PAW#5844   $clear 100
+13.11.2022   23:12   priv   727662119553728532   minc-serv-18   SEEN-#5771   
+13.11.2022   23:12   priv   727662119553728532   minc-serv-18   SEEN-#5771   
+13.11.2022   23:12   priv   727662119553728532   piniondz   SEEN-#5771   Usunąłem 100 wiadomości
+13.11.2022   23:12   priv   727662119553728532   minc-serv-18   SEEN-#5771   
+13.11.2022   23:12   priv   727662119553728532   piniondz   SEEN-#5771   Usunąłem 100 wiadomości
+13.11.2022   23:15   priv   727662119553728532   piniondz   PAW#5844   $clear 100
+13.11.2022   23:15   priv   727662119553728532   piniondz   SEEN-#5771   Usunąłem 100 wiadomości
+13.11.2022   23:15   priv   727662119553728532   minc-serv-18   SEEN-#5771   
+13.11.2022   23:16   priv   727662119553728532   piniondz   PAW#5844   $clear 100
+13.11.2022   23:16   priv   727662119553728532   piniondz   SEEN-#5771   Usunąłem 100 wiadomości
+13.11.2022   23:16   priv   727662119553728532   minc-serv-18   SEEN-#5771   
+13.11.2022   23:16   priv   727662119553728532   piniondz   PAW#5844   $clear 100
+13.11.2022   23:16   priv   727662119553728532   piniondz   SEEN-#5771   Wait 1 minute before getting typing this again. - 438336824516149249
+13.11.2022   23:16   priv   727662119553728532   minc-serv-18   SEEN-#5771   
+13.11.2022   23:16   priv   727662119553728532   piniondz   SEEN-#5771   Usunąłem 100 wiadomości
+13.11.2022   23:16   priv   727662119553728532   minc-serv-18   SEEN-#5771   
+13.11.2022   23:16   priv   727662119553728532   piniondz   PAW#5844   $clear 100
+13.11.2022   23:16   priv   727662119553728532   piniondz   SEEN-#5771   Wait 1 minute before getting typing this again. - 438336824516149249
+13.11.2022   23:16   priv   727662119553728532   minc-serv-18   SEEN-#5771   
+13.11.2022   23:16   priv   727662119553728532   piniondz   SEEN-#5771   Usunąłem 100 wiadomości
+13.11.2022   23:16   priv   727662119553728532   piniondz   PAW#5844   $clear 100
+13.11.2022   23:16   priv   727662119553728532   piniondz   SEEN-#5771   Wait 1 minute before getting typing this again. - 438336824516149249
+13.11.2022   23:16   priv   727662119553728532   minc-serv-18   SEEN-#5771   
+13.11.2022   23:16   priv   727662119553728532   piniondz   SEEN-#5771   Usunąłem 100 wiadomości
+13.11.2022   23:17   priv   727662119553728532   piniondz   PAW#5844   $clear 100
+13.11.2022   23:17   priv   727662119553728532   piniondz   SEEN-#5771   Usunąłem 100 wiadomości
+13.11.2022   23:17   priv   727662119553728532   minc-serv-18   SEEN-#5771   
+13.11.2022   23:17   priv   727662119553728532   piniondz   PAW#5844   $clear 100
+13.11.2022   23:17   priv   727662119553728532   piniondz   SEEN-#5771   Wait 1 minute before getting typing this again. - <@438336824516149249>
+13.11.2022   23:17   priv   727662119553728532   piniondz   SEEN-#5771   Usunąłem 100 wiadomości
+13.11.2022   23:17   priv   727662119553728532   minc-serv-18   SEEN-#5771   
+13.11.2022   23:17   priv   727662119553728532   minc-serv-18   SEEN-#5771   
+13.11.2022   23:17   priv   727662119553728532   piniondz   PAW#5844   $clear 100
+13.11.2022   23:17   priv   727662119553728532   piniondz   SEEN-#5771   Wait 1 minute before getting typing this again. - <@438336824516149249>
+13.11.2022   23:17   priv   727662119553728532   minc-serv-18   SEEN-#5771   
+13.11.2022   23:17   priv   727662119553728532   piniondz   SEEN-#5771   Usunąłem 100 wiadomości
+13.11.2022   23:17   priv   727662119553728532   piniondz   PAW#5844   $clear 100
+13.11.2022   23:17   priv   727662119553728532   minc-serv-18   SEEN-#5771   
+13.11.2022   23:17   priv   727662119553728532   minc-serv-18   SEEN-#5771   
+13.11.2022   23:17   priv   727662119553728532   piniondz   SEEN-#5771   Usunąłem 100 wiadomości
+13.11.2022   23:17   priv   727662119553728532   piniondz   PAW#5844   $clear 100
+13.11.2022   23:17   priv   727662119553728532   piniondz   SEEN-#5771   Wait 1 minute before getting typing this again. - <@438336824516149249>
+13.11.2022   23:17   priv   727662119553728532   piniondz   PAW#5844   $clear 100
+13.11.2022   23:17   priv   727662119553728532   piniondz   SEEN-#5771   Wait 1 minute before getting typing this again. - <@438336824516149249>
+13.11.2022   23:17   priv   727662119553728532   piniondz   PAW#5844   $clear 100
+13.11.2022   23:17   priv   727662119553728532   piniondz   SEEN-#5771   Wait 1 minute before getting typing this again. - <@438336824516149249>
+13.11.2022   23:18   priv   727662119553728532   piniondz   PAW#5844   $clear 100
+13.11.2022   23:18   priv   727662119553728532   piniondz   SEEN-#5771   Usunąłem 100 wiadomości
+13.11.2022   23:18   priv   727662119553728532   minc-serv-18   SEEN-#5771   
+13.11.2022   23:18   priv   727662119553728532   piniondz   PAW#5844   $clear 100
+13.11.2022   23:18   priv   727662119553728532   piniondz   SEEN-#5771   Wait 1 minute before getting typing this again. - <@438336824516149249>
+13.11.2022   23:22   priv   727662119553728532   piniondz   SEEN-#5771   
+13.11.2022   23:22   priv   727662119553728532   piniondz   SEEN-#5771   Wait 1 minute before getting typing this again. - <@438336824516149249>
+13.11.2022   23:23   priv   727662119553728532   piniondz   SEEN-#5771   
+13.11.2022   23:23   priv   727662119553728532   piniondz   SEEN-#5771   Wait 1 minute before getting typing this again. - <@438336824516149249>

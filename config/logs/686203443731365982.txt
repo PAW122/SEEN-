@@ -399,3 +399,8 @@ mathu_1@interia.pl
 13.11.2022   07:22   ---   686203443731365982   spam   _Bounced#2829   NigAce
 13.11.2022   07:24   ---   686203443731365982   spam   _Bounced#2829   14977518
 13.11.2022   07:38   ---   686203443731365982   next-day   _Bounced#2829   magomed4444@meta.ua
+13.11.2022   16:55   ---   686203443731365982   spam   _Bounced#2829   V-stays tgtgtgtgtgtgtgtgtgtg
+13.11.2022   16:56   ---   686203443731365982   spam   _Bounced#2829   V-stats tgtgtgtgtgtgtgtgtgtg
+13.11.2022   16:56   ---   686203443731365982   spam   Aftermath#0045   Player `tgtgtgtgtgtgtgtgtgtg` is not tracked by Aftermath, please specify the server to start tracking.
+13.11.2022   16:56   ---   686203443731365982   spam   _Bounced#2829   V-stats tgtgtgtgtgtgtgtgtgtgtg
+13.11.2022   16:56   ---   686203443731365982   spam   Aftermath#0045   
