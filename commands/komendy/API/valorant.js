@@ -1,5 +1,9 @@
 const axios = require("axios")
 const Discord = require("discord.js")
+const agents = require("./valo_agents")
+const player_cards = require("./players_cards")
+const maps = require("./maps")
+const eavents = require("./valo_eavents")
 module.exports = {
     name: "valo",
 
@@ -14,7 +18,12 @@ module.exports = {
                     { name: `how to use`, value: `$valo mmr <nickname> <tagline>\n example: $valo mmr PAW1172016 EUNE`, inline: false },
                     { name: `mmr history`, value: `see your last 10 ranking match\n$valo mmrHistory <nickname> <tagline>\nexample: $valo mmrHistory PAW1172016 EUNE` },
                     { name: `last mathces`, value: `show your last 5 matches\n usage: **$valo last_mathces <match type>**\n example: $valo last_mathces deathmatch` },
-                    { name: 'get_article', value: "show last valorant articles\n usage: **$valo get_article <type>** \n example: **$valo get_article game_updates**\n type list: game_updates, dev, esports, announcments" }
+                    { name: 'get_article', value: "show last valorant articles\n usage: **$valo get_article <type>** \n example: **$valo get_article game_updates**\n type list: game_updates, dev, esports, announcments" },
+                    { name: "agents", value: `show agent description and abilities.\n usage: $valo agents <agent name> \n example: **$valo agents Raze** \n list of all agents name: **$valo agenst**` },
+                    { name: "player_cards", value: `show player card.\n usage: **$valo player_cards <nickname> <tagline>**\n example: **$valo player_cards PAW1172016 EUNE** ` },
+                    { name: "maps", value: "show map.\n usage: **$valo maps <map_name>**\n example: **$valo maps Ascent**" },
+                    { name: "version", value: "show riot API version data. usage: **$valo version**" },
+                    { name: "eavenst", value: "show eavents. usage: **$valo eavents**" }
                 )
 
                 .setFooter(message.author.tag, message.author.avatarURL({ dynamic: true }));
@@ -30,8 +39,54 @@ module.exports = {
         if (args[0] == "mmrHistory") mmr_History()
         if (args[0] == "last_mathces") last_mathces()
         if (args[0] == "get_article") get_article()
+        if (args[0] == "agents") get_agent()
+        if (args[0] == "player_cards") playercards()
+        if (args[0] == "maps") get_maps()
+        if (args[0] == "version") version()
+        if (args[0] == "eavents") get_eavents()
+
+        async function get_eavents() {
+            eavents(message, args, client)
+        }
+
+        async function get_maps() {
+            maps(message, args, client)
+        }
+
+        async function playercards() {
+            player_cards(message, args, client)
+        }
+
+        async function get_agent() {
+            agents(message, args, client)
+        }
+
+        async function version() {
+            const data = axios.get("https://valorant-api.com/v1/version").then(res => {
+                const status = res.data.status
+                if (status != 200) return message.reply("error");
+                const branch = res.data.data.branch
+                const version = res.data.data.version
+                const engineVersion = res.data.data.engineVersion
+                const riotClientVersion = res.data.data.riotClientVersion
+
+                const embed_pl = new Discord.MessageEmbed()
+                    .setColor(`BLUE`)//PL
+                    .setTitle("API Version")
+                    .addFields(
+                        { name: `branch:`, value: `${branch}`, inline: false },
+                        { name: `version:`, value: `${version}`, inline: false },
+                        { name: `engineVersion:`, value: `${engineVersion}` },
+                        { name: `riotClientVersion:`, value: `${riotClientVersion}` },
+                    )
+                    .setFooter(message.author.tag, message.author.avatarURL({ dynamic: true }));
+                return message.channel.send({ embeds: [embed_pl] });
+
+            })
+        }
 
         async function mmr() {
+            message.react("✅")
             const link = `https://api.henrikdev.xyz/valorant/v1/account/${nickname}/${tagline}`
             //console.log(link)
             const response = await axios.get(link)
@@ -75,6 +130,7 @@ module.exports = {
         }
 
         async function mmr_History() {
+            message.react("✅")
             const link = `https://api.henrikdev.xyz/valorant/v1/account/${nickname}/${tagline}`
             //console.log(link)
             const response = await axios.get(link)
@@ -95,8 +151,6 @@ module.exports = {
                 console.log(err)
             })
 
-            //niewiem co dostane jak informację zwrotną jeżeli urzytkownik zagrał miej niż 10 rankedów
-
             const match1_stats = mmr_history.data.data[0]
             const match2_stats = mmr_history.data.data[1]
             const match3_stats = mmr_history.data.data[2]
@@ -108,98 +162,110 @@ module.exports = {
             const match9_stats = mmr_history.data.data[8]
             const match10_stats = mmr_history.data.data[9]
 
+            //console.log(mmr_history.data.data)
 
-            const embed_pl = new Discord.MessageEmbed()
-                .setColor(`BLUE`)//PL
-                .setTitle("ACC STATS")
-                .addFields(
-                    {
-                        name: `match1:`, value: `
+            try {
+                const embed_pl = new Discord.MessageEmbed()
+                    .setColor(`BLUE`)//PL
+                    .setTitle("ACC STATS")
+                    .addFields(
+                        {
+                            name: `match1:`, value: `
             rank: ${match1_stats.currenttierpatched}
             mmr change to last game: ${match1_stats.mmr_change_to_last_game}
             elo: ${match1_stats.elo}
             date: ${match1_stats.date}`, inline: false
-                    },
+                        },
 
-                    {
-                        name: `match2:`, value: `
+                        {
+                            name: `match2:`, value: `
             rank: ${match2_stats.currenttierpatched}
             mmr change to last game: ${match2_stats.mmr_change_to_last_game}
             elo: ${match2_stats.elo}
             date: ${match2_stats.date}`, inline: false
-                    },
+                        },
 
-                    {
-                        name: `match3:`, value: `
+                        {
+                            name: `match3:`, value: `
             rank: ${match3_stats.currenttierpatched}
             mmr change to last game: ${match3_stats.mmr_change_to_last_game}
             elo: ${match3_stats.elo}
             date: ${match3_stats.date}`, inline: false
-                    },
+                        },
 
-                    {
-                        name: `match4:`, value: `
+                        {
+                            name: `match4:`, value: `
             rank: ${match4_stats.currenttierpatched}
             mmr change to last game: ${match4_stats.mmr_change_to_last_game}
             elo: ${match4_stats.elo}
             date: ${match4_stats.date}`, inline: false
-                    },
+                        },
 
-                    {
-                        name: `match5:`, value: `
+                        {
+                            name: `match5:`, value: `
             rank: ${match5_stats.currenttierpatched}
             mmr change to last game: ${match5_stats.mmr_change_to_last_game}
             elo: ${match5_stats.elo}
             date: ${match5_stats.date}`, inline: false
-                    },
+                        },
 
-                    {
-                        name: `match6:`, value: `
+                        {
+                            name: `match6:`, value: `
             rank: ${match6_stats.currenttierpatched}
             mmr change to last game: ${match6_stats.mmr_change_to_last_game}
             elo: ${match6_stats.elo}
             date: ${match6_stats.date}`, inline: false
-                    },
+                        },
 
-                    {
-                        name: `match7:`, value: `
+                        {
+                            name: `match7:`, value: `
             rank: ${match7_stats.currenttierpatched}
             mmr change to last game: ${match7_stats.mmr_change_to_last_game}
             elo: ${match7_stats.elo}
             date: ${match7_stats.date}`, inline: false
-                    },
+                        },
 
-                    {
-                        name: `match8:`, value: `
+                        {
+                            name: `match8:`, value: `
             rank: ${match8_stats.currenttierpatched}
             mmr change to last game: ${match8_stats.mmr_change_to_last_game}
             elo: ${match8_stats.elo}
             date: ${match8_stats.date}`, inline: false
-                    },
+                        },
 
-                    {
-                        name: `match9:`, value: `
+                        {
+                            name: `match9:`, value: `
             rank: ${match9_stats.currenttierpatched}
             mmr change to last game: ${match9_stats.mmr_change_to_last_game}
             elo: ${match9_stats.elo}
             date: ${match9_stats.date}`, inline: false
-                    },
+                        },
 
-                    {
-                        name: `match10:`, value: `
+                        {
+                            name: `match10:`, value: `
             rank: ${match10_stats.currenttierpatched}
             mmr change to last game: ${match10_stats.mmr_change_to_last_game}
             elo: ${match10_stats.elo}
             date: ${match10_stats.date}`, inline: false
-                    },
+                        },
 
-                )
-                //.setImage(`${card_image}`)
-                .setFooter(message.author.tag, message.author.avatarURL({ dynamic: true }));
-            return message.channel.send({ embeds: [embed_pl] });
+                    )
+                    //.setImage(`${card_image}`)
+                    .setFooter(message.author.tag, message.author.avatarURL({ dynamic: true }));
+                return message.channel.send({ embeds: [embed_pl] });
+            } catch (err) {
+                if (err == "TypeError: Cannot read properties of undefined (reading 'currenttierpatched')") {
+                    return message.reply("Zagraj więcej meczy żebym mógł wyświetlić statystyki")
+                } else {
+                    message.reply("Error")
+                    return console.log(err)
+                }
+
+            }
         }
 
         async function last_mathces() {
+            message.react("✅")
             //escalation, spikerush, deathmatch, competitive, unrated, replication
             if (!args[1]) return message.reply("you dont specify match type");
 
@@ -213,7 +279,7 @@ module.exports = {
         }
 
         async function get_article() {
-
+            message.react("✅")
             if (!args[1]) return message.reply("you dont specify article type. \n use **$valo help** to get more informations how use this command")
             const type = args[1]
             if (type != "game_updates" && type != "dev" && type != "esports" && type != "announcments") {

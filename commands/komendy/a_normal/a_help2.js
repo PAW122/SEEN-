@@ -12,7 +12,7 @@ const embed_pl = new Discord.MessageEmbed()
     .setDescription(`use **$help!** to get for a more detailed description
     command list:`)
     .setFooter("use $name help to get comand info")
-    .addFields(//inline-w embedzie zamiast po dobą będą obok siebie
+    .addFields(
         { name: `***😁fun***`, value: 
         "``ruletka``" +","+ "``bruh``" +","+ "``random``"+","+ "``8ball``" +","+"``flags``"+","+"``animegif``"+","+"``przemyślenia``", inline: false },
 
@@ -32,7 +32,7 @@ const embed_pl = new Discord.MessageEmbed()
         "``reactions help``"+","+"``angry``"+","+"``eat``"+","+"``happy``"+","+"``kill``"+","+"``love``"+","+"``run``"+","+"``scarry``"+","+"``sleep``", inline: false },
 
         { name: `***🎮Valorant***`, value:
-        "``valo help``" + "," + "``valo mmr``" + "," + "``valo mmr history``" + "," + "``valo get_article``" + "," + "``valo last mathces``", inline: false },
+        "``valo help``" + "," + "``valo mmr``" + "," + "``valo mmr history``" + "," + "``valo get_article``" + "," + "``valo last mathces``" + "," + "``valo agents``" + "," + "``valo player_cards``" + "," + "``valo maps``" + "," + "``version``" + "," + "``valo eavents``", inline: false },
         
         { name: `***🆘Support***`, value: 
         "``contact``"+","+"``report``", inline: false },
