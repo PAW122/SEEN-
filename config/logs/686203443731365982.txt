@@ -394,3 +394,8 @@ mathu_1@interia.pl
 8.11.2022   16:55   ---   686203443731365982   next-day   _Bounced#2829   phantom_and_fury@interia.pl
 10.11.2022   14:49   ---   686203443731365982   next-day   _Bounced#2829   viktor.sakhno2006
 11.11.2022   06:16   ---   686203443731365982   next-day   _Bounced#2829   vazgen_09@mail.ru
+13.11.2022   06:16   ---   686203443731365982   spam   _Bounced#2829   14 9 7 7 5 18
+13.11.2022   07:22   ---   686203443731365982   spam   _Bounced#2829   niggabator_boec_sniggper224
+13.11.2022   07:22   ---   686203443731365982   spam   _Bounced#2829   NigAce
+13.11.2022   07:24   ---   686203443731365982   spam   _Bounced#2829   14977518
+13.11.2022   07:38   ---   686203443731365982   next-day   _Bounced#2829   magomed4444@meta.ua
