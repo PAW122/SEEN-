@@ -93,10 +93,14 @@ module.exports = {
                 .catch(err => {
                     console.log(err)
                 })
-
+                try{//api nie odpowiedziała i wywaliło error 400
+            if(response.data.status == 400) {return message.reply("API dont responding")}
             if (response.data.status == 429) { return message.reply("the bot has reached the maximum number of queries sent. Please try in a few minutes") }
             if (!response || response.data.status != 200) return message.reply("Bad informations. Check nickname and tagline.\n try use $valo help")
-
+                }catch(err) {
+                    console.log(err)
+                    return message.reply("Error")
+                }
             // response =>
             const region = response.data.data.region
             const name = response.data.data.name
