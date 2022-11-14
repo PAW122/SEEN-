@@ -68,6 +68,7 @@ const informations_handler = require("./handlers/informations")
 //const bot_webside = require("./bot_webside/app")
 //const seen_api = require("./seen_api/app")
 
+/* dc js v13.9.2
 const client = new Discord.Client({
     intents: [
         Discord.Intents.FLAGS.GUILDS,
@@ -77,6 +78,10 @@ const client = new Discord.Client({
         Discord.Intents.FLAGS.GUILD_VOICE_STATES
     ]
 });
+*/
+const client = new Discord.Client({
+    intents: 32767
+})
 client.commands = new Discord.Collection()
 client.commandArray = [];
 
