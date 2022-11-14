@@ -8575,3 +8575,17 @@ tczprojektyzst@gmail.com
 13.11.2022   23:22   priv   727662119553728532   piniondz   SEEN-#5771   Wait 1 minute before getting typing this again. - <@438336824516149249>
 13.11.2022   23:23   priv   727662119553728532   piniondz   SEEN-#5771   
 13.11.2022   23:23   priv   727662119553728532   piniondz   SEEN-#5771   Wait 1 minute before getting typing this again. - <@438336824516149249>
+13.11.2022   23:26   priv   727662119553728532   dc-bot   PAW#5844   porównywanie data w cooldownach w quick db https://stackoverflow.com/questions/48432102/discord-js-cooldown-for-a-command-for-each-user-not-all-users
+14.11.2022   00:33   priv   727662119553728532   dc-bot   PAW#5844   Dodać komendę (ownet command) do kickowania ludzi z srv: $ownerkick <srvid> <userid>
+14.11.2022   00:41   priv   727662119553728532   ogólny   PAW#5844   buisness@ikenna.com
+14.11.2022   00:49   priv   727662119553728532   ogólny   PAW#5844   Czy był byś zainteresowany posiadaniem serwera Discord?
+Jeżeli tak to mam propozycje pomocy w stworzeniu serwera oraz customowego bota który może posiadać każdą funkcję jaką będziesz chciał. Naprzykład może wysyłać informacje o zmianach w twojej aplikacji do nauki języków jak również posiadać funkcję tłaczenia wiadomości oraz wiele wiencej.
+
+Proszę o wiadomość zwrotną, z informacją czy był byś zainteresowany z góry dziękuję.
+14.11.2022   07:30   priv   727662119553728532   bot   PAW#5844   $vaorant help
+14.11.2022   07:30   priv   727662119553728532   bot   PAW#5844   $valo help
+14.11.2022   07:30   priv   727662119553728532   bot   SEEN-#5771   
+14.11.2022   07:51   priv   727662119553728532   ogólny   PAW#5844   ..
+14.11.2022   07:51   priv   727662119553728532   ogólny   PAW#5844   Would you be an interested Discord employee? If you take advantage of the request for help in creating a server and a custom bot that can help you do what you want. For example, it may be based on changes to your language learning app, and may require the use of background messages and multiple messages. Please message me back if you're interested, thank you in advance.
+14.11.2022   07:56   priv   727662119553728532   ogólny   PAW#5844   buisnessikenna@gmail.com
+14.11.2022   07:57   priv   727662119553728532   minc-serv-18   SEEN-#5771   
