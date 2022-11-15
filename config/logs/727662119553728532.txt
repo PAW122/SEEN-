@@ -8592,3 +8592,27 @@ Proszę o wiadomość zwrotną, z informacją czy był byś zainteresowany z gó
 14.11.2022   23:27   priv   727662119553728532   bot   SEEN-#5771   
 14.11.2022   23:28   priv   727662119553728532   bot   PAW#5844   $valo mmr 3wus 1045
 14.11.2022   23:28   priv   727662119553728532   bot   SEEN-#5771   
+15.11.2022   01:33   priv   727662119553728532   minc-serv-18   SEEN-#5771   
+15.11.2022   01:33   priv   727662119553728532   minc-serv-18   SEEN-#5771   
+15.11.2022   02:30   priv   727662119553728532   minc-serv-18   SEEN-#5771   
+15.11.2022   02:30   priv   727662119553728532   minc-serv-18   SEEN-#5771   
+15.11.2022   03:20   priv   727662119553728532   minc-serv-18   SEEN-#5771   
+15.11.2022   03:20   priv   727662119553728532   minc-serv-18   SEEN-#5771   
+15.11.2022   06:09   priv   727662119553728532   minc-serv-18   SEEN-#5771   
+15.11.2022   06:36   priv   727662119553728532   minc-serv-18   SEEN-#5771   
+15.11.2022   06:36   priv   727662119553728532   minc-serv-18   SEEN-#5771   
+15.11.2022   06:38   priv   727662119553728532   minc-serv-18   SEEN-#5771   
+15.11.2022   07:39   priv   727662119553728532   minc-serv-18   SEEN-#5771   
+15.11.2022   09:13   priv   727662119553728532   dc-bot   PAW#5844   Zrobić funkcje o mod_logs user online/offline jako premium
+15.11.2022   09:14   priv   727662119553728532   minc-serv-18   SEEN-#5771   
+15.11.2022   09:14   priv   727662119553728532   minc-serv-18   SEEN-#5771   
+15.11.2022   09:19   priv   727662119553728532   dc-bot   PAW#5844   Dać możliwość ustawienia mod_logs offline i online na inny kanał
+15.11.2022   09:21   priv   727662119553728532   dc-bot   PAW#5844   .
+Dodać komendę która automatycznie tworzy kanały do logów i ustawia na nich logi + ta sama komenda ustawia sie welcome na kanale dla powiadomień
+15.11.2022   09:50   priv   727662119553728532   minc-serv-18   SEEN-#5771   
+15.11.2022   09:50   priv   727662119553728532   minc-serv-18   SEEN-#5771   
+15.11.2022   11:39   priv   727662119553728532   minc-serv-18   SEEN-#5771   
+15.11.2022   11:41   priv   727662119553728532   minc-serv-18   SEEN-#5771   
+15.11.2022   11:42   priv   727662119553728532   minc-serv-18   SEEN-#5771   
+15.11.2022   11:42   priv   727662119553728532   minc-serv-18   SEEN-#5771   
+15.11.2022   11:44   priv   727662119553728532   minc-serv-18   SEEN-#5771   
