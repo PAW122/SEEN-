@@ -141,15 +141,21 @@ module.exports = {
                 .catch(err => {
                     console.log(err)
                 })
-
+                try{
             if (response.data.status == 429) { return message.reply("the bot has reached the maximum number of queries sent. Please try in a few minutes") }
             if (!response || response.data.status != 200) return message.reply("Bad informations. Check nickname and tagline.\n try use $valo help")
 
             const region = response.data.data.region
             const name = response.data.data.name
             const puuid = response.data.data.puuid
-
+                }catch(err) {
+                    console.log(err)
+                    return message.reply("API dont responding")
+                }
             //get MEE History
+            if(!region){
+                return message.reply("API dont responding")
+            }
             const url_hisotry = `https://api.henrikdev.xyz/valorant/v1/by-puuid/mmr-history/${region}/${puuid}`
             const mmr_history = await axios.get(url_hisotry).catch(err => {
                 console.log(err)
