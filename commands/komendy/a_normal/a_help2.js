@@ -14,7 +14,7 @@ const embed_pl = new Discord.MessageEmbed()
     .setFooter("use $name help to get comand info")
     .addFields(
         { name: `***😁fun***`, value: 
-        "``ruletka``" +","+ "``bruh``" +","+ "``random``"+","+ "``8ball``" +","+"``flags``"+","+"``animegif``"+","+"``przemyślenia``", inline: false },
+        "``ruletka``" +","+ "``bruh``" +","+ "``random``"+","+ "``8ball``" +","+"``flags``"+","+"``animegif``"+","+"``przemyślenia``"+ "," + "``random``", inline: false },
 
         { name: `***❓info***`, value: 
         "``awatar``"+ ","+"``ping``"+","+"``botinfo``"+","+"``srvinfo``"+","+"``lvl``"+","+"``link``"+","+"``isalt``", inline: false },
@@ -23,7 +23,7 @@ const embed_pl = new Discord.MessageEmbed()
         "``clear``"+","+"``say``"+","+"``kick``"+","+"``ban``"+","+"``message_logs``"+","+"``mute``"+","+"``autorole ``", inline: false },
 
         { name: `***⚙️bot config***`, value: 
-        "``srv_set ``"+","+"``srv_logs``"+","+"``automod ``", inline: false },
+        "``srv_set ``"+","+"``srv_logs``"+","+"``automod ``" + "," + "``settings auto_settings``", inline: false },
 
         { name: `***💵economy***`, value: 
         "``helpeco``"+","+"``daily``"+","+"``profil``"+","+"``weekly``"+","+"``roll``"+","+"``shop``"+","+"``pvp``"+","+"``pay``"+","+"``add``"+","+"``birthday``"+","+"``bank``", inline: false },
@@ -38,7 +38,10 @@ const embed_pl = new Discord.MessageEmbed()
         "``contact``"+","+"``report``", inline: false },
 
         { name: `***🧠Quiz***`, value:
-        "``mechatronic``", inline: false }
+        "``mechatronic``", inline: false },
+
+        { name: `🇯🇵***Anime***`, value:
+        "``animeseen``" + "," + "``anime``", inline: false }
     )
 module.exports = {
     name: `help`,

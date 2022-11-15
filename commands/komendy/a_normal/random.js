@@ -83,9 +83,9 @@ if(await db.get(`check.check`) == true){
 
                 .setColor(`BLUE`)//PL
                 .setTitle(`Random`)
-                .setDescription(`wysyła randomową liczbe od 1 do ?\n
-                użycie: "$random <liczba makxymalna>"\n
-                przykład: "$random 10" -- bot wylosuje liczbe od 0 do 10`)
+                .setDescription(`Sends a random number from 1 to any set by the user\n
+                usage: "$random <max number>"\n
+                example: "$random 10" -- bot send random number for 0 to 10`)
         
                 .setFooter(message.author.tag, message.author.avatarURL({dynamic: true}));
         
@@ -94,12 +94,12 @@ if(await db.get(`check.check`) == true){
         }else{
     
         if(isNaN(args[0]) || parseInt(args[0]) <= 0) {
-            return message.channel.send("podałeś błędną liczbe wiadomości.\n ```$random <maxymalna liczba>")
+            return message.channel.send("wrong number.\n ```$random <max number>")
         }
 
         const rng = Math.floor(Math.random() * args[0]);//od 1 do podanej wartości
     
-        message.reply(`wylosowana liczba: ${rng}`)
+        message.reply(`Drawn number: **${rng}**`)
     }
     }
 }
