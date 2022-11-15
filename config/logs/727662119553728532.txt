@@ -8616,3 +8616,94 @@ Dodać komendę która automatycznie tworzy kanały do logów i ustawia na nich 
 15.11.2022   11:42   priv   727662119553728532   minc-serv-18   SEEN-#5771   
 15.11.2022   11:42   priv   727662119553728532   minc-serv-18   SEEN-#5771   
 15.11.2022   11:44   priv   727662119553728532   minc-serv-18   SEEN-#5771   
+15.11.2022   14:03   priv   727662119553728532   minc-serv-18   SEEN-#5771   
+15.11.2022   17:50   priv   727662119553728532   bot   PAW#5844   $help
+15.11.2022   17:50   priv   727662119553728532   bot   SEEN-#5771   
+15.11.2022   17:50   priv   727662119553728532   bot   PAW#5844   $srv_set  list
+15.11.2022   17:50   priv   727662119553728532   bot   SEEN-#5771   
+15.11.2022   17:50   priv   727662119553728532   bot   SEEN-#5771   
+15.11.2022   17:50   priv   727662119553728532   bot   PAW#5844   $mod_logs list
+15.11.2022   17:50   priv   727662119553728532   bot   PAW#5844   $mod_logs help
+15.11.2022   17:50   priv   727662119553728532   bot   PAW#5844   $help
+15.11.2022   17:50   priv   727662119553728532   bot   SEEN-#5771   
+15.11.2022   17:50   priv   727662119553728532   bot   PAW#5844   $srv_logs help
+15.11.2022   17:50   priv   727662119553728532   bot   SEEN-#5771   
+15.11.2022   23:37   priv   727662119553728532   bot   PAW#5844   $settings
+15.11.2022   23:37   priv   727662119553728532   bot   SEEN-#5771   You didn't enter an argument
+            commands - gives you the ability to disable individual commands
+            usage eg: $settings <on/off> <command_name>
+15.11.2022   23:39   priv   727662119553728532   bot   PAW#5844   $help
+15.11.2022   23:39   priv   727662119553728532   bot   SEEN-#5771   
+15.11.2022   23:40   priv   727662119553728532   bot   PAW#5844   $random help
+15.11.2022   23:40   priv   727662119553728532   bot   SEEN-#5771   
+15.11.2022   23:40   priv   727662119553728532   bot   PAW#5844   $message_logs
+15.11.2022   23:40   priv   727662119553728532   bot   SEEN-#5771   
+15.11.2022   23:40   priv   727662119553728532   bot   SEEN-#5771   
+15.11.2022   23:40   priv   727662119553728532   minc-serv-18   SEEN-#5771   
+15.11.2022   23:40   priv   727662119553728532   minc-serv-18   SEEN-#5771   
+15.11.2022   23:40   priv   727662119553728532   minc-serv-18   SEEN-#5771   
+15.11.2022   23:44   priv   727662119553728532   bot   PAW#5844   \🇯🇵
+15.11.2022   23:44   priv   727662119553728532   bot   PAW#5844   🇯🇵
+15.11.2022   23:44   priv   727662119553728532   bot   PAW#5844   $animeseen
+15.11.2022   23:44   priv   727662119553728532   bot   SEEN-#5771   try use: $anime help
+15.11.2022   23:44   priv   727662119553728532   bot   PAW#5844   $animeseen help
+15.11.2022   23:44   priv   727662119553728532   minc-serv-18   SEEN-#5771   
+15.11.2022   23:44   priv   727662119553728532   bot   SEEN-#5771   
+15.11.2022   23:45   priv   727662119553728532   bot   PAW#5844   $anime
+15.11.2022   23:45   priv   727662119553728532   bot   SEEN-#5771   
+15.11.2022   23:45   priv   727662119553728532   bot   PAW#5844   $announcements summer2022
+15.11.2022   23:45   priv   727662119553728532   minc-serv-18   SEEN-#5771   
+15.11.2022   23:46   priv   727662119553728532   bot   PAW#5844   $anime zapowiedzi
+15.11.2022   23:46   priv   727662119553728532   bot   SEEN-#5771   
+15.11.2022   23:46   priv   727662119553728532   bot   PAW#5844   $zapowiedzi
+15.11.2022   23:47   priv   727662119553728532   bot   PAW#5844   $announcements help
+15.11.2022   23:47   priv   727662119553728532   bot   PAW#5844   $announcements help
+15.11.2022   23:48   priv   727662119553728532   bot   PAW#5844   $announcements_autumn
+15.11.2022   23:48   priv   727662119553728532   bot   SEEN-#5771   use: $zapowiedzi lato2022 
+ $announcements summer2022
+15.11.2022   23:49   priv   727662119553728532   bot   PAW#5844   $anime_odc_help
+15.11.2022   23:51   priv   727662119553728532   bot   PAW#5844   $announcements_autumn
+15.11.2022   23:51   priv   727662119553728532   bot   SEEN-#5771   use: $zapowiedzi lato2022 
+ $announcements summer2022
+15.11.2022   23:52   priv   727662119553728532   bot   PAW#5844   $help
+15.11.2022   23:52   priv   727662119553728532   bot   SEEN-#5771   
+15.11.2022   23:52   priv   727662119553728532   bot   PAW#5844   $animeseen
+15.11.2022   23:52   priv   727662119553728532   bot   SEEN-#5771   try use: $anime help
+15.11.2022   23:52   priv   727662119553728532   bot   PAW#5844   $anime help
+15.11.2022   23:52   priv   727662119553728532   bot   SEEN-#5771   
+15.11.2022   23:52   priv   727662119553728532   bot   PAW#5844   $anime zapowiedzi help
+15.11.2022   23:52   priv   727662119553728532   bot   SEEN-#5771   
+15.11.2022   23:53   priv   727662119553728532   bot   PAW#5844   $anime zapowiedzi help
+15.11.2022   23:53   priv   727662119553728532   bot   SEEN-#5771   
+15.11.2022   23:53   priv   727662119553728532   bot   PAW#5844   $anime zapowiedzi help
+15.11.2022   23:53   priv   727662119553728532   bot   SEEN-#5771   try use one of this command: 
+
+            $announcements_autumn
+            $zapowiedzi_jesień
+            --
+            $announcements_summer
+            $zapowiedzi_lato
+15.11.2022   23:53   priv   727662119553728532   bot   PAW#5844   $anime announcements help
+15.11.2022   23:53   priv   727662119553728532   bot   SEEN-#5771   try use one of this command: 
+
+            $announcements_autumn
+            $zapowiedzi_jesień
+            --
+            $announcements_summer
+            $zapowiedzi_lato
+15.11.2022   23:53   priv   727662119553728532   minc-serv-18   SEEN-#5771   
+15.11.2022   23:53   priv   727662119553728532   minc-serv-18   SEEN-#5771   
+15.11.2022   23:53   priv   727662119553728532   bot   PAW#5844   $animelist help
+15.11.2022   23:53   priv   727662119553728532   bot   SEEN-#5771   
+15.11.2022   23:53   priv   727662119553728532   minc-serv-18   SEEN-#5771   
+15.11.2022   23:53   priv   727662119553728532   minc-serv-18   SEEN-#5771   
+15.11.2022   23:53   priv   727662119553728532   bot   PAW#5844   $anime
+15.11.2022   23:54   priv   727662119553728532   bot   SEEN-#5771   
+15.11.2022   23:54   priv   727662119553728532   minc-serv-18   SEEN-#5771   
+15.11.2022   23:54   priv   727662119553728532   minc-serv-18   SEEN-#5771   
+15.11.2022   23:55   priv   727662119553728532   bot   PAW#5844   $animeseen
+15.11.2022   23:55   priv   727662119553728532   bot   SEEN-#5771   try use: $anime help
+15.11.2022   23:56   priv   727662119553728532   bot   PAW#5844   $animeseen
+15.11.2022   23:56   priv   727662119553728532   bot   SEEN-#5771   try use: $animeseen help
+15.11.2022   23:56   priv   727662119553728532   bot   PAW#5844   $animeseen help
+15.11.2022   23:56   priv   727662119553728532   bot   SEEN-#5771   

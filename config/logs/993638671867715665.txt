@@ -1,1 +1,191 @@
 23.10.2022   18:25   PAWIU discord bots   993638671867715665   spam   PAW#5844   siema
+15.11.2022   17:33   PAWIU discord bots   993638671867715665   spam   PAW#5844   $settings auto_settings
+15.11.2022   17:33   PAWIU discord bots   993638671867715665   spam   SEEN-#5771   I cant do that. Pleas use $report and report bug to developer
+15.11.2022   17:34   PAWIU discord bots   993638671867715665   spam   PAW#5844   $settings auto_settings
+15.11.2022   17:34   PAWIU discord bots   993638671867715665   spam   SEEN-#5771   I cant do that. Pleas use $report and report bug to developer
+15.11.2022   17:35   PAWIU discord bots   993638671867715665   spam   PAW#5844   $settings auto_settings
+15.11.2022   17:36   PAWIU discord bots   993638671867715665   spam   PAW#5844   $settings auto_settings
+15.11.2022   17:36   PAWIU discord bots   993638671867715665   spam   SEEN-#5771   I cant create logs channel
+15.11.2022   17:38   PAWIU discord bots   993638671867715665   spam   PAW#5844   $settings auto_settings
+15.11.2022   17:38   PAWIU discord bots   993638671867715665   spam   SEEN-#5771   I cant do that. Pleas use $report and report bug to developer
+15.11.2022   17:42   PAWIU discord bots   993638671867715665   spam   PAW#5844   $settings auto_settings
+15.11.2022   17:42   PAWIU discord bots   993638671867715665   spam   SEEN-#5771   I cant do that. Pleas use $report and report bug to developer
+15.11.2022   17:45   PAWIU discord bots   993638671867715665   spam   PAW#5844   $settings auto_settings
+15.11.2022   17:45   PAWIU discord bots   993638671867715665   spam   SEEN-#5771   Logs channel created. You need get logs role to
+15.11.2022   17:46   PAWIU discord bots   993638671867715665   spam   PAW#5844   $settings auto_settings
+15.11.2022   17:46   PAWIU discord bots   993638671867715665   spam   SEEN-#5771   I cant do that. Pleas use $report and report bug to developer
+15.11.2022   17:46   PAWIU discord bots   993638671867715665   spam   PAW#5844   $settings auto_settings
+15.11.2022   17:46   PAWIU discord bots   993638671867715665   spam   SEEN-#5771   Logs channel created. You need get logs role to
+15.11.2022   17:47   PAWIU discord bots   993638671867715665   spam   PAW#5844   $settings auto_settings
+15.11.2022   17:47   PAWIU discord bots   993638671867715665   spam   SEEN-#5771   Logs channel created. You need get logs role to
+15.11.2022   17:48   PAWIU discord bots   993638671867715665   spam   PAW#5844   $srv_set list
+15.11.2022   17:48   PAWIU discord bots   993638671867715665   spam   SEEN-#5771   
+15.11.2022   17:48   PAWIU discord bots   993638671867715665   spam   SEEN-#5771   
+15.11.2022   17:49   PAWIU discord bots   993638671867715665   spam   PAW#5844   $help
+15.11.2022   17:49   PAWIU discord bots   993638671867715665   spam   SEEN-#5771   
+15.11.2022   17:49   PAWIU discord bots   993638671867715665   spam   PAW#5844   $srv_logs
+15.11.2022   17:49   PAWIU discord bots   993638671867715665   spam   SEEN-#5771   try use: **$srv_logs help**
+15.11.2022   17:49   PAWIU discord bots   993638671867715665   spam   PAW#5844   $srv_logs help
+15.11.2022   17:49   PAWIU discord bots   993638671867715665   spam   SEEN-#5771   
+15.11.2022   17:49   PAWIU discord bots   993638671867715665   spam   PAW#5844   $srv_logs list
+15.11.2022   17:49   PAWIU discord bots   993638671867715665   spam   SEEN-#5771   
+15.11.2022   17:49   PAWIU discord bots   993638671867715665   spam   SEEN-#5771   
+15.11.2022   17:52   PAWIU discord bots   993638671867715665   spam   PAW#5844   $settings auto
+15.11.2022   17:52   PAWIU discord bots   993638671867715665   spam   SEEN-#5771   you didn't enter an argument
+15.11.2022   17:52   PAWIU discord bots   993638671867715665   spam   PAW#5844   $settings auto_settings
+15.11.2022   17:52   PAWIU discord bots   993638671867715665   spam   SEEN-#5771   Logs channel created. You need get logs role to
+15.11.2022   17:52   PAWIU discord bots   993638671867715665   logs   SEEN-#5771   
+15.11.2022   17:55   PAWIU discord bots   993638671867715665   logs   SEEN-#5771   
+15.11.2022   18:06   PAWIU discord bots   993638671867715665   logs   SEEN-#5771   
+15.11.2022   18:17   PAWIU discord bots   993638671867715665   logs   SEEN-#5771   
+15.11.2022   18:17   PAWIU discord bots   993638671867715665   logs   SEEN-#5771   
+15.11.2022   18:29   PAWIU discord bots   993638671867715665   logs   SEEN-#5771   
+15.11.2022   18:30   PAWIU discord bots   993638671867715665   logs   SEEN-#5771   
+15.11.2022   19:22   PAWIU discord bots   993638671867715665   bot-reports   PAW#5844   $response 652210382785609748 XD
+15.11.2022   19:22   PAWIU discord bots   993638671867715665   bot-reports   SEEN-#5771   response send
+15.11.2022   23:00   PAWIU discord bots   993638671867715665   bot-reports   PAW#5844   $response 438336824516149249 test
+15.11.2022   23:00   PAWIU discord bots   993638671867715665   bot-reports   SEEN-#5771   response send
+15.11.2022   23:02   PAWIU discord bots   993638671867715665   bot-reports   PAW#5844   $response 438336824516149249 test
+15.11.2022   23:02   PAWIU discord bots   993638671867715665   bot-reports   SEEN-#5771   response send
+15.11.2022   23:03   PAWIU discord bots   993638671867715665   bot-reports   PAW#5844   $response 438336824516149249 test
+15.11.2022   23:03   PAWIU discord bots   993638671867715665   bot-reports   SEEN-#5771   response send
+15.11.2022   23:04   PAWIU discord bots   993638671867715665   bot-reports   PAW#5844   $response 438336824516149249 test
+15.11.2022   23:04   PAWIU discord bots   993638671867715665   bot-reports   SEEN-#5771   response send
+15.11.2022   23:07   PAWIU discord bots   993638671867715665   bot-reports   PAW#5844   $response 438336824516149249 test
+15.11.2022   23:07   PAWIU discord bots   993638671867715665   bot-reports   SEEN-#5771   response send
+15.11.2022   23:08   PAWIU discord bots   993638671867715665   bot-reports   PAW#5844   $response 438336824516149249 test
+15.11.2022   23:08   PAWIU discord bots   993638671867715665   bot-reports   SEEN-#5771   response send
+15.11.2022   23:09   PAWIU discord bots   993638671867715665   bot-reports   PAW#5844   $response 438336824516149249 test
+15.11.2022   23:09   PAWIU discord bots   993638671867715665   bot-reports   SEEN-#5771   response send
+15.11.2022   23:09   PAWIU discord bots   993638671867715665   bot-reports   PAW#5844   $response 438336824516149249 test
+15.11.2022   23:11   PAWIU discord bots   993638671867715665   spam   PAW#5844   $settings auto_settings
+15.11.2022   23:11   PAWIU discord bots   993638671867715665   spam   SEEN-#5771   Logs channel created. You need get logs role to see
+15.11.2022   23:11   PAWIU discord bots   993638671867715665   spam   SEEN-#5771   error I cant set welcome channel
+15.11.2022   23:11   PAWIU discord bots   993638671867715665   spam   PAW#5844   $settings auto_settings
+15.11.2022   23:11   PAWIU discord bots   993638671867715665   spam   SEEN-#5771   Logs channel created. You need get logs role to see
+15.11.2022   23:12   PAWIU discord bots   993638671867715665   spam   PAW#5844   $settings auto_settings
+15.11.2022   23:12   PAWIU discord bots   993638671867715665   spam   SEEN-#5771   Logs channel created. You need get logs role to see
+15.11.2022   23:12   PAWIU discord bots   993638671867715665   spam   PAW#5844   $settings auto_settings
+15.11.2022   23:12   PAWIU discord bots   993638671867715665   spam   SEEN-#5771   Logs channel created. You need get logs role to see
+15.11.2022   23:12   PAWIU discord bots   993638671867715665   spam   SEEN-#5771   error I cant set welcome channel
+15.11.2022   23:13   PAWIU discord bots   993638671867715665   logs   SEEN-#5771   
+15.11.2022   23:13   PAWIU discord bots   993638671867715665   spam   PAW#5844   $settings auto_settings
+15.11.2022   23:13   PAWIU discord bots   993638671867715665   spam   SEEN-#5771   Logs channel created. You need get logs role to see
+15.11.2022   23:14   PAWIU discord bots   993638671867715665   spam   PAW#5844   $settings auto_settings
+15.11.2022   23:14   PAWIU discord bots   993638671867715665   spam   SEEN-#5771   Logs channel created. You need get logs role to see
+15.11.2022   23:15   PAWIU discord bots   993638671867715665   spam   PAW#5844   $settings auto_settings
+15.11.2022   23:15   PAWIU discord bots   993638671867715665   spam   SEEN-#5771   Logs channel created. You need get logs role to see
+15.11.2022   23:15   PAWIU discord bots   993638671867715665   spam   SEEN-#5771   Wlecome messages been sended on <#993638672815624235>
+15.11.2022   23:23   PAWIU discord bots   993638671867715665   spam   PAW#5844   $settings auto_settings
+15.11.2022   23:24   PAWIU discord bots   993638671867715665   spam   PAW#5844   $settings auto_settings
+15.11.2022   23:24   PAWIU discord bots   993638671867715665   spam   SEEN-#5771   Logs channel created. You need get logs role to see
+15.11.2022   23:24   PAWIU discord bots   993638671867715665   spam   SEEN-#5771   Wlecome messages been sended on <#993638672815624235>
+15.11.2022   23:24   PAWIU discord bots   993638671867715665   spam   SEEN-#5771   Lvl notify been send on <#<#1042203194840850513>>
+15.11.2022   23:24   PAWIU discord bots   993638671867715665   spam   PAW#5844   pp
+15.11.2022   23:24   PAWIU discord bots   993638671867715665   spam   PAW#5844   p
+15.11.2022   23:24   PAWIU discord bots   993638671867715665   spam   PAW#5844   p
+15.11.2022   23:24   PAWIU discord bots   993638671867715665   spam   PAW#5844   p
+15.11.2022   23:24   PAWIU discord bots   993638671867715665   spam   PAW#5844   p
+15.11.2022   23:24   PAWIU discord bots   993638671867715665   spam   PAW#5844   p
+15.11.2022   23:24   PAWIU discord bots   993638671867715665   spam   PAW#5844   p
+15.11.2022   23:24   PAWIU discord bots   993638671867715665   spam   PAW#5844   ppp
+15.11.2022   23:24   PAWIU discord bots   993638671867715665   spam   PAW#5844   $lvl
+15.11.2022   23:24   PAWIU discord bots   993638671867715665   spam   SEEN-#5771   
+15.11.2022   23:24   PAWIU discord bots   993638671867715665   spam   PAW#5844   s
+15.11.2022   23:24   PAWIU discord bots   993638671867715665   spam   PAW#5844   s
+15.11.2022   23:24   PAWIU discord bots   993638671867715665   spam   PAW#5844   ss
+15.11.2022   23:24   PAWIU discord bots   993638671867715665   spam   PAW#5844   s
+15.11.2022   23:24   PAWIU discord bots   993638671867715665   spam   PAW#5844   s
+15.11.2022   23:25   PAWIU discord bots   993638671867715665   spam   PAW#5844   s
+15.11.2022   23:25   PAWIU discord bots   993638671867715665   spam   PAW#5844   s
+15.11.2022   23:25   PAWIU discord bots   993638671867715665   spam   PAW#5844   s
+15.11.2022   23:25   PAWIU discord bots   993638671867715665   spam   PAW#5844   s
+15.11.2022   23:25   PAWIU discord bots   993638671867715665   spam   PAW#5844   s
+15.11.2022   23:25   PAWIU discord bots   993638671867715665   spam   PAW#5844   s
+15.11.2022   23:25   PAWIU discord bots   993638671867715665   spam   PAW#5844   s
+15.11.2022   23:25   PAWIU discord bots   993638671867715665   spam   PAW#5844   s
+15.11.2022   23:25   PAWIU discord bots   993638671867715665   spam   PAW#5844   s
+15.11.2022   23:25   PAWIU discord bots   993638671867715665   spam   PAW#5844   s
+15.11.2022   23:25   PAWIU discord bots   993638671867715665   spam   PAW#5844   s
+15.11.2022   23:25   PAWIU discord bots   993638671867715665   spam   PAW#5844   s
+15.11.2022   23:25   PAWIU discord bots   993638671867715665   spam   PAW#5844   s
+15.11.2022   23:25   PAWIU discord bots   993638671867715665   spam   PAW#5844   s
+15.11.2022   23:25   PAWIU discord bots   993638671867715665   spam   PAW#5844   s
+15.11.2022   23:25   PAWIU discord bots   993638671867715665   spam   PAW#5844   s
+15.11.2022   23:25   PAWIU discord bots   993638671867715665   spam   PAW#5844   s
+15.11.2022   23:25   PAWIU discord bots   993638671867715665   spam   PAW#5844   ss
+15.11.2022   23:25   PAWIU discord bots   993638671867715665   spam   PAW#5844   s
+15.11.2022   23:25   PAWIU discord bots   993638671867715665   spam   PAW#5844   s
+15.11.2022   23:25   PAWIU discord bots   993638671867715665   spam   PAW#5844   s
+15.11.2022   23:25   PAWIU discord bots   993638671867715665   spam   PAW#5844   s
+15.11.2022   23:25   PAWIU discord bots   993638671867715665   spam   PAW#5844   s
+15.11.2022   23:25   PAWIU discord bots   993638671867715665   spam   PAW#5844   s
+15.11.2022   23:25   PAWIU discord bots   993638671867715665   spam   PAW#5844   $lvl
+15.11.2022   23:25   PAWIU discord bots   993638671867715665   spam   SEEN-#5771   
+15.11.2022   23:25   PAWIU discord bots   993638671867715665   spam   PAW#5844   $clear 50
+15.11.2022   23:25   PAWIU discord bots   993638671867715665   spam   SEEN-#5771   Usunąłem 50 wiadomości
+15.11.2022   23:25   PAWIU discord bots   993638671867715665   logs   SEEN-#5771   
+15.11.2022   23:26   PAWIU discord bots   993638671867715665   spam   PAW#5844   $settings auto_settings
+15.11.2022   23:26   PAWIU discord bots   993638671867715665   spam   SEEN-#5771   Logs channel created. You need get logs role to see
+15.11.2022   23:26   PAWIU discord bots   993638671867715665   spam   SEEN-#5771   Wlecome messages been sended on <#993638672815624235>
+15.11.2022   23:26   PAWIU discord bots   993638671867715665   spam   SEEN-#5771   Lvl notify been send on <#1042203194840850513>
+15.11.2022   23:26   PAWIU discord bots   993638671867715665   spam   PAW#5844   $srv_set list
+15.11.2022   23:26   PAWIU discord bots   993638671867715665   spam   SEEN-#5771   
+15.11.2022   23:26   PAWIU discord bots   993638671867715665   spam   SEEN-#5771   
+15.11.2022   23:28   PAWIU discord bots   993638671867715665   spam   PAW#5844   $settings auto_settings
+15.11.2022   23:28   PAWIU discord bots   993638671867715665   spam   SEEN-#5771   Logs channel created. You need get logs role to see
+15.11.2022   23:28   PAWIU discord bots   993638671867715665   spam   SEEN-#5771   Wlecome messages been sended on <#993638672815624235>
+15.11.2022   23:28   PAWIU discord bots   993638671867715665   spam   SEEN-#5771   Lvl notify been send on <#1042203194840850513>
+15.11.2022   23:28   PAWIU discord bots   993638671867715665   spam   PAW#5844   j
+15.11.2022   23:28   PAWIU discord bots   993638671867715665   spam   PAW#5844   a
+15.11.2022   23:28   PAWIU discord bots   993638671867715665   spam   PAW#5844   k
+15.11.2022   23:28   PAWIU discord bots   993638671867715665   spam   PAW#5844   i
+15.11.2022   23:28   PAWIU discord bots   993638671867715665   spam   PAW#5844   s
+15.11.2022   23:28   PAWIU discord bots   993638671867715665   spam   PAW#5844   z
+15.11.2022   23:28   PAWIU discord bots   993638671867715665   spam   PAW#5844   j
+15.11.2022   23:28   PAWIU discord bots   993638671867715665   spam   PAW#5844   e
+15.11.2022   23:28   PAWIU discord bots   993638671867715665   spam   PAW#5844   b
+15.11.2022   23:28   PAWIU discord bots   993638671867715665   spam   PAW#5844   a
+15.11.2022   23:28   PAWIU discord bots   993638671867715665   spam   PAW#5844   n
+15.11.2022   23:28   PAWIU discord bots   993638671867715665   spam   PAW#5844   y
+15.11.2022   23:28   PAWIU discord bots   993638671867715665   spam   PAW#5844   s
+15.11.2022   23:28   PAWIU discord bots   993638671867715665   spam   PAW#5844   p
+15.11.2022   23:28   PAWIU discord bots   993638671867715665   spam   PAW#5844   a
+15.11.2022   23:28   PAWIU discord bots   993638671867715665   spam   PAW#5844   ,
+15.11.2022   23:29   PAWIU discord bots   993638671867715665   spam   PAW#5844   .
+15.11.2022   23:29   PAWIU discord bots   993638671867715665   spam   PAW#5844   .
+15.11.2022   23:29   PAWIU discord bots   993638671867715665   spam   PAW#5844   .
+15.11.2022   23:29   PAWIU discord bots   993638671867715665   spam   PAW#5844   .
+15.11.2022   23:29   PAWIU discord bots   993638671867715665   spam   PAW#5844   s
+15.11.2022   23:29   PAWIU discord bots   993638671867715665   spam   PAW#5844   s
+15.11.2022   23:29   PAWIU discord bots   993638671867715665   spam   PAW#5844   s
+15.11.2022   23:29   PAWIU discord bots   993638671867715665   spam   PAW#5844   s
+15.11.2022   23:29   PAWIU discord bots   993638671867715665   spam   PAW#5844   s
+15.11.2022   23:29   PAWIU discord bots   993638671867715665   spam   PAW#5844   s
+15.11.2022   23:29   PAWIU discord bots   993638671867715665   spam   PAW#5844   s
+15.11.2022   23:29   PAWIU discord bots   993638671867715665   spam   PAW#5844   s
+15.11.2022   23:29   PAWIU discord bots   993638671867715665   spam   PAW#5844   $lvl
+15.11.2022   23:29   PAWIU discord bots   993638671867715665   spam   SEEN-#5771   
+15.11.2022   23:29   PAWIU discord bots   993638671867715665   spam   PAW#5844   s
+15.11.2022   23:29   PAWIU discord bots   993638671867715665   spam   PAW#5844   s
+15.11.2022   23:29   PAWIU discord bots   993638671867715665   spam   PAW#5844   s
+15.11.2022   23:29   PAWIU discord bots   993638671867715665   spam   PAW#5844   s
+15.11.2022   23:29   PAWIU discord bots   993638671867715665   spam   PAW#5844   s
+15.11.2022   23:29   PAWIU discord bots   993638671867715665   spam   PAW#5844   s
+15.11.2022   23:29   PAWIU discord bots   993638671867715665   spam   PAW#5844   s
+15.11.2022   23:29   PAWIU discord bots   993638671867715665   spam   PAW#5844   ss
+15.11.2022   23:29   PAWIU discord bots   993638671867715665   spam   PAW#5844   s
+15.11.2022   23:29   PAWIU discord bots   993638671867715665   spam   PAW#5844   s
+15.11.2022   23:29   PAWIU discord bots   993638671867715665   spam   PAW#5844   s
+15.11.2022   23:29   PAWIU discord bots   993638671867715665   spam   PAW#5844   s
+15.11.2022   23:29   PAWIU discord bots   993638671867715665   spam   PAW#5844   s
+15.11.2022   23:29   PAWIU discord bots   993638671867715665   spam   PAW#5844   s
+15.11.2022   23:29   PAWIU discord bots   993638671867715665   spam   PAW#5844   s
+15.11.2022   23:29   PAWIU discord bots   993638671867715665   spam   PAW#5844   s
+15.11.2022   23:29   PAWIU discord bots   993638671867715665   spam   PAW#5844   s
+15.11.2022   23:29   PAWIU discord bots   993638671867715665   spam   PAW#5844   s
+15.11.2022   23:29   PAWIU discord bots   993638671867715665   lvl-notify   SEEN-#5771   
+15.11.2022   23:29   PAWIU discord bots   993638671867715665   spam   PAW#5844   $clear 50
+15.11.2022   23:29   PAWIU discord bots   993638671867715665   spam   SEEN-#5771   Usunąłem 50 wiadomości
+15.11.2022   23:29   PAWIU discord bots   993638671867715665   logs   SEEN-#5771   
+15.11.2022   23:30   PAWIU discord bots   993638671867715665   logs   SEEN-#5771   
