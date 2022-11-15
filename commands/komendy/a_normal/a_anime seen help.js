@@ -165,7 +165,7 @@ module.exports = {
         .setFooter(message.author.tag, message.author.avatarURL({dynamic: true}));
     
 
-        if(!args[0]){message.reply("try use: $anime help")}
+        if(!args[0]){message.reply("try use: $animeseen help")}
 
         if(args[0] == "help"){
             if(args[1] == "en"){//wersja en

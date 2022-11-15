@@ -62,6 +62,14 @@ module.exports = {
          
         if(work != true){return message.channel.send(reason)}
 
+        if(args[0] == "announcements" || args[0] == "zapowiedzi") {
+            return message.reply(`try use one of this command: \n
+            $announcements_autumn
+            $zapowiedzi_jesień
+            --
+            $announcements_summer
+            $zapowiedzi_lato`)
+        }
 
         const embed_pl = new Discord.MessageEmbed()
 
@@ -70,10 +78,9 @@ module.exports = {
         .setDescription(`U can use '$help en' for a description in English\nlist of all commands:`)
         .addFields(//inline-w embedzie zamiast po dobą będą obok siebie
         {name: `animegif`,value: `${prefix}animegif help\n${prefix}animegif help en`,inline: true},
-        {name: `anime episodes`,value: `${prefix}anime_odc_help\n${prefix}anime_odc_help en`,inline: true},   
-        {name: `announcements summer2022`,value: `${prefix}announcements help\n${prefix}announcements help en`,inline: true},
+        {name: `announcements`,value: `${prefix}anime announcements help\n${prefix}anime zapowiedzi help`,inline: true},
         {name: `animelist`,value: `${prefix}animelist help\n${prefix}animelist help en`,inline: true},
-        {name: `myanimelist`,value: `${prefix}myanimelist help\n${prefix}myanimelist help en`,inline: true},
+        
 
         )
         .setFooter(message.author.tag, message.author.avatarURL({dynamic: false}));
