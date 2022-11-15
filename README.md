@@ -143,6 +143,10 @@ npm i js-queue
     156.zrobić w shelu albo exe automotycze pobieranie paczek, to samo ale dodać odpalanie bota w exe (bat to exe)
     157.dodać do $help! wszystkie komendy w tym $zapowiedzi_jesień 2022
     158.bot po użyciu $valo ma dawać reakcje do wiadomości żeby było wiadomo że załapał wiadomość
+    159.zrobić muta na quick db żeby po wyłączeniu bota muta zciągało
+    160.dodać $random do helpa komend
+    161.dodać sprawdzanie -- jeżeli serwer ma powyżej 150 ludzi to automatycznie powiadomienia o userach onilne/offline nie są wysyłane
+    162.dodać (/) commands to tych wszystkich komend
 
     dodać do tego top chanels(top kanał z wiadomościami, top kanał vc z ilością h)
 
