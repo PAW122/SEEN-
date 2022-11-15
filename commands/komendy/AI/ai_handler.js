@@ -8,6 +8,7 @@ module.exports = (client) => {
     
     client.on('messageCreate', async message => {
 
+        if(message.guild == null) return;
         const args = message.content.trim().split(/ +/);
         //sprawdż czy gildia posiada włączoną komende ai w db
         const guildId = message.guild.id

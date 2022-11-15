@@ -14,7 +14,9 @@ module.exports = (client) => {
 
     client.on('messageCreate', async message => {
 
-        const guildId = message.guild.id
+            if(message.guild == null) return;
+            const guildId = message.guild.id
+
 
         const db = new QuickDB({ filePath: process.cwd() + `/db/lvl/${guildId}.sqlite` });
 
@@ -30,7 +32,7 @@ module.exports = (client) => {
 
         //jeżeli nie jest podany kanał id dla lvl: return
         const lvl_status = await db2.get(`lvls_channel.check`)
-        if(lvl_status != true) return;
+        if (lvl_status != true) return;
 
         let xpAdd = Math.floor(Math.random() * min_xp_per_message) + max_xp_per_message
 
@@ -59,7 +61,7 @@ module.exports = (client) => {
             if (nxtLvl <= curxp) {
                 let nxtLvl = ((curlvl + 2) * xp_per_lvl_scaling) * xp_per_lvl;
                 const db2 = new QuickDB({ filePath: process.cwd() + `/db/srv_settings/commands/${guildId}.sqlite` });
-                
+
                 const channel_id = await db2.get(`lvls_channel.channelId`)
                 curlvl = curlvl + 1;
 
@@ -79,22 +81,22 @@ module.exports = (client) => {
                     //check chanel id
                     try {
                         let channel = await client.channels.fetch(channel_id)
-                      } catch (err) {
+                    } catch (err) {
                         if (err == "DiscordAPIError: Unknown Channel") {
                             const lvl_status = await db2.set(`lvls_channel.check`, false)
-                          return message.reply("Probably administration set wrong channel id.\n Use **$settings lvls_channel <channel_ID> \nlvling channel: deafult**")
+                            return message.reply("Probably administration set wrong channel id.\n Use **$settings lvls_channel <channel_ID> \nlvling channel: deafult**")
                             //lvling channel = false
-                            
+
                         } else {
-                          return console.log(err)
+                            return console.log(err)
                         }
-                      }
+                    }
 
                     try {
                         save_data()
                         return client.channels.cache.get(channel_id).send({ embeds: [embed] });
                     } catch (err) {
-                        if(err == "Cannot read properties of undefined (reading 'send')"){
+                        if (err == "Cannot read properties of undefined (reading 'send')") {
                             save_data()
                             return message.channel.send("Probably administration set wrong channel id.\n Use **$settings lvls_channel <channel_ID>**")
                         }

@@ -132,10 +132,13 @@ client.once('ready', () => {
 
 client.on('messageCreate', async message => {
 
+    //bot nie przyjmuje wiadomości na pv
+    if(message.guild == null) return;
+
     //automod handler
     automod_handler(client, message)
 
-    //logi z serwerów
+      //logi z serwerów (wiadomość na pv -- brak id , wywala bota)
     logs_handler(message.content, null, 2, message.guild.id, message.author.tag, message.channel.name, client)
 
 
