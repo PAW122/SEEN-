@@ -5,6 +5,7 @@ const { SlashCommandBuilder } = require('@discordjs/builders');
 const config = require("../../config/config")
 const prefix = config.prefix
 const owner_id = config.owner_id
+const auto_settings = require("./auto_settings")
 module.exports = {
   name: "settings",
 
@@ -24,6 +25,11 @@ module.exports = {
         member.id === client.user.id).setNickname("SEEN-" + `[${prefix}help]`);
     }
 
+    if(args[0] == "auto_settings") {
+      auto_settings(message, args, client)
+      return
+    }
+
     if (args[0] == "deafult") {
       setting_handler(message, client)
       await new Promise(r => setTimeout(r, 2000));
@@ -33,7 +39,8 @@ module.exports = {
     if (!args[0]) {
       return message.reply(`You didn't enter an argument
             commands - gives you the ability to disable individual commands
-            usage eg: $settings <on/off> <command_name> `)
+            usage eg: $settings <on/off> <command_name> .
+            if you want to automatically configure the server use: **$settings auto_settings**`)
     }
 
     if (await db.get(`check.check`) == true) {
