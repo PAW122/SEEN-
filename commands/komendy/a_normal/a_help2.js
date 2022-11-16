@@ -23,7 +23,7 @@ const embed_pl = new Discord.MessageEmbed()
         "``clear``"+","+"``say``"+","+"``kick``"+","+"``ban``"+","+"``message_logs``"+","+"``mute``"+","+"``autorole ``", inline: false },
 
         { name: `***⚙️bot config***`, value: 
-        "``srv_set ``"+","+"``srv_logs``"+","+"``automod ``" + "," + "``settings auto_settings``", inline: false },
+        "``srv_set ``"+","+"``srv_logs``"+","+"``automod ``" + "," + "``settings auto_settings``" + "," + "``settings owner_alert help", inline: false },
 
         { name: `***💵economy***`, value: 
         "``helpeco``"+","+"``daily``"+","+"``profil``"+","+"``weekly``"+","+"``roll``"+","+"``shop``"+","+"``pvp``"+","+"``pay``"+","+"``add``"+","+"``birthday``"+","+"``bank``", inline: false },
@@ -33,15 +33,15 @@ const embed_pl = new Discord.MessageEmbed()
 
         { name: `***🎮Valorant***`, value:
         "``valo help``" + "," + "``valo mmr``" + "," + "``valo mmr history``" + "," + "``valo get_article``" + "," + "``valo last mathces``" + "," + "``valo agents``" + "," + "``valo player_cards``" + "," + "``valo maps``" + "," + "``version``" + "," + "``valo eavents``", inline: false },
-        
-        { name: `***🆘Support***`, value: 
-        "``contact``"+","+"``report``", inline: false },
 
         { name: `***🧠Quiz***`, value:
         "``mechatronic``", inline: false },
 
         { name: `🇯🇵***Anime***`, value:
-        "``animeseen``" + "," + "``anime``", inline: false }
+        "``animeseen``" + "," + "``anime``", inline: false },
+
+        { name: `***🆘Support***`, value: 
+        "``contact``"+","+"``report``", inline: false }
     )
 module.exports = {
     name: `help`,
