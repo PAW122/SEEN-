@@ -113,8 +113,23 @@ module.exports = {
 
     report: true,
     report_worker: "yes",
-    report_disable: "command is disable: no reason"
+    report_disable: "command is disable: no reason",
 
+    //16.11.2022 - dodaje nowe komendy
+    flags: true,
+    flags_worker: "yes",
+    flags_disable: "command is disable: no reason",
+
+    mechatronic: true,
+    mechatronic_worker: "yes",
+    mechatronic_disable: "command is disable: no reason",
+
+    valorant: true,
+    valorant_worker: "yes",
+    valorant_disable: "command is disable: no reason",
+
+    yt_notify_handler: false,
+    yt_notify_handler_disable: "yt notifications nie działa, wyłączone w worker.js"
 }
 
 /*

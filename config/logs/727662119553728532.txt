@@ -8774,3 +8774,13 @@ Taksamo jak @seen
 16.11.2022   21:46   priv   727662119553728532   bot   SEEN-#5771   set
 16.11.2022   22:01   priv   727662119553728532   bot   PAW#5844   $valo mmr PAW1172016 EUNE
 16.11.2022   22:01   priv   727662119553728532   bot   SEEN-#5771   
+16.11.2022   22:09   priv   727662119553728532   bot   PAW#5844   $blitzstats
+16.11.2022   22:09   priv   727662119553728532   bot   SEEN-#5771   command is disable: the command is in progress
+16.11.2022   22:28   priv   727662119553728532   bot   PAW#5844   $youtube
+17.11.2022   00:02   priv   727662119553728532   bot   PAW#5844   $ai_set hello
+17.11.2022   00:02   priv   727662119553728532   bot   SEEN-#5771   You type wrong channel id
+17.11.2022   00:03   priv   727662119553728532   eval-commands   PAW#5844   $ai_set 1015008248115503164
+17.11.2022   00:03   priv   727662119553728532   eval-commands   SEEN-#5771   Sucesfully saved now <#1015008248115503164> be writen by SEEN AI
+17.11.2022   00:03   priv   727662119553728532   eval-commands   PAW#5844   hello
+17.11.2022   00:03   priv   727662119553728532   eval-commands   SEEN-#5771   siema
+17.11.2022   00:09   priv   727662119553728532   eval-commands   PAW#5844   siemano

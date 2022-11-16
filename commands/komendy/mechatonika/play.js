@@ -22,7 +22,10 @@ użycie (nowe)
 $mehatronika mechatronic: nrmechatronicu zad:nrazd
 $odp <nazwamechatronicu> <nrzad>
 */
-
+const config = require(process.cwd() + `/config/worker.js`)
+const work = config.mechatronic
+const worker = config.mechatronic_worker
+const reason = config.mechatronic_disable
 const { QuickDB } = require("quick.db")
 const data = require("./data.json")
 const Discord = require("discord.js")
@@ -30,14 +33,17 @@ const Discord = require("discord.js")
 
 module.exports = {
     name: "mechatronic",
+    work: worker,
 
     execute: async (message, args, client) => {
+        const guildId = message.guild.id
+        if (work != true) { return message.channel.send(reason) }
+
         process.setMaxListeners(100);
 
         //dodać do sutawnień serwerowych i dodać workera
 
         const author = message.author.id
-        const guildId = message.guild.id
         const db = new QuickDB({ filePath: process.cwd() + `/db/mechatronika/${author}.sqlite` });
 
         if (args[0] == "help") {

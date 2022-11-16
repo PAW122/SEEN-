@@ -147,6 +147,8 @@ npm i js-queue
     160.dodać $random do helpa komend
     161.dodać sprawdzanie -- jeżeli serwer ma powyżej 150 ludzi to automatycznie powiadomienia o userach onilne/offline nie są wysyłane
     162.dodać (/) commands to tych wszystkich komend
+    163.w flags dokończyć robienie komendy leaderboard
+    164.dokończyć albo usunąć mal.js
 
     dodać do tego top chanels(top kanał z wiadomościami, top kanał vc z ilością h)
 

@@ -4,10 +4,19 @@ const agents = require("./valo_agents")
 const player_cards = require("./players_cards")
 const maps = require("./maps")
 const eavents = require("./valo_eavents")
+
+const config = require(process.cwd() + `/config/worker.js`)
+const work = config.valorant
+const worker = config.valorant_worker
+const reason = config.valorant_disable
 module.exports = {
     name: "valo",
+    work: worker,
 
     execute: async (message, args, client) => {
+
+        const guildId = message.guild.id
+        if (work != true) { return message.channel.send(reason) }
 
         if (args[0] == "help") {
             const embed_pl = new Discord.MessageEmbed()
@@ -63,6 +72,13 @@ module.exports = {
 
         async function version() {
             const data = axios.get("https://valorant-api.com/v1/version").then(res => {
+                try {
+                    if (data.data.status == 429) { return message.reply("the bot has reached the maximum number of queries sent. Please try in a few minutes") }
+                    if (!data || data.data.status != 200) return message.reply("Bad informations. Check nickname and tagline.\n try use $valo help")
+                } catch (err) {
+                    console.log(err)
+                    return message.reply("API dont responding")
+                }
                 const status = res.data.status
                 if (status != 200) return message.reply("error");
                 const branch = res.data.data.branch
@@ -93,14 +109,14 @@ module.exports = {
                 .catch(err => {
                     console.log(err)
                 })
-                try{//api nie odpowiedziała i wywaliło error 400
-            if(response.data.status == 400) {return message.reply("API dont responding")}
-            if (response.data.status == 429) { return message.reply("the bot has reached the maximum number of queries sent. Please try in a few minutes") }
-            if (!response || response.data.status != 200) return message.reply("Bad informations. Check nickname and tagline.\n try use $valo help")
-                }catch(err) {
-                    console.log(err)
-                    return message.reply("Error")
-                }
+            try {//api nie odpowiedziała i wywaliło error 400
+                if (response.data.status == 400) { return message.reply("API dont responding") }
+                if (response.data.status == 429) { return message.reply("the bot has reached the maximum number of queries sent. Please try in a few minutes") }
+                if (!response || response.data.status != 200) return message.reply("Bad informations. Check nickname and tagline.\n try use $valo help")
+            } catch (err) {
+                console.log(err)
+                return message.reply("API dont responding")
+            }
             // response =>
             const region = response.data.data.region
             const name = response.data.data.name
@@ -112,6 +128,13 @@ module.exports = {
                 console.log(err)
             })
 
+            try {
+                if (url.data.status == 429) { return message.reply("the bot has reached the maximum number of queries sent. Please try in a few minutes") }
+                if (!url || url.data.status != 200) return message.reply("Bad informations. Check nickname and tagline.\n try use $valo help")
+            } catch (err) {
+                console.log(err)
+                return message.reply("API dont responding")
+            }
 
             const rank = mmr.data.data.currenttierpatched
             const mmr_change_to_last_game = mmr.data.data.mmr_change_to_last_game
@@ -141,19 +164,19 @@ module.exports = {
                 .catch(err => {
                     console.log(err)
                 })
-                try{
-            if (response.data.status == 429) { return message.reply("the bot has reached the maximum number of queries sent. Please try in a few minutes") }
-            if (!response || response.data.status != 200) return message.reply("Bad informations. Check nickname and tagline.\n try use $valo help")
+            try {
+                if (response.data.status == 429) { return message.reply("the bot has reached the maximum number of queries sent. Please try in a few minutes") }
+                if (!response || response.data.status != 200) return message.reply("Bad informations. Check nickname and tagline.\n try use $valo help")
 
-            const region = response.data.data.region
-            const name = response.data.data.name
-            const puuid = response.data.data.puuid
-                }catch(err) {
-                    console.log(err)
-                    return message.reply("API dont responding")
-                }
+                const region = response.data.data.region
+                const name = response.data.data.name
+                const puuid = response.data.data.puuid
+            } catch (err) {
+                console.log(err)
+                return message.reply("API dont responding")
+            }
             //get MEE History
-            if(!region){
+            if (!region) {
                 return message.reply("API dont responding")
             }
             const url_hisotry = `https://api.henrikdev.xyz/valorant/v1/by-puuid/mmr-history/${region}/${puuid}`
@@ -291,7 +314,7 @@ module.exports = {
         async function get_article() {
             message.react("✅")
 
-            if(args[1] == "list") {
+            if (args[1] == "list") {
                 return message.reply(`__game_updates__ , __dev__ , __esports__ , __announcments__`)
             }
 
@@ -310,9 +333,14 @@ module.exports = {
                     console.log(err)
                 })
 
-            if (response.data.status == 429) { return message.reply("the bot has reached the maximum number of queries sent. Please try in a few minutes") }
-            if (!response || response.data.status != 200) return message.reply("Bad informations. Check nickname and tagline.\n try use $valo help \n")
-
+                try {
+                    if (response.data.status == 429) { return message.reply("the bot has reached the maximum number of queries sent. Please try in a few minutes") }
+                    if (!response || response.data.status != 200) return message.reply("Bad informations. Check nickname and tagline.\n try use $valo help")
+                } catch (err) {
+                    console.log(err)
+                    return message.reply("API dont responding")
+                }
+                
             const one = response.data.data[0]
             const two = response.data.data[1]
             const three = response.data.data[2]

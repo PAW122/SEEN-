@@ -12,9 +12,6 @@ const save_messages_logs_dir = config.save_messages_logs_dir
 
 const botId = "<@797070806885990431>"
 
-//yt notyfications
-const yt_notify = require("../commands/komendy/API/yt-notifications")
-
 module.exports = (client, prefix, message) => {
 
     //@seen execute

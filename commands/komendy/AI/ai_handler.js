@@ -4,9 +4,26 @@
 //jeżeli urzytkownik wysłał wiadomość o treśi, której nie ma w db zapisz ją do to-check
 const pl_output = require("./responds/pl-responds.json")
 const { QuickDB } = require("quick.db");
+
+const talkedRecently = new Set();
+const cooldown = 60000
+
 module.exports = (client) => {
     
     client.on('messageCreate', async message => {
+
+        if (talkedRecently.has(inter.user.id)) {
+            return inter.reply("Wait 1 minute before getting typing this again. - <@" + inter.user.id + ">");
+         } else {
+
+             // the user can type the command ... your command code goes here :)
+             // Adds the user to the set so that they can't talk for a minute
+             talkedRecently.add(inter.user.id);
+             setTimeout(() => {
+                 // Removes the user from the set after a minute
+                 talkedRecently.delete(inter.user.id);
+             }, cooldown);
+         }
 
         if(message.guild == null) return;
         const args = message.content.trim().split(/ +/);
@@ -21,7 +38,7 @@ module.exports = (client) => {
         const input = message.content
         const arg = args[0]
 
-        try{
+        try{//try message.content
             const id = Object.keys(pl_output).length
             const odp =  pl_output[input]
             const len = odp.length - 1
@@ -32,7 +49,7 @@ module.exports = (client) => {
 
            return message.channel.send(pl_output[rng][len])
         } catch(err){
-            try{
+            try{//try first arg
                 const id = Object.keys(pl_output).length
                 const odp =  pl_output[arg]
                 const len = odp.length
@@ -48,3 +65,13 @@ module.exports = (client) => {
         }
     });
 }
+
+/*
+1.przywitanie
+2.spróbuj znaleźć rodzaj odpowiedzi (przywitanie/zapytanie/inne)
+3.
+
+
+za każdym wysłaniem wiadomości na kanale bot zapisuje typ ostatniej wiadomości
+np last: zapytanie: {jak się masz?}
+*/

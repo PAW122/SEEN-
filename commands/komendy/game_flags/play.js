@@ -8,15 +8,25 @@ const data = require("./data.json")
 const Discord = require("discord.js")
 const handler = require("./top")
 
+const config = require(process.cwd() + `/config/worker.js`)
+const work = config.flags
+const worker = config.flags_worker
+const reason = config.flags_disable
+
 module.exports = {
     name: "flags",
+    work: worker,
 
     execute: async (message, args, client) => {
+            const guildId = message.guild.id
+
+            if (work != true) { return message.channel.send(reason) }
+        
+
         process.setMaxListeners(0);
         // process.on('warning', e => { console.log(e)});
         //load server settings
         const author = message.author.id
-        const guildId = message.guild.id
         const db = new QuickDB({ filePath: process.cwd() + `/db/srv_settings/commands/${guildId}.sqlite` });
         if (await db.get(`check.check`) == true) {
             const settings = await db.get(`game.worker`)
@@ -104,7 +114,7 @@ module.exports = {
                 if (lastMessage.author.id == message.author.id && lastMessage.content == good_anwser) {
                     combo(true)
                     return message.reply("Good anwser")
-                } else if (lastMessage.author.id == message.author.id && (lastMessage.content.toLowerCase() == "a" || lastMessage.content.toLowerCase() == "b" ||lastMessage.content.toLowerCase() == "c"|| lastMessage.content.toLowerCase() == "d")) {
+                } else if (lastMessage.author.id == message.author.id && (lastMessage.content.toLowerCase() == "a" || lastMessage.content.toLowerCase() == "b" || lastMessage.content.toLowerCase() == "c" || lastMessage.content.toLowerCase() == "d")) {
                     combo(false)
                     return message.reply(`Bad answer. Correct answer is: **${good_anwser}**`)
 

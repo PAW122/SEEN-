@@ -8,8 +8,21 @@ dodać opcje resetowania konta do 0 statystyk
 const { QuickDB } = require("quick.db")
 const Discord = require("discord.js")
 
+const config = require(process.cwd() + `/config/worker.js`)
+const work = config.flags
+const worker = config.flags_worker
+const reason = config.flags_disable
+
 module.exports = (message, client) => {
     async function main() {
+        const guildId = message.guild.id
+        const db_worker = new QuickDB({ filePath: process.cwd() + `/db/srv_settings/commands/${guildId}.sqlite` });
+        if (await db_worker.get(`check.check`) == true) {
+            const settings = await db_worker.get(`ping.worker`)
+            const settings_reason = await db_worker.get(`ping.reason`)
+            if (settings != true) { return message.channel.send(settings_reason) }
+        }
+        
         const author = message.author.id
         const db = new QuickDB({ filePath: process.cwd() + `/db/flags/combo/${author}.sqlite` });
         const db2 = new QuickDB({ filePath: process.cwd() + `/db/flags/top.sqlite` });

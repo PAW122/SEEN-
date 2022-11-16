@@ -1,10 +1,9 @@
 
 const Discord = require('discord.js');
 
-const config1 = require(process.cwd() + `/config/worker.js`)
-        const work = config1.blitz_stats
-        const worker = config1.blitz_stats_work
-        const reason = config1.blitz_stats_disable
+const works = require(process.cwd() + `/config/worker.js`)
+const work = works.yt_notify_handler
+const reason = works.yt_notify_handler_disable
 
 
 const { QuickDB } = require("quick.db");
@@ -13,12 +12,13 @@ const yt_notify_handler = require("./yt-notifications")
 //nie wywołuje tu powiadomienia
 module.exports = {
     name: "youtube",
-    work: worker,
 
     execute: async(message, args) => {
 
+        if (work != true) {return message.reply("youtube command is disabled from technic reasons")}
+
         //load server settings
-        const guildId = inter.guild.id
+        const guildId = message.guild.id
         const db2 = new QuickDB({ filePath: process.cwd() + `/db/srv_settings/commands/${guildId}.sqlite` });
         if (await db2.get(`check.check`) == true) {
             const settings = await db2.get(`yt_notyfications.worker`)

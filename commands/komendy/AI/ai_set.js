@@ -18,6 +18,16 @@ module.exports ={
 
     const ai_chammel = args[0]
 
+    try {
+        let channel = await client.channels.fetch(ai_chammel)
+      } catch (err) {
+        if (err == "DiscordAPIError: Unknown Channel") {
+          return message.reply("Wrong channel id")
+        } else {
+          return console.log(err)
+        }
+      }
+
     //zapisz do db
     await db.set(`${guildId}.guild`, guildId)
     await db.set(`${guildId}.channelid`, ai_chammel)

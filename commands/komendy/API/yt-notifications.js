@@ -7,7 +7,15 @@ var server = http.createServer(app);
 
 const config = require("../../../config/config")
 const token = config.token
+
+const works = require(process.cwd() + `/config/worker.js`)
+const work = works.yt_notify_handler
+const reason = works.yt_notify_handler_disable
+
 module.exports = () => {
+
+    if (work != true) { return console.log(reason) }
+
     const channel_id = "UCyFhRlWsqH1mD3c6If3U9Lw"
     const channel_link = "https://youtube.com/channel/UCyFhRlWsqH1mD3c6If3U9Lw"
     const server_channel_id = "745768777022701648"
