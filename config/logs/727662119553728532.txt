@@ -8772,3 +8772,5 @@ Taksamo jak @seen
 16.11.2022   20:28   priv   727662119553728532   ogólny   SEEN-#5771   test2 sd sds
 16.11.2022   21:46   priv   727662119553728532   bot   PAW#5844   $settings owner_alert on
 16.11.2022   21:46   priv   727662119553728532   bot   SEEN-#5771   set
+16.11.2022   22:01   priv   727662119553728532   bot   PAW#5844   $valo mmr PAW1172016 EUNE
+16.11.2022   22:01   priv   727662119553728532   bot   SEEN-#5771   
