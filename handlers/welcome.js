@@ -2,6 +2,8 @@ const Canvas = require("canvas")
 const Discord = require("discord.js")
 var background = "https://i.imgur.com/zvWTUVu.jpg"
 const { QuickDB } = require("quick.db");
+const owner_alert = require("./owner_alert")
+const { MessageEmbed } = require('discord.js');
 const dim = {
     height: 675,
     width: 1200,
@@ -22,6 +24,15 @@ client.once("guildMemberAdd", member => {
         //get background
         const guildId = member.guild.id
         const db = new QuickDB({ filePath: process.cwd() + `/db/srv_settings/commands/${guildId}.sqlite` });
+        
+        //owner alert
+        const embed = new MessageEmbed()
+        .setTitle('Member join server')
+        .setColor('#2F3136')//kolor embeda (nie ma paska)
+        .setDescription(`${member.user.tag}`);
+        owner_alert(1,embed,guildId,null,null,client)
+        
+        
         if(await db.get(`background.check`) != true) {
             var background = "https://i.imgur.com/zvWTUVu.jpg"
 

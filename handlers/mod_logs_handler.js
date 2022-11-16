@@ -1,6 +1,7 @@
 const { MessageEmbed } = require('discord.js');
 const { QuickDB } = require("quick.db");
 const { AuditLogEvent } = require('discord.js');
+const owner_alert = require("../handlers/owner_alert")
 /*
 w każdym client.on sprawdza guild.id i jeżeli guild id
 posiada mod.logs w db to będzie wysyłane na dany kanał
@@ -163,10 +164,17 @@ module.exports = (client) => {
                 .setTitle('User Got Role!')
                 .setColor('#2F3136')
                 .setDescription(`**${member.user.tag}** got the role \`${role.name}\``);
+                
+                try{
+                    owner_alert(1,MemberRoleAdd , guildId,null,null,client)
+                } catch(err){
+                    console.log(err)
+                }
 
             return LogChannel.send({
                 embeds: [MemberRoleAdd]
             });
+
         }
         main()
 
@@ -186,13 +194,19 @@ module.exports = (client) => {
                 .setTitle('User Lost Role!')
                 .setColor('#2F3136')
                 .setDescription(`**${member.user.tag}** lost the role \`${role.name}\``);
-try{
-            return LogChannel.send({
-                embeds: [MemberRoleRemove]
-            });
-        }catch(err){
-            console.log(err)
-        }
+            try {
+                try{
+                    owner_alert(1,MemberRoleRemove , guildId,null,null,client)
+                } catch(err){
+                    console.log(err)
+                }
+
+                return LogChannel.send({
+                    embeds: [MemberRoleRemove]
+                });
+            } catch (err) {
+                console.log(err)
+            }
         }
         main()
 
@@ -235,6 +249,12 @@ try{
                 .setTitle('User Joined')
                 .setColor('#2F3136')
                 .setDescription(`${member.user.tag} Joined!`);
+
+                try{
+                    owner_alert(1,MemberJoined , guildId,null,null,client)
+                } catch(err){
+                    console.log(err)
+                }
 
             return LogChannel.send({
                 embeds: [MemberJoined]

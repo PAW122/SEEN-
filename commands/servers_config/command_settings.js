@@ -6,6 +6,7 @@ const config = require("../../config/config")
 const prefix = config.prefix
 const owner_id = config.owner_id
 const auto_settings = require("./auto_settings")
+const owner_alert = require("../../handlers/owner_alert")
 module.exports = {
   name: "settings",
 
@@ -23,6 +24,15 @@ module.exports = {
     async function updateNickname(guild, prefix) {
       client.guilds.cache.get(guild).members.cache.find(member =>
         member.id === client.user.id).setNickname("SEEN-" + `[${prefix}help]`);
+    }
+
+    if(args[0] == "owner_alert") {
+      //0 == srv_set
+      //1 == mod_logs
+      //null == embed content from mod logs
+      //null2 = guildId
+      owner_alert(0, null , null , message, args, client)
+      return
     }
 
     if(args[0] == "auto_settings") {
