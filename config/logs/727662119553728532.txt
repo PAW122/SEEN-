@@ -8707,3 +8707,29 @@ Dodać komendę która automatycznie tworzy kanały do logów i ustawia na nich 
 15.11.2022   23:56   priv   727662119553728532   bot   SEEN-#5771   try use: $animeseen help
 15.11.2022   23:56   priv   727662119553728532   bot   PAW#5844   $animeseen help
 15.11.2022   23:56   priv   727662119553728532   bot   SEEN-#5771   
+16.11.2022   01:35   priv   727662119553728532   minc-serv-18   SEEN-#5771   
+16.11.2022   07:04   priv   727662119553728532   dc-bot   PAW#5844   .
+Niech bot w taki dam sposób jak cooldown liczy wysłane logi o ofline/online user i jeżeli jakiś serwer przekroczy+/- 100 na minute to na ileś czasu wyłącza na nim powiadomienia
+16.11.2022   07:04   priv   727662119553728532   dc-bot   PAW#5844   .
+Aktualizować srv_set list dodać i pousówać komendy
+16.11.2022   07:05   priv   727662119553728532   bot   PAW#5844   $ping
+16.11.2022   07:05   priv   727662119553728532   bot   SEEN-#5771   pong!
+16.11.2022   07:05   priv   727662119553728532   bot   PAW#5844   $help
+16.11.2022   07:05   priv   727662119553728532   bot   SEEN-#5771   
+16.11.2022   07:07   priv   727662119553728532   dc-bot   PAW#5844   .
+Jeżeli użyjemy auto settings ale mamy juz ustawione cos. Bot sorawdza czy kanal o tym id istnieje i jak tak to pyta się usera czy zmienik kanal do np modlogs
+16.11.2022   07:08   priv   727662119553728532   dc-bot   PAW#5844   .
+Do message logs dodac zeby nie logowalo wiadomosci bota
+16.11.2022   08:01   priv   727662119553728532   minc-serv-18   SEEN-#5771   
+16.11.2022   09:52   priv   727662119553728532   dc-bot   PAW#5844   .
+Dodać owner warrings! Jeżeli ktoś usunie kanał/wywalenie/usówanie rang : powiadomienie do serwer ownera
+16.11.2022   09:52   priv   727662119553728532   minc-serv-18   SEEN-#5771   
+16.11.2022   09:54   priv   727662119553728532   dc-bot   PAW#5844   .
+Dodać anty raida
+Jeżeli min 10 osób z kontem młodszym niż 7 dni wbije na serwer to owner dostaje alert, bot daje im range muted wszystkim ludziom
+16.11.2022   10:50   priv   727662119553728532   dc-bot   PAW#5844   .
+Dodać nazwe bota jako prefix
+'seen' zamiast prefixa
+Taksamo jak @seen
+16.11.2022   13:19   priv   727662119553728532   minc-serv-18   SEEN-#5771   
+16.11.2022   14:20   priv   727662119553728532   minc-serv-18   SEEN-#5771   
