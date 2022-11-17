@@ -11,6 +11,8 @@ const cooldown = 60000
 module.exports = (client) => {
     
     client.on('messageCreate', async message => {
+        //wywala errera
+        return
 
         if (talkedRecently.has(inter.user.id)) {
             return inter.reply("Wait 1 minute before getting typing this again. - <@" + inter.user.id + ">");

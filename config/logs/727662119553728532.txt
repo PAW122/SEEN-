@@ -8784,3 +8784,13 @@ Taksamo jak @seen
 17.11.2022   00:03   priv   727662119553728532   eval-commands   PAW#5844   hello
 17.11.2022   00:03   priv   727662119553728532   eval-commands   SEEN-#5771   siema
 17.11.2022   00:09   priv   727662119553728532   eval-commands   PAW#5844   siemano
+17.11.2022   00:39   priv   727662119553728532   bot   PAW#5844   $ping
+17.11.2022   00:39   priv   727662119553728532   bot   SEEN-#5771   pong!
+17.11.2022   00:47   priv   727662119553728532   dc-bot   PAW#5844   .
+Jeżeli wiadomośc posiada link do rickrola bot daje z emotek napis SUS czy coś
+17.11.2022   09:56   priv   727662119553728532   bot   PAW#5844   $help
+17.11.2022   09:56   priv   727662119553728532   bot   SEEN-#5771   
+17.11.2022   09:58   priv   727662119553728532   bot   PAW#5844   $message_logs
+17.11.2022   09:58   priv   727662119553728532   bot   SEEN-#5771   
+17.11.2022   09:59   priv   727662119553728532   minc-serv-18   SEEN-#5771   
+17.11.2022   09:59   priv   727662119553728532   minc-serv-18   SEEN-#5771   
