@@ -64,7 +64,7 @@ module.exports = (client) => {
         }
     });
 
-    async function embed_alert() {
+    async function embed_alert(member) {
         const embed = new MessageEmbed()
         .setTitle('User left guild')
         .setColor('#2F3136')

@@ -9,7 +9,29 @@ posiada mod.logs w db to będzie wysyłane na dany kanał
 na samym początku sprawdzać czy guild.id jest w db jeżeli nie return
 */
 
+//do cooldowna \/
+const talkedRecently = new Set();
+
+var cooldown_time = 60000
+
 module.exports = (client) => {
+/*
+    async function cooldown(guildId, channel_send) {
+        if (talkedRecently.has(guildId)) {
+
+        }else{
+            const data = ([guildId,20])
+            talkedRecently.add(data)
+            talkedRecently.add(data)
+            console.log(talkedRecently)
+            console.log(talkedRecently.lenght)
+            if(talkedRecently.has(guildId)) {
+                console.log("ma id")
+            }
+        }
+          
+    }
+    */
 
     client.on("messageDelete", async (message) => {
         async function main() {
@@ -18,6 +40,9 @@ module.exports = (client) => {
             const guildId = message.guild.id
             const db = new QuickDB({ filePath: process.cwd() + `/db/srv_logs/${guildId}.sqlite` });
             if (await db.get(`check`) != true || await db.get(`message`) == false) { return } else { var channelID = await db.get(`channelId`) }
+
+            const LogChannel = client.channels.cache.get(channelID);
+            cooldown(guildId,LogChannel)
 
             if (message.attachments.size >= 1) {
                 var files = "yes"
@@ -164,12 +189,12 @@ module.exports = (client) => {
                 .setTitle('User Got Role!')
                 .setColor('#2F3136')
                 .setDescription(`**${member.user.tag}** got the role \`${role.name}\``);
-                
-                try{
-                    owner_alert(1,MemberRoleAdd , guildId,null,null,client)
-                } catch(err){
-                    console.log(err)
-                }
+
+            try {
+                owner_alert(1, MemberRoleAdd, guildId, null, null, client)
+            } catch (err) {
+                console.log(err)
+            }
 
             return LogChannel.send({
                 embeds: [MemberRoleAdd]
@@ -195,9 +220,9 @@ module.exports = (client) => {
                 .setColor('#2F3136')
                 .setDescription(`**${member.user.tag}** lost the role \`${role.name}\``);
             try {
-                try{
-                    owner_alert(1,MemberRoleRemove , guildId,null,null,client)
-                } catch(err){
+                try {
+                    owner_alert(1, MemberRoleRemove, guildId, null, null, client)
+                } catch (err) {
                     console.log(err)
                 }
 
@@ -250,11 +275,11 @@ module.exports = (client) => {
                 .setColor('#2F3136')
                 .setDescription(`${member.user.tag} Joined!`);
 
-                try{
-                    owner_alert(1,MemberJoined , guildId,null,null,client)
-                } catch(err){
-                    console.log(err)
-                }
+            try {
+                owner_alert(1, MemberJoined, guildId, null, null, client)
+            } catch (err) {
+                console.log(err)
+            }
 
             return LogChannel.send({
                 embeds: [MemberJoined]
