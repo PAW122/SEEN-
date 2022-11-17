@@ -149,6 +149,7 @@ npm i js-queue
     162.dodać (/) commands to tych wszystkich komend
     163.w flags dokończyć robienie komendy leaderboard
     164.dokończyć albo usunąć mal.js
+    165.zrobić system podziękowań (pomoc w robieniu bota czy coś) (tak na przyszłość)
 
     dodać do tego top chanels(top kanał z wiadomościami, top kanał vc z ilością h)
 
