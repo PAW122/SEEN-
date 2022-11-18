@@ -8824,3 +8824,4 @@ Jeżeli wiadomośc posiada link do rickrola bot daje z emotek napis SUS czy coś
 17.11.2022   19:56   priv   727662119553728532   minc-serv-18   SEEN-#5771   
 17.11.2022   19:57   priv   727662119553728532   minc-serv-18   PAW#5844   .
 17.11.2022   19:57   priv   727662119553728532   minc-serv-18   SEEN-#5771   
+18.11.2022   08:19   priv   727662119553728532   dc-bot   PAW#5844   Zapisywac cooldowny tak jak handler bieze args z wiadomosci
