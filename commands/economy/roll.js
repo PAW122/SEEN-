@@ -59,7 +59,6 @@ module.exports = {
         async function losowanie(rng, coins, obstawione_monet) {
             if (luckypotion != true) {
                 if (rng != 1) {
-
                     const suma = coins - obstawione_monet
                     message.reply(`You lost ${obstawione_monet} ${emoji}\nyou currently have: ${suma} ${emoji}\n you use ${roll_info}/15 rols today`)
                     await db.set(`${userId}.coins[0]`, suma)

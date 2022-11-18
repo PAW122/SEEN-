@@ -27,30 +27,25 @@ module.exports = {
             return message.reply(`You didn't enter a number ${emoji} which I should add to the user
             use: $helpeco to learn how to use commands`)
         }
-        if (!args[1]) {
-            return message.reply(`you didn't enter a user id
-            użyj: $helpeco to learn how to use commands`)
-        }
+        const user = message.mentions.users.first()
+        if(!user) return message.reply("tag user")
         if ((isNaN(args[0]))) {
             return message.reply(`You entered wrong amount ${emoji}`)
-        }
-        if ((isNaN(args[1]))) {
-            return message.reply(`You entered wrong id`)
         }
 
         if (!message.member.permissions.has("ADMINISTRATOR")) {
             return message.channel.send("You don't have admin authorization")
         }
-        if (await db.get(args[1]) == null) {
+        if (await db.get(user.id) == null) {
             return message.reply(`a person with this id is not participating in the game`)
         } else {
-            const coins = await db.get(`${args[1]}.coins[0]`);
+            const coins = await db.get(`${user.id}.coins[0]`);
             const add = parseInt(args[0])//zamienia string na liczbe
             const add2 = parseInt(coins)
             const to_add = add + add2
-            await db.set(`${args[1]}.coins[0]`, to_add)
+            await db.set(`${user.id}.coins[0]`, to_add)
             await db.set(`added_coins`, true)
-            return message.reply(`Successfully added to user <@${args[1]}> ${args[0]} ${emoji}`)
+            return message.reply(`Successfully added to user ${user} ${args[0]} ${emoji}`)
         }
 
     }

@@ -23,7 +23,7 @@ module.exports = {
         const db = new QuickDB({ filePath: process.cwd() + `/db/economy/local_economy/${guildId}.sqlite` });
 
         const authorId = message.author.id
-        const coins = args[0]
+        const coins = parseInt(args[0])
         const target = message.mentions.users.first();
         const target_id = target.id
 
@@ -68,8 +68,11 @@ module.exports = {
 
         async function pvp_game(){
 
-            const player1_coins = await db.get(`${authorId}.coins[0]`)
-            const player2_coins = await db.get(`${target_id}.coins[0]`)
+            const p1_coins = await db.get(`${authorId}.coins[0]`)
+            const p2_coins = await db.get(`${target_id}.coins[0]`)
+
+            const player1_coins = parseInt(p1_coins)
+            const player2_coins = parseInt(p2_coins)
 
             if(player1_coins < coins) return message.reply(`<@${userId}> dont have thats many coins`);
             if(player2_coins < coins) return message.reply(`<@${target_id}> You dont have thats many coins`);

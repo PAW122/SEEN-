@@ -40,7 +40,8 @@ module.exports = {
         async function coins_add() {
             if (await db.get(`${userId}.eq[0]`) == null) {
 
-                const user_coins = await db.get(`${userId}.coins[0]`)
+                const coins = await db.get(`${userId}.coins[0]`)
+                const user_coins = parseInt(coins)
                 const coins_to_add = user_coins + weekly_coins
                 await db.set(`${userId}.coins[0]`, coins_to_add)
 
