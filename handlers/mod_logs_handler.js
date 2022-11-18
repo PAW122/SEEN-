@@ -42,7 +42,7 @@ module.exports = (client) => {
             if (await db.get(`check`) != true || await db.get(`message`) == false) { return } else { var channelID = await db.get(`channelId`) }
 
             const LogChannel = client.channels.cache.get(channelID);
-            cooldown(guildId,LogChannel)
+            //cooldown(guildId,LogChannel)
 
             if (message.attachments.size >= 1) {
                 var files = "yes"

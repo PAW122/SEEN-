@@ -1,0 +1,86 @@
+
+{
+    "daily": {
+        "daily_basic_coins": 1000,
+        "daily_basic_daimonds_min": 5,
+        "daily_basic_daimonds_max": 50,
+        "daily_basic_xp_min": 1000,
+        "daily_basic_xp_max": 50000,
+        "rpg_coins_emoji" : "💵"
+    },
+
+    "shop": {
+        "basic_hełm_upgrade_cost": 150,
+        "basic_klata_upgrade_cost": 200,
+        "basic_spodnie_upgrade_cost": 175,
+        "basic_buty_upgrade_cost": 100
+    },
+
+    "graphic_path": {
+        "heart_icon": "c/",
+        "armor_icon": "",
+        "class_tank_icon": "",
+        "class_mag_icon": "",
+        "class_knight_icon": "",
+        "class_berserka_icon": "",
+        "class_sprinter_icon": ""
+    },
+
+    "enemy_stats": {
+        "tank": {
+            "hp": 150,
+            "def": 80,
+            "kill_xp": 75,
+            "drop_items_lvl": 3,
+            "drop_items_procent": 7,
+            "coins_per_kill": 50,
+            "stats_scaling": 5,
+            "dodge_percent": 33,
+            "magin_resistance": 7,
+            "damage": 60,
+            "atac_speed": 3,
+            "assets_graphic": "c/"
+        },
+
+        "mag": {
+            "hp": 150,
+            "def": 15,
+            "kill_xp": 66,
+            "drop_items_lvl": 4,
+            "drop_items_procent": 7,
+            "coins_per_kill": 32,
+            "stats_scaling": 7,
+            "dodge_percent": 11,
+            "magin_resistance": 78,
+            "damage": 66,
+            "atac_speed": 2,
+            "assets_graphic": "c/"  
+        },
+
+        "dps": {
+            "hp": 80,
+            "def": 66,
+            "kill_xp": 15,
+            "drop_items_lvl": 1,
+            "drop_items_procent": 7,
+            "coins_per_kill": 17,
+            "stats_scaling": 1,
+            "dodge_percent": 25,
+            "magin_resistance": 37,
+            "damage": 22,
+            "atac_speed": 1,
+            "assets_graphic": "c/"   
+        }
+    },
+
+    "healt_system": {
+        "regeneration_per_min": 1
+    },
+
+    "player_characters_class_list": {
+        "1": "tank",
+        "2": "mag",
+        "3": "ryceż",
+        "4": "dps"
+    }
+}
