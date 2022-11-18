@@ -20467,3 +20467,1204 @@ try{
 18.11.2022   10:43   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
 18.11.2022   10:43   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
 18.11.2022   10:44   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   10:48   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   10:49   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   10:50   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   10:51   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   10:52   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   10:52   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   10:53   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   10:54   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   10:58   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   10:59   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   10:59   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   11:02   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   11:05   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   11:08   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   11:11   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   11:12   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   11:12   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   11:13   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   11:14   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   11:18   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   11:18   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   11:20   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   11:20   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   11:20   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   11:22   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   11:24   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   11:25   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   11:25   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   11:26   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   11:26   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   11:27   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   11:30   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   11:32   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   11:32   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   11:34   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   11:34   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   11:38   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   11:40   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   11:40   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   11:42   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   11:42   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   11:45   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   11:46   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   11:48   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   11:48   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   11:48   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   11:49   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   11:49   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   11:50   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   11:51   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   11:52   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   11:53   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   11:56   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   11:57   Porg Comunuty   438621187132751873   🔒   PAW#5844   $ping
+18.11.2022   11:57   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   pong!
+18.11.2022   11:57   Porg Comunuty   438621187132751873   🔒   PAW#5844   >ping
+18.11.2022   11:57   Porg Comunuty   438621187132751873   『-👋-』powitalnia   SEEN-#5771   
+18.11.2022   11:57   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   11:57   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   11:57   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   11:58   Porg Comunuty   438621187132751873   🔒   PAW#5844   >ping
+18.11.2022   11:58   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   11:58   Porg Comunuty   438621187132751873   🔒   PAW#5844   >ping
+18.11.2022   12:01   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   12:01   Porg Comunuty   438621187132751873   🔒   PAW#5844   >poing
+18.11.2022   12:01   Porg Comunuty   438621187132751873   🔒   PAW#5844   >pin
+18.11.2022   12:01   Porg Comunuty   438621187132751873   🔒   PAW#5844   >ping
+18.11.2022   12:02   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   12:02   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   12:02   Porg Comunuty   438621187132751873   🔒   PAW#5844   >ping
+18.11.2022   12:02   Porg Comunuty   438621187132751873   🔒   PAW#5844   >ping
+18.11.2022   12:02   Porg Comunuty   438621187132751873   🔒   PAW#5844   >ping
+18.11.2022   12:02   Porg Comunuty   438621187132751873   🔒   PAW#5844   >ping
+18.11.2022   12:02   Porg Comunuty   438621187132751873   🔒   PAW#5844   >ping
+18.11.2022   12:02   Porg Comunuty   438621187132751873   🔒   PAW#5844   >ping
+18.11.2022   12:03   Porg Comunuty   438621187132751873   🔒   PAW#5844   >ping
+18.11.2022   12:04   Porg Comunuty   438621187132751873   🔒   PAW#5844   >ping
+18.11.2022   12:04   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   12:04   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   12:04   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   12:04   Porg Comunuty   438621187132751873   🔒   PAW#5844   >ping
+18.11.2022   12:05   Porg Comunuty   438621187132751873   🔒   PAW#5844   >ping
+18.11.2022   12:05   Porg Comunuty   438621187132751873   🔒   PAW#5844   >ping
+18.11.2022   12:05   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   12:06   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   12:07   Porg Comunuty   438621187132751873   🔒   PAW#5844   >ping
+18.11.2022   12:07   Porg Comunuty   438621187132751873   🔒   Krokiet™#9206   pong
+18.11.2022   12:07   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   12:08   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   12:08   Porg Comunuty   438621187132751873   『-💭-』general   Krokiet#5726   $jebc
+18.11.2022   12:08   Porg Comunuty   438621187132751873   『-💭-』general   Krokiet#5726   $jebac
+18.11.2022   12:08   Porg Comunuty   438621187132751873   『-💭-』general   Krokiet#5726   &jebac
+18.11.2022   12:08   Porg Comunuty   438621187132751873   『-💭-』general   Krokiet#5726   %jebavc
+18.11.2022   12:09   Porg Comunuty   438621187132751873   『-💭-』general   Krokiet#5726   %jebac
+18.11.2022   12:09   Porg Comunuty   438621187132751873   『-💭-』general   Ryouuk#1511   Ramba dziwke
+18.11.2022   12:09   Porg Comunuty   438621187132751873   『-💭-』general   PAW#5844   $say JD
+18.11.2022   12:09   Porg Comunuty   438621187132751873   『-💭-』general   PAW#5844   $say ezz
+18.11.2022   12:09   Porg Comunuty   438621187132751873   『-💭-』general   SEEN-#5771   ezz
+18.11.2022   12:09   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   12:09   Porg Comunuty   438621187132751873   『-💭-』general   Krokiet#5726   %paw
+18.11.2022   12:09   Porg Comunuty   438621187132751873   『-💭-』general   Ryouuk#1511   no chyba cie pojebało on jest upośledzony jakiś
+18.11.2022   12:10   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   12:10   Porg Comunuty   438621187132751873   『-💭-』general   PAW#5844   $say choj ci w dope
+18.11.2022   12:10   Porg Comunuty   438621187132751873   『-💭-』general   SEEN-#5771   choj ci w dope
+18.11.2022   12:10   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   12:10   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   12:10   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   12:13   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   12:13   Porg Comunuty   438621187132751873   🔒   PAW#5844   >say cos
+18.11.2022   12:13   Porg Comunuty   438621187132751873   🔒   Krokiet™#9206   say cos
+18.11.2022   12:13   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   12:14   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   12:15   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   12:15   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   12:15   Porg Comunuty   438621187132751873   『-🤖-』botownia   Krokiet#5726   say jebac ramba
+18.11.2022   12:15   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   12:15   Porg Comunuty   438621187132751873   『-🤖-』botownia   Krokiet#5726   %say jebac ramba
+18.11.2022   12:15   Porg Comunuty   438621187132751873   『-🤖-』botownia   Ryouuk#1511   jebac ramba
+18.11.2022   12:15   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   12:16   Porg Comunuty   438621187132751873   『-🤖-』botownia   PAW#5844   $help
+18.11.2022   12:16   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   
+18.11.2022   12:16   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   12:16   Porg Comunuty   438621187132751873   『-🤖-』botownia   Krokiet#5726   #daily
+18.11.2022   12:16   Porg Comunuty   438621187132751873   『-🤖-』botownia   PAW#5844   $help
+18.11.2022   12:16   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   
+18.11.2022   12:16   Porg Comunuty   438621187132751873   『-🤖-』botownia   Krokiet#5726   $daily
+18.11.2022   12:17   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   Your profile has been created
+18.11.2022   12:17   Porg Comunuty   438621187132751873   『-🤖-』botownia   Krokiet#5726   $daily
+18.11.2022   12:17   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   You can receive weekly reward
+ use $weekly to claim your reward
+18.11.2022   12:17   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   You got 66 💵
+                you have a total of 1066 💵
+18.11.2022   12:17   Porg Comunuty   438621187132751873   『-🤖-』botownia   Krokiet#5726   $bet 1000
+18.11.2022   12:17   Porg Comunuty   438621187132751873   『-🤖-』botownia   Krokiet#5726   $roll 1000
+18.11.2022   12:17   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   You lost 1000 💵
+you currently have: 66 💵
+ you use 0/15 rols today
+18.11.2022   12:17   Porg Comunuty   438621187132751873   『-🤖-』botownia   PAW#5844   $daily
+18.11.2022   12:17   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   You still need to use 7 daily to receive your weekly reward
+18.11.2022   12:17   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   You got 90 💵
+                you have a total of 1627 💵
+18.11.2022   12:17   Porg Comunuty   438621187132751873   『-🤖-』botownia   Krokiet#5726   $roll 66
+18.11.2022   12:17   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   You lost 66 💵
+you currently have: 0 💵
+ you use 1/15 rols today
+18.11.2022   12:17   Porg Comunuty   438621187132751873   『-🤖-』botownia   PAW#5844   $roll 1000
+18.11.2022   12:17   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   You won 2000 💵 
+ you use 2/15 rols today
+you currently have: 3627 💵
+18.11.2022   12:17   Porg Comunuty   438621187132751873   『-🤖-』botownia   PAW#5844   ez
+18.11.2022   12:17   Porg Comunuty   438621187132751873   『-🤖-』botownia   PAW#5844   $ecohelp
+18.11.2022   12:17   Porg Comunuty   438621187132751873   『-🤖-』botownia   Krokiet#5726   $add 14214234234 99999999999999
+18.11.2022   12:17   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   You don't have admin authorization
+18.11.2022   12:17   Porg Comunuty   438621187132751873   『-🤖-』botownia   PAW#5844   $add <@692621246017568799> 100
+18.11.2022   12:17   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   You entered wrong amount 💵
+18.11.2022   12:18   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   12:18   Porg Comunuty   438621187132751873   『-🤖-』botownia   PAW#5844   $add 100 <@692621246017568799>
+18.11.2022   12:18   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   You entered wrong id
+18.11.2022   12:18   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   12:18   Porg Comunuty   438621187132751873   『-🤖-』botownia   Krokiet#5726   %say jebac smukałe
+18.11.2022   12:18   Porg Comunuty   438621187132751873   『-🤖-』botownia   Ryouuk#1511   jebac smukałe
+18.11.2022   12:18   Porg Comunuty   438621187132751873   『-🤖-』botownia   Krokiet#5726   %say jebac smukałe
+18.11.2022   12:18   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   12:18   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   12:18   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   12:20   Porg Comunuty   438621187132751873   『-🤖-』botownia   PAW#5844   $add <@692621246017568799> 100
+18.11.2022   12:20   Porg Comunuty   438621187132751873   『-👋-』powitalnia   SEEN-#5771   
+18.11.2022   12:20   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   You entered wrong amount 💵
+18.11.2022   12:20   Porg Comunuty   438621187132751873   『-💭-』general   Krokiet#5726   %say @everyone jebac valoranta
+18.11.2022   12:20   Porg Comunuty   438621187132751873   『-💭-』general   Ryouuk#1511   @everyone jebac valoranta
+18.11.2022   12:20   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   12:20   Porg Comunuty   438621187132751873   『-🤖-』botownia   PAW#5844   $add 100 <@692621246017568799>
+18.11.2022   12:20   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   You entered wrong id
+18.11.2022   12:20   Porg Comunuty   438621187132751873   『-🤖-』botownia   PAW#5844   $add 100 <@692621246017568799>
+18.11.2022   12:20   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   Successfully added to user <@<@692621246017568799>> 100 💵
+18.11.2022   12:20   Porg Comunuty   438621187132751873   『-🤖-』botownia   Krokiet#5726   $roll 100
+18.11.2022   12:20   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   You won 200 💵 
+ you use 2/15 rols today
+you currently have: 300 💵
+18.11.2022   12:21   Porg Comunuty   438621187132751873   『-🤖-』botownia   Krokiet#5726   $roll 300
+18.11.2022   12:21   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   You won 600 💵 
+ you use 3/15 rols today
+you currently have: 900 💵
+18.11.2022   12:21   Porg Comunuty   438621187132751873   『-🤖-』botownia   PAW#5844   $add 10000 <@438336824516149249>
+18.11.2022   12:21   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   Successfully added to user <@438336824516149249> 10000 💵
+18.11.2022   12:21   Porg Comunuty   438621187132751873   『-🤖-』botownia   Krokiet#5726   $roll 900
+18.11.2022   12:21   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   You lost 900 💵
+you currently have: 0 💵
+ you use 4/15 rols today
+18.11.2022   12:23   Porg Comunuty   438621187132751873   『-🤖-』botownia   PAW#5844   $profil
+18.11.2022   12:23   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   posziadasz: 13627 💵
+        
+ostatnie urzycie daily: 4.11.2022
+        
+Items: ,
+18.11.2022   12:23   Porg Comunuty   438621187132751873   『-🤖-』botownia   PAW#5844   $roll 100
+18.11.2022   12:23   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   You lost 100 💵
+you currently have: 13527 💵
+ you use 1/15 rols today
+18.11.2022   12:23   Porg Comunuty   438621187132751873   『-🤖-』botownia   PAW#5844   $roll 100
+18.11.2022   12:23   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   You lost 100 💵
+you currently have: 13427 💵
+ you use 2/15 rols today
+18.11.2022   12:23   Porg Comunuty   438621187132751873   『-🤖-』botownia   Krokiet#5726   $profil
+18.11.2022   12:23   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   posziadasz: 0 💵
+        
+ostatnie urzycie daily: 18.11.2022
+        
+Items: ,
+18.11.2022   12:23   Porg Comunuty   438621187132751873   『-🤖-』botownia   PAW#5844   $roll 100
+18.11.2022   12:23   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   You won 200 💵 
+ you use 3/15 rols today
+you currently have: 13627 💵
+18.11.2022   12:23   Porg Comunuty   438621187132751873   『-🤖-』botownia   PAW#5844   $profil
+18.11.2022   12:23   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   posziadasz: 13627 💵
+        
+ostatnie urzycie daily: 4.11.2022
+        
+Items: ,
+18.11.2022   12:23   Porg Comunuty   438621187132751873   『-🤖-』botownia   PAW#5844   $add 100 <@692621246017568799>
+18.11.2022   12:23   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   Successfully added to user <@692621246017568799> 100 💵
+18.11.2022   12:23   Porg Comunuty   438621187132751873   『-🤖-』botownia   Krokiet#5726   $roll 100
+18.11.2022   12:23   Porg Comunuty   438621187132751873   『-👋-』powitalnia   SEEN-#5771   
+18.11.2022   12:23   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   You won 200 💵 
+ you use 5/15 rols today
+you currently have: 300 💵
+18.11.2022   12:23   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   12:23   Porg Comunuty   438621187132751873   『-🤖-』botownia   Krokiet#5726   @profil
+18.11.2022   12:24   Porg Comunuty   438621187132751873   『-🤖-』botownia   Krokiet#5726   $profil
+18.11.2022   12:24   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   posziadasz: 300 💵
+        
+ostatnie urzycie daily: 18.11.2022
+        
+Items: ,
+18.11.2022   12:24   Porg Comunuty   438621187132751873   『-🤖-』botownia   Krokiet#5726   $roll 300
+18.11.2022   12:24   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   You won 600 💵 
+ you use 6/15 rols today
+you currently have: 900 💵
+18.11.2022   12:24   Porg Comunuty   438621187132751873   『-🤖-』botownia   Krokiet#5726   $profil
+18.11.2022   12:24   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   posziadasz: 900 💵
+        
+ostatnie urzycie daily: 18.11.2022
+        
+Items: ,
+18.11.2022   12:25   Porg Comunuty   438621187132751873   『-🤖-』botownia   Krokiet#5726   $shop
+18.11.2022   12:25   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   
+18.11.2022   12:25   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   12:25   Porg Comunuty   438621187132751873   『-🤖-』botownia   Krokiet#5726   $roll 300
+18.11.2022   12:25   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   You lost 300 💵
+you currently have: 600 💵
+ you use 7/15 rols today
+18.11.2022   12:25   Porg Comunuty   438621187132751873   『-🤖-』botownia   Krokiet#5726   $roll 300
+18.11.2022   12:25   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   You lost 300 💵
+you currently have: 300 💵
+ you use 8/15 rols today
+18.11.2022   12:26   Porg Comunuty   438621187132751873   『-🤖-』botownia   Krokiet#5726   $roll 300
+18.11.2022   12:26   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   You lost 300 💵
+you currently have: 0 💵
+ you use 9/15 rols today
+18.11.2022   12:26   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   12:26   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   12:27   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   12:28   Porg Comunuty   438621187132751873   『-🤖-』botownia   PAW#5844   $shop
+18.11.2022   12:28   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   
+18.11.2022   12:28   Porg Comunuty   438621187132751873   『-🤖-』botownia   PAW#5844   $add 25000 <@438336824516149249>
+18.11.2022   12:28   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   Successfully added to user <@438336824516149249> 25000 💵
+18.11.2022   12:28   Porg Comunuty   438621187132751873   『-🤖-』botownia   PAW#5844   $buy LuckyPotion
+18.11.2022   12:28   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   That item does not exist
+18.11.2022   12:28   Porg Comunuty   438621187132751873   『-🤖-』botownia   PAW#5844   $buy luckypotion
+18.11.2022   12:28   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   Congratulations you just bought: luckypotion
+18.11.2022   12:28   Porg Comunuty   438621187132751873   『-🤖-』botownia   PAW#5844   $roll 10000
+18.11.2022   12:28   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   You won 20000 💵 
+ you use 4/15 rols today
+you currently have: 33627 💵
+18.11.2022   12:28   Porg Comunuty   438621187132751873   『-🤖-』botownia   PAW#5844   $roll 30000
+18.11.2022   12:28   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   You lost 30000 💵
+you currently have: 3627 💵
+ you use 5/15 rols today
+18.11.2022   12:28   Porg Comunuty   438621187132751873   『-🤖-』botownia   PAW#5844   $bank
+18.11.2022   12:28   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   
+18.11.2022   12:29   Porg Comunuty   438621187132751873   『-🤖-』botownia   Krokiet#5726   $bank
+18.11.2022   12:29   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   
+18.11.2022   12:29   Porg Comunuty   438621187132751873   『-🤖-』botownia   PAW#5844   $add 1-- <@692621246017568799>
+18.11.2022   12:29   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   You entered wrong amount 💵
+18.11.2022   12:29   Porg Comunuty   438621187132751873   『-🤖-』botownia   PAW#5844   $add 100 <@692621246017568799>
+18.11.2022   12:29   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   Successfully added to user <@692621246017568799> 100 💵
+18.11.2022   12:29   Porg Comunuty   438621187132751873   『-🤖-』botownia   Krokiet#5726   $roll 100
+18.11.2022   12:29   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   You lost 100 💵
+you currently have: 0 💵
+ you use 10/15 rols today
+18.11.2022   12:30   Porg Comunuty   438621187132751873   『-🤖-』botownia   PAW#5844   $bank
+18.11.2022   12:30   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   
+18.11.2022   12:30   Porg Comunuty   438621187132751873   『-🤖-』botownia   Krokiet#5726   $bank
+18.11.2022   12:30   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   
+18.11.2022   12:30   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   12:30   Porg Comunuty   438621187132751873   『-🤖-』botownia   Krokiet#5726   $help
+18.11.2022   12:30   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   
+18.11.2022   12:30   Porg Comunuty   438621187132751873   『-🤖-』botownia   Krokiet#5726   #birthday
+18.11.2022   12:31   Porg Comunuty   438621187132751873   『-🤖-』botownia   Krokiet#5726   $birthday
+18.11.2022   12:31   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   its not correct date
+18.11.2022   12:31   Porg Comunuty   438621187132751873   『-🤖-』botownia   PAW#5844   $helpeco
+18.11.2022   12:31   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   
+18.11.2022   12:31   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   12:31   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   12:31   Porg Comunuty   438621187132751873   『-🤖-』botownia   PAW#5844   $birthday help
+18.11.2022   12:31   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   set your birthday date to get extra coins
+            usage: $birthday <month> <day> <year>
+            !!u can change your birthday date only 1 time
+            
+            if you use $daily on your birthday you will get a reward
+18.11.2022   12:31   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   12:31   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   12:32   Porg Comunuty   438621187132751873   『-🤖-』botownia   Krokiet#5726   $birthday 04 06 2005
+18.11.2022   12:32   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   set
+18.11.2022   12:32   Porg Comunuty   438621187132751873   『-🤖-』botownia   Krokiet#5726   @birthday
+18.11.2022   12:32   Porg Comunuty   438621187132751873   『-🤖-』botownia   Krokiet#5726   $birthday
+18.11.2022   12:32   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   its not correct date
+18.11.2022   12:33   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   12:33   Porg Comunuty   438621187132751873   『-🤖-』botownia   Krokiet#5726   $pay
+18.11.2022   12:33   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   You type wrong coins number
+18.11.2022   12:33   Porg Comunuty   438621187132751873   『-🤖-』botownia   PAW#5844   $pay 100 <@692621246017568799>
+18.11.2022   12:33   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   You type wrong coins number
+18.11.2022   12:33   Porg Comunuty   438621187132751873   『-🤖-』botownia   Krokiet#5726   $pvp <@438336824516149249>
+18.11.2022   12:33   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   you did not enter the number of coins
+18.11.2022   12:34   Porg Comunuty   438621187132751873   『-🤖-』botownia   Krokiet#5726   $profil
+18.11.2022   12:34   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   posziadasz: 0 💵
+        
+ostatnie urzycie daily: 18.11.2022
+        
+Items: ,
+18.11.2022   12:34   Porg Comunuty   438621187132751873   『-🤖-』botownia   PAW#5844   $add 100 <@692621246017568799>
+18.11.2022   12:34   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   Successfully added to user <@692621246017568799> 100 💵
+18.11.2022   12:34   Porg Comunuty   438621187132751873   『-🤖-』botownia   Krokiet#5726   $pvp   50 <@438336824516149249>
+18.11.2022   12:34   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   <@438336824516149249> did you accept pvp with <@692621246017568799> four 50 coins?
+ you have 10 secounds to type **accept**
+18.11.2022   12:34   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   12:34   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   12:34   Porg Comunuty   438621187132751873   『-🤖-』botownia   PAW#5844   accept
+18.11.2022   12:34   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   <@692621246017568799> is winner
+ redwad is 50
+18.11.2022   12:34   Porg Comunuty   438621187132751873   『-🤖-』botownia   Krokiet#5726   $pvp <@438336824516149249>
+18.11.2022   12:34   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   you did not enter the number of coins
+18.11.2022   12:34   Porg Comunuty   438621187132751873   『-🤖-』botownia   PAW#5844   accept
+18.11.2022   12:34   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   12:35   Porg Comunuty   438621187132751873   『-🤖-』botownia   Krokiet#5726   $pvp 100 <@438336824516149249>
+18.11.2022   12:35   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   <@438336824516149249> did you accept pvp with <@692621246017568799> four 100 coins?
+ you have 10 secounds to type **accept**
+18.11.2022   12:35   Porg Comunuty   438621187132751873   『-🤖-』botownia   PAW#5844   accept
+18.11.2022   12:35   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   <@438336824516149249> is winner
+ redwad is 100
+18.11.2022   12:35   Porg Comunuty   438621187132751873   『-🤖-』botownia   Krokiet#5726   $pvp 50 <@438336824516149249>
+18.11.2022   12:35   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   <@438336824516149249> did you accept pvp with <@692621246017568799> four 50 coins?
+ you have 10 secounds to type **accept**
+18.11.2022   12:35   Porg Comunuty   438621187132751873   『-🤖-』botownia   PAW#5844   accept
+18.11.2022   12:35   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   <@438336824516149249> You dont have thats many coins
+18.11.2022   12:35   Porg Comunuty   438621187132751873   『-🤖-』botownia   PAW#5844   $profil
+18.11.2022   12:35   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   posziadasz: 3577100 💵
+        
+ostatnie urzycie daily: 4.11.2022
+        
+Items: , luckypotion
+18.11.2022   12:36   Porg Comunuty   438621187132751873   『-🤖-』botownia   Krokiet#5726   $profil
+18.11.2022   12:36   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   posziadasz: 9950 💵
+        
+ostatnie urzycie daily: 18.11.2022
+        
+Items: ,
+18.11.2022   12:36   Porg Comunuty   438621187132751873   『-🤖-』botownia   Krokiet#5726   $roll 9000
+18.11.2022   12:36   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   You lost 9000 💵
+you currently have: 950 💵
+ you use 11/15 rols today
+18.11.2022   12:36   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   12:36   Porg Comunuty   438621187132751873   『-🤖-』botownia   Krokiet#5726   $roll 800
+18.11.2022   12:36   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   You won 1600 💵 
+ you use 12/15 rols today
+you currently have: 2550 💵
+18.11.2022   12:37   Porg Comunuty   438621187132751873   『-🤖-』botownia   Krokiet#5726   $roll 2000
+18.11.2022   12:37   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   You lost 2000 💵
+you currently have: 550 💵
+ you use 13/15 rols today
+18.11.2022   12:37   Porg Comunuty   438621187132751873   『-🤖-』botownia   Krokiet#5726   $profil
+18.11.2022   12:37   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   posziadasz: 550 💵
+        
+ostatnie urzycie daily: 18.11.2022
+        
+Items: ,
+18.11.2022   12:37   Porg Comunuty   438621187132751873   『-🤖-』botownia   Krokiet#5726   $pvp 50 <@438336824516149249>
+18.11.2022   12:37   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   <@438336824516149249> did you accept pvp with <@692621246017568799> four 50 coins?
+ you have 10 secounds to type **accept**
+18.11.2022   12:37   Porg Comunuty   438621187132751873   『-🤖-』botownia   PAW#5844   accept
+18.11.2022   12:38   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   <@438336824516149249> You dont have thats many coins
+18.11.2022   12:38   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   12:38   Porg Comunuty   438621187132751873   『-🤖-』botownia   PAW#5844   $roll 50
+18.11.2022   12:38   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   You don't have enough 💵
+18.11.2022   12:38   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   12:38   Porg Comunuty   438621187132751873   『-🤖-』botownia   PAW#5844   4PROFIL
+18.11.2022   12:38   Porg Comunuty   438621187132751873   『-🤖-』botownia   Krokiet#5726   $pay 50 <@438336824516149249>
+18.11.2022   12:38   Porg Comunuty   438621187132751873   『-👋-』powitalnia   SEEN-#5771   
+18.11.2022   12:38   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   You type wrong coins number
+18.11.2022   12:38   Porg Comunuty   438621187132751873   『-🤖-』botownia   PAW#5844   $profil
+18.11.2022   12:38   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   posziadasz: 3577100 💵
+        
+ostatnie urzycie daily: 4.11.2022
+        
+Items: , luckypotion
+18.11.2022   12:40   Porg Comunuty   438621187132751873   『-💭-』general   Krokiet#5726   <@577507822011416592>
+18.11.2022   12:41   Porg Comunuty   438621187132751873   『-💭-』general   Krokiet#5726   $profil 577507822011416592
+18.11.2022   12:41   Porg Comunuty   438621187132751873   『-💭-』general   SEEN-#5771   posziadasz: 550 💵
+        
+ostatnie urzycie daily: 18.11.2022
+        
+Items: ,
+18.11.2022   12:42   Porg Comunuty   438621187132751873   『-💭-』general   PAW#5844   $clear 25
+18.11.2022   12:42   Porg Comunuty   438621187132751873   『-👋-』powitalnia   SEEN-#5771   
+18.11.2022   12:42   Porg Comunuty   438621187132751873   『-💭-』general   SEEN-#5771   Usunąłem 25 wiadomości
+18.11.2022   12:42   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   12:42   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   12:42   Porg Comunuty   438621187132751873   『-🤖-』botownia   PAW#5844   $profil <@577507822011416592>
+18.11.2022   12:42   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   posziadasz: 1468 💵
+        
+ostatnie urzycie daily: 4.9.2022
+        
+Items: ,
+18.11.2022   12:42   Porg Comunuty   438621187132751873   『-🤖-』botownia   Krokiet#5726   $profil 577507822011416592
+18.11.2022   12:42   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   posziadasz: 550 💵
+        
+ostatnie urzycie daily: 18.11.2022
+        
+Items: ,
+18.11.2022   12:42   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   12:42   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   12:42   Porg Comunuty   438621187132751873   『-🤖-』botownia   Krokiet#5726   $pay 50 577507822011416592
+18.11.2022   12:42   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   You dont have thays many coins
+18.11.2022   12:42   Porg Comunuty   438621187132751873   『-🤖-』botownia   Krokiet#5726   $profil
+18.11.2022   12:42   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   posziadasz: 550 💵
+        
+ostatnie urzycie daily: 18.11.2022
+        
+Items: ,
+18.11.2022   12:43   Porg Comunuty   438621187132751873   『-🤖-』botownia   Krokiet#5726   $pay 577507822011416592 50
+18.11.2022   12:43   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   You send 50 coins to <@577507822011416592> sukcesfully
+18.11.2022   12:43   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   12:43   Porg Comunuty   438621187132751873   『-🤖-』botownia   PAW#5844   $daily
+18.11.2022   12:43   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   You still need to use 7 daily to receive your weekly reward
+18.11.2022   12:43   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   You got 51 💵
+                you have a total of 3577151 💵
+18.11.2022   12:43   Porg Comunuty   438621187132751873   『-🤖-』botownia   Krokiet#5726   $pvp 50 <@438336824516149249>
+18.11.2022   12:43   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   <@438336824516149249> did you accept pvp with <@692621246017568799> four 50 coins?
+ you have 10 secounds to type **accept**
+18.11.2022   12:44   Porg Comunuty   438621187132751873   『-🤖-』botownia   PAW#5844   accept
+18.11.2022   12:44   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   <@692621246017568799> is winner
+ redwad is 50
+18.11.2022   12:44   Porg Comunuty   438621187132751873   『-🤖-』botownia   Krokiet#5726   $pvp 100 <@438336824516149249>
+18.11.2022   12:44   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   <@438336824516149249> did you accept pvp with <@692621246017568799> four 100 coins?
+ you have 10 secounds to type **accept**
+18.11.2022   12:44   Porg Comunuty   438621187132751873   『-🤖-』botownia   PAW#5844   accept
+18.11.2022   12:44   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   <@438336824516149249> is winner
+ redwad is 100
+18.11.2022   12:44   Porg Comunuty   438621187132751873   『-🤖-』botownia   PAW#5844   $profil
+18.11.2022   12:44   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   posziadasz: 3577101100 💵
+        
+ostatnie urzycie daily: 18.11.2022
+        
+Items: , luckypotion
+18.11.2022   12:44   Porg Comunuty   438621187132751873   『-🤖-』botownia   ŁANAŁ#2378   $daily
+18.11.2022   12:44   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   Your profile has been created
+18.11.2022   12:45   Porg Comunuty   438621187132751873   『-🤖-』botownia   ŁANAŁ#2378   $daily
+18.11.2022   12:45   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   You can receive weekly reward
+ use $weekly to claim your reward
+18.11.2022   12:45   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   You got 60 💵
+                you have a total of 1060 💵
+18.11.2022   12:45   Porg Comunuty   438621187132751873   『-🤖-』botownia   PAW#5844   $buy vip
+18.11.2022   12:45   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   Congratulations you just bought: vip
+18.11.2022   12:45   Porg Comunuty   438621187132751873   『-🤖-』botownia   Krokiet#5726   $weekly
+18.11.2022   12:45   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   You recived 500 💵
+            You have a total of 50450 💵
+18.11.2022   12:45   Porg Comunuty   438621187132751873   『-🤖-』botownia   Krokiet#5726   $profil
+18.11.2022   12:45   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   posziadasz: 50450 💵
+        
+ostatnie urzycie daily: 18.11.2022
+        
+Items: ,
+18.11.2022   12:45   Porg Comunuty   438621187132751873   『-🤖-』botownia   ŁANAŁ#2378   $weekly
+18.11.2022   12:45   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   You recived 500 💵
+            You have a total of 1560 💵
+18.11.2022   12:45   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   12:45   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   12:46   Porg Comunuty   438621187132751873   『-🤖-』botownia   Krokiet#5726   $pvp 100 <@445974760669708289>
+18.11.2022   12:46   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   <@445974760669708289> did you accept pvp with <@692621246017568799> four 100 coins?
+ you have 10 secounds to type **accept**
+18.11.2022   12:46   Porg Comunuty   438621187132751873   『-🤖-』botownia   ŁANAŁ#2378   accept
+18.11.2022   12:46   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   <@445974760669708289> is winner
+ redwad is 100
+18.11.2022   12:46   Porg Comunuty   438621187132751873   『-🤖-』botownia   Krokiet#5726   $pvp 200 <@445974760669708289>
+18.11.2022   12:46   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   <@445974760669708289> did you accept pvp with <@692621246017568799> four 200 coins?
+ you have 10 secounds to type **accept**
+18.11.2022   12:46   Porg Comunuty   438621187132751873   『-🤖-』botownia   ŁANAŁ#2378   accept
+18.11.2022   12:46   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   <@445974760669708289> You dont have thats many coins
+18.11.2022   12:47   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   12:47   Porg Comunuty   438621187132751873   『-🤖-』botownia   ŁANAŁ#2378   $profit
+18.11.2022   12:47   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   12:47   Porg Comunuty   438621187132751873   『-🤖-』botownia   ŁANAŁ#2378   $bank
+18.11.2022   12:47   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   
+18.11.2022   12:47   Porg Comunuty   438621187132751873   『-🤖-』botownia   Krokiet#5726   $profil
+18.11.2022   12:47   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   posziadasz: 50350 💵
+        
+ostatnie urzycie daily: 18.11.2022
+        
+Items: ,
+18.11.2022   12:47   Porg Comunuty   438621187132751873   『-🤖-』botownia   ŁANAŁ#2378   $profil
+18.11.2022   12:47   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   posziadasz: 1560100 💵
+        
+ostatnie urzycie daily: 18.11.2022
+        
+Items: ,
+18.11.2022   12:48   Porg Comunuty   438621187132751873   『-🤖-』botownia   Krokiet#5726   $buy Vip
+18.11.2022   12:48   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   That item does not exist
+18.11.2022   12:48   Porg Comunuty   438621187132751873   『-🤖-』botownia   Krokiet#5726   $shop
+18.11.2022   12:48   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   
+18.11.2022   12:48   Porg Comunuty   438621187132751873   『-🤖-』botownia   Krokiet#5726   $buy vip
+18.11.2022   12:48   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   Congratulations you just bought: vip
+18.11.2022   12:48   Porg Comunuty   438621187132751873   『-🤖-』botownia   Krokiet#5726   $buy luckypotion
+18.11.2022   12:48   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   Congratulations you just bought: luckypotion
+18.11.2022   12:48   Porg Comunuty   438621187132751873   『-🤖-』botownia   Krokiet#5726   $roll 1000
+18.11.2022   12:48   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   You lost 1000 💵
+you currently have: 4350 💵
+ you use 14/15 rols today
+18.11.2022   12:48   Porg Comunuty   438621187132751873   『-🤖-』botownia   Krokiet#5726   $roll 4000
+18.11.2022   12:48   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   You lost 4000 💵
+you currently have: 350 💵
+ you use 15/15 rols today
+18.11.2022   12:49   Porg Comunuty   438621187132751873   『-🤖-』botownia   ŁANAŁ#2378   $roll 1000
+18.11.2022   12:49   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   You lost 1000 💵
+you currently have: 1559100 💵
+ you use 0/15 rols today
+18.11.2022   12:49   Porg Comunuty   438621187132751873   『-🤖-』botownia   Krokiet#5726   $helpeco
+18.11.2022   12:49   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   
+18.11.2022   12:49   Porg Comunuty   438621187132751873   『-🤖-』botownia   ŁANAŁ#2378   $roll 1000
+18.11.2022   12:49   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   You won 2000 💵 
+ you use 1/15 rols today
+you currently have: 1561100 💵
+18.11.2022   12:49   Porg Comunuty   438621187132751873   『-🤖-』botownia   Krokiet#5726   $roll 300
+18.11.2022   12:49   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   roll możesz użyć maksymalnie 15 razy dziennie
+18.11.2022   12:49   Porg Comunuty   438621187132751873   『-🤖-』botownia   PAW#5844   $ecodeafult
+18.11.2022   12:49   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   The economy has been updated
+18.11.2022   12:49   Porg Comunuty   438621187132751873   『-🤖-』botownia   PAW#5844   $daily
+18.11.2022   12:49   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   Your profile has been created
+18.11.2022   12:49   Porg Comunuty   438621187132751873   『-🤖-』botownia   PAW#5844   $daily
+18.11.2022   12:49   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   You can receive weekly reward
+ use $weekly to claim your reward
+18.11.2022   12:49   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   You got 62 💵
+                you have a total of 1062 💵
+18.11.2022   12:49   Porg Comunuty   438621187132751873   『-🤖-』botownia   PAW#5844   $weekly
+18.11.2022   12:49   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   You recived 500 💵
+            You have a total of 1562 💵
+18.11.2022   12:49   Porg Comunuty   438621187132751873   『-🤖-』botownia   ŁANAŁ#2378   $daily
+18.11.2022   12:49   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   Your profile has been created
+18.11.2022   12:49   Porg Comunuty   438621187132751873   『-🤖-』botownia   Krokiet#5726   $daily
+18.11.2022   12:50   Porg Comunuty   438621187132751873   『-🤖-』botownia   ŁANAŁ#2378   $weekly
+18.11.2022   12:50   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   You recived 500 💵
+            You have a total of 1500 💵
+18.11.2022   12:50   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   Your profile has been created
+18.11.2022   12:50   Porg Comunuty   438621187132751873   『-🤖-』botownia   Krokiet#5726   $daily
+18.11.2022   12:50   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   You can receive weekly reward
+ use $weekly to claim your reward
+18.11.2022   12:50   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   You got 81 💵
+                you have a total of 1081 💵
+18.11.2022   12:50   Porg Comunuty   438621187132751873   『-🤖-』botownia   PAW#5844   $pvp 100 <@692621246017568799>
+18.11.2022   12:50   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   <@692621246017568799> did you accept pvp with <@438336824516149249> four 100 coins?
+ you have 10 secounds to type **accept**
+18.11.2022   12:50   Porg Comunuty   438621187132751873   『-🤖-』botownia   Krokiet#5726   #weekly
+18.11.2022   12:50   Porg Comunuty   438621187132751873   『-🤖-』botownia   Krokiet#5726   $weekly
+18.11.2022   12:50   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   You recived 500 💵
+            You have a total of 1581 💵
+18.11.2022   12:50   Porg Comunuty   438621187132751873   『-🤖-』botownia   PAW#5844   $pvp 100 <@692621246017568799>
+18.11.2022   12:50   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   <@692621246017568799> did you accept pvp with <@438336824516149249> four 100 coins?
+ you have 10 secounds to type **accept**
+18.11.2022   12:50   Porg Comunuty   438621187132751873   『-🤖-』botownia   Krokiet#5726   accept
+18.11.2022   12:51   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   <@692621246017568799> is winner
+ redwad is 100
+18.11.2022   12:51   Porg Comunuty   438621187132751873   『-🤖-』botownia   PAW#5844   $profil; <@692621246017568799>
+18.11.2022   12:51   Porg Comunuty   438621187132751873   『-🤖-』botownia   Krokiet#5726   %say $daily
+18.11.2022   12:51   Porg Comunuty   438621187132751873   『-🤖-』botownia   Ryouuk#1511   $daily
+18.11.2022   12:51   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   12:51   Porg Comunuty   438621187132751873   『-🤖-』botownia   ŁANAŁ#2378   $pvp 100 <@692621246017568799>
+18.11.2022   12:51   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   <@692621246017568799> did you accept pvp with <@445974760669708289> four 100 coins?
+ you have 10 secounds to type **accept**
+18.11.2022   12:51   Porg Comunuty   438621187132751873   『-📣-』ogłoszenia-parafialne   MEE6#4876   GG <@445974760669708289>, you just advanced to level 2!
+18.11.2022   12:51   Porg Comunuty   438621187132751873   『-🤖-』botownia   PAW#5844   $profil  <@692621246017568799>
+18.11.2022   12:51   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   posziadasz: 1681 💵
+        
+ostatnie urzycie daily: 18.11.2022
+        
+Items: ,
+18.11.2022   12:51   Porg Comunuty   438621187132751873   『-🤖-』botownia   Krokiet#5726   accept
+18.11.2022   12:51   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   <@692621246017568799> is winner
+ redwad is 100
+18.11.2022   12:51   Porg Comunuty   438621187132751873   『-🤖-』botownia   ŁANAŁ#2378   $roll 100
+18.11.2022   12:51   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   You won 200 💵 
+ you use 0/15 rols today
+you currently have: 1600 💵
+18.11.2022   12:52   Porg Comunuty   438621187132751873   『-🤖-』botownia   ŁANAŁ#2378   $roll 100
+18.11.2022   12:52   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   You won 200 💵 
+ you use 1/15 rols today
+you currently have: 1800 💵
+18.11.2022   12:52   Porg Comunuty   438621187132751873   『-🤖-』botownia   ŁANAŁ#2378   %roll 200
+18.11.2022   12:52   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   12:52   Porg Comunuty   438621187132751873   『-🤖-』botownia   ŁANAŁ#2378   $roll 200
+18.11.2022   12:52   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   You lost 200 💵
+you currently have: 1600 💵
+ you use 2/15 rols today
+18.11.2022   12:55   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   12:57   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   12:59   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   12:59   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   13:01   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   13:04   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   13:04   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   13:05   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   13:09   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   13:09   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   13:09   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   13:09   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   13:09   Porg Comunuty   438621187132751873   『-🤖-』botownia   Krokiet#5726   $profil
+18.11.2022   13:09   Porg Comunuty   438621187132751873   『-🤖-』botownia   SEEN-#5771   posziadasz: 1781 💵
+        
+ostatnie urzycie daily: 18.11.2022
+        
+Items: ,
+18.11.2022   13:10   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   13:11   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   13:11   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   13:12   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   13:13   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   13:14   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   13:14   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   13:17   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   13:18   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   13:21   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   13:23   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   13:25   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   13:25   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   13:26   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   13:26   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   13:29   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   13:29   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   13:30   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   13:34   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   13:36   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   13:36   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   13:37   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   13:37   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   13:38   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   13:40   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   13:41   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   13:42   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   13:45   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   13:47   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   13:47   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   13:50   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   13:52   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   13:53   Porg Comunuty   438621187132751873   『-💭-』general   GhostKiller#0114   Co
+18.11.2022   13:53   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   13:55   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   13:55   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   13:57   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   13:58   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   13:58   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   13:59   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   13:59   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   13:59   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   14:02   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   14:03   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   14:03   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   14:05   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   14:06   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   14:06   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   14:06   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   14:07   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   14:08   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   14:09   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   14:09   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   14:10   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   14:12   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   14:12   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   14:12   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   14:13   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   14:14   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   14:15   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   14:17   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   14:18   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   14:18   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   14:18   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   14:19   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   14:19   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   14:20   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   14:20   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   14:21   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   14:21   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   14:21   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   14:21   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   14:23   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   14:23   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   14:25   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   14:25   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   14:26   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   14:29   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   14:30   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   14:30   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   14:31   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   14:32   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   14:34   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   14:37   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   14:39   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   14:39   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   14:39   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   14:39   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   14:40   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   14:41   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   14:41   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   14:42   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   14:44   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   14:44   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   14:45   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   14:46   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   14:46   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   14:46   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   14:47   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   14:49   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   14:49   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   14:50   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   14:50   Porg Comunuty   438621187132751873   『-💭-』general   Krokiet#5726   Co <@569978854282756117>
+18.11.2022   14:50   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   14:53   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   14:55   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   14:56   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   14:57   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   14:57   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   14:57   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   14:57   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   14:58   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   14:59   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   15:00   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   15:00   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   15:01   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   15:01   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   15:02   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   15:03   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   15:03   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   15:03   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   15:05   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   15:06   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   15:07   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   15:08   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   15:10   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   15:11   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   15:11   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   15:16   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   15:18   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   15:18   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   15:18   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   15:18   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   15:19   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   15:20   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   15:20   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   15:21   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   15:21   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   15:23   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   15:25   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   15:25   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   15:26   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   15:27   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   15:28   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   15:29   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   15:31   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   15:32   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   15:32   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   15:34   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   15:37   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   15:38   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   15:38   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   15:38   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   15:40   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   15:40   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   15:40   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   15:41   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   15:41   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   15:42   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   15:43   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   15:44   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   15:50   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   15:52   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   15:53   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   15:56   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   15:58   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   15:58   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   15:59   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   16:01   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   16:04   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   16:06   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   16:09   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   16:09   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   16:12   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   16:12   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   16:14   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   16:14   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   16:16   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   16:16   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   16:18   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   16:19   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   16:19   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   16:19   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   16:21   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   16:21   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   16:24   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   16:24   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   16:26   Porg Comunuty   438621187132751873   『-💭-』general   GhostKiller#0114   Nic pinga dostałem ale to chyba jakieś śmieszek
+18.11.2022   16:26   Porg Comunuty   438621187132751873   『-💭-』general   Krokiet#5726   Chyba tak
+18.11.2022   16:27   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   16:28   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   16:31   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   16:35   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   16:36   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   16:37   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   16:37   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   16:39   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   16:45   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   16:45   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   16:46   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   16:46   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   16:46   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   16:47   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   16:47   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   16:48   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   16:48   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   16:48   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   16:49   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   16:49   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   16:49   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   16:51   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   16:53   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   16:54   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   16:55   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   16:56   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   16:56   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   16:56   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   16:57   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   17:00   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   17:01   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   17:01   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   17:03   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   17:03   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   17:03   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   17:03   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   17:03   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   17:04   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   17:05   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   17:07   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   17:07   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   17:08   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   17:09   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   17:11   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   17:14   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   17:16   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   17:17   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   17:17   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   17:18   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   17:22   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   17:24   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   17:25   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   17:27   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   17:27   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   17:27   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   17:29   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   17:31   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   17:32   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   17:37   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   17:39   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   17:41   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   17:43   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   17:43   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   17:43   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   17:44   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   17:53   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   17:54   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   17:56   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   17:58   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   17:59   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   18:00   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   18:01   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   18:03   Porg Comunuty   438621187132751873   『-💭-』general   GhostKiller#0114   <:ZabaPoMefedronie:961612903612563486>
+18.11.2022   18:03   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   18:04   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   18:05   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   18:06   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   18:08   Porg Comunuty   438621187132751873   『-🔞-』stuleja-zone   GhostKiller#0114   za mocne
+18.11.2022   18:08   Porg Comunuty   438621187132751873   『-🔞-』stuleja-zone   GhostKiller#0114   o Boże
+18.11.2022   18:08   Porg Comunuty   438621187132751873   『-👋-』powitalnia   SEEN-#5771   
+18.11.2022   18:08   Porg Comunuty   438621187132751873   『-🔞-』stuleja-zone   GhostKiller#0114   już nic mnie nie wspomorze
+18.11.2022   18:08   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   18:08   Porg Comunuty   438621187132751873   『-🔞-』stuleja-zone   GhostKiller#0114   kurwa to krokiet?
+18.11.2022   18:08   Porg Comunuty   438621187132751873   『-🔞-』stuleja-zone   GhostKiller#0114   XD
+18.11.2022   18:09   Porg Comunuty   438621187132751873   『-🔞-』stuleja-zone   GhostKiller#0114   rambo pedalnikov
+18.11.2022   18:09   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   18:12   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   18:13   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   18:13   Porg Comunuty   438621187132751873   『-🔞-』stuleja-zone   _Manfredi#6878   Mamut
+18.11.2022   18:14   Porg Comunuty   438621187132751873   『-🔞-』stuleja-zone   GhostKiller#0114   o Boże
+18.11.2022   18:14   Porg Comunuty   438621187132751873   『-🔞-』stuleja-zone   GhostKiller#0114   czemu ten banan do niego pasuje
+18.11.2022   18:15   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   18:15   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   18:15   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   18:15   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   18:16   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   18:16   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   18:17   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   18:17   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   18:17   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   18:18   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   18:18   Porg Comunuty   438621187132751873   『-💭-』general   _Manfredi#6878   <:MonkaWae1:754261256898215938>
+18.11.2022   18:18   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   18:19   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   18:19   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   18:19   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   18:21   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   18:22   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   18:23   Porg Comunuty   438621187132751873   『-💭-』general   Ewus#2153   ktos cos valo ?
+18.11.2022   18:23   Porg Comunuty   438621187132751873   『-💭-』general   Ewus#2153   teraz ?
+18.11.2022   18:23   Porg Comunuty   438621187132751873   『-💭-』general   Krokiet#5726   Uninstal the game [cdn...]
+18.11.2022   18:23   Porg Comunuty   438621187132751873   『-👋-』powitalnia   SEEN-#5771   
+18.11.2022   18:23   Porg Comunuty   438621187132751873   『-💭-』general   Ewus#2153   czemu xD
+18.11.2022   18:23   Porg Comunuty   438621187132751873   『-💭-』general   Krokiet#5726   3 przejebane z rzędu
+18.11.2022   18:24   Porg Comunuty   438621187132751873   『-💭-』general   Ewus#2153   szkoda czasu
+18.11.2022   18:24   Porg Comunuty   438621187132751873   『-💭-』general   Ewus#2153   i tak wrocisz
+18.11.2022   18:24   Porg Comunuty   438621187132751873   『-💭-』general   Ewus#2153   do neigo
+18.11.2022   18:24   Porg Comunuty   438621187132751873   『-💭-』general   Ewus#2153   xD
+18.11.2022   18:24   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   18:24   Porg Comunuty   438621187132751873   『-💭-』general   Krokiet#5726   Wiesz jak jest
+18.11.2022   18:25   Porg Comunuty   438621187132751873   『-💭-』general   Ewus#2153   no wiem
+18.11.2022   18:25   Porg Comunuty   438621187132751873   『-📣-』ogłoszenia-parafialne   MEE6#4876   GG <@695546095253848145>, you just advanced to level 2!
+18.11.2022   18:26   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   18:26   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   18:27   Porg Comunuty   438621187132751873   『-💭-』general   _Manfredi#6878   Dobra dezycja
+18.11.2022   18:27   Porg Comunuty   438621187132751873   『-💭-』general   _Manfredi#6878   Jesczze wota xddd
+18.11.2022   18:27   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   18:28   Porg Comunuty   438621187132751873   『-💭-』general   Krokiet#5726   %say wypierdalaj Rambo zjebie jebany bo cię wpisze do death note raku
+18.11.2022   18:28   Porg Comunuty   438621187132751873   『-💭-』general   Ryouuk#1511   wypierdalaj Rambo zjebie jebany bo cię wpisze do death note raku
+18.11.2022   18:28   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   18:28   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   18:30   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   18:31   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   18:32   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   18:33   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   18:34   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   18:36   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   18:37   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   18:38   Porg Comunuty   438621187132751873   『-💭-』general   Krokiet#5726   %say raito gdzie jesteś ? Chcę mi się jeść  najlepiej jabłka dużo jabłek
+18.11.2022   18:38   Porg Comunuty   438621187132751873   『-💭-』general   Ryouuk#1511   raito gdzie jesteś ? Chcę mi się jeść  najlepiej jabłka dużo jabłek
+18.11.2022   18:38   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   18:40   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   18:42   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   18:48   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   18:49   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   18:49   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   18:50   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   18:51   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   18:51   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   18:53   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   18:55   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   18:56   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   18:56   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   18:57   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   18:57   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   18:59   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   19:04   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   19:06   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   19:06   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   19:18   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   19:19   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   19:20   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   19:23   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   19:24   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   19:24   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   19:25   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   19:29   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   19:29   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   19:29   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   19:32   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   19:33   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   19:35   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   19:35   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   19:38   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   19:38   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   19:38   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   19:40   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   19:40   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   19:41   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   19:49   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   19:49   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   19:52   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   19:53   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   19:53   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   19:54   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   19:56   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   19:56   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   19:57   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   19:58   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   20:02   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   20:09   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   20:09   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   20:11   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   20:21   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   20:23   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   20:23   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   20:25   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   20:38   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   20:38   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   20:39   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   20:41   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   20:41   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   20:43   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   20:48   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   20:49   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   20:50   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   20:51   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   20:51   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   20:52   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   20:52   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   20:52   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   20:55   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   20:55   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   20:56   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   20:57   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   20:59   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   21:00   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   21:00   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   21:00   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   21:01   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   21:01   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   21:03   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   21:05   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   21:07   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   21:08   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   21:11   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   21:12   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   21:12   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   21:13   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   21:14   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   21:18   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   21:18   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   21:25   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   21:27   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   21:29   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   21:32   Porg Comunuty   438621187132751873   『-💭-』general   Krokiet#5726   $random 12
+18.11.2022   21:32   Porg Comunuty   438621187132751873   『-💭-』general   SEEN-#5771   Drawn number: **11**
+18.11.2022   21:32   Porg Comunuty   438621187132751873   『-💭-』general   Krokiet#5726   $random 12
+18.11.2022   21:32   Porg Comunuty   438621187132751873   『-💭-』general   SEEN-#5771   Drawn number: **7**
+18.11.2022   21:34   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   21:35   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   21:35   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   21:35   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   21:35   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   21:36   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   21:39   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   21:39   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   21:39   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   21:40   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   21:40   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   21:40   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   21:40   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   21:40   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   21:41   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   21:42   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   21:42   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   21:43   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   21:43   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   21:44   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   21:46   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   21:48   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   21:49   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   21:49   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   21:49   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   21:51   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   21:53   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   21:54   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   21:56   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   21:56   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   22:00   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   22:00   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   22:01   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   22:03   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   22:06   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   22:06   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   22:11   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   22:19   Porg Comunuty   438621187132751873   『-💭-』general   Krokiet#5726   $random 12
+18.11.2022   22:19   Porg Comunuty   438621187132751873   『-💭-』general   SEEN-#5771   Drawn number: **4**
+18.11.2022   22:20   Porg Comunuty   438621187132751873   『-💭-』general   Krokiet#5726   $random 12
+18.11.2022   22:20   Porg Comunuty   438621187132751873   『-💭-』general   SEEN-#5771   Drawn number: **6**
+18.11.2022   22:24   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   22:28   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   22:28   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   22:29   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   22:32   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   22:33   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   22:33   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   22:34   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   22:34   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   22:35   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   22:41   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   22:41   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   22:42   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   22:43   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   22:44   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   22:47   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   22:48   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   22:50   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   22:51   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   22:51   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   22:52   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   22:52   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   22:52   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   22:52   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   22:54   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   22:55   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   22:55   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   22:55   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   22:56   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   22:58   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   22:59   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   22:59   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   23:00   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   23:01   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   23:01   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   23:02   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   23:02   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   23:04   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   23:06   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   23:06   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   23:06   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   23:07   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   23:08   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   23:09   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   23:09   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   23:12   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   23:13   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   23:15   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   23:16   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   23:16   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   23:17   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   23:17   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   23:20   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   23:20   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   23:23   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   23:25   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   23:25   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   23:25   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   23:28   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   23:29   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   23:38   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   23:41   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   23:42   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   23:42   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   23:43   Porg Comunuty   438621187132751873   『-💭-』general   GhostKiller#0114   <@774996358046285885>
+18.11.2022   23:43   Porg Comunuty   438621187132751873   『-💭-』general   GhostKiller#0114   Jesteś debilem
+18.11.2022   23:43   Porg Comunuty   438621187132751873   『-💭-』general   GhostKiller#0114   Uwaga po raz X denty
+18.11.2022   23:44   Porg Comunuty   438621187132751873   『-💭-』general   GhostKiller#0114   Tak samo jak moje sprzedałeś
+18.11.2022   23:44   Porg Comunuty   438621187132751873   『-💭-』general   GhostKiller#0114   I potem mieliśmy problem zmienić pasy bo ten debil podpiął konto pod fb
+18.11.2022   23:47   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   23:47   Porg Comunuty   438621187132751873   『-💭-』general   GhostKiller#0114   <:WTF:914873406598578206> <:mashallah:710442291596230757> <:wut:594301266285559821> <:pepe_pro:950455249318060093>
+18.11.2022   23:48   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   23:50   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   23:51   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   23:53   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   23:53   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   23:55   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+18.11.2022   23:59   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+19.11.2022   00:01   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+19.11.2022   00:02   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+19.11.2022   00:05   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+19.11.2022   00:09   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+19.11.2022   00:11   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+19.11.2022   00:24   Porg Comunuty   438621187132751873   『-👋-』powitalnia   Invite Tracker#0478   <@1043305375379767386> has been invited by PAW#5844 and has now 11 invites.
+19.11.2022   00:24   Porg Comunuty   438621187132751873   『-👋-』powitalnia   SEEN-#5771   <@1043305375379767386> Welcome to the server!
+19.11.2022   00:27   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+19.11.2022   00:27   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+19.11.2022   00:28   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+19.11.2022   00:28   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+19.11.2022   00:29   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+19.11.2022   00:30   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+19.11.2022   00:30   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+19.11.2022   00:30   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+19.11.2022   00:31   Porg Comunuty   438621187132751873   『-👋-』powitalnia   Przemula2005#9434   
+19.11.2022   00:31   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+19.11.2022   00:31   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+19.11.2022   00:31   Porg Comunuty   438621187132751873   『-👋-』powitalnia   Invite Tracker#0478   <@1043306850990428190> has been invited by PAW#5844 and has now 11 invites.
+19.11.2022   00:31   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+19.11.2022   00:34   Porg Comunuty   438621187132751873   『-👋-』powitalnia   Przemula2005#0329   
+19.11.2022   00:34   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+19.11.2022   00:35   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+19.11.2022   00:36   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
+19.11.2022   00:36   Porg Comunuty   438621187132751873   🔒   SEEN-#5771   
