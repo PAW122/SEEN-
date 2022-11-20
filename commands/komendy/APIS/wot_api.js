@@ -76,15 +76,6 @@ module.exports = {
         const kpb = (frags/all_battles)
         console.log(`kils per batle: ${kpb}`)
 
-        //max damage tank
-        return console.log("nie wiem jak ogarnąć nazwe czołgu po id")
-        const max_damage = all_stats.max_damage
-        const max_damage_tank_id = all_stats.max_damage_tank_id
-        const link3 = `https://api.worldoftanks.eu/wot/account/tanks/?application_id=${API_KEY}&account_id=${account_id}&fields=tank_id&tank_id=${max_damage_tank_id}`
-        const res3 = await axios.get(link3).catch(err => {
-            console.log(err)
-        })
-
-        console.log(res3.data.data[account_id])
+        
     }
 }
