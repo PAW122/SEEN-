@@ -76,6 +76,20 @@ module.exports = {
         const kpb = (frags/all_battles)
         console.log(`kils per batle: ${kpb}`)
 
-        
+        const embed = new Discord.MessageEmbed()
+            .setColor('RANDOM')
+            .setTitle("World Of Thanks Stats")
+            .setFields(
+                {name: "Nickname:", value: `${nick}`},
+                {name: "Winrate:",value: `${wr.toFixed(2)}%`},
+                {name: "srv rate:", value: `${srv_ratio.toFixed(2)}%`},
+                {name: "Kill per battle:", value: `${kpb.toFixed(2)}`},
+                {name: "accurity:", value: `${hits_percents}%`},
+                {name: "Battles", value: `${all_battles}`},
+                {name: "global rating:",value: `${global_rating}`},
+                {name: "max xp", value: `${max_xp}xp`},
+                {name: "avg dmg blocked",value: `${avg_damage_blocked}`}
+            )
+            return message.channel.send({ embeds: [embed] });
     }
 }
