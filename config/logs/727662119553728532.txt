@@ -8863,3 +8863,4 @@ Jeżeli wiadomośc posiada link do rickrola bot daje z emotek napis SUS czy coś
 19.11.2022   00:21   priv   727662119553728532   bot   PAW#5844   $wot PAW_117_2016
 19.11.2022   04:27   priv   727662119553728532   minc-serv-18   SEEN-#5771   
 19.11.2022   20:07   priv   727662119553728532   bot   PAW#5844   zrobić integrację dla SEEN która pozwala na np dołaączanie za ludzi na serwer
+20.11.2022   04:25   priv   727662119553728532   minc-serv-18   SEEN-#5771   
