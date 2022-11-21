@@ -147,7 +147,7 @@ module.exports = {
             return message.reply("set")
         }
 
-        if (args[0] = "on") {
+        if (args[0] == "on") {
             if (!args[1]) return message.reply("Bad logs type name")
             var command_name = args[1]
 
@@ -161,10 +161,9 @@ module.exports = {
             }
         }
 
-        if (args[0] = "off") {
+        if (args[0] == "off") {
             if (!args[1]) return message.reply("Bad logs type name")
             var command_name = args[1]
-            console.log(name_check(command_name))
             //sprawdż czy takie coś co pdał user w args[1] istnieje
             if (name_check(command_name) == false) {
                 return message.reply("Bad logs type name")

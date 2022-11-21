@@ -8923,3 +8923,40 @@ $srv_list off command nie działa
 21.11.2022   10:48   priv   727662119553728532   bot   PAW#5844   $help
 21.11.2022   10:48   priv   727662119553728532   bot   SEEN-#5771   
 21.11.2022   12:25   priv   727662119553728532   minc-serv-18   SEEN-#5771   
+21.11.2022   16:22   priv   727662119553728532   bot   PAW#5844   $srv_logs off guildMemberOffilne
+21.11.2022   16:22   priv   727662119553728532   bot   SEEN-#5771   Bad logs type name
+21.11.2022   16:22   priv   727662119553728532   bot   PAW#5844   $srv_logs list
+21.11.2022   16:22   priv   727662119553728532   bot   SEEN-#5771   
+21.11.2022   16:22   priv   727662119553728532   bot   SEEN-#5771   
+21.11.2022   16:22   priv   727662119553728532   bot   PAW#5844   $srv_logs off guildMemberOnline
+21.11.2022   16:22   priv   727662119553728532   bot   SEEN-#5771   set
+21.11.2022   16:24   priv   727662119553728532   bot   PAW#5844   $srv_logs off guildMemberOnline
+21.11.2022   16:24   priv   727662119553728532   bot   SEEN-#5771   set true
+21.11.2022   16:25   priv   727662119553728532   bot   PAW#5844   $srv_logs off guildMemberOnline
+21.11.2022   16:25   priv   727662119553728532   bot   SEEN-#5771   set
+21.11.2022   16:26   priv   727662119553728532   bot   PAW#5844   $srv_logs off guildMemberOnline
+21.11.2022   16:26   priv   727662119553728532   bot   SEEN-#5771   set
+21.11.2022   16:26   priv   727662119553728532   bot   PAW#5844   $srv_logs off guildMemberOffline
+21.11.2022   16:26   priv   727662119553728532   bot   SEEN-#5771   set
+21.11.2022   16:29   priv   727662119553728532   ogólny   Senko#3667   
+21.11.2022   16:29   priv   727662119553728532   ogólny   SEEN-#5771   test2 sd sds
+21.11.2022   16:31   priv   727662119553728532   ogólny   PAW#5844   $srv_set
+21.11.2022   16:31   priv   727662119553728532   ogólny   SEEN-#5771   
+21.11.2022   16:33   priv   727662119553728532   minc-serv-18   SEEN-#5771   
+21.11.2022   16:33   priv   727662119553728532   minc-serv-18   SEEN-#5771   
+21.11.2022   16:33   priv   727662119553728532   bot   PAW#5844   $settings welcome_msg_content off
+21.11.2022   16:33   priv   727662119553728532   bot   SEEN-#5771   set
+21.11.2022   16:33   priv   727662119553728532   ogólny   Senko#3667   
+21.11.2022   16:33   priv   727662119553728532   minc-serv-18   SEEN-#5771   
+21.11.2022   16:33   priv   727662119553728532   minc-serv-18   SEEN-#5771   
+21.11.2022   16:33   priv   727662119553728532   minc-serv-18   SEEN-#5771   
+21.11.2022   16:34   priv   727662119553728532   ogólny   Senko#3667   
+21.11.2022   16:34   priv   727662119553728532   ogólny   Senko#3667   
+21.11.2022   16:35   priv   727662119553728532   ogólny   SEEN-#5771   <@778643150981562368> Welcome to the priv!
+21.11.2022   16:44   priv   727662119553728532   bot   PAW#5844   $owner help
+21.11.2022   16:44   priv   727662119553728532   bot   SEEN-#5771   
+21.11.2022   16:44   priv   727662119553728532   bot   SEEN-#5771   Usage: **$guild_info <serverId>
+21.11.2022   16:47   priv   727662119553728532   bot   PAW#5844   $guild_info 1024430870226010133
+21.11.2022   16:47   priv   727662119553728532   bot   SEEN-#5771   Guild not found
+21.11.2022   17:57   priv   727662119553728532   dc-bot   PAW#5844   https://youtu.be/-KDQqWNK3Tw
+21.11.2022   17:58   priv   727662119553728532   dc-bot   PAW#5844   Zrobić github notyfication jako komendę z informacjami o updatowaniu bota
