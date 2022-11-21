@@ -5,6 +5,8 @@ module.exports = (client) => {
     client.on("guildBanAdd", async (guild, user) => {
         console.log(guild)
         console.log(user)
+        if(!user) return;
+        if(!guild.name) return console.log("informations.js error => nie znaleziono guild.name")
         console.log("user aned from guild")
         return user.send(`You've been banned from the guild: ${guild.name}`)
     })

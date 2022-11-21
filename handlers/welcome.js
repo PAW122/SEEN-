@@ -120,7 +120,7 @@ client.once("guildMemberAdd", member => {
             if(await db.get(`welocme_content_check`) == true){
                 var welcom_message = await db.get(`welocme_content`)
             }else{
-                var welcom_message = `<@${member.id}> Welcome to the server!`
+                var welcom_message = `<@${member.id}> Welcome to the **${member.guild.name}** server!`
             }
 
             return channelId.send({

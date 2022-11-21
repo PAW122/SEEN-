@@ -30,7 +30,7 @@ module.exports = {
             if(!args[0]) return message.reply("nie podałeś guild id")
 
         const data = client.guilds.cache.get(`${args[0]}`);
-
+        if(!data || data == undefined) return message.reply("Guild not found")
 
         const embed_en = new Discord.MessageEmbed()
         .setColor(`RED`)
