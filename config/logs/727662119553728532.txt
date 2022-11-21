@@ -8873,3 +8873,53 @@ Jeżeli wiadomośc posiada link do rickrola bot daje z emotek napis SUS czy coś
 20.11.2022   15:31   priv   727662119553728532   bot   SEEN-#5771   
 20.11.2022   15:32   priv   727662119553728532   bot   PAW#5844   $wot PAW_117_2016
 20.11.2022   15:32   priv   727662119553728532   bot   SEEN-#5771   
+21.11.2022   00:46   priv   727662119553728532   dc-bot   PAW#5844   Zmienić help! Na helpa usoes komendami np: dodać tam password generator, wot, blitzstats
+21.11.2022   01:41   priv   727662119553728532   minc-serv-18   SEEN-#5771   
+21.11.2022   02:03   priv   727662119553728532   minc-serv-18   SEEN-#5771   
+21.11.2022   07:08   priv   727662119553728532   uism-kominikacja   PAW#5844   Kabel miedziana ekranowany-harakteryzuje się tym że jest chroniony przed zakłuceniami
+21.11.2022   07:10   priv   727662119553728532   uism-kominikacja   PAW#5844   .
+Kable światlowodowe cechują się dużą oodpornością na zakłucenia i szybkim orzesyłem danych
+21.11.2022   07:12   priv   727662119553728532   uism-kominikacja   PAW#5844   .
+ProfiBus jest siecią deterministyczną. Komunikacja odbywa się na zasadzie master/slave lub master/master.
+21.11.2022   07:14   priv   727662119553728532   uism-kominikacja   PAW#5844   .
+Kod Manchester – kod liniowy sygnału cyfrowego. Na początku każdego bitu danych sygnał zakodowany przyjmuje stan odpowiadający jego wartości binarnej. Następnie w środku czasu transmisji bitu następuje zmiana sygnału na przeciwny.
+21.11.2022   07:16   priv   727662119553728532   uism-kominikacja   PAW#5844   .
+Interfejs RS-485 - jest to forma przesyłania danych, podstawową topologią jest magistrala
+21.11.2022   08:13   priv   727662119553728532   uism-kominikacja   PAW#5844   .
+Token passing (przekazywanie znacznika) jest to jedna z deterministycznych metod dostępu do łącza danych
+21.11.2022   08:13   priv   727662119553728532   uism-kominikacja   PAW#5844   .
+Procedury  dostępu Master- Slave
+21.11.2022   08:14   priv   727662119553728532   minc-serv-18   SEEN-#5771   
+21.11.2022   08:14   priv   727662119553728532   uism-kominikacja   PAW#5844   .
+Czym charakteryzują się sieci rozległe komunikacyjne 
+
+– sieć komputerowa znajdująca się na obszarze wykraczającym poza miasto, kraj lub kontynent
+21.11.2022   08:15   priv   727662119553728532   uism-kominikacja   PAW#5844   .
+Protokół IP
+Protokół internetowy, IP – protokół komunikacyjny warstwy sieciowej modelu OSI.
+21.11.2022   08:16   priv   727662119553728532   uism-kominikacja   PAW#5844   .
+Protokół sterowania transmisją, protokół kontroli transmisji, TCP – połączeniowy, niezawodny, strumieniowy protokół komunikacyjny stosowany do przesyłania danych między procesami uruchomionymi na różnych maszynach, będący częścią szeroko wykorzystywanego obecnie stosu TCP/IP.
+21.11.2022   08:16   priv   727662119553728532   uism-kominikacja   PAW#5844   .
+Suma kontrolna (ang. checksum) – liczba uzyskana według specjalnego algorytmu służąca do zapewnienia integralności danych. Komputer wysyłający dane oblicza ich sumę kontrolną i dołącza ją do pakietu danych.
+21.11.2022   08:17   priv   727662119553728532   uism-kominikacja   PAW#5844   .
+CECHY SIECI LAN
+
+Dobrze zaprojektowana oraz wykonana sieć komputerowa, powinna charakteryzować się pewnymi cechami, określającymi jej jakość, do najważniejszych cech zaliczyć należy:
+
+skalowalność,
+nadmiarowość,
+wydajność,
+bezpieczeństwo,
+łatwość utrzymania i zarządzania.
+21.11.2022   08:20   priv   727662119553728532   uism-kominikacja   PAW#5844   .
+STRUKTURA SIECI INTERBUS:
+Sieć Interbus wykorzystuje metodę dostępu typu master/slave. Urządzenie master magistrali łączy się jednocześnie z systemem sterowania wyższego rzędu lub systemem magistrali. W kategoriach topologicznych system magistrali ma strukturę systemu pierścieniowego; oznacza to, że abonenci są aktywnie połączeni w zamkniętej pętli nadawczej.
+21.11.2022   10:42   priv   727662119553728532   dc-bot   PAW#5844   .
+$srv_list off command nie działa
+21.11.2022   10:44   priv   727662119553728532   bot   PAW#5844   $srv_set help
+21.11.2022   10:44   priv   727662119553728532   bot   SEEN-#5771   
+21.11.2022   10:45   priv   727662119553728532   bot   PAW#5844   $srv_logs help
+21.11.2022   10:45   priv   727662119553728532   bot   SEEN-#5771   
+21.11.2022   10:48   priv   727662119553728532   bot   PAW#5844   $help
+21.11.2022   10:48   priv   727662119553728532   bot   SEEN-#5771   
+21.11.2022   12:25   priv   727662119553728532   minc-serv-18   SEEN-#5771   
