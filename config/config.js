@@ -7,6 +7,8 @@ module.exports = {
     commands_logs: "True",//True/False
     load_commands_logs: "True", //True/False 
 
+    service_mode: false, //false/true
+
     owner_id: "438336824516149249",
 
     save_logs: "Flase", //True/False

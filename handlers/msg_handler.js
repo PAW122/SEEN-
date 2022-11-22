@@ -9,6 +9,7 @@ const logs_dir = config.logs_dir
 const error_logs_dir = config.error_logs_dir
 const save_messages_logs = config.save_messages_logs
 const save_messages_logs_dir = config.save_messages_logs_dir
+const service_mode = config.service_mode
 
 const botId = "<@797070806885990431>"
 
@@ -19,6 +20,7 @@ module.exports = (client, prefix, message) => {
         const args = message.content.slice(botId.length).trim().split(/ +/);
         const commandName = args.shift().toLowerCase();
         if (!client.command.has(commandName)) return;
+        if(service_mode == true) return message.reply("The bot is being serviced. Please try again later")
         const command = client.command.get(commandName);
         const time = new Date().toLocaleTimeString().slice(0, 5)
         try {
@@ -50,7 +52,7 @@ module.exports = (client, prefix, message) => {
         const args = message.content.slice(prefix.length).trim().split(/ +/);//oddziela słowa w komendzie spacją i usówa prefix 
         const commandName = args.shift().toLowerCase();//zwraca tylko 1 argument i zmienia na same małe liter
         if (!client.command.has(commandName)) return;//sprawdza czy taka komenda istnieje
-
+        if(service_mode == true) return message.reply("The bot is being serviced. Please try again later")
         const command = client.command.get(commandName);//pobieramy komende
         const time = new Date().toLocaleTimeString().slice(0, 5)
 
