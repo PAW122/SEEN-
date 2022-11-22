@@ -26,16 +26,16 @@ module.exports = {
         member.id === client.user.id).setNickname("SEEN-" + `[${prefix}help]`);
     }
 
-    if(args[0] == "owner_alert") {
+    if (args[0] == "owner_alert") {
       //0 == srv_set
       //1 == mod_logs
       //null == embed content from mod logs
       //null2 = guildId
-      owner_alert(0, null , null , message, args, client)
+      owner_alert(0, null, null, message, args, client)
       return
     }
 
-    if(args[0] == "auto_settings") {
+    if (args[0] == "auto") {
       auto_settings(message, args, client)
       return
     }
@@ -62,7 +62,7 @@ module.exports = {
 
       if (args[0] == "prefix") {
         const new_prefix = args[1]
-        if(new_prefix.length() < 10) {
+        if (new_prefix.length() < 10) {
           return message.reply("Bot prefix cant have more then 10 characters")
         }
         await db.set(`prefix.check`, new_prefix)
@@ -79,7 +79,7 @@ module.exports = {
         if (!args[1]) {
           return message.reply("you didn't enter an argument\n $srv_set to get help commands \n $srv_set list -- to get commands status")
         }
-        if(isNan(args[1])) return message.reply("bad channel id")
+        if (isNaN(args[1])) return message.reply("bad channel id")//isNan error
         try {
           let channel = await client.channels.fetch(args[1])
         } catch (err) {
@@ -111,7 +111,7 @@ module.exports = {
         const welocme_content = content.slice(to_slice)
 
         await db.set(`welocme_content`, welocme_content)
-        await db.set(`welocme_content_check`, true)
+        await db.set(`welocme_content_check`, true)//co to robi w welmsg content???? 
         return message.reply(`set welcome_msg_content to: **${welocme_content}**`)
 
       }
@@ -529,7 +529,7 @@ module.exports = {
 
 
     } else {
-      return message.reply("use **$settins deafult** to create server settings profil")
+      return message.reply("use **$settings deafult** to create server settings profil")
     }
   }
 }

@@ -26,7 +26,7 @@ module.exports = (message, args, client) => {
         const db = new QuickDB({ filePath: process.cwd() + `/db/srv_settings/commands/${guildId}.sqlite` });
 
         let logs_channel = message.guild.channels.cache.find(res => res.name === "logs")
-        let logsRole = message.guild.roles.cache.find(res => res.name == "logs")
+        var logsRole = message.guild.roles.cache.find(res => res.name == "logs")
 
         try {
             if (!logsRole) {
@@ -70,7 +70,12 @@ module.exports = (message, args, client) => {
             }
             //kanał i rola stworzona
             //dodaj id kanału do mod_logs serwera
-            const channel_id = logs_channel.id
+            try{
+                let logs_channel = message.guild.channels.cache.find(res => res.name === "logs")
+            var channel_id = logs_channel.id//error not found id
+            }catch(err){
+                return console.log("nie znalewniono id")
+            }
             if (await db_logs.get(`check`) == true) {
                 await db_logs.set(`channelId`, channel_id)
             } else {
@@ -80,7 +85,7 @@ module.exports = (message, args, client) => {
                 mod_logs_all_on(db_logs)
             }
             //poinformój usera że musi posiadać role logs aby widzieć kanał z logami
-            message.channel.send("Logs channel created. You need get logs role to see")
+            message.channel.send(`Logs channel created ${logs_channel}. You need get logs role ${logsRole} to see logs channel`)
         } catch (err) {
             console.log(err)
             return message.reply("I cant do that. Pleas use $report and report bug to developer")
@@ -118,7 +123,7 @@ module.exports = (message, args, client) => {
 
 
         //do lvl -------------------------------------------------
-        let lvl_channel = message.guild.channels.cache.find(res => res.name === "lvl-notify")
+        var lvl_channel = message.guild.channels.cache.find(res => res.name === "lvl-notify")
 
         try {
             if (!lvl_channel) {

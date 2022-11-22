@@ -44,7 +44,11 @@ module.exports = (client) => {
 
             console.log(`${member.user.tag} left the guild; kicked by ${executor.tag}?`);
 
+            try{
             member.user.send(`You've been kicked from the guild`)
+            }catch(err) {
+                console.log(err)
+            }
 
             try{
                 owner_alert(1,embed,member.guild.id,null,null,client)
