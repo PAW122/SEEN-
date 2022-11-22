@@ -8960,3 +8960,6 @@ $srv_list off command nie działa
 21.11.2022   16:47   priv   727662119553728532   bot   SEEN-#5771   Guild not found
 21.11.2022   17:57   priv   727662119553728532   dc-bot   PAW#5844   https://youtu.be/-KDQqWNK3Tw
 21.11.2022   17:58   priv   727662119553728532   dc-bot   PAW#5844   Zrobić github notyfication jako komendę z informacjami o updatowaniu bota
+22.11.2022   09:47   priv   727662119553728532   dc-bot   PAW#5844   Dodac funkcje weryfikacji urzytkownika, bot wysyla maila z kodem i user musi go wyslac do bota na pv
+22.11.2022   10:27   priv   727662119553728532   bot   PAW#5844   $help
+22.11.2022   10:27   priv   727662119553728532   bot   SEEN-#5771   

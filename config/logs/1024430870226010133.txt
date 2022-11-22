@@ -1,0 +1,19 @@
+22.11.2022   10:28   jebalnia dziwek   1024430870226010133   🙌powitania🙌   MEE6#4876   Siema <@797070806885990431>, witamy na  **jebalnia dziwek**!
+22.11.2022   10:28   jebalnia dziwek   1024430870226010133   komendy   PAW#5844   $help
+22.11.2022   10:28   jebalnia dziwek   1024430870226010133   komendy   SEEN-#5771   
+22.11.2022   10:28   jebalnia dziwek   1024430870226010133   komendy   PAW#5844   $settings auto_settings
+22.11.2022   10:28   jebalnia dziwek   1024430870226010133   komendy   SEEN-#5771   I cant do that. Pleas use $report and report bug to developer
+22.11.2022   10:29   jebalnia dziwek   1024430870226010133   komendy   bartek#5259   $settings auto_settings
+22.11.2022   10:29   jebalnia dziwek   1024430870226010133   komendy   SEEN-#5771   Logs channel created. You need get logs role to see
+22.11.2022   10:29   jebalnia dziwek   1024430870226010133   komendy   SEEN-#5771   I cant create welcome chanel
+22.11.2022   10:30   jebalnia dziwek   1024430870226010133   komendy   PAW#5844   $ruletka <@998643291211976764> <@438336824516149249>
+22.11.2022   10:30   jebalnia dziwek   1024430870226010133   komendy   SEEN-#5771   
+22.11.2022   10:30   jebalnia dziwek   1024430870226010133   komendy   SEEN-#5771   
+22.11.2022   10:31   jebalnia dziwek   1024430870226010133   komendy   PAW#5844   $srv_set
+22.11.2022   10:31   jebalnia dziwek   1024430870226010133   komendy   SEEN-#5771   
+22.11.2022   10:32   jebalnia dziwek   1024430870226010133   komendy   PAW#5844   $settings welcome_messages 1024432150738640976
+22.11.2022   10:32   jebalnia dziwek   1024430870226010133   komendy   SEEN-#5771   use **$settins deafult** to create server settings profil
+22.11.2022   10:38   jebalnia dziwek   1024430870226010133   komendy   bartek#5259   $settings deafult
+22.11.2022   10:38   jebalnia dziwek   1024430870226010133   logs   SEEN-#5771   
+22.11.2022   10:38   jebalnia dziwek   1024430870226010133   komendy   SEEN-#5771   deafult settings have been restored
+22.11.2022   16:44   jebalnia dziwek   1024430870226010133   logs   SEEN-#5771   
