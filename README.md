@@ -132,25 +132,19 @@ npm i js-queue
     143.przetestowac i naprawić message delete na nowym serwie bo błędy wywala
     145.po wyrzuceniu bota z serwera wywaliło go
     146.dodać bruch.js do workera serwerowega
-    148.dodać możliwość przypisania, żeby bot wysyłał wiadomość zawsze gdy będzie online na kanał
-    149.zrobić error handler - każdy błąd (nawet te w catch w komendach) ma być wysyłąny do handlera i zapisywany w pliku albo txt albo json albo w db
-    150.do przetestowania reactions handler (trzego dodać wywlołanie handlera i przetestować na angry czy działa)
-    151.settings deafult nie wymaga admina a ma wymgać
     152.dodać komendę (bot owner) dzięki której po id serwera i id roli bot dodaje sobie role
     153.isalt logs: coś jak mod logs ale sprawdza czy user nie jest altem (admin ustawia ile dni ma mieć konto, jezeli jest młodsze niż x dni to :opcja1: wysyła loga na podany kanał, opcja2: kikuje urzytkownika, opcja3 banuje urzytkownika, jeżeli na serweże jest już przypisany kanał do logów dodaje opcje4: wiadomość na mod_logs kanał)
-    154.dodać opcje pingowania bota zamiast używania prefixu: jeżeli user zapinguje bota i nic nie napisze dostaje helpa, a jeżeli zapinguje bota i coś napisze to bot prubuje wywołać zwykłą komendę, jeżeli nie znajdzie danej komendy to wysyła wiadomość try use @seen help
-    155.przy spaowaniu żeby clearować 100 wiadomości da się wywalić bota jeżeli na kanale jest tylko kilka wiadomości !! bot musi sprawdzać ile wiadomości jest na kanale i tyle usówać + trzeba dodać cooldowa cleara
-    156.zrobić w shelu albo exe automotycze pobieranie paczek, to samo ale dodać odpalanie bota w exe (bat to exe)
     157.dodać do $help! wszystkie komendy w tym $zapowiedzi_jesień 2022
-    158.bot po użyciu $valo ma dawać reakcje do wiadomości żeby było wiadomo że załapał wiadomość
     159.zrobić muta na quick db żeby po wyłączeniu bota muta zciągało
     160.dodać $random do helpa komend
-    161.dodać sprawdzanie -- jeżeli serwer ma powyżej 150 ludzi to automatycznie powiadomienia o userach onilne/offline nie są wysyłane
+    161.dodać sprawdzanie -- jeżeli serwer ma powyżej 150 ludzi to automatycznie powiadomienia o userach onilne/offline nie są wysyłane (komenda została wyłączona (funkcja nie komenda))
     162.dodać (/) commands to tych wszystkich komend
     163.w flags dokończyć robienie komendy leaderboard
     164.dokończyć albo usunąć mal.js
     165.zrobić system podziękowań (pomoc w robieniu bota czy coś) (tak na przyszłość)
     166.dodać komendę $wot do helpa
+    167.na podstawie settings auto i mute zrobić jail
+    168.zrobić "server maker" -- komenda ma tworzyć prosty serwer z wszystkimi rolami (administracja, moderacja, user), dostępami do kanałów, kategoriami doa modów i userów
 
     dodać do tego top chanels(top kanał z wiadomościami, top kanał vc z ilością h)
 

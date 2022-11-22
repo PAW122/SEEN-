@@ -1,0 +1,25 @@
+22.11.2022   17:52   jebalnia dziwek   1024430870226010133   komendy   PAW#5844   $settings welcome_messages 1024432150738640976
+22.11.2022   17:52   jebalnia dziwek   1024430870226010133   komendy   SEEN-#5771   use **$settins deafult** to create server settings profil
+22.11.2022   17:52   jebalnia dziwek   1024430870226010133   komendy   PAW#5844   $settins deafult
+22.11.2022   17:52   jebalnia dziwek   1024430870226010133   komendy   PAW#5844   $settings deafult
+22.11.2022   17:52   jebalnia dziwek   1024430870226010133   komendy   SEEN-#5771   deafult settings have been restored
+22.11.2022   17:52   jebalnia dziwek   1024430870226010133   komendy   PAW#5844   $settings welcome_messages 1024432150738640976
+22.11.2022   17:52   jebalnia dziwek   1024430870226010133   komendy   SEEN-#5771   set welcome_messages channel id to: **1024432150738640976**
+22.11.2022   17:54   jebalnia dziwek   1024430870226010133   komendy   bartek#5259   I co już git?
+22.11.2022   17:58   jebalnia dziwek   1024430870226010133   komendy   PAW#5844   no powitania już powinny działać
+22.11.2022   17:59   jebalnia dziwek   1024430870226010133   komendy   bartek#5259   git
+22.11.2022   17:59   jebalnia dziwek   1024430870226010133   🙌powitania🙌   MEE6#4876   Siema <@980848895301124107>, witamy na  **jebalnia dziwek**!
+22.11.2022   17:59   jebalnia dziwek   1024430870226010133   🙌powitania🙌   SEEN-#5771   <@980848895301124107> Welcome to the **jebalnia dziwek** server!
+22.11.2022   17:59   jebalnia dziwek   1024430870226010133   🤚pozegnania🤚   MEE6#4876   **SEEN-#4498**  właśnie nas opuścił
+22.11.2022   17:59   jebalnia dziwek   1024430870226010133   komendy   PAW#5844   działają
+22.11.2022   18:16   jebalnia dziwek   1024430870226010133   🍹🍻bar🍹🍻   Tyler Dauren#7099   <@998643291211976764> stimpi konczy zywot takze to som ostatnie dni
+22.11.2022   18:22   jebalnia dziwek   1024430870226010133   🍹🍻bar🍹🍻   bartek#5259   szkoda
+22.11.2022   18:22   jebalnia dziwek   1024430870226010133   🍹🍻bar🍹🍻   bartek#5259   dawaj puzniej
+22.11.2022   18:22   jebalnia dziwek   1024430870226010133   🍹🍻bar🍹🍻   bartek#5259   komuś nqwyzywac
+22.11.2022   20:30   jebalnia dziwek   1024430870226010133   🤚pozegnania🤚   MEE6#4876   **Katarzyna Gazińska#7039**  właśnie nas opuścił
+22.11.2022   22:30   jebalnia dziwek   1024430870226010133   🍹🍻bar🍹🍻   Tyler Dauren#7099   <@1025475816869605538>
+22.11.2022   22:30   jebalnia dziwek   1024430870226010133   🍹🍻bar🍹🍻   Tyler Dauren#7099   ty kurwo pierldona
+22.11.2022   22:30   jebalnia dziwek   1024430870226010133   🍹🍻bar🍹🍻   Tyler Dauren#7099   zaraz idziesz do odjebu
+22.11.2022   22:30   jebalnia dziwek   1024430870226010133   🍹🍻bar🍹🍻   Tyler Dauren#7099   pierodlony zerze kurwa
+22.11.2022   22:31   jebalnia dziwek   1024430870226010133   🍹🍻bar🍹🍻   Tyler Dauren#7099   razem z calom rodziom ty kurwom
+22.11.2022   22:33   jebalnia dziwek   1024430870226010133   🍹🍻bar🍹🍻   Tyler Dauren#7099   

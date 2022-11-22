@@ -8960,3 +8960,57 @@ $srv_list off command nie działa
 21.11.2022   16:47   priv   727662119553728532   bot   SEEN-#5771   Guild not found
 21.11.2022   17:57   priv   727662119553728532   dc-bot   PAW#5844   https://youtu.be/-KDQqWNK3Tw
 21.11.2022   17:58   priv   727662119553728532   dc-bot   PAW#5844   Zrobić github notyfication jako komendę z informacjami o updatowaniu bota
+22.11.2022   17:46   priv   727662119553728532   bot   PAW#5844   $settins deafult
+22.11.2022   17:46   priv   727662119553728532   bot   PAW#5844   $settins deafult
+22.11.2022   17:48   priv   727662119553728532   bot   PAW#5844   $settins deafult
+22.11.2022   17:48   priv   727662119553728532   bot   PAW#5844   $help
+22.11.2022   17:48   priv   727662119553728532   bot   SEEN-#5771   
+22.11.2022   17:48   priv   727662119553728532   bot   PAW#5844   $settings welcome_messages 743098355558907924
+22.11.2022   17:48   priv   727662119553728532   bot   SEEN-#5771   use **$settins deafult** to create server settings profil
+22.11.2022   17:48   priv   727662119553728532   bot   PAW#5844   $settins deafult
+22.11.2022   17:49   priv   727662119553728532   bot   PAW#5844   $settings deafult
+22.11.2022   17:49   priv   727662119553728532   minc-serv-18   SEEN-#5771   
+22.11.2022   17:49   priv   727662119553728532   bot   SEEN-#5771   deafult settings have been restored
+22.11.2022   17:51   priv   727662119553728532   bot   PAW#5844   $settings welcome_messages 743098355558907924
+22.11.2022   17:51   priv   727662119553728532   bot   SEEN-#5771   set welcome_messages channel id to: **743098355558907924**
+22.11.2022   17:53   priv   727662119553728532   bot   PAW#5844   $srv_set help
+22.11.2022   17:53   priv   727662119553728532   bot   SEEN-#5771   
+22.11.2022   17:57   priv   727662119553728532   bot   PAW#5844   $srv_set help
+22.11.2022   17:57   priv   727662119553728532   bot   SEEN-#5771   
+22.11.2022   17:57   priv   727662119553728532   bot   PAW#5844   $srv_set help
+22.11.2022   17:57   priv   727662119553728532   bot   SEEN-#5771   
+22.11.2022   18:21   priv   727662119553728532   ogólny   PAW#5844   $help
+22.11.2022   18:21   priv   727662119553728532   ogólny   SEEN-#5771   
+22.11.2022   18:21   priv   727662119553728532   minc-serv-18   SEEN-#5771   
+22.11.2022   18:21   priv   727662119553728532   minc-serv-18   SEEN-#5771   
+22.11.2022   18:21   priv   727662119553728532   bot   PAW#5844   $help
+22.11.2022   18:21   priv   727662119553728532   bot   SEEN-#5771   
+22.11.2022   18:21   priv   727662119553728532   bot   PAW#5844   $settings auto
+22.11.2022   18:21   priv   727662119553728532   bot   SEEN-#5771   Logs channel created. You need get logs role to see
+22.11.2022   18:21   priv   727662119553728532   bot   SEEN-#5771   Wlecome messages been sended on <#727662119553728535>
+22.11.2022   18:21   priv   727662119553728532   bot   SEEN-#5771   lvl channel error
+22.11.2022   18:21   priv   727662119553728532   bot   PAW#5844   $settings auto
+22.11.2022   18:21   priv   727662119553728532   bot   SEEN-#5771   Logs channel created. You need get logs role to see
+22.11.2022   18:21   priv   727662119553728532   bot   SEEN-#5771   Wlecome messages been sended on <#727662119553728535>
+22.11.2022   18:21   priv   727662119553728532   bot   SEEN-#5771   Lvl notify been send on <#1044663966573527161>
+22.11.2022   18:23   priv   727662119553728532   bot   PAW#5844   $settings auto
+22.11.2022   18:23   priv   727662119553728532   bot   SEEN-#5771   Logs channel created <#<#1044663965319434392>>. You need get logs role <@<@&1044663964119875706>> to see
+22.11.2022   18:23   priv   727662119553728532   bot   SEEN-#5771   Wlecome messages been sended on <#727662119553728535>
+22.11.2022   18:23   priv   727662119553728532   bot   SEEN-#5771   Lvl notify been send on <#1044663966573527161>
+22.11.2022   18:23   priv   727662119553728532   bot   PAW#5844   $settings auto
+22.11.2022   18:23   priv   727662119553728532   bot   SEEN-#5771   Logs channel created <#1044663965319434392>. You need get logs role <@&1044663964119875706> to see
+22.11.2022   18:23   priv   727662119553728532   bot   SEEN-#5771   Wlecome messages been sended on <#727662119553728535>
+22.11.2022   18:23   priv   727662119553728532   bot   SEEN-#5771   Lvl notify been send on <#1044663966573527161>
+22.11.2022   18:23   priv   727662119553728532   bot   PAW#5844   <@&1044663964119875706>
+22.11.2022   18:24   priv   727662119553728532   logs   SEEN-#5771   
+22.11.2022   18:29   priv   727662119553728532   bot   PAW#5844   $angry
+22.11.2022   18:29   priv   727662119553728532   bot   SEEN-#5771   <@438336824516149249> is angry
+22.11.2022   18:29   priv   727662119553728532   bot   SEEN-#5771   
+22.11.2022   18:33   priv   727662119553728532   bot   PAW#5844   $ping
+22.11.2022   18:33   priv   727662119553728532   bot   SEEN-#5771   The bot is being serviced. Please try again later
+22.11.2022   18:35   priv   727662119553728532   bot   PAW#5844   $ping
+22.11.2022   18:35   priv   727662119553728532   bot   SEEN-#5771   pong!
+22.11.2022   23:37   priv   727662119553728532   ogólny   PAW#5844   22.11.2022 spiki skończył 9 i pół roku i 9 dni
+[*]
+22.11.2022   23:37   priv   727662119553728532   ogólny   PAW#5844   
+22.11.2022   23:37   priv   727662119553728532   logs   SEEN-#5771   
