@@ -9014,3 +9014,91 @@ $srv_list off command nie działa
 [*]
 22.11.2022   23:37   priv   727662119553728532   ogólny   PAW#5844   
 22.11.2022   23:37   priv   727662119553728532   logs   SEEN-#5771   
+22.11.2022   23:52   priv   727662119553728532   bot   PAW#5844   $onwer help
+22.11.2022   23:53   priv   727662119553728532   bot   PAW#5844   $owner help
+22.11.2022   23:53   priv   727662119553728532   bot   SEEN-#5771   
+22.11.2022   23:53   priv   727662119553728532   bot   SEEN-#5771   Usage: **$guild_info <serverId>
+22.11.2022   23:53   priv   727662119553728532   bot   PAW#5844   $guild_info 1024430870226010133
+22.11.2022   23:53   priv   727662119553728532   bot   SEEN-#5771   
+22.11.2022   23:54   priv   727662119553728532   dc-bot   PAW#5844   .
+Do onwer serwerinfo dodać żeby wypisał listę wyszystkich kanałów(z id), rang(z id)
+22.11.2022   23:54   priv   727662119553728532   dc-bot   PAW#5844   .
+Dodać do owner command komende do usówania kanałów na serwerach, dodawania rang
+23.11.2022   00:36   priv   727662119553728532   dc-bot   PAW#5844   https://youtube.com/shorts/ia1sVrV9xpU?feature=share
+23.11.2022   00:46   priv   727662119553728532   ogólny   PAW#5844   https://youtube.com/shorts/tjJVtKf4Hcc?feature=share
+23.11.2022   08:56   priv   727662119553728532   ogólny   PAW#5844   Poprawić fizykę
+23.11.2022   10:00   priv   727662119553728532   bot   PAW#5844   $srv_set
+23.11.2022   10:00   priv   727662119553728532   bot   SEEN-#5771   
+23.11.2022   10:00   priv   727662119553728532   bot   PAW#5844   $srv_set list
+23.11.2022   10:00   priv   727662119553728532   bot   SEEN-#5771   
+23.11.2022   10:00   priv   727662119553728532   bot   SEEN-#5771   
+23.11.2022   10:00   priv   727662119553728532   bot   PAW#5844   $srv_logs
+23.11.2022   10:00   priv   727662119553728532   bot   SEEN-#5771   try use: **$srv_logs help**
+23.11.2022   10:01   priv   727662119553728532   bot   PAW#5844   $srv_loga help
+23.11.2022   10:01   priv   727662119553728532   bot   PAW#5844   $srv_logs help
+23.11.2022   10:01   priv   727662119553728532   bot   SEEN-#5771   
+23.11.2022   10:02   priv   727662119553728532   bot   PAW#5844   $srv_logs deafult
+23.11.2022   10:02   priv   727662119553728532   bot   SEEN-#5771   set
+23.11.2022   10:02   priv   727662119553728532   bot   PAW#5844   .
+23.11.2022   10:02   priv   727662119553728532   logs   SEEN-#5771   
+23.11.2022   10:14   priv   727662119553728532   ogólny   PAW#5844   50zł zaliczka na wycieczkę
+23.11.2022   10:15   priv   727662119553728532   ogólny   PAW#5844   Do jakiegoś poznania
+23.11.2022   10:15   priv   727662119553728532   ogólny   PAW#5844   Do 16 grudnia zaliczke
+23.11.2022   10:21   priv   727662119553728532   dc-bot   PAW#5844   .
+Dodać srv_restorer
+Srv owner moze użyć komendy która zapisuje wszystko na serweże (kanały,uprawnienia) itp
+
+I po użyciu restore bot sprawdza czy jakieś kanału byłu usówane albo czy jakieś uprawninia były zmieniane
+23.11.2022   10:21   priv   727662119553728532   lvl-notify   SEEN-#5771   
+23.11.2022   10:30   priv   727662119553728532   logs   SEEN-#5771   
+23.11.2022   10:31   priv   727662119553728532   logs   SEEN-#5771   
+23.11.2022   10:31   priv   727662119553728532   bot   PAW#5844   $srv_logs list
+23.11.2022   10:31   priv   727662119553728532   bot   SEEN-#5771   
+23.11.2022   10:31   priv   727662119553728532   bot   SEEN-#5771   
+23.11.2022   10:31   priv   727662119553728532   bot   PAW#5844   $srv_logs off guildMemberOffilne
+23.11.2022   10:31   priv   727662119553728532   bot   SEEN-#5771   Bad logs type name
+23.11.2022   10:32   priv   727662119553728532   bot   PAW#5844   $srv_logs off guildMemberOnline
+23.11.2022   10:32   priv   727662119553728532   bot   SEEN-#5771   set
+23.11.2022   10:32   priv   727662119553728532   bot   PAW#5844   $srv_logs off guildMemberOffline
+23.11.2022   10:32   priv   727662119553728532   bot   SEEN-#5771   set
+23.11.2022   10:47   priv   727662119553728532   bot   PAW#5844   $helo
+23.11.2022   10:47   priv   727662119553728532   bot   PAW#5844   $help
+23.11.2022   10:47   priv   727662119553728532   bot   SEEN-#5771   
+23.11.2022   10:48   priv   727662119553728532   bot   PAW#5844   $link
+23.11.2022   10:48   priv   727662119553728532   bot   SEEN-#5771   ** Invite bot link:** 
+ https://discord.com/api/oauth2/authorize?client_id=797070806885990431&permissions=8&scope=bot%20applications.commands
+23.11.2022   16:17   priv   727662119553728532   bot   PAW#5844   $ping
+23.11.2022   16:17   priv   727662119553728532   bot   SEEN-#5771   pong!
+24.11.2022   00:07   priv   727662119553728532   ogólny   PAW#5844   https://youtube.com/shorts/zYWyDsmuLLY?feature=share
+24.11.2022   00:33   priv   727662119553728532   bot   PAW#5844   $PING
+24.11.2022   00:33   priv   727662119553728532   bot   SEEN-#5771   pong!
+24.11.2022   00:39   priv   727662119553728532   dc-bot   PAW#5844   .
+Zrobić do kupienia rangi w ekonomi- zmiana nicku, zmiana koloru nicku
+
+Dać tutorial jak admin ma to ustawić,
+Role majas sie tworzyc automatycznie
+24.11.2022   09:18   priv   727662119553728532   bot   PAW#5844   $lvl
+24.11.2022   09:18   priv   727662119553728532   bot   SEEN-#5771   
+24.11.2022   09:20   priv   727662119553728532   dc-bot   PAW#5844   .
+Komenda na topke w lvl
+Const data=pobierz cala db
+Foreach data 
+pobierz id
+Pobierz id.lvl
+24.11.2022   09:25   priv   727662119553728532   dc-bot   PAW#5844   .
+Spróbować zrobić zapisywanie message_logs co 10 min 
+Tym timeoutem
+24.11.2022   11:46   priv   727662119553728532   ogólny   PAW#5844   Wycieczka 70zł od osoby
+Laguitara hostel
+Chyba 29 jest wycieczka
+24.11.2022   11:46   priv   727662119553728532   ogólny   PAW#5844   Wycieczka do +/-200zł wyjdzie
+24.11.2022   11:47   priv   727662119553728532   ogólny   PAW#5844   .
+Albo 7 albo kiedys do kina
+24.11.2022   12:31   priv   727662119553728532   dc-bot   PAW#5844   .
+Komenda $dethnote @user
+Za pomoca canvasa wpisuje czyjiś nick do dethnota i wysyła grafike
+24.11.2022   13:24   priv   727662119553728532   bot   PAW#5844   $link
+24.11.2022   13:24   priv   727662119553728532   bot   SEEN-#5771   ** Invite bot link:** 
+ https://discord.com/api/oauth2/authorize?client_id=797070806885990431&permissions=8&scope=bot%20applications.commands
+24.11.2022   14:17   priv   727662119553728532   bot   PAW#5844   $message_logs
+24.11.2022   14:17   priv   727662119553728532   bot   SEEN-#5771   
