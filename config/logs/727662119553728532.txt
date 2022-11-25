@@ -9102,3 +9102,28 @@ Za pomoca canvasa wpisuje czyjiś nick do dethnota i wysyła grafike
  https://discord.com/api/oauth2/authorize?client_id=797070806885990431&permissions=8&scope=bot%20applications.commands
 24.11.2022   14:17   priv   727662119553728532   bot   PAW#5844   $message_logs
 24.11.2022   14:17   priv   727662119553728532   bot   SEEN-#5771   
+25.11.2022   10:48   priv   727662119553728532   bot   PAW#5844   $ping
+25.11.2022   10:48   priv   727662119553728532   bot   SEEN-#5771   pong!
+25.11.2022   12:49   priv   727662119553728532   bot   PAW#5844   $ping
+25.11.2022   12:49   priv   727662119553728532   bot   SEEN-#5771   pong!
+25.11.2022   13:28   priv   727662119553728532   dc-bot   PAW#5844   .
+Jak ktoś użyję $say I am stupid bot napisze yes i know
+25.11.2022   13:48   priv   727662119553728532   bot   PAW#5844   $say cos
+25.11.2022   13:48   priv   727662119553728532   bot   SEEN-#5771   cos
+25.11.2022   13:48   priv   727662119553728532   logs   SEEN-#5771   
+25.11.2022   13:48   priv   727662119553728532   logs   SEEN-#5771   
+25.11.2022   13:48   priv   727662119553728532   bot   PAW#5844   $help
+25.11.2022   13:48   priv   727662119553728532   bot   SEEN-#5771   
+25.11.2022   13:49   priv   727662119553728532   bot   PAW#5844   $anime
+25.11.2022   13:49   priv   727662119553728532   bot   SEEN-#5771   
+25.11.2022   13:49   priv   727662119553728532   bot   PAW#5844   $anime announcements help
+25.11.2022   13:49   priv   727662119553728532   bot   SEEN-#5771   try use one of this command: 
+
+            $announcements_autumn
+            $zapowiedzi_jesień
+            --
+            $announcements_summer
+            $zapowiedzi_lato
+25.11.2022   13:50   priv   727662119553728532   bot   PAW#5844   $announcements_summer
+25.11.2022   13:50   priv   727662119553728532   bot   SEEN-#5771   use: $zapowiedzi lato2022 
+ $announcements summer2022

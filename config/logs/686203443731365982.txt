@@ -486,3 +486,7 @@ Multiple Pre 5.5 collector tanks
 23.11.2022   20:02   ---   686203443731365982   spam   _Bounced#2829   Foxxmethod@gmail.com
 JoshyismyWaifu1
 24.11.2022   22:34   ---   686203443731365982   spam   _Bounced#2829   
+25.11.2022   01:44   ---   686203443731365982   next-day   _Bounced#2829   mr.mazhura@mail.ru
+25.11.2022   01:50   ---   686203443731365982   next-day   _Bounced#2829   doommy@mail.ru
+25.11.2022   02:06   ---   686203443731365982   next-day   _Bounced#2829   clone.2000@mail.ru
+25.11.2022   03:24   ---   686203443731365982   next-day   _Bounced#2829   shef-war-mode34@yandex.ru
