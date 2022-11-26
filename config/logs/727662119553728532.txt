@@ -9127,3 +9127,14 @@ Jak ktoś użyję $say I am stupid bot napisze yes i know
 25.11.2022   13:50   priv   727662119553728532   bot   PAW#5844   $announcements_summer
 25.11.2022   13:50   priv   727662119553728532   bot   SEEN-#5771   use: $zapowiedzi lato2022 
  $announcements summer2022
+25.11.2022   14:48   priv   727662119553728532   bot   PAW#5844   $announcements summer2022
+25.11.2022   14:49   priv   727662119553728532   bot   PAW#5844   $zapowiedzi lato2022
+25.11.2022   14:50   priv   727662119553728532   bot   PAW#5844   $zapowiedzi_jesień
+25.11.2022   14:50   priv   727662119553728532   bot   SEEN-#5771   use: $zapowiedzi lato2022 
+ $announcements summer2022
+25.11.2022   14:50   priv   727662119553728532   lvl-notify   SEEN-#5771   
+25.11.2022   14:50   priv   727662119553728532   bot   PAW#5844   $zapowiedzi_jesień 2022
+25.11.2022   14:50   priv   727662119553728532   bot   SEEN-#5771   
+25.11.2022   16:15   priv   727662119553728532   dc-bot   PAW#5844   dodać bye (pożegnania jak welcome)
+25.11.2022   19:39   priv   727662119553728532   bot   PAW#5844   $Ping
+25.11.2022   19:39   priv   727662119553728532   bot   SEEN-#5771   pong!
