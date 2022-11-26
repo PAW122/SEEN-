@@ -107,6 +107,8 @@ executeInteraction: async (inter) => {
             message.delete();//usówa wiadomość z $say
         }
 
+        if(message.content == "I`am stupid") return message.channel.send("yes I know")
+
         const msg = message.content.slice(4)//usówa 4 pierwsze znaki czyli $say z wiadomości
 
         if(!message.guild.me.permissions.has("ADMINISTRATOR")) {message.reply("Nie masz uprawnień. Wymagane uprawnienia: Administrator")}

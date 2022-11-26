@@ -25,6 +25,7 @@ const set_status = config.status
 const test_clientId = '869587877477101590';//id SEEN
 const clientId = '797070806885990431';//id SEEN
 
+console.time();
 
 //wczytywanie command handlera
 const handler = require("./handlers/handler.js")
@@ -172,7 +173,6 @@ if (test_bot == true) {
     client.login(token)
 }
 
-//bot_webside();
 
 
 //error handler
@@ -181,3 +181,4 @@ client.on('warn', () => { console.log("error handler--warn") })
 client.on('error', () => { console.log("error handler--error") })
 //consola info
 consola.success('Built!')
+console.timeEnd();

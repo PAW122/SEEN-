@@ -27,7 +27,7 @@ module.exports = {
         }else{
 
 
-        if(!args[0]){return message.channel.send("use: $zapowiedzi lato2022 \n $announcements summer2022")}
+        if(!args[0]){return message.channel.send("use: $announcements_autumn 2022 \n $zapowiedzi_jesień 2022")}
 
         const embed_2022 = new Discord.MessageEmbed()
         .setColor("BLUE")
