@@ -9183,3 +9183,8 @@ Jak ktoś użyję $say I am stupid bot napisze yes i know
 26.11.2022   20:34   priv   727662119553728532   bot   SEEN-#5771   
 26.11.2022   20:34   priv   727662119553728532   logs   SEEN-#5771   
 26.11.2022   20:34   priv   727662119553728532   bot   SEEN-#5771   Usunięto rolę <@&1046110062252413078>
+27.11.2022   12:25   priv   727662119553728532   bot   PAW#5844   !simjoin
+27.11.2022   22:55   priv   727662119553728532   bot   PAW#5844   $ping
+27.11.2022   22:55   priv   727662119553728532   bot   SEEN-#5771   pong!
+27.11.2022   22:55   priv   727662119553728532   bot   PAW#5844   $valo mmr PAW117216 EUNE
+27.11.2022   22:55   priv   727662119553728532   bot   SEEN-#5771   API dont responding

@@ -123,3 +123,68 @@
 27.11.2022   11:59   jebalnia dziwek   1024430870226010133   lekcje   PaVlito#1799   bezprzewodowe
 27.11.2022   11:59   jebalnia dziwek   1024430870226010133   lekcje   PaVlito#1799   fale radiowe
 27.11.2022   11:59   jebalnia dziwek   1024430870226010133   lekcje   PaVlito#1799   fale świetlne
+27.11.2022   12:11   jebalnia dziwek   1024430870226010133   lekcje   Gruesso#4961   znaczenie światlowodu - stosowane gdy wystepuja silne zaklocenia el mag
+27.11.2022   12:11   jebalnia dziwek   1024430870226010133   lekcje   PaVlito#1799   i będą odległości do znaczenia
+27.11.2022   12:11   jebalnia dziwek   1024430870226010133   lekcje   PaVlito#1799   np fale radiowe i swiatlowod na dalekie odleglosci
+27.11.2022   12:11   jebalnia dziwek   1024430870226010133   lekcje   Gruesso#4961   Budowa - jest u góry co hilar wysyłał (kabla miedzianego i swiatlowodu)
+27.11.2022   12:13   jebalnia dziwek   1024430870226010133   lekcje   KEKKE#7669   zad 3  Kable STP są ekranowane, podczas gdy kable UTP są nieekranowane
+
+• Kable STP są bardziej odporne na zakłócenia i zakłócenia niż kable UTP
+
+• Kable STP są lepsze pod względem maksymalizacji przepustowości w porównaniu z kablami UTP
+
+• Kabel STP kosztuje więcej za metr w porównaniu do kabli UTP
+27.11.2022   12:14   jebalnia dziwek   1024430870226010133   lekcje   KEKKE#7669   zad 4 możliwość łączenie sieci (Internet) niezależnie od heterogenicznej struktury tych sieci w warstwach niższych.
+27.11.2022   12:16   jebalnia dziwek   1024430870226010133   zdjecia   PaVlito#1799   
+27.11.2022   12:17   jebalnia dziwek   1024430870226010133   lekcje   PaVlito#1799   token
+27.11.2022   12:18   jebalnia dziwek   1024430870226010133   lekcje   KEKKE#7669   zad 2 -1 dzieli sie na urzadzenia aktywne i pasywne
+27.11.2022   12:18   jebalnia dziwek   1024430870226010133   lekcje   PaVlito#1799   to zestaw protokołów definiujących wzajemną komunikację i wymianę danych w Internecie. Wszystkie połączone z siecią komputery muszą je prawidłowo interpretować aby wzajemna komunikacja między nimi była w ogóle możliwa
+27.11.2022   12:18   jebalnia dziwek   1024430870226010133   lekcje   PaVlito#1799   protokól tcp
+27.11.2022   12:19   jebalnia dziwek   1024430870226010133   lekcje   KEKKE#7669   zad 2 -3 profibus fms profibus dp profibus pa
+27.11.2022   12:22   jebalnia dziwek   1024430870226010133   lekcje   KEKKE#7669   zad 3  Kable STP są ekranowane, podczas gdy kable UTP są nieekranowane
+
+• Kable STP są bardziej odporne na zakłócenia i zakłócenia niż kable UTP
+
+• Kable STP są lepsze pod względem maksymalizacji przepustowości w porównaniu z kablami UTP
+
+• Kabel STP kosztuje więcej za metr w porównaniu do kabli UTP
+27.11.2022   12:22   jebalnia dziwek   1024430870226010133   lekcje   KEKKE#7669   ZADANIE 4 PROTOKÓŁ TCP to zestaw protokołów definiujących wzajemną komunikację i wymianę danych w Internecie. Wszystkie połączone z siecią komputery muszą je prawidłowo interpretować aby wzajemna komunikacja między nimi była w ogóle możliwa (edytowane)
+27.11.2022   12:23   jebalnia dziwek   1024430870226010133   lekcje   PaVlito#1799   ZADANIE 5 router czyli nadajnik
+27.11.2022   12:23   jebalnia dziwek   1024430870226010133   lekcje   PaVlito#1799   to mamy jeszcze :
+27.11.2022   12:23   jebalnia dziwek   1024430870226010133   lekcje   PaVlito#1799   odbiornik
+27.11.2022   12:23   jebalnia dziwek   1024430870226010133   lekcje   PaVlito#1799   medium transmisyjne
+27.11.2022   12:23   jebalnia dziwek   1024430870226010133   lekcje   PaVlito#1799   fale albo przewody
+27.11.2022   12:24   jebalnia dziwek   1024430870226010133   lekcje   PaVlito#1799   repeater- przedłużacz sieci i „odświeżacz sygnału”
+27.11.2022   12:25   jebalnia dziwek   1024430870226010133   lekcje   PaVlito#1799   access point- dodatkowy punkt dostępu sieci, korzysta z sygnału pochodzącego z routera, wzmacnia go i transmituje dalej
+27.11.2022   12:27   jebalnia dziwek   1024430870226010133   lekcje   PaVlito#1799   determinizm sieci- cecha polegająca na możliwości ścisłego określenia czasu transmisji inf do każdego urządzenia sieciowego
+27.11.2022   12:28   jebalnia dziwek   1024430870226010133   lekcje   Bartosz Rocławski#5186   To wszystko druga grupa?
+27.11.2022   12:28   jebalnia dziwek   1024430870226010133   lekcje   PaVlito#1799   kurwa
+27.11.2022   12:28   jebalnia dziwek   1024430870226010133   lekcje   PaVlito#1799   nie przerywaj
+27.11.2022   12:28   jebalnia dziwek   1024430870226010133   lekcje   Bartosz Rocławski#5186   😦
+27.11.2022   12:28   jebalnia dziwek   1024430870226010133   lekcje   PaVlito#1799   (grupa 1
+27.11.2022   12:28   jebalnia dziwek   1024430870226010133   lekcje   PaVlito#1799   ()
+27.11.2022   12:29   jebalnia dziwek   1024430870226010133   lekcje   PaVlito#1799   ZADANIE 7
+27.11.2022   12:29   jebalnia dziwek   1024430870226010133   lekcje   PaVlito#1799   CSMA
+27.11.2022   12:29   jebalnia dziwek   1024430870226010133   lekcje   PaVlito#1799   token ring
+27.11.2022   12:29   jebalnia dziwek   1024430870226010133   lekcje   PaVlito#1799   master slave
+27.11.2022   12:30   jebalnia dziwek   1024430870226010133   lekcje   KEKKE#7669   zad 8 jebac
+27.11.2022   12:30   jebalnia dziwek   1024430870226010133   lekcje   PaVlito#1799   ZADANIE 8
+27.11.2022   12:30   jebalnia dziwek   1024430870226010133   lekcje   PaVlito#1799   ewentualnie
+27.11.2022   12:30   jebalnia dziwek   1024430870226010133   lekcje   PaVlito#1799   topologia pierścienia
+27.11.2022   12:30   jebalnia dziwek   1024430870226010133   lekcje   PaVlito#1799   medium światłowód
+27.11.2022   12:31   jebalnia dziwek   1024430870226010133   lekcje   KEKKE#7669   grupa 2
+27.11.2022   12:31   jebalnia dziwek   1024430870226010133   lekcje   PaVlito#1799   uwaga uwaga
+27.11.2022   12:31   jebalnia dziwek   1024430870226010133   lekcje   PaVlito#1799   ZADANIE 1
+27.11.2022   12:37   jebalnia dziwek   1024430870226010133   lekcje   PaVlito#1799   nadajnik
+27.11.2022   12:37   jebalnia dziwek   1024430870226010133   lekcje   PaVlito#1799   medium
+27.11.2022   12:37   jebalnia dziwek   1024430870226010133   lekcje   PaVlito#1799   odbiornik
+27.11.2022   12:39   jebalnia dziwek   1024430870226010133   lekcje   KEKKE#7669   zad 2 takie samo jak 5 w grupie 1
+27.11.2022   12:39   jebalnia dziwek   1024430870226010133   lekcje   PaVlito#1799   Co nazywamy sumą kontrolną-
+
+liczba uzyskana według specjalnego algorytmu służąca do zapewnienia integralności danych. Komputer wysyłający dane oblicza ich sumę kontrolną i dołącza ją do pakietu danych.
+27.11.2022   12:40   jebalnia dziwek   1024430870226010133   lekcje   PaVlito#1799   to
+27.11.2022   12:40   jebalnia dziwek   1024430870226010133   lekcje   PaVlito#1799   ZADANIE 4
+27.11.2022   12:41   jebalnia dziwek   1024430870226010133   lekcje   PaVlito#1799   i model referencyjny ISO/OSI  ustandaryzowanie sposobów komunikacji sieciowej pomiędzy różnymi urządzeniami.
+27.11.2022   12:42   jebalnia dziwek   1024430870226010133   lekcje   PaVlito#1799   i automatyzacja procesów sieciowych
+27.11.2022   12:42   jebalnia dziwek   1024430870226010133   lekcje   PaVlito#1799   ZADANIE 5
+27.11.2022   12:43   jebalnia dziwek   1024430870226010133   lekcje   PaVlito#1799   to zbiór reguł, które określają sposób przesyłania danych między klientem a serwerem bazy danych

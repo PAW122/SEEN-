@@ -8,6 +8,8 @@ paczki znajdują się w dokumentacji
 paczka do fs żeby nie wywalało bota opdczas usówania plików z logami
 npx create-react-app my-app
 
++npm i lib
+
 # paczki do usunięcia
 npm i ytdl-core
 npm i yt-search
