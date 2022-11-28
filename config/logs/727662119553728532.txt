@@ -9188,3 +9188,17 @@ Jak ktoś użyję $say I am stupid bot napisze yes i know
 27.11.2022   22:55   priv   727662119553728532   bot   SEEN-#5771   pong!
 27.11.2022   22:55   priv   727662119553728532   bot   PAW#5844   $valo mmr PAW117216 EUNE
 27.11.2022   22:55   priv   727662119553728532   bot   SEEN-#5771   API dont responding
+28.11.2022   01:19   priv   727662119553728532   ogólny   PAW#5844   https://youtu.be/yIXa-6DRW-Y
+28.11.2022   08:55   priv   727662119553728532   dc-bot   PAW#5844   .
+Do quizu mehatronic
+
+Odp z jsona mają być zamieniane miejscami
+28.11.2022   09:28   priv   727662119553728532   ogólny   PAW#5844   Prezentacja z chemi
+28.11.2022   09:29   priv   727662119553728532   logs   SEEN-#5771   
+28.11.2022   13:26   priv   727662119553728532   bot   PAW#5844   $help
+28.11.2022   13:26   priv   727662119553728532   bot   SEEN-#5771   
+28.11.2022   13:26   priv   727662119553728532   bot   PAW#5844   $valo mmr PAW117216 EUNE
+28.11.2022   13:26   priv   727662119553728532   bot   SEEN-#5771   API dont responding
+28.11.2022   21:10   priv   727662119553728532   bot   PAW#5844   $ping
+28.11.2022   21:10   priv   727662119553728532   bot   SEEN-#5771   pong!
+29.11.2022   00:12   priv   727662119553728532   bot   PAW#5844   

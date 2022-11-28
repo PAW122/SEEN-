@@ -1,3 +1,5 @@
+/*
+
 const { ActionRowBuilder, Events, SelectMenuBuilder } = require('discord.js');
 
 module.exports = {
@@ -34,3 +36,5 @@ client.on(Events.InteractionCreate, async interaction => {
 		await interaction.reply({ content: 'Pong!', components: [row] });
 	}
 });
+
+*/
