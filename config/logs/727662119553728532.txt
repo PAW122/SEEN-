@@ -9206,3 +9206,39 @@ Odp z jsona mają być zamieniane miejscami
 29.11.2022   01:13   priv   727662119553728532   logs   SEEN-#5771   
 29.11.2022   01:14   priv   727662119553728532   ogólny   SEEN-#5771   
 29.11.2022   01:24   priv   727662119553728532   logs   SEEN-#5771   
+29.11.2022   01:39   priv   727662119553728532   dc-bot   PAW#5844   zamiast srv_id są nazwy serwerów !!
+29.11.2022   01:40   priv   727662119553728532   bot   PAW#5844   $flags
+29.11.2022   01:40   priv   727662119553728532   bot   SEEN-#5771   A: Serbia
+B:Venezuela
+C:Afghanistan
+D:North Korea
+29.11.2022   01:40   priv   727662119553728532   bot   SEEN-#5771   
+29.11.2022   01:40   priv   727662119553728532   bot   PAW#5844   B
+29.11.2022   01:41   priv   727662119553728532   bot   SEEN-#5771   Bad answer. Correct answer is: **A**
+29.11.2022   01:41   priv   727662119553728532   bot   SEEN-#5771   <@438336824516149249> best combo is: **2**
+29.11.2022   01:42   priv   727662119553728532   dc-bot   PAW#5844   .
+dorobić do flags rozpoznawanie kraju na podstawie danych,
+można dodać quiz który kraj ma np większą powieszchcnię, więcej ludzi na km2 itp
+29.11.2022   01:43   priv   727662119553728532   bot   PAW#5844   $bruh
+29.11.2022   01:43   priv   727662119553728532   lvl-notify   SEEN-#5771   
+29.11.2022   01:43   priv   727662119553728532   bot   SEEN-#5771   
+29.11.2022   01:44   priv   727662119553728532   bot   PAW#5844   $lvl
+29.11.2022   01:44   priv   727662119553728532   bot   SEEN-#5771   
+29.11.2022   01:50   priv   727662119553728532   dc-bot   PAW#5844   .
+zrobić statystyki na kanałach głosowych 
+liczba ludzi na serwie
+liczba ludzi online
+data
+
+dodatkowe opcje (do włączebnia komendą):
+ilczba botów
+liczba ludzi bez botów
+liczba ludzi na kanałach głosowych
+liczba rang na serwie
+nick ostatniej osoby, która dołączyła na srv
+29.11.2022   10:26   priv   727662119553728532   bot   PAW#5844   $ping
+29.11.2022   10:26   priv   727662119553728532   bot   SEEN-#5771   pong!
+29.11.2022   13:49   priv   727662119553728532   ogólny   PAW#5844   Wziąść do ckz pendraka z linuxem
+29.11.2022   20:59   priv   727662119553728532   dc-bot   PAW#5844   .
+usunąć (wyłączyć komendy)
+związane z db kont bonczka
