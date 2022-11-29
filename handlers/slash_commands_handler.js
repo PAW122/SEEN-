@@ -14,7 +14,8 @@ const slashCommands3 = fs.readdirSync(process.cwd() +`/commands/anime zapowiedz/
 const slashCommands4 = fs.readdirSync(process.cwd() +`/commands/rpg/`).filter(file => file.endsWith('.js'));
 const slashCommands5 = fs.readdirSync(process.cwd() +`/commands/acc_menager_2/`).filter(file => file.endsWith('.js'));
 
-
+//const slashCommands6 = fs.readdirSync(process.cwd() + `/commands/komendy/music`).filter(file => file.endsWith('.js'));
+//console.log(slashCommands6)
 
     client.login(token).then(async ()=>{
         for(file of functions){
@@ -29,6 +30,7 @@ const slashCommands5 = fs.readdirSync(process.cwd() +`/commands/acc_menager_2/`)
           await client.handleCommands(slashCommands3, "anime zapowiedz");
           await client.handleCommands(slashCommands4, "rpg");
           await client.handleCommands(slashCommands5, "acc_menager_2");
+         // await client.handleCommands(slashCommands6, "komendy/music");
 
           const rest = new REST({ version: '9' }).setToken(token);
             (async () => {

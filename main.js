@@ -86,6 +86,14 @@ const client = new Discord.Client({
 client.commands = new Discord.Collection()
 client.commandArray = [];
 
+// yt music player
+// client.player = new Player(client, {
+//     ytdlOptions: {
+//         quality: "highestaudio",
+//         highWaterMark: 1 << 25
+//     }
+// })
+
 //yt notyfications
 yt_notify()
 

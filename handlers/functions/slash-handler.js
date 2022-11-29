@@ -21,6 +21,7 @@ module.exports = (client) => {
                 if(command.isSlash){
                     client.commands.set(command.data.name, command);
                     client.commandArray.push(command.data.toJSON());
+                    // console.log(command)
                 }
                 
             }
