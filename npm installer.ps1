@@ -1,0 +1,16 @@
+npm i anime-images-api
+npm i ascii-table
+npm i axios
+npm i better-sqlite3
+npm i canvas
+npm i chalk
+npm i consola
+npm i discord-logs
+npm i discord.js
+npm i dotenv
+npm i ejs
+npm i env
+npm i ms
+npm i node-fetch
+npm i quick.db
+npm i youtube-notification
