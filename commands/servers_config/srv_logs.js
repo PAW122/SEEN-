@@ -134,8 +134,8 @@ module.exports = {
         }
 
         if (args[0] == "deafult") {
-            all_on()
-            return message.reply("set")
+            deafult()
+            return message.reply("set.\n guildMemberOnline and guildMemberOffline is deafult turned off!")
         }
 
         if (args[0] == "alloff") {
@@ -213,6 +213,38 @@ module.exports = {
             await db.set(`messageContentEdited`, true)
             await db.set(`guildMemberOffline`, true)
             await db.set(`guildMemberOnline`, true)
+            await db.set(`voiceChannelJoin`, true)
+            await db.set(`voiceChannelLeave`, true)
+            await db.set(`voiceChannelSwitch`, true)
+            await db.set(`voiceChannelMute`, true)
+            await db.set(`voiceChannelUnmute`, true)
+            await db.set(`voiceChannelDeaf`, true)
+            await db.set(`voiceChannelUndeaf`, true)
+            await db.set(`voiceStreamingStart`, true)
+        }
+
+        async function deafult() {
+            //wszysttkie syfy
+            await db.set(`messagedelete`, true)
+            await db.set(`guildChannelTopicUpdate`, true)
+            await db.set(`unhandledGuildChannelUpdate`, true)
+            await db.set(`guildMemberBoost`, true)
+            await db.set(`guildMemberUnboost`, true)
+            await db.set(`guildMemberRoleAdd`, true)
+            await db.set(`guildMemberRoleRemove`, true)
+            await db.set(`guildMemberNicknameUpdate`, true)
+            await db.set(`guildMemberEntered`, true)
+            await db.set(`guildBoostLevelUp`, true)
+            await db.set(`guildBoostLevelDown`, true)
+            await db.set(`guildBannerAdd`, true)
+            await db.set(`guildAfkChannelAdd`, true)
+            await db.set(`guildVanityURLAdd`, true)
+            await db.set(`guildVanityURLRemove`, true)
+            await db.set(`guildVanityURLUpdate`, true)
+            await db.set(`messagePinned`, true)
+            await db.set(`messageContentEdited`, true)
+            await db.set(`guildMemberOffline`, false)
+            await db.set(`guildMemberOnline`, false)
             await db.set(`voiceChannelJoin`, true)
             await db.set(`voiceChannelLeave`, true)
             await db.set(`voiceChannelSwitch`, true)
