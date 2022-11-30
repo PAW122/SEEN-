@@ -9279,3 +9279,48 @@ Cooldown system
 Do listy dodaje userid_liczba uzyc
 Co x czasu clear
 If while 1-10 if true wysliz ze jest cooldown
+30.11.2022   15:32   priv   727662119553728532   bot   PAW#5844   $kahoot
+30.11.2022   15:34   priv   727662119553728532   bot   PAW#5844   $kahoot
+30.11.2022   15:35   priv   727662119553728532   bot   PAW#5844   $kahoot
+30.11.2022   15:37   priv   727662119553728532   bot   PAW#5844   $kahoot
+30.11.2022   15:40   priv   727662119553728532   bot   PAW#5844   $kahoot
+30.11.2022   15:43   priv   727662119553728532   bot   PAW#5844   $kahoot
+30.11.2022   15:49   priv   727662119553728532   bot   PAW#5844   $kahoot
+30.11.2022   18:11   priv   727662119553728532   bot   PAW#5844   s$help
+30.11.2022   18:11   priv   727662119553728532   bot   PAW#5844   <@905439547331080262>
+30.11.2022   18:12   priv   727662119553728532   bot   PAW#5844   s$help
+30.11.2022   18:12   priv   727662119553728532   lvl-notify   SEEN-#5771   
+30.11.2022   18:13   priv   727662119553728532   bot   PAW#5844   >help
+30.11.2022   18:14   priv   727662119553728532   bot   PAW#5844   >help
+30.11.2022   18:18   priv   727662119553728532   bot   PAW#5844   sdd
+30.11.2022   18:22   priv   727662119553728532   bot   PAW#5844   >help
+30.11.2022   18:22   priv   727662119553728532   bot   Senko music#3875   
+30.11.2022   20:32   priv   727662119553728532   logs   SEEN-#5771   
+30.11.2022   20:33   priv   727662119553728532   bot   PAW#5844   >PLAY
+30.11.2022   20:33   priv   727662119553728532   bot   Senko music#3875   <@438336824516149249>, Usage: >play <YouTube URL | Video Name | Soundcloud URL>
+30.11.2022   20:33   priv   727662119553728532   bot   PAW#5844   >PLAY Widzowie zrobili ze mnie *WEEBA*
+30.11.2022   20:33   priv   727662119553728532   logs   SEEN-#5771   
+30.11.2022   20:33   priv   727662119553728532   logs   SEEN-#5771   
+30.11.2022   20:33   priv   727662119553728532   bot   Senko music#3875   🎶 Started playing: **Widzowie zrobili ze mnie *WEEBA*** https://www.youtube.com/watch?v=S1vJvlJBhsA
+30.11.2022   20:33   priv   727662119553728532   bot   Senko music#3875   <@438336824516149249> ⏹ stopped the music!
+30.11.2022   20:33   priv   727662119553728532   bot   Senko music#3875   ❌ Music queue ended.
+30.11.2022   20:34   priv   727662119553728532   bot   PAW#5844   >play https://www.youtube.com/watch?v=IsJy6YWx1jk&list=RDMMIsJy6YWx1jk&start_radio=1
+30.11.2022   20:34   priv   727662119553728532   bot   Senko music#3875   <@438336824516149249> Started a playlist
+30.11.2022   20:34   priv   727662119553728532   bot   Senko music#3875   Error: MC is not defined
+30.11.2022   20:34   priv   727662119553728532   bot   Senko music#3875   Error: MC is not defined
+30.11.2022   20:34   priv   727662119553728532   bot   Senko music#3875   🎶 Started playing: **Journey Home – Day 7 (No Copyright Music)** https://www.youtube.com/watch?v=FrBe9vwtKyA
+30.11.2022   20:36   priv   727662119553728532   bot   Senko music#3875   <@438336824516149249> ⏹ stopped the music!
+30.11.2022   20:36   priv   727662119553728532   bot   Senko music#3875   ❌ Music queue ended.
+30.11.2022   20:36   priv   727662119553728532   bot   PAW#5844   >play https://youtu.be/68jOMKwKik4
+30.11.2022   20:36   priv   727662119553728532   bot   Senko music#3875   <@438336824516149249>, MC is not defined
+30.11.2022   20:38   priv   727662119553728532   bot   Senko music#3875   Leaving voice channel...
+30.11.2022   20:38   priv   727662119553728532   logs   SEEN-#5771   
+30.11.2022   20:38   priv   727662119553728532   bot   PAW#5844   >play Angels animation portfolio
+30.11.2022   20:38   priv   727662119553728532   bot   Senko music#3875   <@438336824516149249>, MC is not defined
+30.11.2022   20:38   priv   727662119553728532   bot   PAW#5844   >play Angels animation portfolio
+30.11.2022   20:38   priv   727662119553728532   bot   PAW#5844   >play Angels animation portfolio
+30.11.2022   20:38   priv   727662119553728532   bot   Senko music#3875   <@438336824516149249>, MC is not defined
+30.11.2022   20:38   priv   727662119553728532   bot   Senko music#3875   <@438336824516149249>, please wait 1.7 more second(s) before reusing the `play` command.
+30.11.2022   20:39   priv   727662119553728532   bot   PAW#5844   >play Angels animation portfolio
+30.11.2022   20:39   priv   727662119553728532   bot   Senko music#3875   <@438336824516149249>, MC is not defined
+30.11.2022   20:47   priv   727662119553728532   logs   SEEN-#5771   

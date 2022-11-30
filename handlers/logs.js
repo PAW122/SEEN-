@@ -23,7 +23,12 @@ module.exports = (data, path, type, srv_id, author_tag, channel_name,client) => 
 //to mi tak spami 
 // i wywyłuje to w main.js w messageCreate \/
     if(type == 2){
-        if(message.author.bot) return;
+        try{
+        if(!message.author.bot) return;
+        }catch(err){
+            if(err == "ReferenceError: message is not defined") return
+            else return console.log(err)
+        }
         var d = new Date();
         const time = new Date().toLocaleTimeString().slice(0,5)
         const srvID = client.guilds.cache.get(srv_id);
