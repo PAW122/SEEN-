@@ -9256,3 +9256,26 @@ upoelszenia itemów (od np 10lvl) dany item powoduje zwiększanie lvl o iles/h n
 przerobić wszystkie komendy tak żeby były funkcjami przyjmującymi zmiennem
 zwykłe komendy $ping i /ping mają odpalac funkcję podając zmienne
 30.11.2022   01:17   priv   727662119553728532   logs   SEEN-#5771   
+30.11.2022   01:25   priv   727662119553728532   anime   PAW#5844   do sprawdzenia: Shinka no Mi
+30.11.2022   01:28   priv   727662119553728532   dc-bot   PAW#5844   .
+Gogle image
+User coś wpisuje i bot wysyła 1 zdjęcie które pojawi się po wyszukania w googlegrafika
+30.11.2022   07:44   priv   727662119553728532   bot   PAW#5844   $valo mmr ToxicWaste 4154
+30.11.2022   07:44   priv   727662119553728532   bot   SEEN-#5771   API dont responding
+30.11.2022   09:05   priv   727662119553728532   ogólny   PAW#5844   16 pln jutro na kink
+30.11.2022   09:05   priv   727662119553728532   logs   SEEN-#5771   
+30.11.2022   09:40   priv   727662119553728532   ogólny   PAW#5844   Matma czesc ks 3
+30.11.2022   09:53   priv   727662119553728532   ogólny   PAW#5844   Po pracy klasowej kartka z poteng
+30.11.2022   11:18   priv   727662119553728532   dc-bot   PAW#5844   .
+Zrobić komendę botującą kahoota
+https://replit.com/@FastSammy2007/Kahoot-Bot-Spammer#index.js
+30.11.2022   11:19   priv   727662119553728532   logs   SEEN-#5771   
+30.11.2022   11:23   priv   727662119553728532   ogólny   PAW#5844   Za tyg spr z histy
+30.11.2022   11:30   priv   727662119553728532   dc-bot   PAW#5844   .
+Dodac sprawdzanie statusu serwerów mc
+30.11.2022   11:58   priv   727662119553728532   ogólny   PAW#5844   Kartka z tikm czy czegos
+30.11.2022   12:50   priv   727662119553728532   dc-bot   PAW#5844   .
+Cooldown system
+Do listy dodaje userid_liczba uzyc
+Co x czasu clear
+If while 1-10 if true wysliz ze jest cooldown
