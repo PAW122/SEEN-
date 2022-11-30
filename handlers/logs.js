@@ -1,6 +1,7 @@
 const fs = require('fs');
 const os = require("os");
 const Discord = require('discord.js');
+const { messageLink } = require('@discordjs/builders');
 const config = require(__dirname + "/../config/config.js")
 const save_logs = config.save_logs
 const servers_logs = config.servers_logs
@@ -22,6 +23,7 @@ module.exports = (data, path, type, srv_id, author_tag, channel_name,client) => 
 //to mi tak spami 
 // i wywyłuje to w main.js w messageCreate \/
     if(type == 2){
+        if(message.author.bot) return;
         var d = new Date();
         const time = new Date().toLocaleTimeString().slice(0,5)
         const srvID = client.guilds.cache.get(srv_id);
