@@ -91,5 +91,24 @@ module.exports = {
                 {name: "avg dmg blocked",value: `${avg_damage_blocked}`}
             )
             return message.channel.send({ embeds: [embed] });
+
+
+
+
+                async function find_tank() {
+                    const tank_tier = 10
+                    const nation = "germany"
+                    const type = "heavyTank"
+
+                    const serach_name = "MAUS"
+
+                    const link = `https://api.worldoftanks.eu/wot/encyclopedia/vehicles/?application_id=ebc751064d5418bfefad7af6819e9c19&nation=${nation}&tier=${tank_tier}&type=${type}`
+                }
+                    // zrbić to na slashu
+
+                    //jeżeli nie znajdzie sie czołg z taka nazwą bot wysyła listę z wszystkimi nazwami czołgów wysłanymi przez api
+
+
+        
     }
 }

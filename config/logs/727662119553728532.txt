@@ -9242,3 +9242,17 @@ nick ostatniej osoby, która dołączyła na srv
 29.11.2022   20:59   priv   727662119553728532   dc-bot   PAW#5844   .
 usunąć (wyłączyć komendy)
 związane z db kont bonczka
+29.11.2022   22:42   priv   727662119553728532   bot   PAW#5844   $wot
+29.11.2022   22:42   priv   727662119553728532   bot   SEEN-#5771   type nickname
+29.11.2022   22:42   priv   727662119553728532   bot   PAW#5844   $wot PAW_117_2016
+29.11.2022   22:42   priv   727662119553728532   bot   SEEN-#5771   
+30.11.2022   01:14   priv   727662119553728532   dc-bot   PAW#5844   .
+zrobić coś ala taycoon w ekonomi
+
+za hajs kupuje się itemki zarabiające ileś golda na godz,
+upoelszenia itemów (od np 10lvl) dany item powoduje zwiększanie lvl o iles/h następnego(1lvl wyższego) itemu
+30.11.2022   01:14   priv   727662119553728532   dc-bot   PAW#5844   (jak w comunist adventure)
+30.11.2022   01:16   priv   727662119553728532   dc-bot   PAW#5844   .
+przerobić wszystkie komendy tak żeby były funkcjami przyjmującymi zmiennem
+zwykłe komendy $ping i /ping mają odpalac funkcję podając zmienne
+30.11.2022   01:17   priv   727662119553728532   logs   SEEN-#5771   
