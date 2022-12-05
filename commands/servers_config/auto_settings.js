@@ -135,6 +135,7 @@ module.exports = (message, args, client) => {
                         SEND_MESSAGES: false
                     })
                 })
+                var lvl_channel = message.guild.channels.cache.find(res => res.name === "lvl-notify")
                 await db.set(`lvls_channel.channelId`, lvl_channel.id)
                 await db.set(`lvls_channel.check`, true)
                 return message.channel.send(`Lvl notify been send on ${lvl_channel}`)

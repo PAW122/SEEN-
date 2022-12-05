@@ -3,9 +3,7 @@
 const config2 = require("../../../config/config")
 const report_channel = config2.report_channel_id
 
-const { SlashCommandBuilder } = require('@discordjs/builders');
 const Discord = require('discord.js');
-const { QuickDB } = require("quick.db")
 
 
 module.exports = {
@@ -18,7 +16,7 @@ module.exports = {
         if(args[0] == "help"){
             return message.reply(`
             usage: $response <created_by_id> <examlpe-text>
-            example: $response response_content`)
+            example: $response 797070806885990431 hello`)
         }
 
         if(message.channel != report_channel){
@@ -45,7 +43,6 @@ module.exports = {
             .setDescription(`${response_content}`)
 
 
-        //send_on_id.send({embeds: [embed]});
         try {
             client.users.cache.get(args[0]).send({ embeds: [embed] });
             message.reply("response send")

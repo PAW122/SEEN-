@@ -7,6 +7,10 @@ const { prefix } = require("../../config/config");
 module.exports = (message,client) => {
 
     const guildId = message.guild.id
+    if(isNaN(guildId)) {
+        console.log("Settings_handler.js -- guildId is not isNaN")
+        return message.channel.send("Settings error.\nuse $report to report bug")
+    }
     const db = new QuickDB({ filePath: process.cwd() + `/db/srv_settings/commands/${guildId}.sqlite` });
 
     
