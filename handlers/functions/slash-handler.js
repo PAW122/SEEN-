@@ -5,7 +5,6 @@ module.exports = (client) => {
 
 
     client.handleCommands = async (slashCommands, path) => {
-        
          for (folder of slashCommands) {
             if(folder.endsWith(".js")){
                 const command = require(`../../commands/${path}/${folder}`);

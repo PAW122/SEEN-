@@ -38,7 +38,7 @@ const embed_pl = new Discord.MessageEmbed()
         "``mechatronic``", inline: false },
 
         { name: `***APIS***`, value:
-    "``chess stats``"},
+    "``chess help`` , ``chess profil`` , ``chess stats``"},
 
         { name: `🇯🇵***Anime***`, value:
         "``animeseen``" + "," + "``anime``", inline: false },

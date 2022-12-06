@@ -5,14 +5,8 @@ const reason = config.ping_disable
 const { SlashCommandBuilder } = require('@discordjs/builders');
 const Discord = require('discord.js');
 const { QuickDB } = require("quick.db");
-//$ping
-//$ping help
-//$ping help en
 module.exports = {
     name: "ping",
-    name_en: "ping",
-    description: "wysyła pong",
-    usage: "$ping",
     work: worker,
     isSlash: true,
 
@@ -21,32 +15,31 @@ module.exports = {
         .setName('ping')
         .setDescription('Wyświetla aktualny ping bota'),
     executeInteraction: async (inter) => {
-        if(work != true){
+        if (work != true) {
             const embed_worker = new Discord.MessageEmbed()
-            .setTitle('**ping**')
-            .setColor('RANDOM')
-            .setDescription(`${reason}`)
-        inter.reply({ embeds: [embed_worker] });
-        return(console.log("command id disabled"))
-        }else{
-
-        const embed = new Discord.MessageEmbed()
-            .setTitle('**PONG**')
-            .setColor('RANDOM')
-            .setDescription(`${Date.now() - inter.createdTimestamp}ms \nms. API Latency is ${Math.round(inter.client.ws.ping)}ms`)
-        inter.reply({ embeds: [embed] });
+                .setTitle('**ping**')
+                .setColor('RANDOM')
+                .setDescription(`${reason}`)
+            inter.reply({ embeds: [embed_worker] });
+            return (console.log("command id disabled"))
+        } else {
+            const embed = new Discord.MessageEmbed()
+                .setTitle('**PONG**')
+                .setColor('RANDOM')
+                .setDescription(`${Date.now() - inter.createdTimestamp}ms \nms. API Latency is ${Math.round(inter.client.ws.ping)}ms`)
+            inter.reply({ embeds: [embed] });
         }
     },
 
     execute: async (message, args) => {
-                //load server settings
-const guildId = message.guild.id
-const db = new QuickDB({ filePath: process.cwd() + `/db/srv_settings/commands/${guildId}.sqlite` });
-if(await db.get(`check.check`) == true){
-    const settings = await db.get(`ping.worker`)
-    const settings_reason = await db.get(`ping.reason`)
-    if(settings != true){return message.channel.send(settings_reason)}
-}
+        //load server settings
+        const guildId = message.guild.id
+        const db = new QuickDB({ filePath: process.cwd() + `/db/srv_settings/commands/${guildId}.sqlite` });
+        if (await db.get(`check.check`) == true) {
+            const settings = await db.get(`ping.worker`)
+            const settings_reason = await db.get(`ping.reason`)
+            if (settings != true) { return message.channel.send(settings_reason) }
+        }
 
         if (work != true) { return message.channel.send(reason) }
 

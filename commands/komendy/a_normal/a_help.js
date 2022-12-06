@@ -58,23 +58,7 @@ module.exports = {
     description: `help command`,
     usage: `$help`,
     work: worker,
-    isSlash: true,
-
-    data: new SlashCommandBuilder()
-        .setName('help')
-        .setDescription('display current ping'),
-    executeInteraction: async (inter) => { 
-        if(work != true){
-            const embed_worker = new Discord.MessageEmbed()
-            .setTitle('**help**')
-            .setColor('RANDOM')
-            .setDescription(`${reason}`)
-        inter.reply({ embeds: [embed_worker] });
-        return(console.log("command id disabled"))
-        }else{
-        inter.reply({ embeds: [embed_pl] });
-        }
-    },
+    //usunięty slash command
 
     execute: async (message, args) => {//trzeba dodać help do anime!!!!
 

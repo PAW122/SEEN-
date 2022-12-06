@@ -1,5 +1,3 @@
-//sprawdza czy user to alt (czy konto ma więcej niż 7 dni)
-//$is alt
 const config = require("../../../config/config")
 const owner_id = config.owner_id
 const ms = require("ms");
@@ -33,6 +31,12 @@ module.exports = {
         }
     },
 
+
+
+
+
+
+    
     execute: async(message,args,client) => {
 
         if(args[0] == "help") {
