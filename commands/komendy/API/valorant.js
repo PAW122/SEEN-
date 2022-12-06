@@ -104,11 +104,10 @@ module.exports = {
         async function mmr() {
             message.react("✅")
             const link = `https://api.henrikdev.xyz/valorant/v1/account/${nickname}/${tagline}`
-            console.log(link)
-            //console.log(link)
             const response = await axios.get(link)
                 .catch(err => {
-                    console.log(err)
+                    console.log("err\n" + err)
+                    return message.reply("Check nickname or try use $valo help")
                 })
             try {//api nie odpowiedziała i wywaliło error 400
                 if (response.data.status == 400) { return message.reply("API dont responding") }
@@ -125,13 +124,16 @@ module.exports = {
 
             // get MMR data
             const url = `https://api.henrikdev.xyz/valorant/v1/by-puuid/mmr/${region}/${puuid}`
-            console.log("url  " + url)
-            const mmr = await axios.get(url).then(res => {
-            console.log("mmr\n" + mmr.data)
+            const mmr = await axios.get(url)
+            .catch(err => {
+                console.log(err)
+            })
 
+
+            
             try {
-                if (url.data.status == 429) { return message.reply("the bot has reached the maximum number of queries sent. Please try in a few minutes") }
-                if (!url || url.data.status != 200) return message.reply("Bad informations. Check nickname and tagline.\n try use $valo help")
+                if (mmr.data.status == 429) { return message.reply("the bot has reached the maximum number of queries sent. Please try in a few minutes") }
+                if (!mmr || mmr.data.status != 200) return message.reply("Bad informations. Check nickname and tagline.\n try use $valo help")
             } catch (err) {
                 console.log(err)
                 return message.reply("API dont responding")
@@ -155,16 +157,11 @@ module.exports = {
                 //.setImage(`${card_image}`)
                 .setFooter(message.author.tag, message.author.avatarURL({ dynamic: true }));
             return message.channel.send({ embeds: [embed_pl] });
-            })
-            .catch(err => {
-                console.log(err)
-            })
         }
 
         async function mmr_History() {
             message.react("✅")
             const link = `https://api.henrikdev.xyz/valorant/v1/account/${nickname}/${tagline}`
-            //console.log(link)
             const response = await axios.get(link)
                 .catch(err => {
                     console.log(err)
@@ -173,9 +170,9 @@ module.exports = {
                 if (response.data.status == 429) { return message.reply("the bot has reached the maximum number of queries sent. Please try in a few minutes") }
                 if (!response || response.data.status != 200) return message.reply("Bad informations. Check nickname and tagline.\n try use $valo help")
 
-                const region = response.data.data.region
-                const name = response.data.data.name
-                const puuid = response.data.data.puuid
+                var region = response.data.data.region
+                var name = response.data.data.name
+                var puuid = response.data.data.puuid
             } catch (err) {
                 console.log(err)
                 return message.reply("API dont responding")
@@ -200,7 +197,6 @@ module.exports = {
             const match9_stats = mmr_history.data.data[8]
             const match10_stats = mmr_history.data.data[9]
 
-            //console.log(mmr_history.data.data)
 
             try {
                 const embed_pl = new Discord.MessageEmbed()
@@ -332,7 +328,6 @@ module.exports = {
 
 
             const link = `https://api.henrikdev.xyz/valorant/v1/website/en-us?filter=${type}`
-            //console.log(link)
             const response = await axios.get(link)
                 .catch(err => {
                     console.log(err)
@@ -365,11 +360,5 @@ module.exports = {
                 .setFooter(message.author.tag, message.author.avatarURL({ dynamic: true }));
             return message.channel.send({ embeds: [embed_pl] });
         }
-
-
-
-
-
-
     }
 }

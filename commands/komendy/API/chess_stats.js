@@ -5,8 +5,30 @@ module.exports = {
     name: "chess",
 
     execute: async (message, args, client) => {
+        if(!args[0] || args[0] == "help") help()
         if (args[0] == "profil") profil()
         if (args[0] == "stats") stats()
+        if (args[0] == "daily") daily()
+
+        async function daily() {
+            const nickname = args[1]
+            if (!nickname) {
+                message.reply("You dont type nickname")
+                return help()
+            }
+            const link = ` https://api.chess.com/pub/player/${nickname}/games`
+            const res = await axios.get(link)
+                .catch(err => {
+                    return console.log(err)
+                })
+
+            if(res.status != 200) {
+                return message.reply("Check nickname and try again")
+            }
+
+            const daily = res.data.games
+            if(daily.length <= 0) return message.reply(`${nickname} dont play today any games`)
+        }
 
         async function stats() {
             const nickname = args[1]
@@ -25,12 +47,44 @@ module.exports = {
                 return message.reply("Check nickname and try again")
             }
 
-            console.log(res)
-            const chess_rapid = res.data.chess_rapid
-            const tactics = res.data.tactics
+            const rating = res.data.chess_rapid.last.rating
+            const rating_date = format_time(res.data.chess_rapid.last.date)
 
-            console.log(chess_rapid)
-            console.log(tactics)//do dokończenia od tego momentu
+            const best_rating = res.data.chess_rapid.best.rating
+            const best_rating_date = format_time(res.data.chess_rapid.best.date)
+
+            const record_wins = res.data.chess_rapid.record.win
+            const record_loss = res.data.chess_rapid.record.loss
+            const record_draw = res.data.chess_rapid.record.draw
+
+            try{
+                var highest = res.data.tactics.highest.rating
+                var highest_date = format_time(res.data.tactics.highest.date)
+                var lowest = res.data.tactics.lowest.rating
+                var lowest_date = format_time(res.data.tactics.highest.date)
+            } catch (err) {
+                console.log(err)
+                var highest = "no data"
+                var highest_date= "no data"
+                var lowest= "no data"
+                var lowest_date = "no data"
+            }
+            
+
+
+            const embed = new Discord.MessageEmbed()
+                .setTitle("Chess Stats")
+                .setFields(
+                    { name: "Nickname", value: `**${nickname}**` },
+                    { name: "rating", value: `${rating}/${rating_date}` },
+                    { name: "best_rating", value: `${best_rating}/${best_rating_date}` },
+                    { name: "wins", value: `${record_wins}` },
+                    { name: "loss", value: `${record_loss}` },
+                    { name: "draws", value: `${record_draw}` },
+                    { name: "highest", value: `${highest}/${highest_date}` },
+                    { name: "lowest", value: `${lowest}/${lowest_date}` }
+                )
+            return message.channel.send({ embeds: [embed] });
         }
 
         async function profil() {
@@ -53,7 +107,8 @@ module.exports = {
             }
 
             const awatar_link = res.data.avatar
-            const name = res.data.name
+            var name = res.data.name
+            if(!name || name == undefined)  var name = "no data"
             const player_id = res.data.player_id
             const username = res.data.username
             const followers = res.data.followers
@@ -94,7 +149,9 @@ module.exports = {
                 .setTitle("Chess Help")
                 .setDescription("Stats from Chess.com")
                 .setFields(
-                    { name: "usage", value: `$chess stats <nickname>` }
+                    { name: "profil", value: `$chess profil <nickname>` },
+                    { name: "stats", value: `$chess stats <nickname>` },
+                    { name: "daily", value: `$chess daily <nickname>` }
                 )
             return message.channel.send({ embeds: [embed] });
         }
