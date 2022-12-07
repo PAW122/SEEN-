@@ -1,5 +1,11 @@
 //ustawia dany kanał jako kanał do odpowiedzi dla ai
 
+//jakt to ma działać?
+//zrobić 2 bazy danych.
+//1.zweryfikowane odpowiedzi których urzywa bot na wiadomości urzytkownika
+//2.odpowiedzi na wiadomości bota sa zapisywane do db2 i na odpowiednim kanale
+//czekają na zweryfikowanie przez uprawniponą osobę
+
 const { QuickDB } = require("quick.db")
 module.exports ={
     name: "ai_set",
