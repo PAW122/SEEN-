@@ -44,7 +44,6 @@ module.exports = (client, token, clientId) => {
     await client.handleCommands(slashCommands1_9, `komendy/reactions`);
     await client.handleCommands(slashCommands1_10, `komendy/testowa`);
 
-
     await client.handleCommands(slashCommands2, "anime");
     await client.handleCommands(slashCommands3, "anime zapowiedz");
     await client.handleCommands(slashCommands4, "rpg");
@@ -68,17 +67,30 @@ module.exports = (client, token, clientId) => {
     //  console.log(slashCommands5)
     //  console.log("koniec")
 
+    // console.log("loaded (/) commands " + [...slashCommands1_0,
+    // ...slashCommands1_1,
+    // ...slashCommands1_2,
+    // ...slashCommands1_3,
+    // ...slashCommands1_4,
+    // ...slashCommands1_5,
+    // ...slashCommands1_6,
+    // ...slashCommands1_7,
+    // ...slashCommands1_8,
+    // ...slashCommands1_9,
+    // ...slashCommands1_10])
+
     const rest = new REST({ version: '9' }).setToken(token);
     (async () => {
       try {
         console.log('Started refreshing application (/) commands.');
         for (let i = 0; i < client.guilds.cache.size; i++) {
           const guild = client.guilds.cache.at(i);
-          // console.log(client.commandArray)
+          //console.log(client.commandArray)
           await new Promise(resolve => {
             rest.put(Routes.applicationGuildCommands(clientId, guild.id),
               { body: client.commandArray }).catch(e => {
                 if (e != "DiscordAPIError[50001]: Missing Access") console.log("slash command error" + e)
+                //console.log("err " + guild.name + " "+ e)
               }).then(() => {
                 resolve()
               })

@@ -17,7 +17,7 @@ module.exports = (client) => {
             const commandFiles = fs.readdirSync(process.cwd() + `\\commands\\${path}\\${folder}`).filter(file => file.endsWith('.js'));
             for (const file of commandFiles) {
                 const command = require(`../../commands/${path}/${folder}/${file}`);
-                if(command.isSlash){
+                if(command.isSlash == true){
                     client.commands.set(command.data.name, command);
                     client.commandArray.push(command.data.toJSON());
                     // console.log(command)
