@@ -18,9 +18,6 @@ module.exports = {
         .setDescription('sending your level staristic'),
 
     executeInteraction: async (inter) => {
-
-
-
         const authorId = inter.user.id
         //load server settings
         const guildId = inter.guild.id
