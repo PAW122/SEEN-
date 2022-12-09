@@ -21,6 +21,9 @@ async function main(message,args,client) {
     if(args[0] == "leave") {
         leave(message,args)
     }
+    if(args[0] == "take") {
+        do_move_by_player(message,args)
+    }
     const NO_MOVE = 0;
     var PLAYER_1 = 1;//user
     var PLAYER_2 = 2;//AI
@@ -34,9 +37,24 @@ async function main(message,args,client) {
     message.channel.send({embeds: [embed]})
 }
 
-function do_move_by_player() {
+function do_move_by_player(message,args) {
     if(check_is_player(message) == false){
         return message.reply("Nie jesteś obecnie w żadnej grze")
+    }else{
+     if(check_pole() == false) returnmessage.reply("Podałeś niepoprawna nazwe pola")
+        //to do: sprawdzanie czy pole jest zajęte
+        //z db
+    }
+    //$command take <pole>
+    function check_pole(){
+     let i = 0;
+    while(i >= 9){
+        if(args[1] == `pole${i}`){
+           return console.log("user take" + i + pole)   
+        }
+       return false
+        i++;
+    }   
     }
 }
 
