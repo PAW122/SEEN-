@@ -8,6 +8,7 @@ module.exports = {
     load_commands_logs: "True", //True/False 
 
     service_mode: false, //false/true
+    motyw_zimowy_welcome_messages: true,
 
     owner_id: "438336824516149249",
 

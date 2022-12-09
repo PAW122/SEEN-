@@ -73,7 +73,7 @@ module.exports = {
                 message.channel.send({ embeds: [embed_pl] });
             }
         } else {
-            message.channel.send("pong!")
+            message.channel.send(`${Date.now() - message.createdTimestamp}ms \nms. API Latency is ${Math.round(message.client.ws.ping)}ms`)
         }
     }
 }

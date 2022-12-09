@@ -15,7 +15,6 @@ module.exports = (client, token, clientId) => {
   const slashCommands1_4 = fs.readdirSync(process.cwd() + `/commands/komendy/button_roles`).filter(file => file.endsWith('.js'));
   const slashCommands1_5 = fs.readdirSync(process.cwd() + `/commands/komendy/game_flags`).filter(file => file.endsWith('.js'));
   const slashCommands1_6 = fs.readdirSync(process.cwd() + `/commands/komendy/mechatonika`).filter(file => file.endsWith('.js'));
-  const slashCommands1_7 = fs.readdirSync(process.cwd() + `/commands/komendy/music`).filter(file => file.endsWith('.js'));
   const slashCommands1_8 = fs.readdirSync(process.cwd() + `/commands/komendy/przemyślenia`).filter(file => file.endsWith('.js'));
   const slashCommands1_9 = fs.readdirSync(process.cwd() + `/commands/komendy/reactions`).filter(file => file.endsWith('.js'));
   const slashCommands1_10 = fs.readdirSync(process.cwd() + `/commands/komendy/testowa`).filter(file => file.endsWith('.js'));
@@ -39,7 +38,6 @@ module.exports = (client, token, clientId) => {
     await client.handleCommands(slashCommands1_4, `komendy/button_roles`);
     await client.handleCommands(slashCommands1_5, `komendy/game_flags`);
     await client.handleCommands(slashCommands1_6, `komendy/mechatonika`);
-    await client.handleCommands(slashCommands1_7, `komendy/music`);
     await client.handleCommands(slashCommands1_8, `komendy/przemyślenia`);
     await client.handleCommands(slashCommands1_9, `komendy/reactions`);
     await client.handleCommands(slashCommands1_10, `komendy/testowa`);

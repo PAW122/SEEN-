@@ -4,6 +4,8 @@ var background = "https://i.imgur.com/zvWTUVu.jpg"
 const { QuickDB } = require("quick.db");
 const owner_alert = require("./owner_alert")
 const { MessageEmbed } = require('discord.js');
+
+const config = require("../config/config")
 const dim = {
     height: 675,
     width: 1200,
@@ -107,7 +109,6 @@ client.once("guildMemberAdd", member => {
         // draw in to the server
         ctx.font = "bold 40px serif"
         ctx.fillText("to the server", dim.width / 2, dim.height - dim.margin - 50)
-
 
         const welcomeChannelId = await db.get(`welcome.channelId`)
         if(!welcomeChannelId) return;
