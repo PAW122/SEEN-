@@ -135,5 +135,5 @@ function draw_board(gameBoard,PLAYER_1,PLAYER_2) {
         var pole9 = "🟩"
     }else {var pole9 = "🟥"}
 
-    return `${pole1} ${pole2} ${pole3}\n${pole4} ${pole5} ${pole6} \n ${pole7} ${pole8} ${pole9}`
+    return `${pole1} ${pole2} ${pole3}\n${pole4} ${pole5} ${pole6} \n${pole7} ${pole8} ${pole9}`
 }
