@@ -1,6 +1,8 @@
 const Discord = require("discord.js");
 const { QuickDB } = require("quick.db");
 
+//w handlerach nie działa
+
 module.exports = {// tic-tac-toe
     name: "tic-tac-toe",
 
@@ -13,6 +15,7 @@ module.exports = {// tic-tac-toe
 }
 
 async function main(message, args, client) {
+
     //deafultowa plansza gry
     var gameBoard = [[0, 0, 0], [0, 0, 0], [0, 0, 0]];
 
@@ -24,22 +27,25 @@ async function main(message, args, client) {
         leave(message, args)
     }
     if (args[0] == "take") {
-        do_move_by_player(message, args)
+        do_move_by_player(message, args,currentPlayer)
     }
     const NO_MOVE = 0;
     var PLAYER_1 = 1;//user
     var PLAYER_2 = 2;//AI
     const cpu_mistake_chance = 5;
 
+
+
     var moves = 0;
 }
 
-async function do_move_by_player(message, args) { // po tym musi być kolejka dla bota
+async function do_move_by_player(message, args,currentPlayer) { // po tym musi być kolejka dla bota
     //potem zapisuje się w db last_Move: bot
     //i z db znowó wczytuje się plansza
     if (check_is_player(message) == false) {
         return message.reply("Nie jesteś obecnie w żadnej grze")
     } else {
+        currentPlayer = player1
         if (check_pole() == false) return message.reply("Podałeś niepoprawną nazwe pola")
         //to do: sprawdzanie czy pole jest zajęte
         const taken_place = parseInt(args[1])
@@ -83,7 +89,7 @@ async function do_move_by_player(message, args) { // po tym musi być kolejka dl
 
         await db.set(`board`, { board: baord_to_save })
 
-        ai_move(baord_to_save, message)
+        ai_move(baord_to_save, message,currentPlayer)
     }
 
     //$command take <pole>
