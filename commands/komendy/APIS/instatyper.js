@@ -27,7 +27,7 @@ module.exports = {
         return message.reply("I cant write anythink on this thema\n try use **$write help** or use **$report** to report bug")
        }
 
-        let atc = new Discord.MessageAttachment(Buffer.from(best_res2), 'instatypper.txt');
+        let atc = new Discord.MessageAttachment(Buffer.from(best_res2), 'SEEN.txt');
 
         message.channel.send({ files: [atc] });
     }
