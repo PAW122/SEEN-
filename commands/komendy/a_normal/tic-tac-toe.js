@@ -3,6 +3,11 @@ const { QuickDB } = require("quick.db");
 
 //w handlerach nie działa
 
+//dodać funkcje tic-tac-toe pvp @username
+//zaczyna to nową partie,
+//zapisz w db dla obu userów dane o grze i czyj jest ruch
+//(mext_ruch: playerId)
+
 module.exports = {// tic-tac-toe
     name: "tic-tac-toe",
 
@@ -27,7 +32,7 @@ async function main(message, args, client) {
         leave(message, args)
     }
     if (args[0] == "take") {
-        do_move_by_player(message, args,currentPlayer)
+        do_move_by_player(message, args)
     }
     const NO_MOVE = 0;
     var PLAYER_1 = 1;//user
@@ -39,13 +44,12 @@ async function main(message, args, client) {
     var moves = 0;
 }
 
-async function do_move_by_player(message, args,currentPlayer) { // po tym musi być kolejka dla bota
+async function do_move_by_player(message, args) { // po tym musi być kolejka dla bota
     //potem zapisuje się w db last_Move: bot
     //i z db znowó wczytuje się plansza
     if (check_is_player(message) == false) {
         return message.reply("Nie jesteś obecnie w żadnej grze")
     } else {
-        currentPlayer = player1
         if (check_pole() == false) return message.reply("Podałeś niepoprawną nazwe pola")
         //to do: sprawdzanie czy pole jest zajęte
         const taken_place = parseInt(args[1])
@@ -54,6 +58,7 @@ async function do_move_by_player(message, args,currentPlayer) { // po tym musi b
         if (await db.get(`check`) != true) return message.reply("Nie jesteś w trakcie gry")
         let board = await db.get(`board`)
         if (check_is_pole_was_taken(board, taken_place, message) == false) {
+            message.reply("To pole jest zajęte")
             return console.log("Koniec działania. user musi ponownie użyć komendy")
         }
         //pole nie jest zajęte
@@ -89,7 +94,7 @@ async function do_move_by_player(message, args,currentPlayer) { // po tym musi b
 
         await db.set(`board`, { board: baord_to_save })
 
-        ai_move(baord_to_save, message,currentPlayer)
+        ai_move(baord_to_save, message)
     }
 
     //$command take <pole>
@@ -111,8 +116,15 @@ async function do_move_by_player(message, args,currentPlayer) { // po tym musi b
 async function ai_move(baord_to_save, message) {
     const db = new QuickDB({ filePath: process.cwd() + `/db/tic-tac-toe/${message.author.id}.sqlite` });
 
+    if (is_win(1, baord_to_save) == true) {
+        return message.reply("You Win")
+    }
+
     var ai_move = 0;
     if (ai_move == 0) {
+        //###    ###
+        //#?# => #x#
+        //###    ###
         if (baord_to_save[1][1] == 0) {
             baord_to_save[1][1] = 2//2 == AI
             ai_move++
@@ -130,7 +142,7 @@ async function ai_move(baord_to_save, message) {
             ai_move++
         }
     }//to do: zrobic zaawansowany system ai w handlerze
-    
+
     await db.set(`board`, { board: baord_to_save })
 
     const board = await db.get(`board`)
@@ -141,39 +153,32 @@ async function ai_move(baord_to_save, message) {
         .setDescription("board:\n" + send_board)
     message.channel.send({ embeds: [embed] })
 
+    if (is_win(2, baord_to_save) == true) {
+        return message.reply("Ai Win")
+    }
+
     return
 }
 
 function check_is_pole_was_taken(board, taken_place, message) {
     // [0,0,0][0,0,0][0,0,0] np:3
     // console.log(board.board)
-    var taken_place_fix = taken_place + 1
-    var taken_place_fix_array = taken_place_fix - 1
+    // console.log(taken_place)
+    const board_ = board.board
 
-    if (taken_place_fix < 4) {
-        //  console.log("layer1-" + taken_place_fix + " \n" + "taken_place_fix_array-" + taken_place_fix_array)
-        if (board.board[0][taken_place_fix_array] == 0) {
+    if(taken_place == 1 || taken_place == 2 || taken_place == 3) {
+        if(board_[0][taken_place] == 0) {
             return true
-        }
-
-    } else if (taken_place_fix >= 4 && taken_place_fix < 7) {
-        taken_place_fix_array - 3
-        // console.log("layer2-" + taken_place_fix + " \n" + "taken_place_fix_array-" + taken_place_fix_array)
-        // taken_place_fix - 3
-        if (board.board[1][taken_place_fix_array] == 0) {
+        } else return false
+    }else if(taken_place == 4 || taken_place == 5 || taken_place == 6) {
+        if(board_[1][taken_place] == 0) {
             return true
-        }
-
-    } else if (taken_place_fix > 6) {
-        taken_place_fix_array - 3
-        // console.log("layer3-" + taken_place_fix + " \n" + "taken_place_fix_array-" + taken_place_fix_array)
-        //taken_place_fix - 6
-        if (board.board[2][taken_place_fix_array] == 0) {
+        }else return false
+    }else if(taken_place == 7|| taken_place == 8 || taken_place == 9) {
+        if(board_[2][taken_place] == 0) {
             return true
-        }
-    } else {
-        message.reply("To pole jest zajęte")
-        // console.log("out off layer" + taken_place_fix + " \n" + "taken_place_fix_array-" + taken_place_fix_array)
+        }else return false
+    }else{
         return false
     }
 }
@@ -289,4 +294,56 @@ function draw_board(dbboard, PLAYER_1) {
     } else { var pole9 = "🟥" }
 
     return `${pole1} ${pole2} ${pole3}\n${pole4} ${pole5} ${pole6} \n${pole7} ${pole8} ${pole9}`
+
+}
+
+function is_win(player, baord_to_save) {
+    //player 1 = user
+    //player 2 = AI
+
+    //dla każdej wygranej poziomej
+    if (baord_to_save[0][0] == player
+        && baord_to_save[0][1] == player
+        && baord_to_save[0][2] == player) {
+        return true
+    }
+    if (baord_to_save[1][0] == player
+        && baord_to_save[1][1] == player
+        && baord_to_save[1][2] == player) {
+        return true
+    }
+    if (baord_to_save[2][0] == player
+        && baord_to_save[2][1] == player
+        && baord_to_save[2][2] == player) {
+        return true
+    }
+
+    //dla każdej wygranej pionowej
+    if (baord_to_save[0][0] == player
+        && baord_to_save[1][0] == player
+        && baord_to_save[2][0] == player) {
+        return true
+    }
+    if (baord_to_save[0][1] == player
+        && baord_to_save[1][1] == player
+        && baord_to_save[2][1] == player) {
+        return true
+    }
+    if (baord_to_save[0][2] == player
+        && baord_to_save[1][2] == player
+        && baord_to_save[2][2] == player) {
+        return true
+    }
+
+    //dla wygranych po skosie
+    if (baord_to_save[0][0] == player
+        && baord_to_save[1][1] == player
+        && baord_to_save[2][2] == player) {
+        return true
+    }
+    if (baord_to_save[0][2] == player
+        && baord_to_save[1][1] == player
+        && baord_to_save[2][0] == player) {
+        return true
+    }
 }
