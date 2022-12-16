@@ -221,18 +221,6 @@ zrobic komendy na separatorach zamiast na args
 args.join(" ").split(/* separator */)
 
 
-# pomysł na drugą gre typu czat
-gierka typu rozmowy z anime dziewczynkami albo przygodówka
-po wybraniu każdej odpowiedzi będzie wysyłana grafika postaci
-z dymkiem czatu
-
-po wybraniu każdej z pocji będzie zapisywane w db czy np
-wybór 1 = lewo/prawo
-wybór[2] = tak/nie
-itp
-
-
-
 # zrobić gre na podstawie chos or die
 gracz musi wybrać odp z gry bo inaczej gracz przegra
 
