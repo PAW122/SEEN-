@@ -23,7 +23,7 @@ const embed_pl = new Discord.MessageEmbed()
         "``clear``"+","+"``say``"+","+"``kick``"+","+"``ban``"+","+"``message_logs``"+","+"``mute``"+","+"``autorole ``", inline: false },
 
         { name: `***⚙️bot config***`, value: 
-        "``srv_set ``"+","+"``srv_logs``"+","+"``automod ``" + "," + "``settings auto``" + "," + "``settings owner_alert help``", inline: false },
+        "``srv_set ``"+","+"``srv_logs``"+","+"``automod ``" + "," + "``settings auto``" + "," + "``settings owner_alert help`` , ``$stats-channel help``", inline: false },
 
         { name: `***💵economy***`, value: 
         "``helpeco``"+","+"``daily``"+","+"``profil``"+","+"``weekly``"+","+"``roll``"+","+"``shop``"+","+"``pvp``"+","+"``pay``"+","+"``add``"+","+"``birthday``"+","+"``bank``", inline: false },
