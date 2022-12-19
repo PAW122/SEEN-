@@ -1,29 +1,37 @@
 const Discord = require("discord.js")
 module.exports = {
-    name: "stats",
+    name: "stats-channel",
 
     execute: async (message, args, client) => {
+
+        //odświerzanie:
+        //dodać liste (w ramie jak w cooldownach)
+        //messageCreate => sprawdza czy id serwera jest na liscie, jeżeli nie to dodaje i odświerza informacje
+        //co 10 min odświerza statystyki dla każdego kanału
+        /*
+        trzeba to zrobić w handlerze który wyłapuje gildie po ich id bez wymagania wiadomości
+        */
+       //to do: $$stats-channel date tworzy nowy kanał! dać if startsWith date-year czy coś
 
         if (args[0] == "help") {
             const embed_pl = new Discord.MessageEmbed()
                 .setTitle("Server Live Stats")
-                .setDescription(`create voice channel showing server stats\n to refresh stats use $stats refresh\n`)
+                .setDescription(`create voice channel showing server stats\n to refresh stats use **$stats-channel refresh**\n auto refresh been added in future`)
                 .setFields(
-                    { name: "if u wana automatic create all stats channels use", value: "$stats auto" },
-                    { name: "show only online users", value: "$stats users" },
-                    { name: "show only online users without counting bots", value: "$stats onlyusers" },
-                    { name: "show amount of offline users", value: "$stats offline" },
-                    { name: "show all server members", value: "$stats members" },//zrobione
-                    { name: "show all server members without counting bots", value: "$stats onlymembers" },//zrobione
-                    { name: "show all server bots", value: "$stats onlybots" },//zrobione
-                    { name: "show amount of server roles", value: "$stats roles" },//zrobione
-                    { name: "show amount of server channels", value: "$stats channels" },//zrobione
-                    { name: "show amount of server voice channels", value: "$stats vc-channels" },//zrobione
-                    { name: "show amount of server text channels", value: "$stats txt-channels" },//zrobione
-                    { name: "show amount of banned users", value: "$stats bans" },
-                    { name: "show server owner nickname and tag", value: "$stats owner" },
-                    { name: "show nickname of last join member", value: "$stats last-join" },
-                    { name: "show date", value: "$stats offline" },
+                    { name: "if u wana automatic create all stats channels use", value: "$stats-channel auto" },
+                    { name: "show only online users", value: "$stats-channel users" },
+                    { name: "show only online users without counting bots", value: "$stats-channel onlyusers" },
+                    { name: "show amount of offline users", value: "$stats-channel offline" },
+                    { name: "show all server members", value: "$stats-channel members" },//zrobione
+                    { name: "show all server members without counting bots", value: "$stats-channel onlymembers" },//zrobione
+                    { name: "show all server bots", value: "$stats-channel onlybots" },//zrobione
+                    { name: "show amount of server roles", value: "$stats-channel roles" },//zrobione
+                    { name: "show amount of server channels", value: "$stats-channel channels" },//zrobione
+                    { name: "show amount of server voice channels", value: "$stats-channel vc-channels" },//zrobione
+                    { name: "show amount of server text channels", value: "$stats-channel txt-channels" },//zrobione
+                    { name: "show amount of banned users", value: "$stats-channel bans" },//zrobione
+                    { name: "show nickname of last join member", value: "$stats-channel last-join" },
+                    { name: "show date", value: "$stats-channel date" },//zrobione
                     //dodać ilość wiadomości z ostatniego tygodnia
                     //dodać ilość h na vc z ostatniego tygodnia
 
@@ -50,6 +58,7 @@ module.exports = {
             }
             if (args[0] == "members") {
                 members(message, false)
+                message.react("✅")
             }
             if (args[0] == "refresh") {
                 auto_all(message, true)
@@ -57,22 +66,117 @@ module.exports = {
             }
             if (args[0] == "onlymembers") {
                 only_members(message, false)
+                message.react("✅")
             }
             if (args[0] == "onlybots") {
                 only_bots(message, false)
+                message.react("✅")
             }
             if (args[0] == "roles") {
                 roles(message, false)
+                message.react("✅")
             }
             if (args[0] == "channels") {
                 channels(message, false)
+                message.react("✅")
             }
             if (args[0] == "vc-channels") {
                 vc_channels(message, false)
+                message.react("✅")
             }
             if (args[0] == "txt-channels") {
                 txt_channels(message, false)
+                message.react("✅")
             }
+            if (args[0] == "bans") {
+                bans(message, false)
+                message.react("✅")
+            }
+            if (args[0] == "date") {
+                date(message, false)
+                message.react("✅")
+            }
+            if(args[0] == "last-join") {
+                return message.reply("this feature will be available soon")
+            }
+        }
+
+        async function date(message, only_ref) {
+            var current = new Date();
+            const now_rok = current.getFullYear();
+            const now_month = current.getMonth() + 1;
+            const now_day = current.getDate();
+
+            const date = now_rok + " " + now_month + " " + "" + now_day
+
+            const channel_name = `Date`
+            let members_channel = message.guild.channels.cache
+            //console.log(members_channel)
+            var is_channel = false
+            if (only_ref != true) {
+                members_channel.forEach(channel => {
+                    if (channel.name.startsWith(channel_name)) {
+                        is_channel = true
+                    }
+                });
+                if (is_channel == false && only_ref != true) {
+                    message.guild.channels.create(channel_name + "-" + date, {
+                        type: "voice",
+                        permissionOverwrites: [
+                            {
+                                id: message.guild.roles.everyone,
+                                allow: ['VIEW_CHANNEL'],
+                                deny: ['SEND_MESSAGES', 'READ_MESSAGE_HISTORY']
+                            }
+                        ],
+                    })
+                }
+            }
+            members_channel.forEach(channel => {
+                if (channel.name.startsWith(channel_name)) {
+                    channel.setName(channel_name + "-" + date)
+                    console.log('channal name change')
+                    return true;
+                }
+            });
+        }
+
+        async function bans(message, only_ref) {
+            message.guild.bans.fetch()
+                .then(banned => {
+                    const bans = banned.size
+                    const channel_name = `bans`
+                    let members_channel = message.guild.channels.cache
+                    //console.log(members_channel)
+                    var is_channel = false
+                    if (only_ref != true) {
+                        members_channel.forEach(channel => {
+                            if (channel.name.startsWith(channel_name)) {
+                                is_channel = true
+                            }
+                        });
+                        if (is_channel == false && only_ref != true) {
+                            message.guild.channels.create(channel_name + "-" + bans, {
+                                type: "voice",
+                                permissionOverwrites: [
+                                    {
+                                        id: message.guild.roles.everyone,
+                                        allow: ['VIEW_CHANNEL'],
+                                        deny: ['SEND_MESSAGES', 'READ_MESSAGE_HISTORY']
+                                    }
+                                ],
+                            })
+                        }
+                    }
+                    members_channel.forEach(channel => {
+                        if (channel.name.startsWith(channel_name)) {
+                            channel.setName(channel_name + "-" + bans)
+                            console.log('channal name change')
+                            return true;
+                        }
+                    });
+
+                })
         }
 
         async function vc_channels(message, only_ref) {
@@ -365,6 +469,9 @@ module.exports = {
             channels(message, only_ref)
             vc_channels(message, only_ref)
             txt_channels(message, only_ref)
+            bans(message, only_ref)
+            date(message, only_ref)
+            message.react("✅")
         }
 
     }
