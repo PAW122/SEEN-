@@ -109,7 +109,7 @@ module.exports = {
 
             const date = now_rok + " " + now_month + " " + "" + now_day
 
-            const channel_name = `Date`
+            const channel_name = `date`//zmiana wielkośic litery
             let members_channel = message.guild.channels.cache
             //console.log(members_channel)
             var is_channel = false
