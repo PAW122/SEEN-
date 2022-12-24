@@ -1,0 +1,11 @@
+{
+	"host": "sync.pl",
+	"port": 6667,
+	"username": "PAW_117",
+	"password": "143702Pawel",
+	"apiKey": "vqrH22YLXTxNfMpUJv5jjKmhAj3njYGiRligSzce",
+	"userId": 22240408,
+	"limiterTimespan": 6000,
+	"limiterPrivate": 4,
+	"limiterPublic": 3
+}

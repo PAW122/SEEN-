@@ -17,6 +17,7 @@
     "anime-images-api": "^2.0.0",
     "ascii-table": "^0.0.9",
     "axios": "^0.27.2",
+    "bancho.js": "^0.11.0",
     "better-sqlite3": "^7.6.2",
     "canvas": "^2.9.3",
     "chalk": "^5.0.1",

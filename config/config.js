@@ -25,7 +25,10 @@ module.exports = {
     riot_api: "RGAPI-0fcf3318-d4f7-4f44-b06b-cc20fa574b0e",
     yt_api_key: "AIzaSyAuBIMudnt0-hHzBQGVjhs89G1Dz6P2aw4",
     openAI_api_key: "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",//do ogarnięcia (nie zaczete)
-
+    osu_api_key: "ff4d117022adfe7968d8e4248a9867a8d9811ea8",
+    
+    osu_app_url: "sync.pl",
+    osu_app_name: "sync",
 
     //zwiększać z każdą aktualizacją db
     db_version: "1.0",
