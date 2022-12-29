@@ -66,6 +66,9 @@ const ai = require("./commands/komendy/AI/ai_handler")
 //kick , ban logs
 const informations_handler = require("./handlers/informations")
 
+//server channel stats
+const stats_channels_autorefresh = require("./commands/komendy/stats/handler")
+
 //const bot_webside = require("./bot_webside/app")
 //const seen_api = require("./seen_api/app")
 
@@ -134,6 +137,8 @@ client.once('ready', () => {
     //ram limiter
     client.setMaxListeners(50);
     informations_handler(client);
+
+    stats_channels_autorefresh(client)
 });
 
 
