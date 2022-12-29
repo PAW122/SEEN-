@@ -128,6 +128,7 @@ client.once('ready', () => {
     informations_handler(client);
 
     stats_channels_autorefresh(client)
+
 });
 
 
