@@ -25,6 +25,7 @@ module.exports = {
     yt_api_key: "AIzaSyAuBIMudnt0-hHzBQGVjhs89G1Dz6P2aw4",
     openAI_api_key: "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",//do ogarnięcia (nie zaczete)
     osu_api_key: "ff4d117022adfe7968d8e4248a9867a8d9811ea8",
+    socialblade_api: "cli_b3955d2fd2f369e86c934845",
     
     osu_app_url: "sync.pl",
     osu_app_name: "sync",
