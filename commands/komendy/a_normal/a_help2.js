@@ -8,7 +8,7 @@ const { SlashCommandBuilder } = require('@discordjs/builders');
 const prefix = config.prefix
 const embed_pl = new Discord.MessageEmbed()
     .setColor(`BLUE`)
-    .setTitle(`Help Page 1/2`)
+    .setTitle(`Help Page`)
     .setDescription(`use **$help!** to get for a more detailed description
     command list:`)
     .setFooter("use $name help to get comand info")
@@ -17,7 +17,7 @@ const embed_pl = new Discord.MessageEmbed()
         "``ruletka``" +","+ "``bruh``" +","+ "``random``"+","+ "``8ball``" +","+"``flags``"+","+"``animegif``"+","+"``przemyślenia``"+ "," + "``random``", inline: false },
 
         { name: `***❓info***`, value: 
-        "``awatar``"+ ","+"``ping``"+","+"``botinfo``"+","+"``srvinfo``"+","+"``lvl``"+","+"``link``"+","+"``isalt``", inline: false },
+        "``awatar``"+ ","+"``ping``"+","+"``botinfo``"+","+"``srvinfo``"+","+"``lvl``"+","+"``link``"+","+"``isalt`` , ``server``", inline: false },
 
         { name: `***👑administration***`, value: 
         "``clear``"+","+"``say``"+","+"``kick``"+","+"``ban``"+","+"``message_logs``"+","+"``mute``"+","+"``autorole ``", inline: false },
@@ -37,7 +37,7 @@ const embed_pl = new Discord.MessageEmbed()
         { name: `***🧠Quiz***`, value:
         "``mechatronic``", inline: false },
 
-        { name: `***APIS***`, value:
+        { name: `***🌐APIS***`, value:
         " ``$write`` , ``chess help`` , ``chess profil`` , ``chess stats``, ``wot``"},
 
         { name: `🇯🇵***Anime***`, value:

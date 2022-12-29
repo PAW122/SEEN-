@@ -24,12 +24,12 @@ module.exports = {
         const guildId = message.guild.id
 
         if (work != true) { return message.channel.send(reason) }
-        if(args[0] == "p") {
+        if (args[0] == "p") {
             population.execute(message, args, client)
             return
         }
-        if(args[0] == "l") {
-            land_area.execute(message,args,client)
+        if (args[0] == "l") {
+            land_area.execute(message, args, client)
             return
         }
 
