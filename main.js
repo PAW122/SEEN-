@@ -69,9 +69,6 @@ const informations_handler = require("./handlers/informations")
 //server channel stats
 const stats_channels_autorefresh = require("./commands/komendy/stats/handler")
 
-//const bot_webside = require("./bot_webside/app")
-//const seen_api = require("./seen_api/app")
-
 /* dc js v13.9.2
 const client = new Discord.Client({
     intents: [
@@ -88,14 +85,6 @@ const client = new Discord.Client({
 })
 client.commands = new Discord.Collection()
 client.commandArray = [];
-
-// yt music player
-// client.player = new Player(client, {
-//     ytdlOptions: {
-//         quality: "highestaudio",
-//         highWaterMark: 1 << 25
-//     }
-// })
 
 //yt notyfications
 yt_notify()
@@ -152,8 +141,8 @@ client.on('messageCreate', async message => {
     //automod handler
     automod_handler(client, message)
 
-      //logi z serwerów (wiadomość na pv -- brak id , wywala bota)
-    logs_handler(message.content, null, 2, message.guild.id, message.author.tag, message.channel.name, client)
+      //logi z serwerów
+    logs_handler(message, message.content, null, 2, message.guild.id, message.author.tag, message.channel.name, client)
 
 
     //auto reakcje
@@ -173,8 +162,6 @@ client.on('messageCreate', async message => {
     }
 
 });
-
-//seen_api();
 
 //interakcje
 interaction_handler(client)

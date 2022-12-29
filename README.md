@@ -144,7 +144,6 @@ npm i js-queue
     163.w flags dokończyć robienie komendy leaderboard
     164.dokończyć albo usunąć mal.js
     165.zrobić system podziękowań (pomoc w robieniu bota czy coś) (tak na przyszłość)
-    166.dodać komendę $wot do helpa
     167.na podstawie settings auto i mute zrobić jail
     168.zrobić "server maker" -- komenda ma tworzyć prosty serwer z wszystkimi rolami (administracja, moderacja, user), dostępami do kanałów, kategoriami doa modów i userów
 

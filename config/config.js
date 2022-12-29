@@ -8,18 +8,17 @@ module.exports = {
     load_commands_logs: "True", //True/False 
 
     service_mode: false, //false/true
-    motyw_zimowy_welcome_messages: true,
 
     owner_id: "438336824516149249",
 
-    save_logs: "Flase", //True/False
+    save_logs: "False", //True/False
     logs_dir: `./handlers/logs/logs.txt`,
     error_logs_dir: `./handlers/logs/error.txt`,
 
     save_messages_logs: "True",//True/False
     save_messages_logs_dir: `./handlers/logs/messages.txt`,
 
-    servers_logs: "True",
+    servers_logs: true,
 
     wargaming_api_key: "ebc751064d5418bfefad7af6819e9c19",
     riot_api: "RGAPI-0fcf3318-d4f7-4f44-b06b-cc20fa574b0e",

@@ -40,6 +40,8 @@ module.exports = (message, client) => {
         const personalBest = await db.get(`${author}.bestcombo`)
         const combo = await db.get(`${author}.combo`)
         const games = await db.get(`${author}.games`)
+        const combo_population = await db.get(`${author}.bestcombo_population`)
+        const land_area = await db.get(`${author}.bestcombo_la`)
 /*
         //top list
         const data = db2.all()
@@ -76,6 +78,8 @@ module.exports = (message, client) => {
             .setFields(
                 { name: "Your personal best combo", value: `${personalBest}` },
                 { name: "current combo", value: `${combo}` },
+                { name: "population mode combo", value: `${combo_population}`},
+                { name: "land area mode combo", value: `${land_area}`},
                 { name: "number of played games", value: `${games}` },
             )
 

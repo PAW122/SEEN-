@@ -1,59 +1,22 @@
-// zrobić 4 tryby gry:
-//kraje -- wysyła flage. musisz zgadnąć naazwe kraju
-//population -- wysyła nazwe kraju. muzisz zadnąć liczbe ludności (można się  pomylić o 10%)
-//Land Area -- wysyła nazwe kraju. musisz zgadnąć liczbe km2 (też pomyłka do 10%)
-//Density -- wysyła nazwe kraju.. musisz zgadnąć liczbe ludności na km2
+//$flags p
 const { QuickDB } = require("quick.db")
 const data = require("./data.json")
 const Discord = require("discord.js")
-const handler = require("./top")
 
 const config = require(process.cwd() + `/config/worker.js`)
 const work = config.flags
 const worker = config.flags_worker
 const reason = config.flags_disable
-
-const population = require("./population")
-const land_area = require("./land_area")
-
 module.exports = {
-    name: "flags",
-    work: worker,
-
     execute: async (message, args, client) => {
-        const guildId = message.guild.id
-
-        if (work != true) { return message.channel.send(reason) }
-        if(args[0] == "p") {
-            population.execute(message, args, client)
-            return
-        }
-        if(args[0] == "l") {
-            land_area.execute(message,args,client)
-            return
-        }
-
-        process.setMaxListeners(0);
-        // process.on('warning', e => { console.log(e)});
-        //load server settings
         const author = message.author.id
+        const guildId = message.guild.id
         const db = new QuickDB({ filePath: process.cwd() + `/db/srv_settings/commands/${guildId}.sqlite` });
         if (await db.get(`check.check`) == true) {
             const settings = await db.get(`game.worker`)
             const settings_reason = await db.get(`game.reason`)
             if (settings == false) { return message.channel.send(settings_reason) }
         }
-
-        if (args[0] == "help") {
-            return message.reply("play-flags: $flags\n play-population: $flags p\n play-laand area: $flags l \ntop plays information: $flags top\n\n data from 2020r")
-        }
-
-        if (args[0] == "top") {
-            return handler(message, client)
-        }
-
-        //tryb na zgadywanie nazwy kraju po fladze
-
         const countries = 194 //(-1)
         const channel = message.channel.id
         //narazie do dosowania będzie id od 1 do 9 bo nie ma dodanych wszystkich krajów
@@ -84,19 +47,19 @@ module.exports = {
 
         const anwser = Math.floor(Math.random() * 3) + 1;
         if (anwser == 1) {
-            message.channel.send(`A: ${data[rng][0]}\nB:${data[rng1][0]}\nC:${data[rng2][0]}\nD:${data[rng3][0]}`);
+            message.channel.send(`Country population:\n A: ${data[rng][1]}\nB:${data[rng1][1]}\nC:${data[rng2][1]}\nD:${data[rng3][1]}`);
             var good_anwser = "A"
         }
         if (anwser == 2) {
-            message.channel.send(`A: ${data[rng1][0]}\nB:${data[rng][0]}\nC:${data[rng2][0]}\nD:${data[rng3][0]}`);
+            message.channel.send(`Country population:\nA: ${data[rng1][1]}\nB:${data[rng][1]}\nC:${data[rng2][1]}\nD:${data[rng3][1]}`);
             var good_anwser = "B"
         }
         if (anwser == 3) {
-            message.channel.send(`A: ${data[rng1][0]}\nB:${data[rng2][0]}\nC:${data[rng][0]}\nD:${data[rng3][0]}`);
+            message.channel.send(`Country population:\nA: ${data[rng1][1]}\nB:${data[rng2][1]}\nC:${data[rng][1]}\nD:${data[rng3][1]}`);
             var good_anwser = "C"
         }
         if (anwser == 4) {
-            message.channel.send(`A: ${data[rng1][0]}\nB:${data[rng2][0]}\nC:${data[rng3][0]}\nD:${data[rng][0]}`);
+            message.channel.send(`Country population:\nA: ${data[rng1][1]}\nB:${data[rng2][1]}\nC:${data[rng3][1]}\nD:${data[rng][1]}`);
             var good_anwser = "D"
         }
 
@@ -143,9 +106,9 @@ module.exports = {
 
             if (await db.get(`${author}.check`) != true) {
                 await db.set(`${author}.check`, true)
-                await db.set(`${author}.combo`, 1)
+                await db.set(`${author}.combo`, 0)
                 await db.set(`${author}.bestcombo`, 0)
-                await db.set(`${author}.combo_population`, 0)
+                await db.set(`${author}.combo_population`, 1)
                 await db.set(`${author}.bestcombo_population`, 0)
                 await db.set(`${author}.combo_la`, 0)
                 await db.set(`${author}.bestcombo_la`, 0)
@@ -155,44 +118,44 @@ module.exports = {
             }
 
             if (answer == true) {
-                const combo = await db.get(`${author}.combo`)
+                const combo = await db.get(`${author}.combo_population`)
                 const setCombo = combo + 1
-                await db.set(`${author}.combo`, setCombo)
+                await db.set(`${author}.combo_population`, setCombo)
 
                 const games = await db.get(`${author}.games`)
                 const set_games = games + 1
                 await db.set(`${author}.games`, set_games)
 
 
-                const bcombo = await db.get(`${author}.bestcombo`)
+                const bcombo = await db.get(`${author}.bestcombo_population`)
 
                 if (bcombo < setCombo) {
-                    await db.set(`${author}.bestcombo`, setCombo)
+                    await db.set(`${author}.bestcombo_population`, setCombo)
                     message.channel.send(`${message.author} get new best combo: **${setCombo}**`)
 
                     //safe user data to top list
-                    await db2.set(`${author}.bestcombo`, bcombo)
+                    await db2.set(`${author}.bestcombo_population`, bcombo)
                     await db2.set(`${author}.authorid`, author)
 
                 }
             } else {
                 //losed
-                const combo = await db.get(`${author}.combo`)
+                const combo = await db.get(`${author}.combo_population`)
                 const setCombo = 0
-                await db.set(`${author}.combo`, setCombo)
+                await db.set(`${author}.combo_population`, setCombo)
 
-                const games = await db.get(`${author}.games`)
+                const games = await db.get(`${author}.games_population`)
                 const set_games = games + 1
-                await db.set(`${author}.games`, set_games)
+                await db.set(`${author}.games_population`, set_games)
 
-                const bcombo = await db.get(`${author}.bestcombo`)
+                const bcombo = await db.get(`${author}.bestcombo_population`)
 
                 if (bcombo < combo) {
-                    await db.set(`${author}.bestcombo`, setCombo)
+                    await db.set(`${author}.bestcombo_population`, setCombo)
                     message.channel.send(`${message.author} get new best combo: **${setCombo}**`)
 
                     //safe user data to top list
-                    await db2.set(`${author}.bestcombo`, bcombo)
+                    await db2.set(`${author}.bestcombo_population`, bcombo)
                     await db2.set(`${author}.authorid`, author)
 
                 } else {

@@ -6,14 +6,14 @@ const config = require(__dirname + "/../config/config.js")
 const save_logs = config.save_logs
 const servers_logs = config.servers_logs
 
-module.exports = (data, path, type, srv_id, author_tag, channel_name,client) => {
+module.exports = (message, data, path, type, srv_id, author_tag, channel_name,client) => {
     
     if(type == 1){
         var d = new Date();
         const dane = d.toLocaleDateString() + "   " + data + "\n"
 
 
-        if(save_logs == "True"){
+        if(save_logs == true){
             fs.appendFile(path,dane, function (err) {
             if (err) throw err;
             });
@@ -24,8 +24,9 @@ module.exports = (data, path, type, srv_id, author_tag, channel_name,client) => 
 // i wywyłuje to w main.js w messageCreate \/
     if(type == 2){
         try{
-        if(!message.author.bot) return;
+            if(message.author.bot) return;
         }catch(err){
+            console.log(err)
             if(err == "ReferenceError: message is not defined") return
             else return console.log(err)
         }
@@ -37,7 +38,7 @@ module.exports = (data, path, type, srv_id, author_tag, channel_name,client) => 
         const path_name = srv_id + ".txt"
         const path = `./config/logs/${path_name}`
 
-        if(servers_logs == "True"){
+        if(servers_logs == true){
             fs.appendFile(path,dane, function (err) {
                 if (err) throw err;
                 });
