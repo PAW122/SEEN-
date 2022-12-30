@@ -9376,3 +9376,11 @@ usówa wszystkie wiadomości z linkami i daje loga na kanał do logów
 29.12.2022   22:29   priv   727662119553728532   bot   PAW#5844   $chess play <@438336824516149249>
 29.12.2022   22:29   priv   727662119553728532   bot   PAW#5844   $chess play <@438336824516149249>
 29.12.2022   23:01   priv   727662119553728532   bot   PAW#5844   $help
+30.12.2022   00:48   priv   727662119553728532   bot   PAW#5844   $help
+30.12.2022   01:04   priv   727662119553728532   dc-bot   PAW#5844   Chess
+30.12.2022   01:06   priv   727662119553728532   Info   PAW#5844   
+30.12.2022   01:06   priv   727662119553728532   Info   PAW#5844   Jak narysować szachownice?
+Na poczatek emotki z nr 1-8 i literki jako połóżenie pionka potem zrobić ss każdego pionka z chescomu na kazdym tle i dać jako emotki na serwer
+30.12.2022   01:15   priv   727662119553728532   ogólny   PAW#5844   https://youtube.com/shorts/-AQ_Qt4SJYc?feature=share
+30.12.2022   01:19   priv   727662119553728532   dc-bot   PAW#5844   https://www.watermarkremover.io/
+30.12.2022   10:12   priv   727662119553728532   bot   PAW#5844   $server
