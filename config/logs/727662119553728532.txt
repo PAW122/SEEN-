@@ -9496,3 +9496,7 @@ p = pion<:pionbiae:1058375530518433792> <:pionzielone:1058375531575394316>
 31.12.2022   00:47   priv   727662119553728532   bot   PAW#5844   $chess play <@438336824516149249>
 31.12.2022   01:30   priv   727662119553728532   bot   PAW#5844   https://worldoftanks.eu/referral/ae74169b25a047ad8b63420f71fe24a9
 31.12.2022   01:30   priv   727662119553728532   bot   PAW#5844   
+31.12.2022   16:51   priv   727662119553728532   ogólny   PAW#5844   https://youtu.be/UImsfTpYjvU
+31.12.2022   16:51   priv   727662119553728532   ogólny   PAW#5844   
+31.12.2022   23:36   priv   727662119553728532   ogólny   PAW#5844   https://www.chess.com/game/live/66264736813
+31.12.2022   23:56   priv   727662119553728532   bot   PAW#5844   $server
