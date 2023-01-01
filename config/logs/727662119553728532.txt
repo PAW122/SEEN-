@@ -9500,3 +9500,51 @@ p = pion<:pionbiae:1058375530518433792> <:pionzielone:1058375531575394316>
 31.12.2022   16:51   priv   727662119553728532   ogólny   PAW#5844   
 31.12.2022   23:36   priv   727662119553728532   ogólny   PAW#5844   https://www.chess.com/game/live/66264736813
 31.12.2022   23:56   priv   727662119553728532   bot   PAW#5844   $server
+1.01.2023   00:10   priv   727662119553728532   bot   PAW#5844   $help
+1.01.2023   00:11   priv   727662119553728532   bot   PAW#5844   $chess help
+1.01.2023   00:11   priv   727662119553728532   bot   PAW#5844   $chess daily Pawiu117
+1.01.2023   00:11   priv   727662119553728532   bot   PAW#5844   $chess stats Pawiu117
+1.01.2023   00:14   priv   727662119553728532   bot   PAW#5844   $help
+1.01.2023   00:14   priv   727662119553728532   bot   PAW#5844   $stats-channel help
+1.01.2023   00:25   priv   727662119553728532   bot   PAW#5844   $stats-channel refresh
+1.01.2023   00:26   priv   727662119553728532   bot   PAW#5844   $stats-channel refresh
+1.01.2023   02:59   priv   727662119553728532   bot   PAW#5844   $mp3editor
+1.01.2023   03:06   priv   727662119553728532   bot   PAW#5844   
+1.01.2023   03:07   priv   727662119553728532   bot   PAW#5844   $mp3editor
+1.01.2023   03:07   priv   727662119553728532   bot   PAW#5844   $mp3editor
+1.01.2023   03:08   priv   727662119553728532   bot   PAW#5844   $mp3editor
+1.01.2023   03:09   priv   727662119553728532   bot   PAW#5844   $mp3editor
+1.01.2023   03:10   priv   727662119553728532   bot   PAW#5844   $mp3editor
+1.01.2023   03:14   priv   727662119553728532   bot   PAW#5844   $mp3editor
+1.01.2023   03:15   priv   727662119553728532   bot   PAW#5844   $report test
+1.01.2023   03:17   priv   727662119553728532   bot   PAW#5844   
+1.01.2023   03:18   priv   727662119553728532   bot   PAW#5844   $mp3editor
+1.01.2023   03:22   priv   727662119553728532   bot   PAW#5844   
+1.01.2023   03:24   priv   727662119553728532   bot   PAW#5844   $mp3editor
+1.01.2023   03:33   priv   727662119553728532   bot   PAW#5844   $mp3editor
+1.01.2023   03:33   priv   727662119553728532   bot   PAW#5844   $mp3editor
+1.01.2023   03:34   priv   727662119553728532   bot   PAW#5844   $mp3editor
+1.01.2023   03:36   priv   727662119553728532   bot   PAW#5844   $mp3editor
+1.01.2023   03:36   priv   727662119553728532   bot   PAW#5844   $mp3editor
+1.01.2023   03:38   priv   727662119553728532   bot   PAW#5844   $mp3editor
+1.01.2023   03:39   priv   727662119553728532   bot   PAW#5844   $mp3editor
+1.01.2023   03:42   priv   727662119553728532   bot   PAW#5844   $mp3editor
+1.01.2023   03:43   priv   727662119553728532   bot   PAW#5844   $mp3editor
+1.01.2023   03:48   priv   727662119553728532   bot   PAW#5844   $mp3editor help
+1.01.2023   03:48   priv   727662119553728532   bot   PAW#5844   $mp3editor 1 10
+1.01.2023   03:54   priv   727662119553728532   bot   PAW#5844   $mp3editor 1 10
+1.01.2023   03:54   priv   727662119553728532   bot   PAW#5844   $mp3editor 1 5
+1.01.2023   03:55   priv   727662119553728532   bot   PAW#5844   $mp3editor 10 17
+1.01.2023   03:55   priv   727662119553728532   bot   PAW#5844   $mp3editor 0 7
+1.01.2023   04:00   priv   727662119553728532   bot   PAW#5844   $mp3editor 0 7
+1.01.2023   04:00   priv   727662119553728532   bot   PAW#5844   $mp3editor 0 7
+1.01.2023   04:01   priv   727662119553728532   bot   PAW#5844   $mp3editor 1 8
+1.01.2023   04:11   priv   727662119553728532   bot   PAW#5844   ¯\_(ツ)_/¯
+1.01.2023   04:12   priv   727662119553728532   bot   PAW#5844   $mp3editor 5 10
+1.01.2023   04:12   priv   727662119553728532   bot   PAW#5844   $mp3editor 10 17
+1.01.2023   04:17   priv   727662119553728532   bot   PAW#5844   $mp3editor 10 17
+1.01.2023   04:19   priv   727662119553728532   bot   PAW#5844   $mp3editor 10 17
+1.01.2023   04:19   priv   727662119553728532   bot   PAW#5844   $mp3editor 10 17
+1.01.2023   04:19   priv   727662119553728532   bot   PAW#5844   $clear 50
+1.01.2023   04:19   priv   727662119553728532   bot   PAW#5844   $clear 50
+1.01.2023   04:21   priv   727662119553728532   bot   PAW#5844   $help
