@@ -69,19 +69,19 @@ async function do_move_by_player(message, args) { // po tym musi być kolejka dl
         let taken_place_arr = taken_place - 1
         if (taken_place <= 3) {
             board.board[0][taken_place_arr] = 1
-            baord_to_save[0][taken_place_arr]
+            //baord_to_save[0][taken_place_arr]
         }
 
         let taken_place_arr2 = taken_place_arr - 3
         if (taken_place > 3 && taken_place < 7) {
             board.board[1][taken_place_arr2] = 1
-            baord_to_save[1][taken_place_arr2]
+            //baord_to_save[1][taken_place_arr2]
         }
 
         let taken_place_arr3 = taken_place_arr2 - 3
         if (taken_place > 6) {
             board.board[2][taken_place_arr3] = 1
-            baord_to_save[3][taken_place_arr3]
+            //baord_to_save[3][taken_place_arr3]
         }
 
         //player1 = 1
@@ -120,28 +120,69 @@ async function ai_move(baord_to_save, message) {
         return message.reply("You Win")
     }
 
+    //strategy 1 --start
+    //##2    ##x
+    //#1# => #x#
+    //3##    x##
     var ai_move = 0;
     if (ai_move == 0) {
-        //###    ###
-        //#?# => #x#
-        //###    ###
         if (baord_to_save[1][1] == 0) {
             baord_to_save[1][1] = 2//2 == AI
             ai_move++
         }
     }
     if (ai_move == 0) {
-        if (baord_to_save[0][2] == 0) {
-            baord_to_save[0][2] = 2//2 == AI
-            ai_move++
+        if (baord_to_save[1][1] == 2) {
+            if (baord_to_save[0][2] == 0) {
+                baord_to_save[0][2] = 2//2 == AI
+                ai_move++
+            }
         }
     }
     if (ai_move == 0) {
-        if (baord_to_save[2][0] == 0) {
-            baord_to_save[2][0] = 2//2 == AI
-            ai_move++
+        if (baord_to_save[1][1] == 2 && baord_to_save[0][2] == 2) {
+            if (baord_to_save[2][0] == 0) {
+                baord_to_save[2][0] = 2//2 == AI
+                ai_move++
+            }
         }
-    }//to do: zrobic zaawansowany system ai w handlerze
+    }
+    //strategy 1 --end
+
+    //startegy 2 --start
+    //##o    ##o
+    //1x2 => xxx
+    //o##    o##
+    if (ai_move == 0) {
+        if (baord_to_save[0][2] == 1 && baord_to_save[1][1] == 2 && baord_to_save[2][0] == 1) {
+            if (baord_to_save[1][0] == 0) {
+                baord_to_save[1][0] = 2//2 == AI
+                ai_move++
+            }
+        }
+    }
+    if (ai_move == 0) {
+        if (baord_to_save[0][2] == 1 && baord_to_save[1][1] == 2 && baord_to_save[2][0] == 1 && baord_to_save[1][0] == 2) {
+            if (baord_to_save[1][2] == 0) {
+                baord_to_save[1][2] = 2//2 == AI
+                ai_move++
+            }
+        }
+    }
+    //startegy 2 --end
+
+    //strategy 3 --start
+    //o#o    oxo
+    //#x# => #x#
+    //###    o##
+    if (ai_move == 0) {
+        if (baord_to_save[0][0] == 1 && baord_to_save[0][2] == 1 && baord_to_save[0][1] == 0) {
+            baord_to_save[0][1] = 2//2 == AI
+            ai_move++
+
+        }
+    }
+    //strategy 3 --end
 
     await db.set(`board`, { board: baord_to_save })
 
@@ -166,21 +207,21 @@ function check_is_pole_was_taken(board, taken_place, message) {
     // console.log(taken_place)
     const board_ = board.board
 
-    if(taken_place == 1 || taken_place == 2 || taken_place == 3) {
-        if(board_[0][taken_place] == 0) {
-            return true
-        } else return false
-    }else if(taken_place == 4 || taken_place == 5 || taken_place == 6) {
-        if(board_[1][taken_place] == 0) {
-            return true
-        }else return false
-    }else if(taken_place == 7|| taken_place == 8 || taken_place == 9) {
-        if(board_[2][taken_place] == 0) {
-            return true
-        }else return false
-    }else{
-        return false
-    }
+    var x = 0
+    var y = 1
+    var end_data = false
+    board_.forEach(element => {
+        var i = 0
+        element.forEach(pole => {
+            if (board_[x][i] == 0 && taken_place == y) {
+                end_data = true
+            }
+            i++
+            y++
+        })
+        x++
+    })
+    return end_data
 }
 
 async function check_is_player(message) {

@@ -9551,3 +9551,47 @@ p = pion<:pionbiae:1058375530518433792> <:pionzielone:1058375531575394316>
 1.01.2023   04:37   priv   727662119553728532   dc-bot   PAW#5844   Spróbować użyć promo.com do resize zdjęć
 1.01.2023   05:37   priv   727662119553728532   dc-bot   PAW#5844   Edit
 W mo3xutterze zamiast drugiedo wait 1s dać zeby jak noe znajdzie pliku to czeka 1s i powtarza prube znalezienia pliki i tak 10 razy a potem dopiero wywala err
+1.01.2023   15:32   priv   727662119553728532   bot   PAW#5844   $watermark-remover
+1.01.2023   15:33   priv   727662119553728532   bot   PAW#5844   $watermark-remover
+1.01.2023   15:35   priv   727662119553728532   bot   PAW#5844   $watermark-remover
+1.01.2023   15:39   priv   727662119553728532   bot   PAW#5844   $watermark-remover
+1.01.2023   15:44   priv   727662119553728532   bot   PAW#5844   $watermark-remover
+1.01.2023   18:15   priv   727662119553728532   bot   PAW#5844   $watermark-remover
+1.01.2023   18:17   priv   727662119553728532   bot   PAW#5844   $watermark-remover
+1.01.2023   21:27   priv   727662119553728532   bot   PAW#5844   $tic-tac-toe help
+1.01.2023   21:27   priv   727662119553728532   bot   PAW#5844   $tic-tac-toe start
+1.01.2023   21:27   priv   727662119553728532   bot   PAW#5844   $tic-tac-toe leave
+1.01.2023   21:27   priv   727662119553728532   bot   PAW#5844   $tic-tac-toe start
+1.01.2023   21:28   priv   727662119553728532   bot   PAW#5844   $tic-tac-toe take 1
+1.01.2023   21:28   priv   727662119553728532   bot   PAW#5844   $tic-tac-toe take 3
+1.01.2023   21:28   priv   727662119553728532   bot   PAW#5844   $tic-tac-toe take 2
+1.01.2023   21:28   priv   727662119553728532   bot   PAW#5844   $tic-tac-toe take 7
+1.01.2023   21:28   priv   727662119553728532   bot   PAW#5844   $tic-tac-toe take 4
+1.01.2023   21:28   priv   727662119553728532   bot   PAW#5844   $tic-tac-toe take 5
+1.01.2023   21:28   priv   727662119553728532   bot   PAW#5844   $tic-tac-toe take 6
+1.01.2023   21:28   priv   727662119553728532   bot   PAW#5844   $tic-tac-toe take 6
+1.01.2023   21:28   priv   727662119553728532   bot   PAW#5844   8
+1.01.2023   21:28   priv   727662119553728532   bot   PAW#5844   $tic-tac-toe take 8
+1.01.2023   23:05   priv   727662119553728532   bot   PAW#5844   $tic-tac-toe leave
+1.01.2023   23:05   priv   727662119553728532   bot   PAW#5844   $tic-tac-toe start
+1.01.2023   23:05   priv   727662119553728532   bot   PAW#5844   $tic-tac-toe take 1
+1.01.2023   23:06   priv   727662119553728532   bot   PAW#5844   $tic-tac-toe take 2
+1.01.2023   23:10   priv   727662119553728532   bot   PAW#5844   $tic-tac-toe take 3
+1.01.2023   23:10   priv   727662119553728532   bot   PAW#5844   $tic-tac-toe take 4
+1.01.2023   23:11   priv   727662119553728532   bot   PAW#5844   $tic-tac-toe take 4
+1.01.2023   23:12   priv   727662119553728532   bot   PAW#5844   $tic-tac-toe take 4
+1.01.2023   23:13   priv   727662119553728532   bot   PAW#5844   $tic-tac-toe take 4
+1.01.2023   23:15   priv   727662119553728532   bot   PAW#5844   $tic-tac-toe take 4
+1.01.2023   23:16   priv   727662119553728532   bot   PAW#5844   $tic-tac-toe take 4
+1.01.2023   23:17   priv   727662119553728532   bot   PAW#5844   $tic-tac-toe start
+1.01.2023   23:17   priv   727662119553728532   bot   PAW#5844   $tic-tac-toe leave
+1.01.2023   23:17   priv   727662119553728532   bot   PAW#5844   $tic-tac-toe start
+1.01.2023   23:17   priv   727662119553728532   bot   PAW#5844   $tic-tac-toe take 3
+1.01.2023   23:20   priv   727662119553728532   bot   PAW#5844   $tic-tac-toe take 7
+1.01.2023   23:26   priv   727662119553728532   bot   PAW#5844   $tic-tac-toe take 1
+1.01.2023   23:27   priv   727662119553728532   bot   PAW#5844   $tic-tac-toe take 2
+1.01.2023   23:27   priv   727662119553728532   bot   PAW#5844   $tic-tac-toe leave
+1.01.2023   23:27   priv   727662119553728532   bot   PAW#5844   $tic-tac-toe start
+1.01.2023   23:27   priv   727662119553728532   bot   PAW#5844   $tic-tac-toe take 1
+1.01.2023   23:27   priv   727662119553728532   bot   PAW#5844   $tic-tac-toe take 3
+1.01.2023   23:33   priv   727662119553728532   dc-bot   PAW#5844   algorytm minimax do komendy tic-tac-toe https://www.geeksforgeeks.org/minimax-algorithm-in-game-theory-set-3-tic-tac-toe-ai-finding-optimal-move/
