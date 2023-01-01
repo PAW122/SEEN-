@@ -520,7 +520,7 @@ module.exports = {
                 }
                 ref(message, only_ref, ref_guild)
             } else if (message) {
-                const server_id = message.guild.id
+                const server_id = message.guild
                 ref(message, only_ref, server_id)
             }
 

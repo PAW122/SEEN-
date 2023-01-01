@@ -1,7 +1,8 @@
 const config = require("./config")
 const play = require("./play")
+const Discord = require("discord.js")
 module.exports = {
-    name: "chess",
+    name: "seen-chess",
 
     execute:async(message,args,client) => {
 
