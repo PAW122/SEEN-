@@ -9548,3 +9548,6 @@ p = pion<:pionbiae:1058375530518433792> <:pionzielone:1058375531575394316>
 1.01.2023   04:19   priv   727662119553728532   bot   PAW#5844   $clear 50
 1.01.2023   04:19   priv   727662119553728532   bot   PAW#5844   $clear 50
 1.01.2023   04:21   priv   727662119553728532   bot   PAW#5844   $help
+1.01.2023   04:37   priv   727662119553728532   dc-bot   PAW#5844   Spróbować użyć promo.com do resize zdjęć
+1.01.2023   05:37   priv   727662119553728532   dc-bot   PAW#5844   Edit
+W mo3xutterze zamiast drugiedo wait 1s dać zeby jak noe znajdzie pliku to czeka 1s i powtarza prube znalezienia pliki i tak 10 razy a potem dopiero wywala err
