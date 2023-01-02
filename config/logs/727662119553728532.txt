@@ -9595,3 +9595,10 @@ W mo3xutterze zamiast drugiedo wait 1s dać zeby jak noe znajdzie pliku to czeka
 1.01.2023   23:27   priv   727662119553728532   bot   PAW#5844   $tic-tac-toe take 1
 1.01.2023   23:27   priv   727662119553728532   bot   PAW#5844   $tic-tac-toe take 3
 1.01.2023   23:33   priv   727662119553728532   dc-bot   PAW#5844   algorytm minimax do komendy tic-tac-toe https://www.geeksforgeeks.org/minimax-algorithm-in-game-theory-set-3-tic-tac-toe-ai-finding-optimal-move/
+2.01.2023   00:10   priv   727662119553728532   dc-bot   PAW#5844   https://youtube.com/shorts/WpgZKBtW_t8?feature=share
+2.01.2023   07:11   priv   727662119553728532   bot   PAW#5844   $ping
+2.01.2023   07:11   priv   727662119553728532   bot   PAW#5844   $help
+2.01.2023   14:00   priv   727662119553728532   bot   PAW#5844   ¯\_(ツ)_/¯
+2.01.2023   14:26   priv   727662119553728532   bot   PAW#5844   $ping
+2.01.2023   15:16   priv   727662119553728532   bot   PAW#5844   lonnie@interia.eu
+2.01.2023   15:18   priv   727662119553728532   bot   PAW#5844   
