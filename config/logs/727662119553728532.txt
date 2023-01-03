@@ -9602,3 +9602,5 @@ W mo3xutterze zamiast drugiedo wait 1s dać zeby jak noe znajdzie pliku to czeka
 2.01.2023   14:26   priv   727662119553728532   bot   PAW#5844   $ping
 2.01.2023   15:16   priv   727662119553728532   bot   PAW#5844   lonnie@interia.eu
 2.01.2023   15:18   priv   727662119553728532   bot   PAW#5844   
+2.01.2023   19:38   priv   727662119553728532   bot   PAW#5844   $help
+2.01.2023   19:39   priv   727662119553728532   bot   PAW#5844   $server
