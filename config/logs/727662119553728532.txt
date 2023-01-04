@@ -9604,3 +9604,177 @@ W mo3xutterze zamiast drugiedo wait 1s dać zeby jak noe znajdzie pliku to czeka
 2.01.2023   15:18   priv   727662119553728532   bot   PAW#5844   
 2.01.2023   19:38   priv   727662119553728532   bot   PAW#5844   $help
 2.01.2023   19:39   priv   727662119553728532   bot   PAW#5844   $server
+3.01.2023   13:34   priv   727662119553728532   bot   PAW#5844   .
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.
+3.01.2023   13:34   priv   727662119553728532   bot   PAW#5844   .
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.
+3.01.2023   13:36   priv   727662119553728532   bot   PAW#5844   $say siema
+3.01.2023   13:36   priv   727662119553728532   bot   PAW#5844   $say siema
+3.01.2023   13:38   priv   727662119553728532   bot   PAW#5844   $say siema
+3.01.2023   16:21   priv   727662119553728532   bot   PAW#5844   $ping
+3.01.2023   16:26   priv   727662119553728532   dc-bot   PAW#5844   .
+Zrobić help handler dla komend:
+
+Tak jak wczytywane są komendy w handlarze tak będą wczytywane w helphandlerze ale bedzie brany name , description, category
+
+Embed helpowy:
+Kategoria: npfun, v: string z foreach z wipieanymi wszystkimi nazwaki komend
+
+Itd
+
+A jak ktoś użyje $help
+To będzie sprawdana lista komend i jezeli lista komend ma komende o takiej nazwie to pobiera commandname.description
+3.01.2023   17:31   priv   727662119553728532   dc-bot   PAW#5844   $ping
+3.01.2023   17:33   priv   727662119553728532   bot   PAW#5844   $server
+3.01.2023   17:33   priv   727662119553728532   bot   PAW#5844   $help
+3.01.2023   17:35   priv   727662119553728532   db-bot-odc   PAW#5844   0-setup
+1-handler
+2-say command
+3-help_handler
+3.01.2023   17:58   priv   727662119553728532   ogólny   PAW#5844   Światla przeciwmgielne w deszczu
+
+Pod jakim warunkiem mozna przewozić dziecko w ciężarówce bez fotelika bezpieczenstwa:
+Ma 150 cm
+Ma 135cm
+Nie ma mozliwosci zamontowania fotelika
+
+Od ilu dm3 nie mozna prowadzić
+3.01.2023   20:26   priv   727662119553728532   bot   PAW#5844   $fizyka
+3.01.2023   20:26   priv   727662119553728532   bot   PAW#5844   $optyka
+3.01.2023   20:28   priv   727662119553728532   fizyka-optyka-cz2   PAW#5844   **E = f x h**
+```
+1. na metal pada światło np: UV
+2. elektrony po otrzymaniu energii zostają wyrwane z powierzchni metalu
+3.  pozostałą część energii zamienia się w energie kinetyczną i elektrony wybijane są z powierzchni metalu na zewnątrz ```
+
+**zjawisko fotoelektryczne zewnętrzne:**```
+polega na wybiciu elektronów z powierzchni metalu pod wpływem światła lub innego promieniowania elektromagnetycznego```
+
+**Bilans energretyczny zjawiska fotoelektrycznego:**```
+Ef = W + Ek
+energia fotonu = praca wyjścia + energia kinetyczna
+praca wyjścia - jest to energia potrzebna do wyrwania elektronu z powierzcvhni metalu```
+
+**Światło ma podówjną naturę** - korpuskularną( fotoelektryczne i fotochemiczne) i falową(dyfrakcja i interferencja)
+
+ODP na pytania:
+co to jest praca wyjścia: ```jest to energia potrzebna do wyrwania ```
+podaj wzór z objaśnieniami :```
+Ef = W + Ek
+energia fotonu = praca wyjścia + energia kinetyczna
+praca wyjścia - jest to energia potrzebna do wyrwania elektronu z powierzcvhni metalu```
+
+jaką naturę ma światło i jakie zjawiska to potwierdzają:
+```
+korpuskularną - Zjawisko fotoelektryczne
+falową - dyfrakcja , interferencja
+```
+
+zadj: ile razy energia kwantu światła czewrwonego o długości fali λ=700nm jest miejsza od energii kwantu światło nadfioletu? o długości fali 150nm
+```
+700nm/150nm=4,6666 odp okolo 4,6 razy
+```
+3.01.2023   20:39   priv   727662119553728532   bot   PAW#5844   $oferty
+3.01.2023   20:40   priv   727662119553728532   bot   PAW#5844   $oferty
+3.01.2023   20:40   priv   727662119553728532   bot   PAW#5844   $oferty
+3.01.2023   20:40   priv   727662119553728532   bot   PAW#5844   $ping
+3.01.2023   20:40   priv   727662119553728532   bot   PAW#5844   $oferty
+3.01.2023   20:41   priv   727662119553728532   bot   PAW#5844   $oferty
+3.01.2023   20:41   priv   727662119553728532   bot   PAW#5844   $oferty
+3.01.2023   20:41   priv   727662119553728532   bot   PAW#5844   $godz-otwarcia
+3.01.2023   20:48   priv   727662119553728532   bot   PAW#5844   $help
+3.01.2023   23:08   priv   727662119553728532   ogólny   PAW#5844   Jazdy
+16.01 12:00
+17.01 15:00
+4.01.2023   00:39   priv   727662119553728532   ogólny   PAW#5844   https://youtube.com/shorts/Z_teGjVupHc?feature=share
+woda na chemi
+4.01.2023   01:44   priv   727662119553728532   ogólny   PAW#5844   Past Perfect
+```
+zawsze używamy had + 3 forma czasownika
+czasownik regularny = dodajemy ed
+visit => visited
+
+nieregularny (ztabelki) bierzemy 3 forme
+be => been
+
+przeczenia:
+had not 
+```
+
+
+Use to
+```
+edy chcemy mówić o nawykach lub sytuacjach powtarzających się w przeszłości. He used to play online computer games a lot but his parents cut off his Internet
+```
+
+
+Past simple -- rzeczy dokonane
+ w przeszłości
+```was -i,she,it -- she was happy
+where - you,we,they -- they wewen`t happy
+
+----
+ed albo 2 forma czaswonika
+ed - regularne - visit => visited
+2 forma - nieregularne - I went to school
+
+```
+
+
+Past continue -- zaczęte ale nie skończone czynności
+```
+was/were potem czasownik z ing
+
+
+```
+4.01.2023   06:58   priv   727662119553728532   bot   PAW#5844   $help
+4.01.2023   09:43   priv   727662119553728532   bot   PAW#5844   $server
+4.01.2023   11:53   priv   727662119553728532   ogólny   PAW#5844   Na infie zrobić funkcje i klasy
