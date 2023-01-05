@@ -2,10 +2,20 @@ const config = require("../../config/eco_config")
 const emoji = config.economy_emoji
 const vip_price = config.vip_price
 const luckypotion_price = config.luckypotion_price
-const Discord = require("discord.js")
 const { QuickDB } = require("quick.db");
+const Discord = require("discord.js")
+
+const help_embed = new Discord.MessageEmbed()
+
+    .setColor(`RANDOM`)
+    .setTitle(`shop`)
+    .setFields(
+        {name: "$shop", value: "show items to buy in shop"},
+        
+    )
 module.exports = {
     name: "shop",
+    help: help_embed,
 
     execute: async (message, args) => {
         //load server settings

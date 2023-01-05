@@ -1,8 +1,21 @@
 //config economy db update
 
 const { QuickDB } = require("quick.db");
+const Discord = require("discord.js")
+
+const help_embed = new Discord.MessageEmbed()
+
+    .setColor(`RANDOM`)
+    .setTitle(`birthday`)
+    .setFields(
+        {name: "set your birthday date to get extra coins", value: "-"},
+        {name: "usage", value: "$birthday <month> <day> <year>"},
+        {name: "example", value: "$birthday 2 16 2000"},
+        {name: "Warring", value: "u can change your birthday date only 1 time"}
+    )
 module.exports = {
     name: "birthday",
+    help: help_embed,
 
     execute: async (message, args) => {
 

@@ -2,10 +2,21 @@ const { QuickDB } = require("quick.db");
 const check_db = require("./economy_handler")
 const config = require("../../config/eco_config")
 const emoji = config.economy_emoji
-
 const seenprefilhandler = require("./seenprofil_handler")
+const Discord = require("discord.js")
+
+const help_embed = new Discord.MessageEmbed()
+
+    .setColor(`RANDOM`)
+    .setTitle(`roll`)
+    .setFields(
+        { name: "$roll", value: "$roll <amount of coins>" },
+        { name: "description", value: "roll -- you have 30% chanse to win double amount your coins" }
+
+    )
 module.exports = {
     name: "roll",
+    help: help_embed,
 
     execute: async (message, args) => {//dziennie od 50 do 100 monet
 

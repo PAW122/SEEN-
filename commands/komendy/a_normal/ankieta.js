@@ -8,13 +8,22 @@ const { SlashCommandBuilder } = require('@discordjs/builders');
 //$anikieta
 //$ankieta help
 //$anikieta help en
+
+const help_embed = new Discord.MessageEmbed()
+
+    .setColor(`RANDOM`)
+    .setTitle(`ankieta / questionnaire`)
+    .setFields(
+        {name: "usage", value: "$ankieta treść ankiety"},
+        {name: "usage", value: "$questionnaire survey content"}
+    )
+
 module.exports = {
     name: "ankieta",
     name_en: "questionnaire",
-    description: "towrzy nakiete",
-    usage: "$ankieta <treść ankiety>",
     work: worker,
     isSlash: true,
+    help: help_embed,
 
     data: new SlashCommandBuilder()
         .setName('ankieta')

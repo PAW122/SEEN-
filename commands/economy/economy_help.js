@@ -3,8 +3,18 @@ const emoji = config.economy_emoji
 const economy_db_version = config.economy_db_version
 const Discord = require("discord.js")
 const { QuickDB } = require("quick.db");
+
+const help_embed = new Discord.MessageEmbed()
+
+    .setColor(`RANDOM`)
+    .setTitle(`helpeco`)
+    .setDescription(`send information about economu. usage: \n **$helpeco**`)
+
+
+
 module.exports = {
     name: "helpeco",
+    help: help_embed,
 
     execute: async (message, args) => {
         //load server settings

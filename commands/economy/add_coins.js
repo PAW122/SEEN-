@@ -4,8 +4,17 @@ const config = require("../../config/eco_config")
 const emoji = config.economy_emoji
 const { Permissions: { FLAGS } } = require('discord.js');
 const Discord = require('discord.js');
+
+const help_embed = new Discord.MessageEmbed()
+
+    .setColor(`RANDOM`)
+    .setTitle(`add`)
+    .setDescription(`allow server administrator to add coins to user profil`)
+
+
 module.exports = {
     name: "add",
+    help: help_embed,
 
     execute: async (message, args, client) => {
         //load server settings

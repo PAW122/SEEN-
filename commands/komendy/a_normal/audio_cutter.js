@@ -5,8 +5,20 @@ let fs = require(`fs`);
 const Discord = require("discord.js")
 
 const path = process.cwd() + "\\db\\audio_editor"
+
+const help_embed = new Discord.MessageEmbed()
+
+    .setColor(`RANDOM`)
+    .setTitle(`mp3editor`)
+    .setFields(
+        { name: "usage:", value: "**$mp3editor <form> <to>** which point you want to cut the audio piece is seconds" },
+        { name: "example", value: "**$mp3editor 1 5**\n a piece from the first to the fifth second will be cut from your file" },
+        { name: "informations", value: "bot sends cut fragments!" }
+    )
+
 module.exports = {
     name: "mp3editor",
+    help: help_embed,
 
     execute: async (message, args, client) => {
 

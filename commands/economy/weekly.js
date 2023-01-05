@@ -3,8 +3,19 @@ const check_db = require("./economy_handler")
 const config = require("../../config/eco_config")
 const emoji = config.economy_emoji
 const weekly_coins = config.weekly_coins
+const Discord = require("discord.js")
+
+const help_embed = new Discord.MessageEmbed()
+
+    .setColor(`RANDOM`)
+    .setTitle(`weekly`)
+    .setFields(
+        {name: "$weekly", value: "claim weekly coins redwad"},
+    )
 module.exports = {
     name: "weekly",
+    help: help_embed,
+
 
     execute: async (message, args) => {
         //odbierasz bonus i na następny czakasz aż 7 razy

@@ -19,12 +19,20 @@ var fortunes = [
 //8ball
 //8ball help
 //8ball help en
+
+const help_embed = new Discord.MessageEmbed()
+
+    .setColor(`RANDOM`)
+    .setTitle(`bank`)
+    .setFields(
+        {name: "$8ball", value: "Sends a random word: Yes/No/Maybe/I dont know/Probably/I guess/Im not sure/ Surely"},
+    )
+
 module.exports = {
     name: "8ball",
-    description: "",
-    //work: worker,
     work: worker,
     isSlash: true,
+    help: help_embed,
 
 
     data: new SlashCommandBuilder()

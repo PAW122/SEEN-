@@ -146,6 +146,7 @@ npm i js-queue
     165.zrobić system podziękowań (pomoc w robieniu bota czy coś) (tak na przyszłość)
     167.na podstawie settings auto i mute zrobić jail
     168.zrobić "server maker" -- komenda ma tworzyć prosty serwer z wszystkimi rolami (administracja, moderacja, user), dostępami do kanałów, kategoriami doa modów i userów
+    169.w pay.js zamiast user id dać message mention first!!
 
     dodać do tego top chanels(top kanał z wiadomościami, top kanał vc z ilością h)
 

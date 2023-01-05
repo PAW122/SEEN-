@@ -5,8 +5,19 @@ const reason = config.ping_disable
 const { SlashCommandBuilder } = require('@discordjs/builders');
 const Discord = require('discord.js');
 const { QuickDB } = require("quick.db");
+
+const help_embed = new Discord.MessageEmbed()
+
+    .setColor(`RANDOM`)
+    .setTitle(`Ping`)
+    .setDescription(`bot sends a message: "Pong" \n
+                the command is used to check if the bot is online\n
+                usage: "$ping"`)
+
+
 module.exports = {
     name: "ping",
+    help: help_embed,
     work: worker,
     isSlash: true,
 

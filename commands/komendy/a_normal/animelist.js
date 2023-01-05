@@ -205,13 +205,20 @@ const embed7 = new Discord.MessageEmbed()
         { name: "139", value: " Fruits Basket s1", inline: false },
     )
 
+    const help_embed = new Discord.MessageEmbed()
+
+    .setColor(`RANDOM`)
+    .setTitle(`animelist`)
+    .setFields(
+        {name: "$animelist", value: "Sends a list of anime watched by bot creator"},
+        {name: "usage", value: "$sanimelist <page 1-7>"}
+    )
 
 module.exports = {
     name: "animelist",
-    description: "wysyła embeda",
-    usage: "$embed",
     work: worker,
     isSlash: true,
+    help: help_embed,
 
     data: new SlashCommandBuilder()
         .setName('animelist')

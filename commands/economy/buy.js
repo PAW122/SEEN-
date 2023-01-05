@@ -3,8 +3,20 @@ const emoji = config.economy_emoji
 const vip_price = config.vip_price
 const luckypotion_price = config.luckypotion_price
 const { QuickDB } = require("quick.db");
+const Discord = require("discord.js")
+
+const help_embed = new Discord.MessageEmbed()
+
+    .setColor(`RANDOM`)
+    .setTitle(`buy`)
+    .setFields(
+        {name: "Buy command", value: "allow users to buy items"},
+        {name: "More informations in:", value: "**$shop**"},
+        {name: "$bank status?", value: "displays information whether the user has had coins added by the administrator using the command"}
+    )
 module.exports = {
     name: "buy",
+    help: help_embed,
 
     execute: async (message, args) => {
         //load server settings

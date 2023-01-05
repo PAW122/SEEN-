@@ -1,8 +1,21 @@
 const { QuickDB } = require("quick.db");
 const Discord = require("discord.js")
 
+const help_embed = new Discord.MessageEmbed()
+
+    .setColor(`RANDOM`)
+    .setTitle(`bank`)
+    .setFields(
+        {name: "$bank", value: "show how many coins user lost"},
+        {name: "$bank deafult", value: "restart bank"},
+        {name: "$bank mydeafult", value: "set your losed coins to 0"},
+        {name: "$bank status?", value: "displays information whether the user has had coins added by the administrator using the command"}
+    )
+
+
 module.exports = {
     name: "bank",
+    help: help_embed,
 
     execute: async (message, args, client) => {
 

@@ -4,9 +4,20 @@ jeżeli osoba przekazująca pieniądze miała dodawane poieniądze
 to obydwie osoby nie będą liczone do globalnego banku
 */
 const { QuickDB } = require("quick.db");
-const Discord = require("discord.js")
+const Discord = require('discord.js');
+
+const help_embed = new Discord.MessageEmbed()
+
+    .setColor(`RANDOM`)
+    .setTitle(`pay`)
+    .setFields(
+        {name: "pay command", value: "allow users to send his money to another user"},
+        {name: "usage", value: "$pay <userID> <coins>\n example: $pay 438336824516149249 100"}
+    )
 module.exports = {
     name: "pay",
+    help: help_embed,
+
 
     execute: async (message, args, client) => {
 

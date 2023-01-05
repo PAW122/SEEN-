@@ -2,8 +2,20 @@ const { QuickDB } = require("quick.db");
 const check_db = require("./economy_handler")
 const config = require("../../config/eco_config")
 const emoji = config.economy_emoji
+const Discord = require("discord.js")
+
+const help_embed = new Discord.MessageEmbed()
+
+    .setColor(`RANDOM`)
+    .setTitle(`profil`)
+    .setFields(
+        {name: "$profil", value: "usage: **$profil @user**"},
+        {name: "description", value: "show user profil with all informations: coins,items,last daily usage"}
+        
+    )
 module.exports = {
     name: "profil",
+    help: help_embed,
 
     execute: async (message, args, client) => {
 

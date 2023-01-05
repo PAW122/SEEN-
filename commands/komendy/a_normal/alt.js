@@ -3,9 +3,19 @@ const owner_id = config.owner_id
 const ms = require("ms");
 const timesamp = ms("7 days");
 const { SlashCommandBuilder } = require('@discordjs/builders');
+const Discord = require("discord.js")
+const help_embed = new Discord.MessageEmbed()
+
+    .setColor(`RANDOM`)
+    .setTitle(`isalt`)
+    .setFields(
+        {name: "$isalt", value: "show is account is alt"},
+        {name: "usage", value: "$isalt @user"}
+    )
 module.exports = {
     name: "isalt",
     isSlash: true,
+    help: help_embed,
 
     data: new SlashCommandBuilder()
         .setName('isalt')

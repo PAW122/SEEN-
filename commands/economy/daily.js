@@ -3,8 +3,18 @@ const check_db = require("./economy_handler")
 const config = require("../../config/eco_config")
 const emoji = config.economy_emoji
 const birthday_coins = config.birthday_coins
+const Discord = require("discord.js")
+const help_embed = new Discord.MessageEmbed()
+
+    .setColor(`RANDOM`)
+    .setTitle(`daily`)
+    .setFields(
+        {name: "Get your daily coins", value: `use $daily to get daily coins.\n You can use this command one teime every day`}
+    )
+    
 module.exports = {
     name: "daily",
+    help: help_embed,
 
     execute: async (message, args) => {//dziennie od 50 do 100 monet
         //load server settings

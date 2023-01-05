@@ -9,8 +9,7 @@ const prefix = config.prefix
 const embed_pl = new Discord.MessageEmbed()
     .setColor(`BLUE`)
     .setTitle(`Help Page`)
-    .setDescription(`use **$help!** to get for a more detailed description
-    command list:`)
+    .setDescription(`use **$help commandname** to get for a more detailed description`)
     .setFooter("use $name help to get comand info")
     .addFields(
         { name: `***😁fun***`, value: 
@@ -47,9 +46,8 @@ const embed_pl = new Discord.MessageEmbed()
         "``contact``"+","+"``report``", inline: false }
     )
 module.exports = {
-    name: `help`,
+    name: `help!`,
     description: `help command`,
-    usage: `$help`,
     work: worker,
     isSlash: true,
 

@@ -9778,3 +9778,22 @@ was/were potem czasownik z ing
 4.01.2023   06:58   priv   727662119553728532   bot   PAW#5844   $help
 4.01.2023   09:43   priv   727662119553728532   bot   PAW#5844   $server
 4.01.2023   11:53   priv   727662119553728532   ogólny   PAW#5844   Na infie zrobić funkcje i klasy
+4.01.2023   20:53   priv   727662119553728532   bot   PAW#5844   $help ping
+4.01.2023   20:56   priv   727662119553728532   bot   PAW#5844   $help ping
+4.01.2023   20:57   priv   727662119553728532   bot   PAW#5844   $help ping
+4.01.2023   20:57   priv   727662119553728532   bot   PAW#5844   $help ping
+4.01.2023   20:58   priv   727662119553728532   bot   PAW#5844   $help ping
+4.01.2023   20:58   priv   727662119553728532   bot   PAW#5844   $help ping
+4.01.2023   21:01   priv   727662119553728532   bot   PAW#5844   $help ping
+4.01.2023   22:26   priv   727662119553728532   bot   PAW#5844   $help
+4.01.2023   22:27   priv   727662119553728532   bot   PAW#5844   $help ping
+4.01.2023   22:27   priv   727662119553728532   bot   PAW#5844   $help ping
+4.01.2023   22:28   priv   727662119553728532   bot   PAW#5844   $help ping
+4.01.2023   22:28   priv   727662119553728532   bot   PAW#5844   $help server
+4.01.2023   22:29   priv   727662119553728532   bot   PAW#5844   $help server
+4.01.2023   22:32   priv   727662119553728532   bot   PAW#5844   $help
+4.01.2023   22:32   priv   727662119553728532   bot   PAW#5844   $help ping
+4.01.2023   22:54   priv   727662119553728532   bot   PAW#5844   $help daily
+4.01.2023   22:55   priv   727662119553728532   bot   PAW#5844   $server
+4.01.2023   23:13   priv   727662119553728532   bot   PAW#5844   $ankieta test
+5.01.2023   00:36   priv   727662119553728532   anime   PAW#5844   Fumetsu no Anata e 2 - odc10

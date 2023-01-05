@@ -69,6 +69,8 @@ const informations_handler = require("./handlers/informations")
 //server channel stats
 const stats_channels_autorefresh = require("./commands/komendy/stats/handler")
 
+const help_handler = require("./handlers/help_handler")
+
 /* dc js v13.9.2
 const client = new Discord.Client({
     intents: [
@@ -84,7 +86,9 @@ const client = new Discord.Client({
     intents: 32767
 })
 client.commands = new Discord.Collection()
+client.help = new Discord.Collection();
 client.commandArray = [];
+client.helpArray = [];
 
 //yt notyfications
 yt_notify()
@@ -103,6 +107,8 @@ logs(client, {
 
 //command handler
 handler(client)
+
+help_handler(client)
 
 client.once('ready', () => {
     const time = new Date().toLocaleTimeString().slice(0, 5)

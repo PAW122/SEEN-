@@ -1,7 +1,18 @@
 const { QuickDB } = require("quick.db");
+const Discord = require("discord.js")
 
+const help_embed = new Discord.MessageEmbed()
+
+    .setColor(`RANDOM`)
+    .setTitle(`pvp`)
+    .setFields(
+        { name: "$pvp", value: "$pvp <coins> <@user>" },
+        { name: "description", value: "play pvp with your frends" }
+
+    )
 module.exports = {
     name: "pvp",
+    help: help_embed,
 
     execute: async (message, args, client) => {
 
@@ -17,7 +28,7 @@ module.exports = {
         }
 
         if (args[0] == "help") {
-           return message.reply("$pvp <coins> <@user> \n example: $pvp 100 <@797070806885990431>")
+            return message.reply("$pvp <coins> <@user> \n example: $pvp 100 <@797070806885990431>")
         }
 
         const db = new QuickDB({ filePath: process.cwd() + `/db/economy/local_economy/${guildId}.sqlite` });
@@ -35,7 +46,7 @@ module.exports = {
         if (await db.get(`${authorId}.check`) != true) return message.reply("you do not have a profile in the economy system");
         if (await db.get(`${target_id}.check`) != true) return message.reply("your opponent has no profile in the economy system");
 
-        if(authorId == target_id) return message.reply("you cant play with yourself");
+        if (authorId == target_id) return message.reply("you cant play with yourself");
 
         message.channel.send(`<@${target_id}> did you accept pvp with ${message.author} four ${coins} coins?\n you have 10 secounds to type **accept**`)
 
@@ -57,7 +68,7 @@ module.exports = {
             if (!lastMessage.author.bot) {
                 if (lastMessage.author.id == target_id && lastMessage.content == "accept") {
                     pvp_game()
-                }else{
+                } else {
                     return
                 }
             }
@@ -66,7 +77,7 @@ module.exports = {
 
 
 
-        async function pvp_game(){
+        async function pvp_game() {
 
             const p1_coins = await db.get(`${authorId}.coins[0]`)
             const p2_coins = await db.get(`${target_id}.coins[0]`)
@@ -74,26 +85,26 @@ module.exports = {
             const player1_coins = parseInt(p1_coins)
             const player2_coins = parseInt(p2_coins)
 
-            if(player1_coins < coins) return message.reply(`<@${userId}> dont have thats many coins`);
-            if(player2_coins < coins) return message.reply(`<@${target_id}> You dont have thats many coins`);
+            if (player1_coins < coins) return message.reply(`<@${userId}> dont have thats many coins`);
+            if (player2_coins < coins) return message.reply(`<@${target_id}> You dont have thats many coins`);
 
             const rng = Math.floor(Math.random() * 2) + 1 // albo 1 albo 2
-            if(rng == 1){
+            if (rng == 1) {
                 const player1_setCoins = player1_coins + (coins)
                 const player2_setCoins = player2_coins - (coins)
 
                 //zapisz dane
-                await db.set(`${authorId}.coins[0]`,player1_setCoins)
-                await db.set(`${target_id}.coins[0]`,player2_setCoins)
+                await db.set(`${authorId}.coins[0]`, player1_setCoins)
+                await db.set(`${target_id}.coins[0]`, player2_setCoins)
 
                 return message.reply(`<@${authorId}> is winner\n redwad is ${coins}`)
-            }else if(rng == 2){
+            } else if (rng == 2) {
                 const player1_setCoins = player1_coins - (coins)
                 const player2_setCoins = player2_coins + (coins)
 
                 //zapisz dane
-                await db.set(`${authorId}.coins[0]`,player1_setCoins)
-                await db.set(`${target_id}.coins[0]`,player2_setCoins)
+                await db.set(`${authorId}.coins[0]`, player1_setCoins)
+                await db.set(`${target_id}.coins[0]`, player2_setCoins)
                 return message.reply(`<@${target_id}> is winner\n redwad is ${coins}`)
             }
         }
