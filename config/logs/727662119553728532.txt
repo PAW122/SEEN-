@@ -9797,3 +9797,6 @@ was/were potem czasownik z ing
 4.01.2023   22:55   priv   727662119553728532   bot   PAW#5844   $server
 4.01.2023   23:13   priv   727662119553728532   bot   PAW#5844   $ankieta test
 5.01.2023   00:36   priv   727662119553728532   anime   PAW#5844   Fumetsu no Anata e 2 - odc10
+5.01.2023   11:31   priv   727662119553728532   bot   PAW#5844   $server
+5.01.2023   11:31   priv   727662119553728532   bot   PAW#5844   $ping
+5.01.2023   17:02   priv   727662119553728532   d   PAW#5844   https://youtube.com/shorts/NwKp29Z7USc?feature=share
