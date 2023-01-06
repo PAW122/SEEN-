@@ -81,6 +81,7 @@ module.exports = {
     description: `help command`,
     usage: `$help`,
     work: worker,
+    help: embed_pl,
 
 
     execute: async (message, args) => {

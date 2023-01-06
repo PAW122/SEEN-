@@ -7,6 +7,7 @@ const prefix = config.prefix
 const owner_id = config.owner_id
 const auto_settings = require("./auto_settings")
 const owner_alert = require("../../handlers/owner_alert")
+
 module.exports = {
   name: "settings",
 

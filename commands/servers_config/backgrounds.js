@@ -1,8 +1,20 @@
 const Discord = require("discord.js")
 const { QuickDB } = require("quick.db");
 //dodać opdje podania własnego linku
+
+const help_embed = new Discord.MessageEmbed()
+
+    .setColor(`RANDOM`)
+    .setTitle(`backgrounds`)
+    .addFields(
+        { name: "bot background images list", value: "$backgrounds list" },
+        { name: "set your background", value: "$backgrounds custom <link>" },
+        { name: "set bot background", value: "$backgrounds set <background Id> \n example: $backgrounds set 3" },
+
+    )
 module.exports = {
     name: "backgrounds",
+    help: help_embed,
 
     execute: async (message, args, client) => {
 
@@ -11,7 +23,7 @@ module.exports = {
 
 
         const guildId = message.guild.id
-    const db = new QuickDB({ filePath: process.cwd() + `/db/srv_settings/commands/${guildId}.sqlite` });
+        const db = new QuickDB({ filePath: process.cwd() + `/db/srv_settings/commands/${guildId}.sqlite` });
 
         if (args[0] == "list") {
             const embed_pl = new Discord.MessageEmbed()
@@ -36,37 +48,37 @@ module.exports = {
             return message.channel.send({ embeds: [embed_pl] });
         }
 
-        if(args[0] == "set"){
-            
-            if(!args[1]) return message.channel.send("you dont type nackground id")
-            if(isNaN(args[1])) return message.reply("wrong id. Id need to be nunber")
-            if(args[1] < 1 || args[1] > 10){
+        if (args[0] == "set") {
+
+            if (!args[1]) return message.channel.send("you dont type nackground id")
+            if (isNaN(args[1])) return message.reply("wrong id. Id need to be nunber")
+            if (args[1] < 1 || args[1] > 10) {
                 return message.reply("worng id. type if form 1 to 10")
             }
-            
+
             // await db.set(`background`, { check: true,custom:false,type: 1})
-            await db.set(`background`, { check: true,custom:false,type: args[1]})
+            await db.set(`background`, { check: true, custom: false, type: args[1] })
             return message.reply("set")
         }
 
-        if(args[0] == "custom"){
-            
-            await db.set(`background`, { check: true,custom:true,type: args[1]})
+        if (args[0] == "custom") {
+
+            await db.set(`background`, { check: true, custom: true, type: args[1] })
             await db.set(`bglink`, { link: `${args[1]}`, check: true })
             return message.reply("set")
         }
 
 
-            const embed_pl = new Discord.MessageEmbed()
-                .setColor(`BLUE`)
-                .setTitle(`Help`)
-                .addFields(
-                    { name: "bot background images list", value: "$backgrounds list" },
-                    { name: "set your background", value: "$backgrounds custom <link>" },
-                    { name: "set bot background", value: "$backgrounds set <background Id> \n example: $backgrounds set 3" },
-                    
-                )
-            return message.channel.send({ embeds: [embed_pl] });
-        
+        const embed_pl = new Discord.MessageEmbed()
+            .setColor(`BLUE`)
+            .setTitle(`Help`)
+            .addFields(
+                { name: "bot background images list", value: "$backgrounds list" },
+                { name: "set your background", value: "$backgrounds custom <link>" },
+                { name: "set bot background", value: "$backgrounds set <background Id> \n example: $backgrounds set 3" },
+
+            )
+        return message.channel.send({ embeds: [embed_pl] });
+
     }
 }

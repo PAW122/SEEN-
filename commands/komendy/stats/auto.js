@@ -1,6 +1,29 @@
 const Discord = require("discord.js")
+const embed_pl = new Discord.MessageEmbed()
+    .setColor("RANDOM")
+    .setTitle("Server Live Stats")
+    .setDescription(`to manually refresh stats use **$stats-channel refresh**\n`)
+    .setFields(
+        { name: "Refresh system", value: "all statistics channels will be automatically refreshed after sending any message in the text channel. The maximum frequency of updating statistics is 10 minutes \n\n" },
+        { name: "if u wana automatic create all stats channels use", value: "$stats-channel auto" },
+        { name: "show only online users", value: "$stats-channel users" },
+        { name: "show only online users without counting bots", value: "$stats-channel onlyusers" },
+        { name: "show amount of offline users", value: "$stats-channel offline" },
+        { name: "show all server members", value: "$stats-channel members" },//zrobione
+        { name: "show all server members without counting bots", value: "$stats-channel onlymembers" },//zrobione
+        { name: "show all server bots", value: "$stats-channel onlybots" },//zrobione
+        { name: "show amount of server roles", value: "$stats-channel roles" },//zrobione
+        { name: "show amount of server channels", value: "$stats-channel channels" },//zrobione
+        { name: "show amount of server voice channels", value: "$stats-channel vc-channels" },//zrobione
+        { name: "show amount of server text channels", value: "$stats-channel txt-channels" },//zrobione
+        { name: "show amount of banned users", value: "$stats-channel bans" },//zrobione
+        { name: "show nickname of last join member", value: "$stats-channel last-join" },
+        { name: "show date", value: "$stats-channel date" }
+    )
 module.exports = {
     name: "stats-channel",
+    help: embed_pl,
+
 
     execute: async (message, args, client, ref, server) => {
 

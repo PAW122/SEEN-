@@ -1,8 +1,27 @@
 const { QuickDB } = require("quick.db");
 const Discord = require("discord.js")
 const { Permissions: { FLAGS } } = require('discord.js');
+const help_embed = new Discord.MessageEmbed()
+
+    .setColor(`RANDOM`)
+    .setTitle('Auto Mod')
+                .setColor('RANDOM')
+                .setDescription(`AutoMod is a feature that automatically deletes messages containing words added as banned by administrations`)
+                .setFields(
+                    { name: "$automod on", value: "turn on automod", inline: true },
+                    { name: "$automod off", value: "turn off automod", inline: true },
+                    { name: "$automod channel <channelID>", value: "specify on what channel bot send all automod actions", inline: true },
+                    { name: "$automod word <word>", value: "Add banned word", inline: true },
+                    { name: "$automod channel-off", value: "turn off notification of message deletion", inline: true },
+                    { name: "$automod channel-on", value: "turn on notification of message deletion", inline: true },
+                    { name: "$automod list", value: "send list of banned words", inline: true },
+                    { name: "$automod worddelall", value: "delete all banned words", inline: true },
+                    { name: "$automod del <word>", value: "delete one word provided by the user", inline: true },
+                )
+
 module.exports = {
     name: "automod",
+    help: help_embed,
 
     execute: async (message, args, client) => {
         if (args[0] == "help") {
