@@ -9800,3 +9800,25 @@ was/were potem czasownik z ing
 5.01.2023   11:31   priv   727662119553728532   bot   PAW#5844   $server
 5.01.2023   11:31   priv   727662119553728532   bot   PAW#5844   $ping
 5.01.2023   17:02   priv   727662119553728532   d   PAW#5844   https://youtube.com/shorts/NwKp29Z7USc?feature=share
+5.01.2023   20:28   priv   727662119553728532   bot   PAW#5844   $html <html><body><h1>Hello World!</h1></body></html>
+5.01.2023   20:30   priv   727662119553728532   bot   PAW#5844   $html <html><body><h1>Hello World!</h1></body></html>
+5.01.2023   20:31   priv   727662119553728532   bot   PAW#5844   $html <html><body><h1>Hello World!</h1></body></html>
+5.01.2023   20:31   priv   727662119553728532   bot   PAW#5844   $html <html><body><h1>Hello World!</h1></body></html>
+5.01.2023   20:33   priv   727662119553728532   bot   PAW#5844   $html <html><body><h1>Hello World!</h1></body>
+5.01.2023   20:33   priv   727662119553728532   bot   PAW#5844   $html <html><body><h1>Hello World!
+5.01.2023   20:33   priv   727662119553728532   bot   PAW#5844   $html <html><body><h1>Hello World! <uihoT>
+5.01.2023   20:43   priv   727662119553728532   bot   PAW#5844   $html <html><body><h1>Hello World!</h1></body></html>
+5.01.2023   20:43   priv   727662119553728532   bot   PAW#5844   $clear 12
+5.01.2023   21:45   priv   727662119553728532   bot   PAW#5844   $clear 30
+6.01.2023   00:31   priv   727662119553728532   bot   PAW#5844   $contect
+6.01.2023   00:32   priv   727662119553728532   bot   PAW#5844   $contact
+6.01.2023   00:47   priv   727662119553728532   bot   PAW#5844   $html <head><body><h1>Hello World!<h1></body></html>
+6.01.2023   01:32   priv   727662119553728532   bot   PAW#5844   $say
+6.01.2023   01:40   priv   727662119553728532   bot   PAW#5844   $srvinfo
+6.01.2023   01:40   priv   727662119553728532   bot   PAW#5844   $srvinfo
+6.01.2023   01:40   priv   727662119553728532   bot   PAW#5844   $srvinfo
+6.01.2023   01:41   priv   727662119553728532   bot   PAW#5844   $help
+6.01.2023   02:02   priv   727662119553728532   bot   PAW#5844   $help
+6.01.2023   02:02   priv   727662119553728532   bot   PAW#5844   $help say
+6.01.2023   02:02   priv   727662119553728532   bot   PAW#5844   $help 8ball
+6.01.2023   02:03   priv   727662119553728532   dc-bot   PAW#5844   komenda z powiadomieniami z githuba https://youtube.com/shorts/AtNjndKmhC0?feature=share
