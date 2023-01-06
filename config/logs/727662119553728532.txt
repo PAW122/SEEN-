@@ -9822,3 +9822,6 @@ was/were potem czasownik z ing
 6.01.2023   02:02   priv   727662119553728532   bot   PAW#5844   $help say
 6.01.2023   02:02   priv   727662119553728532   bot   PAW#5844   $help 8ball
 6.01.2023   02:03   priv   727662119553728532   dc-bot   PAW#5844   komenda z powiadomieniami z githuba https://youtube.com/shorts/AtNjndKmhC0?feature=share
+6.01.2023   03:28   priv   727662119553728532   bot   PAW#5844   $help automod
+6.01.2023   03:28   priv   727662119553728532   bot   PAW#5844   $help html
+6.01.2023   03:44   priv   727662119553728532   bot   PAW#5844   $help stats-channel

@@ -24946,3 +24946,9 @@ you currently have: 4375 💵
 5.01.2023   20:00   Porg Comunuty   438621187132751873   『-💭-』general   Krokiet#5726   ok
 5.01.2023   22:32   Porg Comunuty   438621187132751873   『-💭-』general   Oki#5001   oki
 6.01.2023   00:21   Porg Comunuty   438621187132751873   『-👋-』powitalnia   Mateusz_Bukalski#4639   
+6.01.2023   02:10   Porg Comunuty   438621187132751873   ledżenderi-texty   PAW#5844   
+6.01.2023   03:28   Porg Comunuty   438621187132751873   『-🤖-』botownia   PAW#5844   $html <head><body><h1>Hello World!<h1></body></html>
+6.01.2023   03:30   Porg Comunuty   438621187132751873   『-🤖-』botownia   Krokiet#5726   $html <head><body> <h1> Jebać cię kurwo <h1></body></html>
+6.01.2023   03:30   Porg Comunuty   438621187132751873   『-🤖-』botownia   PAW#5844   $help
+6.01.2023   03:31   Porg Comunuty   438621187132751873   『-🤖-』botownia   PAW#5844   $mp3editor 10 17
+6.01.2023   03:31   Porg Comunuty   438621187132751873   『-🤖-』botownia   PAW#5844   $server
