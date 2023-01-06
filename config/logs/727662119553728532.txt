@@ -9831,3 +9831,67 @@ was/were potem czasownik z ing
 6.01.2023   04:51   priv   727662119553728532   bot   PAW#5844   $ping
 6.01.2023   04:57   priv   727662119553728532   dc-bot   PAW#5844   Spróbować zrobić jakąś komendę urzywajac casandry
 6.01.2023   14:59   priv   727662119553728532   bot   PAW#5844   $ping
+6.01.2023   15:41   priv   727662119553728532   bot   PAW#5844   $help
+6.01.2023   15:42   priv   727662119553728532   bot   PAW#5844   $help srv_set
+6.01.2023   15:42   priv   727662119553728532   bot   PAW#5844   $help write
+6.01.2023   15:44   priv   727662119553728532   bot   PAW#5844   $write american cold war
+6.01.2023   15:44   priv   727662119553728532   bot   PAW#5844   $write cold war
+6.01.2023   15:44   priv   727662119553728532   bot   PAW#5844   $help wot
+6.01.2023   15:46   priv   727662119553728532   bot   PAW#5844   $wot PAW_117_2016
+6.01.2023   15:52   priv   727662119553728532   bot   PAW#5844   $animegif pat
+6.01.2023   15:53   priv   727662119553728532   bot   PAW#5844   $blitzclan __PAW
+6.01.2023   15:55   priv   727662119553728532   bot   PAW#5844   $blitzstats __PAW
+6.01.2023   16:07   priv   727662119553728532   bot   PAW#5844   .
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.
+6.01.2023   16:07   priv   727662119553728532   bot   PAW#5844   $help ping
+6.01.2023   16:08   priv   727662119553728532   bot   PAW#5844   $help
+6.01.2023   16:08   priv   727662119553728532   bot   PAW#5844   $help ping
+6.01.2023   17:21   priv   727662119553728532   d   PAW#5844   https://youtube.com/shorts/Sf_VQNsgGeQ?feature=share
+6.01.2023   21:09   priv   727662119553728532   bot   PAW#5844   $avatar-generator
+6.01.2023   21:09   priv   727662119553728532   bot   PAW#5844   $avatar-generator pixel-art
+6.01.2023   21:10   priv   727662119553728532   bot   PAW#5844   $avatar-generator pixel-art
+6.01.2023   21:15   priv   727662119553728532   bot   PAW#5844   $avatar-generator pixel-art
+6.01.2023   21:24   priv   727662119553728532   bot   PAW#5844   $avatar-generator pixel-art
+6.01.2023   21:26   priv   727662119553728532   bot   PAW#5844   $avatar-generator pixel-art
+6.01.2023   21:27   priv   727662119553728532   bot   PAW#5844   $avatar-generator pixel-art
+6.01.2023   21:27   priv   727662119553728532   bot   PAW#5844   $avatar-generator pixel-art
+6.01.2023   21:42   priv   727662119553728532   bot   PAW#5844   $avatar-generator pixel-art seen
+6.01.2023   21:43   priv   727662119553728532   bot   PAW#5844   $help avatar-generator
