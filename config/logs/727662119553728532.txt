@@ -9825,3 +9825,9 @@ was/were potem czasownik z ing
 6.01.2023   03:28   priv   727662119553728532   bot   PAW#5844   $help automod
 6.01.2023   03:28   priv   727662119553728532   bot   PAW#5844   $help html
 6.01.2023   03:44   priv   727662119553728532   bot   PAW#5844   $help stats-channel
+6.01.2023   04:51   priv   727662119553728532   bot   PAW#5844   $help help
+6.01.2023   04:51   priv   727662119553728532   bot   PAW#5844   $help ping
+6.01.2023   04:51   priv   727662119553728532   bot   PAW#5844   $help XD
+6.01.2023   04:51   priv   727662119553728532   bot   PAW#5844   $ping
+6.01.2023   04:57   priv   727662119553728532   dc-bot   PAW#5844   Spróbować zrobić jakąś komendę urzywajac casandry
+6.01.2023   14:59   priv   727662119553728532   bot   PAW#5844   $ping
