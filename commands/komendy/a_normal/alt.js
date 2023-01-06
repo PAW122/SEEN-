@@ -9,8 +9,8 @@ const help_embed = new Discord.MessageEmbed()
     .setColor(`RANDOM`)
     .setTitle(`isalt`)
     .setFields(
-        {name: "$isalt", value: "show is account is alt"},
-        {name: "usage", value: "$isalt @user"}
+        { name: "$isalt", value: "show is account is alt" },
+        { name: "usage", value: "$isalt @user" }
     )
 module.exports = {
     name: "isalt",
@@ -28,15 +28,15 @@ module.exports = {
         ),
     executeInteraction: async (inter) => {
         const target = inter.options.getUser('mark_user')
-        if(!target) return inter.reply("you have to tag someone");
-        if(target.id == owner_id) return inter.reply("I'm sure it's not alt");
+        if (!target) return inter.reply("you have to tag someone");
+        if (target.id == owner_id) return inter.reply("I'm sure it's not alt");
 
         const createdAt = new Date(target.createdAt).getTime();
         const Diffrence = Date.now() - createdAt
 
-        if(Diffrence < timesamp) {
+        if (Diffrence < timesamp) {
             return inter.reply(`User ${target} is probably alt.\n because this account is less than 7 days old`)
-        }else{
+        } else {
             return inter.reply("This user is not on record as his account is more than 7 days old")
         }
     },
@@ -46,25 +46,25 @@ module.exports = {
 
 
 
-    
-    execute: async(message,args,client) => {
 
-        if(args[0] == "help") {
+    execute: async (message, args, client) => {
+
+        if (args[0] == "help") {
             return message.reply("usage: **$isalt @user**")
         }
 
         const target = message.mentions.users.first();
-        if(!target) return message.reply("you have to tag someone");
-        if(target.id == owner_id) return message.reply("I'm sure it's not alt");
+        if (!target) return message.reply("you have to tag someone");
+        if (target.id == owner_id) return message.reply("I'm sure it's not alt");
 
         const createdAt = new Date(target.createdAt).getTime();
         const Diffrence = Date.now() - createdAt
 
-        if(Diffrence < timesamp) {
+        if (Diffrence < timesamp) {
             return message.reply(`User ${target} is probably alt.\n because this account is less than 7 days old`)
-        }else{
+        } else {
             return message.reply("This user is not on record as his account is more than 7 days old")
         }
 
-    } 
+    }
 }

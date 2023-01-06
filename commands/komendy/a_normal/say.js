@@ -12,10 +12,18 @@ const { QuickDB } = require("quick.db");
 //$pwoiedz help
 //$pwoiedz help en
 const { SlashCommandBuilder } = require('@discordjs/builders');
+const help_embed = new Discord.MessageEmbed()
+
+    .setColor(`RANDOM`)
+    .setTitle(`bank`)
+    .setFields(
+        {name: "$say", value: "send messages as bot"},
+        {name: "usage", value: "$say text what you want send as bot"}
+    )
+
 module.exports = {
     name:"say",
-    description: "kopiuje wiadomość i wysyła ją",
-    usage: "$say <wiadomość>",
+    help: help_embed,
     work: worker,
     isSlash: true,
 

@@ -3,11 +3,19 @@ const { SlashCommandBuilder } = require('@discordjs/builders');
 const Discord = require('discord.js');
 const { Permissions: { FLAGS } } = require('discord.js')
 const { QuickDB } = require("quick.db")
+const help_embed = new Discord.MessageEmbed()
+
+    .setColor(`RANDOM`)
+    .setTitle(`unban`)
+    .setFields(
+        {name: "/unban", value: "only slash command"},
+    )
+
 module.exports = {
     name: "unban",
-    description: "Sends information about the server",
-    usage: "$srvinfo",
+    help: help_embed,
     isSlash: true,
+
     data: new SlashCommandBuilder()
         .setName('unban')
         .setDescription('Unbans user')

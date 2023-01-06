@@ -12,12 +12,19 @@ const { SlashCommandBuilder } = require('@discordjs/builders');
 //$avatar help
 //$avatar help en
 
+const help_embed = new Discord.MessageEmbed()
+
+    .setColor(`RANDOM`)
+    .setTitle(`awatar \ avatar`)
+    .setFields(
+        {name: "$awatar", value: "Send your avatar"},
+        {name: "$awatar @user", value: "Send marked user avatar"}
+    )
 
 module.exports = {
     name: "awatar",
     name_en: "avatar",
-    description: "wysyła grafika z zdjęciem profilowym",
-    usage: "$awatar <@nick>",
+    help: help_embed,
     work: worker,
     isSlash: true,
 

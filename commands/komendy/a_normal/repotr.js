@@ -12,10 +12,21 @@ const { QuickDB } = require("quick.db")
 
 //const client = require("../../../main")
 
+const help_embed = new Discord.MessageEmbed()
+
+    .setColor(`RANDOM`)
+    .setTitle(`report`)
+    .setFields(
+        {name: "$report", value: "send report to bot support"},
+        {name: "usage", value: "$report some command dont workinh"},
+        {name: "<3", value: "when you report somethink we tray respond to your message as far is this possible"}
+    )
+
 module.exports = {
     name: "report",
     work: worker,
     isSlash: true,
+    help: help_embed,
 
 
     data: new SlashCommandBuilder()

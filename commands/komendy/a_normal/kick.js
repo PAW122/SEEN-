@@ -7,11 +7,18 @@ const Discord = require('discord.js');
 //$kick
 //$kick help
 //$kick help en
+const help_embed = new Discord.MessageEmbed()
+
+    .setColor(`RANDOM`)
+    .setTitle(`bank`)
+    .setFields(
+        {name: "$kick", value: "kick user"},
+        {name: "usage", value: "$kock @user"}
+    )
 module.exports = {
     name: "kick",
-    description: "usuwa wiadomości",
-    usage: "$clear <ilość wiadomości>",
     work: worker,
+    help: help_embed,
 
     execute: async (message, args, client) => {
         //load server settings

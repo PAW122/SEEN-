@@ -1,8 +1,17 @@
 const os = require("os")
 const Discord = require("discord.js")
 
+const help_embed = new Discord.MessageEmbed()
+
+    .setColor(`RANDOM`)
+    .setTitle(`server`)
+    .setFields(
+        {name: "$server", value: "send server statistics"},
+    )
+
 module.exports = {
     name: "server",
+    help: help_embed,
 
     execute: async (message, args, client) => {
 
@@ -33,7 +42,7 @@ module.exports = {
                 { name: "Processor:", value: `${cpu_usage[0].model}` },
                 { name: "Cpu speed:", value: `${cpu_usage[0].speed} Hz` },
                 { name: "Cpu Cores:", value: `${cores}` },
-                { name: "Bot Memory usage:", value: `${`The script uses approximately ${Math.round(used * 100) / 100} MB`}` },
+                { name: "Bot Memory usage:", value: `${`${Math.round(used * 100) / 100} MB`}` },
                 { name: "Server Memory usage:", value: `${total_free_mem_in_mb.toFixed(2)} / ${total_mem_in_mb.toFixed(2)} MB` }
             )
 

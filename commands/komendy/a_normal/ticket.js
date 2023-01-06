@@ -7,11 +7,20 @@ const { SlashCommandBuilder } = require('@discordjs/builders');
 const Discord = require('discord.js');
 const { QuickDB } = require("quick.db")
 
+const help_embed = new Discord.MessageEmbed()
+
+    .setColor(`RANDOM`)
+    .setTitle(`ticket`)
+    .setFields(
+        {name: "$ticket", value: "send tickte to server administration"},
+        {name: "usage", value: "$ticket ticket content"}
+    )
 
 module.exports = {
     name: "ticket",
     work: worker,
     isSlash: true,
+    help: help_embed,
 
     data: new SlashCommandBuilder()
     .setName('ticket')

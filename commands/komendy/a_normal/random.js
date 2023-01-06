@@ -9,11 +9,18 @@ const { QuickDB } = require("quick.db");
 //$random help 
 //$random help en
 const { SlashCommandBuilder } = require('@discordjs/builders');
+const help_embed = new Discord.MessageEmbed()
+
+    .setColor(`RANDOM`)
+    .setTitle(`random`)
+    .setFields(
+        {name: "$random", value: "send random number"},
+        {name: "usage", value: "$random 100 \n send random number from 1 to 100"}
+    )
+
 module.exports = {
     name: "random",
-    name_en:"random",
-    description: "wysyła randomową liczbe od 1 do ?",
-    usage: "$random <maksymalna wartość lodowania>",
+    help: help_embed,
     work: worker,
     isSlash: true,
 

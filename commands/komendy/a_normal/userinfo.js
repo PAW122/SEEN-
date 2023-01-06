@@ -6,9 +6,20 @@ const reason = config.user_info
 const {SlashCommandBuilder} = require('@discordjs/builders');
 const { MessageEmbed } = require('discord.js');
 const {QuickDB} = require("quick.db")
+const Discord = require("discord.js")
+
+const help_embed = new Discord.MessageEmbed()
+
+    .setColor(`RANDOM`)
+    .setTitle(`userinfo`)
+    .setFields(
+        {name: "$userinfo", value: "send informations aonut user"},
+        {name: "usage", value: "/userinfo"}
+    )
+
 module.exports = {
     name: "userinfo",
-    name_en: "userinfo",
+    help: help_embed,
     work: worker,
     isSlash: true,
 

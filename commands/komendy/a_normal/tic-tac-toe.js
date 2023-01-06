@@ -8,8 +8,20 @@ const { QuickDB } = require("quick.db");
 //zapisz w db dla obu userów dane o grze i czyj jest ruch
 //(mext_ruch: playerId)
 
+const help_embed = new Discord.MessageEmbed()
+
+    .setColor(`RANDOM`)
+    .setTitle(`tic-tac-toe`)
+    .setFields(
+        {name: "$tic-tac-toe", value: "play tic-tac-toe minigame with bot"},
+        {name: "start game", value: "$tic-tac-toe start"},
+        {name: "take", value: "$tic-tac-toe take 1-9"},
+        {name: "leave from game", value: "$tic-tac-toe leave"}
+    )
+
 module.exports = {// tic-tac-toe
     name: "tic-tac-toe",
+    help: help_embed,
 
     execute: async (message, args, client) => {
         if (args[0] == "help") {

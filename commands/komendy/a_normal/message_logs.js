@@ -8,11 +8,20 @@ var fs = require("fs");
 const Discord = require('discord.js');
 const { MessageAttachment } = require('discord.js');
 const { SlashCommandBuilder } = require('@discordjs/builders');
+
+const help_embed = new Discord.MessageEmbed()
+
+    .setColor(`RANDOM`)
+    .setTitle(`message_logs`)
+    .setFields(
+        {name: "$message_logs", value: "send txt file with all messages sended on the server from moment when bot was added"},
+    )
+
 module.exports = {
     name: "message_logs",
-    name_en: "message_logs",
     work: worker,
     isSlash: true,
+    help: help_embed,
 
     data: new SlashCommandBuilder()
         .setName('message_logs')
@@ -55,7 +64,7 @@ module.exports = {
             if (!message.member.permissions.has("ADMINISTRATOR")) {
                 return message.channel.send("nie masz uprawnień do usuwania wiadomości")
             }
-            return message.reply("komenda nie jest skończona")
+            return message.reply("this function been added in the future")
             try{
             const srv = message.guild.id + ".txt"
             const file = `${process.cwd()}/config/logs/${srv}`

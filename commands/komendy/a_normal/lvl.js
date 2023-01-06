@@ -8,14 +8,23 @@ const xp_per_lvl_scaling = config.xp_per_lvl_scaling
 
 const { SlashCommandBuilder } = require('@discordjs/builders');
 
+const help_embed = new Discord.MessageEmbed()
+
+    .setColor(`RANDOM`)
+    .setTitle(`lvl / level`)
+    .setFields(
+        {name: "$lvl", value: "sending your level statistic"},
+    )
+
 module.exports = {
     name: "lvl",
     name_en: "level",
     isSlash: true,
+    help: help_embed,
 
     data: new SlashCommandBuilder()
         .setName('lvl')
-        .setDescription('sending your level staristic'),
+        .setDescription('sending your level statistic'),
 
     executeInteraction: async (inter) => {
         const authorId = inter.user.id

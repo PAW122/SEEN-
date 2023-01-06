@@ -18,11 +18,20 @@ const cooldown = 60000
 //$wyczyść
 //$wyczyść help
 //$wyczyść help en
+const help_embed = new Discord.MessageEmbed()
+
+    .setColor(`RANDOM`)
+    .setTitle(`clear / wyczyść`)
+    .setFields(
+        {name: "$clear", value: "usage: $clear <amount of message>"},
+        {name: "cooldown", value: "everyone can use clear one time per minut"},
+        {name: "example", value: "$clear 5"}
+    )
+
 module.exports = {
     name: "wyczyść",
     name_en: "clear",
-    description: "usuwa wiadomości",
-    usage: "$clear <ilość wiadomości>",
+    help: help_embed,
     work: worker,
     isSlash: true,
 

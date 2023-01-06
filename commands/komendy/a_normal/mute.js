@@ -5,9 +5,20 @@ const { Permissions: { FLAGS } } = require('discord.js');
 const { QuickDB } = require("quick.db");
 const { SlashCommandBuilder } = require('@discordjs/builders');
 
+const help_embed = new Discord.MessageEmbed()
+
+    .setColor(`RANDOM`)
+    .setTitle(`mute`)
+    .setFields(
+        {name: "$mute", value: "mute user"},
+        {name: "usage:", value: "$mute @user time"},
+        {name: "example", value: "$mute @seen 10s"}
+    )
+
 module.exports = {
     name: "mute",
     isSlash: true,
+    help: help_embed,
 
     data: new SlashCommandBuilder()
         .setName('mute')
