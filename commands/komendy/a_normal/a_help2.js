@@ -13,7 +13,7 @@ const embed_pl = new Discord.MessageEmbed()
     .setFooter("use $name help to get comand info")
     .addFields(
         { name: `***😁fun***`, value: 
-        "``ruletka``" +","+ "``bruh``" +","+ "``random``"+","+ "``8ball``" +","+"``flags``"+","+"``animegif``"+","+"``przemyślenia``"+ "," + "``random``", inline: false },
+        "``ruletka``" +","+ "``bruh``" +","+ "``random``"+","+ "``8ball``" +","+"``flags``"+","+"``animegif``"+","+"``przemyślenia``"+ "," + "``random`` , ``avatar-generator``", inline: false },
 
         { name: `***❓info***`, value: 
         "``awatar``"+ ","+"``ping``"+","+"``botinfo``"+","+"``srvinfo``"+","+"``lvl``"+","+"``link``"+","+"``isalt`` , ``server``", inline: false },

@@ -17,9 +17,20 @@ const { QuickDB } = require("quick.db");
 //blitzstats
 //blitzstats help
 //blitzstats help en
+const help_embed = new Discord.MessageEmbed()
+
+    .setColor(`RANDOM`)
+    .setTitle(`blitzstats`)
+    .setFields(
+        {name: "$blitzstats", value: "show player stats frmo Wotld Of Thanks Blits"},
+        {name: "usage", value: "$blitzstats <nickname>"},
+        {name: "example:", value: "$blitzstats __PAW"}
+    )
+
 module.exports = {
     name: "blitzstats",
     work: worker,
+    help: help_embed,
 
     execute: async(message, args) => {
         //load server settings

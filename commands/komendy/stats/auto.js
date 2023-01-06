@@ -17,7 +17,7 @@ const embed_pl = new Discord.MessageEmbed()
         { name: "show amount of server voice channels", value: "$stats-channel vc-channels" },//zrobione
         { name: "show amount of server text channels", value: "$stats-channel txt-channels" },//zrobione
         { name: "show amount of banned users", value: "$stats-channel bans" },//zrobione
-        { name: "show nickname of last join member", value: "$stats-channel last-join" },
+        { name: "show nickname of last join member", value: "$stats-channel last-join" },//to do
         { name: "show date", value: "$stats-channel date" }
     )
 module.exports = {

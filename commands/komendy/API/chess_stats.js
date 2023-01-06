@@ -1,8 +1,17 @@
 const axios = require('axios');
 const Discord = require("discord.js");
 
+const help_embed = new Discord.MessageEmbed()
+
+    .setColor(`RANDOM`)
+    .setTitle(`chess`)
+    .setFields(
+        {name: "$chess", value: "Sends a random word: Yes/No/Maybe/I dont know/Probably/I guess/Im not sure/ Surely"},
+    ) 
+
 module.exports = {
     name: "chess",
+    help: help_embed,
 
     execute: async (message, args, client) => {
         if(!args[0] || args[0] == "help") help()

@@ -9,6 +9,7 @@
   "author": "PAW#5844",
   "license": "ISC",
   "dependencies": {
+    "@dicebear/avatars-male-sprites": "^4.10.8",
     "@discordjs/builders": "^1.1.0",
     "@discordjs/opus": "^0.8.0",
     "@discordjs/rest": "^1.0.1",

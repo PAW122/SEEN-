@@ -4,8 +4,19 @@ const axios = require("axios");
 const config = require("../../../config/config")
 const API_KEY = config.wargaming_api_key
 
+const help_embed = new Discord.MessageEmbed()
+
+    .setColor(`RANDOM`)
+    .setTitle(`wot`)
+    .setFields(
+        {name: "$wot", value: "show statistics from Worlf Of Thanks"},
+        {name: "usage", value: "$wot nickname"},
+        {name: "example", value: "$wot PAW_117_2016"}
+    )
+
 module.exports = {
     name: "wot",
+    help: help_embed,
 
     execute:async(message,args,client) => {
         if(args[0] == "help") {
@@ -16,6 +27,8 @@ module.exports = {
                 .setFields(
                     {name: "Nickname:",value: `nick`}
                 )
+            message.channel.send({embeds:[embed_pl]})
+            return
         }
         if(!args[0]) return message.reply("type nickname")
         const nickname = args[0]

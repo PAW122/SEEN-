@@ -13,11 +13,21 @@ const images_api = new API()
 //$animegif
 //$animegif help
 //$animegif help en
+
+const help_embed = new Discord.MessageEmbed()
+
+    .setColor(`RANDOM`)
+    .setTitle(`animegif`)
+    .setFields(
+        {name: "$animegif", value: "send anime gif"},
+        {name: "usage:",value: "$animegif <gif_type>"},
+        {name: "example:", value: "$animegif pat"}
+    )
+    
 module.exports = {
 
     name: "animegif",
-    description: "wysyła pong",
-    usage: "$ping",
+    help: help_embed,
     work: worker,
     isSlash: false,
 
@@ -120,6 +130,7 @@ lesbian()	Sends a lesbian Gif
 
         if (!args[0]) {
             message.channel.send(`podaj rodzaj gifa:\n
+        0.pat
         1.hug
         2.kiss
         3.slap
@@ -138,6 +149,7 @@ lesbian()	Sends a lesbian Gif
         if (args[0] == "help") {
             if (args[1] == "en") {
                 return message.reply(`use one of the options:
+            0.pat
             1.hug
             2.kiss
             3.slap
@@ -156,6 +168,7 @@ lesbian()	Sends a lesbian Gif
             example: $animegif pat`)
             } else {
                 return message.reply(`Use one of the options:
+        0.pat
         1.hug
         2.kiss
         3.slap

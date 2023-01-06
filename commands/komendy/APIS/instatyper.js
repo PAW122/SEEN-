@@ -2,8 +2,18 @@ const axios = require("axios");
 const fs = require("fs")
 const Discord = require("discord.js")
 
+const help_embed = new Discord.MessageEmbed()
+
+    .setColor(`RANDOM`)
+    .setTitle(`write`)
+    .setFields(
+        {name: "$write", value: "Write essay bot.\n usage: $write <thema>\n example: $write cold war\n pleas type thema in english\n to translate you can use: https://www.deepl.com/pl/translator"},
+        {name: "example", value: "$write cold war"}
+    )
+
 module.exports = {
     name: "write",
+    help: help_embed,
 
     execute:async(message,args,client) => {
 
