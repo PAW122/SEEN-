@@ -9895,3 +9895,16 @@ was/were potem czasownik z ing
 6.01.2023   21:27   priv   727662119553728532   bot   PAW#5844   $avatar-generator pixel-art
 6.01.2023   21:42   priv   727662119553728532   bot   PAW#5844   $avatar-generator pixel-art seen
 6.01.2023   21:43   priv   727662119553728532   bot   PAW#5844   $help avatar-generator
+7.01.2023   01:30   priv   727662119553728532   bot   PAW#5844   $help avatar-generator peeps
+7.01.2023   01:30   priv   727662119553728532   bot   PAW#5844   $help avatar-generator peeps test
+7.01.2023   01:30   priv   727662119553728532   bot   PAW#5844   $avatar-generator peeps test
+7.01.2023   01:36   priv   727662119553728532   bot   PAW#5844   $help
+7.01.2023   01:36   priv   727662119553728532   bot   PAW#5844   $avatar-generator open-peeps test
+7.01.2023   01:36   priv   727662119553728532   bot   PAW#5844   $avatar-generator open-peeps Pawiu
+7.01.2023   03:35   priv   727662119553728532   lvl-notify   PAW#5844   $testesTESg
+7.01.2023   03:35   priv   727662119553728532   lvl-notify   PAW#5844   $testesTESg
+7.01.2023   03:36   priv   727662119553728532   lvl-notify   PAW#5844   $testesTESg
+7.01.2023   03:36   priv   727662119553728532   lvl-notify   PAW#5844   $testessssg
+7.01.2023   03:37   priv   727662119553728532   lvl-notify   PAW#5844   $testessssg
+7.01.2023   03:49   priv   727662119553728532   lvl-notify   PAW#5844   $help ping
+7.01.2023   04:04   priv   727662119553728532   d   PAW#5844   
