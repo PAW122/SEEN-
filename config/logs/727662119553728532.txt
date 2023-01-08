@@ -9908,3 +9908,14 @@ was/were potem czasownik z ing
 7.01.2023   03:37   priv   727662119553728532   lvl-notify   PAW#5844   $testessssg
 7.01.2023   03:49   priv   727662119553728532   lvl-notify   PAW#5844   $help ping
 7.01.2023   04:04   priv   727662119553728532   d   PAW#5844   
+7.01.2023   13:39   priv   727662119553728532   d   PAW#5844   
+7.01.2023   23:41   priv   727662119553728532   dc-bot   PAW#5844   171.zrobić statystyki z aktwyności na serwie:{
+     jak ktoś wbije na kanał jest zapisywanie że wbił i jak wyjdzie jest kiedy wyszedł
+   jeżeli nie ma godz wyjścia a pojawi się następne wejście na kanał to ta godz wejścia zostaje nadpisana
+
+w db np: idserwera.idkanału.stats.sqlite {
+    }
+8.01.2023   01:00   priv   727662119553728532   d   PAW#5844   https://youtube.com/shorts/SlBOpNLFUC0?feature=share
+8.01.2023   01:56   priv   727662119553728532   d   PAW#5844   https://youtube.com/shorts/_pnAyI76bmM?feature=share
+
+tłumaczenie te4xtuz a pomocą ai
