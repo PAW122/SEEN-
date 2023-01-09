@@ -9919,3 +9919,27 @@ w db np: idserwera.idkanału.stats.sqlite {
 8.01.2023   01:56   priv   727662119553728532   d   PAW#5844   https://youtube.com/shorts/_pnAyI76bmM?feature=share
 
 tłumaczenie te4xtuz a pomocą ai
+8.01.2023   16:29   priv   727662119553728532   anime   PAW#5844   sezon zima 2023:
+Onii-chan wa oshimai!
+8.01.2023   16:32   priv   727662119553728532   fizyka-optyka-cz2   PAW#5844   jakieś zadanie:
+człowiek stoi nad jeziorem, ma 160cm wzrostu.
+promienie słoneczne padają pod kontem 30 stopni oblicz jak dalego od człowieka będzie padał cień
+
+zad2:
+światło pada pod kątem x stopni na szkło o grbości 4cm
+oblicz ile czasu będzie potrzebowało światło żeby przejść przez szkło
+8.01.2023   17:51   priv   727662119553728532   bot   PAW#5844   $help
+8.01.2023   21:20   priv   727662119553728532   bot   PAW#5844   $ping
+8.01.2023   23:43   priv   727662119553728532   bot   PAW#5844   alexy ip: 46.204.76.100
+9.01.2023   08:53   priv   727662119553728532   bot   PAW#5844   $ping
+9.01.2023   08:53   priv   727662119553728532   bot   PAW#5844   $help
+9.01.2023   10:55   priv   727662119553728532   bot   PAW#5844   $mechatronic
+9.01.2023   10:55   priv   727662119553728532   bot   PAW#5844   $mechatronic 1
+9.01.2023   10:56   priv   727662119553728532   bot   PAW#5844   $mechatronic odp 1
+9.01.2023   10:56   priv   727662119553728532   bot   PAW#5844   $mechatronic help
+9.01.2023   10:58   priv   727662119553728532   bot   PAW#5844   $mechatronic odp 2
+9.01.2023   10:58   priv   727662119553728532   bot   PAW#5844   $mechatronic odp 3
+9.01.2023   10:58   priv   727662119553728532   bot   PAW#5844   $mechatronic odp 3
+9.01.2023   10:59   priv   727662119553728532   bot   PAW#5844   $mechatronic odp 4
+9.01.2023   10:59   priv   727662119553728532   bot   PAW#5844   $mechatronic odp 6
+9.01.2023   10:59   priv   727662119553728532   bot   PAW#5844   $mechatronic odp 7
