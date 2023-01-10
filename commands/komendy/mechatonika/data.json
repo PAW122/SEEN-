@@ -41,7 +41,7 @@
     "b",
     false],
 
-    "7":["Które urządzenie charakteryzuje się następującymi parametrami technicznymi: moc silnika – 4,0 HP/3,0 kW,pojemność zbiornika – 300 l, liczba cylindrów – 2, liczba stopni – 1, maksymalne ciśnienie – 15 bar,zdolność ssania – 600 l/min, napięcie – 400 V (3 fazy)?",
+    "7":["Które urządzenie charakteryzuje się następującymi parametrami: moc silnika – 4,0 HP/3,0 kW,pojemność zbiornika–300 l, liczba cylindrów–2, liczba stopni–1, maksymalne ciśnienie–15 bar,zdolność ssania–600 l/min, napięcie–400 V (3 fazy)?",
     "A: **Pompa hydrauliczna.**","B: **Sprężarka powietrza.**","C: **Siłownik hydrauliczny**","D: **Siłownik pneumatyczny.**",
     "b",
     false],
