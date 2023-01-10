@@ -149,6 +149,13 @@ npm i js-queue
     169.w pay.js zamiast user id dać message mention first!!
     170.in message_logs skończyć pisać clear function
 
+    171.zrobić statystyki z aktwyności na serwie:{
+        
+    }
+    172.zrobić statystyki z aktywnmości poszczegulnego usera: {
+
+    }
+
     dodać do tego top chanels(top kanał z wiadomościami, top kanał vc z ilością h)
 
     !!na lapku wywaliło error z lvling_handler.js: 75:69 undefind(reading:'send')
