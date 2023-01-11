@@ -9948,3 +9948,36 @@ oblicz ile czasu będzie potrzebowało światło żeby przejść przez szkło
 9.01.2023   16:08   priv   727662119553728532   bot   PAW#5844   $mechatronic odp 7
 9.01.2023   16:24   priv   727662119553728532   bot   PAW#5844   0;P;c;5;o;1;d;1;z;4;0b;0;1b;0
 9.01.2023   16:25   priv   727662119553728532   bot   PAW#5844   0;s;1;P;c;6;h;0;d;1;z;1;f;0;0t;0;0l;3;0o;1;0a;1;0f;0;1t;4;1l;1;1o;0;1a;1;1m;0;1f;0;S;s;0.86;o;0.423
+10.01.2023   04:02   priv   727662119553728532   bot   PAW#5844   $ping
+10.01.2023   13:46   priv   727662119553728532   bot   PAW#5844   $ping
+10.01.2023   21:47   priv   727662119553728532   historia-spr   PAW#5844   **1.chronologicznie:**
+```
+powstanie wielkopolski 1918–1919
+prezydentura st wojciechowskiego
+traktat ryski 18 marca 1921
+przewrot majowy  12–15 maja 1926 
+nowela sierpniowa  2 sierpnia 1926
+```
+
+**2.postacie:**
+generał Józef Haller
+
+**3. ???**
+
+**4.definicje z czasem:**
+```
+traktat ryski - 18 marca 1921 -  Traktat pokoju między Polską a Rosją i Ukrainą, podpisany w Rydze
+
+przewrot majowy - 12–15 maja 1926 - zbrojny zamach stanu w Polsce dokonany w Warszawie przez marszałka Józefa Piłsudskiego
+
+pakt ribentrop mołotow - umowa międzynarodowa z 23 sierpnia 1939 roku, będąca formalnie paktem o nieagresji pomiędzy III Rzeszą i Związkiem Socjalistycznych Republik Radzieckich,
+```
+
+**5.definicje:**
+```
+sanacja - 
+```
+10.01.2023   23:50   priv   727662119553728532   anime   PAW#5844   Nokemono-tachi no Yoru odc 1 do spr
+10.01.2023   23:54   priv   727662119553728532   fizyka-optyka-cz2   PAW#5844   
+11.01.2023   01:33   priv   727662119553728532   dc-bot   PAW#5844   zrobić komende której przesyłasz qr code i ona wysyła wszystkie dane
+11.01.2023   01:34   priv   727662119553728532   bot   PAW#5844   $ping
