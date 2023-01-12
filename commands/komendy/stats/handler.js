@@ -16,6 +16,7 @@ module.exports = (client) => {
     let is_run = true
 
     client.on("messageCreate", async message => {
+        if(!message.guild) return;
         if (!server_list.has(message.guild.id)) {
             server_list.add(message.guild.id)
         }
