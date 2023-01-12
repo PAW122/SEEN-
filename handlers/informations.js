@@ -3,12 +3,13 @@ const { MessageEmbed } = require('discord.js');
 module.exports = (client) => {
 
     client.on("guildBanAdd", async (guild, user) => {
-        console.log(guild)
-        console.log(user)
         if(!user) return;
         if(!guild.name) return console.log("informations.js error => nie znaleziono guild.name")
-        console.log("user aned from guild")
-        return user.send(`You've been banned from the guild: ${guild.name}`).catch(console.error)
+        try{
+            return user.send(`You've been banned from the guild: ${guild.name}`).catch(console.error)
+        }catch(err) {
+            console.log(err)
+        }
     })
 
     client.on('guildMemberRemove', async member => {
@@ -45,7 +46,7 @@ module.exports = (client) => {
             console.log(`${member.user.tag} left the guild; kicked by ${executor.tag}?`);
 
             try{
-            member.user.send(`You've been kicked from the guild`).catch(console.error)
+            member.user.send(`You've been kicked from the ${member.guild} guild`).catch(console.error)
             }catch(err) {
                 console.log(err)
             }
