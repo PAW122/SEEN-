@@ -9981,3 +9981,13 @@ sanacja -
 10.01.2023   23:54   priv   727662119553728532   fizyka-optyka-cz2   PAW#5844   
 11.01.2023   01:33   priv   727662119553728532   dc-bot   PAW#5844   zrobić komende której przesyłasz qr code i ona wysyła wszystkie dane
 11.01.2023   01:34   priv   727662119553728532   bot   PAW#5844   $ping
+12.01.2023   02:52   priv   727662119553728532   ogólny   PAW#5844   https://youtu.be/o7vpQbpLk9g
+12.01.2023   08:02   priv   727662119553728532   bot   PAW#5844   $ping
+12.01.2023   08:05   priv   727662119553728532   bot   PAW#5844   $help
+12.01.2023   08:50   priv   727662119553728532   bot   PAW#5844   $valo mmr Paw1172016 EUNE
+12.01.2023   08:52   priv   727662119553728532   bot   PAW#5844   $valo mmrHistory Paw1172016 EUNE
+12.01.2023   08:53   priv   727662119553728532   bot   PAW#5844   $server
+12.01.2023   09:24   priv   727662119553728532   anime   PAW#5844   Do spr
+Spy kyoushitsu
+12.01.2023   09:58   priv   727662119553728532   anime   PAW#5844   Urasei yatsura
+12.01.2023   13:23   priv   727662119553728532   bot   PAW#5844   $server
