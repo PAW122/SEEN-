@@ -9991,3 +9991,14 @@ sanacja -
 Spy kyoushitsu
 12.01.2023   09:58   priv   727662119553728532   anime   PAW#5844   Urasei yatsura
 12.01.2023   13:23   priv   727662119553728532   bot   PAW#5844   $server
+12.01.2023   21:55   priv   727662119553728532   ogólny   Senko#3667   
+12.01.2023   21:56   priv   727662119553728532   ogólny   Senko#3667   
+12.01.2023   21:57   priv   727662119553728532   ogólny   Senko#3667   
+12.01.2023   21:57   priv   727662119553728532   ogólny   Senko#3667   
+13.01.2023   01:16   priv   727662119553728532   dc-bot   PAW#5844   przerobić command wrkera tak aby spradzał czy komenda jest włączona na serwie przed wywołaniem komendy,
+wyłączone komendy będą w turned_off: [] i robi foreach 
+
+dodawanie wyłączonych komend do []{
+if commands.has commandName
+yurned_od[].push(commandName)
+}
