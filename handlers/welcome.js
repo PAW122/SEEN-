@@ -56,7 +56,7 @@ client.once("guildMemberAdd", member => {
             if(bgtype == 9)var background = `https://t3.ftcdn.net/jpg/04/49/19/08/360_F_449190831_i2whvIQdDIGtuIVWT6QfenWwmRApVJ5l.jpg`
             if(bgtype == 10)var background = `https://impuls.nzsug.pl/wp-content/uploads/2020/01/HXcsVY5.png`
         }
-        console.log(`bg: ${background}`)
+        //console.log(`bg: ${background}`)
         
 
         //const guildId = member.guild.id
