@@ -10002,3 +10002,12 @@ dodawanie wyłączonych komend do []{
 if commands.has commandName
 yurned_od[].push(commandName)
 }
+15.01.2023   18:47   priv   727662119553728532   bot   PAW#5844   $ping
+15.01.2023   18:47   priv   727662119553728532   bot   PAW#5844   $ping
+15.01.2023   20:00   priv   727662119553728532   dc-bot   PAW#5844   bot musi mieć folder z gotowymi komendami
+
+dla userów premium kategoria premium z bot makerem:
+user podaje token bota
+odpowiednimi komendami dodaje komendy
+bot tworzy folder i kopiuje tam pliki z folderu z gotowcami
+potem jakoś musi wywoływać np dać maina w module export i uruchamiać czy coś
