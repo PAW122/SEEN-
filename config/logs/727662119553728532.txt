@@ -10043,3 +10043,10 @@ potem jakoś musi wywoływać np dać maina w module export i uruchamiać czy co
 16.01.2023   00:34   priv   727662119553728532   bot   PAW#5844   $host shutdown ODY5NTg3ODc3NDc3MTAxNTkw.GIyN9g.NpipCONWmTPmMR8Qfz09xXgfX6HH1o67_L9HZ0
 16.01.2023   00:38   priv   727662119553728532   bot   PAW#5844   $host ODY5NTg3ODc3NDc3MTAxNTkw.GIyN9g.NpipCONWmTPmMR8Qfz09xXgfX6HH1o67_L9HZ0
 16.01.2023   00:38   priv   727662119553728532   bot   PAW#5844   $host shutdown ODY5NTg3ODc3NDc3MTAxNTkw.GIyN9g.NpipCONWmTPmMR8Qfz09xXgfX6HH1o67_L9HZ0
+16.01.2023   01:44   priv   727662119553728532   bot   PAW#5844   $ping
+16.01.2023   09:46   priv   727662119553728532   bot   PAW#5844   $ping
+16.01.2023   10:37   priv   727662119553728532   ogólny   PAW#5844   14:30 spotykamy się
+
+Zorganizować sobie powrót
+16.01.2023   11:09   priv   727662119553728532   bot   PAW#5844   $ping
+16.01.2023   13:55   priv   727662119553728532   dc-bot   PAW#5844   Discord developer badge command na bocie
