@@ -10079,3 +10079,5 @@ dodać koemnde do logowania wszystkich wiadomości z danego kanału na danym srv
 17.01.2023   02:49   priv   727662119553728532   bot   Senko#3667   $host testbot
 17.01.2023   02:50   priv   727662119553728532   bot   Senko#3667   $host testbot
 17.01.2023   02:51   priv   727662119553728532   bot   Senko#3667   $host testbot
+17.01.2023   02:54   priv   727662119553728532   bot   PAW#5844   $ping
+17.01.2023   02:54   priv   727662119553728532   bot   PAW#5844   $host testbot
