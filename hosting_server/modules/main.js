@@ -1,5 +1,5 @@
 module.exports = {
-    execute: async (run,token, msg) => {
+    execute: async (run, token, msg) => {
 
         const Discord = require("discord.js");
         const prefix = ">"
@@ -9,10 +9,7 @@ module.exports = {
         const msg_handler = require("./msg_handler")
 
         const client = new Discord.Client({
-            intents: [
-                Discord.Intents.FLAGS.GUILDS,
-                Discord.Intents.FLAGS.GUILD_MESSAGES
-            ]
+            intents: 32767
         });
 
         handler(client)
@@ -20,20 +17,26 @@ module.exports = {
 
         client.once('ready', () => {
             msg.reply(`${client.user.tag} is online`)
+            client.user.setActivity({ name: 'power by SEEN Discord Bot', type: 'PLAYING', text: "power by SEEN Discord Bot", status: "ready" },);
         });
 
         client.on('messageCreate', async message => {
             msg_handler(client, prefix, message)
         })
 
-        if(run != true) {
-            client.destroy().then(m => {
-                return console.log("Wylogowano")
-            })
-            return
+        if (run != true) {
+            client.destroy()
+            return console.log("Wylogowano")
         }
-        if(run == true) {
+        if (run == true) {
             client.login(token)
+            console.log("Zalogowano")
+            setTimeout(() => {
+                client.destroy();
+                msg.reply(`${client.user.tag} is offline`)
+                console.log("Wylogowano")
+            }, 600000);//10min
+
         }
     }
 }

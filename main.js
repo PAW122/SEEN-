@@ -84,7 +84,8 @@ const client = new Discord.Client({
 */
 const client = new Discord.Client({
     intents: 32767
-})
+});
+
 client.commands = new Discord.Collection()
 client.help = new Discord.Collection();
 client.commandArray = [];
@@ -185,7 +186,7 @@ if (test_bot == true) {
 //error handler
 client.on('debug', (err) => { logs_handler(`${err}`, save_messages_logs_dir, 1) })
 client.on('warn', () => { console.log("error handler--warn") })
-client.on('error', () => { console.log("error handler--error") })
+client.on('error', console.error)
 //consola info
 consola.success('Built!')
 console.timeEnd();

@@ -26,7 +26,6 @@
     "discord-logs": "^2.0.1",
     "discord-player": "^5.3.2",
     "discord-xp": "^1.1.16",
-    "discord.js": "^13.9.2",
     "dotenv": "^16.0.1",
     "ejs": "^3.1.8",
     "env": "^0.0.2",
