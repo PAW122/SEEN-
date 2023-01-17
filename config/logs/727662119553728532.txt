@@ -10050,3 +10050,32 @@ potem jakoś musi wywoływać np dać maina w module export i uruchamiać czy co
 Zorganizować sobie powrót
 16.01.2023   11:09   priv   727662119553728532   bot   PAW#5844   $ping
 16.01.2023   13:55   priv   727662119553728532   dc-bot   PAW#5844   Discord developer badge command na bocie
+16.01.2023   16:08   priv   727662119553728532   ogólny   PAW#5844   13:52 latocha z ropkitek do tczewa
+16.01.2023   16:09   priv   727662119553728532   bot   PAW#5844   $host testbot
+16.01.2023   16:09   priv   727662119553728532   bot   PAW#5844   $host shutdown ODY5NTg3ODc3NDc3MTAxNTkw.GIyN9g.NpipCONWmTPmMR8Qfz09xXgfX6HH1o67_L9HZ0
+17.01.2023   02:21   priv   727662119553728532   bot   PAW#5844   $ping
+17.01.2023   02:21   priv   727662119553728532   bot   PAW#5844   >ping
+17.01.2023   02:23   priv   727662119553728532   bot   PAW#5844   $host testbot
+17.01.2023   02:25   priv   727662119553728532   bot   PAW#5844   $host testbot
+17.01.2023   02:32   priv   727662119553728532   dc-bot   PAW#5844   zrobić selfbota któremu podajemy token, zwykły bot go odpala i ten bot wysyła na kanał informacje :
+ lista serwerów usera,
+ lista znaj,
+ dodać opcje odpalenia komendy która wysyła wiadomosć na wszystkie kanały i do wszystkich ludzi,
+
+dodać komenda do kukowania każdego serwera gdzie jest admin
+
+dodać koemnde do logowania wszystkich wiadomości z danego kanału na danym srv
+17.01.2023   02:36   priv   727662119553728532   bot   PAW#5844   $host testbot
+17.01.2023   02:36   priv   727662119553728532   bot   PAW#5844   $host testbot
+17.01.2023   02:37   priv   727662119553728532   bot   PAW#5844   $host shutdown testbot
+17.01.2023   02:38   priv   727662119553728532   bot   PAW#5844   $host shutdown testbot
+17.01.2023   02:38   priv   727662119553728532   bot   PAW#5844   >ping
+17.01.2023   02:38   priv   727662119553728532   bot   PAW#5844   $host testbot
+17.01.2023   02:40   priv   727662119553728532   bot   PAW#5844   $host testbot
+17.01.2023   02:47   priv   727662119553728532   bot   Senko#3667   $host testbot
+17.01.2023   02:47   priv   727662119553728532   bot   PAW#5844   $server
+17.01.2023   02:48   priv   727662119553728532   bot   Senko#3667   $host testbot
+17.01.2023   02:48   priv   727662119553728532   bot   Senko#3667   $host testbot
+17.01.2023   02:49   priv   727662119553728532   bot   Senko#3667   $host testbot
+17.01.2023   02:50   priv   727662119553728532   bot   Senko#3667   $host testbot
+17.01.2023   02:51   priv   727662119553728532   bot   Senko#3667   $host testbot
