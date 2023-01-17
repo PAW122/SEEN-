@@ -10145,3 +10145,4 @@ dodać koemnde do logowania wszystkich wiadomości z danego kanału na danym srv
 17.01.2023   13:32   priv   727662119553728532   bot   PAW#5844   $tic-tac-toe leave
 17.01.2023   13:32   priv   727662119553728532   bot   PAW#5844   $tic-tac-toe help
 17.01.2023   13:32   priv   727662119553728532   bot   PAW#5844   $tic-tac-toe start
+17.01.2023   14:19   priv   727662119553728532   bot   PAW#5844   $ping

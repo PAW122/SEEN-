@@ -25151,3 +25151,5 @@ you currently have: 4375 💵
 14.01.2023   20:57   Porg Comunuty   438621187132751873   『-👮moderacja-』   PAW#5844   
 14.01.2023   22:51   Porg Comunuty   438621187132751873   『-👮moderacja-』   ToxicWaste#1928   
 16.01.2023   16:13   Porg Comunuty   438621187132751873   『-🤖-』botownia   PAW#5844   $host testbot
+17.01.2023   14:18   Porg Comunuty   438621187132751873   『-🤖-』botownia   PAW#5844   $help
+17.01.2023   14:20   Porg Comunuty   438621187132751873   『-🤖-』botownia   PAW#5844   $tic-tac-toe leave
