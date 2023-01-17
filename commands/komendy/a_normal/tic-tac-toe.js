@@ -13,10 +13,10 @@ const help_embed = new Discord.MessageEmbed()
     .setColor(`RANDOM`)
     .setTitle(`tic-tac-toe`)
     .setFields(
-        {name: "$tic-tac-toe", value: "play tic-tac-toe minigame with bot"},
-        {name: "start game", value: "$tic-tac-toe start"},
-        {name: "take", value: "$tic-tac-toe take 1-9"},
-        {name: "leave from game", value: "$tic-tac-toe leave"}
+        { name: "$tic-tac-toe", value: "play tic-tac-toe minigame with bot" },
+        { name: "start game", value: "$tic-tac-toe start" },
+        { name: "take", value: "$tic-tac-toe take 1-9" },
+        { name: "leave from game", value: "$tic-tac-toe leave" }
     )
 
 module.exports = {// tic-tac-toe
@@ -46,14 +46,6 @@ async function main(message, args, client) {
     if (args[0] == "take") {
         do_move_by_player(message, args)
     }
-    const NO_MOVE = 0;
-    var PLAYER_1 = 1;//user
-    var PLAYER_2 = 2;//AI
-    const cpu_mistake_chance = 5;
-
-
-
-    var moves = 0;
 }
 
 async function do_move_by_player(message, args) { // po tym musi być kolejka dla bota
@@ -71,10 +63,8 @@ async function do_move_by_player(message, args) { // po tym musi być kolejka dl
         let board = await db.get(`board`)
         if (check_is_pole_was_taken(board, taken_place, message) == false) {
             message.reply("To pole jest zajęte")
-            return console.log("Koniec działania. user musi ponownie użyć komendy")
+            return
         }
-        //pole nie jest zajęte
-        //to do: przejmowanie pola przez gracza
 
         let baord_to_save = board.board
         //zapisywanie pola jako: pole zajęte przez gracza
@@ -125,88 +115,209 @@ async function do_move_by_player(message, args) { // po tym musi być kolejka dl
     }
 }
 
-async function ai_move(baord_to_save, message) {
+async function ai_move(board, message) {
     const db = new QuickDB({ filePath: process.cwd() + `/db/tic-tac-toe/${message.author.id}.sqlite` });
 
-    if (is_win(1, baord_to_save) == true) {
+    if (isMovesLeft(board) == false) {
         return message.reply("You Win")
     }
 
-    //strategy 1 --start
-    //##2    ##x
-    //#1# => #x#
-    //3##    x##
-    var ai_move = 0;
-    if (ai_move == 0) {
-        if (baord_to_save[1][1] == 0) {
-            baord_to_save[1][1] = 2//2 == AI
-            ai_move++
+
+    //ai
+
+    class Move {
+        constructor() {
+            let row, col;
         }
     }
-    if (ai_move == 0) {
-        if (baord_to_save[1][1] == 2) {
-            if (baord_to_save[0][2] == 0) {
-                baord_to_save[0][2] = 2//2 == AI
-                ai_move++
+
+    function isMovesLeft(board) {
+        for (let i = 0; i < 3; i++)
+            for (let j = 0; j < 3; j++)
+                if (board[i][j] == 0)
+                    return true;
+
+        return false;
+    }
+
+    function evaluate(b) {
+
+        // Checking for Rows for X or O victory.
+        for (let row = 0; row < 3; row++) {
+            if (b[row][0] == b[row][1] &&
+                b[row][1] == b[row][2]) {
+                if (b[row][0] == player)
+                    return +10;
+
+                else if (b[row][0] == opponent)
+                    return -10;
             }
         }
-    }
-    if (ai_move == 0) {
-        if (baord_to_save[1][1] == 2 && baord_to_save[0][2] == 2) {
-            if (baord_to_save[2][0] == 0) {
-                baord_to_save[2][0] = 2//2 == AI
-                ai_move++
+
+        // Checking for Columns for X or O victory.
+        for (let col = 0; col < 3; col++) {
+            if (b[0][col] == b[1][col] &&
+                b[1][col] == b[2][col]) {
+                if (b[0][col] == player)
+                    return +10;
+
+                else if (b[0][col] == opponent)
+                    return -10;
             }
         }
-    }
-    //strategy 1 --end
 
-    //startegy 2 --start
-    //##o    ##o
-    //1x2 => xxx
-    //o##    o##
-    if (ai_move == 0) {
-        if (baord_to_save[0][2] == 1 && baord_to_save[1][1] == 2 && baord_to_save[2][0] == 1) {
-            if (baord_to_save[1][0] == 0) {
-                baord_to_save[1][0] = 2//2 == AI
-                ai_move++
+        // Checking for Diagonals for X or O victory.
+        if (b[0][0] == b[1][1] && b[1][1] == b[2][2]) {
+            if (b[0][0] == player)
+                return +10;
+
+            else if (b[0][0] == opponent)
+                return -10;
+        }
+
+        if (b[0][2] == b[1][1] &&
+            b[1][1] == b[2][0]) {
+            if (b[0][2] == player)
+                return +10;
+
+            else if (b[0][2] == opponent)
+                return -10;
+        }
+
+        // Else if none of them have
+        // won then return 0
+        return 0;
+    }
+
+    let player = 2, opponent = 1;
+    function minimax(board, depth, isMax) {
+        let score = evaluate(board);
+
+        // If Maximizer has won the game
+        // return his/her evaluated score
+        if (score == 10)
+            return score;
+
+        // If Minimizer has won the game
+        // return his/her evaluated score
+        if (score == -10)
+            return score;
+
+        // If there are no more moves and
+        // no winner then it is a tie
+        if (isMovesLeft(board) == false)
+            return 0;
+
+        // If this maximizer's move
+        if (isMax) {
+            let best = -1000;
+
+            // Traverse all cells
+            for (let i = 0; i < 3; i++) {
+                for (let j = 0; j < 3; j++) {
+
+                    // Check if cell is empty
+                    if (board[i][j] == 0) {
+
+                        // Make the move
+                        board[i][j] = player;
+
+                        // Call minimax recursively
+                        // and choose the maximum value
+                        best = Math.max(best, minimax(board,
+                            depth + 1, !isMax));
+
+                        // Undo the move
+                        board[i][j] = 0;
+                    }
+                }
+            }
+            return best;
+        }
+
+        // If this minimizer's move
+        else {
+            let best = 1000;
+
+            // Traverse all cells
+            for (let i = 0; i < 3; i++) {
+                for (let j = 0; j < 3; j++) {
+
+                    // Check if cell is empty
+                    if (board[i][j] == 0) {
+
+                        // Make the move
+                        board[i][j] = opponent;
+
+                        // Call minimax recursively and
+                        // choose the minimum value
+                        best = Math.min(best, minimax(board,
+                            depth + 1, !isMax));
+
+                        // Undo the move
+                        board[i][j] = 0;
+                    }
+                }
+            }
+            return best;
+        }
+    }
+
+    function findBestMove(board) {
+        let bestVal = -1000;
+        let bestMove = new Move();
+        bestMove.row = -1;
+        bestMove.col = -1;
+
+        // Traverse all cells, evaluate
+        // minimax function for all empty
+        // cells. And return the cell
+        // with optimal value.
+        for (let i = 0; i < 3; i++) {
+            for (let j = 0; j < 3; j++) {
+
+                // Check if cell is empty
+                if (board[i][j] == 0) {
+
+                    // Make the move
+                    board[i][j] = player;
+
+                    // compute evaluation function
+                    // for this move.
+                    let moveVal = minimax(board, 0, false);
+
+                    // Undo the move
+                    board[i][j] = 0;
+
+                    // If the value of the current move
+                    // is more than the best value, then
+                    // update best
+                    if (moveVal > bestVal) {
+                        bestMove.row = i;
+                        bestMove.col = j;
+                        bestVal = moveVal;
+                    }
+                }
             }
         }
+
+        return bestMove;
     }
-    if (ai_move == 0) {
-        if (baord_to_save[0][2] == 1 && baord_to_save[1][1] == 2 && baord_to_save[2][0] == 1 && baord_to_save[1][0] == 2) {
-            if (baord_to_save[1][2] == 0) {
-                baord_to_save[1][2] = 2//2 == AI
-                ai_move++
-            }
-        }
-    }
-    //startegy 2 --end
+    let bestMove = findBestMove(board);
+    board[bestMove.row][bestMove.col] = 2
+    //ai
 
-    //strategy 3 --start
-    //o#o    oxo
-    //#x# => #x#
-    //###    o##
-    if (ai_move == 0) {
-        if (baord_to_save[0][0] == 1 && baord_to_save[0][2] == 1 && baord_to_save[0][1] == 0) {
-            baord_to_save[0][1] = 2//2 == AI
-            ai_move++
+    await db.set(`board`, { board: board })
 
-        }
-    }
-    //strategy 3 --end
-
-    await db.set(`board`, { board: baord_to_save })
-
-    const board = await db.get(`board`)
-    const send_board = draw_board(board, 1)
+    const board2 = await db.get(`board`)
+    const send_board = draw_board(board2, 1)
 
     const embed = new Discord.MessageEmbed()
         .setTitle("tic-tac-toe AI move")
         .setDescription("board:\n" + send_board)
     message.channel.send({ embeds: [embed] })
 
-    if (is_win(2, baord_to_save) == true) {
+    if (isMovesLeft(board) == false) {
         return message.reply("Ai Win")
     }
 
@@ -263,13 +374,27 @@ async function leave(message, args) {
 
 }
 
+function who_start() {
+    //true - player
+    //false - ai
+    if(Math.random() == 0) {
+        return false
+    }else{
+        return true
+    }
+}
+
 function start(message, args, gameBoard) {
     const player = message.author
     const next_move = message.author
     safe_data(gameBoard, player, next_move)
-    message.reply("Gra się rozpoczeła użyj $tic-tac-toe take <1-9> aby prejąć pole")
-    // console.log("plansza")
-    // console.log(gameBoard)
+
+    if(who_start() == true) {
+        message.reply("Gracz rozpoczyna. użyj $tic-tac-toe take <1-9> aby prejąć pole")
+    } else {
+        message.reply("Bot rozpoczyna. użyj $tic-tac-toe take <1-9> aby prejąć pole")
+        ai_move(gameBoard, message)
+    }
     draw_board(gameBoard, player)
     return 0;
 }
@@ -347,56 +472,4 @@ function draw_board(dbboard, PLAYER_1) {
     } else { var pole9 = "🟥" }
 
     return `${pole1} ${pole2} ${pole3}\n${pole4} ${pole5} ${pole6} \n${pole7} ${pole8} ${pole9}`
-
-}
-
-function is_win(player, baord_to_save) {
-    //player 1 = user
-    //player 2 = AI
-
-    //dla każdej wygranej poziomej
-    if (baord_to_save[0][0] == player
-        && baord_to_save[0][1] == player
-        && baord_to_save[0][2] == player) {
-        return true
-    }
-    if (baord_to_save[1][0] == player
-        && baord_to_save[1][1] == player
-        && baord_to_save[1][2] == player) {
-        return true
-    }
-    if (baord_to_save[2][0] == player
-        && baord_to_save[2][1] == player
-        && baord_to_save[2][2] == player) {
-        return true
-    }
-
-    //dla każdej wygranej pionowej
-    if (baord_to_save[0][0] == player
-        && baord_to_save[1][0] == player
-        && baord_to_save[2][0] == player) {
-        return true
-    }
-    if (baord_to_save[0][1] == player
-        && baord_to_save[1][1] == player
-        && baord_to_save[2][1] == player) {
-        return true
-    }
-    if (baord_to_save[0][2] == player
-        && baord_to_save[1][2] == player
-        && baord_to_save[2][2] == player) {
-        return true
-    }
-
-    //dla wygranych po skosie
-    if (baord_to_save[0][0] == player
-        && baord_to_save[1][1] == player
-        && baord_to_save[2][2] == player) {
-        return true
-    }
-    if (baord_to_save[0][2] == player
-        && baord_to_save[1][1] == player
-        && baord_to_save[2][0] == player) {
-        return true
-    }
 }

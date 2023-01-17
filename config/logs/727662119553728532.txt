@@ -10081,3 +10081,67 @@ dodać koemnde do logowania wszystkich wiadomości z danego kanału na danym srv
 17.01.2023   02:51   priv   727662119553728532   bot   Senko#3667   $host testbot
 17.01.2023   02:54   priv   727662119553728532   bot   PAW#5844   $ping
 17.01.2023   02:54   priv   727662119553728532   bot   PAW#5844   $host testbot
+17.01.2023   12:09   priv   727662119553728532   bot   PAW#5844   $help
+17.01.2023   12:09   priv   727662119553728532   bot   PAW#5844   $tic-tac-toe leave
+17.01.2023   12:09   priv   727662119553728532   bot   PAW#5844   $tic-tac-toe start
+17.01.2023   12:11   priv   727662119553728532   bot   PAW#5844   $tic-tac-toe take 1
+17.01.2023   12:12   priv   727662119553728532   bot   PAW#5844   $tic-tac-toe leave
+17.01.2023   12:12   priv   727662119553728532   bot   PAW#5844   $tic-tac-toe start
+17.01.2023   12:12   priv   727662119553728532   bot   PAW#5844   $tic-tac-toe take 1
+17.01.2023   12:13   priv   727662119553728532   bot   PAW#5844   $tic-tac-toe take 3
+17.01.2023   12:13   priv   727662119553728532   bot   PAW#5844   $tic-tac-toe leave
+17.01.2023   12:14   priv   727662119553728532   bot   PAW#5844   $tic-tac-toe start
+17.01.2023   12:14   priv   727662119553728532   bot   PAW#5844   $tic-tac-toe take 1
+17.01.2023   12:15   priv   727662119553728532   bot   PAW#5844   $tic-tac-toe take 2
+17.01.2023   12:16   priv   727662119553728532   bot   PAW#5844   $tic-tac-toe leave
+17.01.2023   12:16   priv   727662119553728532   bot   PAW#5844   $tic-tac-toe start
+17.01.2023   12:16   priv   727662119553728532   bot   PAW#5844   $tic-tac-toe leave
+17.01.2023   12:16   priv   727662119553728532   bot   PAW#5844   $tic-tac-toe start
+17.01.2023   12:17   priv   727662119553728532   bot   PAW#5844   $tic-tac-toe leave
+17.01.2023   12:17   priv   727662119553728532   bot   PAW#5844   $tic-tac-toe start
+17.01.2023   12:17   priv   727662119553728532   bot   PAW#5844   $tic-tac-toe take 1
+17.01.2023   12:18   priv   727662119553728532   bot   PAW#5844   $tic-tac-toe leave
+17.01.2023   12:19   priv   727662119553728532   bot   PAW#5844   $tic-tac-toe star
+17.01.2023   12:19   priv   727662119553728532   bot   PAW#5844   $tic-tac-toe start
+17.01.2023   12:19   priv   727662119553728532   bot   PAW#5844   $tic-tac-toe take 1
+17.01.2023   12:21   priv   727662119553728532   bot   PAW#5844   $tic-tac-toe take 3
+17.01.2023   12:21   priv   727662119553728532   bot   PAW#5844   $tic-tac-toe take 4
+17.01.2023   12:21   priv   727662119553728532   bot   PAW#5844   $tic-tac-toe leaft
+17.01.2023   12:21   priv   727662119553728532   bot   PAW#5844   $tic-tac-toe leave
+17.01.2023   12:21   priv   727662119553728532   bot   PAW#5844   $tic-tac-toe start
+17.01.2023   12:21   priv   727662119553728532   bot   PAW#5844   $tic-tac-toe take 1
+17.01.2023   12:22   priv   727662119553728532   bot   PAW#5844   $tic-tac-toe take 5
+17.01.2023   12:22   priv   727662119553728532   bot   PAW#5844   $tic-tac-toe take 9
+17.01.2023   12:22   priv   727662119553728532   bot   PAW#5844   $tic-tac-toe leave
+17.01.2023   12:22   priv   727662119553728532   bot   PAW#5844   $tic-tac-toe start
+17.01.2023   12:22   priv   727662119553728532   bot   PAW#5844   $tic-tac-toe take 5
+17.01.2023   12:22   priv   727662119553728532   bot   PAW#5844   $tic-tac-toe take 4
+17.01.2023   12:22   priv   727662119553728532   bot   PAW#5844   $tic-tac-toe take 6
+17.01.2023   12:24   priv   727662119553728532   bot   PAW#5844   $tic-tac-toe leave
+17.01.2023   12:24   priv   727662119553728532   bot   PAW#5844   $tic-tac-toe start
+17.01.2023   12:24   priv   727662119553728532   bot   PAW#5844   $tic-tac-toe take 1
+17.01.2023   12:24   priv   727662119553728532   bot   PAW#5844   $tic-tac-toe take 5
+17.01.2023   12:24   priv   727662119553728532   bot   PAW#5844   $tic-tac-toe take 9
+17.01.2023   12:28   priv   727662119553728532   bot   PAW#5844   $tic-tac-toe leave
+17.01.2023   12:28   priv   727662119553728532   bot   PAW#5844   $tic-tac-toe start
+17.01.2023   12:28   priv   727662119553728532   bot   PAW#5844   $tic-tac-toe take 1
+17.01.2023   12:28   priv   727662119553728532   bot   PAW#5844   $tic-tac-toe take 4
+17.01.2023   12:42   priv   727662119553728532   bot   PAW#5844   $tic-tac-toe leave
+17.01.2023   12:42   priv   727662119553728532   bot   PAW#5844   $tic-tac-toe start
+17.01.2023   12:42   priv   727662119553728532   bot   PAW#5844   $tic-tac-toe take 1
+17.01.2023   12:43   priv   727662119553728532   bot   PAW#5844   $tic-tac-toe take 3
+17.01.2023   12:43   priv   727662119553728532   bot   PAW#5844   $tic-tac-toe take 5
+17.01.2023   12:43   priv   727662119553728532   bot   PAW#5844   $tic-tac-toe take 7
+17.01.2023   12:55   priv   727662119553728532   bot   PAW#5844   $tic-tac-toe leave
+17.01.2023   12:56   priv   727662119553728532   bot   PAW#5844   $tic-tac-toe start
+17.01.2023   12:56   priv   727662119553728532   bot   PAW#5844   $tic-tac-toe take 1
+17.01.2023   12:56   priv   727662119553728532   bot   PAW#5844   $tic-tac-toe take 2
+17.01.2023   12:56   priv   727662119553728532   bot   PAW#5844   $tic-tac-toe take 7
+17.01.2023   12:56   priv   727662119553728532   bot   PAW#5844   $tic-tac-toe take 6
+17.01.2023   12:56   priv   727662119553728532   bot   PAW#5844   $tic-tac-toe take 9
+17.01.2023   12:59   priv   727662119553728532   bot   PAW#5844   $tic-tac-toe help
+17.01.2023   13:32   priv   727662119553728532   bot   PAW#5844   $tic-tac-toe leave
+17.01.2023   13:32   priv   727662119553728532   bot   PAW#5844   $tic-tac-toe start
+17.01.2023   13:32   priv   727662119553728532   bot   PAW#5844   $tic-tac-toe leave
+17.01.2023   13:32   priv   727662119553728532   bot   PAW#5844   $tic-tac-toe help
+17.01.2023   13:32   priv   727662119553728532   bot   PAW#5844   $tic-tac-toe start
