@@ -71,22 +71,18 @@ async function do_move_by_player(message, args) { // po tym musi być kolejka dl
         let taken_place_arr = taken_place - 1
         if (taken_place <= 3) {
             board.board[0][taken_place_arr] = 1
-            //baord_to_save[0][taken_place_arr]
         }
 
         let taken_place_arr2 = taken_place_arr - 3
         if (taken_place > 3 && taken_place < 7) {
             board.board[1][taken_place_arr2] = 1
-            //baord_to_save[1][taken_place_arr2]
         }
 
         let taken_place_arr3 = taken_place_arr2 - 3
         if (taken_place > 6) {
             board.board[2][taken_place_arr3] = 1
-            //baord_to_save[3][taken_place_arr3]
         }
 
-        //player1 = 1
         const board_to_send = draw_board(board, 1)
 
         const embed = new Discord.MessageEmbed()
@@ -118,10 +114,13 @@ async function do_move_by_player(message, args) { // po tym musi być kolejka dl
 async function ai_move(board, message) {
     const db = new QuickDB({ filePath: process.cwd() + `/db/tic-tac-toe/${message.author.id}.sqlite` });
 
-    if (isMovesLeft(board) == false) {
-        return message.reply("You Win")
-    }
+    var isMoveL = isMovesLeft(board)
+    var is_win_P = is_win(1, board)
+    var is_win_AI = is_win(2, board)
 
+    if (isMoveL == false && is_win_P != true && is_win_AI != true) {
+        return message.reply("Draw")
+    }
 
     //ai
 
@@ -317,8 +316,20 @@ async function ai_move(board, message) {
         .setDescription("board:\n" + send_board)
     message.channel.send({ embeds: [embed] })
 
-    if (isMovesLeft(board) == false) {
-        return message.reply("Ai Win")
+    var isMoveL = isMovesLeft(board)
+    var is_win_P = is_win(1, board)
+    var is_win_AI = is_win(2, board)
+
+    if (isMoveL == false && is_win_P != true && is_win_AI != true) {
+        return message.reply("Draw")
+    }
+
+    if (is_win_P == true) {
+        return message.reply("Player Win")
+    }
+
+    if (is_win_AI == true) {
+        return message.reply("Bot Win")
     }
 
     return
@@ -352,10 +363,6 @@ async function check_is_player(message) {
     const check = await db.get(`check`)
     if (check == true) {
         return true
-    }
-
-    if (talkedRecently.has(message.author.id)) {
-        return true
     } else {
         return false
     }
@@ -374,12 +381,18 @@ async function leave(message, args) {
 
 }
 
+function getRandomInt(max) {
+    return Math.floor(Math.random() * max);
+}
+
 function who_start() {
     //true - player
     //false - ai
-    if(Math.random() == 0) {
+    const rng = getRandomInt(2)
+    if (rng == 0) {
+        console.log("Startuje: " + rng)
         return false
-    }else{
+    } else {
         return true
     }
 }
@@ -387,14 +400,15 @@ function who_start() {
 function start(message, args, gameBoard) {
     const player = message.author
     const next_move = message.author
-    safe_data(gameBoard, player, next_move)
 
-    if(who_start() == true) {
+    if (who_start() == true) {
         message.reply("Gracz rozpoczyna. użyj $tic-tac-toe take <1-9> aby prejąć pole")
     } else {
         message.reply("Bot rozpoczyna. użyj $tic-tac-toe take <1-9> aby prejąć pole")
         ai_move(gameBoard, message)
     }
+
+    safe_data(gameBoard, player, next_move)
     draw_board(gameBoard, player)
     return 0;
 }
@@ -472,4 +486,56 @@ function draw_board(dbboard, PLAYER_1) {
     } else { var pole9 = "🟥" }
 
     return `${pole1} ${pole2} ${pole3}\n${pole4} ${pole5} ${pole6} \n${pole7} ${pole8} ${pole9}`
+}
+
+function is_win(player, baord_to_save) {
+    //player 1 = user
+    //player 2 = AI
+
+    //dla każdej wygranej poziomej
+    if (baord_to_save[0][0] == player
+        && baord_to_save[0][1] == player
+        && baord_to_save[0][2] == player) {
+        return true
+    }
+    if (baord_to_save[1][0] == player
+        && baord_to_save[1][1] == player
+        && baord_to_save[1][2] == player) {
+        return true
+    }
+    if (baord_to_save[2][0] == player
+        && baord_to_save[2][1] == player
+        && baord_to_save[2][2] == player) {
+        return true
+    }
+
+    //dla każdej wygranej pionowej
+    if (baord_to_save[0][0] == player
+        && baord_to_save[1][0] == player
+        && baord_to_save[2][0] == player) {
+        return true
+    }
+    if (baord_to_save[0][1] == player
+        && baord_to_save[1][1] == player
+        && baord_to_save[2][1] == player) {
+        return true
+    }
+    if (baord_to_save[0][2] == player
+        && baord_to_save[1][2] == player
+        && baord_to_save[2][2] == player) {
+        return true
+    }
+
+    //dla wygranych po skosie
+    if (baord_to_save[0][0] == player
+        && baord_to_save[1][1] == player
+        && baord_to_save[2][2] == player) {
+        return true
+    }
+    if (baord_to_save[0][2] == player
+        && baord_to_save[1][1] == player
+        && baord_to_save[2][0] == player) {
+        return true
+    }
+    return false
 }
