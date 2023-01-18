@@ -25153,3 +25153,76 @@ you currently have: 4375 💵
 16.01.2023   16:13   Porg Comunuty   438621187132751873   『-🤖-』botownia   PAW#5844   $host testbot
 17.01.2023   14:18   Porg Comunuty   438621187132751873   『-🤖-』botownia   PAW#5844   $help
 17.01.2023   14:20   Porg Comunuty   438621187132751873   『-🤖-』botownia   PAW#5844   $tic-tac-toe leave
+17.01.2023   19:07   Porg Comunuty   438621187132751873   『-🤖-』botownia   PAW#5844   $tic-tac-toe start
+17.01.2023   19:07   Porg Comunuty   438621187132751873   『-🤖-』botownia   PAW#5844   $tic-tac-toe take 1
+17.01.2023   19:07   Porg Comunuty   438621187132751873   『-🤖-』botownia   PAW#5844   $tic-tac-toe take 3
+17.01.2023   19:07   Porg Comunuty   438621187132751873   『-🤖-』botownia   PAW#5844   $tic-tac-toe help
+17.01.2023   19:07   Porg Comunuty   438621187132751873   『-🤖-』botownia   ToxicWaste#1928   $tic-tac-toe start
+17.01.2023   19:07   Porg Comunuty   438621187132751873   『-🤖-』botownia   ToxicWaste#1928   $tic-tac-toe take 5
+17.01.2023   19:08   Porg Comunuty   438621187132751873   『-🤖-』botownia   ToxicWaste#1928   $tic-tac-toe take 9
+17.01.2023   19:08   Porg Comunuty   438621187132751873   『-🤖-』botownia   ToxicWaste#1928   $tic-tac-toe take 2
+17.01.2023   19:08   Porg Comunuty   438621187132751873   『-🤖-』botownia   ToxicWaste#1928   $tic-tac-toe take 4
+17.01.2023   19:08   Porg Comunuty   438621187132751873   『-🤖-』botownia   ToxicWaste#1928   $tic-tac-toe take 7
+17.01.2023   19:08   Porg Comunuty   438621187132751873   『-🤖-』botownia   ToxicWaste#1928   $tic-tac-toe leave
+17.01.2023   19:10   Porg Comunuty   438621187132751873   『-🤖-』botownia   PAW#5844   $tic-tac-toe leave
+17.01.2023   19:10   Porg Comunuty   438621187132751873   『-🤖-』botownia   PAW#5844   $tic-tac-toe start
+17.01.2023   19:37   Porg Comunuty   438621187132751873   『-💭-』general   Krokiet#5726   <@&1038216444476936242>  brakuje osoby do 5 na rankedy
+17.01.2023   19:47   Porg Comunuty   438621187132751873   『-👋-』powitalnia   ketus#8838   
+17.01.2023   19:47   Porg Comunuty   438621187132751873   『-👋-』powitalnia   WIXA#3954   
+17.01.2023   19:54   Porg Comunuty   438621187132751873   『-💭-』general   ketus#8838   
+17.01.2023   19:54   Porg Comunuty   438621187132751873   『-💭-』general   WIXA#3954   kto cie wykerował
+17.01.2023   20:06   Porg Comunuty   438621187132751873   『-💭-』general   ToxicWaste#1928   
+17.01.2023   20:08   Porg Comunuty   438621187132751873   『-💭-』general   ketus#8838   
+17.01.2023   20:08   Porg Comunuty   438621187132751873   『-💭-』general   ToxicWaste#1928   lmao
+17.01.2023   20:08   Porg Comunuty   438621187132751873   『-💭-』general   Krokiet#5726   lmao
+17.01.2023   20:08   Porg Comunuty   438621187132751873   『-💭-』general   PAW#5844   $valo mmr PAW1172016
+17.01.2023   20:09   Porg Comunuty   438621187132751873   『-💭-』general   PAW#5844   $valo mmr PAW1172016 EUNE
+17.01.2023   20:09   Porg Comunuty   438621187132751873   『-💭-』general   ketus#8838   #valo mmr purp#5781
+17.01.2023   20:09   Porg Comunuty   438621187132751873   『-💭-』general   PAW#5844   $valo mmr PURP 5781
+17.01.2023   20:09   Porg Comunuty   438621187132751873   『-💭-』general   Krokiet#5726   $valo mmr Krokiet3962 4967
+17.01.2023   20:09   Porg Comunuty   438621187132751873   『-💭-』general   ToxicWaste#1928   $valo mmr ToxicWaste#4154
+17.01.2023   20:10   Porg Comunuty   438621187132751873   『-💭-』general   PAW#5844   $valo mmr ToxicWaste 4154
+17.01.2023   20:11   Porg Comunuty   438621187132751873   『-💭-』general   PAW#5844   $valo mmrHistory PAW1172016 EUNE
+17.01.2023   21:01   Porg Comunuty   438621187132751873   『-💭-』general   ketus#8838   ig ketusxdd
+17.01.2023   21:02   Porg Comunuty   438621187132751873   『-💭-』general   ketus#8838   \
+17.01.2023   21:51   Porg Comunuty   438621187132751873   『-💭-』general   Krokiet#5726   jestem juz jak cos <@577507822011416592>  <@438336824516149249>
+17.01.2023   22:08   Porg Comunuty   438621187132751873   『-🤖-』botownia   ToxicWaste#1928   $tic-tac-toe start
+17.01.2023   22:08   Porg Comunuty   438621187132751873   『-🤖-』botownia   ToxicWaste#1928   $tic-tac-toe take 5
+17.01.2023   22:08   Porg Comunuty   438621187132751873   『-🤖-』botownia   ToxicWaste#1928   $tic-tac-toe take 3
+17.01.2023   22:08   Porg Comunuty   438621187132751873   『-🤖-』botownia   ToxicWaste#1928   $tic-tac-toe take 4
+17.01.2023   22:08   Porg Comunuty   438621187132751873   『-🤖-』botownia   ToxicWaste#1928   $tic-tac-toe take 2
+17.01.2023   22:08   Porg Comunuty   438621187132751873   『-🤖-』botownia   ToxicWaste#1928   $tic-tac-toe take 9
+17.01.2023   22:08   Porg Comunuty   438621187132751873   『-🤖-』botownia   ToxicWaste#1928   $tic-tac-toe start
+17.01.2023   22:08   Porg Comunuty   438621187132751873   『-🤖-』botownia   ToxicWaste#1928   $tic-tac-toe take 2
+17.01.2023   22:09   Porg Comunuty   438621187132751873   『-🤖-』botownia   ToxicWaste#1928   $tic-tac-toe take 8
+17.01.2023   22:09   Porg Comunuty   438621187132751873   『-🤖-』botownia   ToxicWaste#1928   $tic-tac-toe take 9
+17.01.2023   22:09   Porg Comunuty   438621187132751873   『-🤖-』botownia   ToxicWaste#1928   $tic-tac-toe take 3
+17.01.2023   22:09   Porg Comunuty   438621187132751873   『-🤖-』botownia   ToxicWaste#1928   $tic-tac-toe start
+17.01.2023   22:09   Porg Comunuty   438621187132751873   『-🤖-』botownia   ToxicWaste#1928   $tic-tac-toe take 5
+17.01.2023   22:09   Porg Comunuty   438621187132751873   『-🤖-』botownia   Krokiet#5726   $tic-tac-toe start
+17.01.2023   22:09   Porg Comunuty   438621187132751873   『-🤖-』botownia   ToxicWaste#1928   $tic-tac-toe take 3
+17.01.2023   22:09   Porg Comunuty   438621187132751873   『-🤖-』botownia   ToxicWaste#1928   $tic-tac-toe take 4
+17.01.2023   22:09   Porg Comunuty   438621187132751873   『-🤖-』botownia   ToxicWaste#1928   $tic-tac-toe take 9
+17.01.2023   22:10   Porg Comunuty   438621187132751873   『-🤖-』botownia   Krokiet#5726   $tic-tac-toe start
+17.01.2023   22:10   Porg Comunuty   438621187132751873   『-🤖-』botownia   ToxicWaste#1928   $tic-tac-toe leave
+17.01.2023   22:10   Porg Comunuty   438621187132751873   『-🤖-』botownia   Krokiet#5726   $tic-tac-toe 5
+17.01.2023   22:10   Porg Comunuty   438621187132751873   『-🤖-』botownia   Krokiet#5726   $tic-tac-toe take 5
+17.01.2023   22:10   Porg Comunuty   438621187132751873   『-🤖-』botownia   Krokiet#5726   $tic-tac-toe take 3
+17.01.2023   22:10   Porg Comunuty   438621187132751873   『-🤖-』botownia   Krokiet#5726   $tic-tac-toe take 4
+17.01.2023   22:10   Porg Comunuty   438621187132751873   『-🤖-』botownia   Krokiet#5726   $tic-tac-toe take 9
+18.01.2023   00:30   Porg Comunuty   438621187132751873   『-🤖-』botownia   PAW#5844   $tic-tac-toe leave
+18.01.2023   00:31   Porg Comunuty   438621187132751873   『-🤖-』botownia   PAW#5844   $tic-tac-toe start
+18.01.2023   00:31   Porg Comunuty   438621187132751873   『-🤖-』botownia   PAW#5844   $tic-tac-toe take 1
+18.01.2023   00:31   Porg Comunuty   438621187132751873   『-🤖-』botownia   PAW#5844   $tic-tac-toe take 2
+18.01.2023   00:31   Porg Comunuty   438621187132751873   『-🤖-』botownia   PAW#5844   $tic-tac-toe take 7
+18.01.2023   00:31   Porg Comunuty   438621187132751873   『-🤖-』botownia   PAW#5844   $tic-tac-toe take 6
+18.01.2023   00:36   Porg Comunuty   438621187132751873   『-🔞-』stuleja-zone   PAW#5844   $help
+18.01.2023   00:36   Porg Comunuty   438621187132751873   『-🔞-』stuleja-zone   PAW#5844   $animeseen
+18.01.2023   00:36   Porg Comunuty   438621187132751873   『-🔞-』stuleja-zone   PAW#5844   $animeseen help
+18.01.2023   00:37   Porg Comunuty   438621187132751873   『-🔞-』stuleja-zone   PAW#5844   $anime
+18.01.2023   00:37   Porg Comunuty   438621187132751873   『-🔞-』stuleja-zone   PAW#5844   $animegif help
+18.01.2023   00:37   Porg Comunuty   438621187132751873   『-🔞-』stuleja-zone   PAW#5844   $animegif boobs
+18.01.2023   00:37   Porg Comunuty   438621187132751873   『-🔞-』stuleja-zone   Krokiet#5726   $animegif boobs
+18.01.2023   00:37   Porg Comunuty   438621187132751873   『-🔞-』stuleja-zone   Krokiet#5726   $animegif boobs
+18.01.2023   00:37   Porg Comunuty   438621187132751873   『-🔞-』stuleja-zone   Krokiet#5726   $animegif boobs
+18.01.2023   00:37   Porg Comunuty   438621187132751873   『-🔞-』stuleja-zone   Krokiet#5726   $animegif boobs
