@@ -1,11 +1,6 @@
-const workerhandler = require(process.cwd() + `/config/worker.js`)
-const work = workerhandler.help
-const worker = workerhandler.help_work
-const reason = workerhandler.help_disable
-const config = require("../../../config/config")
+
 const Discord = require('discord.js');
 const { SlashCommandBuilder } = require('@discordjs/builders');
-const prefix = config.prefix
 const embed_pl = new Discord.MessageEmbed()
     .setColor(`BLUE`)
     .setTitle(`Help Page`)
@@ -48,25 +43,6 @@ const embed_pl = new Discord.MessageEmbed()
 module.exports = {
     name: `help!`,
     description: `help command`,
-    work: worker,
-    isSlash: true,
-
-    data: new SlashCommandBuilder()
-        .setName('help')
-        .setDescription('send list with all bot commands'),
-    executeInteraction: async (inter) => { 
-        if(work != true){
-            const embed_worker = new Discord.MessageEmbed()
-            .setTitle('**help**')
-            .setColor('RANDOM')
-            .setDescription(`${reason}`)
-        inter.reply({ embeds: [embed_worker] });
-        return(console.log("command id disabled"))
-        }else{
-        inter.reply({ embeds: [embed_pl] });
-        }
-    },
-
     execute: async (message, args) => {//trzeba dodać help do anime!!!!
 
         if (work != true) { return message.channel.send(reason) }
