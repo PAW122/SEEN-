@@ -10228,3 +10228,8 @@ dodać koemnde do logowania wszystkich wiadomości z danego kanału na danym srv
 18.01.2023   00:33   priv   727662119553728532   bot   PAW#5844   $host testbot
 18.01.2023   00:34   priv   727662119553728532   bot   PAW#5844   $host testbot
 18.01.2023   00:34   priv   727662119553728532   bot   PAW#5844   >ping
+18.01.2023   02:34   priv   727662119553728532   dc-bot   PAW#5844   https://youtu.be/u0adKDu--cA
+18.01.2023   13:16   priv   727662119553728532   bot   PAW#5844   $ping
+18.01.2023   16:56   priv   727662119553728532   ogólny   PAW#5844   Poniedziałem do 19
+18.01.2023   17:26   priv   727662119553728532   bot   PAW#5844   $ping
+18.01.2023   19:47   priv   727662119553728532   bot   PAW#5844   $help
