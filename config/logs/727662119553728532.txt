@@ -10233,3 +10233,17 @@ dodać koemnde do logowania wszystkich wiadomości z danego kanału na danym srv
 18.01.2023   16:56   priv   727662119553728532   ogólny   PAW#5844   Poniedziałem do 19
 18.01.2023   17:26   priv   727662119553728532   bot   PAW#5844   $ping
 18.01.2023   19:47   priv   727662119553728532   bot   PAW#5844   $help
+18.01.2023   23:30   priv   727662119553728532   dc-bot   PAW#5844   $help
+19.01.2023   03:47   priv   727662119553728532   bot   PAW#5844   $help tic-tac-toe
+19.01.2023   03:47   priv   727662119553728532   bot   PAW#5844   $tic-tac-toe pvp <@797070806885990431>
+19.01.2023   03:48   priv   727662119553728532   bot   PAW#5844   $tic-tac-toe leave
+19.01.2023   03:48   priv   727662119553728532   bot   PAW#5844   $tic-tac-toe pvp <@778643150981562368>
+19.01.2023   03:48   priv   727662119553728532   bot   Senko#3667   $tic-tac-toe leave
+19.01.2023   03:48   priv   727662119553728532   bot   PAW#5844   $tic-tac-toe pvp <@778643150981562368>
+19.01.2023   03:50   priv   727662119553728532   bot   PAW#5844   $tic-tac-toe take 2
+19.01.2023   03:51   priv   727662119553728532   bot   Senko#3667   $tic-tac-toe take 3
+19.01.2023   03:53   priv   727662119553728532   bot   Senko#3667   $tic-tac-toe take 4
+19.01.2023   03:53   priv   727662119553728532   bot   Senko#3667   $tic-tac-toe take 5
+19.01.2023   03:54   priv   727662119553728532   bot   Senko#3667   $tic-tac-toe take 6
+19.01.2023   03:54   priv   727662119553728532   bot   Senko#3667   $tic-tac-toe take 9
+19.01.2023   03:56   priv   727662119553728532   bot   Senko#3667   $tic-tac-toe take 8

@@ -383,3 +383,4 @@
 30.11.2022   02:21   PAWIU discord bots   993638671867715665   logs   SEEN-#5771   
 30.11.2022   02:21   PAWIU discord bots   993638671867715665   logs   SEEN-#5771   
 17.01.2023   19:03   PAWIU discord bots   993638671867715665   bot-reports   PAW#5844   $tic-tac-toe leave
+18.01.2023   23:26   PAWIU discord bots   993638671867715665   bot-reports   PAW#5844   $response 692621246017568799 jebac cie XD
