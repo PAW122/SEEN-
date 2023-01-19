@@ -16,7 +16,8 @@ const help_embed = new Discord.MessageEmbed()
         { name: "$tic-tac-toe", value: "play tic-tac-toe minigame with bot" },
         { name: "start game", value: "$tic-tac-toe start" },
         { name: "take", value: "$tic-tac-toe take 1-9" },
-        { name: "leave from game", value: "$tic-tac-toe leave" }
+        { name: "leave from game", value: "$tic-tac-toe leave" },
+        { name: "play pvp", value: "$tic-tac-toe pvp" }
     )
 
 module.exports = {// tic-tac-toe
@@ -25,7 +26,7 @@ module.exports = {// tic-tac-toe
 
     execute: async (message, args, client) => {
         if (args[0] == "help") {
-            return message.reply(`$tic-tac-toe start\n $tic-tac-toe leave\n $tic-tac-toe take <1-9>`)
+            return message.reply(`$tic-tac-toe start\n $tic-tac-toe leave\n $tic-tac-toe take <1-9> \n use: **$help tic-tac-toe**`)
         }
         main(message, args, client)
     }
@@ -46,14 +47,159 @@ async function main(message, args, client) {
     if (args[0] == "take") {
         do_move_by_player(message, args)
     }
+    if (args[0] == "pvp") {
+        pvp(message, gameBoard)
+    }
 }
 
-async function do_move_by_player(message, args) { // po tym musi być kolejka dla bota
-    //potem zapisuje się w db last_Move: bot
-    //i z db znowó wczytuje się plansza
+async function pvp(message, gameBoard) {
+    const player1_id = message.author.id
+    const player2 = message.mentions.users.first();
+    if (!player2) {
+        return message.reply("You dont mark oponent")
+    }
+    const player2_id = player2.id
+
+    //zapisz do db
+    const db = new QuickDB({ filePath: process.cwd() + `/db/tic-tac-toe/${message.author.id}.sqlite` });
+    const db2 = new QuickDB({ filePath: process.cwd() + `/db/tic-tac-toe/${player2_id}.sqlite` });
+
+    const p1_check = await db.get(`check`)
+    const p1_gm = await db.get(`gamemode`)
+
+    const p2_check = await db2.get(`check`)
+    const p2_gm = await db2.get(`gamemode`)
+
+    if (p1_check == true && p1_gm == "pvp") {
+        return message.reply("<@" + player1_id + ">" + "arleady was in pvp game")
+    }
+    if (p1_check == true && p1_gm != "pvp") {
+        return message.reply("<@" + player1_id + ">" + "arleady was in bot game")
+    }
+
+    if (p2_check == true && p2_gm == "pvp") {
+        return message.reply("<@" + player2_id + ">" + " arleady was in pvp game")
+    }
+    if (p2_check == true && p2_gm != "pvp") {
+        return message.reply("<@" + player2_id + ">" + "arleady was in bot game")
+    }
+
+
+
+    let start_p;
+    const rng = who_start()
+    if (rng == true) {
+        start_p = player1_id
+        message.reply(`Player <@${player1_id}> move first`)
+    } else {
+        start_p = player2_id
+        message.reply(`Player <@${player2_id}> move first`)
+    }
+
+    save_data(db)
+    save_data(db2)
+
+    async function save_data(db) {
+        await db.set(`board`, { board: gameBoard })
+        await db.set(`check`, true)
+        await db.set(`lastMove`, { player: start_p })
+        await db.set(`gamemode`, "pvp")
+        await db.set(`player1`, player1_id)
+        await db.set(`player2`, player2_id)
+        await db.set(`last_move`, false)
+    }
+
+    const send_board = draw_board(gameBoard, 1)
+
+    const embed = new Discord.MessageEmbed()
+        .setTitle(`tic-tac-toe <@${start_p}> move`)
+        .setDescription(`<@${player1_id}> 🟩 \n <@${player2_id}> 🟥 \n board:\n` + send_board)
+    message.channel.send({ embeds: [embed] })
+
+    return 0;
+}
+
+async function pvp_do_move(message, args, gameBoard) {
+    //$tic-tac-toe take 1
+    const db = new QuickDB({ filePath: process.cwd() + `/db/tic-tac-toe/${message.author.id}.sqlite` });
+    const player1_id_ = await db.get(`player1`)
+    const player2_id_ = await db.get(`player2`)
+    const db2 = new QuickDB({ filePath: process.cwd() + `/db/tic-tac-toe/${player2_id_}.sqlite` });
+    const board = await db.get(`board`)
+
+    if(message.author.id != player1_id_ && message.author.id != player2_id_ ) {
+        return message.reply("Error")
+    }
+
+    const err_placee = 1//ERROR taken_place jest o 1 za małe niż wejście czy coś? w każdym razie do naprawy
+    const taken_place = parseInt(args[1]) + err_placee
+    if (!taken_place || isNaN(taken_place || taken_place > 9  + err_placee|| taken_place < 1 + err_placee)) {
+        return message.reply("Its not a valod move")
+    }
+
+    //do player move
+    if (check_is_pole_was_taken(board, taken_place) == false) {
+        return message.reply("You cant take this pole")
+    }
+
+    let board_player;
+    if(message.author.id == player1_id_) {
+        board_player = 1
+    } else if(message.author.id == player2_id_) {
+        board_player = 2
+    } else {
+        return message.reply("Error")
+    }
+
+    let baord_to_save = board.board
+    //zapisywanie pola jako: pole zajęte przez gracza
+    let taken_place_arr = taken_place - 1
+    if (taken_place <= 3) {
+        board.board[0][taken_place_arr] = board_player
+    }
+
+    let taken_place_arr2 = taken_place_arr - 3
+    if (taken_place > 3 && taken_place < 7) {
+        board.board[1][taken_place_arr2] = board_player
+    }
+
+    let taken_place_arr3 = taken_place_arr2 - 3
+    if (taken_place > 6) {
+        board.board[2][taken_place_arr3] = board_player
+    }
+
+    const player1_id = await db.get(`player1`)
+    const player2_id = await db.get(`player2`)
+
+    const send_board = draw_board(baord_to_save, 1)
+
+    const embed = new Discord.MessageEmbed()
+        .setTitle(`tic-tac-toe`)
+        .setDescription(`<@${player1_id}> 🟩 \n <@${player2_id}> 🟥 \n board:\n` + send_board)
+    message.channel.send({ embeds: [embed] })
+
+    await db.set(`board`, { board: baord_to_save })
+    await db.set(`last_move`, message.author.id)
+
+    await db2.set(`board`, { board: baord_to_save })
+    await db2.set(`last_move`, message.author.id)
+
+    return 0;
+}
+
+async function do_move_by_player(message, args) {
     if (check_is_player(message) == false) {
         return message.reply("Nie jesteś obecnie w żadnej grze")
     } else {
+
+        //pvp module
+        const db2 = new QuickDB({ filePath: process.cwd() + `/db/tic-tac-toe/${message.author.id}.sqlite` });
+        const gm = await db2.get(`gamemode`)
+        if (gm == "pvp") {
+            pvp_do_move(message, args)
+        }
+
+        //ai module
         if (check_pole() == false) return message.reply("Podałeś niepoprawną nazwe pola")
         //to do: sprawdzanie czy pole jest zajęte
         const taken_place = parseInt(args[1])
@@ -113,6 +259,12 @@ async function do_move_by_player(message, args) { // po tym musi być kolejka dl
 
 async function ai_move(board, message) {
     const db = new QuickDB({ filePath: process.cwd() + `/db/tic-tac-toe/${message.author.id}.sqlite` });
+
+    const gm = await db.get(`gamemode`)
+    if (gm == "pvp") {
+        //message.reply("You need leave pvp game to start play with bot")
+        return
+    }
 
     var isMoveL = isMovesLeft(board)
     var is_win_P = is_win(1, board)
@@ -390,7 +542,6 @@ function who_start() {
     //false - ai
     const rng = getRandomInt(2)
     if (rng == 0) {
-        console.log("Startuje: " + rng)
         return false
     } else {
         return true
