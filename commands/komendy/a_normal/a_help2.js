@@ -10,7 +10,7 @@ const embed_pl = new Discord.MessageEmbed()
     .setColor(`BLUE`)
     .setTitle(`Help Page`)
     .setDescription(`use **$help commandname** to get for a more detailed description`)
-    .setFooter("use $name help to get comand info")
+    .setFooter("use $report if u fing some errors")
     .addFields(
         { name: `***😁fun***`, value: 
         "``ruletka``" +","+ "``bruh``" +","+ "``random``"+","+ "``8ball``" +","+"``flags``"+","+"``animegif``"+","+"``przemyślenia``"+ "," + "``random`` , ``avatar-generator``", inline: false },
@@ -34,7 +34,7 @@ const embed_pl = new Discord.MessageEmbed()
         "``valo help``" + "," + "``valo mmr``" + "," + "``valo mmr history``" + "," + "``valo get_article``" + "," + "``valo last mathces``" + "," + "``valo agents``" + "," + "``valo player_cards``" + "," + "``valo maps``" + "," + "``version``" + "," + "``valo eavents``", inline: false },
 
         { name: `***🧠Special***`, value:
-        "``mechatronic``,``mp3editor``,``html``", inline: false },
+        "``mechatronic``,``mp3editor``,``html``,``sens-calculator``", inline: false },
 
         { name: `***🌐APIS***`, value:
         " ``$write`` , ``chess help`` , ``chess profil`` , ``chess stats``, ``wot``"},
