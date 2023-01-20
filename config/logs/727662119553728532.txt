@@ -10247,3 +10247,66 @@ dodać koemnde do logowania wszystkich wiadomości z danego kanału na danym srv
 19.01.2023   03:54   priv   727662119553728532   bot   Senko#3667   $tic-tac-toe take 6
 19.01.2023   03:54   priv   727662119553728532   bot   Senko#3667   $tic-tac-toe take 9
 19.01.2023   03:56   priv   727662119553728532   bot   Senko#3667   $tic-tac-toe take 8
+19.01.2023   16:09   priv   727662119553728532   bot   PAW#5844   $tic-tac-toe leave
+19.01.2023   16:09   priv   727662119553728532   bot   PAW#5844   $tic-tac-toe pvp <@778643150981562368>
+19.01.2023   16:19   priv   727662119553728532   bot   Senko#3667   $tic-tac-toe leave
+19.01.2023   16:19   priv   727662119553728532   bot   PAW#5844   $tic-tac-toe pvp <@874323682263179314>
+19.01.2023   16:19   priv   727662119553728532   bot   PAW#5844   $tic-tac-toe take 1
+19.01.2023   16:24   priv   727662119553728532   bot   PAW#5844   $tic-tac-toe take 2
+19.01.2023   16:25   priv   727662119553728532   bot   PAW#5844   $tic-tac-toe take 2
+19.01.2023   16:26   priv   727662119553728532   bot   PAW#5844   $tic-tac-toe take 4
+19.01.2023   16:26   priv   727662119553728532   bot   PAW#5844   $tic-tac-toe take 5
+19.01.2023   16:27   priv   727662119553728532   bot   PAW#5844   $tic-tac-toe take 6
+19.01.2023   16:28   priv   727662119553728532   bot   PAW#5844   $tic-tac-toe take 7
+19.01.2023   16:28   priv   727662119553728532   bot   PAW#5844   $tic-tac-toe leave
+19.01.2023   16:28   priv   727662119553728532   bot   PAW#5844   $tic-tac-toe start
+19.01.2023   16:28   priv   727662119553728532   bot   PAW#5844   $tic-tac-toe leave
+19.01.2023   16:28   priv   727662119553728532   bot   PAW#5844   $tic-tac-toe pvp
+19.01.2023   16:29   priv   727662119553728532   bot   PAW#5844   $tic-tac-toe pvp <@778643150981562368>
+19.01.2023   16:29   priv   727662119553728532   bot   PAW#5844   $tic-tac-toe take 1
+19.01.2023   16:31   priv   727662119553728532   bot   PAW#5844   $tic-tac-toe leave
+19.01.2023   16:31   priv   727662119553728532   bot   PAW#5844   $tic-tac-toe pvp <@778643150981562368>
+19.01.2023   16:31   priv   727662119553728532   bot   Senko#3667   $tic-tac-toe take 1
+19.01.2023   16:31   priv   727662119553728532   bot   PAW#5844   $tic-tac-toe take 5
+19.01.2023   16:34   priv   727662119553728532   bot   PAW#5844   $tic-tac-toe leave
+19.01.2023   16:34   priv   727662119553728532   bot   PAW#5844   $tic-tac-toe pvp <@778643150981562368>
+19.01.2023   16:34   priv   727662119553728532   bot   Senko#3667   $tic-tac-toe take 1
+19.01.2023   16:34   priv   727662119553728532   bot   PAW#5844   $tic-tac-toe take 2
+19.01.2023   16:35   priv   727662119553728532   bot   PAW#5844   $tic-tac-toe take 3
+19.01.2023   16:36   priv   727662119553728532   bot   Senko#3667   $tic-tac-toe take 1
+19.01.2023   16:36   priv   727662119553728532   bot   Senko#3667   $tic-tac-toe take 5
+19.01.2023   16:36   priv   727662119553728532   bot   PAW#5844   $tic-tac-toe take 9
+19.01.2023   16:41   priv   727662119553728532   bot   PAW#5844   $tic-tac-toe take 8
+19.01.2023   16:41   priv   727662119553728532   bot   PAW#5844   $tic-tac-toe leave
+19.01.2023   16:41   priv   727662119553728532   bot   PAW#5844   $tic-tac-toe pvp <@778643150981562368>
+19.01.2023   16:42   priv   727662119553728532   bot   PAW#5844   $tic-tac-toe take 1
+19.01.2023   16:45   priv   727662119553728532   bot   PAW#5844   $tic-tac-toe leave
+19.01.2023   16:45   priv   727662119553728532   bot   PAW#5844   $tic-tac-toe pvp <@778643150981562368>
+19.01.2023   16:45   priv   727662119553728532   bot   PAW#5844   $tic-tac-toe take 1
+19.01.2023   16:47   priv   727662119553728532   bot   PAW#5844   $tic-tac-toe take 1
+19.01.2023   16:47   priv   727662119553728532   bot   PAW#5844   $tic-tac-toe leave
+19.01.2023   16:47   priv   727662119553728532   bot   PAW#5844   $tic-tac-toe pvp <@778643150981562368>
+19.01.2023   16:48   priv   727662119553728532   bot   PAW#5844   $tic-tac-toe leave
+19.01.2023   16:48   priv   727662119553728532   bot   PAW#5844   $tic-tac-toe pvp <@778643150981562368>
+19.01.2023   16:49   priv   727662119553728532   bot   PAW#5844   $tic-tac-toe take 12
+19.01.2023   16:49   priv   727662119553728532   bot   PAW#5844   $tic-tac-toe take 1
+19.01.2023   16:50   priv   727662119553728532   bot   PAW#5844   $tic-tac-toe take 1
+19.01.2023   16:50   priv   727662119553728532   bot   PAW#5844   $tic-tac-toe take 1
+19.01.2023   16:50   priv   727662119553728532   bot   Senko#3667   $tic-tac-toe take 2
+19.01.2023   16:50   priv   727662119553728532   bot   PAW#5844   $tic-tac-toe take 3
+19.01.2023   18:46   priv   727662119553728532   bot   PAW#5844   $tic-tac-toe leave
+19.01.2023   18:48   priv   727662119553728532   bot   PAW#5844   $tic-tac-toe start
+19.01.2023   18:48   priv   727662119553728532   bot   PAW#5844   $tic-tac-toe leave
+19.01.2023   18:49   priv   727662119553728532   bot   PAW#5844   $tic-tac-toe pvp <@778643150981562368>
+19.01.2023   18:49   priv   727662119553728532   bot   PAW#5844   $tic-tac-toe take 1
+19.01.2023   19:00   priv   727662119553728532   bot   PAW#5844   $tic-tac-toe leave
+19.01.2023   19:00   priv   727662119553728532   bot   PAW#5844   $tic-tac-toe pvp <@438336824516149249>
+19.01.2023   19:00   priv   727662119553728532   bot   PAW#5844   $tic-tac-toe pvp <@778643150981562368>
+19.01.2023   19:03   priv   727662119553728532   bot   PAW#5844   $tic-tac-toe take 1
+19.01.2023   19:04   priv   727662119553728532   bot   PAW#5844   $tic-tac-toe leave
+19.01.2023   19:04   priv   727662119553728532   bot   PAW#5844   $tic-tac-toe pvp <@778643150981562368>
+19.01.2023   19:09   priv   727662119553728532   bot   PAW#5844   $tic-tac-toe take 1
+19.01.2023   19:11   priv   727662119553728532   bot   PAW#5844   $tic-tac-toe leave
+19.01.2023   19:11   priv   727662119553728532   bot   PAW#5844   $tic-tac-toe pvp <@797070806885990431>
+19.01.2023   19:12   priv   727662119553728532   bot   PAW#5844   $tic-tac-toe take 1
+19.01.2023   21:39   priv   727662119553728532   bot   PAW#5844   $server
