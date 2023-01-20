@@ -10310,3 +10310,21 @@ dodać koemnde do logowania wszystkich wiadomości z danego kanału na danym srv
 19.01.2023   19:11   priv   727662119553728532   bot   PAW#5844   $tic-tac-toe pvp <@797070806885990431>
 19.01.2023   19:12   priv   727662119553728532   bot   PAW#5844   $tic-tac-toe take 1
 19.01.2023   21:39   priv   727662119553728532   bot   PAW#5844   $server
+20.01.2023   09:18   priv   727662119553728532   bot   PAW#5844   $ping
+20.01.2023   09:46   priv   727662119553728532   dc-bot   PAW#5844   Mme api
+20.01.2023   09:46   priv   727662119553728532   dc-bot   PAW#5844   https://github.com/D3vd/Meme_Api
+20.01.2023   11:28   priv   727662119553728532   ogólny   PAW#5844   Chłop od jazd - Grześ
+20.01.2023   17:14   priv   727662119553728532   bot   PAW#5844   $help
+20.01.2023   17:16   priv   727662119553728532   bot   PAW#5844   ```
+SEEN is a universal bot with a huge amount of features and possibilities to improve the server
+```
+
+```
+SEEN gives you the ability to add to your server: channels with server statistics,
+logs for moderation,
+alerts for the server owner,
+constantly developing economy,
+and many unique features
+```
+20.01.2023   17:24   priv   727662119553728532   bot   PAW#5844   $link
+20.01.2023   23:41   priv   727662119553728532   bot   PAW#5844   $ping
