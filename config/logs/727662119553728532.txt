@@ -10328,3 +10328,14 @@ and many unique features
 ```
 20.01.2023   17:24   priv   727662119553728532   bot   PAW#5844   $link
 20.01.2023   23:41   priv   727662119553728532   bot   PAW#5844   $ping
+21.01.2023   00:07   priv   727662119553728532   bot   PAW#5844   $sens-calculator osu csgo 2
+21.01.2023   00:07   priv   727662119553728532   bot   PAW#5844   $sens-calculator osu csgo 2
+21.01.2023   00:25   priv   727662119553728532   bot   PAW#5844   $help sens-calculator
+21.01.2023   00:25   priv   727662119553728532   bot   PAW#5844   $sens-calculator list
+21.01.2023   00:39   priv   727662119553728532   bot   PAW#5844   $sens-calculator list
+21.01.2023   00:40   priv   727662119553728532   bot   PAW#5844   $sens-calculator osu minecraft 0.7
+21.01.2023   00:40   priv   727662119553728532   bot   PAW#5844   $sens-calculator osu minecraft XD
+21.01.2023   00:40   priv   727662119553728532   bot   PAW#5844   $sens-calculator osu minecraft 0.1042978788012975105
+21.01.2023   00:45   priv   727662119553728532   bot   PAW#5844   $help
+21.01.2023   00:46   priv   727662119553728532   bot   PAW#5844   $help
+21.01.2023   01:12   priv   727662119553728532   anime   PAW#5844   cos
