@@ -10340,3 +10340,87 @@ and many unique features
 21.01.2023   00:46   priv   727662119553728532   bot   PAW#5844   $help
 21.01.2023   01:12   priv   727662119553728532   anime   PAW#5844   cos
 21.01.2023   15:17   priv   727662119553728532   bot   PAW#5844   $ping
+21.01.2023   19:16   priv   727662119553728532   bot   PAW#5844   $qe_gen
+21.01.2023   19:18   priv   727662119553728532   bot   PAW#5844   $qe_gen
+21.01.2023   19:21   priv   727662119553728532   bot   PAW#5844   $qe_gen
+21.01.2023   19:22   priv   727662119553728532   bot   PAW#5844   $qe_gen
+21.01.2023   19:23   priv   727662119553728532   bot   PAW#5844   $qe_gen
+21.01.2023   19:29   priv   727662119553728532   bot   PAW#5844   $qe_gen
+21.01.2023   19:39   priv   727662119553728532   bot   PAW#5844   $qe_gen
+21.01.2023   19:40   priv   727662119553728532   bot   PAW#5844   $qe_gen
+21.01.2023   19:45   priv   727662119553728532   bot   PAW#5844   $qe_gen
+21.01.2023   19:46   priv   727662119553728532   bot   PAW#5844   $qe_gen
+21.01.2023   19:49   priv   727662119553728532   bot   PAW#5844   $qe_gen test
+21.01.2023   19:50   priv   727662119553728532   bot   PAW#5844   $qe_gen test
+21.01.2023   19:54   priv   727662119553728532   bot   PAW#5844   $help qr_gen
+21.01.2023   19:54   priv   727662119553728532   bot   PAW#5844   $qr_gen your own qe code
+21.01.2023   19:57   priv   727662119553728532   bot   PAW#5844   $qr_gen your own qe code
+21.01.2023   20:57   priv   727662119553728532   dc-bot   PAW#5844   zrobić audio recorder =>  nagrywa minute audio na vc i wysyła na kanał
+
+zrobić cos ala bindy
+22.01.2023   00:46   priv   727662119553728532   pasy-do-kont   PAW#5844   KONTO RIOT:
+PAWIU
+22.01.2023   00:47   priv   727662119553728532   pasy-do-kont   PAW#5844   2konto riot:
+pawiuacc@gmail.com
+22.01.2023   02:31   priv   727662119553728532   bot   PAW#5844   ⬜ 🟩 🟥 🟦 🟫 🟧 🟨 🟪
+
+⬜ 🟩 - board background
+🟥 - p (pones)
+🟦 - r (rook)
+🟫  - n (goniecc)
+ 🟧  - b (skoczek)
+🟨 - q (królowa)
+🟪 - k (król)
+22.01.2023   02:32   priv   727662119553728532   bot   PAW#5844   ♟️
+22.01.2023   02:48   priv   727662119553728532   bot   PAW#5844   $seen-chess
+22.01.2023   02:48   priv   727662119553728532   bot   PAW#5844   $seen-chess play
+22.01.2023   02:48   priv   727662119553728532   bot   PAW#5844   $seen-chess help
+22.01.2023   02:49   priv   727662119553728532   bot   PAW#5844   $seen-chess help
+22.01.2023   02:49   priv   727662119553728532   bot   PAW#5844   $seen-chess <@797070806885990431>
+22.01.2023   02:49   priv   727662119553728532   bot   PAW#5844   $seen-chess play
+22.01.2023   02:50   priv   727662119553728532   bot   PAW#5844   $seen-chess play <@797070806885990431>
+22.01.2023   02:50   priv   727662119553728532   bot   PAW#5844   $seen-chess leave
+22.01.2023   02:50   priv   727662119553728532   bot   PAW#5844   $seen-chess play <@797070806885990431>
+22.01.2023   02:50   priv   727662119553728532   bot   PAW#5844   $seen-chess play  <@438336824516149249>
+22.01.2023   02:51   priv   727662119553728532   bot   PAW#5844   $seen-chess leave
+22.01.2023   02:51   priv   727662119553728532   bot   PAW#5844   $seen-chess play <@438336824516149249>
+22.01.2023   03:08   priv   727662119553728532   bot   PAW#5844   $seen-chess leave
+22.01.2023   03:08   priv   727662119553728532   bot   PAW#5844   $seen-chess leave
+22.01.2023   03:10   priv   727662119553728532   bot   PAW#5844   $seen-chess leave
+22.01.2023   03:11   priv   727662119553728532   bot   PAW#5844   $seen-chess leave
+22.01.2023   03:12   priv   727662119553728532   bot   PAW#5844   $seen-chess leave
+22.01.2023   03:14   priv   727662119553728532   bot   PAW#5844   $seen-chess leave
+22.01.2023   03:14   priv   727662119553728532   bot   PAW#5844   $seen-chess leave
+22.01.2023   03:15   priv   727662119553728532   bot   PAW#5844   $seen-chess leave
+22.01.2023   03:16   priv   727662119553728532   bot   PAW#5844   $seen-chess leave
+22.01.2023   03:17   priv   727662119553728532   bot   PAW#5844   $seen-chess leave
+22.01.2023   03:17   priv   727662119553728532   bot   PAW#5844   $seen-chess play  <@438336824516149249>
+22.01.2023   03:20   priv   727662119553728532   bot   PAW#5844   $seen-chess leave
+22.01.2023   03:20   priv   727662119553728532   bot   PAW#5844   $seen-chess play  <@438336824516149249>
+22.01.2023   03:22   priv   727662119553728532   bot   PAW#5844   $seen-chess leave
+22.01.2023   03:22   priv   727662119553728532   bot   PAW#5844   $seen-chess play  <@438336824516149249>
+22.01.2023   03:25   priv   727662119553728532   bot   PAW#5844   $seen-chess leave
+22.01.2023   03:25   priv   727662119553728532   bot   PAW#5844   $seen-chess play  <@438336824516149249>
+22.01.2023   03:27   priv   727662119553728532   bot   PAW#5844   $seen-chess leave
+22.01.2023   03:27   priv   727662119553728532   bot   PAW#5844   $seen-chess play  <@438336824516149249>
+22.01.2023   03:28   priv   727662119553728532   bot   PAW#5844   $seen-chess leave
+22.01.2023   03:28   priv   727662119553728532   bot   PAW#5844   $seen-chess play  <@438336824516149249>
+22.01.2023   03:28   priv   727662119553728532   bot   PAW#5844   $seen-chess leave
+22.01.2023   03:28   priv   727662119553728532   bot   PAW#5844   $seen-chess play  <@438336824516149249>
+22.01.2023   03:30   priv   727662119553728532   bot   PAW#5844   $seen-chess leave
+22.01.2023   03:30   priv   727662119553728532   bot   PAW#5844   $seen-chess play <@438336824516149249>
+22.01.2023   03:34   priv   727662119553728532   bot   PAW#5844   $seen-chess leave
+22.01.2023   03:35   priv   727662119553728532   bot   PAW#5844   $seen-chess play <@438336824516149249>
+22.01.2023   03:48   priv   727662119553728532   bot   PAW#5844   .-----------------------------------.
+|            Chess Board                             |
+|-----------------------------------|
+| / |   a |   b |  c |  d |  e |  f |   g |  h        |
+|---|---|---|---|---|---|---|---|---      |
+| 1 |  ♜ |♞| ♝| ♛|♚| ♝| ♞|♜         |
+| 2 | ♟♟♟♟♟♟♟♟        |
+| 3 | ⬜⬛⬜⬛⬜⬛⬜⬛        |
+| 4 | ⬛⬜⬛⬜⬛⬜⬛⬜        |
+| 5 | ⬜⬛⬜⬛⬜⬛⬜⬛        |
+| 6 | ⬛⬜⬛⬜⬛⬜⬛⬜        |
+| 7 | ♙ |♙ | ♙|♙ |♙| ♙| ♙| ♙       |
+| 8 | ♖| ♘| ♗| ♕| ♔|♗| ♘| ♖       |
