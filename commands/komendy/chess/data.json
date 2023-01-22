@@ -1,0 +1,22 @@
+{
+    "pones_black": {
+        "rook": "♜",
+        "hors": "♞",
+        "goniec" : "♝",
+        "królowa" : "♛",
+        "król" : "♚",
+        "pion" : "♟"
+    },
+    "pones_white": {
+        "rook": "♖",
+        "hors": "♘",
+        "goniec" : "♗",
+        "królowa" : "♕",
+        "król" : "♔",
+        "pion" : "♙"
+    },
+    "board" : {
+        "white" : "⬜",
+        "black" : "⬛"
+    }
+}

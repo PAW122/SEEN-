@@ -1,10 +1,66 @@
 const { QuickDB } = require("quick.db");
+const data = require("./data.json")
+const pones_black = data.pones_black
+const pones_white = data.pones_white
+const board_pole = data.board
 module.exports = {
     execute: async (token) => {
         var game_db = new QuickDB({ filePath: process.cwd() + `/db/chess/boards.sqlite` });
+        //          czarne
 
-        var deafult_board =[["r","n","b","q","k","b","n","r"],["p","p","p","p","p","p","p","p"],[0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0],["p","p","p","p","p","p","p","p"],["r","n","b","q","k","b","n","r"]]
-        var pones_colors = [[1,1,1,1,1,1,1,1],[1,1,1,1,1,1,1,1],[0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0],[2,2,2,2,2,2,2,2],[2,2,2,2,2,2,2,2]]
+        var deafult_board =//normal deafult_board
+            [[pones_black.rook, pones_black.hors, pones_black.goniec, pones_black.królowa, pones_black.król, pones_black.goniec, pones_black.hors, pones_black.rook],
+            [pones_black.pion, pones_black.pion, pones_black.pion, pones_black.pion, pones_black.pion, pones_black.pion, pones_black.pion, pones_black.pion],
+            [0, 0, 0, 0, 0, 0, 0, 0],
+            [0, 0, 0, 0, 0, 0, 0, 0],
+            [0, 0, 0, 0, 0, 0, 0, 0],
+            [0, 0, 0, 0, 0, 0, 0, 0],
+            [pones_white.pion, pones_white.pion, pones_white.pion, pones_white.pion, pones_white.pion, pones_white.pion, pones_white.pion, pones_white.pion],
+            [pones_white.rook, pones_white.hors, pones_white.goniec, pones_white.królowa, pones_white.król, pones_white.goniec, pones_white.hors, pones_white.rook],]
+
+        var test_board =//test test_board
+            [[0, 0, 0, 0, 0, 0, 0, 0],
+            [0, 0, 0, 0, 0, 0, 0, 0],
+            [0, 0, 0, 0, 0, 0, 0, 0],
+            [0, 0, 0, 0, 0, 0, 0, 0],
+            [0, 0, 0, 0, 0, 0, 0, 0],
+            [0, 0, 0, 0, 0, 0, 0, 0],
+            [0, 0, 0, 0, 0, 0, 0, 0],
+            [0, 0, 0, 0, 0, 0, 0, 0],
+            [0, 0, 0, 0, 0, 0, 0, 0],
+            [0, 0, 0, 0, 0, 0, 0, 0],]
+
+        let rows = 0;
+        let column = 0;
+
+        //board[2][1]
+        // pole 3 2
+
+        deafult_board.forEach(row => {
+            row.forEach(pole => {
+                if (column >= 8) {
+                    column = 0
+                }
+                if (deafult_board[rows][column] != 0) {
+                    return
+                }
+                if ((rows + 1) % 2 == 0) {
+                    if ((column + 1) % 2 == 0) {
+                        deafult_board[rows][column] = board_pole.white
+                    } else {
+                        deafult_board[rows][column] = board_pole.black
+                    }
+                } else {
+                    if ((column + 1) % 2 == 0) {
+                        deafult_board[rows][column] = board_pole.black
+                    } else {
+                        deafult_board[rows][column] = board_pole.white
+                    }
+                }
+                column++
+            })
+            rows++
+        })
 
         const board = await game_db.get(`${token}.board`)
         const player1 = await game_db.get(`${token}.player1`)
@@ -13,12 +69,14 @@ module.exports = {
         const moves = await game_db.get(`${token}.moves`)
         const set_board = await game_db.get(`${token}.set_board`, false)
 
-        if(set_board == false) {
+        if (set_board == false) {
             //ustawienie pionków
             await game_db.set(`${token}.set_board`, true)
-            await game_db.set(`${token}.board`,deafult_board)
-            await game_db.set(`${token}.pones_colors`,pones_colors)
+            await game_db.set(`${token}.board`, deafult_board)
         }
+
+        console.log("Deafult board")
+        console.log(deafult_board)
 
         return true
     }
@@ -36,6 +94,11 @@ b = skoczek
 q = kurlowa
 k = król
 p = pion
+//
+
+
+♙	♙	♙	♙	♙	♙	♙	♙
+♖	♘	♗	♕	♔	♗	♘	♖
 
 
 pones colors : [[1,1,1,1,1,1,1,1],[1,1,1,1,1,1,1,1],[0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0],[2,2,2,2,2,2,2,2],[2,2,2,2,2,2,2,2]]
