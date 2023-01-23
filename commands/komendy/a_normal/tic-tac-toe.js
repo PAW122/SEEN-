@@ -107,12 +107,12 @@ async function pvp(message, gameBoard) {
     }
 
     const save = await save_data(1, gameBoard, player1_id, player2_id, token)
-    if(save != true) {
+    if (save != true) {
         console.error("save error")
         return message.reply("Error line 110")
     }
 
-    if(await db_board.get(`${token}.check`) != true) {
+    if (await db_board.get(`${token}.check`) != true) {
         console.error("load error")
         return message.reply("error line 114")
     }
@@ -135,7 +135,10 @@ async function save_data(save_mode, data, p1, p2, token) {
     const db_board = new QuickDB({ filePath: process.cwd() + `/db/tic-tac-toe/boards.sqlite` });
 
     if (save_mode == 1) {
-        if (!token) return false
+        if (!token) {
+            console.log("Token error")
+            return false
+        }
         // 1- zapisz plansze
         await db.set("board_token", token)
         await db.set("check", true)
@@ -143,7 +146,7 @@ async function save_data(save_mode, data, p1, p2, token) {
         await db2.set("check", true)
 
         await db_board.set(`${token}.check`, true)
-        await db_board.set(`${token}.board`, {board: data})
+        await db_board.set(`${token}.board`, { board: data })
         await db_board.set(`${token}.game_mode`, "pvp")
         await db_board.set(`${token}.player1`, p1)
         await db_board.set(`${token}.player2`, p2)
@@ -153,7 +156,7 @@ async function save_data(save_mode, data, p1, p2, token) {
             "board": data,
             "gm": "pvp",
             "p1": p1,
-            "p2": p2 
+            "p2": p2
         }
         console.log(saved_data)
 
@@ -260,13 +263,19 @@ async function do_move_by_player(message, args) {
         const db2 = new QuickDB({ filePath: process.cwd() + `/db/tic-tac-toe/${message.author.id}.sqlite` });
         const db_board = new QuickDB({ filePath: process.cwd() + `/db/tic-tac-toe/boards.sqlite` });
         const token = await db2.get("board_token")
-        if(!token) {
-            throw new Error("token undefind");
-        }
-        const gm = await db_board.get(`${token}.game_mode`)
-        if (gm == "pvp") {
-            await pvp_do_move(message, args)
-            return 0;
+
+        if (await db2.get(`gm`) != "pvb") {
+
+            if (!token) {
+                throw new Error("token undefind " + token);
+            }
+            const gm = await db_board.get(`${token}.game_mode`)
+
+            if (gm == "pvp") {
+                await pvp_do_move(message, args)
+                return 0;
+            }
+
         }
 
         //ai module
@@ -562,8 +571,6 @@ function check_is_pole_was_taken(board, taken_place, message) {
     // console.log(board.board)
     // console.log(taken_place)
 
-    console.log(board)
-
     const board_ = board.board
 
     var x = 0
@@ -664,17 +671,22 @@ function start(message, args, gameBoard) {
         ai_move(gameBoard, message)
     }
 
-    safe_data(gameBoard, player, next_move)
+    const token = new TokenGenerator(256, TokenGenerator.BASE62);
+
+    safe_data(gameBoard, player, next_move, token)
     draw_board(gameBoard, player)
     return 0;
 }
 
-async function safe_data(board, player, next_move) {
+async function safe_data(board, player, next_move, token) {
     const db = new QuickDB({ filePath: process.cwd() + `/db/tic-tac-toe/${player.id}.sqlite` });
-    await db.set(`board`, { board: board })
+    await db.set(`board`, { board: board})
     await db.set(`check`, true)
     await db.set(`lastMove`, { player: next_move })//id of person who should make next move
-    //if next move should do AI lastMove = "AI"
+    await db.set('board_token', token)
+    await db.set('gm', "pvb")
+
+    return true
 }
 
 function draw_board(dbboard, PLAYER_1) {
