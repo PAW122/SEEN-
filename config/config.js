@@ -5,7 +5,7 @@ module.exports = {
     status: "idle",//online/idle/invisible/dnd
     prefix: "$",//set deafult prefix
     commands_logs: "True",//True/False
-    load_commands_logs: "True", //True/False 
+    load_commands_logs: "False", //True/False 
 
     service_mode: false, //false/true
 
