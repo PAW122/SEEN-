@@ -10427,3 +10427,55 @@ pawiuacc@gmail.com
 22.01.2023   03:53   priv   727662119553728532   bot   PAW#5844   
 22.01.2023   03:53   priv   727662119553728532   bot   PAW#5844   $help
 22.01.2023   03:55   priv   727662119553728532   bot   PAW#5844   $qr_gen test
+22.01.2023   18:39   priv   727662119553728532   bot   PAW#5844   $seen-chess leave
+22.01.2023   18:39   priv   727662119553728532   bot   PAW#5844   $seen-chess play <@438336824516149249>
+22.01.2023   18:40   priv   727662119553728532   bot   PAW#5844   $seen-chess play <@438336824516149249>
+22.01.2023   18:40   priv   727662119553728532   bot   PAW#5844   $seen-chess leave
+22.01.2023   18:40   priv   727662119553728532   bot   PAW#5844   $seen-chess play <@438336824516149249>
+22.01.2023   18:40   priv   727662119553728532   bot   PAW#5844   $help
+22.01.2023   18:41   priv   727662119553728532   bot   PAW#5844   $help sens-calculator
+22.01.2023   18:41   priv   727662119553728532   bot   PAW#5844   $sens-calculator list
+22.01.2023   18:41   priv   727662119553728532   bot   PAW#5844   $qr_gen jebac
+22.01.2023   18:46   priv   727662119553728532   bot   PAW#5844   $help
+22.01.2023   18:46   priv   727662119553728532   bot   PAW#5844   $tic-tac-toe start
+22.01.2023   18:46   priv   727662119553728532   bot   PAW#5844   $tic-tac-toe leave
+22.01.2023   18:46   priv   727662119553728532   bot   PAW#5844   $tic-tac-toe start
+22.01.2023   21:34   priv   727662119553728532   bot   PAW#5844   $tic-tac-toe leave
+22.01.2023   21:34   priv   727662119553728532   bot   PAW#5844   $tic-tac-toe start
+22.01.2023   21:38   priv   727662119553728532   bot   PAW#5844   $tic-tac-toe leave
+22.01.2023   21:38   priv   727662119553728532   bot   PAW#5844   $tic-tac-toe start
+22.01.2023   21:38   priv   727662119553728532   bot   PAW#5844   $tic-tac-toe take 1
+22.01.2023   21:39   priv   727662119553728532   bot   PAW#5844   $tic-tac-toe leave
+22.01.2023   21:39   priv   727662119553728532   bot   PAW#5844   $tic-tac-toe start
+22.01.2023   21:39   priv   727662119553728532   bot   PAW#5844   $tic-tac-toe take 5
+22.01.2023   21:40   priv   727662119553728532   bot   PAW#5844   $tic-tac-toe take 7
+22.01.2023   21:40   priv   727662119553728532   bot   PAW#5844   $tic-tac-toe take 3
+22.01.2023   21:40   priv   727662119553728532   bot   PAW#5844   $tic-tac-toe take 2
+22.01.2023   21:40   priv   727662119553728532   bot   PAW#5844   $tic-tac-toe take 4
+22.01.2023   21:40   priv   727662119553728532   bot   PAW#5844   $tic-tac-toe take 9
+22.01.2023   21:41   priv   727662119553728532   bot   PAW#5844   $tic-tac-toe start
+22.01.2023   21:41   priv   727662119553728532   bot   PAW#5844   $tic-tac-toe take 2
+22.01.2023   21:41   priv   727662119553728532   bot   PAW#5844   $tic-tac-toe take 3
+22.01.2023   21:41   priv   727662119553728532   bot   PAW#5844   $tic-tac-toe take 7
+22.01.2023   21:42   priv   727662119553728532   bot   PAW#5844   $tic-tac-toe take 6
+22.01.2023   23:54   priv   727662119553728532   bot   PAW#5844   $chess
+22.01.2023   23:54   priv   727662119553728532   bot   PAW#5844   $seen-chess
+22.01.2023   23:55   priv   727662119553728532   bot   PAW#5844   $seen-chess
+22.01.2023   23:55   priv   727662119553728532   bot   PAW#5844   $seen-chess help
+22.01.2023   23:55   priv   727662119553728532   bot   PAW#5844   $chess play <@438336824516149249>
+22.01.2023   23:55   priv   727662119553728532   bot   PAW#5844   $chess play <@438336824516149249>
+22.01.2023   23:56   priv   727662119553728532   bot   PAW#5844   $seen-chess help
+22.01.2023   23:56   priv   727662119553728532   bot   PAW#5844   $seen-chess play <@438336824516149249>
+23.01.2023   00:16   priv   727662119553728532   bot   PAW#5844   $seen-chess move
+23.01.2023   00:16   priv   727662119553728532   bot   PAW#5844   $seen-chess move
+23.01.2023   00:16   priv   727662119553728532   bot   PAW#5844   $seen-chess move
+23.01.2023   00:17   priv   727662119553728532   bot   PAW#5844   $seen-chess help
+23.01.2023   00:17   priv   727662119553728532   bot   PAW#5844   $seen-chess leave
+23.01.2023   00:18   priv   727662119553728532   bot   PAW#5844   $seen-chess play <@438336824516149249>
+23.01.2023   00:18   priv   727662119553728532   bot   PAW#5844   $seen-chess leave
+23.01.2023   00:18   priv   727662119553728532   bot   PAW#5844   $seen-chess play <@438336824516149249>
+23.01.2023   00:19   priv   727662119553728532   bot   PAW#5844   $seen-chess leave
+23.01.2023   00:20   priv   727662119553728532   bot   PAW#5844   $seen-chess leave
+23.01.2023   00:20   priv   727662119553728532   bot   PAW#5844   $seen-chess leave
+23.01.2023   00:20   priv   727662119553728532   bot   PAW#5844   $seen-chess play <@438336824516149249>
+23.01.2023   00:20   priv   727662119553728532   bot   PAW#5844   $seen-chess move
