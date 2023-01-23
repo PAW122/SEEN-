@@ -69,7 +69,7 @@ module.exports = {
 }
 
 function calculate(from_game, to_game, sens) {
-    const ratio = sens_module(from_game, to_game) // game1 czułość 1 = game2 ratio
+    const ratio = sens_module(from_game, to_game)
     if (ratio == false) return false
 
     const result = sens * ratio
