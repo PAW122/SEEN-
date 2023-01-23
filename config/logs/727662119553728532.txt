@@ -10479,3 +10479,11 @@ pawiuacc@gmail.com
 23.01.2023   00:20   priv   727662119553728532   bot   PAW#5844   $seen-chess leave
 23.01.2023   00:20   priv   727662119553728532   bot   PAW#5844   $seen-chess play <@438336824516149249>
 23.01.2023   00:20   priv   727662119553728532   bot   PAW#5844   $seen-chess move
+23.01.2023   11:22   priv   727662119553728532   dc-bot   PAW#5844   W msg gandlerze wczytywać wszystkie ustawienia serwerów
+
+I podczas wywołania komendy sprawdzić czy srv jest wcYtany
+Jeżeli tak to sprawdz czy komenda o takiej nazwie istnieje
+
+I sprawdz czy serwer nie wyłączył komendy
+23.01.2023   13:13   priv   727662119553728532   ogólny   PAW#5844   Jutro na 12:30
+23.01.2023   13:56   priv   727662119553728532   bot   PAW#5844   $ping
