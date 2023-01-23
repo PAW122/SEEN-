@@ -7,28 +7,37 @@ module.exports = {
 
     execute:async(message,args,client) => {
 
+        if(!args[0]) {
+            return message.reply("Use: $seen-chess help")
+        }
+
         if(args[0] == "help") {
             const embed = new Discord.MessageEmbed()
             .setTitle("Bot server informations:")
             .setColor("RANDOM")
             .setFields(
-                {name: "$chess play @user", value: "play 1 vs 1 with another player"},
-                {name: "$chess leave", value: "leave from game"}
+                {name: "$seen-chess play @user", value: "play 1 vs 1 with another player"},
+                {name: "$seen-chess leave", value: "leave from game"}
             )
             return message.reply({embeds: [embed]})
         }
 
-        if(message.author.id != owner) {
-            return message.reply("Ta komenda nie została jeszcze ukończona\n prace trwają i komenda jest dostępna tylko dla dewelopweów\n komenda będzie dostępna dla urzytkowników gdy pojawi się w liście komend $help\n mamy nadzieję, że stanie się to niedługo <3")
-        }
+        // if(message.author.id != owner) {
+        //     return message.reply("Ta komenda nie została jeszcze ukończona\n prace trwają i komenda jest dostępna tylko dla dewelopweów\n komenda będzie dostępna dla urzytkowników gdy pojawi się w liście komend $help\n mamy nadzieję, że stanie się to niedługo <3")
+        // }
 
         if(args[0] == "play") {
-            play.execute(message,args,client, true)
+            play.execute(message,args,client, 1)
             message.react("✅")
             return
         }
         if(args[0] == "leave") {
-            play.execute(message,args,client, false)
+            play.execute(message,args,client, 2)
+            message.react("✅")
+            return
+        }
+        if(args[0] == "move") {
+            play.execute(message,args,client,3)
             message.react("✅")
             return
         }

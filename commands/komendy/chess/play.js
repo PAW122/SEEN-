@@ -1,20 +1,21 @@
 const { QuickDB } = require("quick.db");
 const config = require("./config")
-const games = new Set(); // lista graczy którzy rozpoczeli gre
-const subplayers = new Set(); //gracze wyzwani do walki
 const token_gen = require("./token_gen")
 const board_logic = require("./board_logic")
 const draw_board = require("./draw_board")
+const move = require("./move")
 module.exports = {
     execute: async (message, args, client, action) => {
 
         var db = new QuickDB({ filePath: process.cwd() + `/db/chess/chess.sqlite` });
         var game_db = new QuickDB({ filePath: process.cwd() + `/db/chess/boards.sqlite` });
 
-        if (action == true) {
+        if (action == 1) {
             start_game()
-        } else if (action == false) {
+        } else if (action == 2) {
             end_game()
+        } else if (action == 3) {
+            move.execute(message,args,client)
         } else {
             console.log("chess err action is undefind")
             message.channel.send("ERRER")
@@ -72,17 +73,19 @@ module.exports = {
             await game_db.set(`${token}.set_board`, false)
 
             //random 0 || 1 || 2 || 3
-            const rng = eval('(function(){return getRandomInt(0, 3);})');
+            const rng = getRandomInt(4)
 
             if (rng == 0 || rng == 1) {
                 await game_db.set(`${token}.next_move`, player_id)
             } else if (rng == 2 || rng == 3) {
                 await game_db.set(`${token}.next_move`, player2_id)
+            }else {
+                console.log("play.js error rng err: " + rng)
             }
 
             if (await board_logic.execute(token) != true) {
                 message.reply("board logic error")
-                return console.log("board logic error\n play.js 72")
+                return console.error("board logic error\n play.js 72")
             }
 
             draw_board.execute(message, player_id, client)
@@ -109,11 +112,25 @@ module.exports = {
 
 
                 message.channel.send(`pomyślnie usunięto partie.\n token: ${token} \n player1: <@${player1}>\n player2: <@${player2}>`)
-            }
 
+                //todo:
+                //zakończone partie muszą być usówane po określonej ilości czasu np po 7dniach
+                //co 1h są sprawdzane wszystkie partie do usunięcia z określoną datą
+                // np: const data = db.get(rezegranepartie.23.05.2023)
+                // i data = lista wszystkich tokenów partii rozegranych tego dnia.
+
+                //zapisywane też powinny być wszystkie ruchy aby przez te 7 dni zanim partia zostanie usunięta była dostępna funkcja
+                //oglądania przebiegu partii
+                //każdy ruch po kolei zostanie zapisywany w db
+                //await db.set('tokenpartii', {ilość_ruchów: 20, move_1 : array z tablicą, move_2: array z tebiluicą})
+                //każdy następny ruch musi być dodawany do tablicy za pomocą czegoś ala .push
+                //żeby nie usuówać poprzednio dodanych rzeczy
+            }
         }
 
-
+        function getRandomInt(max) {
+            return Math.floor(Math.random() * max);
+          }
 
     }
 }
