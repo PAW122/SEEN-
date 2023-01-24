@@ -70,6 +70,7 @@ const informations_handler = require("./handlers/informations")
 const stats_channels_autorefresh = require("./commands/komendy/stats/handler")
 
 const help_handler = require("./handlers/help_handler")
+const runtime_handler = require("./handlers/runtime_handler")
 
 /* dc js v13.9.2
 const client = new Discord.Client({
@@ -135,7 +136,7 @@ client.once('ready', () => {
     informations_handler(client);
 
     stats_channels_autorefresh(client)
-
+    runtime_handler.execute("ready", true)
 });
 
 
