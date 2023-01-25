@@ -10487,3 +10487,52 @@ Jeżeli tak to sprawdz czy komenda o takiej nazwie istnieje
 I sprawdz czy serwer nie wyłączył komendy
 23.01.2023   13:13   priv   727662119553728532   ogólny   PAW#5844   Jutro na 12:30
 23.01.2023   13:56   priv   727662119553728532   bot   PAW#5844   $ping
+24.01.2023   03:06   priv   727662119553728532   bot   PAW#5844   $ping
+24.01.2023   03:06   priv   727662119553728532   lvl-notify   PAW#5844   $refresh
+24.01.2023   03:06   priv   727662119553728532   lvl-notify   PAW#5844   $help
+24.01.2023   03:06   priv   727662119553728532   lvl-notify   PAW#5844   $stats-channel help
+24.01.2023   03:06   priv   727662119553728532   lvl-notify   PAW#5844   $stats-channel refresh
+24.01.2023   03:07   priv   727662119553728532   dc-bot   PAW#5844   $stats-channel refresh
+dodać cooldowna na tą komendę:
+1 min dla 10 prób potem 10min
+24.01.2023   03:14   priv   727662119553728532   dc-bot   PAW#5844   Js ma wbudowane takie gui okienka z errorami
+Dodać takie okienka dla błędów np brak tokena bota, brak prefixa
+24.01.2023   03:18   priv   727662119553728532   bot   PAW#5844   $server
+24.01.2023   03:19   priv   727662119553728532   bot   PAW#5844   $ping
+24.01.2023   12:26   priv   727662119553728532   ogólny   PAW#5844   12-18 jutro
+24.01.2023   12:26   priv   727662119553728532   ogólny   PAW#5844   11:30 wyjazd z panią
+24.01.2023   12:30   priv   727662119553728532   ogólny   PAW#5844   .
+
+W piątek napisać sam test z prawka
+24.01.2023   14:16   priv   727662119553728532   dc-bot   PAW#5844   https://blog.logrocket.com/create-read-qr-codes-node-js/
+24.01.2023   14:27   priv   727662119553728532   bot   PAW#5844   $lvl
+24.01.2023   14:28   priv   727662119553728532   bot   PAW#5844   $help
+24.01.2023   14:29   priv   727662119553728532   bot   PAW#5844   $help owner_alert
+24.01.2023   14:29   priv   727662119553728532   bot   PAW#5844   $owner_laert help
+24.01.2023   14:30   priv   727662119553728532   bot   PAW#5844   $owner_alert help
+24.01.2023   14:30   priv   727662119553728532   bot   PAW#5844   $ping
+24.01.2023   14:30   priv   727662119553728532   bot   PAW#5844   $owner_alert
+24.01.2023   14:31   priv   727662119553728532   bot   PAW#5844   $settings owner_alert help
+24.01.2023   14:31   priv   727662119553728532   bot   PAW#5844   $settings owner_alert
+24.01.2023   14:32   priv   727662119553728532   dc-bot   PAW#5844   Komenda owner alert nie chce działać
+24.01.2023   14:33   priv   727662119553728532   dc-bot   PAW#5844   Zrobic komendę dla bot ownera która wyświetla ostatnie ileś linijek logów
+24.01.2023   17:45   priv   727662119553728532   dc-bot   PAW#5844   .
+Zrobić na stronie www report flienta gdzie bedzie: awatar,nick,tag,id usera,
+Treść reporta
+Miejsce na odp
+Przycisk wysłania
+
+Wszystkie reporty muszą się wczytywać po kolei
+24.01.2023   22:11   priv   727662119553728532   dc-bot   PAW#5844   .
+zrobic komendę, która liczy ile czasu gracz jest w jakiej grze(po  statusie gracza)
+24.01.2023   23:07   priv   727662119553728532   dc-bot   PAW#5844   .
+dodać komendę, która puszcza na głosowym audio z mp3 i zrobić tak jakąś playlistę czy coś
+25.01.2023   01:13   priv   727662119553728532   dc-bot   PAW#5844   .
+spróbować zrobić coś ala polecenia głosowe na bocie.
+coś ala hey google
+25.01.2023   02:45   priv   727662119553728532   ogólny   PAW#5844   10:32 wyjazd z osiedla
+25.01.2023   10:49   priv   727662119553728532   bot   PAW#5844   $ping
+25.01.2023   12:29   priv   727662119553728532   ogólny   PAW#5844   Slizex
+25.01.2023   16:49   priv   727662119553728532   dc-bot   PAW#5844   https://youtu.be/hkMWVrhGorI
+25.01.2023   17:39   priv   727662119553728532   ogólny   PAW#5844   0.4 sobota jazdy
+25.01.2023   17:39   priv   727662119553728532   ogólny   PAW#5844   7:30
