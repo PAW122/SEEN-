@@ -6,6 +6,7 @@ module.exports = {
     prefix: "$",//set deafult prefix
     commands_logs: "True",//True/False
     load_commands_logs: "False", //True/False 
+    del_banes_server_links: true,
 
     service_mode: false, //false/true
 
