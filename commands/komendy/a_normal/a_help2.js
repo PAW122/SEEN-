@@ -34,7 +34,7 @@ const embed_pl = new Discord.MessageEmbed()
         "``valo help``" + "," + "``valo mmr``" + "," + "``valo mmr history``" + "," + "``valo get_article``" + "," + "``valo last mathces``" + "," + "``valo agents``" + "," + "``valo player_cards``" + "," + "``valo maps``" + "," + "``version``" + "," + "``valo eavents``", inline: false },
 
         { name: `***🧠Special***`, value:
-        "``mechatronic``,``mp3editor``,``html``,``sens-calculator``,``qr_gen``", inline: false },
+        "``mechatronic``,``mp3editor``,``html``,``sens-calculator``,``qr_gen``,``gpt``", inline: false },
 
         { name: `***🌐APIS***`, value:
         " ``$write`` , ``chess help`` , ``chess profil`` , ``chess stats``, ``wot``"},
