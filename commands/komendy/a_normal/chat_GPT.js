@@ -52,6 +52,11 @@ module.exports = {
             max_tokens: 500,
             stop: ["\n"]
         })
+        .catch(err => {
+            console.log(err)
+            message.reply("Error\n pleas use $report to sane us informations what is happend")
+            return
+        })
         message.reply(res.data.choices[0].text)
     }
 }
