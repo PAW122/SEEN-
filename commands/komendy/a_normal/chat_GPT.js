@@ -57,6 +57,9 @@ module.exports = {
             message.reply("Error\n pleas use $report to sane us informations what is happend")
             return
         })
+        if(res.status == 503) {
+            return message.reply("Chat GPT servers dont responding")
+        }
         message.reply(res.data.choices[0].text)
     }
 }

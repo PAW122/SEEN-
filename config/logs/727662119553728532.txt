@@ -10557,3 +10557,19 @@ dodać komendę która daje mi alert jeżeli krokiet kogoś zbanuje
 26.01.2023   00:58   priv   727662119553728532   bot   PAW#5844   $gpt hello
 26.01.2023   00:59   priv   727662119553728532   bot   PAW#5844   $gpt can you tell me a joke?
 26.01.2023   00:59   priv   727662119553728532   bot   PAW#5844   $gpt haha nice
+26.01.2023   02:34   priv   727662119553728532   ogólny   PAW#5844   Czw,pt wolne potem w sobotę jazdy
+26.01.2023   02:46   priv   727662119553728532   bot   PAW#5844   $gpt oceń jak trudny jest język Polski w porównaniu do Angielskiego w skali od 1 do 10
+26.01.2023   02:46   priv   727662119553728532   bot   PAW#5844   $ping
+26.01.2023   03:16   priv   727662119553728532   bot   PAW#5844   $gpt oceń jak trudny jest język Polski w porównaniu do Angielskiego w skali od 1 do 10
+26.01.2023   03:18   priv   727662119553728532   dc-bot   PAW#5844   .
+Zrobić do configa kanał w powiadomieniami o aktułkach bota
+
+Tak jak logs tylko w auto settings dać mu nazwę seen-updates
+I za pomocą komendy $update-send <tezt>
+Wysyłac informację
+
+Dodać funkcję edytowania wiadomości
+Bot bierze z db id kanału, bierze ostatnią swoją wiadomość i ją edytuje
+26.01.2023   03:21   priv   727662119553728532   dc-bot   PAW#5844   forever start nodemon --exitcrash app.js
+
+https://stackoverflow.com/questions/37197099/node-js-auto-restart-all-forever-js-process-when-server-goes-down-crashes
