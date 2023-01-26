@@ -10536,3 +10536,24 @@ coś ala hey google
 25.01.2023   16:49   priv   727662119553728532   dc-bot   PAW#5844   https://youtu.be/hkMWVrhGorI
 25.01.2023   17:39   priv   727662119553728532   ogólny   PAW#5844   0.4 sobota jazdy
 25.01.2023   17:39   priv   727662119553728532   ogólny   PAW#5844   7:30
+25.01.2023   22:34   priv   727662119553728532   dc-bot   PAW#5844   dodać coś jak baned servers:
+jak na srv jest wysłana wiadomość z linkiem do zbanowanego serwera to bot usówą te wiadomość i wysyła do urzytkownika wiadomość że nie ten serwer jets na czarnej liście
+25.01.2023   23:16   priv   727662119553728532   dc-bot   PAW#5844   .
+dodać komendę która daje mi alert jeżeli krokiet kogoś zbanuje
+26.01.2023   00:06   priv   727662119553728532   bot   PAW#5844   https://discord.gg/boobis
+26.01.2023   00:27   priv   727662119553728532   bot   PAW#5844   $gpt hello
+26.01.2023   00:30   priv   727662119553728532   bot   PAW#5844   $gpt hello
+26.01.2023   00:31   priv   727662119553728532   bot   PAW#5844   $gpt hello
+26.01.2023   00:32   priv   727662119553728532   bot   PAW#5844   $gpt great. say me joke
+26.01.2023   00:32   priv   727662119553728532   bot   PAW#5844   $gpt good
+26.01.2023   00:42   priv   727662119553728532   bot   PAW#5844   $gpt hello
+26.01.2023   00:43   priv   727662119553728532   bot   PAW#5844   $gpt probably not
+26.01.2023   00:52   priv   727662119553728532   bot   PAW#5844   $gpt hello
+26.01.2023   00:52   priv   727662119553728532   bot   PAW#5844   $gpt hello
+26.01.2023   00:53   priv   727662119553728532   bot   PAW#5844   $gpt hello
+26.01.2023   00:54   priv   727662119553728532   bot   PAW#5844   $gpt hello
+26.01.2023   00:56   priv   727662119553728532   bot   PAW#5844   $gpt hello
+26.01.2023   00:56   priv   727662119553728532   bot   PAW#5844   $gpt hello
+26.01.2023   00:58   priv   727662119553728532   bot   PAW#5844   $gpt hello
+26.01.2023   00:59   priv   727662119553728532   bot   PAW#5844   $gpt can you tell me a joke?
+26.01.2023   00:59   priv   727662119553728532   bot   PAW#5844   $gpt haha nice
