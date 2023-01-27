@@ -34,7 +34,9 @@ module.exports = (message, data, path, type, srv_id, author_tag, channel_name,cl
         const time = new Date().toLocaleTimeString().slice(0,5)
         const srvID = client.guilds.cache.get(srv_id);
         const srv_name = srvID.name
-        const dane = d.toLocaleDateString()+ "   "+time+ "   "+srv_name+"   "+srvID+"   "+channel_name+ "   " + author_tag + "   "+ data + "\n"
+        const message_auth = message.author.id
+        const channel_id = message.channel.id
+        const dane = d.toLocaleDateString()+ "   "+time+ "   "+srv_name+"   "+srvID+"   "+channel_name+ "    "+channel_id+ "    "+ author_tag +"    " + message_auth+ "   "+ data + "\n"
         const path_name = srv_id + ".txt"
         const path = `./config/logs/${path_name}`
 
