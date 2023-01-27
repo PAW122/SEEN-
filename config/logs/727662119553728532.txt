@@ -10772,3 +10772,16 @@ async function downloadVideo(link) {
 27.01.2023   02:45   priv   727662119553728532   bot    745768777022701648    PAW#5844    438336824516149249   $gpt napisz taką funkcję
 27.01.2023   02:45   priv   727662119553728532   bot    745768777022701648    PAW#5844    438336824516149249   $gpt napisz taką funkcję
 27.01.2023   02:46   priv   727662119553728532   bot    745768777022701648    PAW#5844    438336824516149249   $gpt napisz fukncje która uzyska dane konkretnego filmu z strony cda posiadając tylko link do strony internetowej
+27.01.2023   05:22   priv   727662119553728532   bot    745768777022701648    PAW#5844    438336824516149249   $ping
+27.01.2023   05:22   priv   727662119553728532   bot    745768777022701648    PAW#5844    438336824516149249   $server
+27.01.2023   05:29   priv   727662119553728532   dc-bot    1020825985224020088    PAW#5844    438336824516149249   .
+
+
+Komenda gpt update
+Spróbować zrobić tak aby bot zapisywał historię woadomości w pliku txt i do wysłania pobierał np ostatnie 10 linijel textu
+1linijka-jedna wiadomosc na dc
+
++ Text wysłany przez urzytkownika 
+
+Taka funkcja musiała by mieć premium bo zużywa bardzo dużo tokenów na openai api
+27.01.2023   13:42   priv   727662119553728532   bot    745768777022701648    PAW#5844    438336824516149249   $gpt co to jest wiatr epizodyczny?
