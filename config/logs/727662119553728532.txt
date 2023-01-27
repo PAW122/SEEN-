@@ -10573,3 +10573,202 @@ Bot bierze z db id kanału, bierze ostatnią swoją wiadomość i ją edytuje
 26.01.2023   03:21   priv   727662119553728532   dc-bot   PAW#5844   forever start nodemon --exitcrash app.js
 
 https://stackoverflow.com/questions/37197099/node-js-auto-restart-all-forever-js-process-when-server-goes-down-crashes
+26.01.2023   15:46   priv   727662119553728532   bot   Senko#3667   C:\Users\pawel\OneDrive\Dokumenty\GitHub\SEEN-\node_modules\discord.js\src\rest\RequestHandler.js:350
+      throw new DiscordAPIError(data, res.status, request);
+            ^
+
+DiscordAPIError: Missing Access
+    at RequestHandler.execute (C:\Users\pawel\OneDrive\Dokumenty\GitHub\SEEN-\node_modules\discord.js\src\rest\RequestHandler.js:350:13)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async RequestHandler.push (C:\Users\pawel\OneDrive\Dokumenty\GitHub\SEEN-\node_modules\discord.js\src\rest\RequestHandler.js:51:14)
+    at async GuildMemberRoleManager.add (C:\Users\pawel\OneDrive\Dokumenty\GitHub\SEEN-\node_modules\discord.js\src\managers\GuildMemberRoleManager.js:124:7)
+    at async Object.execute (C:\Users\pawel\OneDrive\Dokumenty\GitHub\SEEN-\commands\komendy\a_normal\mute.js:155:9) {
+  method: 'put',
+  path: '/guilds/333949691962195969/members/452719570130829342/roles/895698565815492659',
+  code: 50001,
+  httpStatus: 403,
+  requestData: { json: undefined, files: [] }
+}
+26.01.2023   15:46   priv   727662119553728532   bot   PAW#5844   $gpt discord v13 error:
+C:\Users\pawel\OneDrive\Dokumenty\GitHub\SEEN-\node_modules\discord.js\src\rest\RequestHandler.js:350
+      throw new DiscordAPIError(data, res.status, request);
+            ^
+
+DiscordAPIError: Missing Access
+    at RequestHandler.execute (C:\Users\pawel\OneDrive\Dokumenty\GitHub\SEEN-\node_modules\discord.js\src\rest\RequestHandler.js:350:13)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async RequestHandler.push (C:\Users\pawel\OneDrive\Dokumenty\GitHub\SEEN-\node_modules\discord.js\src\rest\RequestHandler.js:51:14)
+    at async GuildMemberRoleManager.add (C:\Users\pawel\OneDrive\Dokumenty\GitHub\SEEN-\node_modules\discord.js\src\managers\GuildMemberRoleManager.js:124:7)
+    at async Object.execute (C:\Users\pawel\OneDrive\Dokumenty\GitHub\SEEN-\commands\komendy\a_normal\mute.js:155:9) {
+  method: 'put',
+  path: '/guilds/333949691962195969/members/452719570130829342/roles/895698565815492659',
+  code: 50001,
+  httpStatus: 403,
+  requestData: { json: undefined, files: [] }
+}
+26.01.2023   15:47   priv   727662119553728532   bot   PAW#5844   $owner help
+26.01.2023   15:47   priv   727662119553728532   bot   PAW#5844   #guild_info 333949691962195969
+26.01.2023   15:47   priv   727662119553728532   bot   PAW#5844   $guild_info 333949691962195969
+26.01.2023   15:50   priv   727662119553728532   bot   PAW#5844   $mute <@778643150981562368> 1m test
+26.01.2023   15:51   priv   727662119553728532   bot   PAW#5844   $mute <@778643150981562368> 1m test
+26.01.2023   15:52   priv   727662119553728532   bot   PAW#5844   $mute <@778643150981562368> 1m test
+26.01.2023   15:53   priv   727662119553728532   bot   PAW#5844   $mute <@778643150981562368> 1m test
+26.01.2023   15:54   priv   727662119553728532   bot   PAW#5844   https://discord.com/api/oauth2/authorize?client_id=797070806885990431&permissions=8&redirect_uri=https%3A%2F%2Fdiscord.com%2Fapi%2Foauth2%2Ftoken&response_type=code&scope=bot%20messages.read%20role_connections.write%20voice%20activities.write%20applications.commands%20webhook.incoming%20guilds.members.read%20guilds%20guilds.join
+26.01.2023   15:55   priv   727662119553728532   bot   PAW#5844   https://discord.com/api/oauth2/authorize?client_id=797070806885990431&permissions=8&redirect_uri=https%3A%2F%2Fdiscord.com%2Fapi%2Foauth2%2Ftoken&response_type=code&scope=bot%20role_connections.write%20voice%20activities.write%20applications.commands%20webhook.incoming%20guilds.members.read%20guilds
+26.01.2023   16:15   priv   727662119553728532   bot   PAW#5844   $help
+26.01.2023   16:24   priv   727662119553728532   bot   PAW#5844   long dis:
+```
+In addition to standard commands, the bot has unique functions such as:
+roulette - play roulette with your friends
+avatar-generator - generate a unique avatar
+message_logs - message logs from the server
+owner_alert - alerts for the owner of the server
+Valorant stats commands - check your stats and match history
+mp3editor - cut pieces from your favorite songs
+html - will render the html page
+sens-calculator - will recalculate your mouse cleanness to other games
+gpt - chat GPT on discord bot
+chess - statistics from chess.com
+tic-tac-toe - minigame
+
+and many others
+```
+26.01.2023   16:24   priv   727662119553728532   bot   PAW#5844   headline:
+```
+seen is a discord bot with many unique commands. It's great for server moderation as well as for playing mini-games with your friends
+```
+26.01.2023   16:24   priv   727662119553728532   bot   PAW#5844   
+26.01.2023   16:43   priv   727662119553728532   dc-bot   PAW#5844   1.sprawdzić wszystkie komendy
+
+2. potem sprawdzic wszystkie komendy ale zabrać botowy range żeby admina nie miał
+27.01.2023   00:48   priv   727662119553728532   dc-bot   PAW#5844   dodac system premium na bocie.
+właściciele gildii będą mogli aplikować a otrzymanie statusu przemium,
+status będzie przyznawany ręcznie dla każdego serwera
+
+wymagania: używanie bota do welcome, serwer zweryfikowany ręcznie
+
+co daje premium?
+cooldown na clear: 10s,
+...
+27.01.2023   00:53   priv   727662119553728532   dc-bot   PAW#5844   .
+
+
+dodać komende readom_server:
+user dodaje link do serwera na listę,
+1 user może dodać 1 serwer
+
+trzeba sprawdzać do jakiego serwera to jest link
+i do 1 srv może być maxymalnie 1 zapka
+
+po użycie komendy bot wysyła zapkę do randomowego serwera
+27.01.2023   01:03   priv   727662119553728532   dc-bot   PAW#5844    438336824516149249   test
+27.01.2023   01:42   priv   727662119553728532   dc-bot    1020825985224020088    PAW#5844    438336824516149249   .
+
+custom command
+dodać możliwość stworzenia przez administratortra serwera koemndy:
+
+max 5 komend
+
+$custom_command add <profil(1-5)> <commandinputtype> <action> <resopond>
+
+commandinputtype: {
+wiadomość
+prefix w wiadomości
+słowo klucz
+}
+
+action{
+odpowiedz wiadomością textową
+dodaj reakcję do wiadomości
+}
+
+resopond{
+"text"
+"👍"-emoji
+}
+27.01.2023   01:48   priv   727662119553728532   dc-bot    1020825985224020088    PAW#5844    438336824516149249   .
+
+zrobić komendę streamującą obraz!
+user daje link do filmu na:
+
+np na start cda albo ytube
+
+bot wbija na kanał i streamuje wideo
+27.01.2023   01:49   priv   727662119553728532   bot    745768777022701648    PAW#5844    438336824516149249   $gpt jak stworzyć komendę do dosicrd bota w js, która będzie streamowała wideo z strony cda dostając link do danego wideo
+27.01.2023   02:09   priv   727662119553728532   bot    745768777022701648    PAW#5844    438336824516149249   $gpt napisz funkcję, która będzie pobierała wideo z cda
+27.01.2023   02:10   priv   727662119553728532   bot    745768777022701648    PAW#5844    438336824516149249   $gpt napisz funkcję, która będzie streamowała pobrane wideo na kanale głosowym na discordzie
+27.01.2023   02:12   priv   727662119553728532   bot    745768777022701648    PAW#5844    438336824516149249   $gpt edytuj kod, tak aby bot dołączał na kanał na którym zjaduje się urzytkownik, potem zaczoł streamować wideo
+27.01.2023   02:15   priv   727662119553728532   bot    745768777022701648    PAW#5844    438336824516149249   $stream cda https://www.cda.pl/video/3306823ce
+27.01.2023   02:19   priv   727662119553728532   bot    745768777022701648    PAW#5844    438336824516149249   $stream cda https://www.cda.pl/video/3306823ce
+27.01.2023   02:19   priv   727662119553728532   bot    745768777022701648    PAW#5844    438336824516149249   $stream cda https://www.cda.pl/video/3306823ce
+27.01.2023   02:19   priv   727662119553728532   bot    745768777022701648    PAW#5844    438336824516149249   $gpt Unhandled promise rejection: TypeError: channel.join is not a function
+27.01.2023   02:20   priv   727662119553728532   bot    745768777022701648    PAW#5844    438336824516149249   $stream cda https://www.cda.pl/video/3306823ce
+27.01.2023   02:21   priv   727662119553728532   bot    745768777022701648    PAW#5844    438336824516149249   $gpt zadelkaruj zmienną channel
+27.01.2023   02:22   priv   727662119553728532   bot    745768777022701648    PAW#5844    438336824516149249   $stream cda https://www.cda.pl/video/3306823ce
+27.01.2023   02:23   priv   727662119553728532   bot    745768777022701648    PAW#5844    438336824516149249   $stream cda https://www.cda.pl/video/3306823ce
+27.01.2023   02:25   priv   727662119553728532   bot    745768777022701648    PAW#5844    438336824516149249   $gpt edytuj kod tak aby użył:
+
+const { joinVoiceChannel } = require('@discordjs/voice');
+
+const connection = joinVoiceChannel({
+    channelId: channel.id,
+    guildId: channel.guild.id,
+    adapterCreator: channel.guild.voiceAdapterCreator,
+});
+
+zamiast const connection = await channel.join({ speaking: true });
+27.01.2023   02:26   priv   727662119553728532   bot    745768777022701648    PAW#5844    438336824516149249   $stream cda https://www.cda.pl/video/365629375
+27.01.2023   02:27   priv   727662119553728532   bot    745768777022701648    PAW#5844    438336824516149249   $stream cda https://www.cda.pl/video/365629375
+27.01.2023   02:27   priv   727662119553728532   bot    745768777022701648    PAW#5844    438336824516149249   $gpt napisz funkcję createReadStream
+27.01.2023   02:28   priv   727662119553728532   bot    745768777022701648    PAW#5844    438336824516149249   $stream cda https://www.cda.pl/video/365629375
+27.01.2023   02:28   priv   727662119553728532   bot    745768777022701648    PAW#5844    438336824516149249   $gpt Unhandled promise rejection: TypeError: video.createReadStream is not a function
+27.01.2023   02:29   priv   727662119553728532   eval-commands    1015008248115503164    PAW#5844    438336824516149249   .$stream cda https://www.cda.pl/video/365629375
+27.01.2023   02:30   priv   727662119553728532   bot    745768777022701648    PAW#5844    438336824516149249   $gpt zaimplementuj te metodę w kodzie
+27.01.2023   02:31   priv   727662119553728532   eval-commands    1015008248115503164    PAW#5844    438336824516149249   $stream cda https://www.cda.pl/video/365629375
+27.01.2023   02:32   priv   727662119553728532   bot    745768777022701648    PAW#5844    438336824516149249   $gpt Unhandled promise rejection: TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string or an instance of Buffer or URL. Received an instance of Promise
+27.01.2023   02:33   priv   727662119553728532   bot    745768777022701648    PAW#5844    438336824516149249   $gpt argument path w tym przypadku zmienna video  to wideo pobrane z strony cda
+27.01.2023   02:33   priv   727662119553728532   eval-commands    1015008248115503164    PAW#5844    438336824516149249   $stream cda https://www.cda.pl/video/365629375
+27.01.2023   02:34   priv   727662119553728532   eval-commands    1015008248115503164    PAW#5844    438336824516149249   $stream cda https://www.cda.pl/video/365629375
+27.01.2023   02:35   priv   727662119553728532   eval-commands    1015008248115503164    PAW#5844    438336824516149249   $stream cda https://www.cda.pl/video/365629375
+27.01.2023   02:36   priv   727662119553728532   bot    745768777022701648    PAW#5844    438336824516149249   $gpt stwórz funkcję, która będzie streamowałą pobrane wideo ze zmiennej "video" na kanale głosowym
+27.01.2023   02:37   priv   727662119553728532   eval-commands    1015008248115503164    PAW#5844    438336824516149249   $stream cda https://www.cda.pl/video/365629375
+27.01.2023   02:38   priv   727662119553728532   eval-commands    1015008248115503164    PAW#5844    438336824516149249   $stream cda https://www.cda.pl/video/365629375
+27.01.2023   02:39   priv   727662119553728532   bot    745768777022701648    PAW#5844    438336824516149249   $gpt napisz funkcję createVoiceBroadcast()
+27.01.2023   02:40   priv   727662119553728532   eval-commands    1015008248115503164    PAW#5844    438336824516149249   $stream cda https://www.cda.pl/video/365629375
+27.01.2023   02:41   priv   727662119553728532   bot    745768777022701648    PAW#5844    438336824516149249   $gpt 
+Unhandled promise rejection: TypeError: VoiceBroadcast is not a constructor
+
+
+```
+const { VoiceBroadcast } = require('discord.js');
+
+        async function streamVideo(client, channel, video) {
+            const readableStream = video
+            const connection = await joinVoiceChannel({
+                channelId: channel.id,
+                guildId: channel.guild.id,
+                adapterCreator: channel.guild.voiceAdapterCreator
+            });
+            function createVoiceBroadcast() {
+                return new VoiceBroadcast();
+            }
+            const broadcast = createVoiceBroadcast();
+            broadcast.play(readableStream);
+            return broadcast;
+        }
+```
+27.01.2023   02:42   priv   727662119553728532   bot    745768777022701648    PAW#5844    438336824516149249   $gpt Unhandled promise rejection: TypeError: VoiceBroadcast is not a constructor
+27.01.2023   02:44   priv   727662119553728532   bot    745768777022701648    PAW#5844    438336824516149249   $gpt napisz funkcję, która odizoluje dane wideo od kodu strony internetowej pobrane z linku do filmu na stronie cda 
+
+kod:
+async function downloadVideo(link) {
+            const response = await axios.get(link);
+            const video = await response.data;
+            return video;
+        }
+27.01.2023   02:44   priv   727662119553728532   bot    745768777022701648    PAW#5844    438336824516149249   $gpt powyższy kod pobiera całą stronę internetową
+27.01.2023   02:45   priv   727662119553728532   bot    745768777022701648    PAW#5844    438336824516149249   $gpt napisz taką funkcję
+27.01.2023   02:45   priv   727662119553728532   bot    745768777022701648    PAW#5844    438336824516149249   $gpt napisz taką funkcję
+27.01.2023   02:46   priv   727662119553728532   bot    745768777022701648    PAW#5844    438336824516149249   $gpt napisz fukncje która uzyska dane konkretnego filmu z strony cda posiadając tylko link do strony internetowej
