@@ -44,10 +44,11 @@ module.exports = {
 
 
         try {
+            console.log(client.users.cache.get(args[0]))
             client.users.cache.get(args[0]).send({ embeds: [embed] });
             message.reply("response send")
         } catch (err) {
-            message.reply("An error occurred while sending a message")
+            message.reply("An error occurred while sending a message \n" + err)
         }
     }
 
