@@ -5,7 +5,6 @@ const consola = require('consola')
 
 const { REST } = require('@discordjs/rest');
 const { Routes } = require('discord-api-types/v9');
-const { Player } = require("discord-player");
 const { QuickDB } = require("quick.db");
 const logs = require('discord-logs');
 //wczytywanie configu
@@ -173,6 +172,12 @@ client.on('messageCreate', async message => {
     }
 
 });
+
+process.on('unhandledRejection', error => {
+	console.error('Unhandled promise rejection:', error);
+});
+process.on('warning', console.warn);
+
 
 //interakcje
 interaction_handler(client)
