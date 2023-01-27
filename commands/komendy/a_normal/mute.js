@@ -152,8 +152,16 @@ module.exports = {
         if (!muteTime) return message.reply(`You dont type on how many time u link mute ${toMute}`)
 
         //dodajemy urzytkownikowi role
-        await (toMute.roles.add(muteRole.id))
-
+        try{
+            await (toMute.roles.add(muteRole.id))
+        } catch (err) {
+            console.log(err)
+            if(err == "DiscordAPIError: Missing Permissions") {
+                return message.reply("Missing Permissions - I cant add role to this user")
+            }else{
+                return message.reply("I cant add role to this user")
+            }
+        }
         message.reply(`Sucesfully muted ${toMute.user.tag}`)
 
         
