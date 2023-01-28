@@ -32,6 +32,7 @@ module.exports = (type, logs_embed, guildId, message, args, client) => {
                         {name: "off", value: "command: **$settings owner_alert off**"},
                         {name: "alerts types", value: "1.**membed join server**\n 2.**member leave server** \n 3.**member get role** \n 4.**member lost role**"}
                     )
+                return message.reply({embeds: [embed_pl]})
             }
 
             if (args[1] == "on") {
@@ -48,7 +49,6 @@ module.exports = (type, logs_embed, guildId, message, args, client) => {
 
         if (type == 1) {
             //sprawdż w db czy owner alert jest włączono
-            //coś zwraca zamiast guildId nazwe gildi
             if(isNaN(guildId)) return console.log(`isNan ${guildId}`)
             const db = new QuickDB({ filePath: process.cwd() + `/db/srv_settings/commands/${guildId}.sqlite` });
             const check = await db.get("owner_alert_check")
