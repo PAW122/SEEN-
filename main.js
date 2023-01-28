@@ -59,9 +59,6 @@ const mod_logs_handler = require("./handlers/mod_logs_handler")
 //automod
 const automod_handler = require("./commands/servers_config/auto_mod_handler")
 
-//ai handler
-const ai = require("./commands/komendy/AI/ai_handler")
-
 //kick , ban logs
 const informations_handler = require("./handlers/informations")
 
@@ -128,8 +125,6 @@ client.once('ready', () => {
 
     //mod logs
     mod_logs_handler(client)
-
-    ai(client)
 
     //ram limiter
     client.setMaxListeners(50);
