@@ -42,7 +42,7 @@ module.exports = {
 
         async function streamVideo(client, channel, video) {
             const readableStream = video
-            const connection = await joinVoiceChannel({
+            const connection = joinVoiceChannel({
                 channelId: channel.id,
                 guildId: channel.guild.id,
                 adapterCreator: channel.guild.voiceAdapterCreator
