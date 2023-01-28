@@ -16,7 +16,6 @@ module.exports = {
 
         const token = await db.get(`${player_id}.token`)
         const board = await game_db.get(`${token}.board`)
-        var pice_colors = await game_db.get(`${token}.pones_colors`)
 
         draw_ascii_board()
 
