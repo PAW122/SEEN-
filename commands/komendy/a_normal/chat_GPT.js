@@ -15,7 +15,7 @@ const embed = new Discord.MessageEmbed()
 .setFields(
     {name: "usage:" , value: "$gpt <your message>"},
     {name: "example", value: "$gtp hello"},
-    {name: "informations:", value: "the gpt command can continue the conversation with a history of up to the last 5 messages"}
+    {name: "informations:", value: "the gpt command can continue the conversation with a history of up to the last 6 messages"}
 )
 
 module.exports = {
@@ -25,7 +25,7 @@ module.exports = {
     execute: async (message, args, client) => {
         message.channel.sendTyping()
 
-        const PAST_MESSAGES = 5
+        const PAST_MESSAGES = 6
 
         let messages = Array.from(await message.channel.messages.fetch({
             limit: PAST_MESSAGES,
@@ -49,7 +49,7 @@ module.exports = {
         const res = await openai.createCompletion({
             prompt,
             model: "text-davinci-003",
-            max_tokens: 500,
+            max_tokens: 1000,
             stop: ["\n"]
         })
         .catch(err => {
