@@ -10,7 +10,6 @@ module.exports = (client, token, clientId) => {
 
   const slashCommands1_0 = fs.readdirSync(process.cwd() + `/commands/komendy/a_normal`).filter(file => file.endsWith('.js'));
   const slashCommands1_1 = fs.readdirSync(process.cwd() + `/commands/komendy/administration`).filter(file => file.endsWith('.js'))
-  const slashCommands1_2 = fs.readdirSync(process.cwd() + `/commands/komendy/AI`).filter(file => file.endsWith('.js'));
   const slashCommands1_3 = fs.readdirSync(process.cwd() + `/commands/komendy/APIS`).filter(file => file.endsWith('.js'));
   const slashCommands1_4 = fs.readdirSync(process.cwd() + `/commands/komendy/button_roles`).filter(file => file.endsWith('.js'));
   const slashCommands1_5 = fs.readdirSync(process.cwd() + `/commands/komendy/game_flags`).filter(file => file.endsWith('.js'));
@@ -33,7 +32,6 @@ module.exports = (client, token, clientId) => {
 
     await client.handleCommands(slashCommands1_0, `komendy/a_normal`);
     await client.handleCommands(slashCommands1_1, `komendy/administration`);
-    await client.handleCommands(slashCommands1_2, `komendy/AI`);
     await client.handleCommands(slashCommands1_3, `komendy/APIS`);
     await client.handleCommands(slashCommands1_4, `komendy/button_roles`);
     await client.handleCommands(slashCommands1_5, `komendy/game_flags`);
