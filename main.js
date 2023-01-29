@@ -63,7 +63,7 @@ const automod_handler = require("./commands/servers_config/auto_mod_handler")
 const informations_handler = require("./handlers/informations")
 
 //server channel stats
-const stats_channels_autorefresh = require("./commands/komendy/stats/handler")
+const stats_channels_autorefresh = require("./commands/komendy/stats-channels/handler")
 
 const help_handler = require("./handlers/help_handler")
 const runtime_handler = require("./handlers/runtime_handler")
