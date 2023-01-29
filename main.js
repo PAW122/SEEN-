@@ -68,6 +68,7 @@ const stats_channels_autorefresh = require("./commands/komendy/stats-channels/ha
 const help_handler = require("./handlers/help_handler")
 const runtime_handler = require("./handlers/runtime_handler")
 const banes_servers_link = require("./handlers/baned_servers_link")
+const stats_carcher = require("./handlers/stats_handlers.js/catcher")
 
 /* dc js v13.9.2
 const client = new Discord.Client({
@@ -133,6 +134,7 @@ client.once('ready', () => {
     stats_channels_autorefresh(client)
     runtime_handler.execute("ready", true)
     banes_servers_link(client)
+    stats_carcher(client)
 });
 
 
