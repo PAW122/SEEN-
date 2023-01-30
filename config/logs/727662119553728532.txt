@@ -10971,3 +10971,26 @@ zrobić to np dla języka V
 29.01.2023   17:01   priv   727662119553728532   bot    745768777022701648    PAW#5844    438336824516149249   $stats test
 29.01.2023   23:23   priv   727662119553728532   bot    745768777022701648    PAW#5844    438336824516149249   c
 29.01.2023   23:23   priv   727662119553728532   bot    745768777022701648    PAW#5844    438336824516149249   c
+29.01.2023   23:27   priv   727662119553728532   dc-bot    1020825985224020088    PAW#5844    438336824516149249   spróbować zrobić coś ala komendy w cmd
+np /refresh do przeładowania komend
+albo /shutdown 5m - wyłącza bota za 5 min (i w opisie bota jest informacja że bot się zaraz wyłączy)
+
+itp
+30.01.2023   06:45   priv   727662119553728532   bot    745768777022701648    PAW#5844    438336824516149249   $gpt opracuj powtórzenie przed sprawdzianem dla klasy 2 technikum, z biologii, temat: genetyka
+30.01.2023   08:49   priv   727662119553728532   bot    745768777022701648    PAW#5844    438336824516149249   $gpt opracuj powtórzenie przed sprawdzianem dla klasy 2 technikum, z biologii, temat: genetyka
+30.01.2023   08:49   priv   727662119553728532   bot    745768777022701648    PAW#5844    438336824516149249   $ping
+30.01.2023   09:06   priv   727662119553728532   bot    745768777022701648    PAW#5844    438336824516149249   $gpt jak załadować dane z db i wyświetlić na stronie html za pomocą js
+30.01.2023   09:11   priv   727662119553728532   bot    745768777022701648    PAW#5844    438336824516149249   $gpt napisz przykładowy kod wczytując dane z db urzywajac biblioteki quick.db
+30.01.2023   09:11   priv   727662119553728532   bot    745768777022701648    PAW#5844    438336824516149249   $gpt napisz przykładowy kod wczytując dane z db urzywajac biblioteki quick.db
+30.01.2023   09:11   priv   727662119553728532   bot    745768777022701648    PAW#5844    438336824516149249   $gpt napisz przykładowy kod wczytując dane z db urzywajac biblioteki quick.db
+30.01.2023   09:42   priv   727662119553728532   ogólny    727662119553728535    PAW#5844    438336824516149249   https://hackeru.pl/
+30.01.2023   09:43   priv   727662119553728532   bot    745768777022701648    PAW#5844    438336824516149249   $help
+30.01.2023   09:44   priv   727662119553728532   bot    745768777022701648    PAW#5844    438336824516149249   $chess help
+30.01.2023   09:44   priv   727662119553728532   bot    745768777022701648    PAW#5844    438336824516149249   $chess profil Paw117
+30.01.2023   09:44   priv   727662119553728532   bot    745768777022701648    PAW#5844    438336824516149249   $ping
+30.01.2023   09:45   priv   727662119553728532   bot    745768777022701648    PAW#5844    438336824516149249   $chess profil Pawiu117
+30.01.2023   09:46   priv   727662119553728532   dc-bot    1020825985224020088    PAW#5844    438336824516149249   Do tegp zapisywania w timesampie dać date + godz 00:00:00
+30.01.2023   12:17   priv   727662119553728532   bot    745768777022701648    PAW#5844    438336824516149249   $gpt write an essay about single sex class
+30.01.2023   15:05   priv   727662119553728532   bot    745768777022701648    PAW#5844    438336824516149249   $ping
+30.01.2023   16:42   priv   727662119553728532   ogólny    727662119553728535    PAW#5844    438336824516149249   tylko sobota koło vikinga 7:30 w gniewie jazdy
+30.01.2023   19:33   priv   727662119553728532   ogólny    727662119553728535    PAW#5844    438336824516149249   wziąść myszkę dla krokieta
