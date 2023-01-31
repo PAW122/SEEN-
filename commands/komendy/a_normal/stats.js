@@ -3,6 +3,7 @@ const user_messages_stats = require("../../../handlers/stats_handlers.js/user_ms
 const action_list = ["msg"]
 const { QuickDB } = require("quick.db");
 const db = new QuickDB({ filePath: process.cwd() + `/db/stats/messages.sqlite` });
+const moment = require("moment")
 
 const help_embed = new Discord.MessageEmbed()
     .setTitle("stats help page")
@@ -16,6 +17,11 @@ module.exports = {
     help: help_embed,
 
     execute: async (message, args, client) => {
+        
+        if(message.author.id != "438336824516149249") {
+            return console.log(`${message.author.id} try use $stats command`)
+        }
+
         if (args[0] == "help") {
             return message.reply({ embeds: [help_embed] })
         }
@@ -47,20 +53,23 @@ async function data_menager(message) {
 
     const len = msg_date_list.length
     let string = "stats: \n"
-    console.log("len:" + len)
+   // console.log("len:" + len)
     let i = 0;
+
+    console.log(msg_date_list)
 
     msg_date_list.forEach(element => {
 
-        string += `${msg_per_day_list[i]} : ${convertTimestampToDate(msg_date_list[i])}`
-        console.log(msg_per_day_list[i])
-        console.log(msg_date_list[i])
-        console.log(i)
+        console.log("data ts: " + msg_date_list[i])
+        string += `${msg_per_day_list[i]} : ${formatTimestamp(msg_date_list[i])}`
+       // console.log(msg_per_day_list[i])
+       // console.log(msg_date_list[i])
+       // console.log(i)
         i++
     })
 
-    console.log("---------------------------------")
-    console.log(string)
+    //console.log("---------------------------------")
+    //console.log(string)
 
     const embed = new Discord.MessageEmbed()
         .setTitle("user global stats")
@@ -70,17 +79,15 @@ async function data_menager(message) {
         )
     return message.reply({ embeds: [embed] })
 
-    console.log(`${all_msg}\n ${msg_per_day_list} \n ${msg_date_list}`)
+    // console.log(`${all_msg}\n ${msg_per_day_list} \n ${msg_date_list}`)
 
 }
 
-function convertTimestampToDate(timestamp) {
-    var date = new Date(timestamp);
-    var day = date.getDate();
-    var month = date.getMonth() + 1;
-    var year = date.getFullYear();
-    return `${day}:${month}:${year}`;
-}
+const formatTimestamp = (timestamp) => {
+    moment.locale('pl');
+    const date = moment(timestamp).add(30, 'days').format('DD.MM.YYYY');
+    return date;
+  }
 
 function check_action(action) {
     let res = false

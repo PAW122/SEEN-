@@ -4,15 +4,21 @@ const db = new QuickDB({ filePath: process.cwd() + `/db/stats/messages.sqlite` }
 module.exports = (message) => {
     if (message.author.bot) return;
     let myDate = new Date()
-    let day = myDate.getDate()
+    let day = myDate.getDate() + 1
     let month = myDate.getMonth() + 1
     let year = myDate.getFullYear()
+    
+   // console.log(`${year}:${month}:${day}`)
 
-    var date = new Date(year, month, day);
-    var timestamp = date.getTime();
+    const date_test = parseDate(`${year}:${month}:${day}`)
 
-    save(message, timestamp)
+    save(message, date_test)
 }
+
+function parseDate(dateStr) {
+    return Date.parse(dateStr.replace(':', '-'));
+    //data jest przesunięta o 1h w tył bo odczytywana jest zła strefa czasowa
+  }
 
 async function save(message, myDate) {
     const guild_id = message.guild.id
@@ -28,7 +34,8 @@ async function save(message, myDate) {
     } else {
         all_msg_ts = 0
     }
-
+//listy są nadpisywane zamiast dodawać nowych leentów
+//soróbowac urzyć coś ala push z biblioteki quick db 
     let mpdl = await db.get(`${user_id}`).msg_per_day_list
     let mdl = await db.get(`${user_id}`).msg_date_list
 
@@ -89,7 +96,7 @@ async function save(message, myDate) {
         date: myDate
     })
 
-    console.log("guild " + user_messages + "  " + myDate)
+    //console.log("guild " + user_messages + "  " + myDate)
 }
 
 //zrobić 2 listy
