@@ -17,7 +17,8 @@ module.exports = {
             .setColor("RANDOM")
             .setFields(
                 {name: "$seen-chess play @user", value: "play 1 vs 1 with another player"},
-                {name: "$seen-chess leave", value: "leave from game"}
+                {name: "$seen-chess leave", value: "leave from game"},
+                { name: "$seen-chess move <pos1> <pos2>"}
             )
             return message.reply({embeds: [embed]})
         }
