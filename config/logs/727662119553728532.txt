@@ -11067,3 +11067,106 @@ itp
 1.02.2023   00:08   priv   727662119553728532   bot    745768777022701648    PAW#5844    438336824516149249   $seen-chess move b1 a3
 1.02.2023   00:08   priv   727662119553728532   bot    745768777022701648    PAW#5844    438336824516149249   $seen-chess move b1 a3
 1.02.2023   00:11   priv   727662119553728532   bot    745768777022701648    PAW#5844    438336824516149249   $seen-chess move b1 a3
+1.02.2023   01:28   priv   727662119553728532   ogólny    727662119553728535    PAW#5844    438336824516149249   Matka zajebała karet miejską z legitymacji szkolej
+1.02.2023   01:30   priv   727662119553728532   dc-bot    1020825985224020088    PAW#5844    438336824516149249   Jak zrobie strąne internetowa dla bota to dadać coś jak stronę owner manager na lokalnym hoscie, w której bedzie bot_client i wszystkie inne opcje (zrobić cos ala bot clienta)
+1.02.2023   07:40   priv   727662119553728532   bot    745768777022701648    PAW#5844    438336824516149249   $ping
+1.02.2023   09:24   priv   727662119553728532   bot    745768777022701648    PAW#5844    438336824516149249   $help
+1.02.2023   09:39   priv   727662119553728532   bot    745768777022701648    PAW#5844    438336824516149249   Eh cistam sluchawki
+1.02.2023   11:53   priv   727662119553728532   ogólny    727662119553728535    PAW#5844    438336824516149249   8.02 infa
+1.02.2023   18:03   priv   727662119553728532   bot    745768777022701648    PAW#5844    438336824516149249   $gpt Samochód drogę s przejechał w czasie 3h i 45min z prędkością 68km/h. Jaka byłaby średnia prędkość samochodu, gdy drogę s przejechał w czasie o pół godziny dłuższym?
+1.02.2023   18:05   priv   727662119553728532   bot    745768777022701648    PAW#5844    438336824516149249   $gpt Nieprawdą jest, że funkcja wykładnicza f(x) = 4 do potęgi -x jest:
+
+A. monotoniczna
+B. różnowartościowa
+C. malejąca
+D. rosnąca
+1.02.2023   18:07   priv   727662119553728532   bot    745768777022701648    PAW#5844    438336824516149249   $O liczbach dodatnich a,b,c wiadomo, że a + b = c oraz b - a < 0. Zatem:
+A. log a< log b < log c
+C. log c < log b < log a
+B. log b < log a < log c
+D. log c < log a < log b
+1.02.2023   18:07   priv   727662119553728532   bot    745768777022701648    PAW#5844    438336824516149249   $gpt O liczbach dodatnich a,b,c wiadomo, że a + b = c oraz b - a < 0. Zatem:
+A. log a< log b < log c
+C. log c < log b < log a
+B. log b < log a < log c
+D. log c < log a < log b
+1.02.2023   18:09   priv   727662119553728532   bot    745768777022701648    PAW#5844    438336824516149249   $gpt uzasadnij
+1.02.2023   18:22   priv   727662119553728532   bot    745768777022701648    PAW#5844    438336824516149249   https://aiming.pro/mouse-sensitivity-calculator/valorant#/
+1.02.2023   18:23   priv   727662119553728532   bot    745768777022701648    PAW#5844    438336824516149249   $gpt wyjaśnij pojęcie sanacja
+1.02.2023   18:24   priv   727662119553728532   bot    745768777022701648    PAW#5844    438336824516149249   .
+1.02.2023   18:24   priv   727662119553728532   bot    745768777022701648    PAW#5844    438336824516149249   .
+1.02.2023   18:24   priv   727662119553728532   bot    745768777022701648    PAW#5844    438336824516149249   .
+1.02.2023   18:24   priv   727662119553728532   bot    745768777022701648    PAW#5844    438336824516149249   .
+1.02.2023   18:24   priv   727662119553728532   bot    745768777022701648    PAW#5844    438336824516149249   .
+1.02.2023   18:24   priv   727662119553728532   bot    745768777022701648    PAW#5844    438336824516149249   .
+1.02.2023   18:24   priv   727662119553728532   bot    745768777022701648    PAW#5844    438336824516149249   $gpt wyjaśnij pojęcie sanacja
+1.02.2023   21:46   priv   727662119553728532   bot    745768777022701648    PAW#5844    438336824516149249   $gpt wyjaśnij pojęcie sanacja
+(pojęcie powinno mieć powiązanie z napoleonem)
+1.02.2023   21:56   priv   727662119553728532   historia-spr-2rp    1062470025518268426    PAW#5844    438336824516149249   poprawione odpowiedzi:
+strony 173-234
+1.02.2023   21:59   priv   727662119553728532   bot    745768777022701648    PAW#5844    438336824516149249   $gpt uporzontkuj chronologicznie:
+powstanie wielkopolski
+prezydentura st wojciechowskiego
+traktat ryski
+przewrot majowy
+nowela sierpniowa
+1.02.2023   22:00   priv   727662119553728532   historia-spr-2rp    1062470025518268426    PAW#5844    438336824516149249   1.chronologicznie:
+```
+Traktat Ryski (1768),
+Powstanie Wielkopolskie (1793),
+Przewrót Majowy (1830),
+Nowela Sierpniowa (1832),
+Prezydentura St. Wojciechowskiego (1835).
+```
+1.02.2023   22:01   priv   727662119553728532   bot    745768777022701648    PAW#5844    438336824516149249   $gpt wyjaśnij pojęcie: traktat ryski
+1.02.2023   22:02   priv   727662119553728532   bot    745768777022701648    PAW#5844    438336824516149249   $gpt wyjaśnij pojęcie: przewrot majowy
+1.02.2023   22:03   priv   727662119553728532   bot    745768777022701648    PAW#5844    438336824516149249   $gpt wyjaśnij pojęcie: pakt ribentrop mołotow
+1.02.2023   22:05   priv   727662119553728532   historia-spr-2rp    1062470025518268426    PAW#5844    438336824516149249   2.wyjaśnij pojęcia:
+```
+traktat ryski :
+Traktat Ryski z 1768 roku to porozumienie między władcami
+ Rzeczypospolitej Obojga Narodów, Zakonem Krzyżackim i Rosją,
+ które uregulowało ważne aspekty polityczno-gospodarcze dzielących
+ terytoriów. Umowa ta ustanowiła granicę między Polską a Rosją,
+ a także uregulowała miedzy innymi handel, wymianę kulturową,
+ ewakuacje uchodźców z terenów zajmowanych przez Rosję 
+oraz pojedyncze ziemie i zasoby.
+
+przewrot majowy:
+Przewrót Majowy z 1830 roku był znaczącym zwrotem
+ w historii Polski i jednym z najważniejszych wydarzeń
+ Narodowego Zjednoczenia Polaków. Wtedy też uchwalona
+ została Konstytucja Majowa, która wzmocniła stronę 
+polityczną Polski i umożliwiła wprowadzenie wielu reform.
+ Przewrót miał na celu uwolnienie Polski spod zaboru rosyjskiego,
+ ale został obalony przez siły rosyjskie kilka miesięcy później.
+
+pakt ribentrop mołotow:
+Pakt Ribbentrop-Mołotow z 1939 roku to porozumienie między Niemcami a Rosją,
+ które formalnie zakończyło wojnę w Europie pomiędzy ZSRR a państwami Trzeciej Rzeszy.
+ Porozumienie oznaczało sojusz polityczny i militarny pomiędzy oboma krajami,
+ zgodnie z którym ich strefy wpływów na terytorium Polski, 
+Białorusi i Ukrainy miały być wspólną strefą wpływów.
+ Porozumienie ustanowiło również oficjalny lub nieoficjalny sojusz wojskowy Pribentrop-Mołotow,
+ który zażegnał zagrożenie sojuszniczego zrzutu aliantów na terytorium Państwa Polskiego
+```
+1.02.2023   22:06   priv   727662119553728532   eval-commands    1015008248115503164    PAW#5844    438336824516149249   $clear 30
+1.02.2023   22:06   priv   727662119553728532   bot    745768777022701648    PAW#5844    438336824516149249   $gpt zlokalizuj pojęcia w czasie: traktat ryski,przewrot majowy,pakt ribentrop mołotow
+1.02.2023   22:12   priv   727662119553728532   bot    745768777022701648    PAW#5844    438336824516149249   $gpt wyjaśnij pojęcie: mindzymorze
+1.02.2023   22:13   priv   727662119553728532   bot    745768777022701648    PAW#5844    438336824516149249   $gpt wyjaśnij pojęcie: inkorporacja
+1.02.2023   22:14   priv   727662119553728532   bot    745768777022701648    PAW#5844    438336824516149249   $gpt opisz przewrot majowy
+1.02.2023   22:15   priv   727662119553728532   historia-spr-2rp    1062470025518268426    PAW#5844    438336824516149249   6. przewrot majowy
+```
+Przewrót Majowy był kontrrewolucyjnym powstaniem przeciwko polskiej konstytucji trzeciego maja z roku 1791. Powstanie to zawiązał książę Józef Poniatowski i było wsparciem dla carskiej Rosji, która chciała odzyskać utracone terytorium. Powstania nie udało się powstrzymać polskiej armii, a przewrót skończył się klęską jej zwolenników. Przewrót Mayowy ostatecznie doprowadził do zniesienia polskiej konstytucji i przekształcił Polskę w zależną od Rosji prowincję.
+```
+1.02.2023   22:16   priv   727662119553728532   bot    745768777022701648    PAW#5844    438336824516149249   $gpt wypisz żądania niemiec wobec polcki
+
+(jedno z żądań dotyczyło autostrady)
+1.02.2023   22:20   priv   727662119553728532   historia-spr-2rp    1062470025518268426    PAW#5844    438336824516149249   7.żądania niemiec wobec Polski:
+```
+Ustanowienie wspólnej granicy - Niemcy domagały się ustanowienia wspólnej granicy z Polską, aby zapewnić swobodny przepływ towarów i ludzi.
+
+Rozszerzenie wpływów - Niemcy dążyły do rozszerzenia swoich wpływów w Europie Środkowej i Wschodniej, w tym w Polsce.
+
+Budowa autostrad - Niemcy występowali z żądaniem budowy autostrad łączących Niemcy i Polskę, co miałoby ułatwić transport i handel między tymi krajami.
+```
