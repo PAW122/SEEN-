@@ -11185,3 +11185,78 @@ Budowa autostrad - Niemcy występowali z żądaniem budowy autostrad łączącyc
 2.02.2023   00:01   priv   727662119553728532   bot    745768777022701648    PAW#5844    438336824516149249   $help
 2.02.2023   00:01   priv   727662119553728532   bot    745768777022701648    PAW#5844    438336824516149249   $settings owner_alert help
 2.02.2023   00:52   priv   727662119553728532   anime    765643835740913684    PAW#5844    438336824516149249   One Punch Man s1
+2.02.2023   00:55   priv   727662119553728532   bot    745768777022701648    PAW#5844    438336824516149249   $ping
+2.02.2023   00:56   priv   727662119553728532   bot    745768777022701648    PAW#5844    438336824516149249   
+2.02.2023   08:28   priv   727662119553728532   ogólny    727662119553728535    PAW#5844    438336824516149249   Hoi4 z xbox gamepasa
+2.02.2023   11:26   priv   727662119553728532   bot    745768777022701648    PAW#5844    438336824516149249   $ping
+2.02.2023   11:29   priv   727662119553728532   skrypt-na-infe    1070651588626104321    PAW#5844    438336824516149249   Na początek otwieramy Repl it i wchodzimy w konsolę shell
+2.02.2023   11:29   priv   727662119553728532   skrypt-na-infe    1070651588626104321    PAW#5844    438336824516149249   
+2.02.2023   11:29   priv   727662119553728532   skrypt-na-infe    1070651588626104321    PAW#5844    438336824516149249   Wpisujemy: npm init
+Przeklikujemy wszystko co wyświetli się w konsoli enterem
+2.02.2023   11:30   priv   727662119553728532   skrypt-na-infe    1070651588626104321    PAW#5844    438336824516149249   .
+
+2.
+
+Wpisujemy npm i discord.js@13.9.2
+2.02.2023   11:31   priv   727662119553728532   skrypt-na-infe    1070651588626104321    PAW#5844    438336824516149249   3. Deklarujemy discorda w index.js
+
+```js
+const Discord = require("discord.js")
+```
+2.02.2023   11:32   priv   727662119553728532   skrypt-na-infe    1070651588626104321    PAW#5844    438336824516149249   4.
+Tworzymy nowego klienta
+```js
+const client = new Discord.Client({
+  intents:  32767
+})
+```
+2.02.2023   11:35   priv   727662119553728532   skrypt-na-infe    1070651588626104321    PAW#5844    438336824516149249   5. Dodajemy funkcje, która mówi nam czy bot jest online
+
+```js
+client.once("ready", () =>{
+  console.log("Bot jest online ")
+})
+```
+2.02.2023   11:37   priv   727662119553728532   skrypt-na-infe    1070651588626104321    PAW#5844    438336824516149249   Cos
+2.02.2023   11:40   priv   727662119553728532   skrypt-na-infe    1070651588626104321    PAW#5844    438336824516149249   6. Dodajemy funkcję, która odbiera wiadomości z serwera i wyświetla je w konsoli
+
+```js
+client.on("messageCreate", async message => {
+  console.log(message.content)
+})
+```
+2.02.2023   11:42   priv   727662119553728532   skrypt-na-infe    1070651588626104321    PAW#5844    438336824516149249   7.Na koniec logujemy się do naszego bot
+
+```js
+client.login("TOKEN")
+```
+2.02.2023   11:48   priv   727662119553728532   ogólny    727662119553728535    PAW#5844    438336824516149249   Piątek dziesiątego wycieczka
+2.02.2023   12:36   priv   727662119553728532   ogólny    727662119553728535    PAW#5844    438336824516149249   Na chacie kartkówka z 2 wojny światowe
+2.02.2023   12:36   priv   727662119553728532   ogólny    727662119553728535    PAW#5844    438336824516149249   I jutro chyba kartka z matmy
+2.02.2023   13:46   priv   727662119553728532   bot    745768777022701648    PAW#5844    438336824516149249   $gpt wypisz 5 półwyspów miża bałtyckiego
+2.02.2023   13:47   priv   727662119553728532   bot    745768777022701648    PAW#5844    438336824516149249   $gpt wypisz 5 ciesnin morza baltyckiego
+2.02.2023   13:48   priv   727662119553728532   bot    745768777022701648    PAW#5844    438336824516149249   $gpt wypisz 5 głebi morza bałtyckiego
+2.02.2023   13:49   priv   727662119553728532   bot    745768777022701648    PAW#5844    438336824516149249   $gpt przedstaw rozkład zasolenia bałtyku
+2.02.2023   13:51   priv   727662119553728532   bot    745768777022701648    PAW#5844    438336824516149249   $gpt przyczyny takiego zasolenia baltyku
+2.02.2023   13:54   priv   727662119553728532   bot    745768777022701648    PAW#5844    438336824516149249   $gpt wymien przyczyny duzego zanieczyszczenia baltyku
+2.02.2023   18:50   priv   727662119553728532   historia-spr-2rp    1062470025518268426    PAW#5844    438336824516149249   jakiś traktar ||wersalski czy cos||
+Przewrót Majowy
+3.02.2023   07:32   priv   727662119553728532   historia-spr-2rp    1062470025518268426    PAW#5844    438336824516149249   2.pianista - Ignacy Jan Paderewski
+Minister zagraniczny - Roman Dmowski
+Armia błękitna - Józef Haller 
+Sanacja- Józef Piłsudski
+3.02.2023   07:35   priv   727662119553728532   historia-spr-2rp    1062470025518268426    PAW#5844    438336824516149249   Po chemi do pani kilewskiej do 108 zapytac czy mogę o 10:50 przyksz poprawic
+3.02.2023   07:50   priv   727662119553728532   historia-spr-2rp    1062470025518268426    PAW#5844    438336824516149249   Inkorporacja- plan zjednoczenia 2 RP przez przyłączenie tych ziem na których zdecydowanie dominuje ludność polska (propagowana przez R.Dmowskiego)
+3.02.2023   07:51   priv   727662119553728532   historia-spr-2rp    1062470025518268426    PAW#5844    438336824516149249   .
+
+10. Analfabetyzm, duża różnorodność kulturowa i religijna, słabo rozwinięty przemysł, inne przepisy prawa, systemy miar i wag oraz waluty
+3.02.2023   09:41   priv   727662119553728532   historia-spr-2rp    1062470025518268426    PAW#5844    438336824516149249   Inkorporacja- plan zjednoczenia 2 RP przez przyłączenie tych ziem na których zdecydowanie dominuje ludność polska (propagowana przez R.Dmowskiego)
+3.02.2023   09:42   priv   727662119553728532   historia-spr-2rp    1062470025518268426    PAW#5844    438336824516149249   Nowela sierpniowa - 2.08.1926 wprowadziła większe uprawnienia prezydenta: może wydawać rozporządzenia z mocą ustawy, rozwiązać parlament przed upływem jego kadencji
+3.02.2023   09:42   priv   727662119553728532   historia-spr-2rp    1062470025518268426    PAW#5844    438336824516149249   Ządanie Niemiec: 
+- przyłączenia Gdańska do rzeszy 
+- pozwolenie na budowę trasy eksterytorialnej do Prus wschodnich
+- przystąpienie do paktu antykominternowskiego
+3.02.2023   09:42   priv   727662119553728532   historia-spr-2rp    1062470025518268426    PAW#5844    438336824516149249   Plebiscyt-  głosowanie, wola ludności w sprawie przyłączenia spornego terytorium do któregoś z istniejących państw
+3.02.2023   09:59   priv   727662119553728532   bot    745768777022701648    PAW#5844    438336824516149249   $gpt jezeli x=8 y=14 to ile bedzie równy x jezeli y=5
+3.02.2023   10:12   priv   727662119553728532   historia-spr-2rp    1062470025518268426    PAW#5844    438336824516149249   Powstanie wielkopolskie – powstanie polskich mieszkańców Prowincji Poznańskiej przeciwko Republice Weimarskiej, toczące się na przełomie lat 1918–1919. Polacy domagali się powrotu ziem pozostających pod zaborem pruskim w obrębie Prowincji Poznańskiej do Polski, umacniającej już w tym czasie niepodległość.
+3.02.2023   19:28   priv   727662119553728532   ogólny    727662119553728535    PAW#5844    438336824516149249   
