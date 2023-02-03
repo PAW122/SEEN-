@@ -2,6 +2,14 @@ const config = require("./config")
 const play = require("./play")
 const Discord = require("discord.js")
 const owner = config.owner
+/*
+jak chess będzie skończone
+zrobić funkcję, która robi jak w make-avatar stronę internetową,
+na podstawie tabeli z pionkami rysuje szachownicę i pionki
+i wysyła ss na dc
+
+TODO: bicie w przelocie i roszadę
+*/
 module.exports = {
     name: "seen-chess",
 
@@ -18,7 +26,7 @@ module.exports = {
             .setFields(
                 {name: "$seen-chess play @user", value: "play 1 vs 1 with another player"},
                 {name: "$seen-chess leave", value: "leave from game"},
-                { name: "$seen-chess move <pos1> <pos2>"}
+                { name: "$seen-chess move <pos1> <pos2>", value: ".."}
             )
             return message.reply({embeds: [embed]})
         }

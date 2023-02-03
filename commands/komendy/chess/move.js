@@ -48,6 +48,14 @@ module.exports = {
     // sprawdzić czy ten ruch daje szacha albo mata przeciwnikowi
     // draw board
 
+    //todo przeskakiwanie o 2 pola pionkiem
+    //todo idk czy jest dodane sprawdzanie czy jest akórat kolejka gracza, który pisze komende move
+    //todo dodać żaby w db były zapisywane wysztkie ruchy z partii, żeby móc na podstawie tkoenu przeglądac chistorię ruchów w partii
+    //todo przypisywać tokeny partii do graczy (tokla partii zakończonych przez gra a nie komendą $leave)
+    //todo zrobić system rankingu
+    //todo zapisywać w jakiejś db daty z tkoenami i po okteślonej ilości czasu usówać chistorię partii, które są starsze niż np 6mieśięcy
+    
+
     const start = convertMove(args[1])
     const end = convertMove(args[2])
 
@@ -79,6 +87,12 @@ module.exports = {
     if (isMoveLegal(board, start, end) != true) {
       return message.reply("Ten ruch jest nielegalny")
     } else {
+
+      const piece = board[start[0]][start[1]]
+      if(isCaptureLegal(board, start,end, getPieceSymbol(piece)) != true) {
+        return message.reply("You cant attack your own pice")
+      }
+
       const fromRow = start[0];
       const fromCol = start[1];
       const toRow = end[0];
@@ -91,6 +105,36 @@ module.exports = {
 
     console.log("after move:")
     draw_board.execute(board, null, null, true)
+
+    //save move and data
+    const player_id = message.author.id
+    const player_data = await db.get(`${player_id}`)
+    const check = player_data.check
+    if (check != true) return console.error("check is undefind")
+    const token = player_data.token
+
+    let data = await game_db.get(`${token}`, board)
+
+    await game_db.set(`${token}.board`, board)
+
+    let moves = data.moves + 1
+    await game_db.set(`${token}.moves`, moves)
+
+    const p1 = data.player1
+    const p2 = data.player2
+
+    let next_move;
+    if (p1 == player_id) {
+      next_move = p2
+    } else if (p2 == player_data) {
+      next_move = p1
+    } else {
+      return console.error(`${p1} and ${p2} != ${player_id}`)
+    }
+
+    await game_db.set(`${token}.next_move`, next_move)
+
+    console.log("move.js board save")
 
   }
 }
@@ -127,6 +171,14 @@ async function game_data(player1) {
   }
 }
 
+function isCaptureLegal(board, start, end, color) {
+  const piece = board[start[0]][start[1]];
+  const targetPiece = board[end[0]][end[1]];
+
+  if (piece.color === targetPiece.color) return false;
+  return true;
+}
+
 //sprawdza tylko czy pionek nie wyszedł poza planszę
 function isMoveLegal_board(board, x1, y1, x2, y2) {
   if (x1 < 0 || x1 >= board.length || y1 < 0 || y1 >= board[0].length || x2 < 0 || x2 >= board.length || y2 < 0 || y2 >= board[0].length) {
@@ -143,6 +195,7 @@ function isMoveLegal_board(board, x1, y1, x2, y2) {
   }
   return true;
 }
+
 
 function isMoveLegal(board, from, to) {
   const fromRow = from[0];
@@ -328,7 +381,7 @@ function isUnderAttack(board, position, color) {
         symbol === getPieceSymbol(enemyColor, 'pawn') ||
         symbol === getPieceSymbol(enemyColor, 'rook') ||
         symbol === getPieceSymbol(enemyColor, 'queen') ||
-        (directions[i][0] === 1 || directions[i][0] === -1) &&  symbol === getPieceSymbol(enemyColor, 'bishop') ||
+        (directions[i][0] === 1 || directions[i][0] === -1) && symbol === getPieceSymbol(enemyColor, 'bishop') ||
         (directions[i][0] !== 0 && directions[i][1] !== 0) && (symbol === getPieceSymbol(enemyColor, 'queen') || symbol === getPieceSymbol(enemyColor, 'king'))
       ) {
         return true;

@@ -42,7 +42,7 @@ module.exports = {
 
             const token = await token_gen.execute()
             if (!token) {
-                console.log("err nie wygenerowano tokenu play.js 27")
+                console.error("err nie wygenerowano tokenu play.js")
                 return
             }
 
