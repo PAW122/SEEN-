@@ -155,7 +155,6 @@ module.exports = {
                     //{name: ``, value: ``}
                 )
                 //.setImage(`${card_image}`)
-                .setFooter(message.author.tag, message.author.avatarURL({ dynamic: true }));
             return message.channel.send({ embeds: [embed_pl] });
         }
 
