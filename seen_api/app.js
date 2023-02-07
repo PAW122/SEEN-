@@ -27,13 +27,15 @@ app.get("/api/seen/economy/:guildId/:userid/:read", (req, res) => {
         const userId = req.params.userid
         const read = req.params.read
 
+        const data = await db.get(`${userId}`);
+
         const db = new QuickDB({ filePath: `../db/economy/local_economy/${guildId}.sqlite` });
-        const coins = await db.get(`${userId}.coins`);
-        const items = await db.get(`${userId}.eq`)
-        const roll_usage = await db.get(`${userId}.roll_usage`)
-        const weekly = await db.get(`${userId}.weekly`)
-        const birthday = await db.get(`${userId}.birthday`)
-        const birthday_changes = await db.get(`${userId}.birthday_changes`)
+        const coins = data.coins
+        const items = data.eq
+        const roll_usage = data.roll_usage
+        const weekly = data.weekly
+        const birthday = data.birthday
+        const birthday_changes = data.birthday_changes
 
         /*
         res.send([
