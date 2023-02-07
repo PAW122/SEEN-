@@ -11,7 +11,7 @@ const { SlashCommandBuilder } = require('@discordjs/builders');
 const embed1 = new Discord.MessageEmbed()
 
     .setColor("BLUE")
-    .setTitle("Anime 1/7")
+    .setTitle("Anime 1/8")
     .setDescription("Moja lista obejrzanych anime:")
     .addFields(//inline-w embedzie zamiast po dobą będą obok siebie
         { name: "1", value: "Amnestia", inline: false },//info zrobione
@@ -39,7 +39,7 @@ const embed1 = new Discord.MessageEmbed()
 const embed2 = new Discord.MessageEmbed()
 
     .setColor("BLUE")
-    .setTitle("Anime 2/7")
+    .setTitle("Anime 2/8")
     .setDescription("Moja lista anime:")
     .addFields(//inline-w embedzie zamiast po dobą będą obok siebie
         { name: "21", value: " date a live", inline: false },
@@ -68,7 +68,7 @@ const embed2 = new Discord.MessageEmbed()
 const embed3 = new Discord.MessageEmbed()
 
     .setColor("BLUE")
-    .setTitle("Anime 3/7")
+    .setTitle("Anime 3/8")
     .setDescription("Moja lista anime:")
     .addFields(//inline-w embedzie zamiast po dobą będą obok siebie
         { name: "41", value: " Sukutte Moratte Ii desu ka", inline: false },
@@ -96,7 +96,7 @@ const embed3 = new Discord.MessageEmbed()
 const embed4 = new Discord.MessageEmbed()
 
     .setColor("BLUE")
-    .setTitle("Anime 4/7")
+    .setTitle("Anime 4/8")
     .setDescription("Moja lista anime:")
     .addFields(//inline-w embedzie zamiast po dobą będą obok siebie
         { name: "61", value: " To LOVE-Ru Darkness", inline: false },
@@ -124,7 +124,7 @@ const embed4 = new Discord.MessageEmbed()
 const embed5 = new Discord.MessageEmbed()
 
     .setColor("BLUE")
-    .setTitle("Anime 5/7")
+    .setTitle("Anime 5/8")
     .setDescription("Moja lista anime:")
     .addFields(//inline-w embedzie zamiast po dobą będą obok siebie
         { name: "81", value: " Kumo Desu ga, Nani ka?", inline: false },
@@ -152,7 +152,7 @@ const embed5 = new Discord.MessageEmbed()
 const embed6 = new Discord.MessageEmbed()
 
     .setColor("BLUE")
-    .setTitle("Anime 6/7")
+    .setTitle("Anime 6/8")
     .setDescription("Moja lista anime:")
     .addFields(//inline-w embedzie zamiast po dobą będą obok siebie
         { name: "101", value: " isekai cheat magician", inline: false },
@@ -180,7 +180,7 @@ const embed6 = new Discord.MessageEmbed()
 const embed7 = new Discord.MessageEmbed()
 
     .setColor("BLUE")
-    .setTitle("Anime 7/7")
+    .setTitle("Anime 7/8")
     .setDescription("Moja lista anime:")
     .addFields(//inline-w embedzie zamiast po dobą będą obok siebie
         { name: "121", value: " A.I.C.O", inline: false },
@@ -202,16 +202,46 @@ const embed7 = new Discord.MessageEmbed()
         { name: "136", value: " Darwin's Game", inline: false },
         { name: "137", value: " Wonder Egg Priority", inline: false },
         { name: "138", value: " 100-man no Inochi no Ue ni Ore wa Tatteiru", inline: false },
-        { name: "139", value: " Fruits Basket s1", inline: false },
+        { name: "139", value: " Fruits Basket s1", inline: false },//157
     )
 
-    const help_embed = new Discord.MessageEmbed()
+const embed8 = new Discord.MessageEmbed()
+    .setColor("BLUE")
+    .setTitle("Anime 8/8")
+    .setDescription("Moja lista anime:")
+    .addFields(//inline-w embedzie zamiast po dobą będą obok siebie
+        { name: "140", value: " Fate/Kaleid Liner Prisma Illya Zwei", inline: false },
+        { name: "141", value: " Fate/kaleid liner Prisma Illya 2wei Herz!", inline: false },
+        { name: "142", value: " Kanojo, Okarishimasu 2nd Season", inline: false },
+        { name: "143", value: " The Last Summoner", inline: false },
+        { name: "144", value: " sirius the jaeger", inline: false },
+        { name: "145", value: " Maou-sama, Retry!", inline: false },
+        { name: "146", value: " Hachi-nan tte, Sore wa Nai deshou ", inline: false },
+        { name: "147", value: " Magi: Sinbad no Bouken (TV)", inline: false },
+        { name: "148", value: " Kunoichi Tsubaki no Mune no Uchi", inline: false },
+        { name: "149", value: " Seirei Gensouki", inline: false },
+        { name: "150", value: " Youkoso Jitsuryoku Shijou Shugi no Kyoushitsu e ", inline: false },
+
+        { name: "150", value: " Isekai Yakkyoku", inline: false },
+        { name: "151", value: " [Max] Shinka no Mi - Shiranai Uchi ni Kachigumi Jinsei ", inline: false },
+        { name: "152", value: " Kuro no Shoukanshi", inline: false },
+        { name: "153", value: " Tensei Shitara Ken Deshita", inline: false },
+        { name: "154", value: " Gate: Jieitai Kanochi nite, Kaku Tatakaeri", inline: false },
+        { name: "155", value: " Bocchi the Rock!", inline: false },
+        { name: "156", value: " Yuusha Party o Tsuihou Sareta Beast Tamer, Saikyoushu no Nekomimi Shoujo to Deau", inline: false },
+        { name: "157", value: " Lycoris Recoil", inline: false },
+        { name: "158", value: " Toaru Kagaku no Railgun S (s2)", inline: false },
+        { name: "159", value: " One punch man", inline: false },
+        { name: "160", value: " Plastic Memories", inline: false }
+    )
+
+const help_embed = new Discord.MessageEmbed()
 
     .setColor(`RANDOM`)
     .setTitle(`animelist`)
     .setFields(
-        {name: "$animelist", value: "Sends a list of anime watched by bot creator"},
-        {name: "usage", value: "$sanimelist <page 1-7>"}
+        { name: "$animelist", value: "Sends a list of anime watched by bot creator" },
+        { name: "usage", value: "$sanimelist <page 1-7>" }
     )
 
 module.exports = {
@@ -232,13 +262,13 @@ module.exports = {
 
     executeInteraction: async (inter) => {
         //load server settings
-const guildId = inter.guild.id
-const db = new QuickDB({ filePath: process.cwd() + `/db/srv_settings/commands/${guildId}.sqlite` });
-if(await db.get(`check.check`) == true){
-    const settings = await db.get(`anime_help.worker`)
-    const settings_reason = await db.get(`anime_help.reason`)
-    if(settings != true){return message.channel.send(settings_reason)}
-}
+        const guildId = inter.guild.id
+        const db = new QuickDB({ filePath: process.cwd() + `/db/srv_settings/commands/${guildId}.sqlite` });
+        if (await db.get(`check.check`) == true) {
+            const settings = await db.get(`anime_help.worker`)
+            const settings_reason = await db.get(`anime_help.reason`)
+            if (settings != true) { return message.channel.send(settings_reason) }
+        }
 
         if (work != true) {
             const embed_worker = new Discord.MessageEmbed()
@@ -272,19 +302,22 @@ if(await db.get(`check.check`) == true){
             if (option == "7") {
                 inter.reply({ embeds: [embed7], ephemeral: true })
             }
+            if (option == "8") {
+                inter.reply({ embeds: [embed8] })
+            }
         }
     },
 
 
     execute: async (message, args) => {
-//load server settings
-const guildId = message.guild.id
-const db = new QuickDB({ filePath: process.cwd() + `/db/srv_settings/commands/${guildId}.sqlite` });
-if(await db.get(`check.check`) == true){
-    const settings = await db.get(`anime_help.worker`)
-    const settings_reason = await db.get(`anime_help.reason`)
-    if(settings != true){return message.channel.send(settings_reason)}
-}
+        //load server settings
+        const guildId = message.guild.id
+        const db = new QuickDB({ filePath: process.cwd() + `/db/srv_settings/commands/${guildId}.sqlite` });
+        if (await db.get(`check.check`) == true) {
+            const settings = await db.get(`anime_help.worker`)
+            const settings_reason = await db.get(`anime_help.reason`)
+            if (settings != true) { return message.channel.send(settings_reason) }
+        }
 
         if (work != true) { return message.channel.send(reason) }
 
@@ -300,9 +333,8 @@ if(await db.get(`check.check`) == true){
             usage: $anime -- send the entire anime list \n
             $anime <page_number> -- sends the given page from the anime list \n
             example: $animelist 5 \n
-            page range: 1-7`)
+            page range: 1-8`)
 
-                    .setFooter(message.author.tag, message.author.avatarURL({ dynamic: true }));
 
 
                 message.channel.send({ embeds: [embed_en] });
@@ -315,9 +347,8 @@ if(await db.get(`check.check`) == true){
             użycie: $anime -- wysyła całą liste anime\n
             $animelist <nr_storny> -- wysyła daną strone z listy anime\n
             przykład: $animelist 5\n
-            zakres stron: 1-7`)
+            zakres stron: 1-8`)
 
-                    .setFooter(message.author.tag, message.author.avatarURL({ dynamic: true }));
 
 
                 message.channel.send({ embeds: [embed_pl] });
@@ -338,7 +369,9 @@ if(await db.get(`check.check`) == true){
                                 message.channel.send({ embeds: [embed4] })).then(
                                     message.channel.send({ embeds: [embed5] })).then(
                                         message.channel.send({ embeds: [embed6] })).then(
-                                            message.channel.send({ embeds: [embed7] }))
+                                            message.channel.send({ embeds: [embed7] })).then(
+                                                message.channel.send({ embeds: [embed8] })
+                                            )
                     return
                 }
 
@@ -369,6 +402,10 @@ if(await db.get(`check.check`) == true){
                 }
                 if (args[0] == "7") {
                     message.channel.send({ embeds: [embed7] })
+                    return
+                }
+                if (args[0] == "8") {
+                    message.channel.send({ embeds: [embed8] })
                     return
                 }
             }
