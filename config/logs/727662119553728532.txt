@@ -11402,3 +11402,5 @@ Own somethink - posiadać coś
 Benefits - korzyści
 
 Apprenticeship - praktyka zawodowa/staż
+13.02.2023   23:26   priv   727662119553728532   bot    745768777022701648    PAW#5844    438336824516149249   c
+13.02.2023   23:37   priv   727662119553728532   bot    745768777022701648    PAW#5844    438336824516149249   $ping
