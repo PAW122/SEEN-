@@ -65,6 +65,8 @@ const informations_handler = require("./handlers/informations")
 //server channel stats
 const stats_channels_autorefresh = require("./commands/komendy/stats-channels/handler")
 
+const startApp = require('./seen_api/app');
+
 const help_handler = require("./handlers/help_handler")
 const runtime_handler = require("./handlers/runtime_handler")
 const banes_servers_link = require("./handlers/baned_servers_link")
@@ -135,6 +137,8 @@ client.once('ready', () => {
     runtime_handler.execute("ready", true)
     banes_servers_link(client)
     stats_carcher(client)
+    //api
+    startApp(2137, client);
 });
 
 
@@ -143,12 +147,12 @@ client.once('ready', () => {
 client.on('messageCreate', async message => {
 
     //bot nie przyjmuje wiadomości na pv
-    if(message.guild == null) return;
+    if (message.guild == null) return;
 
     //automod handler
     automod_handler(client, message)
 
-      //logi z serwerów
+    //logi z serwerów
     logs_handler(message, message.content, null, 2, message.guild.id, message.author.tag, message.channel.name, client)
 
 
@@ -171,7 +175,7 @@ client.on('messageCreate', async message => {
 });
 
 process.on('unhandledRejection', error => {
-	console.error('Unhandled promise rejection:', error);
+    console.error('Unhandled promise rejection:', error);
 });
 process.on('warning', console.warn);
 
