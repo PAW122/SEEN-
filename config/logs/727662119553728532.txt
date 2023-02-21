@@ -11458,3 +11458,19 @@ d) g(x)= (1/3) do potęgi x + 2
 19.02.2023   17:07   priv   727662119553728532   bot    745768777022701648    PAW#5844    438336824516149249   $ping
 21.02.2023   13:34   priv   727662119553728532   ogólny    727662119553728535    PAW#5844    438336824516149249   Zrobić tutorial lak dostać tego developer badge (na hostingu mojego bota)
 21.02.2023   14:23   priv   727662119553728532   bot    745768777022701648    PAW#5844    438336824516149249   
+21.02.2023   23:35   priv   727662119553728532   dc-bot    1020825985224020088    PAW#5844    438336824516149249   zedytować to tak żeby:
+1 client.on ready console logował link do strony głównej
+2 zrobić opcję żeby wylogować bota client.logout()
+3 zrobić opcję żeby po użyciu test_bot bot ulegał wylogowaniu, potem przelogowywał się na token testowy
+4 dodać console loga (z przyciskiem załaduj) bot ma zapisywać wszystkie logi z konsoli i wyświetlać ostatnie 100 linijek
+5 dodać do guilds status bot_configa i wszystkich tego typu pocji, z możliwością nadpisywania ich na stronie bota, tak samo dla ekonomi
+6 dodać możliwość załadowania przyciskiem ostatnich 100 wiadomości z kanału (jeżeli jest max miej an kanale załaduj wszystkie)
+7 dodaj mozliwość wykonywania czynności jako bot np wchodzę w guilds i mogę dodać userowi role (bot musi sprawdzić jakie role mogę dodać userowi
+8 dodać możliwość zmieniania wszytkich rzeczy z config.js
+9 dodać możliwość zmiany statusu aktywności bota (ready itp)
+10 dodać opcje zmiany opisu aktywności bota (playing cośtam)
+11 sprubowac postawić te stronę tak abym mógł wchodzić na nią zdalnie np po ip kompa
+12 dodać w tle jakiś obrazek, dać te szare obiekty na 50% przeżroczyste
+13 dodać logo bota i zrobić ładny interfejs
+14 zrobić rozwijane menu z tymi opcjami po lewej
+15 zrobić coś żeby wszytkie $report szły do db i były wczytywane na stronie i odpowiada się na nie na stronie bota
