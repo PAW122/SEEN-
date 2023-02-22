@@ -11474,3 +11474,5 @@ d) g(x)= (1/3) do potęgi x + 2
 13 dodać logo bota i zrobić ładny interfejs
 14 zrobić rozwijane menu z tymi opcjami po lewej
 15 zrobić coś żeby wszytkie $report szły do db i były wczytywane na stronie i odpowiada się na nie na stronie bota
+21.02.2023   23:52   priv   727662119553728532   dc-bot    1020825985224020088    PAW#5844    438336824516149249   !!zmienić chosting z liveserver na coś np express
+21.02.2023   23:52   priv   727662119553728532   bot    745768777022701648    PAW#5844    438336824516149249   $ping
