@@ -15,7 +15,6 @@ module.exports = (client) => {
 
 
     client.command = new Discord.Collection();
-    client.command_anime = new Discord.Collection();//komendy zanime zapowiedzi
     
     
     const komendyFolders = fs.readdirSync(__dirname +`/../commands/komendy`)//dla komend

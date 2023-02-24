@@ -139,6 +139,7 @@ client.once('ready', () => {
     stats_carcher(client)
     //api
     startApp(2137, client);
+    console.log("Bot webside: http://127.0.0.1:5500/admin_webside/index.html")
 });
 
 

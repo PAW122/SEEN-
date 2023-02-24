@@ -4,7 +4,8 @@
   "description": "",
   "main": "main.js",
   "scripts": {
-    "test": "ping"
+    "test": "ping",
+    "start": "node server.js && live-server"
   },
   "author": "PAW#5844",
   "license": "ISC",

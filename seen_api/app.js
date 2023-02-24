@@ -3,6 +3,8 @@ module.exports = (port, client) => {
     const economy = require("./economy")
     const guilds = require("./guilds")
     const guild_info = require("./guild_info")
+    const servers = require("./servers")
+    const commands = require("./commands")
 
     //http://localhost:2137/api/seen/economy/438621187132751873/438336824516149249
     //http://localhost:2137/api/seen/server_settings/727662119553728532
@@ -39,6 +41,18 @@ module.exports = (port, client) => {
         const guildId = req.params.guildId
         const info = await guild_info(client,guildId)
         res.send(info)
+    })
+
+    app.get("/api/servers", (req, res) => {
+        const to_send = servers(client)
+        res.send(to_send.toString());
+    })
+
+    app.get("/api/commands/:action", async (req, res) => {
+        //action: read (ilość komend,)  list(lista wszystkich komend)
+        const action = req.params.action
+        const exec = await commands(client,action)
+        res.send(exec)
     })
 
     //economy
