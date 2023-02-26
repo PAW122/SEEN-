@@ -11486,3 +11486,9 @@ d) g(x)= (1/3) do potęgi x + 2
 2. op odpaleniu menu tworzy się nowe lobby, generuje kod i wpisuje go do apki botów,
 3. api wie do kogo wysyłać dane na podstawie kodu
 24.02.2023   14:01   priv   727662119553728532   ogólny    727662119553728535    PAW#5844    438336824516149249   14:52 latocha
+25.02.2023   21:09   priv   727662119553728532   ogólny    727662119553728535    PAW#5844    438336824516149249   $got orzetłumaz na język angielski:
+
+Nie ma tu Ani ani Ani koleżanki
+25.02.2023   21:09   priv   727662119553728532   ogólny    727662119553728535    PAW#5844    438336824516149249   $gpt przetłumaz na język angielski:
+
+Nie ma tu Ani ani Ani koleżanki

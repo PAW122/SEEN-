@@ -39,13 +39,13 @@ module.exports = (client) => {
             tabela(command,file,table,name,name_en,nr_tabeli)
         }
     }
-    for (const folder of animeFolders) {//command handler dla anime
+    for (const folder of animeFolders) {
         const commandsFile = fs.readdirSync(__dirname +`/../commands/anime/${folder}`).filter(file => file.endsWith(".js"));
     
         for(const file of commandsFile) {
             const command = require(__dirname +`/../commands/anime/${folder}/${file}`);
-            client.command.set(command.name, command);//język polski
-            client.command.set(command.name_en, command);//język angielski
+            client.command.set(command.name, command);
+            client.command.set(command.name_en, command);
 
              
             //ascii
@@ -55,13 +55,13 @@ module.exports = (client) => {
             tabela(command,file,table,name,name_en,nr_tabeli)
         }
     }
-    for (const folder of animezapowiedziFolders) {//command handler dla anime zapowiedzi
+    for (const folder of animezapowiedziFolders) {
         const commandsFile = fs.readdirSync(__dirname +`/../commands/anime zapowiedz/${folder}`).filter(file => file.endsWith(".js"));
     
         for(const file of commandsFile) {
             const command = require(__dirname +`/../commands/anime zapowiedz/${folder}/${file}`);
-            client.command.set(command.name, command);//język polski
-            client.command.set(command.name_en, command);//język polski
+            client.command.set(command.name, command);
+            client.command.set(command.name_en, command);
 
              
             //ascii
