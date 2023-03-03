@@ -831,3 +831,10 @@
 30.11.2022   20:13   Enigmes   908102332934402079   logs   SEEN-#5771   
 30.11.2022   20:18   Enigmes   908102332934402079   logs   SEEN-#5771   
 30.11.2022   20:20   Enigmes   908102332934402079   logs   SEEN-#5771   
+28.02.2023   23:08   Enigmes   908102332934402079   ogólny-administracyjny    909821262447124480    _setarime_#5100    493848102135005234   [Site "Chess.com"]
+[Result "*"]
+1. d4 f5 2. f3 g5 3. e4 fxe4 4. fxe4 Bg7 5. e5 c6 6. Nf3 Nh6 7. Nxg5 Nf5 8. c3
+Ne3 9. Qd3 Bh6 10. Qxe3 e6 11. Qf3 Qe7 12. Qh5+ Kd8 13. Nf7+ Kc7 14. Nxh8 Qf8
+15. Nf7 Bxc1 16. Qxh7 Bxb2 17. Be2 Bxa1 18. Bg4 Bxc3+ 19. Nxc3 c5 20. dxc5 Qxc5
+21. Kd2 Qd4+ 22. Kc2 Qxg4 23. Qh8 Qxg2+ 24. Ne2 Qxe2+ 25. Kc3 Qf3+ 26. Kd4 Nc6+
+27. Kc5 Qxh1 28. a4 Qc1+ 29. Kb5 a6# *
