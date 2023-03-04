@@ -1,0 +1,32 @@
+#header {
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    height: calc(100vh - 100px);
+    /* wysokość okna minus marginesy */
+}
+
+#menu {
+    background-color: black;
+    color: white;
+    width: 200px;
+    padding: 10px;
+}
+
+#main {
+    flex: 1;
+    min-height: 800px;
+    padding: 10px;
+}
+
+#fotter {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    clear: both;
+}
