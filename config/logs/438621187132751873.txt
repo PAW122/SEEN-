@@ -26069,3 +26069,58 @@ dotknij trawy
 4.03.2023   00:52   Porg Comunuty   438621187132751873   『-💭-』general    438621187132751875    eg#9412    609058330543128576   XDDDD
 4.03.2023   00:52   Porg Comunuty   438621187132751873   『-💭-』general    438621187132751875    Krokiet#5726    692621246017568799   Lmao
 4.03.2023   00:57   Porg Comunuty   438621187132751873   『-💭-』general    438621187132751875    eg#9412    609058330543128576   bk
+5.03.2023   21:44   Porg Comunuty   438621187132751873   『-💭-』general    438621187132751875    eg#9412    609058330543128576   gra ktoś w to kurestwo
+5.03.2023   21:55   Porg Comunuty   438621187132751873   『-💭-』general    438621187132751875    Krokiet#5726    692621246017568799   ja
+6.03.2023   09:23   Porg Comunuty   438621187132751873   『-🤖-』botownia    741696299144839308    Rondel#2937    871104516928446514   $help
+6.03.2023   09:24   Porg Comunuty   438621187132751873   『-🤖-』botownia    741696299144839308    Rondel#2937    871104516928446514   $tic-tac-toe
+6.03.2023   09:24   Porg Comunuty   438621187132751873   『-🤖-』botownia    741696299144839308    Rondel#2937    871104516928446514   $tic-tac-toe help
+6.03.2023   09:24   Porg Comunuty   438621187132751873   『-🤖-』botownia    741696299144839308    Rondel#2937    871104516928446514   $tic-tac-toe start
+6.03.2023   09:24   Porg Comunuty   438621187132751873   『-🤖-』botownia    741696299144839308    Rondel#2937    871104516928446514   $tic-tac-toe 1
+6.03.2023   09:24   Porg Comunuty   438621187132751873   『-🤖-』botownia    741696299144839308    Rondel#2937    871104516928446514   $tic-tac-toe take 1
+6.03.2023   09:25   Porg Comunuty   438621187132751873   『-🤖-』botownia    741696299144839308    Rondel#2937    871104516928446514   $tic-tac-toe take 9
+6.03.2023   09:25   Porg Comunuty   438621187132751873   『-🤖-』botownia    741696299144839308    Rondel#2937    871104516928446514   $tic-tac-toe take 8
+6.03.2023   09:25   Porg Comunuty   438621187132751873   『-🤖-』botownia    741696299144839308    Rondel#2937    871104516928446514   $tic-tac-toe take 3
+6.03.2023   09:25   Porg Comunuty   438621187132751873   『-🤖-』botownia    741696299144839308    Rondel#2937    871104516928446514   $tic-tac-toe take 4
+6.03.2023   09:25   Porg Comunuty   438621187132751873   『-🤖-』botownia    741696299144839308    Rondel#2937    871104516928446514   $tic-tac-toe start
+6.03.2023   09:26   Porg Comunuty   438621187132751873   『-🤖-』botownia    741696299144839308    Rondel#2937    871104516928446514   $tic-tac-toe take 5
+6.03.2023   09:26   Porg Comunuty   438621187132751873   『-🤖-』botownia    741696299144839308    Rondel#2937    871104516928446514   $tic-tac-toe take 3
+6.03.2023   09:26   Porg Comunuty   438621187132751873   『-🤖-』botownia    741696299144839308    Rondel#2937    871104516928446514   $tic-tac-toe take 4
+6.03.2023   09:26   Porg Comunuty   438621187132751873   『-🤖-』botownia    741696299144839308    Rondel#2937    871104516928446514   $tic-tac-toe take 2
+6.03.2023   09:26   Porg Comunuty   438621187132751873   『-🤖-』botownia    741696299144839308    Rondel#2937    871104516928446514   $tic-tac-toe take 9
+6.03.2023   09:27   Porg Comunuty   438621187132751873   『-🤖-』botownia    741696299144839308    Rondel#2937    871104516928446514   $tic-tac-toe start
+6.03.2023   09:27   Porg Comunuty   438621187132751873   『-🤖-』botownia    741696299144839308    Rondel#2937    871104516928446514   $tic-tac-toe take 3
+6.03.2023   09:27   Porg Comunuty   438621187132751873   『-🤖-』botownia    741696299144839308    Rondel#2937    871104516928446514   $tic-tac-toe take 7
+6.03.2023   09:28   Porg Comunuty   438621187132751873   『-🤖-』botownia    741696299144839308    Rondel#2937    871104516928446514   $tic-tac-toe take 6
+6.03.2023   09:28   Porg Comunuty   438621187132751873   『-🤖-』botownia    741696299144839308    Rondel#2937    871104516928446514   $tic-tac-toe start
+6.03.2023   09:28   Porg Comunuty   438621187132751873   『-🤖-』botownia    741696299144839308    Rondel#2937    871104516928446514   $tic-tac-toe take 1
+6.03.2023   09:28   Porg Comunuty   438621187132751873   『-🤖-』botownia    741696299144839308    Rondel#2937    871104516928446514   $tic-tac-toe take 4
+6.03.2023   09:28   Porg Comunuty   438621187132751873   『-🤖-』botownia    741696299144839308    Rondel#2937    871104516928446514   $tic-tac-toe take 3
+6.03.2023   09:29   Porg Comunuty   438621187132751873   『-🤖-』botownia    741696299144839308    Rondel#2937    871104516928446514   $tic-tac-toe take 8
+6.03.2023   09:29   Porg Comunuty   438621187132751873   『-🤖-』botownia    741696299144839308    Rondel#2937    871104516928446514   $tic-tac-toe take 9
+6.03.2023   09:30   Porg Comunuty   438621187132751873   『-🤖-』botownia    741696299144839308    Rondel#2937    871104516928446514   $tic-tac-toe take 3
+6.03.2023   09:30   Porg Comunuty   438621187132751873   『-🤖-』botownia    741696299144839308    Rondel#2937    871104516928446514   $tic-tac-toe start
+6.03.2023   09:31   Porg Comunuty   438621187132751873   『-🤖-』botownia    741696299144839308    Rondel#2937    871104516928446514   $tic-tac-toe take 3
+6.03.2023   09:31   Porg Comunuty   438621187132751873   『-🤖-』botownia    741696299144839308    Rondel#2937    871104516928446514   $tic-tac-toe take 7
+6.03.2023   09:31   Porg Comunuty   438621187132751873   『-🤖-』botownia    741696299144839308    Rondel#2937    871104516928446514   $tic-tac-toe take 8
+6.03.2023   09:31   Porg Comunuty   438621187132751873   『-🤖-』botownia    741696299144839308    Rondel#2937    871104516928446514   $tic-tac-toe take 1
+6.03.2023   09:31   Porg Comunuty   438621187132751873   『-🤖-』botownia    741696299144839308    Rondel#2937    871104516928446514   $tic-tac-toe take 6
+6.03.2023   09:31   Porg Comunuty   438621187132751873   『-🤖-』botownia    741696299144839308    Rondel#2937    871104516928446514   $tic-tac-toe start
+6.03.2023   09:31   Porg Comunuty   438621187132751873   『-🤖-』botownia    741696299144839308    Rondel#2937    871104516928446514   $tic-tac-toe take 5
+6.03.2023   09:32   Porg Comunuty   438621187132751873   『-🤖-』botownia    741696299144839308    Rondel#2937    871104516928446514   $tic-tac-toe take 3
+6.03.2023   09:32   Porg Comunuty   438621187132751873   『-🤖-』botownia    741696299144839308    Rondel#2937    871104516928446514   $tic-tac-toe take 4
+6.03.2023   09:32   Porg Comunuty   438621187132751873   『-🤖-』botownia    741696299144839308    Rondel#2937    871104516928446514   $tic-tac-toe take 7
+6.03.2023   09:32   Porg Comunuty   438621187132751873   『-🤖-』botownia    741696299144839308    Rondel#2937    871104516928446514   $tic-tac-toe take 2
+6.03.2023   09:32   Porg Comunuty   438621187132751873   『-🤖-』botownia    741696299144839308    Rondel#2937    871104516928446514   $tic-tac-toe take 9
+6.03.2023   09:34   Porg Comunuty   438621187132751873   『-🤖-』botownia    741696299144839308    Rondel#2937    871104516928446514   $tic-tac-toe start
+6.03.2023   09:34   Porg Comunuty   438621187132751873   『-🤖-』botownia    741696299144839308    Rondel#2937    871104516928446514   $tic-tac-toe take 5
+6.03.2023   09:34   Porg Comunuty   438621187132751873   『-🤖-』botownia    741696299144839308    Rondel#2937    871104516928446514   $tic-tac-toe take 2
+6.03.2023   09:35   Porg Comunuty   438621187132751873   『-🤖-』botownia    741696299144839308    Rondel#2937    871104516928446514   $tic-tac-toe take 3
+6.03.2023   09:35   Porg Comunuty   438621187132751873   『-🤖-』botownia    741696299144839308    Rondel#2937    871104516928446514   $tic-tac-toe take 4
+6.03.2023   09:36   Porg Comunuty   438621187132751873   『-🤖-』botownia    741696299144839308    Rondel#2937    871104516928446514   $tic-tac-toe start
+6.03.2023   09:36   Porg Comunuty   438621187132751873   『-🤖-』botownia    741696299144839308    Rondel#2937    871104516928446514   $tic-tac-toe take 5
+6.03.2023   09:36   Porg Comunuty   438621187132751873   『-🤖-』botownia    741696299144839308    Rondel#2937    871104516928446514   $tic-tac-toe take 4
+6.03.2023   09:36   Porg Comunuty   438621187132751873   『-🤖-』botownia    741696299144839308    Rondel#2937    871104516928446514   $tic-tac-toe take 2
+6.03.2023   09:37   Porg Comunuty   438621187132751873   『-🤖-』botownia    741696299144839308    Rondel#2937    871104516928446514   $tic-tac-toe take 3
+6.03.2023   09:37   Porg Comunuty   438621187132751873   『-🤖-』botownia    741696299144839308    Rondel#2937    871104516928446514   $tic-tac-toe take 9
+6.03.2023   09:39   Porg Comunuty   438621187132751873   『-🤖-』botownia    741696299144839308    PAW#5844    438336824516149249   $chess help
+6.03.2023   09:40   Porg Comunuty   438621187132751873   『-🤖-』botownia    741696299144839308    PAW#5844    438336824516149249   $seen-chess help
