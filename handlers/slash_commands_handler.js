@@ -45,35 +45,6 @@ module.exports = (client, token, clientId) => {
     await client.handleCommands(slashCommands4, "rpg");
     await client.handleCommands(slashCommands5, "acc_menager_2");
 
-    //  console.log("start")
-    //   console.log(slashCommands1_0)
-    //   console.log(slashCommands1_1)
-    //   console.log(slashCommands1_2)
-    //   console.log(slashCommands1_3)
-    //   console.log(slashCommands1_4)
-    //   console.log(slashCommands1_5)
-    //   console.log(slashCommands1_6)//
-    //   console.log(slashCommands1_7)//
-    //   console.log(slashCommands1_8)//
-    //   console.log(slashCommands1_9)
-    //   console.log(slashCommands1_10)
-    //  console.log(slashCommands2)
-    //  console.log(slashCommands3)
-    //  console.log(slashCommands4)
-    //  console.log(slashCommands5)
-    //  console.log("koniec")
-
-    // console.log("loaded (/) commands " + [...slashCommands1_0,
-    // ...slashCommands1_1,
-    // ...slashCommands1_2,
-    // ...slashCommands1_3,
-    // ...slashCommands1_4,
-    // ...slashCommands1_5,
-    // ...slashCommands1_6,
-    // ...slashCommands1_7,
-    // ...slashCommands1_8,
-    // ...slashCommands1_9,
-    // ...slashCommands1_10])
 
     const rest = new REST({ version: '9' }).setToken(token);
     (async () => {

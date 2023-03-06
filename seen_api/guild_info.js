@@ -6,6 +6,7 @@ module.exports = (client, guildId) => {
         let guild_info = client.guilds.cache.get(guildId)
 
         let in_icon = false;
+        console.log(guild_info)
         if (guild_info.has_icon) {
             in_icon = true
         }

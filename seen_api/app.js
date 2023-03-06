@@ -5,6 +5,8 @@ module.exports = (port, client) => {
     const guild_info = require("./guild_info")
     const servers = require("./servers")
     const commands = require("./commands")
+    const channels = require("./channels")
+    const messages = require("./messages")
 
     //http://localhost:2137/api/seen/economy/438621187132751873/438336824516149249
     //http://localhost:2137/api/seen/server_settings/727662119553728532
@@ -42,6 +44,23 @@ module.exports = (port, client) => {
         const info = await guild_info(client,guildId)
         res.send(info)
     })
+
+    //zwraca wysztkie kanały na serweże
+    app.get("/api/guilds/channels/:guildId",async (req,res) => {
+        const guildId = req.params.guildId
+        const info = await channels(client,guildId)
+        res.send(info)
+    })
+
+    //messages
+    app.get("/api/guilds/messages/:guildId/:channelId/:message_limit",async (req,res) => {
+        const guildId = req.params.guildId
+        const channelId = req.params.channelId
+        const message_limit = req.params.message_limit
+        const info = await messages(client,guildId,channelId,message_limit)
+        res.send(info)
+    })
+
 
     app.get("/api/servers", (req, res) => {
         const to_send = servers(client)

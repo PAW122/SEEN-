@@ -9,48 +9,32 @@ if (mainContainer) {
 
 // Pobierz wartość zmiennej guild_id z URL-a
 const urlParams = new URLSearchParams(window.location.search);
-const guild_id = urlParams.get('guild_id');
-console.log(guild_id);
+const guild_data = urlParams.get('data');
 
 // Użyj wartości zmiennej guild_id do wykonania odpowiednich działań
-if (guild_id) {
+if (guild_data) {
     // Jeśli zmienna guild_id nie jest pusta, wykonaj odpowiednie akcje
-    console.log(`Guild ID: ${guild_id}`);
+    console.log(`data: ${guild_data}`);
 } else {
     // Jeśli zmienna guild_id jest pusta, poinformuj o tym w konsoli
-    console.error('Nie znaleziono wartości dla zmiennej guild_id w URL-u');
+    console.error('Nie znaleziono wartości dla zmiennej data w URL-u');
 }
-const dataKeys = [
-    'id',
-    'name',
-    'has_icon',
-    'members',
-    'channels',
-    'bans',
-    'roles',
-    'banner',
-    'description',
-    'verificationLevel',
-    'memberCount',
-    'premiumProgressBarEnabled',
-    'afkTimeout',
-    'afkChannelId',
-    'systemChannelId',
-    'premiumTier',
-    'joinedTimestamp',
-    'ownerId'
-];
 
 document.addEventListener("DOMContentLoaded", async function () {
     try {
-        const response = await axios.get(`http://localhost:2137/api/guilds/info/${guild_id}`);
+        const response = await axios.get(`http://localhost:2137/api/guilds/channels/${guild_data}`);
         console.log(response.data)
         console.log(`res= ${response.data}`)
         const data = response.data;
         let counter = 0; // deklaracja zmiennej licznika
         // loop through dataKeys array to create elements for each data key
-        dataKeys.forEach((key) => {
-            // create element for current key
+        data.forEach((channel) => {
+
+            const channel_name = channel.name
+            const type = channel.type
+            const id = channel.id
+
+            // create element
             const statusElement = document.createElement('div');
             statusElement.style.backgroundColor = counter % 2 === 0 ? 'gray' : 'darkgray'; // dodanie ciemniejszego tła co drugiemu elemntowi
             statusElement.style.color = 'white';
@@ -59,21 +43,33 @@ document.addEventListener("DOMContentLoaded", async function () {
             statusElement.style.alignItems = 'center';
             statusElement.style.justifyContent = 'space-between';
             const textElement = document.createElement('span');
-            textElement.textContent = `${key}:`;
+            textElement.textContent = `${channel_name}`;
             statusElement.appendChild(textElement);
 
-            // create button element for data
+            //type element
+            const typeElement = document.createElement('div');
+            typeElement.style.backgroundColor = counter % 2 === 0 ? 'gray' : 'darkgray'; // dodanie ciemniejszego tła co drugiemu elemntowi
+            typeElement.style.color = 'white';
+            typeElement.style.padding = '10px';
+            typeElement.style.display = 'flex';
+            typeElement.style.alignItems = 'center';
+            typeElement.style.justifyContent = 'space-between';
+            const type_textElement = document.createElement('span');
+            type_textElement.textContent = `${type}`;
+            statusElement.appendChild(type_textElement);
+
+            //button for element
             const buttonElement = document.createElement('button');
-            buttonElement.textContent = `${data[dataKeys.indexOf(key)]}`;
+            buttonElement.textContent = `${id}`;
             buttonElement.style.backgroundColor = 'white';
             buttonElement.style.color = 'black';
             buttonElement.style.border = 'none';
             buttonElement.style.cursor = 'pointer';
             statusElement.appendChild(buttonElement);
-            if (key == "channels") {
+            if (type == "GUILD_TEXT" || type == "GUILD_VOICE") {
 
                 buttonElement.addEventListener('click', () => {
-                    window.location.href = `../channels/index.html?data=${guild_id}`;
+                    window.location.href = `../messages/index.html?channelId=${id}&guildId=${guild_data}`;
                 });
             }
 
