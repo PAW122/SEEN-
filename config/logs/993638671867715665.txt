@@ -473,3 +473,4 @@ wszystko nie jest jeszcze na 100% dopracowane i steam zalogował się na inkogni
 4.03.2023   03:16   PAWIU discord bots   993638671867715665   spam    1013878333034987550    PAW#5844    438336824516149249   $help
 4.03.2023   03:16   PAWIU discord bots   993638671867715665   spam    1013878333034987550    PAW#5844    438336824516149249   $settings owner_alert help
 4.03.2023   03:16   PAWIU discord bots   993638671867715665   spam    1013878333034987550    PAW#5844    438336824516149249   $settings owner_alert off
+7.03.2023   22:20   PAWIU discord bots   993638671867715665   bot-reports    1006283491568267374    PAW#5844    438336824516149249   $response 1049374559670911047 dzięki

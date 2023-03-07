@@ -147,6 +147,8 @@ client.once('ready', () => {
 
 client.on('messageCreate', async message => {
 
+    console.log(message.content)
+
     //bot nie przyjmuje wiadomości na pv
     if (message.guild == null) return;
 
