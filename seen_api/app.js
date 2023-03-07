@@ -7,6 +7,7 @@ module.exports = (port, client) => {
     const commands = require("./commands")
     const channels = require("./channels")
     const messages = require("./messages")
+    const delete_message = require("./message_delete")
 
     //http://localhost:2137/api/seen/economy/438621187132751873/438336824516149249
     //http://localhost:2137/api/seen/server_settings/727662119553728532
@@ -58,6 +59,15 @@ module.exports = (port, client) => {
         const channelId = req.params.channelId
         const message_limit = req.params.message_limit
         const info = await messages(client,guildId,channelId,message_limit)
+        res.send(info)
+    })
+
+    //delete message
+    app.get("/api/guilds/del_messages/:guildId/:channelId/:messageId",async (req,res) => {
+        const guildId = req.params.guildId
+        const channelId = req.params.channelId
+        const messageId = req.params.messageId
+        const info = await delete_message(client,guildId,channelId,messageId)
         res.send(info)
     })
 

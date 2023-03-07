@@ -14,7 +14,6 @@ module.exports = async (client,guildID,channel,messages_limmit) => {
 
     let data = [];
 
-    console.log(`messages data= ${messages}`)
 
     messages.forEach(msg => {
 
@@ -24,13 +23,13 @@ module.exports = async (client,guildID,channel,messages_limmit) => {
         const author = msg[1].author
         const author_username = author.username + "#" + author.discriminator
         const author_id = author.id
+        const message_id = msg[1].id
 
         local_data.push(content)
         local_data.push(author)
         local_data.push(author_username)
         local_data.push(author_id)
-
-        console.log(`local data return = ${local_data}`)
+        local_data.push(message_id)
 
         data.push(local_data)
     })

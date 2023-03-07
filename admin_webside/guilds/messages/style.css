@@ -30,3 +30,22 @@
     padding: 10px;
     clear: both;
 }
+
+.notification {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    padding: 10px;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .notification.success {
+    background-color: green;
+  }
+  
+  .notification.error {
+    background-color: red;
+  }
+  

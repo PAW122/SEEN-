@@ -52,7 +52,7 @@ document.addEventListener("DOMContentLoaded", async function () {
             const user_name = message_info.username
             const user_tag = message_info.discriminator
 
-            const message_id = message[3]
+            const message_id = message[4]
 
             // user avatar
             const image = new Image();
@@ -95,13 +95,23 @@ document.addEventListener("DOMContentLoaded", async function () {
             buttonElement.style.color = 'black';
             buttonElement.style.border = 'none';
             buttonElement.style.cursor = 'pointer';
-            statusElement.appendChild(buttonElement);
-            // if (type == "GUILD_TEXT" || type == "GUILD_VOICE") {
 
-            //     buttonElement.addEventListener('click', () => {
-            //         window.location.href = `../messages/index.html?channelId=${id}&guildId=${guild_data}`;
-            //     });
-            // }
+            //button for element 2
+            const buttonElemen2 = document.createElement('button');
+            buttonElemen2.textContent = `delete messages`;
+            buttonElemen2.style.backgroundColor = 'white';
+            buttonElemen2.style.color = 'black';
+            buttonElemen2.style.border = 'none';
+            buttonElemen2.style.cursor = 'pointer';
+            buttonElemen2.style.marginTop = '5px';
+
+            const buttonsContainer = document.createElement('div');
+            buttonsContainer.style.display = 'flex';
+            buttonsContainer.style.flexDirection = 'column';
+            buttonsContainer.appendChild(buttonElement);
+            buttonsContainer.appendChild(buttonElemen2);
+
+            statusElement.appendChild(buttonsContainer);
 
             // add statusElement to mainContainer
             const mainContainer = document.getElementById('main');
@@ -110,7 +120,27 @@ document.addEventListener("DOMContentLoaded", async function () {
             } else {
                 console.error('Nie można znaleźć elementu o ID "main"');
             }
+            buttonElemen2.addEventListener('click', async () => {
+                const deleted = await axios.get(`http://localhost:2137/api/guilds/del_messages/${guildId}/${channelId}/${message_id}`);
+                console.log(deleted)
+                if (deleted) {
+                    showNotification('Wiadomość usunięta', 'success');
+                  } else {
+                    showNotification('Nie udało się usunąć wiadomości', 'error');
+                  }                  
+              });
             counter++; // zwiększenie wartości licznika
+
+            function showNotification(message, type) {
+                const notification = document.createElement('div');
+                notification.classList.add('notification', type);
+                notification.textContent = message;
+                document.body.appendChild(notification);
+                setTimeout(() => {
+                  notification.remove();
+                }, 5000);
+              }
+              
         });
     } catch (err) {
         console.log(err)
