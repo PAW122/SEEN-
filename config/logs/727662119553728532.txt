@@ -12025,3 +12025,45 @@ https://www.otomoto.pl/oferta/bmw-seria-3-bmw-e46-diesel-2-0-136km-ID6FiLNh.html
 6.03.2023   11:18   priv   727662119553728532   ogólny    727662119553728535    PAW#5844    438336824516149249   3000
 140km
 https://www.otomoto.pl/oferta/bmw-seria-3-bmw-e46-ID6Fkoe0.html
+6.03.2023   19:08   priv   727662119553728532   dc-bot    1020825985224020088    PAW#5844    438336824516149249   zrobić wczytywanie zdjęć/załączników wysyłanych w wiadomościach na admin_webside
+6.03.2023   19:09   priv   727662119553728532   dc-bot    1020825985224020088    PAW#5844    438336824516149249   .
+
+
+dodać drugi przycisk do usuwania wiadomości
+6.03.2023   19:10   priv   727662119553728532   dc-bot    1020825985224020088    PAW#5844    438336824516149249   .
+
+jezeli autorem wiadomości jest bot to dadać przycisk do edytowania wiadomości,
+ma się wyświetlić nowe okienko (takie nad kontentem z main) w którym będzie:
+orginalna wiadomosć,
+miejsce na wprowadzanie zedytowenego textu
+6.03.2023   19:11   priv   727662119553728532   dc-bot    1020825985224020088    PAW#5844    438336824516149249   .
+
+na admin_webside zrobić coś ala menadżer do seeh-hosting,
+miejsca na wpisywanie tokenu bota, nicku, ręczne załączanie wybranych komend z listy
+6.03.2023   19:18   priv   727662119553728532   dc-bot    1020825985224020088    PAW#5844    438336824516149249   .
+
+admin_webside
+dodać opcję włączenia darkmode, informacja ma się zapisywać w db i po włączeniu po następnym wejściu na stronę ma być deafultowo wyczytywane a db/api
+7.03.2023   02:14   priv   727662119553728532   dc-bot    1020825985224020088    PAW#5844    438336824516149249   1. podłączyć stronę internetową pi ip komputera (kod ma sam sprawdzić ip + dodać jakiś wolny port, wkleić to do linku i przesłać
+
+2. zrobić w skrócie tak aby dało się admin webside mieć dostęp zdalny, dodac formę loginu i chasła,
+po wjeściui na stronę zawsze jest sprawdzane czy dane ip jest zalogowane na kocie, jeżeli nie trezeba podać login i chasło, jeżeli tak to normalnie można korzystać.
+7.03.2023   02:20   priv   727662119553728532   dc-bot    1020825985224020088    PAW#5844    438336824516149249   .
+
+zrobić na admin_webside podstronę: monitor,
+ma wyświetlać konsolę (logi bota),
+za pomocą eval może wykonywac w konsoli polecenia usera,
+dodać statystyki użycia ramu, zegar z czasem działania,
+licznik z użyciami koemnd,
+7.03.2023   02:22   priv   727662119553728532   dc-bot    1020825985224020088    PAW#5844    438336824516149249   .
+
+zedytować stronę z wczytywaniem wiadomości z kanału.
+dodać na samej górze taki objekt/pasek
+gdzie można wpisywać text, on click wysyłać do api guilID,channelID,mentent żeby bot wysyłał wiadomości na kanale ze strony internetowej
+7.03.2023   02:23   priv   727662119553728532   dc-bot    1020825985224020088    PAW#5844    438336824516149249   .
+
+
+dodać na admin_webside opcje edytowania botowych ustawień serwera (np kanał do logów itd)
+7.03.2023   02:24   priv   727662119553728532   dc-bot    1020825985224020088    PAW#5844    438336824516149249   .
+
+dodać awatary serwerów na stronie z listą gildii
