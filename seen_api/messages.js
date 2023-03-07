@@ -34,7 +34,5 @@ module.exports = async (client,guildID,channel,messages_limmit) => {
 
         data.push(local_data)
     })
-    
-    console.log(`msg return data= ${data}`)
     return data;
 }
