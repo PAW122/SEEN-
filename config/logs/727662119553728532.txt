@@ -12067,3 +12067,15 @@ dodać na admin_webside opcje edytowania botowych ustawień serwera (np kanał d
 7.03.2023   02:24   priv   727662119553728532   dc-bot    1020825985224020088    PAW#5844    438336824516149249   .
 
 dodać awatary serwerów na stronie z listą gildii
+7.03.2023   11:31   priv   727662119553728532   ogólny    727662119553728535    PAW#5844    438336824516149249   Zapraszam na urodziny w sobotę 11.03 na godzinę 16:00. Adres:Rokitki ul.wiśniowa 4c / 10
+7.03.2023   12:14   priv   727662119553728532   dc-bot    1020825985224020088    PAW#5844    438336824516149249   .
+
+dodać w configu opcję:
+admin_webside login?
+jeżeli jest na true to urzytkownik musi sie zalogować na konto
+7.03.2023   12:16   priv   727662119553728532   dc-bot    1020825985224020088    PAW#5844    438336824516149249   .
+
+zapisywać odtatnie 10 owner alertów w db i wyświetlać na stronie internetowej
+7.03.2023   12:17   priv   727662119553728532   dc-bot    1020825985224020088    PAW#5844    438336824516149249   .
+
+zapisywać w db historię dołączania ludzi na stronę i pokazywać czy konto jest altem
