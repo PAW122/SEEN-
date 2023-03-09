@@ -143,11 +143,11 @@ client.once('ready', () => {
 });
 
 
-
+//test
+const dc_webside = require("discord-bot-client-webside")
+dc_webside(3000)
 
 client.on('messageCreate', async message => {
-
-    console.log(message.content)
 
     //bot nie przyjmuje wiadomości na pv
     if (message.guild == null) return;
