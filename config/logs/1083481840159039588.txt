@@ -14,3 +14,47 @@ Użytkownik podaje port na którym działa strona i clienta bota
 10.03.2023   11:30   SentiByte   1083481840159039588   ogólny    1083481841144709212    ŁANAŁ#2378    445974760669708289   
 10.03.2023   11:37   SentiByte   1083481840159039588   ogólny    1083481841144709212    ŁANAŁ#2378    445974760669708289   
 10.03.2023   12:15   SentiByte   1083481840159039588   ogólny    1083481841144709212    PAW#5844    438336824516149249   Jebać smukałe
+13.03.2023   19:14   SentiByte   1083481840159039588   general    1083483076950237275    PAW#5844    438336824516149249   tu masz link do repo:
+https://github.com/PAW122/Discord-Bot-Client
+
+i jak narazie możesz zacząć do (scr) zrobienia takiej głównej strony dc w tych plikach (strony bez serwerów ikonek itd) bo to będziemy dodawać w js
+
+na początek najlepiej by było zrobić stronę z przyciskiem zaloguj, nazwą paczki, jakimś odnośniekiem do repozytorium itd
+
+a potem trzeba można zacząć robić tło takiej strony main czyli jak masz dc to zrobić to całe tło bez ikonek, z pustym czatem, bez nazw kanałów itd same tło
+13.03.2023   19:15   SentiByte   1083481840159039588   general    1083483076950237275    PAW#5844    438336824516149249   a o jakiejś 22 zacznę robić api żeby można pobierać ikonki serwerów kanały itd
+13.03.2023   19:15   SentiByte   1083481840159039588   general    1083483076950237275    PAW#5844    438336824516149249   <@445974760669708289>
+13.03.2023   19:17   SentiByte   1083481840159039588   general    1083483076950237275    PAW#5844    438336824516149249   taką stronę główną w stylu dc 🙂
+
+a tu masz taki wstępny nie musi być tak jak na ss byle by ładnie wyglądało
+13.03.2023   19:20   SentiByte   1083481840159039588   general    1083483076950237275    PAW#5844    438336824516149249   Github Desktop
+13.03.2023   19:20   SentiByte   1083481840159039588   Github Desktop    1084903561265160242    PAW#5844    438336824516149249   1.
+13.03.2023   19:20   SentiByte   1083481840159039588   Github Desktop    1084903561265160242    PAW#5844    438336824516149249   2.
+13.03.2023   19:20   SentiByte   1083481840159039588   Github Desktop    1084903561265160242    PAW#5844    438336824516149249   3.Clone repozitory
+13.03.2023   19:21   SentiByte   1083481840159039588   Github Desktop    1084903561265160242    PAW#5844    438336824516149249   4.wyszukujesz repo, podajesz lokalizacje gdzie mają być pliki i zapisujesz
+13.03.2023   19:22   SentiByte   1083481840159039588   Github Desktop    1084903561265160242    PAW#5844    438336824516149249   potem jak coś zmieniesz w plikach to:
+dajesz tytuł i pois
+13.03.2023   19:23   SentiByte   1083481840159039588   Github Desktop    1084903561265160242    PAW#5844    438336824516149249   push origin -> przesyłasz zmiany
+13.03.2023   19:24   SentiByte   1083481840159039588   Github Desktop    1084903561265160242    PAW#5844    438336824516149249   żeby odświerzyć i pobrać zmiany zrobione przez kogoś innego klikasz i potem jeszcze raz w ten napis co się pojawi zamiast Fetch origin
+13.03.2023   19:34   SentiByte   1083481840159039588   testowanie-kodu    1084904731798929409    PAW#5844    438336824516149249   1.pobierasz node.js
+2.pobierasz prostego bota (np tego): https://github.com/PAW122/yt-tutorial/tree/odc-3
+3.w folderze z kodem Discord-Bot-Client otwierasz terminal (ss)
+i wpisujesz ```npm link```
+4.w folderze z botem otwierasz terminal i wpisujesz:
+```npm link discord-bot-client-webside```
+
+5.w index.js dodajesz 2 linijki kodu:
+(przykład na 2 ss)
+```js
+const dc_webside = require("discord-bot-client-webside")
+dc_webside(3000)```
+
+odpalasz bota wpisując w terminalu:  ```npm .```
+jeżeli wskoczy jakis błąd np module not found to będzie tam napisana nazwa modułu np **express**
+to wpisujesz **npm i express**
+jeżeli będzie brakowało discord.js to wpisz **npm i discord.js@13.9.2**
+
+jak będzie jakiś problem to pingoj
+14.03.2023   15:54   SentiByte   1083481840159039588   general    1083483076950237275    PAW#5844    438336824516149249   <@445974760669708289> żyjesz?
+14.03.2023   17:10   SentiByte   1083481840159039588   general    1083483076950237275    ŁANAŁ#2378    445974760669708289   Tak?
+14.03.2023   17:10   SentiByte   1083481840159039588   general    1083483076950237275    ŁANAŁ#2378    445974760669708289   A co?
