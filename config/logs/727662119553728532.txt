@@ -12226,3 +12226,58 @@ administrator morze wygenerować klucz i ma do niego kilka opcji:
 20.03.2023   17:26   priv   727662119553728532   bot    745768777022701648    PAW#5844    438336824516149249   $mechatronic
 20.03.2023   17:26   priv   727662119553728532   bot    745768777022701648    PAW#5844    438336824516149249   $mechatronic 1
 20.03.2023   17:26   priv   727662119553728532   bot    745768777022701648    PAW#5844    438336824516149249   $mechatronic 2
+20.03.2023   19:59   priv   727662119553728532   bot    745768777022701648    PAW#5844    438336824516149249   $gpt konsola:
+Server listening on port (port,client) => {
+    const express = require('express');
+    const app = express();
+
+    app.get('/', (req, res) => {
+      res.send('Hello World!');
+    });
+
+    app.listen(port, () => {
+      console.log(`Server listening on port ${port}`);
+      console.log(`http://localhost:${port}`)
+    });
+
+}
+http://localhost:(port,client) => {
+    const express = require('express');
+    const app = express();
+
+    app.get('/', (req, res) => {
+      res.send('Hello World!');
+    });
+
+    app.listen(port, () => {
+      console.log(`Server listening on port ${port}`);
+      console.log(`http://localhost:${port}`)
+    });
+
+}
+
+
+kod:
+// const main_web = require("./src/main/index.html")
+
+module.exports = (port,client) => {
+    const express = require('express');
+    const app = express();
+    
+    app.get('/', (req, res) => {
+      res.send('Hello World!');
+    });
+    
+    app.listen(port, () => {
+      console.log(`Server listening on port ${port}`);
+      console.log(`http://localhost:${port}`)
+    });
+    
+}
+
+wywołanie kodu:
+const dc_webside = require("discord-bot-client-webside")
+dc_webside(3000,client)
+
+
+dlaczego uruchomiony kod daje w konsoli kod zamiast portu "3000" wprowadzonego w main.js?

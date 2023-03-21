@@ -119,6 +119,7 @@ client.once('ready', () => {
     console.log(`${client.user.tag} jest online`);
     client.user.setStatus('ready');//działa po długim czasie 
     logs_handler(`${data} ${time} ${client.user.tag} jest online`, logs_dir, 1)
+    // console.log(client)
 
     //powitania
     generateImage(client)
@@ -140,12 +141,12 @@ client.once('ready', () => {
     //api
     startApp(2137, client);
     console.log("Bot webside: http://127.0.0.1:5500/admin_webside/index.html")
-});
 
-
-//test
+    //test
+//npm link discord-bot-client-webside
 const dc_webside = require("discord-bot-client-webside")
-dc_webside(3000)
+dc_webside(3000,client)
+});
 
 client.on('messageCreate', async message => {
 

@@ -58,3 +58,9 @@ jak będzie jakiś problem to pingoj
 14.03.2023   15:54   SentiByte   1083481840159039588   general    1083483076950237275    PAW#5844    438336824516149249   <@445974760669708289> żyjesz?
 14.03.2023   17:10   SentiByte   1083481840159039588   general    1083483076950237275    ŁANAŁ#2378    445974760669708289   Tak?
 14.03.2023   17:10   SentiByte   1083481840159039588   general    1083483076950237275    ŁANAŁ#2378    445974760669708289   A co?
+21.03.2023   01:09   SentiByte   1083481840159039588   discord-bot-client    1083483121581821993    PAW#5844    438336824516149249   co dalej jest do zrobienia?
+
+będę robił handlery z listami serwerów, kanałów itd
+
+dla <@445974760669708289> jak narazie masz zo zrobienia tło dla serwera czyli cały interfejs discorda bez tych elementów (ss)
+a potem będą w js wczytywane wszystkie elementy "klikalne" czyli serwery itd
