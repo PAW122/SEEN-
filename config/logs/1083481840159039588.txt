@@ -64,3 +64,4 @@ będę robił handlery z listami serwerów, kanałów itd
 
 dla <@445974760669708289> jak narazie masz zo zrobienia tło dla serwera czyli cały interfejs discorda bez tych elementów (ss)
 a potem będą w js wczytywane wszystkie elementy "klikalne" czyli serwery itd
+21.03.2023   10:52   SentiByte   1083481840159039588   discord-bot-client    1083483121581821993    PAW#5844    438336824516149249   
