@@ -142,7 +142,7 @@ client.once('ready', () => {
     startApp(2137, client);
     console.log("Bot api runing")
 
-    require("./admin_webside/app.js")(client)
+    //require("./admin_webside/app.js")(client)
 
         //test
 //npm link discord-bot-client-webside
