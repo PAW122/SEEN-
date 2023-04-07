@@ -146,9 +146,9 @@ client.once('ready', () => {
 
         //test
 //npm link discord-bot-client-webside
-const {DiscordBotClient} = require("discord-bot-client-webside")
-DiscordBotClient(3000,client)
-});
+// const {DiscordBotClient} = require("discord-bot-client-webside")
+// DiscordBotClient(3000,client)
+ });
 
 client.on('messageCreate', async message => {
 
