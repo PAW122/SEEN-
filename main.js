@@ -140,12 +140,14 @@ client.once('ready', () => {
     stats_carcher(client)
     //api
     startApp(2137, client);
-    console.log("Bot webside: http://127.0.0.1:5500/admin_webside/index.html")
+    console.log("Bot api runing")
 
-    //test
+    require("./admin_webside/app.js")(client)
+
+        //test
 //npm link discord-bot-client-webside
-const dc_webside = require("discord-bot-client-webside")
-dc_webside(3000,client)
+const {DiscordBotClient} = require("discord-bot-client-webside")
+DiscordBotClient(3000,client)
 });
 
 client.on('messageCreate', async message => {
@@ -202,4 +204,4 @@ client.on('warn', () => { console.log("error handler--warn") })
 client.on('error', console.error)
 //consola info
 consola.success('Built!')
-console.timeEnd();
+console.timeEnd()
