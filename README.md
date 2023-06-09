@@ -156,6 +156,9 @@ npm i js-queue
 
     }
 
+    173.api dla aplikacji gui w pythonie.
+    (do udostępniania zmiennych)
+
     dodać do tego top chanels(top kanał z wiadomościami, top kanał vc z ilością h)
 
     !!na lapku wywaliło error z lvling_handler.js: 75:69 undefind(reading:'send')
