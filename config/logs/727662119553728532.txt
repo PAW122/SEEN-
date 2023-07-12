@@ -12959,3 +12959,26 @@ https://www.pracuj.pl/praca/node-js-developer-gdynia-mikolaja-kopernika-54,ofert
 15.06.2023   00:10   priv   727662119553728532   bot    745768777022701648    pawiu_#0    438336824516149249   $help
 15.06.2023   00:10   priv   727662119553728532   bot    745768777022701648    pawiu_#0    438336824516149249   $daily
 15.06.2023   00:11   priv   727662119553728532   bot    745768777022701648    pawiu_#0    438336824516149249   $qr_gen XD
+23.06.2023   14:59   priv   727662119553728532   bot    745768777022701648    pawiu_#0    438336824516149249   $help
+23.06.2023   15:00   priv   727662119553728532   bot    745768777022701648    pawiu_#0    438336824516149249   $srvinfo
+23.06.2023   15:32   priv   727662119553728532   bot    745768777022701648    pawiu_#0    438336824516149249   $server
+23.06.2023   19:59   priv   727662119553728532   d    743098355558907924    pawiu_#0    438336824516149249   https://www.otomoto.pl/osobowe/oferta/bmw-seria-5-2-0-diesel-oszczedne-kombi-hak-ID6FzyGI.html
+23.06.2023   20:01   priv   727662119553728532   d    743098355558907924    pawiu_#0    438336824516149249   https://www.otomoto.pl/osobowe/oferta/audi-a4-turbo-benzyna-sprawny-okazja-ID6FBt8L.html
+23.06.2023   20:06   priv   727662119553728532   d    743098355558907924    pawiu_#0    438336824516149249   może:https://www.otomoto.pl/osobowe/oferta/citroen-c5-citroen-c5-cena-do-negocjacji-ID6FARTs.html
+23.06.2023   20:08   priv   727662119553728532   d    743098355558907924    pawiu_#0    438336824516149249   do spr:https://www.otomoto.pl/osobowe/oferta/volkswagen-passat-sprawny-w-100-niski-przebieg-ID6FyHjW.html
+23.06.2023   20:09   priv   727662119553728532   d    743098355558907924    pawiu_#0    438336824516149249   może :https://www.otomoto.pl/osobowe/oferta/bmw-seria-5-2-0-benzyna-gaz-ID6FAPJa.html
+23.06.2023   20:21   priv   727662119553728532   d    743098355558907924    pawiu_#0    438336824516149249   ciekawe: https://www.otomoto.pl/osobowe/oferta/bmw-seria-3-bmw-e46-320d-136km-1999r-ID6FBmCh.html
+23.06.2023   20:22   priv   727662119553728532   d    743098355558907924    pawiu_#0    438336824516149249   ciekawe: https://www.otomoto.pl/osobowe/oferta/audi-a4-audi-a4b6-1-9tdi-ID6FzIFG.html
+24.06.2023   02:31   priv   727662119553728532   d    743098355558907924    pawiu_#0    438336824516149249   ? :https://allegro.pl/ogloszenie/bmw-3-320-d-klima-klimatronic-alu-el-szyby-13757745318?bi_s=ads&bi_m=listing🖥️category&bi_c=MmYwZWVmZWItZDhmZC00NTlkLWEwNWYtMDAwZjg5YjlkZTg5AA&bi_t=ape&referrer=proxy&emission_unit_id=9f454072-f230-4bf4-ae62-1a412eeac5e7
+3.07.2023   17:32   priv   727662119553728532   ogólny    727662119553728535    pawiu_#0    438336824516149249   Zrobić w gierce podświetlanie bloków jeżeli myszką najedziemy na blok.
+
+Animcję niszczenia bloku zrobić
+
+Klasę eq, jeżeli eq.hand = np kilof
+Kilof = item_stats.kilof
+speed= kilof.speed
+Block_damage=kilod.blockdamag
+
+I tak co odpowiednią ilość animacji uderzenia zmieniać status niszczonego bloku.
+
+Szybkosc animacji uderzenia zalezy od kilof.speed

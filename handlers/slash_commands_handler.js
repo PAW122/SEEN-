@@ -52,12 +52,10 @@ module.exports = (client, token, clientId) => {
         console.log('Started refreshing application (/) commands.');
         for (let i = 0; i < client.guilds.cache.size; i++) {
           const guild = client.guilds.cache.at(i);
-          //console.log(client.commandArray)
           await new Promise(resolve => {
             rest.put(Routes.applicationGuildCommands(clientId, guild.id),
               { body: client.commandArray }).catch(e => {
                 if (e != "DiscordAPIError[50001]: Missing Access") console.log("slash command error" + e)
-                //console.log("err " + guild.name + " "+ e)
               }).then(() => {
                 resolve()
               })

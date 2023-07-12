@@ -72,17 +72,6 @@ const runtime_handler = require("./handlers/runtime_handler")
 const banes_servers_link = require("./handlers/baned_servers_link")
 const stats_carcher = require("./handlers/stats_handlers.js/catcher")
 
-/* dc js v13.9.2
-const client = new Discord.Client({
-    intents: [
-        Discord.Intents.FLAGS.GUILDS,
-        Discord.Intents.FLAGS.GUILD_MESSAGES,
-        Discord.Intents.FLAGS.GUILD_MESSAGE_REACTIONS,//reakcje emoji
-        Discord.Intents.FLAGS.GUILD_MEMBERS,//dołączanie ludzi
-        Discord.Intents.FLAGS.GUILD_VOICE_STATES
-    ]
-});
-*/
 const client = new Discord.Client({
     intents: 32767
 });
@@ -117,9 +106,9 @@ client.once('ready', () => {
     var d = new Date;
     data = d.toLocaleDateString();
     console.log(`${client.user.tag} jest online`);
-    client.user.setStatus('ready');//działa po długim czasie 
+    client.user.setStatus('ready');
     logs_handler(`${data} ${time} ${client.user.tag} jest online`, logs_dir, 1)
-    // console.log(client)
+    
 
     //powitania
     generateImage(client)
